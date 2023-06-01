@@ -927,3 +927,30 @@
 [2023-06-02 01:37:13] INFO root fetch - main [MainThread]: End processing [np-session]: success
 [2023-06-02 01:37:14] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
 [2023-06-02 01:37:14] INFO root fetch - main [MainThread]: Store serial: [18340858]
+[2023-06-02 01:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340858]
+[2023-06-02 01:42:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 01:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elevenlabs
+[2023-06-02 01:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-06-02 01:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setup-cfg-fmt
+[2023-06-02 01:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yapsygui
+[2023-06-02 01:42:23] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 01:42:23] INFO root fetch - processPackages [yapsygui]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-02 01:42:23] INFO root fetch - processPackages [setup-cfg-fmt]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-02 01:42:23] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/f3/5d/2ce5702d7b7c712654951ee18676f49689d82741898e366d73ec5521fec4/yapsygui-1.1.1-py3-none-any.whl
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8c/2c/04fcce48724c579543ff0c7543459205d599d00d34ec699499c5668bb27c/yetl-framework-1.4.2.tar.gz
+[2023-06-02 01:42:24] INFO root fetch - processPackages [setup-cfg-fmt]: Downloading https://files.pythonhosted.org/packages/37/eb/c51ed9c80c59b90a6b2666aaaddd3111b21e1efa1b1ac4397d86d6a3b881/setup_cfg_fmt-2.2.0.tar.gz
+[2023-06-02 01:42:24] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-06-02 01:42:24] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.8.tar.gz tmp/elevenlabs-0.2.9.tar.gz --markdown 20230602/e/elevenlabs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yapsygui]: executing diffoscope
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yapsygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapsygui-1.1.0-py3-none-any.whl.zip tmp/yapsygui-1.1.1-py3-none-any.whl.zip --markdown 20230602/y/yapsygui/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-02 01:42:24] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.1.tar.gz tmp/yetl-framework-1.4.2.tar.gz --markdown 20230602/y/yetl-framework/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-02 01:42:24] INFO root fetch - processPackages [setup-cfg-fmt]: Downloading https://files.pythonhosted.org/packages/80/48/71c607ab047895f76a200ddf6c2ecd1ecb4231aed3a127821c34b45748b3/setup_cfg_fmt-2.3.0.tar.gz
+[2023-06-02 01:42:24] INFO root fetch - processPackages [setup-cfg-fmt]: executing diffoscope
+[2023-06-02 01:42:24] INFO root fetch - processPackages [setup-cfg-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_cfg_fmt-2.2.0.tar.gz tmp/setup_cfg_fmt-2.3.0.tar.gz --markdown 20230602/s/setup-cfg-fmt/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-02 01:42:25] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-06-02 01:42:25] INFO root fetch - main [MainThread]: End processing [yapsygui]: success
+[2023-06-02 01:42:25] INFO root fetch - main [MainThread]: End processing [setup-cfg-fmt]: success
+[2023-06-02 01:42:25] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-02 01:42:25] INFO root fetch - main [MainThread]: Store serial: [18340870]
