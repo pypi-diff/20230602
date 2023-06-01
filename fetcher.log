@@ -862,3 +862,32 @@
 [2023-06-02 01:26:48] INFO root fetch - main [MainThread]: End processing [kBmc]: success
 [2023-06-02 01:26:52] INFO root fetch - main [MainThread]: End processing [inductor]: success
 [2023-06-02 01:26:52] INFO root fetch - main [MainThread]: Store serial: [18340817]
+[2023-06-02 01:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340817]
+[2023-06-02 01:32:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yapsygui
+[2023-06-02 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-secondary-unit
+[2023-06-02 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sublimepy
+[2023-06-02 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wasmstore
+[2023-06-02 01:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytheus
+[2023-06-02 01:32:01] INFO root fetch - processPackages [yapsygui]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-02 01:32:01] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: New version: [15.0.2.0.1] Old Version: [15.0.2.0.0.1]
+[2023-06-02 01:32:01] WARNING root fetch - processPackages [sublimepy]: Skipping, unable to determine old version
+[2023-06-02 01:32:01] INFO root fetch - main [MainThread]: End processing [sublimepy] error
+[2023-06-02 01:32:01] WARNING root fetch - processPackages [wasmstore]: Skipping, unable to determine old version
+[2023-06-02 01:32:01] INFO root fetch - main [MainThread]: End processing [wasmstore] error
+[2023-06-02 01:32:01] INFO root fetch - processPackages [pytheus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 01:32:01] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/b2/c9/4d574784ae9709f5f8b4bdf256eba0cf42426502ed82058cdbe5efdc4e34/yapsygui-1.1.0-py3-none-any.whl
+[2023-06-02 01:32:01] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/f6/e8/d470efa9a71ab56d11793b8d6df8380f12edbb4f243249db92e8936c7829/odoo_addon_product_secondary_unit-15.0.2.0.0.1-py3-none-any.whl
+[2023-06-02 01:32:01] INFO root fetch - processPackages [yapsygui]: executing diffoscope
+[2023-06-02 01:32:01] INFO root fetch - processPackages [yapsygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapsygui-1.0.3-py3-none-any.whl.zip tmp/yapsygui-1.1.0-py3-none-any.whl.zip --markdown 20230602/y/yapsygui/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 01:32:01] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/44/24/ddb8d3e3971c71fb37193e96548dd63417bd2d1fd9228d2d99a262621966/pytheus-0.0.8.tar.gz
+[2023-06-02 01:32:01] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/1c/79/cf06a6ab67e2414a01e19c48d9446523e91137f2de553d788755abd0c97b/odoo_addon_product_secondary_unit-15.0.2.0.1-py3-none-any.whl
+[2023-06-02 01:32:01] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: executing diffoscope
+[2023-06-02 01:32:01] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_secondary_unit-15.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_secondary_unit-15.0.2.0.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-product-secondary-unit/15.0.2.0.0.1-15.0.2.0.1/diff.md --exclude *.pyd
+[2023-06-02 01:32:01] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/81/91/2118822eee94be679af19c9fd9c9bfe2289d5eeb0f18883b2bfbdeeba393/pytheus-0.0.9.tar.gz
+[2023-06-02 01:32:01] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-06-02 01:32:01] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.0.8.tar.gz tmp/pytheus-0.0.9.tar.gz --markdown 20230602/p/pytheus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 01:32:02] INFO root fetch - main [MainThread]: End processing [yapsygui]: success
+[2023-06-02 01:32:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-secondary-unit]: success
+[2023-06-02 01:32:02] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-06-02 01:32:02] INFO root fetch - main [MainThread]: Store serial: [18340838]
