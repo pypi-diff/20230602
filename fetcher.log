@@ -109,3 +109,58 @@
 [2023-06-02 00:06:07] INFO root fetch - main [MainThread]: End processing [driftpy]: success
 [2023-06-02 00:06:07] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-06-02 00:06:07] INFO root fetch - main [MainThread]: Store serial: [18340380]
+[2023-06-02 00:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340380]
+[2023-06-02 00:11:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: april-vision
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlogging
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motion-python
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoscode
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-employee
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloud-volume
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-selve-new
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-02 00:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tigrisdb
+[2023-06-02 00:11:16] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [rlogging]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [pyoscode]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [tigrisdb]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [april-vision]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [python-selve-new]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [motion-python]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 00:11:16] INFO root fetch - processPackages [tigrisdb]: executing diffoscope
+[2023-06-02 00:11:16] INFO root fetch - processPackages [tigrisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigrisdb-1.0.0b3.tar.gz tmp/tigrisdb-1.0.0b4.tar.gz --markdown 20230602/t/tigrisdb/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-06-02 00:11:16] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-02 00:11:16] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.1.8.tar.gz tmp/python-selve-new-2.1.9.tar.gz --markdown 20230602/p/python-selve-new/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:11:16] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/7a/99/db15330f6e44e5dbe50318f6d5ee92c05cc5a526edd2387bf03c0030be20/django-ipghrms-employee-1.5.tar.gz
+[2023-06-02 00:11:16] INFO root fetch - processPackages [rlogging]: Downloading https://files.pythonhosted.org/packages/30/5a/3ad78c1fb33da27b70503f68b5a881db8708004caf935d406b3894e1896c/rlogging-1.1.8.tar.gz
+[2023-06-02 00:11:16] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/9f/4b/69f0b1c907e7c3641b850faec299bb89dd8ccb75b5c3a5936ec12a40b10c/motion_python-0.1.49.tar.gz
+[2023-06-02 00:11:16] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/0a/99/5192fc24d39fc1628ad7ee6208279f7e316e2ebcaa1064a7c3c4fa7d2428/april_vision-1.0.2.tar.gz
+[2023-06-02 00:11:16] INFO root fetch - processPackages [pyoscode]: Downloading https://files.pythonhosted.org/packages/6b/67/b00c03577bff52ce5ffa6d694887b76d09ee4d568198099eac9134a09a96/pyoscode-1.0.2.tar.gz
+[2023-06-02 00:11:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230602/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.4.tar.gz tmp/django-ipghrms-employee-1.5.tar.gz --markdown 20230602/d/django-ipghrms-employee/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.48.tar.gz tmp/motion_python-0.1.49.tar.gz --markdown 20230602/m/motion-python/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [rlogging]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [rlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlogging-1.1.7.tar.gz tmp/rlogging-1.1.8.tar.gz --markdown 20230602/r/rlogging/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [april-vision]: Downloading https://files.pythonhosted.org/packages/93/68/c5796ce65d808331d1447276ef4c6ad5feb9848f8d3c238010a56196ddd2/april_vision-2.0.0.tar.gz
+[2023-06-02 00:11:17] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20230602/c/cloud-volume/8.9.1-8.9.2/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [pyoscode]: Downloading https://files.pythonhosted.org/packages/e2/42/f6332be9032e13f9a58af52b56300d6eeb98a6d1a16fb8ba8afba22cacb3/pyoscode-1.1.2.tar.gz
+[2023-06-02 00:11:17] INFO root fetch - processPackages [april-vision]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [april-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/april_vision-1.0.2.tar.gz tmp/april_vision-2.0.0.tar.gz --markdown 20230602/a/april-vision/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 00:11:17] INFO root fetch - processPackages [pyoscode]: executing diffoscope
+[2023-06-02 00:11:17] INFO root fetch - processPackages [pyoscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoscode-1.0.2.tar.gz tmp/pyoscode-1.1.2.tar.gz --markdown 20230602/p/pyoscode/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-06-02 00:11:18] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-02 00:11:18] INFO root fetch - main [MainThread]: End processing [rlogging]: success
+[2023-06-02 00:11:18] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-02 00:11:19] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2023-06-02 00:11:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-02 00:11:19] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-02 00:11:20] INFO root fetch - main [MainThread]: End processing [april-vision]: success
+[2023-06-02 00:11:20] INFO root fetch - main [MainThread]: End processing [tigrisdb]: success
+[2023-06-02 00:11:21] INFO root fetch - main [MainThread]: End processing [pyoscode]: success
+[2023-06-02 00:11:21] INFO root fetch - main [MainThread]: Store serial: [18340409]
