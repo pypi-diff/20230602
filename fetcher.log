@@ -281,3 +281,45 @@
 [2023-06-02 00:21:48] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-06-02 00:21:49] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-06-02 00:21:49] INFO root fetch - main [MainThread]: Store serial: [18340465]
+[2023-06-02 00:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340465]
+[2023-06-02 00:26:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sagemaker
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udc
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solarwinds-apm
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubi
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-leave
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vector-vault
+[2023-06-02 00:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cwsearch-utils
+[2023-06-02 00:26:58] INFO root fetch - processPackages [udc]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [solarwinds-apm]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.7] Old Version: [1.6]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [rubi]: New version: [2.0.2b2] Old Version: [2.0.2b1]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [vector-vault]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-02 00:26:58] INFO root fetch - processPackages [udc]: Downloading https://files.pythonhosted.org/packages/32/69/f9520df01004ae2d1d11f7e959babe8fa0b0c267241bf680303334d290c4/udc-0.3.1.tar.gz
+[2023-06-02 00:26:58] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-02 00:26:58] INFO root fetch - processPackages [solarwinds-apm]: Downloading https://files.pythonhosted.org/packages/8b/f2/b9bd933a9c71f95af81d359b5e2dcbdb8a76b5539b69ac061eead49e67cd/solarwinds_apm-0.8.3.tar.gz
+[2023-06-02 00:26:58] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/0e/17/4f5905e2a8fcf0834c93314026bbd36b92a5bfdb0d9c66b4eca5387ecbeb/rubi-2.0.2b2.tar.gz
+[2023-06-02 00:26:58] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.6.tar.gz tmp/django-ipghrms-leave-1.7.tar.gz --markdown 20230602/d/django-ipghrms-leave/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-02 00:26:58] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230602/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:26:58] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/71/f2/dad5cac27df8dc0a0a2529d8e8aa8d0f469b87adff0da026e26a07605d88/vector_vault-1.6.6.tar.gz
+[2023-06-02 00:26:58] INFO root fetch - processPackages [udc]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [udc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udc-0.3.0.tar.gz tmp/udc-0.3.1.tar.gz --markdown 20230602/u/udc/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 00:26:58] WARNING root fetch - processPackages [solarwinds-apm]: Skipping package: exceeds size limit 25160000>=10485760
+[2023-06-02 00:26:58] INFO root fetch - main [MainThread]: End processing [solarwinds-apm] error
+[2023-06-02 00:26:58] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.5.tar.gz tmp/vector_vault-1.6.6.tar.gz --markdown 20230602/v/vector-vault/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-02 00:26:58] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.2b1.tar.gz tmp/rubi-2.0.2b2.tar.gz --markdown 20230602/r/rubi/2.0.2b1-2.0.2b2/diff.md --exclude *.pyd
+[2023-06-02 00:26:58] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-06-02 00:26:58] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230602/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-02 00:26:59] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-02 00:26:59] INFO root fetch - main [MainThread]: End processing [udc]: success
+[2023-06-02 00:26:59] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-02 00:27:01] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-06-02 00:27:01] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-02 00:27:02] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-06-02 00:27:02] INFO root fetch - main [MainThread]: Store serial: [18340493]
