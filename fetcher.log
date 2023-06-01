@@ -823,3 +823,42 @@
 [2023-06-02 01:21:37] INFO root fetch - main [MainThread]: End processing [gbd-mapping]: success
 [2023-06-02 01:21:37] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
 [2023-06-02 01:21:37] INFO root fetch - main [MainThread]: Store serial: [18340795]
+[2023-06-02 01:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340795]
+[2023-06-02 01:26:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-survey-crm-generation
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-view-inheritance-extension
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kBmc
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrobotdbc
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inductor
+[2023-06-02 01:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jianglab
+[2023-06-02 01:26:45] WARNING root fetch - processPackages [odoo-addon-survey-crm-generation]: Skipping, unable to determine old version
+[2023-06-02 01:26:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-crm-generation] error
+[2023-06-02 01:26:45] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-02 01:26:45] INFO root fetch - processPackages [inductor]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 01:26:45] INFO root fetch - processPackages [jianglab]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 01:26:45] INFO root fetch - processPackages [kBmc]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 01:26:45] INFO root fetch - processPackages [hydrobotdbc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 01:26:46] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/a7/03/5cfe2e51d3ebf573238f66639823a9a4e1cc07230c606fea15585753cabe/jianglab-0.3.0.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/fc/6a/b20d09ad036ab140fa4e5ed18ed4ce7e04bc532b109a093e2a7e451e8b84/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-02 01:26:46] INFO root fetch - processPackages [hydrobotdbc]: Downloading https://files.pythonhosted.org/packages/dd/2a/90c598e700ef017a121678dc5ff1d39c94043143e0e2715f4d398ce71799/hydrobotdbc-0.0.8.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/2b/de/249f78c2669bc02f7556068ddf04fbc11c896564b5727a852834f39241da/kBmc-2.1.8.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [inductor]: executing diffoscope
+[2023-06-02 01:26:46] INFO root fetch - processPackages [inductor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductor-0.2.8.tar.gz tmp/inductor-0.2.9.tar.gz --markdown 20230602/i/inductor/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 01:26:46] INFO root fetch - processPackages [hydrobotdbc]: Downloading https://files.pythonhosted.org/packages/cd/a8/5139811a0aed629b52887d9a9ae41994eb5ca08952a8b5e383c7f8b07451/hydrobotdbc-0.0.9.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/7d/a2/4714a2a027d01e0bbb1fa0ffd5ba4ed5bca211b92a56f709a7fe1de9418d/jianglab-0.3.1.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [hydrobotdbc]: executing diffoscope
+[2023-06-02 01:26:46] INFO root fetch - processPackages [hydrobotdbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrobotdbc-0.0.8.tar.gz tmp/hydrobotdbc-0.0.9.tar.gz --markdown 20230602/h/hydrobotdbc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 01:26:46] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-02 01:26:46] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.3.0.tar.gz tmp/jianglab-0.3.1.tar.gz --markdown 20230602/j/jianglab/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 01:26:46] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/11/f3/0b422206b6dbb38439c6c57ef395a0592b89154eb63300ef3e20097bda82/kBmc-2.1.9.tar.gz
+[2023-06-02 01:26:46] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/f6/8d/2ad009c24265c58a00875be7631af3150401d020aa49bfdfed58dec12618/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-02 01:26:46] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2023-06-02 01:26:46] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-base-view-inheritance-extension/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-02 01:26:47] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2023-06-02 01:26:47] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.1.8.tar.gz tmp/kBmc-2.1.9.tar.gz --markdown 20230602/k/kBmc/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 01:26:47] INFO root fetch - main [MainThread]: End processing [hydrobotdbc]: success
+[2023-06-02 01:26:47] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-02 01:26:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2023-06-02 01:26:48] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2023-06-02 01:26:52] INFO root fetch - main [MainThread]: End processing [inductor]: success
+[2023-06-02 01:26:52] INFO root fetch - main [MainThread]: Store serial: [18340817]
