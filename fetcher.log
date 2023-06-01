@@ -224,3 +224,60 @@
 [2023-06-02 00:16:33] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20230602/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
 [2023-06-02 00:16:35] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
 [2023-06-02 00:16:35] INFO root fetch - main [MainThread]: Store serial: [18340436]
+[2023-06-02 00:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340436]
+[2023-06-02 00:21:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Extractable
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyCapsid
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jianglab
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-view
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-leave
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ipghrms-leave
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-ipghrms-leave
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvxsimulator
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotON_sdk
+[2023-06-02 00:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnata-plugin-runtime
+[2023-06-02 00:21:44] INFO root fetch - processPackages [pyCapsid]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [Extractable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.19] Old Version: [0.0.5.18]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [jianglab]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [pydantic-view]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 00:21:44] WARNING root fetch - processPackages [omnata-plugin-runtime]: Skipping, unable to determine old version
+[2023-06-02 00:21:44] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime] error
+[2023-06-02 00:21:44] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/ed/5e/f965e0cef5ad74f684860d02472243104d86babcfe2123b01e40f49e12b1/Extractable-0.0.2.tar.gz
+[2023-06-02 00:21:44] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19540147>=10485760
+[2023-06-02 00:21:44] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-06-02 00:21:44] INFO root fetch - processPackages [cvxsimulator]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-02 00:21:44] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-06-02 00:21:44] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.18.tar.gz tmp/spotON_sdk-0.0.5.19.tar.gz --markdown 20230602/s/spotON_sdk/0.0.5.18-0.0.5.19/diff.md --exclude *.pyd
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/6f/6e/2df4e660e902a174cac98729d2edcae6cc880f392060ee2b3ac12a2b07fd/django-ipghrms-leave-1.5.tar.gz
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/6f/6e/2df4e660e902a174cac98729d2edcae6cc880f392060ee2b3ac12a2b07fd/django-ipghrms-leave-1.5.tar.gz
+[2023-06-02 00:21:44] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/6f/6e/2df4e660e902a174cac98729d2edcae6cc880f392060ee2b3ac12a2b07fd/django-ipghrms-leave-1.5.tar.gz
+[2023-06-02 00:21:44] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/c1/1c/4fc3c879fba1079c2795e6ff6ba76242060350414e330a09bd744dbe7373/pyCapsid-0.2.9.tar.gz
+[2023-06-02 00:21:45] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/ad/ce/386b7487b739758817117d5d381bb122d53cbf4747a7ac40fd35e80121fa/jianglab-0.2.9.tar.gz
+[2023-06-02 00:21:45] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 52527150>=10485760
+[2023-06-02 00:21:45] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-06-02 00:21:45] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.2.8.tar.gz tmp/jianglab-0.2.9.tar.gz --markdown 20230602/j/jianglab/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 00:21:45] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/22/ec/a2c9cb180d9e80e946f501d42aa82dc94791a6d667373b6ceec8e3e9a0bc/pydantic_view-0.2.3.tar.gz
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.5.tar.gz tmp/django-ipghrms-leave-1.6.tar.gz --markdown 20230602/d/django-ipghrms-leave/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.5.tar.gz tmp/django-ipghrms-leave-1.6.tar.gz --markdown 20230602/d/django-ipghrms-leave/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.5.tar.gz tmp/django-ipghrms-leave-1.6.tar.gz --markdown 20230602/d/django-ipghrms-leave/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 00:21:45] INFO root fetch - processPackages [pydantic-view]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/84/9e/235ffcee5937495724332230ff4838dd9c85878e338883188fc58d6d438e/cvxsimulator-0.4.1.tar.gz
+[2023-06-02 00:21:45] INFO root fetch - processPackages [pydantic-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_view-0.2.2.tar.gz tmp/pydantic_view-0.2.3.tar.gz --markdown 20230602/p/pydantic-view/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 00:21:45] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-06-02 00:21:45] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.4.0.tar.gz tmp/cvxsimulator-0.4.1.tar.gz --markdown 20230602/c/cvxsimulator/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-02 00:21:46] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-06-02 00:21:46] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-02 00:21:46] INFO root fetch - main [MainThread]: End processing [pydantic-view]: success
+[2023-06-02 00:21:46] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-06-02 00:21:48] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-02 00:21:48] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-02 00:21:49] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-02 00:21:49] INFO root fetch - main [MainThread]: Store serial: [18340465]
