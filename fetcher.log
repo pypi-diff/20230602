@@ -1,0 +1,58 @@
+[2023-06-02 00:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340326]
+[2023-06-02 00:00:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rlogging
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchainplus-sdk
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-sdk
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exceltopostgresql
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohomekit
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lchelper
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Extractable
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-launch
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxt
+[2023-06-02 00:00:43] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [exceltopostgresql]: New version: [0.2.3] Old Version: [0.0.9]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [lchelper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [Extractable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [simple-launch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [rlogging]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.0] Old Version: [2023.5.4]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-02 00:00:43] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/ed/5e/f965e0cef5ad74f684860d02472243104d86babcfe2123b01e40f49e12b1/Extractable-0.0.2.tar.gz
+[2023-06-02 00:00:43] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19540147>=10485760
+[2023-06-02 00:00:43] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-06-02 00:00:43] INFO root fetch - processPackages [exceltopostgresql]: Downloading https://files.pythonhosted.org/packages/0a/59/14429865de1e58bc0d01f261bddcf91a1c9d175bac539a29c7487cbc27ac/exceltopostgresql-0.0.9.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/26/27/01895f5fd4340699160076b1ace4bb734c3eba0b13254a345e34c5a462ac/steam-sdk-2023.5.4.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/ea/1d/0930fe505d3affeedfbd251c4c5b55ef2480ab58f40fac1a6ef4d20a0a3d/langchainplus_sdk-0.0.1rc4.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230602/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [lchelper]: Downloading https://files.pythonhosted.org/packages/e6/55/fd16931c0c9f0c841f8830f42628e64b5a97944fcc231d264e2bfd33312a/lchelper-0.0.4.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/40/66/5762a60b174454e0dd28dbe4e3824154b0da03345d9110a656673df08281/aiohomekit-2.6.3.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [simple-launch]: Downloading https://files.pythonhosted.org/packages/09/6f/fa4ad4a1c8b7432a5372a7fb5dfec6b6f192a81fef17138c92cbdf2c5c6c/simple_launch-0.1.1-py3-none-any.whl
+[2023-06-02 00:00:43] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.1rc3.tar.gz tmp/langchainplus_sdk-0.0.1rc4.tar.gz --markdown 20230602/l/langchainplus-sdk/0.0.1rc3-0.0.1rc4/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [lchelper]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [lchelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lchelper-0.0.3.tar.gz tmp/lchelper-0.0.4.tar.gz --markdown 20230602/l/lchelper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [simple-launch]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [simple-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_launch-0.1.0-py3-none-any.whl.zip tmp/simple_launch-0.1.1-py3-none-any.whl.zip --markdown 20230602/s/simple-launch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [rlogging]: Downloading https://files.pythonhosted.org/packages/3e/69/b58218dc8d11a621cd8175257f06e809da106225b7ff1fc245abf34e70e1/rlogging-1.1.6.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [exceltopostgresql]: Downloading https://files.pythonhosted.org/packages/6a/68/e5a5da5234a72a228738655d64ca5d324028d674547b19cc37b566f96384/exceltopostgresql-0.2.3.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/a1/71/1375e639a879a8144dcd8e9366a662e629ac97f6e5bbe9051e23699619b5/steam-sdk-2023.6.0.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [rlogging]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [rlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlogging-1.1.5.tar.gz tmp/rlogging-1.1.6.tar.gz --markdown 20230602/r/rlogging/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/a3/4b/44219c771b9abf86870682c8ca0b81e269d931b3edde04d3179c786ee851/aiohomekit-2.6.4.tar.gz
+[2023-06-02 00:00:43] INFO root fetch - processPackages [exceltopostgresql]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [exceltopostgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceltopostgresql-0.0.9.tar.gz tmp/exceltopostgresql-0.2.3.tar.gz --markdown 20230602/e/exceltopostgresql/0.0.9-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.5.4.tar.gz tmp/steam-sdk-2023.6.0.tar.gz --markdown 20230602/s/steam-sdk/2023.5.4-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 00:00:43] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-06-02 00:00:43] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.3.tar.gz tmp/aiohomekit-2.6.4.tar.gz --markdown 20230602/a/aiohomekit/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-02 00:00:45] INFO root fetch - main [MainThread]: End processing [lchelper]: success
+[2023-06-02 00:00:45] INFO root fetch - main [MainThread]: End processing [simple-launch]: success
+[2023-06-02 00:00:45] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-02 00:00:45] INFO root fetch - main [MainThread]: End processing [rlogging]: success
+[2023-06-02 00:00:46] INFO root fetch - main [MainThread]: End processing [exceltopostgresql]: success
+[2023-06-02 00:00:47] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-06-02 00:00:49] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-02 00:00:52] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-02 00:00:52] INFO root fetch - main [MainThread]: Store serial: [18340351]
