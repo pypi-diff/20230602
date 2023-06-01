@@ -465,3 +465,40 @@
 [2023-06-02 00:38:22] INFO root fetch - main [MainThread]: End processing [afscgap]: success
 [2023-06-02 00:38:23] INFO root fetch - main [MainThread]: End processing [mssql-django]: success
 [2023-06-02 00:38:23] INFO root fetch - main [MainThread]: Store serial: [18340563]
+[2023-06-02 00:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340563]
+[2023-06-02 00:43:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osint-python-test-bed-adapter
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ic50
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arize
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quransbuforuni
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sso-client
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sublimepy
+[2023-06-02 00:43:32] WARNING root fetch - processPackages [quransbuforuni]: Skipping, unable to determine old version
+[2023-06-02 00:43:32] INFO root fetch - main [MainThread]: End processing [quransbuforuni] error
+[2023-06-02 00:43:32] INFO root fetch - processPackages [arize]: New version: [7.0.3rc0] Old Version: [7.0.3]
+[2023-06-02 00:43:32] INFO root fetch - processPackages [osint-python-test-bed-adapter]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ic50]: New version: [0.0.99.3] Old Version: [0.0.99.2]
+[2023-06-02 00:43:32] WARNING root fetch - processPackages [sublimepy]: Skipping, unable to determine old version
+[2023-06-02 00:43:32] INFO root fetch - main [MainThread]: End processing [sublimepy] error
+[2023-06-02 00:43:32] WARNING root fetch - processPackages [django-sso-client]: Skipping, unable to determine old version
+[2023-06-02 00:43:32] INFO root fetch - main [MainThread]: End processing [django-sso-client] error
+[2023-06-02 00:43:32] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-02 00:43:32] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/3c/15/93c0afcf0d39d88e05d69e3ec85d13b4daa463fe6f2d3a4e3c18c3dc827e/arize-7.0.3.tar.gz
+[2023-06-02 00:43:32] INFO root fetch - processPackages [osint-python-test-bed-adapter]: Downloading https://files.pythonhosted.org/packages/b4/67/441093580e9341a1774e1a1773ca62789bfae552929c2d81edfdde3d18be/osint-python-test-bed-adapter-2.2.2.tar.gz
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ic50]: Downloading https://files.pythonhosted.org/packages/9c/70/bcb4a01c794053cf0662babeb9c02c1db36207cafe0070999eb3c803f4ac/ic50-0.0.99.3.tar.gz
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ic50]: executing diffoscope
+[2023-06-02 00:43:32] INFO root fetch - processPackages [ic50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ic50-0.0.99.2.tar.gz tmp/ic50-0.0.99.3.tar.gz --markdown 20230602/i/ic50/0.0.99.2-0.0.99.3/diff.md --exclude *.pyd
+[2023-06-02 00:43:32] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-02 00:43:32] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230602/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-02 00:43:32] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/0d/3f/9a82e91555188bab28b82db4bded369a741188239283f9f522b50fd36115/arize-7.0.3rc0.tar.gz
+[2023-06-02 00:43:32] INFO root fetch - processPackages [osint-python-test-bed-adapter]: Downloading https://files.pythonhosted.org/packages/01/3a/d6c4f3ac12bf4b65f26513606854d9ada88719014b540f23b0ef21e22c89/osint-python-test-bed-adapter-2.2.3.tar.gz
+[2023-06-02 00:43:33] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-06-02 00:43:33] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.3.tar.gz tmp/arize-7.0.3rc0.tar.gz --markdown 20230602/a/arize/7.0.3-7.0.3rc0/diff.md --exclude *.pyd
+[2023-06-02 00:43:33] INFO root fetch - processPackages [osint-python-test-bed-adapter]: executing diffoscope
+[2023-06-02 00:43:33] INFO root fetch - processPackages [osint-python-test-bed-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-python-test-bed-adapter-2.2.2.tar.gz tmp/osint-python-test-bed-adapter-2.2.3.tar.gz --markdown 20230602/o/osint-python-test-bed-adapter/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-02 00:43:33] INFO root fetch - main [MainThread]: End processing [ic50]: success
+[2023-06-02 00:43:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-02 00:43:34] INFO root fetch - main [MainThread]: End processing [osint-python-test-bed-adapter]: success
+[2023-06-02 00:43:34] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-06-02 00:43:34] INFO root fetch - main [MainThread]: Store serial: [18340604]
