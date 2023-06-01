@@ -1040,3 +1040,61 @@
 [2023-06-02 01:52:49] INFO root fetch - main [MainThread]: End processing [naludaq]: success
 [2023-06-02 01:52:52] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-02 01:52:52] INFO root fetch - main [MainThread]: Store serial: [18340913]
+[2023-06-02 01:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340913]
+[2023-06-02 01:58:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mezcla
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wfdsl
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpr
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowtask
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vector-vault
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typing-extensions
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-phal-plugin-reset
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jijzeptlab-client
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-config
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeah-websocket
+[2023-06-02 01:58:01] INFO root fetch - processPackages [flowtask]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [wfdsl]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [typing-extensions]: New version: [4.6.3] Old Version: [4.6.2]
+[2023-06-02 01:58:01] WARNING root fetch - processPackages [yeah-websocket]: Skipping, unable to determine old version
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a6] Old Version: [0.0.9a5]
+[2023-06-02 01:58:01] INFO root fetch - main [MainThread]: End processing [yeah-websocket] error
+[2023-06-02 01:58:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [mezcla]: New version: [1.3.7.post1] Old Version: [1.3.7]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.3.0b1] Old Version: [0.2.2]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [vector-vault]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-02 01:58:01] INFO root fetch - processPackages [wfdsl]: Downloading https://files.pythonhosted.org/packages/bd/0a/8479007116516b781c603a1d7af58f9f973d5bcae1cdcf0b4fea3e3e7436/wfdsl-0.2.4.tar.gz
+[2023-06-02 01:58:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/76/b2/1ee12e8013bb32d75235a85adf8dd99be22da5202b4b42ec1541222fa2e7/neon_phal_plugin_reset-0.1.1a4-py3-none-any.whl
+[2023-06-02 01:58:01] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/fc/d2/4e22319a14b499a067e6f6828992eabb210936fbfcd6cb3138b169953642/vector_vault-1.6.8.tar.gz
+[2023-06-02 01:58:01] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/42/56/cfaa7a5281734dadc842f3a22e50447c675a1c5a5b9f6ad8a07b467bffe7/typing_extensions-4.6.3.tar.gz
+[2023-06-02 01:58:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: executing diffoscope
+[2023-06-02 01:58:01] INFO root fetch - processPackages [neon-phal-plugin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_reset-0.1.1a3-py3-none-any.whl.zip tmp/neon_phal_plugin_reset-0.1.1a4-py3-none-any.whl.zip --markdown 20230602/n/neon-phal-plugin-reset/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-06-02 01:58:01] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.9a5.tar.gz tmp/ovos-config-0.0.9a6.tar.gz --markdown 20230602/o/ovos-config/0.0.9a5-0.0.9a6/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/ff/c6/b0aa61aef1cfe5ca2a0b18e25205c32af1e0de388558da0e4c9309f40929/mezcla-1.3.7.post1.tar.gz
+[2023-06-02 01:58:02] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/f/flowtask/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/7f/b8/1e8b6adddefe838cff7bf9786a9dab4a9e029853f0198273e75d01863e88/jijzeptlab_client-0.3.0b1-cp39-cp39-win_amd64.whl
+[2023-06-02 01:58:02] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230602/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.7.tar.gz tmp/vector_vault-1.6.8.tar.gz --markdown 20230602/v/vector-vault/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [wfdsl]: Downloading https://files.pythonhosted.org/packages/b1/1b/42c20b5cf63f7c05763595724f78120746a405c08f098dcab6515f1a8177/wfdsl-0.2.5.tar.gz
+[2023-06-02 01:58:02] INFO root fetch - processPackages [typing-extensions]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [typing-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_extensions-4.6.2.tar.gz tmp/typing_extensions-4.6.3.tar.gz --markdown 20230602/t/typing-extensions/4.6.2-4.6.3/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.2.2-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.3.0b1-cp39-cp39-win_amd64.whl.zip --markdown 20230602/j/jijzeptlab-client/0.2.2-0.3.0b1/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [wfdsl]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [wfdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfdsl-0.2.4.tar.gz tmp/wfdsl-0.2.5.tar.gz --markdown 20230602/w/wfdsl/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-02 01:58:02] INFO root fetch - processPackages [mezcla]: executing diffoscope
+[2023-06-02 01:58:02] INFO root fetch - processPackages [mezcla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mezcla-1.3.7.tar.gz tmp/mezcla-1.3.7.post1.tar.gz --markdown 20230602/m/mezcla/1.3.7-1.3.7.post1/diff.md --exclude *.pyd
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [typing-extensions]: success
+[2023-06-02 01:58:03] INFO root fetch - main [MainThread]: End processing [wfdsl]: success
+[2023-06-02 01:58:04] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-06-02 01:58:04] INFO root fetch - main [MainThread]: End processing [mezcla]: success
+[2023-06-02 01:58:04] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-02 01:58:04] INFO root fetch - main [MainThread]: Store serial: [18340976]
