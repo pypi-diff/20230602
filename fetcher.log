@@ -323,3 +323,61 @@
 [2023-06-02 00:27:01] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
 [2023-06-02 00:27:02] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-06-02 00:27:02] INFO root fetch - main [MainThread]: Store serial: [18340493]
+[2023-06-02 00:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340493]
+[2023-06-02 00:32:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lanarky
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sosin
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quranallsbu
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisper-clipboard
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolphin-python
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-selve-new
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polyclonal
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ic50
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cc.xboxcontroller
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: darkmark
+[2023-06-02 00:32:11] INFO root fetch - processPackages [sosin]: New version: [1.1.9] Old Version: [1.1.6]
+[2023-06-02 00:32:11] WARNING root fetch - processPackages [whisper-clipboard]: Skipping, unable to determine old version
+[2023-06-02 00:32:11] INFO root fetch - main [MainThread]: End processing [whisper-clipboard] error
+[2023-06-02 00:32:11] INFO root fetch - processPackages [lanarky]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-02 00:32:11] WARNING root fetch - processPackages [quranallsbu]: Skipping, unable to determine old version
+[2023-06-02 00:32:11] INFO root fetch - main [MainThread]: End processing [quranallsbu] error
+[2023-06-02 00:32:11] INFO root fetch - processPackages [dolphin-python]: New version: [0.0.7] Old Version: [0.0.6.9]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [polyclonal]: New version: [6.2] Old Version: [6.1]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [python-selve-new]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [cc.xboxcontroller]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ic50]: New version: [0.0.99.2] Old Version: [0.0.99.1]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [darkmark]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 00:32:11] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.1.8.tar.gz tmp/python-selve-new-2.1.9.tar.gz --markdown 20230602/p/python-selve-new/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ic50]: Downloading https://files.pythonhosted.org/packages/26/10/372110b922b4cb0f8cefbf09fb0b7dce5996218ba5025ed94833de9938f2/ic50-0.0.99.1.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [polyclonal]: Downloading https://files.pythonhosted.org/packages/3e/c8/c30d0fa3b17a30781507169e3597e60ffdac2152e4306fb01bd343f5a1a9/polyclonal-6.1.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [cc.xboxcontroller]: Downloading https://files.pythonhosted.org/packages/4e/78/9897fa68a0bd9164bbd058f9b2b6041b84e6078fb474806119e1d25e5781/cc.xboxcontroller-0.0.4.tar.gz
+[2023-06-02 00:32:11] WARNING root fetch - processPackages [polyclonal]: Skipping package: exceeds size limit 42057027>=10485760
+[2023-06-02 00:32:11] INFO root fetch - main [MainThread]: End processing [polyclonal] error
+[2023-06-02 00:32:11] INFO root fetch - processPackages [darkmark]: Downloading https://files.pythonhosted.org/packages/a8/cb/c4543bd90002e89c8cb7b0dfabf870e17b7cad064b1a08d7c676832ab660/darkmark-0.1.0.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/e6/6d/6d74bcdb0e7faa621b1a223fd3721c1f7859eed6d024b699253b9e817f10/sosin-1.1.9.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/2c/7b/e80dcd6520b8a520035db797e42e7691ab1ef41ef6cd82d40843ce53d0ce/lanarky-0.7.6.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [dolphin-python]: Downloading https://files.pythonhosted.org/packages/59/24/322f0164fea026bd21a53227160ca1fe4eba05ef427347012cd8551cf524/dolphin_python-0.0.7-py2.py3-none-any.whl
+[2023-06-02 00:32:11] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.1.6.tar.gz tmp/sosin-1.1.9.tar.gz --markdown 20230602/s/sosin/1.1.6-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.7.5.tar.gz tmp/lanarky-0.7.6.tar.gz --markdown 20230602/l/lanarky/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ic50]: Downloading https://files.pythonhosted.org/packages/aa/2c/97ea6b847025af09ed28743e39246e52227683199401180cd16165e91944/ic50-0.0.99.2.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [dolphin-python]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [dolphin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphin_python-0.0.6.9-py2.py3-none-any.whl.zip tmp/dolphin_python-0.0.7-py2.py3-none-any.whl.zip --markdown 20230602/d/dolphin-python/0.0.6.9-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [cc.xboxcontroller]: Downloading https://files.pythonhosted.org/packages/3b/79/6e03986f33e47390a356ce29353ab0784d4bc6c986429a0b64f8540f972d/cc.xboxcontroller-0.1.0.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [darkmark]: Downloading https://files.pythonhosted.org/packages/12/39/0d0d9123bf75f680384f760f1ac62807ab105642fff8c00117b4d20192ba/darkmark-0.2.0.tar.gz
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ic50]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [ic50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ic50-0.0.99.1.tar.gz tmp/ic50-0.0.99.2.tar.gz --markdown 20230602/i/ic50/0.0.99.1-0.0.99.2/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [cc.xboxcontroller]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [cc.xboxcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc.xboxcontroller-0.0.4.tar.gz tmp/cc.xboxcontroller-0.1.0.tar.gz --markdown 20230602/c/cc.xboxcontroller/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 00:32:11] INFO root fetch - processPackages [darkmark]: executing diffoscope
+[2023-06-02 00:32:11] INFO root fetch - processPackages [darkmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darkmark-0.1.0.tar.gz tmp/darkmark-0.2.0.tar.gz --markdown 20230602/d/darkmark/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 00:32:12] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-02 00:32:12] INFO root fetch - main [MainThread]: End processing [ic50]: success
+[2023-06-02 00:32:13] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-06-02 00:32:13] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-06-02 00:32:13] INFO root fetch - main [MainThread]: End processing [cc.xboxcontroller]: success
+[2023-06-02 00:32:13] INFO root fetch - main [MainThread]: End processing [darkmark]: success
+[2023-06-02 00:33:10] INFO root fetch - main [MainThread]: End processing [dolphin-python]: success
+[2023-06-02 00:33:10] INFO root fetch - main [MainThread]: Store serial: [18340528]
