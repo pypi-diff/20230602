@@ -696,3 +696,34 @@
 [2023-06-02 01:04:43] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-06-02 01:04:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-06-02 01:04:43] INFO root fetch - main [MainThread]: Store serial: [18340720]
+[2023-06-02 01:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340720]
+[2023-06-02 01:09:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-spotinst
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cwsearch-utils
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-cgap
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ploomes-api-client
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rubi
+[2023-06-02 01:09:51] INFO root fetch - processPackages [rubi]: New version: [2.0.2b4] Old Version: [2.0.2b3]
+[2023-06-02 01:09:51] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 01:09:51] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 01:09:51] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.5.2b3] Old Version: [3.4.4]
+[2023-06-02 01:09:51] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-02 01:09:51] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230602/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 01:09:51] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-06-02 01:09:51] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230602/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-06-02 01:09:51] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-06-02 01:09:51] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.2b3.tar.gz tmp/rubi-2.0.2b4.tar.gz --markdown 20230602/r/rubi/2.0.2b3-2.0.2b4/diff.md --exclude *.pyd
+[2023-06-02 01:09:51] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/c3/05/92da9ac6b79a85ef07c09d295745e369a1ff6e8f68f8736fc4e970d0b7af/foursight_cgap-3.4.4.tar.gz
+[2023-06-02 01:09:51] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/62/a8/e0ea5ef8ce0764fc5bedb94233fa72b112e5a1ee8178f6d2d3c952d2799a/ploomes-api-client-0.1.8.tar.gz
+[2023-06-02 01:09:52] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-06-02 01:09:52] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.7.tar.gz tmp/ploomes-api-client-0.1.8.tar.gz --markdown 20230602/p/ploomes-api-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 01:09:52] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/5b/c1/dc9174a81636b12d98a45a7c2fc2100685ea542d808875a8e5d5a3a94ab9/foursight_cgap-3.4.5.2b3.tar.gz
+[2023-06-02 01:09:52] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-02 01:09:52] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.4.tar.gz tmp/foursight_cgap-3.4.5.2b3.tar.gz --markdown 20230602/f/foursight-cgap/3.4.4-3.4.5.2b3/diff.md --exclude *.pyd
+[2023-06-02 01:09:52] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-02 01:09:53] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-06-02 01:09:53] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-06-02 01:10:49] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-06-02 01:10:49] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-02 01:10:49] INFO root fetch - main [MainThread]: Store serial: [18340733]
