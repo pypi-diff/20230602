@@ -638,3 +638,61 @@
 [2023-06-02 00:59:16] INFO root fetch - main [MainThread]: End processing [rubi]: success
 [2023-06-02 00:59:31] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-06-02 00:59:31] INFO root fetch - main [MainThread]: Store serial: [18340680]
+[2023-06-02 01:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340680]
+[2023-06-02 01:04:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ojitos369
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc.xboxcontroller
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-wildewidgets
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whisper-clipboard
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-website-sale-cart-expire
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jianglab
+[2023-06-02 01:04:40] INFO root fetch - processPackages [cc.xboxcontroller]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [django-wildewidgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ojitos369]: New version: [0.9] Old Version: [0.8]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230601] Old Version: [0.7.0b20230531]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.4]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [jianglab]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [whisper-clipboard]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [foursight]: New version: [3.4.7.2b3] Old Version: [3.4.7.2b2]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230601] Old Version: [0.7.0b20230531]
+[2023-06-02 01:04:40] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.2.8.tar.gz tmp/jianglab-0.2.9.tar.gz --markdown 20230602/j/jianglab/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ojitos369]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [ojitos369]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ojitos369-0.8.tar.gz tmp/ojitos369-0.9.tar.gz --markdown 20230602/o/ojitos369/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [cc.xboxcontroller]: Downloading https://files.pythonhosted.org/packages/a0/df/30ba1a37b669faedb8b2190a3258dd17218d3364ac77a904aacf6d95a009/cc.xboxcontroller-0.1.2.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/a5/5a/a5fbc57d55818be0c8d452f0b51de5fefcc295d25c7fd228ab58024ea4df/django-wildewidgets-0.9.0.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: Downloading https://files.pythonhosted.org/packages/14/8e/716f28cf0ffa70bd1bf50bba7876527585af5fdc4f3f4f8dc8982565d511/odoo_addon_website_sale_cart_expire-15.0.1.1.0.4-py3-none-any.whl
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/db/34/63ab6712d0c1c0972b128a40b4c8553bb514c284790ef729dccd7574b5ca/tmnt-0.7.0b20230531.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/26/9d/fad83480a4f1543a548e0a033cd17f4f9c591546267b31a65e9f6d4d77ab/foursight-3.4.7.2b3.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [whisper-clipboard]: Downloading https://files.pythonhosted.org/packages/9b/0d/63f298da3b868df8fe3efa5c54b0e188bafc2800ece87233c0d2b777424e/whisper-clipboard-0.1.2.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [cc.xboxcontroller]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [cc.xboxcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc.xboxcontroller-0.1.1.tar.gz tmp/cc.xboxcontroller-0.1.2.tar.gz --markdown 20230602/c/cc.xboxcontroller/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/f7/38/e04fd44e0157b83f2efc254757c1304a9ab22158c92e9aa1d617915c5bea/tmnt-cu101-0.7.0b20230601.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.7.2b2.tar.gz tmp/foursight-3.4.7.2b3.tar.gz --markdown 20230602/f/foursight/3.4.7.2b2-3.4.7.2b3/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [whisper-clipboard]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [whisper-clipboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-clipboard-0.1.1.tar.gz tmp/whisper-clipboard-0.1.2.tar.gz --markdown 20230602/w/whisper-clipboard/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230531.tar.gz tmp/tmnt-cu101-0.7.0b20230601.tar.gz --markdown 20230602/t/tmnt-cu101/0.7.0b20230531-0.7.0b20230601/diff.md --exclude *.pyd
+[2023-06-02 01:04:40] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fe/54/412ae97cb001d0e36f2c38082b315cdedb17958deae733012ee82fe2c872/tmnt-0.7.0b20230601.tar.gz
+[2023-06-02 01:04:40] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/0f/20/c9b0d1d9e96cc96b0fe08f0597b9d2356b376634ea87af28fa4517fdd92a/django-wildewidgets-0.9.1.tar.gz
+[2023-06-02 01:04:41] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: Downloading https://files.pythonhosted.org/packages/f5/62/80729db8bb60a2fd16d74467359023ed5b2b46f06889bc7e7de7dffee456/odoo_addon_website_sale_cart_expire-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-02 01:04:41] INFO root fetch - processPackages [django-wildewidgets]: executing diffoscope
+[2023-06-02 01:04:41] INFO root fetch - processPackages [django-wildewidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-wildewidgets-0.9.0.tar.gz tmp/django-wildewidgets-0.9.1.tar.gz --markdown 20230602/d/django-wildewidgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 01:04:41] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: executing diffoscope
+[2023-06-02 01:04:41] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_cart_expire-15.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_sale_cart_expire-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-website-sale-cart-expire/15.0.1.1.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-02 01:04:41] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-02 01:04:41] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230531.tar.gz tmp/tmnt-0.7.0b20230601.tar.gz --markdown 20230602/t/tmnt/0.7.0b20230531-0.7.0b20230601/diff.md --exclude *.pyd
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [ojitos369]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [cc.xboxcontroller]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [whisper-clipboard]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-cart-expire]: success
+[2023-06-02 01:04:42] INFO root fetch - main [MainThread]: End processing [django-wildewidgets]: success
+[2023-06-02 01:04:43] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-02 01:04:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-02 01:04:43] INFO root fetch - main [MainThread]: Store serial: [18340720]
