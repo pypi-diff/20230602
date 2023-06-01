@@ -56,3 +56,56 @@
 [2023-06-02 00:00:49] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
 [2023-06-02 00:00:52] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-02 00:00:52] INFO root fetch - main [MainThread]: Store serial: [18340351]
+[2023-06-02 00:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340351]
+[2023-06-02 00:06:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Extractable
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlogging
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oakvar
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wombo
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyotb
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twAuto
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: driftpy
+[2023-06-02 00:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threefive
+[2023-06-02 00:06:02] WARNING root fetch - processPackages [wombo]: Skipping, unable to determine old version
+[2023-06-02 00:06:02] INFO root fetch - main [MainThread]: End processing [wombo] error
+[2023-06-02 00:06:02] INFO root fetch - processPackages [pyotb]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [Extractable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [rlogging]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/ed/5e/f965e0cef5ad74f684860d02472243104d86babcfe2123b01e40f49e12b1/Extractable-0.0.2.tar.gz
+[2023-06-02 00:06:02] INFO root fetch - processPackages [threefive]: New version: [2.3.93] Old Version: [2.3.91]
+[2023-06-02 00:06:02] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19540147>=10485760
+[2023-06-02 00:06:02] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-06-02 00:06:02] INFO root fetch - processPackages [driftpy]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-06-02 00:06:02] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 00:06:02] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230602/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 00:06:02] INFO root fetch - processPackages [twAuto]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-02 00:06:03] INFO root fetch - processPackages [rlogging]: Downloading https://files.pythonhosted.org/packages/03/b2/69bbe25ff8e703d12b829d00b1168c28cd3bf6366bb63834ad45e649305e/rlogging-1.1.7.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/93/47/bc8521513e6cea6a926fc8ac5faf1d2e7b7a394521bce4d37fd5232620a5/threefive-2.3.91.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/91/fd/e7ddcd1f85c34c30da3999f72d972c5ed49090f1eb71ce726b2049c36fbb/driftpy-0.6.7.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [pyotb]: Downloading https://files.pythonhosted.org/packages/04/bc/8c4b397ba5526d6e6c5faf0bd8cf864501bf19ddeb271b34205263b82e92/pyotb-2.0.0.dev2.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [rlogging]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [rlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlogging-1.1.6.tar.gz tmp/rlogging-1.1.7.tar.gz --markdown 20230602/r/rlogging/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-02 00:06:03] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230602/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-06-02 00:06:03] INFO root fetch - processPackages [pyotb]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [pyotb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyotb-2.0.0.dev1.tar.gz tmp/pyotb-2.0.0.dev2.tar.gz --markdown 20230602/p/pyotb/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-06-02 00:06:03] INFO root fetch - processPackages [twAuto]: Downloading https://files.pythonhosted.org/packages/45/a0/c33f7ce02cacf3070dbe2b25209a2ef7fe8c59be4b832c719afaf3d13c87/twAuto-0.3.6.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/f1/83/dc21086678f0988adb1034b127b1fb37cd8f7294e7f336b6ef586d45d730/threefive-2.3.93.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [twAuto]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [twAuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twAuto-0.3.5.tar.gz tmp/twAuto-0.3.6.tar.gz --markdown 20230602/t/twAuto/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-02 00:06:03] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.3.91.tar.gz tmp/threefive-2.3.93.tar.gz --markdown 20230602/t/threefive/2.3.91-2.3.93/diff.md --exclude *.pyd
+[2023-06-02 00:06:03] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/5d/a0/f2dac9ef0af06f2c18253ef08cace46b6505503dd6a41c48de1f42b0ad99/driftpy-0.6.8.tar.gz
+[2023-06-02 00:06:03] INFO root fetch - processPackages [driftpy]: executing diffoscope
+[2023-06-02 00:06:03] INFO root fetch - processPackages [driftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driftpy-0.6.7.tar.gz tmp/driftpy-0.6.8.tar.gz --markdown 20230602/d/driftpy/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-06-02 00:06:04] INFO root fetch - main [MainThread]: End processing [rlogging]: success
+[2023-06-02 00:06:04] INFO root fetch - main [MainThread]: End processing [twAuto]: success
+[2023-06-02 00:06:04] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2023-06-02 00:06:04] INFO root fetch - main [MainThread]: End processing [pyotb]: success
+[2023-06-02 00:06:05] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 00:06:07] INFO root fetch - main [MainThread]: End processing [driftpy]: success
+[2023-06-02 00:06:07] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-06-02 00:06:07] INFO root fetch - main [MainThread]: Store serial: [18340380]
