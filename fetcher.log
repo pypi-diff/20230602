@@ -558,3 +558,18 @@
 [2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
 [2023-06-02 00:48:53] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2023-06-02 00:48:53] INFO root fetch - main [MainThread]: Store serial: [18340643]
+[2023-06-02 00:53:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340643]
+[2023-06-02 00:54:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-02 00:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selve-new
+[2023-06-02 00:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traker
+[2023-06-02 00:54:02] INFO root fetch - processPackages [traker]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-02 00:54:02] INFO root fetch - processPackages [python-selve-new]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 00:54:02] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-02 00:54:02] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.1.8.tar.gz tmp/python-selve-new-2.1.9.tar.gz --markdown 20230602/p/python-selve-new/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:54:02] INFO root fetch - processPackages [traker]: Downloading https://files.pythonhosted.org/packages/50/d2/673d8d717e5ca00ab63fa43904b52e06aa1018b9ccb05e51f5d1304cfccf/traker-0.1.3.tar.gz
+[2023-06-02 00:54:03] INFO root fetch - processPackages [traker]: Downloading https://files.pythonhosted.org/packages/54/76/f73bc5e9eea5a038f6add0491b0eaa7af8db1d5496ab95fbd1948ec1a1a8/traker-0.2.0.tar.gz
+[2023-06-02 00:54:03] INFO root fetch - processPackages [traker]: executing diffoscope
+[2023-06-02 00:54:03] INFO root fetch - processPackages [traker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traker-0.1.3.tar.gz tmp/traker-0.2.0.tar.gz --markdown 20230602/t/traker/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 00:54:04] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-02 00:54:04] INFO root fetch - main [MainThread]: End processing [traker]: success
+[2023-06-02 00:54:04] INFO root fetch - main [MainThread]: Store serial: [18340647]
