@@ -773,3 +773,53 @@
 [2023-06-02 01:16:03] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
 [2023-06-02 01:16:17] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
 [2023-06-02 01:16:17] INFO root fetch - main [MainThread]: Store serial: [18340758]
+[2023-06-02 01:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340758]
+[2023-06-02 01:21:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-pcf8591
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boris-behav-obs
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thibaultlebrun-ralph-malph
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-coupon-promotion-generate-coupon
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-coupon-promotion-generate-coupon
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sublimepy
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdpcli-beta
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idem-helm
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whisper-clipboard
+[2023-06-02 01:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gbd-mapping
+[2023-06-02 01:21:33] WARNING root fetch - processPackages [odoo-addon-sale-coupon-promotion-generate-coupon]: Skipping, unable to determine old version
+[2023-06-02 01:21:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-coupon-promotion-generate-coupon] error
+[2023-06-02 01:21:33] INFO root fetch - processPackages [cdpcli-beta]: New version: [0.9.88] Old Version: [0.9.87]
+[2023-06-02 01:21:33] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 01:21:33] WARNING root fetch - processPackages [thibaultlebrun-ralph-malph]: Skipping, unable to determine old version
+[2023-06-02 01:21:33] INFO root fetch - main [MainThread]: End processing [thibaultlebrun-ralph-malph] error
+[2023-06-02 01:21:33] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-06-02 01:21:34] WARNING root fetch - processPackages [odoo-addon-coupon-promotion-generate-coupon]: Skipping, unable to determine old version
+[2023-06-02 01:21:34] INFO root fetch - processPackages [idem-helm]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-02 01:21:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-coupon-promotion-generate-coupon] error
+[2023-06-02 01:21:34] INFO root fetch - processPackages [gbd-mapping]: New version: [3.1.0] Old Version: [3.0.6]
+[2023-06-02 01:21:34] WARNING root fetch - processPackages [sublimepy]: Skipping, unable to determine old version
+[2023-06-02 01:21:34] INFO root fetch - processPackages [whisper-clipboard]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 01:21:34] INFO root fetch - main [MainThread]: End processing [sublimepy] error
+[2023-06-02 01:21:34] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230602/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-06-02 01:21:34] INFO root fetch - processPackages [whisper-clipboard]: Downloading https://files.pythonhosted.org/packages/f6/0b/bc73ec213b519e541063532aaf783a98d184054d7c7f5edcf26e309da557/whisper-clipboard-0.1.3.tar.gz
+[2023-06-02 01:21:34] INFO root fetch - processPackages [gbd-mapping]: Downloading https://files.pythonhosted.org/packages/b0/b0/6cc2de79930ff24685e0ac420bdf35c776d98789958fb5dad7be57ff0fea/gbd_mapping-3.0.6.tar.gz
+[2023-06-02 01:21:34] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pcf8591-1.0.8.tar.gz tmp/adafruit-circuitpython-pcf8591-1.0.9.tar.gz --markdown 20230602/a/adafruit-circuitpython-pcf8591/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 01:21:34] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/0e/34/c1454881ca947b14ba04c3b7bcd137439a2bd456fb712960667b19a94ffe/cdpcli-beta-0.9.88.tar.gz
+[2023-06-02 01:21:34] INFO root fetch - processPackages [idem-helm]: Downloading https://files.pythonhosted.org/packages/3c/21/1ede1d70084bd228b07ac948b19d32b761302fb06c9b99726b4bca757c52/idem-helm-0.4.0.tar.gz
+[2023-06-02 01:21:34] INFO root fetch - processPackages [whisper-clipboard]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [whisper-clipboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-clipboard-0.1.2.tar.gz tmp/whisper-clipboard-0.1.3.tar.gz --markdown 20230602/w/whisper-clipboard/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 01:21:34] INFO root fetch - processPackages [cdpcli-beta]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [cdpcli-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-beta-0.9.87.tar.gz tmp/cdpcli-beta-0.9.88.tar.gz --markdown 20230602/c/cdpcli-beta/0.9.87-0.9.88/diff.md --exclude *.pyd
+[2023-06-02 01:21:34] INFO root fetch - processPackages [gbd-mapping]: Downloading https://files.pythonhosted.org/packages/3e/aa/d4035480da50bb33b57c002663358158e86f52325a31fd62f9ff91a009a3/gbd_mapping-3.1.0.tar.gz
+[2023-06-02 01:21:34] INFO root fetch - processPackages [idem-helm]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [idem-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-helm-0.3.1.tar.gz tmp/idem-helm-0.4.0.tar.gz --markdown 20230602/i/idem-helm/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 01:21:34] INFO root fetch - processPackages [gbd-mapping]: executing diffoscope
+[2023-06-02 01:21:34] INFO root fetch - processPackages [gbd-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_mapping-3.0.6.tar.gz tmp/gbd_mapping-3.1.0.tar.gz --markdown 20230602/g/gbd-mapping/3.0.6-3.1.0/diff.md --exclude *.pyd
+[2023-06-02 01:21:35] INFO root fetch - main [MainThread]: End processing [whisper-clipboard]: success
+[2023-06-02 01:21:35] INFO root fetch - main [MainThread]: End processing [idem-helm]: success
+[2023-06-02 01:21:35] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pcf8591]: success
+[2023-06-02 01:21:36] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-06-02 01:21:37] INFO root fetch - main [MainThread]: End processing [gbd-mapping]: success
+[2023-06-02 01:21:37] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
+[2023-06-02 01:21:37] INFO root fetch - main [MainThread]: Store serial: [18340795]
