@@ -381,3 +381,87 @@
 [2023-06-02 00:32:13] INFO root fetch - main [MainThread]: End processing [darkmark]: success
 [2023-06-02 00:33:10] INFO root fetch - main [MainThread]: End processing [dolphin-python]: success
 [2023-06-02 00:33:10] INFO root fetch - main [MainThread]: Store serial: [18340528]
+[2023-06-02 00:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340528]
+[2023-06-02 00:38:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PoePT
+[2023-06-02 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant
+[2023-06-02 00:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afscgap
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Extractable
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fleet-sdk
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotransforms
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rubi
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-selve-new
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mssql-django
+[2023-06-02 00:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sssom
+[2023-06-02 00:38:19] INFO root fetch - processPackages [PoePT]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [robotransforms]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [fleet-sdk]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [mssql-django]: New version: [1.3] Old Version: [1.2]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [afscgap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [Extractable]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [rubi]: New version: [2.0.2b3] Old Version: [2.0.2b2]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [python-selve-new]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [sssom]: New version: [0.3.9] Old Version: [0.3.8.dev0]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.0b2] Old Version: [2023.6.0b1]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/6e/ed/edf783844991ada861f11e219c88dca465e3d1c181e476ca5c789ee2ba24/robotransforms-0.5.2.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/7c/71/ac3829909a109da45676e2bcaff87c4b99c38b031328816e3d102cc9f558/PoePT-0.1.2.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.1.8.tar.gz tmp/python-selve-new-2.1.9.tar.gz --markdown 20230602/p/python-selve-new/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [mssql-django]: Downloading https://files.pythonhosted.org/packages/03/ce/25f4451be59d68ecea604afb716546e5fe79e77be3c76ed4be7499ab4d80/mssql-django-1.2.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/d2/50/05faae34bf5d79174462f1b2b1283eb04556c7169f5f0ebf2eb6f777ecb6/rubi-2.0.2b3.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/fb/68/76e9ee21114a0826710c8716908a5548e11a334caeca846a34ca6f680f8e/sssom-0.3.8.dev0.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/4f/28/443dca5700061a00d3ac0c42fb7f83d1388f6997c99e696bd66b492475d7/homeassistant-2023.6.0b1.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [Extractable]: Downloading https://files.pythonhosted.org/packages/ed/5e/f965e0cef5ad74f684860d02472243104d86babcfe2123b01e40f49e12b1/Extractable-0.0.2.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [afscgap]: Downloading https://files.pythonhosted.org/packages/f0/fb/27d6bdd5e8824b9064d1823391fba1d4330d5e933fae5e479a4a301e0eaa/afscgap-1.0.1.tar.gz
+[2023-06-02 00:38:19] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14166754>=10485760
+[2023-06-02 00:38:19] INFO root fetch - processPackages [homeassistant]: Start processing: BanterBot
+[2023-06-02 00:38:19] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-02 00:38:19] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.2b2.tar.gz tmp/rubi-2.0.2b3.tar.gz --markdown 20230602/r/rubi/2.0.2b2-2.0.2b3/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [fleet-sdk]: Downloading https://files.pythonhosted.org/packages/cc/a9/ce53d5330a3e30e4ec5574f8cdaa935d67fdaf4b7a7d1b6cd00ad05c99d9/fleet_sdk-0.5.4.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [BanterBot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 00:38:19] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/ed/90/a41ed1f81b09ebad6c70067c97360a1d653d0d4105550356a912e13055a0/robotransforms-0.5.3.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/f0/2a/c0e14229fcd9533dcce1e9c7a00fb9cb4f85b100fe9e54c97efd05a28ae0/PoePT-0.1.3.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [afscgap]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [afscgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afscgap-1.0.0.tar.gz tmp/afscgap-1.0.1.tar.gz --markdown 20230602/a/afscgap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [PoePT]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [PoePT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoePT-0.1.2.tar.gz tmp/PoePT-0.1.3.tar.gz --markdown 20230602/P/PoePT/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [fleet-sdk]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [fleet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleet_sdk-0.5.3.tar.gz tmp/fleet_sdk-0.5.4.tar.gz --markdown 20230602/f/fleet-sdk/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [mssql-django]: Downloading https://files.pythonhosted.org/packages/96/f1/54e5a93e945643955c0daabab2b4d69ac1b9e36c19b037bb7c8e6ab3be6b/mssql-django-1.3.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [robotransforms]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [robotransforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotransforms-0.5.2.tar.gz tmp/robotransforms-0.5.3.tar.gz --markdown 20230602/r/robotransforms/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [BanterBot]: Downloading https://files.pythonhosted.org/packages/66/10/d34789ccdeceded7af603c841d71796c377e3ce315b06dbd443fe9c2c9ff/BanterBot-0.0.1.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [mssql-django]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [mssql-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mssql-django-1.2.tar.gz tmp/mssql-django-1.3.tar.gz --markdown 20230602/m/mssql-django/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/84/31/7dc51a85fbd7f7e60e1db58b033cf3b40b15106d5b17432f262f77358673/sssom-0.3.9.tar.gz
+[2023-06-02 00:38:19] INFO root fetch - processPackages [sssom]: executing diffoscope
+[2023-06-02 00:38:19] INFO root fetch - processPackages [sssom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-0.3.8.dev0.tar.gz tmp/sssom-0.3.9.tar.gz --markdown 20230602/s/sssom/0.3.8.dev0-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 00:38:19] INFO root fetch - processPackages [BanterBot]: Downloading https://files.pythonhosted.org/packages/8a/da/14038ffbac49e310690fb45fbda93169316e0617d4bf872f5edb13d2bba0/BanterBot-0.0.2.tar.gz
+[2023-06-02 00:38:19] WARNING root fetch - processPackages [Extractable]: Skipping package: exceeds size limit 19540147>=10485760
+[2023-06-02 00:38:19] INFO root fetch - processPackages [Extractable]: Start processing: neon-phal-plugin-core-updater
+[2023-06-02 00:38:19] INFO root fetch - main [MainThread]: End processing [Extractable] error
+[2023-06-02 00:38:19] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.0.1a4] Old Version: [1.0.1a3]
+[2023-06-02 00:38:20] INFO root fetch - processPackages [BanterBot]: executing diffoscope
+[2023-06-02 00:38:20] INFO root fetch - processPackages [BanterBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BanterBot-0.0.1.tar.gz tmp/BanterBot-0.0.2.tar.gz --markdown 20230602/B/BanterBot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 00:38:20] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/a2/cc/7f02f0b2f15cfaa6e1b1b9a26077bf092ea2f430a876f93d61238b71ff26/neon_phal_plugin_core_updater-1.0.1a3-py3-none-any.whl
+[2023-06-02 00:38:20] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/42/4a/dad1bbbaceb7f14d31b4382e0f907378eac4546de17c906a800a13c04a84/neon_phal_plugin_core_updater-1.0.1a4-py3-none-any.whl
+[2023-06-02 00:38:20] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-02 00:38:20] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.0.1a3-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.0.1a4-py3-none-any.whl.zip --markdown 20230602/n/neon-phal-plugin-core-updater/1.0.1a3-1.0.1a4/diff.md --exclude *.pyd
+[2023-06-02 00:38:20] INFO root fetch - processPackages [PoePT]: Start processing: panml
+[2023-06-02 00:38:20] INFO root fetch - main [MainThread]: End processing [PoePT]: success
+[2023-06-02 00:38:20] INFO root fetch - main [MainThread]: End processing [fleet-sdk]: success
+[2023-06-02 00:38:20] INFO root fetch - processPackages [panml]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-02 00:38:21] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/ef/9d/08661ecf3dc056caeec55b8ff2c447f8d639519c9e866145f82c6d295a95/panml-0.0.23.tar.gz
+[2023-06-02 00:38:21] INFO root fetch - main [MainThread]: End processing [sssom]: success
+[2023-06-02 00:38:21] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-02 00:38:21] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-02 00:38:21] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-06-02 00:38:21] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.22.tar.gz tmp/panml-0.0.23.tar.gz --markdown 20230602/p/panml/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-02 00:38:21] INFO root fetch - main [MainThread]: End processing [robotransforms]: success
+[2023-06-02 00:38:21] INFO root fetch - main [MainThread]: End processing [BanterBot]: success
+[2023-06-02 00:38:22] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-06-02 00:38:22] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-06-02 00:38:22] INFO root fetch - main [MainThread]: End processing [afscgap]: success
+[2023-06-02 00:38:23] INFO root fetch - main [MainThread]: End processing [mssql-django]: success
+[2023-06-02 00:38:23] INFO root fetch - main [MainThread]: Store serial: [18340563]
