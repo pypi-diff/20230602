@@ -502,3 +502,59 @@
 [2023-06-02 00:43:34] INFO root fetch - main [MainThread]: End processing [osint-python-test-bed-adapter]: success
 [2023-06-02 00:43:34] INFO root fetch - main [MainThread]: End processing [arize]: success
 [2023-06-02 00:43:34] INFO root fetch - main [MainThread]: Store serial: [18340604]
+[2023-06-02 00:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340604]
+[2023-06-02 00:48:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathtranslate
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc.xboxcontroller
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: humanloop
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TorchSisso
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quranallsbuforuni
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nxs-analysis-tools
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shellcheck-py
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ofelia
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ironbot
+[2023-06-02 00:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whisper-clipboard
+[2023-06-02 00:48:42] INFO root fetch - processPackages [cc.xboxcontroller]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 00:48:42] WARNING root fetch - processPackages [quranallsbuforuni]: Skipping, unable to determine old version
+[2023-06-02 00:48:42] INFO root fetch - main [MainThread]: End processing [quranallsbuforuni] error
+[2023-06-02 00:48:42] INFO root fetch - processPackages [humanloop]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-02 00:48:42] INFO root fetch - processPackages [TorchSisso]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 00:48:42] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 00:48:42] INFO root fetch - processPackages [whisper-clipboard]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 00:48:42] WARNING root fetch - processPackages [ofelia]: Skipping, unable to determine old version
+[2023-06-02 00:48:42] INFO root fetch - processPackages [shellcheck-py]: New version: [0.9.0.3] Old Version: [0.9.0.2]
+[2023-06-02 00:48:42] INFO root fetch - processPackages [mathtranslate]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-06-02 00:48:42] INFO root fetch - main [MainThread]: End processing [ofelia] error
+[2023-06-02 00:48:42] INFO root fetch - processPackages [shellcheck-py]: Downloading https://files.pythonhosted.org/packages/40/43/04cb4a5dbcc65d194d62b9e834c299a40cc88c38cac86cc564f3d00e4423/shellcheck_py-0.9.0.2.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [TorchSisso]: Downloading https://files.pythonhosted.org/packages/69/3a/3cf4431c310dafeac7fda40b195495f67e317b0bc10ebac848b154412e2f/TorchSisso-1.0.0.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [whisper-clipboard]: Downloading https://files.pythonhosted.org/packages/ed/60/21ed35ba8407ec61684facfdb549fdc34e3b376b5c0daf227e421368ba52/whisper-clipboard-0.1.0.tar.gz
+[2023-06-02 00:48:43] WARNING root fetch - processPackages [ironbot]: Skipping, unable to determine old version
+[2023-06-02 00:48:43] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/40/9b/b8c455af6e90e8fcfdfe495a68cb5b9ff2ae857dce9742fbc662271900ab/mathtranslate-2.3.5.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - main [MainThread]: End processing [ironbot] error
+[2023-06-02 00:48:43] INFO root fetch - processPackages [cc.xboxcontroller]: Downloading https://files.pythonhosted.org/packages/0b/96/af7840f60d9a45d5e33da98487401b1bf01a494a5600a2936cdca7ef34a3/cc.xboxcontroller-0.1.1.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [shellcheck-py]: Downloading https://files.pythonhosted.org/packages/3e/64/9fec15f76e3a8053f6c16d0b7cc08352b50cec6c99b51add04f0b17767cf/shellcheck_py-0.9.0.3.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.5.tar.gz tmp/humanloop-0.4.6.tar.gz --markdown 20230602/h/humanloop/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [cc.xboxcontroller]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [cc.xboxcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc.xboxcontroller-0.1.0.tar.gz tmp/cc.xboxcontroller-0.1.1.tar.gz --markdown 20230602/c/cc.xboxcontroller/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [shellcheck-py]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [shellcheck-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcheck_py-0.9.0.2.tar.gz tmp/shellcheck_py-0.9.0.3.tar.gz --markdown 20230602/s/shellcheck-py/0.9.0.2-0.9.0.3/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230602/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [whisper-clipboard]: Downloading https://files.pythonhosted.org/packages/74/09/5299f10238df5a1f656174e7f389a2ef578b61b741f592e0634736b4908e/whisper-clipboard-0.1.1.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [TorchSisso]: Downloading https://files.pythonhosted.org/packages/64/76/4404079ca65d6d504ea1b9bdead26b5a4d1a46910889de7476420852686b/TorchSisso-1.0.1.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/73/a9/000a700a13a402d3e57ca558300c4f4d0c598f249b226901de594302b588/mathtranslate-2.3.6.tar.gz
+[2023-06-02 00:48:43] INFO root fetch - processPackages [TorchSisso]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [TorchSisso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchSisso-1.0.0.tar.gz tmp/TorchSisso-1.0.1.tar.gz --markdown 20230602/T/TorchSisso/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.3.5.tar.gz tmp/mathtranslate-2.3.6.tar.gz --markdown 20230602/m/mathtranslate/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-06-02 00:48:43] INFO root fetch - processPackages [whisper-clipboard]: executing diffoscope
+[2023-06-02 00:48:43] INFO root fetch - processPackages [whisper-clipboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-clipboard-0.1.0.tar.gz tmp/whisper-clipboard-0.1.1.tar.gz --markdown 20230602/w/whisper-clipboard/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [cc.xboxcontroller]: success
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [shellcheck-py]: success
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [TorchSisso]: success
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [whisper-clipboard]: success
+[2023-06-02 00:48:44] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-06-02 00:48:53] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-06-02 00:48:53] INFO root fetch - main [MainThread]: Store serial: [18340643]
