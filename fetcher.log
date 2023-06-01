@@ -891,3 +891,39 @@
 [2023-06-02 01:32:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-secondary-unit]: success
 [2023-06-02 01:32:02] INFO root fetch - main [MainThread]: End processing [pytheus]: success
 [2023-06-02 01:32:02] INFO root fetch - main [MainThread]: Store serial: [18340838]
+[2023-06-02 01:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340838]
+[2023-06-02 01:37:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysros
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kultimate
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motion-python
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-session
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidwright
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ripandtear
+[2023-06-02 01:37:11] WARNING root fetch - processPackages [kultimate]: Skipping, unable to determine old version
+[2023-06-02 01:37:11] INFO root fetch - main [MainThread]: End processing [kultimate] error
+[2023-06-02 01:37:11] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 01:37:11] INFO root fetch - processPackages [rapidwright]: New version: [2023.1.0] Old Version: [2022.2.3]
+[2023-06-02 01:37:11] INFO root fetch - processPackages [pysros]: New version: [23.3.3] Old Version: [23.3.2]
+[2023-06-02 01:37:11] INFO root fetch - processPackages [motion-python]: New version: [0.1.50] Old Version: [0.1.49]
+[2023-06-02 01:37:11] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-02 01:37:12] INFO root fetch - processPackages [rapidwright]: Downloading https://files.pythonhosted.org/packages/2d/2d/686bdae48ca8a08807a3de25df07b436f51c36eae4b8acac60d40d79fc29/rapidwright-2022.2.3.tar.gz
+[2023-06-02 01:37:12] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-06-02 01:37:12] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230602/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-02 01:37:12] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/d9/8b/89215ce33afd19016f6860e8f044a9ca9eb66f7169926fbacdbbfa385eae/pysros-23.3.2.tar.gz
+[2023-06-02 01:37:12] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/8a/74/b99d98e022e511446202230c5211e32849c412313f4d060cc4a81618c243/motion_python-0.1.50.tar.gz
+[2023-06-02 01:37:12] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-02 01:37:12] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230602/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 01:37:12] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-02 01:37:12] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.49.tar.gz tmp/motion_python-0.1.50.tar.gz --markdown 20230602/m/motion-python/0.1.49-0.1.50/diff.md --exclude *.pyd
+[2023-06-02 01:37:12] INFO root fetch - processPackages [rapidwright]: Downloading https://files.pythonhosted.org/packages/a0/62/010caad7240a41f7651f4a6f16fc7624e6ad03a63c7284017576e1366839/rapidwright-2023.1.0.tar.gz
+[2023-06-02 01:37:12] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/95/ab/a9b08018892123a3466a427721900cace167d6ab74d583ce6477c30a0066/pysros-23.3.3.tar.gz
+[2023-06-02 01:37:12] INFO root fetch - processPackages [rapidwright]: executing diffoscope
+[2023-06-02 01:37:12] INFO root fetch - processPackages [rapidwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidwright-2022.2.3.tar.gz tmp/rapidwright-2023.1.0.tar.gz --markdown 20230602/r/rapidwright/2022.2.3-2023.1.0/diff.md --exclude *.pyd
+[2023-06-02 01:37:12] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2023-06-02 01:37:12] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-23.3.2.tar.gz tmp/pysros-23.3.3.tar.gz --markdown 20230602/p/pysros/23.3.2-23.3.3/diff.md --exclude *.pyd
+[2023-06-02 01:37:13] INFO root fetch - main [MainThread]: End processing [rapidwright]: success
+[2023-06-02 01:37:13] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-02 01:37:13] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2023-06-02 01:37:13] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-02 01:37:14] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-06-02 01:37:14] INFO root fetch - main [MainThread]: Store serial: [18340858]
