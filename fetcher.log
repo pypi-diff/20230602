@@ -8820,3 +8820,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:51:18] INFO root fetch - main [MainThread]: End processing [equipparser]: success
 [2023-06-02 08:51:19] INFO root fetch - main [MainThread]: End processing [argos-netbox]: success
 [2023-06-02 08:51:19] INFO root fetch - main [MainThread]: Store serial: [18345558]
+[2023-06-02 08:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345558]
+[2023-06-02 08:56:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iqm-client
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeuscloud-iamspy
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-imaging-python-net
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralpit
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wombo
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymg
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: troncos
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digicon-mod
+[2023-06-02 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: strawberry-graphql
+[2023-06-02 08:56:27] INFO root fetch - processPackages [wombo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [pymg]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [digicon-mod]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 08:56:27] WARNING root fetch - processPackages [aspose-imaging-python-net]: Skipping, unable to determine old version
+[2023-06-02 08:56:27] INFO root fetch - processPackages [aspose-imaging-python-net]: Start processing: wombo
+[2023-06-02 08:56:27] INFO root fetch - main [MainThread]: End processing [aspose-imaging-python-net] error
+[2023-06-02 08:56:27] INFO root fetch - processPackages [zeuscloud-iamspy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [troncos]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [neuralpit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [wombo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 08:56:27] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-02 08:56:28] INFO root fetch - processPackages [digicon-mod]: Downloading https://files.pythonhosted.org/packages/7b/94/a13ae2be2f79574ca9e5f38d89324e7cc6faed977020f18d55ae6ff64ee2/digicon_mod-0.1.0.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/02/ea/d034df055190a7a2b79be76273799b73c06568cc01d1e10a4fff75301f91/wombo-1.0.2.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/02/ea/d034df055190a7a2b79be76273799b73c06568cc01d1e10a4fff75301f91/wombo-1.0.2.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [pymg]: Downloading https://files.pythonhosted.org/packages/dc/19/c4a34d5fbf5b7ae8da4fdaca40ec2d26b9bf932b5a173c29b451bbd3c074/pymg-1.1.0.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230602/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [zeuscloud-iamspy]: Downloading https://files.pythonhosted.org/packages/8e/48/c55a70d5bdb0b72763f7d504cc53a1a810cc33d5664209d77c916f5b94b3/zeuscloud_iamspy-0.7.0.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20230602/i/iqm-client/9.7-9.8/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [pymg]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [pymg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymg-1.0.0.tar.gz tmp/pymg-1.1.0.tar.gz --markdown 20230602/p/pymg/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [digicon-mod]: Downloading https://files.pythonhosted.org/packages/2c/e6/04f395b8b1f6db6121e32e5c5c12ddcf3ba997ce3779618c7b0cafb76ef9/digicon_mod-0.1.1.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230602/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-1.0.1.tar.gz tmp/wombo-1.0.2.tar.gz --markdown 20230602/w/wombo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-1.0.1.tar.gz tmp/wombo-1.0.2.tar.gz --markdown 20230602/w/wombo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.8.tar.gz tmp/neuralpit-1.0.9.tar.gz --markdown 20230602/n/neuralpit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b8.tar.gz tmp/troncos-4.0.0b9.tar.gz --markdown 20230602/t/troncos/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [digicon-mod]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [digicon-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digicon_mod-0.1.0.tar.gz tmp/digicon_mod-0.1.1.tar.gz --markdown 20230602/d/digicon-mod/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 08:56:28] INFO root fetch - processPackages [zeuscloud-iamspy]: Downloading https://files.pythonhosted.org/packages/10/d6/053bec194d5f46f44135ae5c15f12072467c09dda65ea7cc58ad25169792/zeuscloud_iamspy-0.8.0.tar.gz
+[2023-06-02 08:56:28] INFO root fetch - processPackages [zeuscloud-iamspy]: executing diffoscope
+[2023-06-02 08:56:28] INFO root fetch - processPackages [zeuscloud-iamspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeuscloud_iamspy-0.7.0.tar.gz tmp/zeuscloud_iamspy-0.8.0.tar.gz --markdown 20230602/z/zeuscloud-iamspy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 08:56:29] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 08:56:29] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [digicon-mod]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [pymg]: success
+[2023-06-02 08:56:30] INFO root fetch - main [MainThread]: End processing [zeuscloud-iamspy]: success
+[2023-06-02 08:56:31] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-02 08:56:34] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-02 08:56:34] INFO root fetch - main [MainThread]: Store serial: [18345597]
