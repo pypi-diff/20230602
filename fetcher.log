@@ -19183,3 +19183,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:07:25] INFO root fetch - main [MainThread]: End processing [rattail]: success
 [2023-06-02 20:07:40] INFO root fetch - main [MainThread]: End processing [aries-askar]: success
 [2023-06-02 20:07:40] INFO root fetch - main [MainThread]: Store serial: [18351825]
+[2023-06-02 20:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351825]
+[2023-06-02 20:13:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaparoo-lightning-package
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mots
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rechtspraak-citations-extractor
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tapestry
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-enclosure
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meerschaum
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sso-client
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybind11-geobuf
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databallpy
+[2023-06-02 20:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imops
+[2023-06-02 20:13:00] INFO root fetch - processPackages [kaparoo-lightning-package]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [neon-enclosure]: New version: [1.5.1a1] Old Version: [1.5.0]
+[2023-06-02 20:13:00] WARNING root fetch - processPackages [rechtspraak-citations-extractor]: Skipping, unable to determine old version
+[2023-06-02 20:13:00] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Start processing: fish-databricks-jobs
+[2023-06-02 20:13:00] INFO root fetch - main [MainThread]: End processing [rechtspraak-citations-extractor] error
+[2023-06-02 20:13:00] INFO root fetch - processPackages [tapestry]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [mots]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [pybind11-geobuf]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [databallpy]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [fish-databricks-jobs]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/d8/c8/42fa4060ec8f6f5dfba070634ee7f4534f0ac1ae0f34f1ab27261f45d6db/django-sso-client-0.0.4.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [mots]: Downloading https://files.pythonhosted.org/packages/90/b7/82b5ca45424e13d7e2fca746e8edd45ef24a47c35a3999fc91d92b35a98b/mots-0.8.0.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [pybind11-geobuf]: Downloading https://files.pythonhosted.org/packages/67/ce/7df14647fcde8beb1a12bf68f98a2dfb9c62b04612630b190ba2a2d8a3e8/pybind11_geobuf-0.1.4.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [kaparoo-lightning-package]: Downloading https://files.pythonhosted.org/packages/cf/d6/64bacd9615e9c9e55a7708d67a36b6d635450635c573fe94bada2a269d72/kaparoo_lightning_package-0.2.1.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [fish-databricks-jobs]: Downloading https://files.pythonhosted.org/packages/2f/f7/f7806c508dccc06018c131131bb453f54d2907425b91409431d2f3ed3420/fish_databricks_jobs-0.7.7.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/ad/ea/7563a0b2015b11797609971f2d3520654bc854f166da87c3cf1d07e9438c/neon_enclosure-1.5.1a1-py3-none-any.whl
+[2023-06-02 20:13:00] INFO root fetch - processPackages [tapestry]: Downloading https://files.pythonhosted.org/packages/00/3b/c4bc31cf0d725566e0b52e5c41d7143b0235bb1f4d92e838febe9f0573ad/tapestry-2.2.1-py3-none-any.whl
+[2023-06-02 20:13:00] INFO root fetch - processPackages [databallpy]: Downloading https://files.pythonhosted.org/packages/ae/c5/d34315bc332f423e19f6bbd80d60c006c3c771b7b73801a0397effa7f85e/databallpy-0.2.3.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-06-02 20:13:00] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.3.tar.gz tmp/django-sso-client-0.0.4.tar.gz --markdown 20230602/d/django-sso-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 20:13:00] INFO root fetch - processPackages [kaparoo-lightning-package]: executing diffoscope
+[2023-06-02 20:13:00] INFO root fetch - processPackages [kaparoo-lightning-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_lightning_package-0.2.0.tar.gz tmp/kaparoo_lightning_package-0.2.1.tar.gz --markdown 20230602/k/kaparoo-lightning-package/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 20:13:00] INFO root fetch - processPackages [imops]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-02 20:13:00] INFO root fetch - processPackages [neon-enclosure]: executing diffoscope
+[2023-06-02 20:13:00] INFO root fetch - processPackages [neon-enclosure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_enclosure-1.5.0-py3-none-any.whl.zip tmp/neon_enclosure-1.5.1a1-py3-none-any.whl.zip --markdown 20230602/n/neon-enclosure/1.5.0-1.5.1a1/diff.md --exclude *.pyd
+[2023-06-02 20:13:00] INFO root fetch - processPackages [mots]: Downloading https://files.pythonhosted.org/packages/a3/88/f9c23f70f9f4423332a84b5f7708fd0cada8d4d37b71f59a9f13d60cbc5a/mots-0.9.0.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [imops]: Downloading https://files.pythonhosted.org/packages/07/34/2a82fb21c23914631e4497a85995e671b18ae66eaf672b70dcae26c0a58b/imops-0.7.4.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [fish-databricks-jobs]: Downloading https://files.pythonhosted.org/packages/5e/76/e6c12e23eb7b49dc5da9c9774369dad3cd2114f5349f09529ceccb159188/fish_databricks_jobs-0.7.8.tar.gz
+[2023-06-02 20:13:00] INFO root fetch - processPackages [databallpy]: Downloading https://files.pythonhosted.org/packages/22/55/1b181b07483bea33e15ff161c3e05ad40dbf17a47d9449856110f08f9930/databallpy-0.3.0.tar.gz
+[2023-06-02 20:13:01] INFO root fetch - processPackages [tapestry]: Downloading https://files.pythonhosted.org/packages/c5/3b/fbee2f0962cb8a088504b16fab61b6e618036a9ea8d95f1f50b207ad28e6/tapestry-2.2.2-py3-none-any.whl
+[2023-06-02 20:13:01] INFO root fetch - processPackages [mots]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [mots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mots-0.8.0.tar.gz tmp/mots-0.9.0.tar.gz --markdown 20230602/m/mots/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 20:13:01] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230602/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-02 20:13:01] INFO root fetch - processPackages [fish-databricks-jobs]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [fish-databricks-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_databricks_jobs-0.7.7.tar.gz tmp/fish_databricks_jobs-0.7.8.tar.gz --markdown 20230602/f/fish-databricks-jobs/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-02 20:13:01] INFO root fetch - processPackages [tapestry]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [tapestry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapestry-2.2.1-py3-none-any.whl.zip tmp/tapestry-2.2.2-py3-none-any.whl.zip --markdown 20230602/t/tapestry/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-02 20:13:01] INFO root fetch - processPackages [databallpy]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [databallpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databallpy-0.2.3.tar.gz tmp/databallpy-0.3.0.tar.gz --markdown 20230602/d/databallpy/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 20:13:01] INFO root fetch - processPackages [imops]: Downloading https://files.pythonhosted.org/packages/7d/ff/928efdab7016fa7b5d695d593fd57e96f5c0827ee41901e14a4a9c849d21/imops-0.8.0-cp36-cp36m-musllinux_1_1_i686.whl
+[2023-06-02 20:13:01] INFO root fetch - processPackages [pybind11-geobuf]: Downloading https://files.pythonhosted.org/packages/71/a7/8a67becae3c190f6324b4c173658c34d0508eec19960a818ee9dff4b16c9/pybind11_geobuf-0.1.5.tar.gz
+[2023-06-02 20:13:01] INFO root fetch - processPackages [pybind11-geobuf]: executing diffoscope
+[2023-06-02 20:13:01] INFO root fetch - processPackages [pybind11-geobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_geobuf-0.1.4.tar.gz tmp/pybind11_geobuf-0.1.5.tar.gz --markdown 20230602/p/pybind11-geobuf/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 20:13:02] INFO root fetch - processPackages [kaparoo-lightning-package]: Start processing: pulumi-docker
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [kaparoo-lightning-package]: success
+[2023-06-02 20:13:02] INFO root fetch - processPackages [django-sso-client]: Start processing: edubot
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
+[2023-06-02 20:13:02] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1685727774] Old Version: [4.3.0a1685165956]
+[2023-06-02 20:13:02] INFO root fetch - processPackages [edubot]: New version: [0.7.0] Old Version: [0.6.8]
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [fish-databricks-jobs]: success
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [tapestry]: success
+[2023-06-02 20:13:02] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/da/32f67e64ebc1153cd8d0530c2c18dc00877ef43244550ed0013dd9cef737/pulumi_docker-4.3.0a1685727774.tar.gz
+[2023-06-02 20:13:02] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/15/d1/6b94379f3acf02c3da1e3fbf9b430906d5843d6afc148d80697a1aa40040/edubot-0.7.0.tar.gz
+[2023-06-02 20:13:02] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-06-02 20:13:02] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1685165956.tar.gz tmp/pulumi_docker-4.3.0a1685727774.tar.gz --markdown 20230602/p/pulumi-docker/4.3.0a1685165956-4.3.0a1685727774/diff.md --exclude *.pyd
+[2023-06-02 20:13:02] INFO root fetch - main [MainThread]: End processing [databallpy]: success
+[2023-06-02 20:13:02] INFO root fetch - processPackages [edubot]: executing diffoscope
+[2023-06-02 20:13:02] INFO root fetch - processPackages [edubot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot-0.6.8.tar.gz tmp/edubot-0.7.0.tar.gz --markdown 20230602/e/edubot/0.6.8-0.7.0/diff.md --exclude *.pyd
+[2023-06-02 20:13:03] INFO root fetch - main [MainThread]: End processing [mots]: success
+[2023-06-02 20:13:04] INFO root fetch - main [MainThread]: End processing [edubot]: success
+[2023-06-02 20:13:04] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-06-02 20:13:04] INFO root fetch - processPackages [imops]: executing diffoscope
+[2023-06-02 20:13:04] INFO root fetch - processPackages [imops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imops-0.7.4.tar.gz tmp/imops-0.8.0-cp36-cp36m-musllinux_1_1_i686.whl.zip --markdown 20230602/i/imops/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 20:13:05] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-06-02 20:13:05] INFO root fetch - main [MainThread]: End processing [imops]: success
+[2023-06-02 20:13:45] INFO root fetch - main [MainThread]: End processing [pybind11-geobuf]: success
+[2023-06-02 20:13:45] INFO root fetch - main [MainThread]: Store serial: [18351897]
