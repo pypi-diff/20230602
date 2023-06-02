@@ -7450,3 +7450,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:52:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-blanket-order]: success
 [2023-06-02 06:52:26] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
 [2023-06-02 06:52:26] INFO root fetch - main [MainThread]: Store serial: [18344626]
+[2023-06-02 06:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344626]
+[2023-06-02 06:57:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgpt-cloud
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantsbuild.pants
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pantsbuild.pants.testutil
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rbackup-py
+[2023-06-02 06:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mltlk
+[2023-06-02 06:57:35] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-02 06:57:35] WARNING root fetch - processPackages [rbackup-py]: Skipping, unable to determine old version
+[2023-06-02 06:57:35] INFO root fetch - main [MainThread]: End processing [rbackup-py] error
+[2023-06-02 06:57:35] WARNING root fetch - processPackages [chatgpt-cloud]: Skipping, unable to determine old version
+[2023-06-02 06:57:35] INFO root fetch - main [MainThread]: End processing [chatgpt-cloud] error
+[2023-06-02 06:57:35] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 06:57:35] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev3] Old Version: [0.6.3.dev20]
+[2023-06-02 06:57:35] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-02 06:57:35] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-02 06:57:35] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230602/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 06:57:35] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-06-02 06:57:35] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230602/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-06-02 06:57:35] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/e4/ef/fa3e1546033f39624a3c1199bc56de08eeee1bdea2cf0ae776af71855a3e/khoj_assistant-0.6.3.dev20.tar.gz
+[2023-06-02 06:57:35] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-02 06:57:35] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-06-02 06:57:35] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-06-02 06:57:36] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-02 06:57:36] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev20.tar.gz tmp/khoj_assistant-0.6.3.dev3.tar.gz --markdown 20230602/k/khoj-assistant/0.6.3.dev20-0.6.3.dev3/diff.md --exclude *.pyd
+[2023-06-02 06:57:36] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-06-02 06:57:36] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-02 06:57:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-02 06:57:37] INFO root fetch - main [MainThread]: Store serial: [18344655]
