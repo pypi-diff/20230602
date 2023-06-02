@@ -18561,3 +18561,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:13:07] INFO root fetch - main [MainThread]: End processing [nyx-space] error
 [2023-06-02 19:13:10] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-02 19:13:10] INFO root fetch - main [MainThread]: Store serial: [18351417]
+[2023-06-02 19:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351417]
+[2023-06-02 19:18:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prelude-sdk
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prelude-cli
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passlock
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tradchat
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HaplyHAPI
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ima-predeployed
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recourse-game
+[2023-06-02 19:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rising-plugin
+[2023-06-02 19:18:19] INFO root fetch - processPackages [passlock]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-02 19:18:19] WARNING root fetch - processPackages [recourse-game]: Skipping, unable to determine old version
+[2023-06-02 19:18:19] INFO root fetch - processPackages [recourse-game]: Start processing: safedrones
+[2023-06-02 19:18:19] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 19:18:19] INFO root fetch - main [MainThread]: End processing [recourse-game] error
+[2023-06-02 19:18:19] INFO root fetch - processPackages [HaplyHAPI]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 19:18:19] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-06-02 19:18:20] INFO root fetch - processPackages [tradchat]: Start processing: pysorcerer
+[2023-06-02 19:18:20] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-06-02 19:18:20] INFO root fetch - processPackages [Signal8]: New version: [2.2] Old Version: [2.1]
+[2023-06-02 19:18:20] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-cli]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-sdk]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 19:18:20] INFO root fetch - processPackages [ima-predeployed]: New version: [1.5.0b1] Old Version: [1.5.0b0]
+[2023-06-02 19:18:20] WARNING root fetch - processPackages [safedrones]: Skipping, unable to determine old version
+[2023-06-02 19:18:20] INFO root fetch - processPackages [safedrones]: Start processing: mqueueservice
+[2023-06-02 19:18:20] INFO root fetch - main [MainThread]: End processing [safedrones] error
+[2023-06-02 19:18:20] WARNING root fetch - processPackages [pysorcerer]: Skipping, unable to determine old version
+[2023-06-02 19:18:20] INFO root fetch - main [MainThread]: End processing [pysorcerer] error
+[2023-06-02 19:18:20] INFO root fetch - processPackages [mqueueservice]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 19:18:20] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [HaplyHAPI]: Downloading https://files.pythonhosted.org/packages/16/a2/e6d3a6d8d83e9d4c227a3c6eb385df9fd447de13fa672ce65bfde2d1e90a/HaplyHAPI-1.0.0.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/54/2f/f72d480bca0f1e22470b7db8b3642d368c23a69d70d4edab947da631a8de/prelude-sdk-1.2.1.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [rising-plugin]: Downloading https://files.pythonhosted.org/packages/5b/d9/913bca22737d0af144233170c1f50009f9e0239dbbb0ad1528f0b89c18c3/rising_plugin-0.1.2.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [passlock]: Downloading https://files.pythonhosted.org/packages/02/cc/b488b4f62ff7e2c0c394835d509c6efa06032ba26843a21819e100b8030d/passlock-1.0.7.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/14/9e/0b96c411c5577ae8d8d6a0288e153acdec8c4d13508d187745310c19b6c8/Signal8-2.2.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [mqueueservice]: Downloading https://files.pythonhosted.org/packages/2b/65/c7015ecbedbf895eb37e1271b8aee9b50519d5bb1234d4742c6b3956ac37/mqueueservice-0.0.1.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-cli]: Downloading https://files.pythonhosted.org/packages/a5/28/2a717ee1f28fbd57be0bc3c7bd23eeeae7a8c1f949f6a8b1aa60dee67e71/prelude-cli-1.2.2.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.1.tar.gz tmp/Signal8-2.2.tar.gz --markdown 20230602/S/Signal8/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [passlock]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [passlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passlock-1.0.6.tar.gz tmp/passlock-1.0.7.tar.gz --markdown 20230602/p/passlock/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/9a/80/1fdc59ee368ff14292b1dd3f6c66fa5d810a2a4f23ed59d57425af052290/prelude-sdk-1.2.2.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [HaplyHAPI]: Downloading https://files.pythonhosted.org/packages/26/f4/2f7e5d7e2ef622623d1bc113ba076ca365eb06e0d94dff0e7b5ed6a3c74f/HaplyHAPI-1.0.1.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-cli]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude-cli-1.2.1.tar.gz tmp/prelude-cli-1.2.2.tar.gz --markdown 20230602/p/prelude-cli/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-1.5.0b0.tar.gz tmp/ima-predeployed-1.5.0b1.tar.gz --markdown 20230602/i/ima-predeployed/1.5.0b0-1.5.0b1/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-sdk]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [prelude-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude-sdk-1.2.1.tar.gz tmp/prelude-sdk-1.2.2.tar.gz --markdown 20230602/p/prelude-sdk/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [HaplyHAPI]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [HaplyHAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaplyHAPI-1.0.0.tar.gz tmp/HaplyHAPI-1.0.1.tar.gz --markdown 20230602/H/HaplyHAPI/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 19:18:20] INFO root fetch - processPackages [mqueueservice]: Downloading https://files.pythonhosted.org/packages/0d/ac/fd16999406595ea606da69372d47f8b0a9560a24ce4d38606c84ef44504a/mqueueservice-0.0.2.tar.gz
+[2023-06-02 19:18:20] INFO root fetch - processPackages [mqueueservice]: executing diffoscope
+[2023-06-02 19:18:20] INFO root fetch - processPackages [mqueueservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqueueservice-0.0.1.tar.gz tmp/mqueueservice-0.0.2.tar.gz --markdown 20230602/m/mqueueservice/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 19:18:21] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-02 19:18:21] INFO root fetch - main [MainThread]: End processing [passlock]: success
+[2023-06-02 19:18:21] INFO root fetch - main [MainThread]: End processing [prelude-cli]: success
+[2023-06-02 19:18:22] INFO root fetch - main [MainThread]: End processing [HaplyHAPI]: success
+[2023-06-02 19:18:22] INFO root fetch - main [MainThread]: End processing [prelude-sdk]: success
+[2023-06-02 19:18:22] INFO root fetch - main [MainThread]: End processing [mqueueservice]: success
+[2023-06-02 19:18:22] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-06-02 19:18:27] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 19:21:20] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 19:21:20] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 19:21:20] INFO root fetch - main [MainThread]: Store serial: [18351497]
