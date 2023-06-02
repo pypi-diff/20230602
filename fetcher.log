@@ -7376,3 +7376,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:40:53] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
 [2023-06-02 06:40:55] INFO root fetch - main [MainThread]: End processing [chatgpt-cloud]: success
 [2023-06-02 06:40:55] INFO root fetch - main [MainThread]: Store serial: [18344549]
+[2023-06-02 06:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344549]
+[2023-06-02 06:46:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nncase
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hh-ui-check
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fipper
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bingo-elastic
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epam.indigo
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystools
+[2023-06-02 06:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-sale-promotion
+[2023-06-02 06:46:04] WARNING root fetch - processPackages [hh-ui-check]: Skipping, unable to determine old version
+[2023-06-02 06:46:04] INFO root fetch - main [MainThread]: End processing [hh-ui-check] error
+[2023-06-02 06:46:04] INFO root fetch - processPackages [nncase]: New version: [2.0.0.20230602] Old Version: [1.9.0.20230322]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: New version: [15.0.20230601.1] Old Version: [15.0.20230531.0]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [fipper]: New version: [0.0.2] Old Version: [0.0.1.dev5]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2023-06-02 06:46:04] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/b3/98/e41916ce6825e9e11f5ac02e714fe902517df04d52b03367db6c142ffd1b/nncase-1.9.0.20230322-cp39-cp39-win_amd64.whl
+[2023-06-02 06:46:04] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2023-06-02 06:46:04] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20230602/b/bingo-elastic/1.9.0rc3-1.9.0rc4/diff.md --exclude *.pyd
+[2023-06-02 06:46:04] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/48/2b/d2637ab81e255311cb088da61b01d949ca88b9ee19cb0b8a79680f3017ce/odoo_addons_oca_sale_promotion-15.0.20230601.1-py3-none-any.whl
+[2023-06-02 06:46:04] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/95/53/e40917b5b7ac8ab07454317c7fd9c8eb72f46ecd3717ee64d4e6c5d9ce56/fipper-0.0.2.tar.gz
+[2023-06-02 06:46:04] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2023-06-02 06:46:04] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20230602/e/epam.indigo/1.9.0rc3-1.9.0rc4/diff.md --exclude *.pyd
+[2023-06-02 06:46:04] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-02 06:46:04] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230602/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 06:46:04] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-06-02 06:46:04] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.1.dev5.tar.gz tmp/fipper-0.0.2.tar.gz --markdown 20230602/f/fipper/0.0.1.dev5-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 06:46:04] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: executing diffoscope
+[2023-06-02 06:46:04] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_promotion-15.0.20230531.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_promotion-15.0.20230601.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addons-oca-sale-promotion/15.0.20230531.0-15.0.20230601.1/diff.md --exclude *.pyd
+[2023-06-02 06:46:05] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-02 06:46:05] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2023-06-02 06:46:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
+[2023-06-02 06:46:06] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/8f/dd/26723462be36e80e4d0f840c173f7e2781b8aaed07e41c4b64e72db8e169/nncase-2.0.0.20230602-cp39-cp39-win_amd64.whl
+[2023-06-02 06:46:08] INFO root fetch - processPackages [nncase]: executing diffoscope
+[2023-06-02 06:46:08] INFO root fetch - processPackages [nncase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nncase-1.9.0.20230322-cp39-cp39-win_amd64.whl.zip tmp/nncase-2.0.0.20230602-cp39-cp39-win_amd64.whl.zip --markdown 20230602/n/nncase/1.9.0.20230322-2.0.0.20230602/diff.md --exclude *.pyd
+[2023-06-02 06:46:08] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-06-02 06:46:39] INFO root fetch - main [MainThread]: End processing [nncase]: success
+[2023-06-02 06:46:51] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2023-06-02 06:46:51] INFO root fetch - main [MainThread]: Store serial: [18344583]
