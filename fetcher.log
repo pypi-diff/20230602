@@ -18920,3 +18920,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:45:33] ERROR root fetch - processPackages [meltano]: Timeout during execution of pkgdiff
 [2023-06-02 19:45:33] INFO root fetch - main [MainThread]: End processing [meltano] error
 [2023-06-02 19:45:33] INFO root fetch - main [MainThread]: Store serial: [18351668]
+[2023-06-02 19:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351668]
+[2023-06-02 19:50:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tc-messageBroker
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adqsetup
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ia-sdk
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawler-commons
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: most-queue
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sym-cli
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klp-commons
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apigratis-sdk-python
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyWebUIFramework
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scale-sensor-fusion-io
+[2023-06-02 19:50:45] INFO root fetch - processPackages [adqsetup]: New version: [2.1rc1] Old Version: [2.1b4]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [most-queue]: New version: [1.3] Old Version: [1.2]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [tc-messageBroker]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [scale-sensor-fusion-io]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [PyWebUIFramework]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [apigratis-sdk-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [klp-commons]: New version: [0.53] Old Version: [0.0.9]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [sym-cli]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-02 19:50:45] INFO root fetch - processPackages [apigratis-sdk-python]: Downloading https://files.pythonhosted.org/packages/27/e0/fcec94f66e780f6735c6b302d71f4b368cd2ed63699b3e2a3db5911517fb/apigratis-sdk-python-1.0.6.tar.gz
+[2023-06-02 19:50:45] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/99/a5/c30f664bfcd8ebf6d0bf69f4cd0074ff125956c35c9e2dd9249a49abf9b3/PyWebUIFramework-0.3.3.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/0d/0d/fff25d4b8748769cab55423ebd406e2a48bae4a09042934f5adb1b098c3c/klp_commons-0.53.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [adqsetup]: Downloading https://files.pythonhosted.org/packages/44/42/7ef3110e44d99dd5961385c48f2d2a1673c1d75b6833388e9d41da8534ad/adqsetup-2.1b4.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/04/d3/9be8da6b5ea71c83284327a59b7606301a73bd81c96e706ed075e67098a8/scale_sensor_fusion_io-0.1.2.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-0.3.2.tar.gz tmp/PyWebUIFramework-0.3.3.tar.gz --markdown 20230602/P/PyWebUIFramework/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [apigratis-sdk-python]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [apigratis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-sdk-python-1.0.5.tar.gz tmp/apigratis-sdk-python-1.0.6.tar.gz --markdown 20230602/a/apigratis-sdk-python/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [scale-sensor-fusion-io]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [scale-sensor-fusion-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_sensor_fusion_io-0.1.1.tar.gz tmp/scale_sensor_fusion_io-0.1.2.tar.gz --markdown 20230602/s/scale-sensor-fusion-io/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.9.tar.gz tmp/klp_commons-0.53.tar.gz --markdown 20230602/k/klp-commons/0.0.9-0.53/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [sym-cli]: Downloading https://files.pythonhosted.org/packages/39/5d/7b649055b7b8500b1658fa4c33cc0d48e199dff7e10d25fc0f9ec9f7d6a3/sym_cli-0.5.1.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [tc-messageBroker]: Downloading https://files.pythonhosted.org/packages/db/5b/b63448e11357e1708a183ce388467383fbb4cd6049b891bf5f72c4979327/tc-messageBroker-1.2.0.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230602/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [most-queue]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [most-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/most_queue-1.2.tar.gz tmp/most_queue-1.3.tar.gz --markdown 20230602/m/most-queue/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230602/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [adqsetup]: Downloading https://files.pythonhosted.org/packages/0b/cb/9ecf2623e0cc0938ef100ee5f6b8d9bf75ee69af74aba15cc30297f4ea24/adqsetup-2.1rc1.tar.gz
+[2023-06-02 19:50:46] INFO root fetch - processPackages [tc-messageBroker]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [tc-messageBroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc-messageBroker-1.1.3.tar.gz tmp/tc-messageBroker-1.2.0.tar.gz --markdown 20230602/t/tc-messageBroker/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [sym-cli]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [sym-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym_cli-0.5.0.tar.gz tmp/sym_cli-0.5.1.tar.gz --markdown 20230602/s/sym-cli/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 19:50:46] INFO root fetch - processPackages [adqsetup]: executing diffoscope
+[2023-06-02 19:50:46] INFO root fetch - processPackages [adqsetup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adqsetup-2.1b4.tar.gz tmp/adqsetup-2.1rc1.tar.gz --markdown 20230602/a/adqsetup/2.1b4-2.1rc1/diff.md --exclude *.pyd
+[2023-06-02 19:50:47] INFO root fetch - processPackages [apigratis-sdk-python]: Start processing: lightcat
+[2023-06-02 19:50:47] INFO root fetch - main [MainThread]: End processing [apigratis-sdk-python]: success
+[2023-06-02 19:50:47] WARNING root fetch - processPackages [lightcat]: Skipping, unable to determine old version
+[2023-06-02 19:50:47] INFO root fetch - processPackages [lightcat]: Start processing: aiodbm
+[2023-06-02 19:50:47] INFO root fetch - main [MainThread]: End processing [lightcat] error
+[2023-06-02 19:50:47] INFO root fetch - processPackages [aiodbm]: New version: [0.2.0a1] Old Version: [0.1.0a1]
+[2023-06-02 19:50:47] INFO root fetch - processPackages [crawler-commons]: Start processing: radian
+[2023-06-02 19:50:47] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-02 19:50:47] INFO root fetch - processPackages [aiodbm]: Downloading https://files.pythonhosted.org/packages/52/bb/e57bea277a31a9edeb2d9daf6f4c068538c5bc4fbefad501015f0f712dca/aiodbm-0.1.0a1.tar.gz
+[2023-06-02 19:50:47] INFO root fetch - processPackages [radian]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-02 19:50:47] INFO root fetch - processPackages [scale-sensor-fusion-io]: Start processing: metaerg
+[2023-06-02 19:50:47] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
+[2023-06-02 19:50:47] INFO root fetch - processPackages [metaerg]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-02 19:50:47] INFO root fetch - processPackages [radian]: Downloading https://files.pythonhosted.org/packages/01/c0/f2cd7bff1bc507e348925e357b714f407262dda073f2049737ab4721aef8/radian-0.6.5.tar.gz
+[2023-06-02 19:50:47] INFO root fetch - processPackages [ia-sdk]: Start processing: satori-ci
+[2023-06-02 19:50:47] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-06-02 19:50:47] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 19:50:47] INFO root fetch - processPackages [aiodbm]: Downloading https://files.pythonhosted.org/packages/c3/12/a2969926ec3830dd2fd2d9fa4844db3d370d3b554c3c1ff619e3d9061bb1/aiodbm-0.2.0a1.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [metaerg]: Downloading https://files.pythonhosted.org/packages/16/fb/7389e1c833ad118dc13eedbcf78913914600ae0f6cd0ec0ab260627125b4/metaerg-2.3.8.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [aiodbm]: executing diffoscope
+[2023-06-02 19:50:48] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-06-02 19:50:48] INFO root fetch - processPackages [aiodbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodbm-0.1.0a1.tar.gz tmp/aiodbm-0.2.0a1.tar.gz --markdown 20230602/a/aiodbm/0.1.0a1-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-02 19:50:48] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230602/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 19:50:48] INFO root fetch - processPackages [radian]: Downloading https://files.pythonhosted.org/packages/4c/d6/99be0ce0bb7fe096f5d806b46da9cea6bdbcd8cf8a53abf3ff1297b40a65/radian-0.6.6.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [most-queue]: Start processing: plone.app.transmogrifier
+[2023-06-02 19:50:48] INFO root fetch - main [MainThread]: End processing [most-queue]: success
+[2023-06-02 19:50:48] INFO root fetch - processPackages [plone.app.transmogrifier]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-02 19:50:48] INFO root fetch - processPackages [radian]: executing diffoscope
+[2023-06-02 19:50:48] INFO root fetch - processPackages [radian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radian-0.6.5.tar.gz tmp/radian-0.6.6.tar.gz --markdown 20230602/r/radian/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-02 19:50:48] INFO root fetch - processPackages [plone.app.transmogrifier]: Downloading https://files.pythonhosted.org/packages/60/5c/30f028f4e26049a824016365accb3e35c24d6b5efd2f91b093782e5b5a06/plone.app.transmogrifier-3.0.0.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [metaerg]: Downloading https://files.pythonhosted.org/packages/59/4a/0605d2dcbab89e0acde4b644da74430523170d911eb9b77abb556d95e17d/metaerg-2.3.9.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [plone.app.transmogrifier]: Downloading https://files.pythonhosted.org/packages/64/9e/2d062e3c4b14853259d2c9e3da80a6da87dc1b3e8a59caaf013b8ca6e5cd/plone.app.transmogrifier-3.0.1.tar.gz
+[2023-06-02 19:50:48] INFO root fetch - processPackages [tc-messageBroker]: Start processing: asyncwhois
+[2023-06-02 19:50:48] INFO root fetch - main [MainThread]: End processing [tc-messageBroker]: success
+[2023-06-02 19:50:48] INFO root fetch - processPackages [asyncwhois]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 19:50:48] INFO root fetch - processPackages [plone.app.transmogrifier]: executing diffoscope
+[2023-06-02 19:50:48] INFO root fetch - processPackages [plone.app.transmogrifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.transmogrifier-3.0.0.tar.gz tmp/plone.app.transmogrifier-3.0.1.tar.gz --markdown 20230602/p/plone.app.transmogrifier/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-02 19:50:49] INFO root fetch - processPackages [asyncwhois]: Downloading https://files.pythonhosted.org/packages/6c/24/0bb4145222ffa6a20bb19cbd14347f05686af3d7e18bea755ce9c1d6a1c1/asyncwhois-1.0.5.tar.gz
+[2023-06-02 19:50:49] INFO root fetch - processPackages [PyWebUIFramework]: Start processing: binsreg
+[2023-06-02 19:50:49] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 19:50:49] INFO root fetch - processPackages [binsreg]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-02 19:50:49] INFO root fetch - main [MainThread]: End processing [aiodbm]: success
+[2023-06-02 19:50:49] INFO root fetch - main [MainThread]: End processing [adqsetup]: success
+[2023-06-02 19:50:49] INFO root fetch - processPackages [asyncwhois]: Downloading https://files.pythonhosted.org/packages/2d/cd/2e63e46683055c5ff8d8487f40575ce0d8ce05e63530d38d2739ef4a41ed/asyncwhois-1.0.6.tar.gz
+[2023-06-02 19:50:49] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-06-02 19:50:49] INFO root fetch - processPackages [binsreg]: Downloading https://files.pythonhosted.org/packages/b0/67/4ff73dca540750afffed19fef82001476253f52b88e4ed18e07e9cc0d893/binsreg-2.0.1.tar.gz
+[2023-06-02 19:50:49] INFO root fetch - processPackages [metaerg]: executing diffoscope
+[2023-06-02 19:50:49] INFO root fetch - processPackages [metaerg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaerg-2.3.8.tar.gz tmp/metaerg-2.3.9.tar.gz --markdown 20230602/m/metaerg/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-02 19:50:49] INFO root fetch - processPackages [asyncwhois]: executing diffoscope
+[2023-06-02 19:50:49] INFO root fetch - processPackages [asyncwhois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncwhois-1.0.5.tar.gz tmp/asyncwhois-1.0.6.tar.gz --markdown 20230602/a/asyncwhois/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 19:50:49] INFO root fetch - main [MainThread]: End processing [radian]: success
+[2023-06-02 19:50:49] INFO root fetch - processPackages [binsreg]: Downloading https://files.pythonhosted.org/packages/97/d9/9cdb038516496c8ca4176f9056e976ec1c2349dc58776e786c85f4671f90/binsreg-2.0.2.tar.gz
+[2023-06-02 19:50:49] INFO root fetch - processPackages [binsreg]: executing diffoscope
+[2023-06-02 19:50:49] INFO root fetch - processPackages [binsreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsreg-2.0.1.tar.gz tmp/binsreg-2.0.2.tar.gz --markdown 20230602/b/binsreg/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-02 19:50:50] INFO root fetch - main [MainThread]: End processing [plone.app.transmogrifier]: success
+[2023-06-02 19:50:50] INFO root fetch - main [MainThread]: End processing [asyncwhois]: success
+[2023-06-02 19:50:50] INFO root fetch - main [MainThread]: End processing [sym-cli]: success
+[2023-06-02 19:50:50] INFO root fetch - main [MainThread]: End processing [metaerg]: success
+[2023-06-02 19:50:51] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-02 19:50:52] INFO root fetch - main [MainThread]: End processing [binsreg]: success
+[2023-06-02 19:50:52] INFO root fetch - main [MainThread]: Store serial: [18351723]
