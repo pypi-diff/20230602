@@ -8949,3 +8949,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:01:46] INFO root fetch - main [MainThread]: End processing [pymasmovil]: success
 [2023-06-02 09:01:46] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
 [2023-06-02 09:01:46] INFO root fetch - main [MainThread]: Store serial: [18345632]
+[2023-06-02 09:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345632]
+[2023-06-02 09:06:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akerbp.mlops
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnssanalysis
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exergenics-etl
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2023-06-02 09:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rblx-open-cloud
+[2023-06-02 09:06:55] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [exergenics-etl]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [rblx-open-cloud]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.2a5] Old Version: [3.1.2a4]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev98] Old Version: [1.6.0.dev95]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev98] Old Version: [1.6.0.dev95]
+[2023-06-02 09:06:55] INFO root fetch - processPackages [rblx-open-cloud]: Downloading https://files.pythonhosted.org/packages/e1/44/f2ab4106fadf1a97c1ea03e8164e6f4c61a465f3798737e015894f6393d2/rblx-open-cloud-1.2.0.tar.gz
+[2023-06-02 09:06:55] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/5a/cb/16ae3acfcce9c5aac078ee8618340cab8fdea6dfcd202461484e72c38a9e/exergenics-etl-1.1.0.tar.gz
+[2023-06-02 09:06:55] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230602/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230602/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.0.6.tar.gz tmp/exergenics-etl-1.1.0.tar.gz --markdown 20230602/e/exergenics-etl/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev95.tar.gz tmp/c2cciutils-1.6.0.dev98.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev95-1.6.0.dev98/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev95.tar.gz tmp/c2cciutils-1.6.0.dev98.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev95-1.6.0.dev98/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [rblx-open-cloud]: Downloading https://files.pythonhosted.org/packages/b3/15/7256e731a1e1c7056a1c5e71b17d3627ab1f375810f6f5d39e8e7eb8a2bb/rblx-open-cloud-1.3.0.tar.gz
+[2023-06-02 09:06:55] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.2a4.tar.gz tmp/akerbp.mlops-3.1.2a5.tar.gz --markdown 20230602/a/akerbp.mlops/3.1.2a4-3.1.2a5/diff.md --exclude *.pyd
+[2023-06-02 09:06:55] INFO root fetch - processPackages [rblx-open-cloud]: executing diffoscope
+[2023-06-02 09:06:55] INFO root fetch - processPackages [rblx-open-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rblx-open-cloud-1.2.0.tar.gz tmp/rblx-open-cloud-1.3.0.tar.gz --markdown 20230602/r/rblx-open-cloud/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-02 09:06:57] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-06-02 09:06:57] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-06-02 09:06:57] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-02 09:06:57] INFO root fetch - main [MainThread]: End processing [rblx-open-cloud]: success
+[2023-06-02 09:06:57] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-02 09:07:01] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 09:07:02] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 09:07:02] INFO root fetch - main [MainThread]: Store serial: [18345654]
