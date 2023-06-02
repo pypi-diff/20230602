@@ -9628,3 +9628,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:01:22] INFO root fetch - main [MainThread]: End processing [fusionlab]: success
 [2023-06-02 10:01:23] INFO root fetch - main [MainThread]: End processing [sqla-inspect]: success
 [2023-06-02 10:01:23] INFO root fetch - main [MainThread]: Store serial: [18346014]
+[2023-06-02 10:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346014]
+[2023-06-02 10:06:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splunk-add-on-ucc-framework
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upathlib
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evalplus
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmsis-stream
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lokii
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelz-llm
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbrl-gymnasium
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-06-02 10:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PowDeRUL
+[2023-06-02 10:06:32] INFO root fetch - processPackages [cmsis-stream]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [upathlib]: New version: [0.8.1b2] Old Version: [0.8.1b1]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 10:06:32] WARNING root fetch - processPackages [PowDeRUL]: Skipping, unable to determine old version
+[2023-06-02 10:06:32] INFO root fetch - processPackages [PowDeRUL]: Start processing: yetl-framework
+[2023-06-02 10:06:32] INFO root fetch - main [MainThread]: End processing [PowDeRUL] error
+[2023-06-02 10:06:32] INFO root fetch - processPackages [evalplus]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [lokii]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/5a/50/dea5f1469f04ab8854b2c5650f26b496c8c36feebc745a13fbfc68d4f98f/evalplus-0.1.4.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/61/49/a305b3e587d925dea210d7bfd4fb6ec7764287bd4a0213820f258dfd29d8/modelz-llm-23.6.1.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/4e/fd/84d30491a7d724cfd9d0f05b84a86a3f137972a66ddd24b01f980e740016/upathlib-0.8.1b1.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/e6/9e/48d6a53a640fec092d671ad3b6c5b483ab431d2872d3b49f1c6fb05f4dff/bbrl_gymnasium-0.1.3.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/60/05/673967734af8382562d6ca194f731cea465d965be1e930fa0816a198d21e/cmsis_stream-1.2.0-py3-none-any.whl
+[2023-06-02 10:06:32] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/5e/d1/6a8ae53246bae6ca22e4274dc704ce0f6831395bf59884f875f1ad047042/yetl-framework-1.4.4.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.2.tar.gz tmp/bbrl_gymnasium-0.1.3.tar.gz --markdown 20230602/b/bbrl-gymnasium/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/01/d4/64ffee7fee58d241e4e9980128ea19fef5d81f24ba8e1285c91353d23978/lokii-1.1.0.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.1.0-py3-none-any.whl.zip tmp/cmsis_stream-1.2.0-py3-none-any.whl.zip --markdown 20230602/c/cmsis-stream/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.3.tar.gz tmp/yetl-framework-1.4.4.tar.gz --markdown 20230602/y/yetl-framework/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/8d/6c/2c3e716901f3c527253a3222cafbafa20de39ca4d5cd1f614d4796492095/modelz-llm-23.6.2.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230602/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [lokii]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [lokii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokii-1.0.1.tar.gz tmp/lokii-1.1.0.tar.gz --markdown 20230602/l/lokii/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/88/f4/3722fdace5dbd9ba8a5f2b5a1a285e73cdb86c1f4c0187cf66ab1a01ad9a/evalplus-0.1.5.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/48/43/328866155398d93806c477eb3ce980fe8c4adff87397e19cc736777c2258/upathlib-0.8.1b2.tar.gz
+[2023-06-02 10:06:32] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.1.tar.gz tmp/modelz-llm-23.6.2.tar.gz --markdown 20230602/m/modelz-llm/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-06-02 10:06:32] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-06-02 10:06:32] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.8.1b1.tar.gz tmp/upathlib-0.8.1b2.tar.gz --markdown 20230602/u/upathlib/0.8.1b1-0.8.1b2/diff.md --exclude *.pyd
+[2023-06-02 10:06:33] INFO root fetch - processPackages [evalplus]: executing diffoscope
+[2023-06-02 10:06:33] INFO root fetch - processPackages [evalplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalplus-0.1.4.tar.gz tmp/evalplus-0.1.5.tar.gz --markdown 20230602/e/evalplus/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 10:06:34] INFO root fetch - processPackages [bbrl-gymnasium]: Start processing: nwebclient
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-06-02 10:06:34] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 10:06:34] INFO root fetch - processPackages [nwebclient]: Start processing: thirumalaikg-hello
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 10:06:34] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 10:06:34] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 10:06:34] WARNING root fetch - processPackages [thirumalaikg-hello]: Skipping, unable to determine old version
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [thirumalaikg-hello] error
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [lokii]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [evalplus]: success
+[2023-06-02 10:06:34] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 10:06:35] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 10:06:37] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-06-02 10:06:37] INFO root fetch - main [MainThread]: Store serial: [18346057]
