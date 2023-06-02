@@ -7173,3 +7173,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:19:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-customer-rank]: success
 [2023-06-02 06:19:54] INFO root fetch - main [MainThread]: End processing [geocat.viz]: success
 [2023-06-02 06:19:54] INFO root fetch - main [MainThread]: Store serial: [18344407]
+[2023-06-02 06:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344407]
+[2023-06-02 06:25:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-partner-manual-rank
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SuperDuperMetroid
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brunospackage
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-pms
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickstart-vdk
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-Cloud
+[2023-06-02 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlcolvar
+[2023-06-02 06:25:03] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-02 06:25:03] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [7.0.7] Old Version: [7.0.6]
+[2023-06-02 06:25:03] WARNING root fetch - processPackages [brunospackage]: Skipping, unable to determine old version
+[2023-06-02 06:25:03] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-06-02 06:25:03] INFO root fetch - main [MainThread]: End processing [brunospackage] error
+[2023-06-02 06:25:03] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-02 06:25:03] WARNING root fetch - processPackages [mlcolvar]: Skipping, unable to determine old version
+[2023-06-02 06:25:03] INFO root fetch - main [MainThread]: End processing [mlcolvar] error
+[2023-06-02 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.887241432.dev11065] Old Version: [0.2.886059298.dev11048]
+[2023-06-02 06:25:03] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-06-02 06:25:03] INFO root fetch - processPackages [SuperDuperMetroid]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-06-02 06:25:03] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/ac/bb/b1a9b5d4807f3420df02eb0e2cc142ae93a47f85d66f92d31a16cae667a6/cdktf-cdktf-provider-azurerm-7.0.6.tar.gz
+[2023-06-02 06:25:03] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/72/ac/cea36d7895590c28caaa21bdb1c3c092504d2265bab89f52c9a29b2cb9df/kubernetes-stubs-elephant-fork-8.0.1.tar.gz
+[2023-06-02 06:25:03] INFO root fetch - processPackages [SuperDuperMetroid]: Downloading https://files.pythonhosted.org/packages/cd/07/93bf8bd165329b50e887650cb7466d99636055652948e65b63cbab69d612/SuperDuperMetroid-2.3.0.tar.gz
+[2023-06-02 06:25:03] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/58/be/9ac0e971dfa3907af026baf800a7583153557a8a4739641fe0c97f74be13/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-02 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/1c/5c/6740508cd7dd059532d0c500b5659e7f71b9012cd37f82df6848830088e6/quickstart-vdk-0.2.887241432.dev11065.tar.gz
+[2023-06-02 06:25:03] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 30429727>=10485760
+[2023-06-02 06:25:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-06-02 06:25:03] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 06:25:03] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-8.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-8.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-06-02 06:25:03] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/0a/f5/f708754abddf8f5ae93daa6c890ed64187014de9100ac48356f64e2fa2d9/Pandora-Cloud-0.4.4.tar.gz
+[2023-06-02 06:25:04] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-02 06:25:04] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.886059298.dev11048.tar.gz tmp/quickstart-vdk-0.2.887241432.dev11065.tar.gz --markdown 20230602/q/quickstart-vdk/0.2.886059298.dev11048-0.2.887241432.dev11065/diff.md --exclude *.pyd
+[2023-06-02 06:25:04] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-06-02 06:25:04] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-06-02 06:25:04] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-06-02 06:25:04] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.3.tar.gz tmp/Pandora-Cloud-0.4.4.tar.gz --markdown 20230602/P/Pandora-Cloud/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-02 06:25:04] INFO root fetch - processPackages [SuperDuperMetroid]: Downloading https://files.pythonhosted.org/packages/61/0c/aeb3f051da8fd18265073253c3c0a3f946ad1b463a986b4d99c82af108eb/SuperDuperMetroid-2.3.2.tar.gz
+[2023-06-02 06:25:04] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/13/05/1a33934e6988e844c18a4c3a715b1021eded256195538febaf567d6b94eb/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-02 06:25:04] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: executing diffoscope
+[2023-06-02 06:25:04] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-partner-manual-rank/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-02 06:25:04] INFO root fetch - processPackages [SuperDuperMetroid]: executing diffoscope
+[2023-06-02 06:25:04] INFO root fetch - processPackages [SuperDuperMetroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperDuperMetroid-2.3.0.tar.gz tmp/SuperDuperMetroid-2.3.2.tar.gz --markdown 20230602/S/SuperDuperMetroid/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-06-02 06:25:05] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-02 06:25:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-manual-rank]: success
+[2023-06-02 06:25:05] INFO root fetch - main [MainThread]: End processing [SuperDuperMetroid]: success
+[2023-06-02 06:25:06] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-06-02 06:25:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-06-02 06:25:08] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 06:25:08] INFO root fetch - main [MainThread]: Store serial: [18344476]
