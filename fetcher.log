@@ -7324,3 +7324,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:35:35] INFO root fetch - main [MainThread]: End processing [organelle-segmenter-plugin]: success
 [2023-06-02 06:35:39] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2023-06-02 06:35:39] INFO root fetch - main [MainThread]: Store serial: [18344525]
+[2023-06-02 06:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344525]
+[2023-06-02 06:40:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samna
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cythereal-magic
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infer-subc
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-clickable-img-gallery
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brunospackage
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blockwise-parallel-transformer
+[2023-06-02 06:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatgpt-cloud
+[2023-06-02 06:40:48] INFO root fetch - processPackages [st-clickable-img-gallery]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [cythereal-magic]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [brunospackage]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [blockwise-parallel-transformer]: New version: [0.3.2] Old Version: [0.1.2]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [infer-subc]: New version: [0.0.post1] Old Version: [0.0.5b0]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230531] Old Version: [2.14.0.dev20230530]
+[2023-06-02 06:40:48] INFO root fetch - processPackages [chatgpt-cloud]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-02 06:40:49] INFO root fetch - processPackages [infer-subc]: Downloading https://files.pythonhosted.org/packages/6b/80/5114d22cf11cfb705f1920e37ef56a91deb255fe7120a7b3e2600e362ebc/infer-subc-0.0.5b0.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-02 06:40:49] INFO root fetch - processPackages [blockwise-parallel-transformer]: Downloading https://files.pythonhosted.org/packages/25/07/f6047e03b4972b6bb1d559c4dd391085ec8e2eaeee67e321cc7337d63c2f/blockwise-parallel-transformer-0.1.2.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [st-clickable-img-gallery]: Downloading https://files.pythonhosted.org/packages/e7/6e/2ce05dcc05bebfc035c7118405f6957855d48e0f9b6deac4d1f04dc4c99e/st-clickable-img-gallery-0.0.6.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/a3/35/9da82e6b4484370ad985c82a71b080cf8a3645abbfcccb48bd46d4775d92/cythereal-magic-1.9.0.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/b8/bd/095b508ebfab25d886590e01ceb433c9e6faa828ae5376d808790c1ae56e/brunospackage-0.0.4.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/b1/23/d6f9af754c8bdba4c9f8e111333736735ca6ffbc3d80fa385959d7136f3a/tf_nightly_macos-2.14.0.dev20230530-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-02 06:40:49] INFO root fetch - processPackages [chatgpt-cloud]: Downloading https://files.pythonhosted.org/packages/d1/bc/872b034adeca881898622cc190598c5f677584832ac34edfc0ae91a2eddf/chatgpt-cloud-0.5.0.tar.gz
+[2023-06-02 06:40:49] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 196490815>=10485760
+[2023-06-02 06:40:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-02 06:40:49] INFO root fetch - processPackages [blockwise-parallel-transformer]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [blockwise-parallel-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockwise-parallel-transformer-0.1.2.tar.gz tmp/blockwise-parallel-transformer-0.3.2.tar.gz --markdown 20230602/b/blockwise-parallel-transformer/0.1.2-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 06:40:49] INFO root fetch - processPackages [st-clickable-img-gallery]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [st-clickable-img-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-clickable-img-gallery-0.0.5.tar.gz tmp/st-clickable-img-gallery-0.0.6.tar.gz --markdown 20230602/s/st-clickable-img-gallery/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 06:40:49] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.3.tar.gz tmp/brunospackage-0.0.4.tar.gz --markdown 20230602/b/brunospackage/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 06:40:49] INFO root fetch - processPackages [infer-subc]: Downloading https://files.pythonhosted.org/packages/68/2b/9c2911b9204e97e949d7c327a5c9f19e2565956acf9582d31b15f0640a2c/infer-subc-0.0.post1.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/23/53/8b0ec9ff48a894dd2692d3bdf3aa4407c051eb68cb0077536057a0c6aa6f/cythereal-magic-1.9.1.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230602/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-02 06:40:49] INFO root fetch - processPackages [chatgpt-cloud]: Downloading https://files.pythonhosted.org/packages/bb/ca/35e6834fd3554eb9ff440a32d6df4427d805fbe71ebaa8a1d2e2af3b55e6/chatgpt-cloud-0.5.1.tar.gz
+[2023-06-02 06:40:49] INFO root fetch - processPackages [infer-subc]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [infer-subc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infer-subc-0.0.5b0.tar.gz tmp/infer-subc-0.0.post1.tar.gz --markdown 20230602/i/infer-subc/0.0.5b0-0.0.post1/diff.md --exclude *.pyd
+[2023-06-02 06:40:49] INFO root fetch - processPackages [cythereal-magic]: executing diffoscope
+[2023-06-02 06:40:49] INFO root fetch - processPackages [cythereal-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythereal-magic-1.9.0.tar.gz tmp/cythereal-magic-1.9.1.tar.gz --markdown 20230602/c/cythereal-magic/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-02 06:40:50] INFO root fetch - processPackages [chatgpt-cloud]: executing diffoscope
+[2023-06-02 06:40:50] INFO root fetch - processPackages [chatgpt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-cloud-0.5.0.tar.gz tmp/chatgpt-cloud-0.5.1.tar.gz --markdown 20230602/c/chatgpt-cloud/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 06:40:50] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 06:40:50] INFO root fetch - main [MainThread]: End processing [blockwise-parallel-transformer]: success
+[2023-06-02 06:40:50] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-02 06:40:51] INFO root fetch - main [MainThread]: End processing [st-clickable-img-gallery]: success
+[2023-06-02 06:40:51] INFO root fetch - main [MainThread]: End processing [infer-subc]: success
+[2023-06-02 06:40:53] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
+[2023-06-02 06:40:55] INFO root fetch - main [MainThread]: End processing [chatgpt-cloud]: success
+[2023-06-02 06:40:55] INFO root fetch - main [MainThread]: Store serial: [18344549]
