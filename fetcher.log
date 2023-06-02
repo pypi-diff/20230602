@@ -6482,3 +6482,50 @@
 [2023-06-02 05:16:51] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
 [2023-06-02 05:16:52] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-02 05:16:52] INFO root fetch - main [MainThread]: Store serial: [18344071]
+[2023-06-02 05:21:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344071]
+[2023-06-02 05:22:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrew
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: googleapiutils2
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: carbs
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylabel
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2023-06-02 05:22:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-shortcut
+[2023-06-02 05:22:00] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-02 05:22:00] INFO root fetch - processPackages [googleapiutils2]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-02 05:22:00] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [8.0.0] Old Version: [7.0.1]
+[2023-06-02 05:22:00] INFO root fetch - processPackages [tap-shortcut]: New version: [0.0.3a1] Old Version: [0.0.2a1]
+[2023-06-02 05:22:00] INFO root fetch - processPackages [pylabel]: New version: [0.1a12] Old Version: [0.1.9]
+[2023-06-02 05:22:00] WARNING root fetch - processPackages [carbs]: Skipping, unable to determine old version
+[2023-06-02 05:22:00] INFO root fetch - main [MainThread]: End processing [carbs] error
+[2023-06-02 05:22:00] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-06-02 05:22:01] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [1.8.0] Old Version: [1.7.5]
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230602/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-02 05:22:01] INFO root fetch - processPackages [tap-shortcut]: executing diffoscope
+[2023-06-02 05:22:01] INFO root fetch - processPackages [tap-shortcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_shortcut-0.0.2a1.tar.gz tmp/tap_shortcut-0.0.3a1.tar.gz --markdown 20230602/t/tap-shortcut/0.0.2a1-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-02 05:22:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/20/80/f080126241520a98d705a0fa9fc00152c6453499002dee838d689e3e0a75/cdktf-cdktf-provider-spotinst-7.0.7.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/4c/99/4e06f3e99b3ca3fe8b3e3058a4e0cfcdd5b02a2bee0d274a21fafdc86a5f/kubernetes-stubs-elephant-fork-8.0.0.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/de/3c/941bda2ca41a25e5ce7b43c12cc3740de93d70efe0a6d45cbe3a39eae76f/googleapiutils2-0.8.0.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pylabel]: Downloading https://files.pythonhosted.org/packages/72/a5/98b5111370df7ce6263ebbe58d4637317f6b6910a0416ba5247c7d597dcf/pylabel-0.1.9.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/2d/f6/fa7a50f9dbf52ff4ff688cff8329aee3ea4903f3f01dc2ebb2712d782dda/nonebot-plugin-osubot-1.7.5.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-02 05:22:01] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.7.1.tar.gz tmp/googleapiutils2-0.8.0.tar.gz --markdown 20230602/g/googleapiutils2/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 05:22:01] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 05:22:01] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-7.0.1.tar.gz tmp/kubernetes-stubs-elephant-fork-8.0.0.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/7.0.1-8.0.0/diff.md --exclude *.pyd
+[2023-06-02 05:22:01] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29657346>=10485760
+[2023-06-02 05:22:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pylabel]: Downloading https://files.pythonhosted.org/packages/05/6a/002b3a9216c113eead172a41914d74e6b73a7f5a9d7e8675195698e22079/pylabel-0.1a12.tar.gz
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pylabel]: executing diffoscope
+[2023-06-02 05:22:01] INFO root fetch - processPackages [pylabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabel-0.1.9.tar.gz tmp/pylabel-0.1a12.tar.gz --markdown 20230602/p/pylabel/0.1.9-0.1a12/diff.md --exclude *.pyd
+[2023-06-02 05:22:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/22/cb/a908fffd3a374c82945e6989941dff531670e31cb15703c3551502f54e3b/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz
+[2023-06-02 05:22:02] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-06-02 05:22:02] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-02 05:22:02] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.7.tar.gz tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-spotinst/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2023-06-02 05:22:02] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-02 05:22:02] INFO root fetch - main [MainThread]: End processing [tap-shortcut]: success
+[2023-06-02 05:22:02] INFO root fetch - main [MainThread]: End processing [pylabel]: success
+[2023-06-02 05:22:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-02 05:22:09] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 05:22:09] INFO root fetch - main [MainThread]: Store serial: [18344097]
