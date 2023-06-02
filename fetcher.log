@@ -8535,3 +8535,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [roboduck]: success
 [2023-06-02 08:30:27] INFO root fetch - main [MainThread]: End processing [bamboo-engine]: success
 [2023-06-02 08:30:27] INFO root fetch - main [MainThread]: Store serial: [18345339]
+[2023-06-02 08:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345339]
+[2023-06-02 08:35:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-mzarr
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudtoken
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-sen2like
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcarhilclient
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaparoo-python-package
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irsxequip
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbrl-gymnasium
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepflash2
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-jsonpath
+[2023-06-02 08:35:36] INFO root fetch - processPackages [vcarhilclient]: New version: [1.0.601] Old Version: [1.0.531]
+[2023-06-02 08:35:36] WARNING root fetch - processPackages [napari-mzarr]: Skipping, unable to determine old version
+[2023-06-02 08:35:36] INFO root fetch - processPackages [napari-mzarr]: Start processing: odoo-addon-account-receipt-send
+[2023-06-02 08:35:36] INFO root fetch - main [MainThread]: End processing [napari-mzarr] error
+[2023-06-02 08:35:36] INFO root fetch - processPackages [kaparoo-python-package]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc3] Old Version: [2023.5.0rc2]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [python-jsonpath]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 08:35:36] WARNING root fetch - processPackages [irsxequip]: Skipping, unable to determine old version
+[2023-06-02 08:35:36] INFO root fetch - processPackages [cloudtoken]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [irsxequip]: Start processing: ab-test-simulator
+[2023-06-02 08:35:36] INFO root fetch - main [MainThread]: End processing [irsxequip] error
+[2023-06-02 08:35:36] INFO root fetch - processPackages [deepflash2]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [odoo-addon-account-receipt-send]: New version: [16.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-06-02 08:35:36] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-02 08:35:36] WARNING root fetch - processPackages [ab-test-simulator]: Skipping, unable to determine old version
+[2023-06-02 08:35:36] INFO root fetch - processPackages [ab-test-simulator]: Start processing: hugchat
+[2023-06-02 08:35:36] INFO root fetch - main [MainThread]: End processing [ab-test-simulator] error
+[2023-06-02 08:35:36] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-02 08:35:36] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230602/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-02 08:35:36] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/ee/ae/18b58676fd33994b48b516877a81e69d1f20be056e4e76f8c77a921a414a/bbrl_gymnasium-0.1.1.tar.gz
+[2023-06-02 08:35:36] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6b/5d/7d1c23474850255e03f5b469d474fa441b4a53e90551936d5b6327170b25/eodc_faas_sen2like-2023.5.0rc3.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [hugchat]: New version: [0.0.7] Old Version: [0.0.6.2]
+[2023-06-02 08:35:37] INFO root fetch - processPackages [deepflash2]: Downloading https://files.pythonhosted.org/packages/85/ad/d7e22e8073ba12b120ddb4803b2bc46f92ef8fffaa74b846a4ed67128f64/deepflash2-0.2.2.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/b2/e3/189e7efab5de98fd478827251bd029753293d09bbe746616f5b081417860/vcarhilclient-1.0.601.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc2.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc3.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc2-2023.5.0rc3/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [kaparoo-python-package]: Downloading https://files.pythonhosted.org/packages/eb/e1/6df0bcf8aa63c261011ede19d6b842a3ccb3b38b9aedce7512842b78c082/kaparoo_python_package-0.2.2.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/0a/38/bc1cec64d7a2b198c0b3e9cd7d3cf5193094f508e0d5cf51ba5743989a7b/python_jsonpath-0.7.1.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [odoo-addon-account-receipt-send]: Downloading https://files.pythonhosted.org/packages/e7/44/99f17a035d77b02a3e3d07391cabf5b58d0abfe1f493f69c6b946c89c21d/odoo_addon_account_receipt_send-15.0.1.0.1-py3-none-any.whl
+[2023-06-02 08:35:37] INFO root fetch - processPackages [vcarhilclient]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [vcarhilclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcarhilclient-1.0.531.tar.gz tmp/vcarhilclient-1.0.601.tar.gz --markdown 20230602/v/vcarhilclient/1.0.531-1.0.601/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/22/b2/1b329f32cd6e0fbc75413f7063468b01b5441b3f5897f97880283a04be34/bbrl_gymnasium-0.1.2.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [kaparoo-python-package]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [kaparoo-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_python_package-0.2.1.tar.gz tmp/kaparoo_python_package-0.2.2.tar.gz --markdown 20230602/k/kaparoo-python-package/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/33/9c/bbe97835f69f89856a0b4db5539891f5d4e30c20e0cd0b4b1f02b42e8dca/cloudtoken-2.1.8-py3-none-any.whl
+[2023-06-02 08:35:37] INFO root fetch - processPackages [python-jsonpath]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [python-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonpath-0.7.0.tar.gz tmp/python_jsonpath-0.7.1.tar.gz --markdown 20230602/p/python-jsonpath/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [deepflash2]: Downloading https://files.pythonhosted.org/packages/50/e0/b2eccb0658cb348518962ffac449d8e457c241f5e5e8bebe5c5be0090b2a/deepflash2-0.2.3.tar.gz
+[2023-06-02 08:35:37] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.1.tar.gz tmp/bbrl_gymnasium-0.1.2.tar.gz --markdown 20230602/b/bbrl-gymnasium/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [cloudtoken]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [cloudtoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoken-2.1.7-py3-none-any.whl.zip tmp/cloudtoken-2.1.8-py3-none-any.whl.zip --markdown 20230602/c/cloudtoken/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [deepflash2]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [deepflash2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepflash2-0.2.2.tar.gz tmp/deepflash2-0.2.3.tar.gz --markdown 20230602/d/deepflash2/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/bc/99/a820df8d3bb0c4f92b6b71073b24960c33d39b0eb95dc6f72267d63738e4/hugchat-0.0.7-py3-none-any.whl
+[2023-06-02 08:35:37] INFO root fetch - processPackages [odoo-addon-account-receipt-send]: Downloading https://files.pythonhosted.org/packages/bd/be/f846ad45f477e492dafc3c188293b81ff716c819d6a330d9f01070698e9d/odoo_addon_account_receipt_send-16.0.1.0.2-py3-none-any.whl
+[2023-06-02 08:35:37] INFO root fetch - processPackages [odoo-addon-account-receipt-send]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [odoo-addon-account-receipt-send]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_receipt_send-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_receipt_send-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-receipt-send/15.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:35:37] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-06-02 08:35:37] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.6.2.tar.gz tmp/hugchat-0.0.7-py3-none-any.whl.zip --markdown 20230602/h/hugchat/0.0.6.2-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [kaparoo-python-package]: success
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [cloudtoken]: success
+[2023-06-02 08:35:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-receipt-send]: success
+[2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
+[2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [vcarhilclient]: success
+[2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [deepflash2]: success
+[2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-02 08:35:39] INFO root fetch - main [MainThread]: Store serial: [18345379]
