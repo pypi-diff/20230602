@@ -21076,3 +21076,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 22:27:27] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 22:27:27] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 22:27:27] INFO root fetch - main [MainThread]: Store serial: [18353044]
+[2023-06-02 22:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353044]
+[2023-06-02 22:32:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prostate-nomograms
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ignition-api-stubs
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytsaurus-spyt
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencan-cand
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystools
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazydev
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatdocs
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymexc
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rising-plugin
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: determined
+[2023-06-02 22:32:37] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [lazydev]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [pymexc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [prostate-nomograms]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [opencan-cand]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 22:32:37] WARNING root fetch - processPackages [chatdocs]: Skipping, unable to determine old version
+[2023-06-02 22:32:37] INFO root fetch - processPackages [chatdocs]: Start processing: model-hub
+[2023-06-02 22:32:37] INFO root fetch - main [MainThread]: End processing [chatdocs] error
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ignition-api-stubs]: New version: [8.1.28] Old Version: [8.1.27]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b451.post5605632.dev23] Old Version: [1.70.1b451.post25341090.dev21]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [determined]: New version: [0.23.0rc3] Old Version: [0.23.0rc1]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc3] Old Version: [0.23.0rc1]
+[2023-06-02 22:32:37] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 22:32:37] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 22:32:37] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/c1/00/71f340d19d61a171bc54f1f4b7dcc3ddd0df2622ee87ec9480f64edff06d/ignition_api_stubs-8.1.27.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [pymexc]: Downloading https://files.pythonhosted.org/packages/f1/21/9e9b79979573590226e22f9334bb94066ef6aeeb27c187d4603e644f47aa/pymexc-1.0.4.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/3b/82/fdcccafc4240aefbd2397d4a0ecec22f07273697bf762a1ad37ad512a961/lazydev-0.0.4.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [pymexc]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [pymexc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymexc-1.0.3.tar.gz tmp/pymexc-1.0.4.tar.gz --markdown 20230602/p/pymexc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [opencan-cand]: Downloading https://files.pythonhosted.org/packages/eb/7b/f284a0159cb04b8e49d898d78cf07a456bfa2b072f6128fdab9f5c884e3e/opencan-cand-0.1.2.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/d0/bc/8aae0e01072dd34fe8704bcc2870d7e397faca10a797050c0b00f4ef851c/prostate-nomograms-0.0.5.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/eb/72/acf0b96c6eb7c827c71af387662c7b2a60410706130b7bfc5b9e8babb129/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/cd/e2/a5c9912686491f72d9552443e2922afdc65615d76e7285f73fcc1717f242/determined-0.23.0rc3-py3-none-any.whl
+[2023-06-02 22:32:38] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/dd/64/07c74e7de6ef14191544b44041f2cad46f9fca954b765b21a58382bad514/model_hub-0.23.0rc3-py3-none-any.whl
+[2023-06-02 22:32:38] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230602/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [lazydev]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [lazydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazydev-0.0.3.tar.gz tmp/lazydev-0.0.4.tar.gz --markdown 20230602/l/lazydev/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [prostate-nomograms]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [prostate-nomograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prostate-nomograms-0.0.4.tar.gz tmp/prostate-nomograms-0.0.5.tar.gz --markdown 20230602/p/prostate-nomograms/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [opencan-cand]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [opencan-cand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencan-cand-0.1.1.tar.gz tmp/opencan-cand-0.1.2.tar.gz --markdown 20230602/o/opencan-cand/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/f5/a7/7af806cca389f4fe2b23d93b90e98dab6f9f4540f6bc028e5e668ad6366b/ignition-api-stubs-8.1.28.tar.gz
+[2023-06-02 22:32:38] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.0rc1-py3-none-any.whl.zip tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip --markdown 20230602/m/model-hub/0.23.0rc1-0.23.0rc3/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.0rc1-py3-none-any.whl.zip tmp/determined-0.23.0rc3-py3-none-any.whl.zip --markdown 20230602/d/determined/0.23.0rc1-0.23.0rc3/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b451.post25341090.dev21.tar.gz tmp/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz --markdown 20230602/y/ytsaurus-spyt/1.70.1b451.post25341090.dev21-1.70.1b451.post5605632.dev23/diff.md --exclude *.pyd
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ignition-api-stubs]: executing diffoscope
+[2023-06-02 22:32:38] INFO root fetch - processPackages [ignition-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api_stubs-8.1.27.tar.gz tmp/ignition-api-stubs-8.1.28.tar.gz --markdown 20230602/i/ignition-api-stubs/8.1.27-8.1.28/diff.md --exclude *.pyd
+[2023-06-02 22:32:40] INFO root fetch - processPackages [model-hub]: Start processing: pulumi-kubernetes
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-02 22:32:40] INFO root fetch - processPackages [opencan-cand]: Start processing: git-ling
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [opencan-cand]: success
+[2023-06-02 22:32:40] WARNING root fetch - processPackages [git-ling]: Skipping, unable to determine old version
+[2023-06-02 22:32:40] INFO root fetch - processPackages [git-ling]: Start processing: pykrak
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [git-ling] error
+[2023-06-02 22:32:40] INFO root fetch - processPackages [ytsaurus-spyt]: Start processing: FuncsForSPO
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-02 22:32:40] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [prostate-nomograms]: success
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pykrak]: New version: [2.0.1] Old Version: [1.0.1]
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [pymexc]: success
+[2023-06-02 22:32:40] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 22:32:40] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.4.tar.gz tmp/FuncsForSPO-5.0.5.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [lazydev]: success
+[2023-06-02 22:32:40] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pykrak]: Downloading https://files.pythonhosted.org/packages/6e/0e/b49e773c0e75146f81d55fdb8ecb6dc6776df4450d93f21f860395e4ce0e/pykrak-1.0.1.tar.gz
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230602/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pykrak]: Downloading https://files.pythonhosted.org/packages/9c/07/0d55fde3ca9cc6b61cdab7a5480d9c97f16e60fae5af23a5cddf86f014a6/pykrak-2.0.1.tar.gz
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pykrak]: executing diffoscope
+[2023-06-02 22:32:40] INFO root fetch - processPackages [pykrak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrak-1.0.1.tar.gz tmp/pykrak-2.0.1.tar.gz --markdown 20230602/p/pykrak/1.0.1-2.0.1/diff.md --exclude *.pyd
+[2023-06-02 22:32:41] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 22:32:42] INFO root fetch - main [MainThread]: End processing [pykrak]: success
+[2023-06-02 22:32:42] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-02 22:32:42] INFO root fetch - main [MainThread]: End processing [ignition-api-stubs]: success
+[2023-06-02 22:32:44] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-02 22:35:38] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 22:35:38] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 22:35:38] INFO root fetch - main [MainThread]: Store serial: [18353092]
