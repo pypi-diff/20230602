@@ -9879,3 +9879,134 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:17:09] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2023-06-02 10:17:59] INFO root fetch - main [MainThread]: End processing [pygef]: success
 [2023-06-02 10:17:59] INFO root fetch - main [MainThread]: Store serial: [18346163]
+[2023-06-02 10:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346163]
+[2023-06-02 10:23:08] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prisma-pynext
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consumableai
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: browserstack-sdk
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-docmind-api20220729
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huntflow-api-client
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citrusdb
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labelme2yolo
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: impact-stack-observability
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flexy
+[2023-06-02 10:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc-faas-sen2like
+[2023-06-02 10:23:08] INFO root fetch - processPackages [citrusdb]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [impact-stack-observability]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.8.1] Old Version: [1.7.4]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [consumableai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 10:23:08] INFO root fetch - processPackages [labelme2yolo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 10:23:08] WARNING root fetch - processPackages [flexy]: Skipping, unable to determine old version
+[2023-06-02 10:23:08] INFO root fetch - processPackages [flexy]: Start processing: brunospackage
+[2023-06-02 10:23:08] INFO root fetch - main [MainThread]: End processing [flexy] error
+[2023-06-02 10:23:08] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc6] Old Version: [2023.5.0rc5]
+[2023-06-02 10:23:09] INFO root fetch - processPackages [brunospackage]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-02 10:23:09] INFO root fetch - processPackages [labelme2yolo]: Downloading https://files.pythonhosted.org/packages/23/e9/6beba752571dc8931113161a1576788630fd7f8fa485c8d5984bfb10d8aa/labelme2yolo-0.1.1.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: Downloading https://files.pythonhosted.org/packages/65/30/6e5e6b3a134bf3def2029b6320ab0ab58818e37161419fd02b31a007e030/alibabacloud_docmind-api20220729-1.0.0.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [consumableai]: Downloading https://files.pythonhosted.org/packages/a0/0e/3fff4bd47edebbefdcb42f36d8f99318de4df80ae5f21d252873a7628643/consumableai-0.1.0-py3-none-any.whl
+[2023-06-02 10:23:09] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/fb/a7/ec67e41fefde3c12773093d559644bf8cf4b302db9cf3825fcdd6749a932/eodc_faas_sen2like-2023.5.0rc6.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [impact-stack-observability]: Downloading https://files.pythonhosted.org/packages/10/43/042cdf971bc578b822e881714851cc927e0104a4de8f38ea101ab258d5ae/impact-stack-observability-0.1.0.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/ac/77/0843d92036bee8f14b374a01944a8a1342b0c87ba92f04fbd76c6c6c8f3b/brunospackage-0.0.8.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230602/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/9a/2d/4759bd949b9a5676a996372ef818d657690a0d9f760380059df02624dfc4/citrusdb-0.3.1.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc5.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc6.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc5-2023.5.0rc6/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [consumableai]: Downloading https://files.pythonhosted.org/packages/d4/df/ddc106abf0324976c8feb90e86ab1252799c25cc38c4c83957cc91067553/consumableai-0.1.1-py3-none-any.whl
+[2023-06-02 10:23:09] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.7.tar.gz tmp/brunospackage-0.0.8.tar.gz --markdown 20230602/b/brunospackage/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.7.4.tar.gz tmp/browserstack_sdk-1.8.1.tar.gz --markdown 20230602/b/browserstack-sdk/1.7.4-1.8.1/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [labelme2yolo]: Downloading https://files.pythonhosted.org/packages/b1/fb/1f51c4e002e5c066427d9bad9ec00dc1900d92c5ef3626c860873449e523/labelme2yolo-0.1.2.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: Downloading https://files.pythonhosted.org/packages/85/ff/6714f3318fe600c3c61aa8fd53f49661e287b2bdf5cc0e2a38fa98b74705/alibabacloud_docmind-api20220729-1.0.1.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.3.0.tar.gz tmp/citrusdb-0.3.1.tar.gz --markdown 20230602/c/citrusdb/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.8.tar.gz tmp/prisma_pynext-0.8.9.tar.gz --markdown 20230602/p/prisma-pynext/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [consumableai]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [consumableai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consumableai-0.1.0-py3-none-any.whl.zip tmp/consumableai-0.1.1-py3-none-any.whl.zip --markdown 20230602/c/consumableai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [labelme2yolo]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [labelme2yolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme2yolo-0.1.1.tar.gz tmp/labelme2yolo-0.1.2.tar.gz --markdown 20230602/l/labelme2yolo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [impact-stack-observability]: Downloading https://files.pythonhosted.org/packages/c2/8f/fa5e338393f311c8b2e9eed7b017eed8397991d80fef29deaeeebe494f39/impact-stack-observability-0.2.0.tar.gz
+[2023-06-02 10:23:09] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_docmind-api20220729-1.0.0.tar.gz tmp/alibabacloud_docmind-api20220729-1.0.1.tar.gz --markdown 20230602/a/alibabacloud-docmind-api20220729/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 10:23:09] INFO root fetch - processPackages [impact-stack-observability]: executing diffoscope
+[2023-06-02 10:23:09] INFO root fetch - processPackages [impact-stack-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impact-stack-observability-0.1.0.tar.gz tmp/impact-stack-observability-0.2.0.tar.gz --markdown 20230602/i/impact-stack-observability/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 10:23:10] INFO root fetch - processPackages [brunospackage]: Start processing: sayhellotoyou
+[2023-06-02 10:23:10] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 10:23:10] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: nonebot-plugin-session
+[2023-06-02 10:23:10] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 10:23:10] WARNING root fetch - processPackages [sayhellotoyou]: Skipping, unable to determine old version
+[2023-06-02 10:23:10] INFO root fetch - processPackages [sayhellotoyou]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 10:23:10] INFO root fetch - main [MainThread]: End processing [sayhellotoyou] error
+[2023-06-02 10:23:10] INFO root fetch - processPackages [nonebot-plugin-session]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 10:23:10] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 10:23:10] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 10:23:10] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] INFO root fetch - processPackages [consumableai]: Start processing: ingescape
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [consumableai]: success
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ingescape]: New version: [3.5.3] Old Version: [3.5.1]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/dd/dc/5a0b15cad092dd7029abe5ea13ebc5676704fcf781337fa3179097fce459/nonebot_plugin_session-0.0.3.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [labelme2yolo]: Start processing: rongdavbaaddins
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [labelme2yolo]: success
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ingescape]: Downloading https://files.pythonhosted.org/packages/98/b6/7b0b91bccc735f7c6746f7fd9db8bda8d900fec341f964716f6cb4b9afb9/ingescape-3.5.1.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/82/1f/fb54f0afb17d84254f6167526b2ba5e811596194c65fd4915be8234476ac/nonebot_plugin_session-0.0.4.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [huntflow-api-client]: Start processing: prisma-pynext
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-02 10:23:11] INFO root fetch - processPackages [prisma-pynext]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [nonebot-plugin-session]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [nonebot-plugin-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_session-0.0.3.tar.gz tmp/nonebot_plugin_session-0.0.4.tar.gz --markdown 20230602/n/nonebot-plugin-session/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] WARNING root fetch - processPackages [ingescape]: Skipping package: exceeds size limit 15151360>=10485760
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ingescape]: Start processing: ronnytest
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [ingescape] error
+[2023-06-02 10:23:11] INFO root fetch - processPackages [citrusdb]: Start processing: falocalrepo
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ronnytest]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [falocalrepo]: New version: [4.4.5] Old Version: [4.4.4]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/c5/55/138a6a38b4c2c2c7cd908deaec4af16844421321e96f1caf0751496134a8/rongdavbaaddins-0.0.0.1.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [prisma-pynext]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [prisma-pynext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma_pynext-0.8.8.tar.gz tmp/prisma_pynext-0.8.9.tar.gz --markdown 20230602/p/prisma-pynext/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] INFO root fetch - processPackages [alibabacloud-docmind-api20220729]: Start processing: pottery-prod
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-docmind-api20220729]: success
+[2023-06-02 10:23:11] INFO root fetch - processPackages [falocalrepo]: Downloading https://files.pythonhosted.org/packages/5d/02/ecea8c7a72c5f81887c453196fc2b90e057b0ac9c3bb9ac1eeaebe32357c/falocalrepo-4.4.4.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/e7/d6/9906c0e32d7b06282fc66d39fa67d9b7861a511aeb4b20087db5b6baa3db/rongdavbaaddins-0.0.0.2.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.0.1.tar.gz tmp/rongdavbaaddins-0.0.0.2.tar.gz --markdown 20230602/r/rongdavbaaddins/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] WARNING root fetch - processPackages [pottery-prod]: Skipping, unable to determine old version
+[2023-06-02 10:23:11] INFO root fetch - processPackages [pottery-prod]: Start processing: basic-bar
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [pottery-prod] error
+[2023-06-02 10:23:11] WARNING root fetch - processPackages [basic-bar]: Skipping, unable to determine old version
+[2023-06-02 10:23:11] INFO root fetch - processPackages [basic-bar]: Start processing: neurodatagen
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [basic-bar] error
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/c5/d5/84386dee3cf3d50ff307e4fd039c54a88f99d99b95eae9f53da3556ede2f/ronnytest-0.3.0.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [neurodatagen]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.2.8.tar.gz tmp/ronnytest-0.3.0.tar.gz --markdown 20230602/r/ronnytest/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] INFO root fetch - processPackages [falocalrepo]: Downloading https://files.pythonhosted.org/packages/d4/c8/bc9460dd8ad6321af53312b91bc0574a413b263d40aff55a9619011a2dfc/falocalrepo-4.4.5.tar.gz
+[2023-06-02 10:23:11] INFO root fetch - processPackages [neurodatagen]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [neurodatagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodatagen-0.1.0a2.tar.gz tmp/neurodatagen-0.1.0a3.tar.gz --markdown 20230602/n/neurodatagen/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] INFO root fetch - processPackages [falocalrepo]: executing diffoscope
+[2023-06-02 10:23:11] INFO root fetch - processPackages [falocalrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falocalrepo-4.4.4.tar.gz tmp/falocalrepo-4.4.5.tar.gz --markdown 20230602/f/falocalrepo/4.4.4-4.4.5/diff.md --exclude *.pyd
+[2023-06-02 10:23:11] INFO root fetch - processPackages [impact-stack-observability]: Start processing: PowDeRUL
+[2023-06-02 10:23:11] INFO root fetch - main [MainThread]: End processing [impact-stack-observability]: success
+[2023-06-02 10:23:12] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-02 10:23:12] INFO root fetch - processPackages [PowDeRUL]: Downloading https://files.pythonhosted.org/packages/6e/cb/b0f252b6540ccd987b6695c91f514020fd14d378232b7a03a028b1cb5724/PowDeRUL-1.0.0.tar.gz
+[2023-06-02 10:23:12] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-06-02 10:23:12] INFO root fetch - processPackages [PowDeRUL]: Downloading https://files.pythonhosted.org/packages/2c/14/73ba001e78376176cff81944185c079201df0c287dba036a5e2e07523cec/PowDeRUL-1.0.2.tar.gz
+[2023-06-02 10:23:12] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 10:23:12] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.0.tar.gz tmp/PowDeRUL-1.0.2.tar.gz --markdown 20230602/P/PowDeRUL/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 10:23:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-session]: success
+[2023-06-02 10:23:12] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-02 10:23:12] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-02 10:23:13] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-06-02 10:23:13] INFO root fetch - main [MainThread]: End processing [neurodatagen]: success
+[2023-06-02 10:23:13] INFO root fetch - main [MainThread]: End processing [prisma-pynext]: success
+[2023-06-02 10:23:13] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 10:23:14] INFO root fetch - main [MainThread]: End processing [falocalrepo]: success
+[2023-06-02 10:23:19] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 10:23:19] INFO root fetch - main [MainThread]: Store serial: [18346248]
