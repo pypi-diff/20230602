@@ -7224,3 +7224,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:25:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2023-06-02 06:25:08] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 06:25:08] INFO root fetch - main [MainThread]: Store serial: [18344476]
+[2023-06-02 06:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344476]
+[2023-06-02 06:30:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelz-llm
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-qa
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-kalite
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalkpy
+[2023-06-02 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wdpass
+[2023-06-02 06:30:18] INFO root fetch - processPackages [wdpass]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [chalkpy]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.21] Old Version: [23.5.20]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [data-kalite]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [code-qa]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 06:30:18] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/41/98/627c02ec8edf35e29b57c0718763475b9c787735e5e7d6c995b13e7fd15b/chalkpy-2.5.6.tar.gz
+[2023-06-02 06:30:18] INFO root fetch - processPackages [wdpass]: Downloading https://files.pythonhosted.org/packages/51/2b/0da2573b8f7ba92be8dab976175adec2c7c834e424be6be36b3a6a9bdb57/wdpass-0.0.4-py3.8.egg
+[2023-06-02 06:30:18] INFO root fetch - processPackages [code-qa]: Downloading https://files.pythonhosted.org/packages/5b/9c/1aeb58830dc16042a0160e88500671ed96bd5ba567a0a2cb84ef8f20854a/code_qa-0.2.1.tar.gz
+[2023-06-02 06:30:18] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/a8/69/9d7c384b4e88bf076833a11ea96647752f063fb885455c2e69ed67b50bb5/modelz-llm-23.5.21.tar.gz
+[2023-06-02 06:30:18] INFO root fetch - processPackages [data-kalite]: Downloading https://files.pythonhosted.org/packages/7a/59/c417f302a6c8b1f23060486cc8cf54444b0b848964dd658d8566d558108c/data_kalite-1.0.3-py3-none-any.whl
+[2023-06-02 06:30:18] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.5.5.tar.gz tmp/chalkpy-2.5.6.tar.gz --markdown 20230602/c/chalkpy/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-06-02 06:30:18] INFO root fetch - processPackages [code-qa]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [code-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_qa-0.2.0.tar.gz tmp/code_qa-0.2.1.tar.gz --markdown 20230602/c/code-qa/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 06:30:18] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.20.tar.gz tmp/modelz-llm-23.5.21.tar.gz --markdown 20230602/m/modelz-llm/23.5.20-23.5.21/diff.md --exclude *.pyd
+[2023-06-02 06:30:18] INFO root fetch - processPackages [data-kalite]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [data-kalite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_kalite-1.0.2-py3-none-any.whl.zip tmp/data_kalite-1.0.3-py3-none-any.whl.zip --markdown 20230602/d/data-kalite/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 06:30:18] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230602/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 06:30:18] INFO root fetch - processPackages [wdpass]: Downloading https://files.pythonhosted.org/packages/7e/b9/875b4270317bb3cea26acdb07f6b33c85417b814852bcced96e6053e8c77/wdpass-0.1.0.tar.gz
+[2023-06-02 06:30:18] INFO root fetch - processPackages [wdpass]: executing diffoscope
+[2023-06-02 06:30:18] INFO root fetch - processPackages [wdpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdpass-0.0.4-py3.8.egg tmp/wdpass-0.1.0.tar.gz --markdown 20230602/w/wdpass/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 06:30:19] INFO root fetch - main [MainThread]: End processing [code-qa]: success
+[2023-06-02 06:30:19] INFO root fetch - main [MainThread]: End processing [wdpass]: success
+[2023-06-02 06:30:19] INFO root fetch - main [MainThread]: End processing [data-kalite]: success
+[2023-06-02 06:30:19] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 06:30:20] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-02 06:30:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-02 06:30:23] INFO root fetch - main [MainThread]: Store serial: [18344492]
