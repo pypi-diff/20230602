@@ -15863,3 +15863,162 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 16:30:17] INFO root fetch - main [MainThread]: End processing [PyQt6]: success
 [2023-06-02 16:31:06] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-06-02 16:31:06] INFO root fetch - main [MainThread]: Store serial: [18349744]
+[2023-06-02 16:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349744]
+[2023-06-02 16:36:15] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Brigadir-Ser
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datajudge
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxas
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merqube-client-lib
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bio-attention
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcsas3
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: triangle-check
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GPyReg
+[2023-06-02 16:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kolla-ansible
+[2023-06-02 16:36:15] INFO root fetch - processPackages [bio-attention]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 16:36:16] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-02 16:36:16] WARNING root fetch - processPackages [cxas]: Skipping, unable to determine old version
+[2023-06-02 16:36:16] INFO root fetch - processPackages [cxas]: Start processing: z3c.checkversions
+[2023-06-02 16:36:16] INFO root fetch - processPackages [mcsas3]: New version: [1.0.4.dev2] Old Version: [1.0.4.dev1]
+[2023-06-02 16:36:16] INFO root fetch - main [MainThread]: End processing [cxas] error
+[2023-06-02 16:36:16] INFO root fetch - processPackages [triangle-check]: New version: [1.1] Old Version: [1.0]
+[2023-06-02 16:36:16] WARNING root fetch - processPackages [lollms]: Skipping, unable to determine old version
+[2023-06-02 16:36:16] INFO root fetch - processPackages [lollms]: Start processing: thiruchatgpt
+[2023-06-02 16:36:16] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-02 16:36:16] INFO root fetch - processPackages [GPyReg]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 16:36:16] WARNING root fetch - processPackages [Brigadir-Ser]: Skipping, unable to determine old version
+[2023-06-02 16:36:16] INFO root fetch - processPackages [datajudge]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-02 16:36:16] INFO root fetch - processPackages [Brigadir-Ser]: Start processing: zen-engine
+[2023-06-02 16:36:16] INFO root fetch - processPackages [kolla-ansible]: New version: [9.3.2] Old Version: [9.3.1]
+[2023-06-02 16:36:16] INFO root fetch - main [MainThread]: End processing [Brigadir-Ser] error
+[2023-06-02 16:36:16] INFO root fetch - processPackages [z3c.checkversions]: New version: [2.1] Old Version: [2.0]
+[2023-06-02 16:36:16] WARNING root fetch - processPackages [thiruchatgpt]: Skipping, unable to determine old version
+[2023-06-02 16:36:16] INFO root fetch - processPackages [thiruchatgpt]: Start processing: educelab-imgproc
+[2023-06-02 16:36:16] INFO root fetch - main [MainThread]: End processing [thiruchatgpt] error
+[2023-06-02 16:36:16] INFO root fetch - processPackages [educelab-imgproc]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-02 16:36:16] INFO root fetch - processPackages [zen-engine]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-02 16:36:16] INFO root fetch - processPackages [kolla-ansible]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [kolla-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-ansible-9.3.1.tar.gz tmp/kolla-ansible-9.3.2.tar.gz --markdown 20230602/k/kolla-ansible/9.3.1-9.3.2/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [triangle-check]: Downloading https://files.pythonhosted.org/packages/c6/38/8b612647011eb5b147b31186c1e67b2f42797d30dc6e781b018262b0eee1/triangle_check-1.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [educelab-imgproc]: Downloading https://files.pythonhosted.org/packages/96/48/ff9e81b10272afbbcef933aede0be02e9fd081e92d84af15e1d2e1e5da79/educelab-imgproc-0.3.1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [z3c.checkversions]: Downloading https://files.pythonhosted.org/packages/c9/5a/646b932fb3b97b4c418c645c54d6e24c53db59178de76ffcc73d1325baf1/z3c.checkversions-2.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [datajudge]: Downloading https://files.pythonhosted.org/packages/71/a4/29852c8b3b48acaafc69696e04e412b052b3c792814ee1198c715dd3b7be/datajudge-1.6.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [GPyReg]: Downloading https://files.pythonhosted.org/packages/51/af/a27377a07ba9ff90d7fb6b6253bd8f943e5e68671e8c630ad745355a3365/GPyReg-1.0.1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [mcsas3]: Downloading https://files.pythonhosted.org/packages/39/4f/87d90c68103ff36858caffddcce005020c10fc86e19bebe5d005350635df/mcsas3-1.0.4.dev1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/30/a6/bd9803b3d5631dd8981570476743f070be7e53ebe53da752bc0e95287e61/zen_engine-0.6.0.tar.gz
+[2023-06-02 16:36:16] WARNING root fetch - processPackages [mcsas3]: Skipping package: exceeds size limit 56976517>=10485760
+[2023-06-02 16:36:16] INFO root fetch - processPackages [mcsas3]: Start processing: neo4cdisc
+[2023-06-02 16:36:16] INFO root fetch - main [MainThread]: End processing [mcsas3] error
+[2023-06-02 16:36:16] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/d4/18/993419b0506e803b8c1625ccbb10b14db82e5fc0093d2a629f86e84fce7b/bio-attention-0.0.3.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [neo4cdisc]: New version: [1.0.5.0] Old Version: [1.0.4.0]
+[2023-06-02 16:36:16] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.8.2.tar.gz tmp/merqube_client_lib-0.9.0.tar.gz --markdown 20230602/m/merqube-client-lib/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.2.tar.gz tmp/bio-attention-0.0.3.tar.gz --markdown 20230602/b/bio-attention/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [triangle-check]: Downloading https://files.pythonhosted.org/packages/fc/9c/ad5acd76a9041210cb848c17242424c4198286175f0efe973f8747fd8904/triangle_check-1.1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [GPyReg]: Downloading https://files.pythonhosted.org/packages/be/64/60a16372e849c4c104fb191a9b99ab52c57f48df9e5836163c2487858009/GPyReg-1.0.2.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [neo4cdisc]: Downloading https://files.pythonhosted.org/packages/c4/5d/2e65c9cc5e937201d00c03f77c132b7510096aab0c22b2e32ef88094d719/neo4cdisc-1.0.4.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [z3c.checkversions]: Downloading https://files.pythonhosted.org/packages/b3/f5/5b5be80e3fb9b07e8ba205d82d38bbc2a1a899b1c2a0f792751184dd0818/z3c.checkversions-2.1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [GPyReg]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [GPyReg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPyReg-1.0.1.tar.gz tmp/GPyReg-1.0.2.tar.gz --markdown 20230602/G/GPyReg/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [educelab-imgproc]: Downloading https://files.pythonhosted.org/packages/ea/6a/5868cbada8d5ca2926253afae43674e56bf4e91460a1ce65aa303b6ea182/educelab-imgproc-0.4.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/fb/8b/24ee84f88766f1d947a54e9c439842e186c253bfa4dca8d95080466c83b5/zen_engine-0.6.1.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [triangle-check]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [triangle-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triangle_check-1.0.tar.gz tmp/triangle_check-1.1.tar.gz --markdown 20230602/t/triangle-check/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [z3c.checkversions]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [z3c.checkversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.checkversions-2.0.tar.gz tmp/z3c.checkversions-2.1.tar.gz --markdown 20230602/z/z3c.checkversions/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [datajudge]: Downloading https://files.pythonhosted.org/packages/71/71/961c447af9b0c91f23f84c9227ed97d530ced6b1fc8391e4837ed2a8c0f3/datajudge-1.7.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [educelab-imgproc]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [educelab-imgproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educelab-imgproc-0.3.1.tar.gz tmp/educelab-imgproc-0.4.0.tar.gz --markdown 20230602/e/educelab-imgproc/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [neo4cdisc]: Downloading https://files.pythonhosted.org/packages/60/0a/9fd33299a064450dc6069c796d366dbc7655ea2669a99272a82ec6f7bc57/neo4cdisc-1.0.5.0.tar.gz
+[2023-06-02 16:36:16] INFO root fetch - processPackages [zen-engine]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [zen-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_engine-0.6.0.tar.gz tmp/zen_engine-0.6.1.tar.gz --markdown 20230602/z/zen-engine/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [datajudge]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [datajudge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajudge-1.6.0.tar.gz tmp/datajudge-1.7.0.tar.gz --markdown 20230602/d/datajudge/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-02 16:36:16] INFO root fetch - processPackages [neo4cdisc]: executing diffoscope
+[2023-06-02 16:36:16] INFO root fetch - processPackages [neo4cdisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4cdisc-1.0.4.0.tar.gz tmp/neo4cdisc-1.0.5.0.tar.gz --markdown 20230602/n/neo4cdisc/1.0.4.0-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-02 16:36:18] INFO root fetch - processPackages [merqube-client-lib]: Start processing: ipyvolume
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [ipyvolume]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-02 16:36:18] INFO root fetch - processPackages [z3c.checkversions]: Start processing: tecton
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [z3c.checkversions]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-06-02 16:36:18] INFO root fetch - processPackages [educelab-imgproc]: Start processing: bibat
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [educelab-imgproc]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [ipyvolume]: Downloading https://files.pythonhosted.org/packages/bc/8c/560b41f231006d6b10749289aa33173268afc06cee92a77570d3fc4dff38/ipyvolume-0.6.3.tar.gz
+[2023-06-02 16:36:18] INFO root fetch - processPackages [bibat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 16:36:18] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-06-02 16:36:18] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230602/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-06-02 16:36:18] INFO root fetch - processPackages [bibat]: Downloading https://files.pythonhosted.org/packages/c2/c1/2985192f114086ec03f248e1da15916c38c41028b146c530a4d96ef6fb8e/bibat-0.1.6.tar.gz
+[2023-06-02 16:36:18] INFO root fetch - processPackages [triangle-check]: Start processing: oenv2config
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [triangle-check]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [oenv2config]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 16:36:18] INFO root fetch - processPackages [datajudge]: Start processing: all-fives-domino
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [datajudge]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [bibat]: executing diffoscope
+[2023-06-02 16:36:18] INFO root fetch - processPackages [bibat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibat-0.1.5.tar.gz tmp/bibat-0.1.6.tar.gz --markdown 20230602/b/bibat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 16:36:18] INFO root fetch - processPackages [all-fives-domino]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 16:36:18] INFO root fetch - processPackages [zen-engine]: Start processing: intelicity-library-exemple
+[2023-06-02 16:36:18] INFO root fetch - main [MainThread]: End processing [zen-engine]: success
+[2023-06-02 16:36:18] INFO root fetch - processPackages [intelicity-library-exemple]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 16:36:19] INFO root fetch - processPackages [oenv2config]: Downloading https://files.pythonhosted.org/packages/22/fd/7032969f40d0cb0b9dbd1d2438833d9b88333b670c071b293bd737f5d65c/oenv2config-1.0.0.tar.gz
+[2023-06-02 16:36:19] INFO root fetch - processPackages [all-fives-domino]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [all-fives-domino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all-fives-domino-1.0.8.tar.gz tmp/all-fives-domino-1.0.9.tar.gz --markdown 20230602/a/all-fives-domino/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:36:19] INFO root fetch - processPackages [neo4cdisc]: Start processing: gitbuilding
+[2023-06-02 16:36:19] INFO root fetch - main [MainThread]: End processing [neo4cdisc]: success
+[2023-06-02 16:36:19] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 16:36:19] INFO root fetch - processPackages [intelicity-library-exemple]: Downloading https://files.pythonhosted.org/packages/c7/a6/d22f72dfc52525ac8a18cf00564704a9350497c734ec699a4ca577329db9/intelicity_library_exemple-0.0.1-py3-none-any.whl
+[2023-06-02 16:36:19] INFO root fetch - processPackages [GPyReg]: Start processing: autora
+[2023-06-02 16:36:19] INFO root fetch - main [MainThread]: End processing [GPyReg]: success
+[2023-06-02 16:36:19] INFO root fetch - processPackages [ipyvolume]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [ipyvolume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvolume-0.6.2.tar.gz tmp/ipyvolume-0.6.3.tar.gz --markdown 20230602/i/ipyvolume/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-02 16:36:19] INFO root fetch - processPackages [autora]: New version: [3.0.0rc3] Old Version: [3.0.0rc2]
+[2023-06-02 16:36:19] INFO root fetch - processPackages [intelicity-library-exemple]: Downloading https://files.pythonhosted.org/packages/df/a2/ac11fc14ae5f6ce5234d82037ef6b272be8442ab3413f2c085a50f819bb6/intelicity_library_exemple-0.0.2-py3-none-any.whl
+[2023-06-02 16:36:19] INFO root fetch - processPackages [oenv2config]: Downloading https://files.pythonhosted.org/packages/5e/58/b9a8adbb69ddee0c623418e33a33b3234d7cbbc81aa48cfe456d779f4e6f/oenv2config-1.0.1.tar.gz
+[2023-06-02 16:36:19] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20230602/g/gitbuilding/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:19] INFO root fetch - processPackages [oenv2config]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [oenv2config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oenv2config-1.0.0.tar.gz tmp/oenv2config-1.0.1.tar.gz --markdown 20230602/o/oenv2config/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:19] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/e5/60/10e371aeefba23f41b8eaf57bfb64c9d02cf5c07762fab6b4cdc92b2a954/autora-3.0.0rc3.tar.gz
+[2023-06-02 16:36:19] INFO root fetch - processPackages [intelicity-library-exemple]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [intelicity-library-exemple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelicity_library_exemple-0.0.1-py3-none-any.whl.zip tmp/intelicity_library_exemple-0.0.2-py3-none-any.whl.zip --markdown 20230602/i/intelicity-library-exemple/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:36:19] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-06-02 16:36:19] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0rc2.tar.gz tmp/autora-3.0.0rc3.tar.gz --markdown 20230602/a/autora/3.0.0rc2-3.0.0rc3/diff.md --exclude *.pyd
+[2023-06-02 16:36:20] INFO root fetch - processPackages [all-fives-domino]: Start processing: wraith
+[2023-06-02 16:36:20] INFO root fetch - main [MainThread]: End processing [all-fives-domino]: success
+[2023-06-02 16:36:20] INFO root fetch - processPackages [wraith]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-02 16:36:20] INFO root fetch - processPackages [intelicity-library-exemple]: Start processing: biom3d
+[2023-06-02 16:36:20] INFO root fetch - main [MainThread]: End processing [intelicity-library-exemple]: success
+[2023-06-02 16:36:20] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-02 16:36:20] INFO root fetch - processPackages [wraith]: Downloading https://files.pythonhosted.org/packages/b1/29/1ce3dceaa7e90074bfc6fd7af0c25a5a6fd389605dcc347412f09fd0975a/wraith-1.1.0.tar.gz
+[2023-06-02 16:36:20] INFO root fetch - processPackages [bio-attention]: Start processing: s2stac
+[2023-06-02 16:36:20] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-06-02 16:36:20] INFO root fetch - processPackages [wraith]: executing diffoscope
+[2023-06-02 16:36:20] INFO root fetch - processPackages [wraith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wraith-1.0.1.tar.gz tmp/wraith-1.1.0.tar.gz --markdown 20230602/w/wraith/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 16:36:20] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-02 16:36:20] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230602/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:36:20] WARNING root fetch - processPackages [s2stac]: Skipping, unable to determine old version
+[2023-06-02 16:36:20] INFO root fetch - processPackages [s2stac]: Start processing: pref-voting
+[2023-06-02 16:36:20] INFO root fetch - main [MainThread]: End processing [s2stac] error
+[2023-06-02 16:36:21] INFO root fetch - processPackages [pref-voting]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-02 16:36:21] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-06-02 16:36:21] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.7.tar.gz tmp/pref_voting-0.4.8.tar.gz --markdown 20230602/p/pref-voting/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-02 16:36:21] INFO root fetch - processPackages [autora]: Start processing: jianglab
+[2023-06-02 16:36:21] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-06-02 16:36:21] INFO root fetch - processPackages [jianglab]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 16:36:21] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-02 16:36:21] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.3.0.tar.gz tmp/jianglab-0.3.1.tar.gz --markdown 20230602/j/jianglab/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 16:36:21] INFO root fetch - processPackages [gitbuilding]: Start processing: asyncchat-server
+[2023-06-02 16:36:21] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2023-06-02 16:36:22] WARNING root fetch - processPackages [asyncchat-server]: Skipping, unable to determine old version
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [asyncchat-server] error
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [wraith]: success
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [oenv2config]: success
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-02 16:36:22] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-02 16:36:26] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-06-02 16:36:28] INFO root fetch - main [MainThread]: End processing [ipyvolume]: success
+[2023-06-02 16:36:32] INFO root fetch - main [MainThread]: End processing [bibat]: success
+[2023-06-02 16:37:09] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
+[2023-06-02 16:37:09] INFO root fetch - main [MainThread]: Store serial: [18349867]
