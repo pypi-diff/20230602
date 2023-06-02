@@ -12293,3 +12293,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:41:56] INFO root fetch - main [MainThread]: End processing [md-translate]: success
 [2023-06-02 12:41:56] INFO root fetch - main [MainThread]: End processing [deepface-custom]: success
 [2023-06-02 12:41:56] INFO root fetch - main [MainThread]: Store serial: [18347612]
+[2023-06-02 12:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347612]
+[2023-06-02 12:47:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 12:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-lambda-powertools
+[2023-06-02 12:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browserstack-sdk
+[2023-06-02 12:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-02 12:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectacularAI
+[2023-06-02 12:47:04] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-02 12:47:04] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-06-02 12:47:04] INFO root fetch - processPackages [kalm]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-02 12:47:04] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-02 12:47:05] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/3e/e5/9bc06b92973ea3dbaf42ba58c45d2b295d338ed4958ff8f6afd9f05b8d63/kalm-0.6.3.tar.gz
+[2023-06-02 12:47:05] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-06-02 12:47:05] INFO root fetch - processPackages [spectacularAI]: Downloading https://files.pythonhosted.org/packages/07/34/c7075d79600a0fd2ad101fcb775ecf2d865ccddfd6ad278ca54351cc9e74/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl
+[2023-06-02 12:47:05] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-02 12:47:05] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.2.tar.gz tmp/kalm-0.6.3.tar.gz --markdown 20230602/k/kalm/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-02 12:47:05] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2023-06-02 12:47:05] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20230602/a/aws-lambda-powertools/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-02 12:47:05] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-06-02 12:47:05] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230602/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-02 12:47:06] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-02 12:47:06] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-06-02 12:47:07] INFO root fetch - processPackages [spectacularAI]: Downloading https://files.pythonhosted.org/packages/59/13/838f1080972e69faa65654d7a73522bc0b85755f60983a4088f2a8032ef4/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl
+[2023-06-02 12:47:07] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2023-06-02 12:47:08] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2023-06-02 12:47:08] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230602/s/spectacularAI/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 12:47:09] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140317118438752)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140317252656640)
+
+[2023-06-02 12:47:09] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2023-06-02 12:47:09] INFO root fetch - main [MainThread]: Store serial: [18347622]
