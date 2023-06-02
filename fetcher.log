@@ -14925,3 +14925,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [fastai-datasets]: success
 [2023-06-02 15:41:09] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
 [2023-06-02 15:41:09] INFO root fetch - main [MainThread]: Store serial: [18349100]
+[2023-06-02 15:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349100]
+[2023-06-02 15:46:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frouros
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-babel-plugin
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-iubenda-web
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: similarity-learning
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: substrate-interface-polkascan
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PowDeRUL
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarrayuvecs
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radicli
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aheadworks-deploy-manager
+[2023-06-02 15:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mcrit
+[2023-06-02 15:46:18] INFO root fetch - processPackages [poetry-babel-plugin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [django-iubenda-web]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [xarrayuvecs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [similarity-learning]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [frouros]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 15:46:18] WARNING root fetch - processPackages [substrate-interface-polkascan]: Skipping, unable to determine old version
+[2023-06-02 15:46:18] INFO root fetch - processPackages [substrate-interface-polkascan]: Start processing: giskard-client
+[2023-06-02 15:46:18] INFO root fetch - main [MainThread]: End processing [substrate-interface-polkascan] error
+[2023-06-02 15:46:18] INFO root fetch - processPackages [radicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [mcrit]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 15:46:18] WARNING root fetch - processPackages [giskard-client]: Skipping, unable to determine old version
+[2023-06-02 15:46:18] INFO root fetch - processPackages [giskard-client]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-06-02 15:46:18] INFO root fetch - main [MainThread]: End processing [giskard-client] error
+[2023-06-02 15:46:18] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.6] Old Version: [15.0.1.1.5.4]
+[2023-06-02 15:46:18] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [xarrayuvecs]: Downloading https://files.pythonhosted.org/packages/e9/90/05598ea5cbfb85477c84c5f18a2aa6cfcaf9c9230bb2eed4925bc2bdc774/xarrayuvecs-0.1.8-py3-none-any.whl
+[2023-06-02 15:46:18] INFO root fetch - processPackages [django-iubenda-web]: Downloading https://files.pythonhosted.org/packages/ac/4e/09931c2b1d3eff7cbc46d8cb4471bba2ba7d9440493f65d6f9e9ea66222c/django-iubenda-web-0.0.6.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [poetry-babel-plugin]: Downloading https://files.pythonhosted.org/packages/6f/1b/e6601158ca56fd30bcf2e2330c5813df67e8f00650e8f683b854c6effffc/poetry-babel-plugin-0.2.0.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/3d/50/c49d5e9c5c7727a7acb78d3f6186f2c1ce696224f1400649bd9273b23788/mcrit-1.0.6.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [radicli]: Downloading https://files.pythonhosted.org/packages/2f/61/b0c9917d8c28b60719073270564d35ba7d58ac5e5599bd8d3809ad5bd7e3/radicli-0.0.8.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.5.tar.gz tmp/mcrit-1.0.6.tar.gz --markdown 20230602/m/mcrit/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [django-iubenda-web]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [django-iubenda-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-web-0.0.5.tar.gz tmp/django-iubenda-web-0.0.6.tar.gz --markdown 20230602/d/django-iubenda-web/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [similarity-learning]: Downloading https://files.pythonhosted.org/packages/c6/fc/ee6b8af9bfa927e6e94adcce6dcfba1789268ac7cfdfc6a39240c9035bea/similarity-learning-0.0.3.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/b8/08/62944d2f1c9fe82e0ce15dd10d4ab2832d613cd12fae901be8e8b7240196/frouros-0.3.1.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [similarity-learning]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [similarity-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity-learning-0.0.2.tar.gz tmp/similarity-learning-0.0.3.tar.gz --markdown 20230602/s/similarity-learning/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.3.0.tar.gz tmp/frouros-0.3.1.tar.gz --markdown 20230602/f/frouros/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/20/b8/b4d906a9fccb09eb2e5b29c5998bfc7a89197f09ee2484f3ee730bc9ea70/odoo_addon_hr_employee_calendar_planning-15.0.1.1.6-py3-none-any.whl
+[2023-06-02 15:46:18] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.5.4-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.6-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.5.4-15.0.1.1.6/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [poetry-babel-plugin]: Downloading https://files.pythonhosted.org/packages/b1/b5/dc7761ab76c631a1e4184eea3f382794f7e5a3538018b1b9447b881709e2/poetry_babel_plugin-0.2.1.tar.gz
+[2023-06-02 15:46:18] INFO root fetch - processPackages [xarrayuvecs]: Downloading https://files.pythonhosted.org/packages/bf/70/dfa61b92295e5ad1afb65bdecb99a2c3810f3c36a84330031642a7a43b70/xarrayuvecs-0.1.9-py3-none-any.whl
+[2023-06-02 15:46:18] INFO root fetch - processPackages [poetry-babel-plugin]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [poetry-babel-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-babel-plugin-0.2.0.tar.gz tmp/poetry_babel_plugin-0.2.1.tar.gz --markdown 20230602/p/poetry-babel-plugin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 15:46:18] INFO root fetch - processPackages [xarrayuvecs]: executing diffoscope
+[2023-06-02 15:46:18] INFO root fetch - processPackages [xarrayuvecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarrayuvecs-0.1.8-py3-none-any.whl.zip tmp/xarrayuvecs-0.1.9-py3-none-any.whl.zip --markdown 20230602/x/xarrayuvecs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 15:46:19] INFO root fetch - processPackages [radicli]: Downloading https://files.pythonhosted.org/packages/2c/c8/2d63f6e1fd40eaf43da4a7a6fd2b426e0f0d9871d395ed26f9bdf8ab0081/radicli-0.0.9.tar.gz
+[2023-06-02 15:46:19] INFO root fetch - processPackages [radicli]: executing diffoscope
+[2023-06-02 15:46:19] INFO root fetch - processPackages [radicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicli-0.0.8.tar.gz tmp/radicli-0.0.9.tar.gz --markdown 20230602/r/radicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:46:19] INFO root fetch - processPackages [PowDeRUL]: Start processing: webgui-jupyter-widgets
+[2023-06-02 15:46:19] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 15:46:19] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 15:46:19] INFO root fetch - processPackages [aheadworks-deploy-manager]: Start processing: PowDeRUL
+[2023-06-02 15:46:19] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 15:46:19] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 15:46:20] INFO root fetch - processPackages [django-iubenda-web]: Start processing: trezor
+[2023-06-02 15:46:20] INFO root fetch - main [MainThread]: End processing [django-iubenda-web]: success
+[2023-06-02 15:46:20] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 15:46:20] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:46:20] INFO root fetch - processPackages [trezor]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 15:46:20] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-06-02 15:46:20] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230602/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 15:46:20] INFO root fetch - processPackages [trezor]: Downloading https://files.pythonhosted.org/packages/ca/ce/9a9e526e2897676d39dc111d5c23cab5e4412aaf42c1d80413c6344044ad/trezor-0.9.0.tar.gz
+[2023-06-02 15:46:20] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Start processing: fse.torii
+[2023-06-02 15:46:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-06-02 15:46:20] INFO root fetch - processPackages [fse.torii]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 15:46:20] INFO root fetch - processPackages [poetry-babel-plugin]: Start processing: yeref
+[2023-06-02 15:46:20] INFO root fetch - main [MainThread]: End processing [poetry-babel-plugin]: success
+[2023-06-02 15:46:20] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2023-06-02 15:46:20] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.4.tar.gz tmp/fse.torii-1.0.5.tar.gz --markdown 20230602/f/fse.torii/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:46:20] INFO root fetch - processPackages [yeref]: New version: [0.1.74] Old Version: [0.1.73]
+[2023-06-02 15:46:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-02 15:46:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.73.tar.gz tmp/yeref-0.1.74.tar.gz --markdown 20230602/y/yeref/0.1.73-0.1.74/diff.md --exclude *.pyd
+[2023-06-02 15:46:20] INFO root fetch - main [MainThread]: End processing [radicli]: success
+[2023-06-02 15:46:20] INFO root fetch - processPackages [trezor]: Downloading https://files.pythonhosted.org/packages/26/46/b78ba738beea1d451a9f88b55edde8d1fac1049b69157aeaf12390ec00b6/trezor-0.9.1.tar.gz
+[2023-06-02 15:46:20] INFO root fetch - main [MainThread]: End processing [similarity-learning]: success
+[2023-06-02 15:46:20] INFO root fetch - processPackages [trezor]: executing diffoscope
+[2023-06-02 15:46:20] INFO root fetch - processPackages [trezor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trezor-0.9.0.tar.gz tmp/trezor-0.9.1.tar.gz --markdown 20230602/t/trezor/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [xarrayuvecs]: success
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-02 15:46:21] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2023-06-02 15:46:23] INFO root fetch - main [MainThread]: End processing [trezor]: success
+[2023-06-02 15:47:24] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-06-02 15:47:24] INFO root fetch - main [MainThread]: Store serial: [18349146]
