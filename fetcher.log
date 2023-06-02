@@ -8009,3 +8009,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:27:18] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2023-06-02 07:28:10] INFO root fetch - main [MainThread]: End processing [zepben.examples]: success
 [2023-06-02 07:28:10] INFO root fetch - main [MainThread]: Store serial: [18345035]
+[2023-06-02 07:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345035]
+[2023-06-02 07:33:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 07:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-06-02 07:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-eyetracking
+[2023-06-02 07:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-cloud
+[2023-06-02 07:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-settingsapp
+[2023-06-02 07:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hfrunner
+[2023-06-02 07:33:19] WARNING root fetch - processPackages [chatgpt-cloud]: Skipping, unable to determine old version
+[2023-06-02 07:33:19] INFO root fetch - main [MainThread]: End processing [chatgpt-cloud] error
+[2023-06-02 07:33:19] INFO root fetch - processPackages [django-ipghrms-settingsapp]: New version: [1.1] Old Version: [1.0]
+[2023-06-02 07:33:19] WARNING root fetch - processPackages [np-eyetracking]: Skipping, unable to determine old version
+[2023-06-02 07:33:19] INFO root fetch - main [MainThread]: End processing [np-eyetracking] error
+[2023-06-02 07:33:19] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.2.1] Old Version: [2023.6.2.0]
+[2023-06-02 07:33:19] INFO root fetch - processPackages [hfrunner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 07:33:20] INFO root fetch - processPackages [django-ipghrms-settingsapp]: Downloading https://files.pythonhosted.org/packages/3d/d3/b791bae90368806689aedc4cc78dd13e1fb0ad977f9a0fff4e4aeec366e9/django-ipghrms-settingsapp-1.0.tar.gz
+[2023-06-02 07:33:20] INFO root fetch - processPackages [hfrunner]: Downloading https://files.pythonhosted.org/packages/a1/b9/a79cde082bc0a29b9cc7d148b811b0288f19b609754114ac90009700db6b/hfrunner-0.0.1.tar.gz
+[2023-06-02 07:33:20] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/56/c6/f119539658aa1e9a6846f00330eac3d0d4cb3cd7c9f9ae38acc1a597534c/crazy-thursday-2023.6.2.1.tar.gz
+[2023-06-02 07:33:20] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-02 07:33:20] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.2.0.tar.gz tmp/crazy-thursday-2023.6.2.1.tar.gz --markdown 20230602/c/crazy-thursday/2023.6.2.0-2023.6.2.1/diff.md --exclude *.pyd
+[2023-06-02 07:33:20] INFO root fetch - processPackages [hfrunner]: Downloading https://files.pythonhosted.org/packages/40/a7/772df2ab8a106d69187b5c23bc0781249d6f94504c9be20dfc17e240b9e6/hfrunner-0.0.2-py3-none-any.whl
+[2023-06-02 07:33:20] INFO root fetch - processPackages [django-ipghrms-settingsapp]: Downloading https://files.pythonhosted.org/packages/17/04/da74ed8e393f88396e04415e1541c59e7b0f9a7ac375ddc8e0807e4da787/django-ipghrms-settingsapp-1.1.tar.gz
+[2023-06-02 07:33:20] INFO root fetch - processPackages [django-ipghrms-settingsapp]: executing diffoscope
+[2023-06-02 07:33:20] INFO root fetch - processPackages [django-ipghrms-settingsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-settingsapp-1.0.tar.gz tmp/django-ipghrms-settingsapp-1.1.tar.gz --markdown 20230602/d/django-ipghrms-settingsapp/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-02 07:33:20] INFO root fetch - processPackages [hfrunner]: executing diffoscope
+[2023-06-02 07:33:20] INFO root fetch - processPackages [hfrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfrunner-0.0.1.tar.gz tmp/hfrunner-0.0.2-py3-none-any.whl.zip --markdown 20230602/h/hfrunner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 07:33:21] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-02 07:33:21] INFO root fetch - main [MainThread]: End processing [hfrunner]: success
+[2023-06-02 07:33:21] INFO root fetch - main [MainThread]: End processing [django-ipghrms-settingsapp]: success
+[2023-06-02 07:33:21] INFO root fetch - main [MainThread]: Store serial: [18345053]
