@@ -21940,3 +21940,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:36:48] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2023-06-02 23:36:59] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-02 23:36:59] INFO root fetch - main [MainThread]: Store serial: [18353515]
+[2023-06-02 23:42:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353515]
+[2023-06-02 23:42:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 23:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowtask
+[2023-06-02 23:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2023-06-02 23:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombo
+[2023-06-02 23:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: askedith
+[2023-06-02 23:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: energyplus-python-apps
+[2023-06-02 23:42:08] INFO root fetch - processPackages [wombo]: New version: [0.1.64] Old Version: [0.1.63]
+[2023-06-02 23:42:08] INFO root fetch - processPackages [flowtask]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-06-02 23:42:08] INFO root fetch - processPackages [energyplus-python-apps]: New version: [23.1b1] Old Version: [22.2.0b5]
+[2023-06-02 23:42:08] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-02 23:42:09] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-02 23:42:09] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/8c/1a/7168fbcd2ce7c5d7fcfbe1c6df6f2200ad7bc1b463d18c5277878dd80dfe/wombo-0.1.64.tar.gz
+[2023-06-02 23:42:09] INFO root fetch - processPackages [energyplus-python-apps]: Downloading https://files.pythonhosted.org/packages/5c/d2/9533632bec271bcb47635dda1f72b6bf99e24ae90f5de03d5802d95f0839/energyplus_python_apps-22.2.0b5.tar.gz
+[2023-06-02 23:42:09] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 23:42:09] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.63.tar.gz tmp/wombo-0.1.64.tar.gz --markdown 20230602/w/wombo/0.1.63-0.1.64/diff.md --exclude *.pyd
+[2023-06-02 23:42:09] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-06-02 23:42:09] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230602/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-02 23:42:09] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-02 23:42:09] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230602/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-02 23:42:09] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-02 23:42:09] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/f/flowtask/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-06-02 23:42:09] INFO root fetch - processPackages [energyplus-python-apps]: Downloading https://files.pythonhosted.org/packages/db/f8/69f29b91a466e55e25828782ffcd5b2cd10fb7a56263ed5160480f8e4729/energyplus_python_apps-23.1b1.tar.gz
+[2023-06-02 23:42:09] INFO root fetch - processPackages [energyplus-python-apps]: executing diffoscope
+[2023-06-02 23:42:09] INFO root fetch - processPackages [energyplus-python-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyplus_python_apps-22.2.0b5.tar.gz tmp/energyplus_python_apps-23.1b1.tar.gz --markdown 20230602/e/energyplus-python-apps/22.2.0b5-23.1b1/diff.md --exclude *.pyd
+[2023-06-02 23:42:10] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-06-02 23:42:10] INFO root fetch - main [MainThread]: End processing [energyplus-python-apps]: success
+[2023-06-02 23:42:10] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 23:42:12] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-02 23:42:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-02 23:42:13] INFO root fetch - main [MainThread]: Store serial: [18353532]
