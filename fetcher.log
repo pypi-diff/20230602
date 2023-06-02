@@ -21734,3 +21734,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:21:05] INFO root fetch - main [MainThread]: End processing [ndtiff]: success
 [2023-06-02 23:21:06] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
 [2023-06-02 23:21:06] INFO root fetch - main [MainThread]: Store serial: [18353415]
+[2023-06-02 23:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353415]
+[2023-06-02 23:26:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvalidators
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TrimbleZebraPrinting
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salesforce-codetf
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guardshield
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: energyplus-launch
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dr-import
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PHX
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pointstorm
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wombo
+[2023-06-02 23:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FuncsForSPO
+[2023-06-02 23:26:15] INFO root fetch - processPackages [guardshield]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [TrimbleZebraPrinting]: New version: [1.2] Old Version: [1.1.6]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.9] Old Version: [0.0.6.8]
+[2023-06-02 23:26:15] WARNING root fetch - processPackages [openvalidators]: Skipping, unable to determine old version
+[2023-06-02 23:26:15] INFO root fetch - processPackages [openvalidators]: Start processing: tdp-core
+[2023-06-02 23:26:15] INFO root fetch - main [MainThread]: End processing [openvalidators] error
+[2023-06-02 23:26:15] INFO root fetch - processPackages [energyplus-launch]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [pointstorm]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.7] Old Version: [5.0.6]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [dr-import]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [wombo]: New version: [0.1.62] Old Version: [0.1.61]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [tdp-core]: New version: [9.0.0] Old Version: [20.0.0]
+[2023-06-02 23:26:15] INFO root fetch - processPackages [TrimbleZebraPrinting]: Downloading https://files.pythonhosted.org/packages/08/34/cdecfaa1bc01357f631998d2a511cd2802e6e5735527148d3475ec740b8b/TrimbleZebraPrinting-1.1.6.tar.gz
+[2023-06-02 23:26:15] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/9a/8a/0650887b54fdf1a6e0cb877869d5c21ad9d6f8b7831f1696e2446762fe40/pointstorm-1.1.7.tar.gz
+[2023-06-02 23:26:15] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/a7/1f/74a82115cee980b2fe687c1e7db0fec0eab1d761707ff22b843a70e6b314/wombo-0.1.62.tar.gz
+[2023-06-02 23:26:15] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/cb/c3/9139631659cb37da331cc0ebe75269c879047e324061ea1ee1faca81742e/salesforce-codetf-0.0.6.9.tar.gz
+[2023-06-02 23:26:15] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/68/f7/1ffac764630fe576d56ad646fc198ae2af44b3d770988a117b1e012c4eb7/FuncsForSPO-5.0.6.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/1a/36/884dc0c67225c27821b3a8308220a8ee943b4bc24fb40626fe2ee339b9c5/tdp_core-20.0.0-py3-none-any.whl
+[2023-06-02 23:26:16] INFO root fetch - processPackages [pointstorm]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [pointstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointstorm-1.1.6.tar.gz tmp/pointstorm-1.1.7.tar.gz --markdown 20230602/p/pointstorm/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.61.tar.gz tmp/wombo-0.1.62.tar.gz --markdown 20230602/w/wombo/0.1.61-0.1.62/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [guardshield]: Downloading https://files.pythonhosted.org/packages/c5/b2/ac8d59ded0139e00a29fac37cde916fb85db6a73a01c7cab1fafee6a0c22/guardshield-1.0.3.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [TrimbleZebraPrinting]: Downloading https://files.pythonhosted.org/packages/d4/01/170fb334c4079ebd9cbd675b72d924cbc6e40347b064cae1ec2abadaf096/TrimbleZebraPrinting-1.2.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.8.tar.gz tmp/salesforce-codetf-0.0.6.9.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.8-0.0.6.9/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [energyplus-launch]: Downloading https://files.pythonhosted.org/packages/01/4e/8cda47ec7779b7ada6fe0c28ebe3463dad6169d5b519e12fd8d5992510d8/energyplus_launch-3.6.9.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [guardshield]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [guardshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardshield-1.0.2.tar.gz tmp/guardshield-1.0.3.tar.gz --markdown 20230602/g/guardshield/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230602/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [TrimbleZebraPrinting]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [TrimbleZebraPrinting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimbleZebraPrinting-1.1.6.tar.gz tmp/TrimbleZebraPrinting-1.2.tar.gz --markdown 20230602/T/TrimbleZebraPrinting/1.1.6-1.2/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [dr-import]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [dr-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dr_import-0.2.8-py3-none-any.whl.zip tmp/dr_import-0.2.9-py3-none-any.whl.zip --markdown 20230602/d/dr-import/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/4c/0a/c2cf68bcd120fce1b04cc6fab6cff71a1df7795a8e79a2949384d6b8f930/FuncsForSPO-5.0.7.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [energyplus-launch]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [energyplus-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyplus_launch-3.6.8.tar.gz tmp/energyplus_launch-3.6.9.tar.gz --markdown 20230602/e/energyplus-launch/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/1d/cf/bc4f8ac5c2a64d009a93ca460d99b8b9dc0cf4ab4fcd8a118815d76ea717/tdp_core-9.0.0.tar.gz
+[2023-06-02 23:26:16] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.6.tar.gz tmp/FuncsForSPO-5.0.7.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.6-5.0.7/diff.md --exclude *.pyd
+[2023-06-02 23:26:16] INFO root fetch - processPackages [tdp-core]: executing diffoscope
+[2023-06-02 23:26:16] INFO root fetch - processPackages [tdp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdp_core-20.0.0-py3-none-any.whl.zip tmp/tdp_core-9.0.0.tar.gz --markdown 20230602/t/tdp-core/20.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-02 23:26:17] INFO root fetch - main [MainThread]: End processing [pointstorm]: success
+[2023-06-02 23:26:17] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 23:26:17] INFO root fetch - main [MainThread]: End processing [guardshield]: success
+[2023-06-02 23:26:17] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 23:26:18] INFO root fetch - main [MainThread]: End processing [dr-import]: success
+[2023-06-02 23:26:18] INFO root fetch - main [MainThread]: End processing [TrimbleZebraPrinting]: success
+[2023-06-02 23:26:18] INFO root fetch - main [MainThread]: End processing [tdp-core]: success
+[2023-06-02 23:26:18] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 23:26:18] INFO root fetch - main [MainThread]: End processing [energyplus-launch]: success
+[2023-06-02 23:26:20] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-06-02 23:26:20] INFO root fetch - main [MainThread]: Store serial: [18353448]
