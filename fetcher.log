@@ -19266,3 +19266,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:13:05] INFO root fetch - main [MainThread]: End processing [imops]: success
 [2023-06-02 20:13:45] INFO root fetch - main [MainThread]: End processing [pybind11-geobuf]: success
 [2023-06-02 20:13:45] INFO root fetch - main [MainThread]: Store serial: [18351897]
+[2023-06-02 20:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351897]
+[2023-06-02 20:18:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-02 20:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-webscraper
+[2023-06-02 20:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whorl
+[2023-06-02 20:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guidance
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meerschaum
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rising-plugin
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-ocr
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fish-databricks-jobs
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eventbridge-analytics-python
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyWebUIFramework
+[2023-06-02 20:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scikit-build-core
+[2023-06-02 20:18:55] WARNING root fetch - processPackages [django-webscraper]: Skipping, unable to determine old version
+[2023-06-02 20:18:55] INFO root fetch - processPackages [django-webscraper]: Start processing: chaostoolkit-terraform
+[2023-06-02 20:18:55] INFO root fetch - main [MainThread]: End processing [django-webscraper] error
+[2023-06-02 20:18:55] INFO root fetch - processPackages [whorl]: New version: [0.0.0.dev20230603] Old Version: [0.0.0.dev20230602]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.3] Old Version: [1.1]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [fish-databricks-jobs]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-02 20:18:55] WARNING root fetch - processPackages [eventbridge-analytics-python]: Skipping, unable to determine old version
+[2023-06-02 20:18:55] INFO root fetch - processPackages [image-ocr]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [eventbridge-analytics-python]: Start processing: starknet-py
+[2023-06-02 20:18:55] INFO root fetch - main [MainThread]: End processing [eventbridge-analytics-python] error
+[2023-06-02 20:18:55] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [scikit-build-core]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [starknet-py]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230602/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [whorl]: Downloading https://files.pythonhosted.org/packages/0c/03/eab3d60fc28f82e9ad0cbd0858aaec710df2bc1accaf831955bfecae4905/whorl-0.0.0.dev20230603-cp310-cp310-win_amd64.whl
+[2023-06-02 20:18:55] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230602/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/e5/40/0c2d218ee6c40fc645c3b98c1fbea7da46fb19e87687b0e0070a0daeefda/chaostoolkit-terraform-0.0.7.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [image-ocr]: Downloading https://files.pythonhosted.org/packages/57/29/675e0748560e2e7c6cb12f92e7b210a12bcc435735de2ac983f7b6335c1e/image_ocr-0.0.3-py3-none-any.whl
+[2023-06-02 20:18:55] INFO root fetch - processPackages [fish-databricks-jobs]: Downloading https://files.pythonhosted.org/packages/aa/aa/562c90181c7373546b8055ebf635d0c02d924c8c1f19f86bc0f54cb33883/fish_databricks_jobs-0.7.9.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/c8/58/fe2551f5eba09393f0eb98cda1c0157e322a83b8daeb22b1b1e6321c92a6/PyWebUIFramework-1.3.tar.gz
+[2023-06-02 20:18:55] ERROR root fetch - processPackages [guidance]: Diffoscope failed: Error: error creating container storage: the container name "boring_wing" is already in use by "2a390ed43e593be390cccdac8b9f58e70b4936d96f05fe5a8578b4939b8482a3". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-02 20:18:55] INFO root fetch - processPackages [guidance]: Start processing: spacy-huggingface-pipelines
+[2023-06-02 20:18:55] INFO root fetch - main [MainThread]: End processing [guidance] error
+[2023-06-02 20:18:55] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/df/05/e0d6957562bbfbaa99e85c746a7dbeb6677e95fa82ce3050158233a3c8f0/starknet_py-0.8.0a0.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [spacy-huggingface-pipelines]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 20:18:55] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.6.tar.gz tmp/chaostoolkit-terraform-0.0.7.tar.gz --markdown 20230602/c/chaostoolkit-terraform/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [image-ocr]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [image-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-ocr-0.0.1.tar.gz tmp/image_ocr-0.0.3-py3-none-any.whl.zip --markdown 20230602/i/image-ocr/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [fish-databricks-jobs]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [fish-databricks-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_databricks_jobs-0.7.8.tar.gz tmp/fish_databricks_jobs-0.7.9.tar.gz --markdown 20230602/f/fish-databricks-jobs/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.1.tar.gz tmp/PyWebUIFramework-1.3.tar.gz --markdown 20230602/P/PyWebUIFramework/1.1-1.3/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/a4/39/56d873d39947a5676358cc7a6ae5e536d1a3b52b1e8268161382bae6c1a1/scikit_build_core-0.4.4.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [spacy-huggingface-pipelines]: Downloading https://files.pythonhosted.org/packages/65/33/c8af9190ecd3925f6a00b09c4c3ef3b874a5a6207fad1bf5a1f0c334060c/spacy_huggingface_pipelines-0.0.3.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.4.3.tar.gz tmp/scikit_build_core-0.4.4.tar.gz --markdown 20230602/s/scikit-build-core/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/39/85/cb9d711715372b05df51856aded3536333f1465c7c78e81db5c569fa46ff/starknet_py-0.9.0a0.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [spacy-huggingface-pipelines]: Downloading https://files.pythonhosted.org/packages/38/ca/07667af54b4efb3ee204db6db6ba9a3e7d7baf59219e5c86f7888121be06/spacy_huggingface_pipelines-0.0.4.tar.gz
+[2023-06-02 20:18:55] INFO root fetch - processPackages [starknet-py]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [starknet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_py-0.8.0a0.tar.gz tmp/starknet_py-0.9.0a0.tar.gz --markdown 20230602/s/starknet-py/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-06-02 20:18:55] INFO root fetch - processPackages [spacy-huggingface-pipelines]: executing diffoscope
+[2023-06-02 20:18:55] INFO root fetch - processPackages [spacy-huggingface-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_huggingface_pipelines-0.0.3.tar.gz tmp/spacy_huggingface_pipelines-0.0.4.tar.gz --markdown 20230602/s/spacy-huggingface-pipelines/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 20:18:56] INFO root fetch - processPackages [whorl]: executing diffoscope
+[2023-06-02 20:18:56] INFO root fetch - processPackages [whorl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whorl-0.0.0.dev20230602-cp310-cp310-win_amd64.whl.zip tmp/whorl-0.0.0.dev20230603-cp310-cp310-win_amd64.whl.zip --markdown 20230602/w/whorl/0.0.0.dev20230602-0.0.0.dev20230603/diff.md --exclude *.pyd
+[2023-06-02 20:18:56] INFO root fetch - processPackages [fish-databricks-jobs]: Start processing: tlcr
+[2023-06-02 20:18:56] INFO root fetch - main [MainThread]: End processing [fish-databricks-jobs]: success
+[2023-06-02 20:18:56] INFO root fetch - processPackages [chaostoolkit-terraform]: Start processing: rising-plugin
+[2023-06-02 20:18:56] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-06-02 20:18:57] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 20:18:57] WARNING root fetch - processPackages [tlcr]: Skipping, unable to determine old version
+[2023-06-02 20:18:57] INFO root fetch - main [MainThread]: End processing [tlcr] error
+[2023-06-02 20:18:57] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 20:18:57] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 20:18:57] INFO root fetch - main [MainThread]: End processing [image-ocr]: success
+[2023-06-02 20:18:57] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:18:57] INFO root fetch - main [MainThread]: End processing [starknet-py]: success
+[2023-06-02 20:18:57] INFO root fetch - main [MainThread]: End processing [spacy-huggingface-pipelines]: success
+[2023-06-02 20:18:58] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-06-02 20:18:59] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-06-02 20:18:59] INFO root fetch - main [MainThread]: End processing [whorl]: success
+[2023-06-02 20:21:55] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 20:21:55] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 20:21:57] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 20:21:57] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 20:21:57] INFO root fetch - main [MainThread]: Store serial: [18351974]
