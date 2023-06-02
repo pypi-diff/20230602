@@ -16812,3 +16812,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 17:22:25] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 17:22:25] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-02 17:22:25] INFO root fetch - main [MainThread]: Store serial: [18350459]
+[2023-06-02 17:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350459]
+[2023-06-02 17:27:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holoviews
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3d
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-dsfr
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slixmppbot
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afscgap
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-core
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s2stac
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cxas
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NiMARE
+[2023-06-02 17:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slixmppbot
+[2023-06-02 17:27:34] INFO root fetch - processPackages [afscgap]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [slixmppbot]: New version: [2.0.2] Old Version: [1.0.8]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [mkdocs-dsfr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [slixmppbot]: New version: [2.0.2] Old Version: [1.0.8]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [NiMARE]: New version: [0.1.0] Old Version: [0.0.9rc2]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [s2stac]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [cxas]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [policyengine-core]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-02 17:27:34] INFO root fetch - processPackages [py3d]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-02 17:27:35] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/59/1c/f3bab15afa70d6424f04ba98eacf877b469d4196177d1fda90c0870823d6/holoviews-1.9.4.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [afscgap]: Downloading https://files.pythonhosted.org/packages/68/08/6f8eaa58fccfb3f36581ac98cf469bdbb071986e6d43213282815948009a/afscgap-1.0.2.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: Downloading https://files.pythonhosted.org/packages/c6/1d/b7d65e361af842fae788432339d9d562a30fa2af03d9cc98ce716b9a5a2e/slixmppbot-1.0.8.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: Downloading https://files.pythonhosted.org/packages/c6/1d/b7d65e361af842fae788432339d9d562a30fa2af03d9cc98ce716b9a5a2e/slixmppbot-1.0.8.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [s2stac]: Downloading https://files.pythonhosted.org/packages/58/f8/1f36e9bd6503203487cc0a559cc59eafcd60ec1aab2149f868e3257152f4/s2stac-0.1.0.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/08/9d/409248c2cbf78480038567860a1fa449de9630825f8973a7160477058fe4/mkdocs-dsfr-0.0.1.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [cxas]: Downloading https://files.pythonhosted.org/packages/4f/c5/760dfb69166a914bdf9a4e7052283e7f53943a47c57dfbcc4b584e588e56/cxas-0.0.8.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [NiMARE]: Downloading https://files.pythonhosted.org/packages/8f/72/d82313f77b6cb1c9b2f86344eb200151043672e306c62220f0b92af3c4f2/NiMARE-0.0.9rc2.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [cxas]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [cxas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxas-0.0.7.tar.gz tmp/cxas-0.0.8.tar.gz --markdown 20230602/c/cxas/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/99/eb/ce3958f70697fb5b355f7dd291f56e47918a68a9df4856768e753a6bdefe/py3d-0.0.97.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/b8/22/829832f1e2085a2699baff65f9e35ecf6c6226d813d7efe95b8fe170af6e/policyengine-core-2.2.1.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [afscgap]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [afscgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afscgap-1.0.1.tar.gz tmp/afscgap-1.0.2.tar.gz --markdown 20230602/a/afscgap/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.96.tar.gz tmp/py3d-0.0.97.tar.gz --markdown 20230602/p/py3d/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [s2stac]: Downloading https://files.pythonhosted.org/packages/f5/97/d0a5cd3107eceee066533c9fb34095ec1b22a478b771936343cf6f3c42b6/s2stac-0.1.1.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: Downloading https://files.pythonhosted.org/packages/3b/e8/406fb785c98e73e1b787f8450001c9860e7e5f4c0ecf19813c6d1696f768/slixmppbot-2.0.2.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: Downloading https://files.pythonhosted.org/packages/3b/e8/406fb785c98e73e1b787f8450001c9860e7e5f4c0ecf19813c6d1696f768/slixmppbot-2.0.2.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [NiMARE]: Downloading https://files.pythonhosted.org/packages/93/2c/b3bf1778291563b624c37c4ae8b7767f6fb0e002945be542943ce3e68fa7/NiMARE-0.1.0.tar.gz
+[2023-06-02 17:27:35] WARNING root fetch - processPackages [NiMARE]: Skipping package: exceeds size limit 13287261>=10485760
+[2023-06-02 17:27:35] INFO root fetch - main [MainThread]: End processing [NiMARE] error
+[2023-06-02 17:27:35] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.2.0.tar.gz tmp/policyengine-core-2.2.1.tar.gz --markdown 20230602/p/policyengine-core/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/6b/a0/4e98f192c4c44ab195c76955cb9c152f86ee7b9be203ffc46c51049879b9/mkdocs_dsfr-0.0.2.tar.gz
+[2023-06-02 17:27:35] INFO root fetch - processPackages [s2stac]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [s2stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2stac-0.1.0.tar.gz tmp/s2stac-0.1.1.tar.gz --markdown 20230602/s/s2stac/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slixmppbot-1.0.8.tar.gz tmp/slixmppbot-2.0.2.tar.gz --markdown 20230602/s/slixmppbot/1.0.8-2.0.2/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [slixmppbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slixmppbot-1.0.8.tar.gz tmp/slixmppbot-2.0.2.tar.gz --markdown 20230602/s/slixmppbot/1.0.8-2.0.2/diff.md --exclude *.pyd
+[2023-06-02 17:27:35] INFO root fetch - processPackages [mkdocs-dsfr]: executing diffoscope
+[2023-06-02 17:27:35] INFO root fetch - processPackages [mkdocs-dsfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-dsfr-0.0.1.tar.gz tmp/mkdocs_dsfr-0.0.2.tar.gz --markdown 20230602/m/mkdocs-dsfr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 17:27:36] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/ef/d1/fbb719d25a5118f76229625ecbbf1505259ad1c95a309fdd184fcfbce7ef/holoviews-1.9.5.tar.gz
+[2023-06-02 17:27:36] INFO root fetch - main [MainThread]: End processing [cxas]: success
+[2023-06-02 17:27:36] INFO root fetch - main [MainThread]: End processing [slixmppbot]: success
+[2023-06-02 17:27:37] INFO root fetch - main [MainThread]: End processing [slixmppbot]: success
+[2023-06-02 17:27:37] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-02 17:27:37] INFO root fetch - main [MainThread]: End processing [s2stac]: success
+[2023-06-02 17:27:37] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-06-02 17:27:37] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230602/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-02 17:27:38] INFO root fetch - main [MainThread]: End processing [afscgap]: success
+[2023-06-02 17:27:38] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2023-06-02 17:27:44] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr]: success
+[2023-06-02 17:27:45] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-06-02 17:27:45] INFO root fetch - main [MainThread]: Store serial: [18350491]
