@@ -9324,3 +9324,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:33:30] INFO root fetch - main [MainThread]: End processing [HyFetch]: success
 [2023-06-02 09:33:32] INFO root fetch - main [MainThread]: End processing [intel-extension-for-transformers]: success
 [2023-06-02 09:33:32] INFO root fetch - main [MainThread]: Store serial: [18345834]
+[2023-06-02 09:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345834]
+[2023-06-02 09:38:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcsas3
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digicon-mod
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-fleetpings
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prismstudio-dev
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wakeflow
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axion
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bohrium-sdk
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lalsuite
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurodatagen
+[2023-06-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caqui
+[2023-06-02 09:38:41] INFO root fetch - processPackages [prismstudio-dev]: New version: [1.1.1b0] Old Version: [1.1.1a0]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [axion]: New version: [3.4.2] Old Version: [3.3.4]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [mcsas3]: New version: [1.0.4.dev1] Old Version: [1.0.3]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [aa-fleetpings]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [digicon-mod]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [caqui]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [neurodatagen]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [wakeflow]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 09:38:41] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-06-02 09:38:41] INFO root fetch - processPackages [lalsuite]: Start processing: pingsafe-cli
+[2023-06-02 09:38:41] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-06-02 09:38:41] INFO root fetch - processPackages [mcsas3]: Downloading https://files.pythonhosted.org/packages/05/60/3501b40771a337f908c7cf2ed0763a326135e8a9e2ec4212bbb8b43efef3/mcsas3-1.0.3.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [neurodatagen]: Downloading https://files.pythonhosted.org/packages/04/30/cc3016c4d5289d28961b613bd0840e529bfbd970b0deafdcaf7599224977/neurodatagen-0.1.0a1.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [digicon-mod]: Downloading https://files.pythonhosted.org/packages/0c/e6/6603a86dfda0fa9660f2b6d36e843b4513ff254c49ece42e532069c7e5d2/digicon_mod-0.1.2.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/b2/11/46b77dadba7adcd9bf6601522efad52271b9ac313677937b85bb43c38bad/prismstudio-dev-1.1.1b0.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/38/fa/ee333e0c71305dd6f79a104daff226bfcdf19e6d34e917563bff4c984225/bohrium-sdk-0.1.6.tar.gz
+[2023-06-02 09:38:41] WARNING root fetch - processPackages [mcsas3]: Skipping package: exceeds size limit 56976396>=10485760
+[2023-06-02 09:38:41] INFO root fetch - processPackages [mcsas3]: Start processing: modelz-llm
+[2023-06-02 09:38:41] INFO root fetch - main [MainThread]: End processing [mcsas3] error
+[2023-06-02 09:38:41] INFO root fetch - processPackages [wakeflow]: Downloading https://files.pythonhosted.org/packages/33/35/322c7727432f92c1976b9161c9fc257962115e0604eabbbfadef817b7084/wakeflow-1.3.2.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [pingsafe-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.21] Old Version: [23.5.20]
+[2023-06-02 09:38:41] INFO root fetch - processPackages [digicon-mod]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [digicon-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digicon_mod-0.1.1.tar.gz tmp/digicon_mod-0.1.2.tar.gz --markdown 20230602/d/digicon-mod/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [aa-fleetpings]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [aa-fleetpings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-fleetpings-2.8.0.tar.gz tmp/aa-fleetpings-2.9.0.tar.gz --markdown 20230602/a/aa-fleetpings/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/b3/58/a8a5950659a3de9e39b0781c40ac0f92c28b5005b508cf22676afbe4eb64/axion-3.4.2-cp311-cp311-win_amd64.whl
+[2023-06-02 09:38:41] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/db/3f/47f6a0a16830ea13447359a72292387e00c47ae3b71666a197e0cd05534c/caqui-1.0.5.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.5.tar.gz tmp/bohrium-sdk-0.1.6.tar.gz --markdown 20230602/b/bohrium-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [neurodatagen]: Downloading https://files.pythonhosted.org/packages/3f/57/e8cd22997be616ecee0e598f263f4ffb99a8e29ce51b5963fe5458e49403/neurodatagen-0.1.0a2.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.0.4.tar.gz tmp/caqui-1.0.5.tar.gz --markdown 20230602/c/caqui/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [pingsafe-cli]: Downloading https://files.pythonhosted.org/packages/4e/17/806e8ac2e943ab479695c554b760702e3fed84b85b55c198cb0c043bf430/pingsafe_cli-0.0.3.tar.gz
+[2023-06-02 09:38:41] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.20.tar.gz tmp/modelz-llm-23.5.21.tar.gz --markdown 20230602/m/modelz-llm/23.5.20-23.5.21/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.3.4-cp311-cp311-win_amd64.whl.zip tmp/axion-3.4.2-cp311-cp311-win_amd64.whl.zip --markdown 20230602/a/axion/3.3.4-3.4.2/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [neurodatagen]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [neurodatagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodatagen-0.1.0a1.tar.gz tmp/neurodatagen-0.1.0a2.tar.gz --markdown 20230602/n/neurodatagen/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-06-02 09:38:41] INFO root fetch - processPackages [prismstudio-dev]: executing diffoscope
+[2023-06-02 09:38:41] INFO root fetch - processPackages [prismstudio-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-dev-1.1.1a0.tar.gz tmp/prismstudio-dev-1.1.1b0.tar.gz --markdown 20230602/p/prismstudio-dev/1.1.1a0-1.1.1b0/diff.md --exclude *.pyd
+[2023-06-02 09:38:42] INFO root fetch - processPackages [pingsafe-cli]: Downloading https://files.pythonhosted.org/packages/81/01/761922fce17bf25bf7e2dae15f76c3ba56ce173e456f07bf4393828d6de8/pingsafe_cli-0.0.4.tar.gz
+[2023-06-02 09:38:42] INFO root fetch - processPackages [pingsafe-cli]: executing diffoscope
+[2023-06-02 09:38:42] INFO root fetch - processPackages [pingsafe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafe_cli-0.0.3.tar.gz tmp/pingsafe_cli-0.0.4.tar.gz --markdown 20230602/p/pingsafe-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 09:38:42] WARNING root fetch - processPackages [wakeflow]: Skipping package: exceeds size limit 89965532>=10485760
+[2023-06-02 09:38:42] INFO root fetch - processPackages [wakeflow]: Start processing: qontract-reconcile
+[2023-06-02 09:38:42] INFO root fetch - main [MainThread]: End processing [wakeflow] error
+[2023-06-02 09:38:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-02 09:38:42] INFO root fetch - processPackages [digicon-mod]: Start processing: mage-ai
+[2023-06-02 09:38:42] INFO root fetch - main [MainThread]: End processing [digicon-mod]: success
+[2023-06-02 09:38:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-02 09:38:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230602/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-02 09:38:42] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.89]
+[2023-06-02 09:38:43] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/32/7a/d83e6c1296826b85d4435a2d7fb07d54ece762bf61d81fd2d50c39028bd0/mage-ai-0.8.89.tar.gz
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [neurodatagen]: success
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [pingsafe-cli]: success
+[2023-06-02 09:38:43] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-06-02 09:38:44] INFO root fetch - main [MainThread]: End processing [aa-fleetpings]: success
+[2023-06-02 09:38:44] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-02 09:38:44] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.89.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230602/m/mage-ai/0.8.89-0.8.9/diff.md --exclude *.pyd
+[2023-06-02 09:38:44] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
+[2023-06-02 09:38:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-02 09:39:39] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-02 09:39:39] INFO root fetch - main [MainThread]: Store serial: [18345896]
