@@ -14773,3 +14773,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:30:29] INFO root fetch - main [MainThread]: End processing [pedl]: success
 [2023-06-02 15:30:37] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-06-02 15:30:37] INFO root fetch - main [MainThread]: Store serial: [18349014]
+[2023-06-02 15:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349014]
+[2023-06-02 15:35:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxonomy-connector
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picca
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyvolume
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mafic
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plopp
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagger-io
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: statml
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-hr-employee-calendar-planning
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flexmeasures-client
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cf-remote
+[2023-06-02 15:35:47] INFO root fetch - processPackages [picca]: New version: [7.0.0] Old Version: [6.1.0]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [mafic]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [statml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ipyvolume]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [dagger-io]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [plopp]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: New version: [14.0.1.5.5.dev2] Old Version: [14.0.1.5.5.dev1]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [flexmeasures-client]: New version: [0.1.2.dev0] Old Version: [0.1.1]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [cf-remote]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ipyvolume]: Downloading https://files.pythonhosted.org/packages/37/78/7e6feaf41f6c7c85336b175c8da4ffff56f27af26e4988ef3256993ceeb1/ipyvolume-0.6.1.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/62/2e/65bcad285d55df5637303f3369dbf79848af75de764da8843f83a1d81580/picca-6.1.0.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/84/bc/c29ac9c40e1165f5c68bdb8cc3511721f5493867b278671bdeab4e1ed3eb/plopp-23.4.0.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [mafic]: Downloading https://files.pythonhosted.org/packages/c9/9f/ee3738b585af05c16d81ef413007b57087c5233085f1fb04bcba4227273d/mafic-2.8.0.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [cf-remote]: Downloading https://files.pythonhosted.org/packages/5f/7c/5ac4e91367b8db8b0e986b1bb96bab18b087a61ee2c03eed6ca9b35c5ec1/cf-remote-0.4.6.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [mafic]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [mafic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafic-2.7.0.tar.gz tmp/mafic-2.8.0.tar.gz --markdown 20230602/m/mafic/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/3c/f3/422ff0ae6da7bd0ad3565df6655e8b8c86f60829e03e21e5eb38aad01409/dagger_io-0.6.1.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.6.0.tar.gz tmp/dagger_io-0.6.1.tar.gz --markdown 20230602/d/dagger-io/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [statml]: Downloading https://files.pythonhosted.org/packages/35/03/e91226adf2fbbb74ef391a63da0df5b15c158f84465e0d1010c49cc41ce4/statml-0.0.9.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.5.5.dev2-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-hr-employee-calendar-planning/14.0.1.5.5.dev1-14.0.1.5.5.dev2/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230602/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [flexmeasures-client]: Downloading https://files.pythonhosted.org/packages/b9/af/304405384ea0fe910dc417e90a9e33aa5e765971d82ef247dd2b65731cef/flexmeasures-client-0.1.2.dev0.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/91/61/ddcf4216ef3bb295cbc0425191519e82730cf51132f946e6e15fd9c9c2f3/picca-7.0.0.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/a8/dc/3a7931f1db0b0435ca973dff408798961343bde37ce915e9235782c4923a/plopp-23.5.0.tar.gz
+[2023-06-02 15:35:47] WARNING root fetch - processPackages [statml]: Skipping package: exceeds size limit 21677555>=10485760
+[2023-06-02 15:35:47] INFO root fetch - processPackages [statml]: Start processing: fastramqpi
+[2023-06-02 15:35:47] INFO root fetch - main [MainThread]: End processing [statml] error
+[2023-06-02 15:35:47] INFO root fetch - processPackages [picca]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [picca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picca-6.1.0.tar.gz tmp/picca-7.0.0.tar.gz --markdown 20230602/p/picca/6.1.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [plopp]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [plopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plopp-23.4.0.tar.gz tmp/plopp-23.5.0.tar.gz --markdown 20230602/p/plopp/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ipyvolume]: Downloading https://files.pythonhosted.org/packages/6b/6e/95606b9b5a72983a1f69f0146bb81d70aa6baffbb40b989550a0ad237c2f/ipyvolume-0.6.2.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [cf-remote]: Downloading https://files.pythonhosted.org/packages/d7/11/5eb2ef62649ac83fa8f50efb142a36241a10ee7f2d6acd7bfdb3982ef545/cf-remote-0.4.7.tar.gz
+[2023-06-02 15:35:47] INFO root fetch - processPackages [flexmeasures-client]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [flexmeasures-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-client-0.1.1.tar.gz tmp/flexmeasures-client-0.1.2.dev0.tar.gz --markdown 20230602/f/flexmeasures-client/0.1.1-0.1.2.dev0/diff.md --exclude *.pyd
+[2023-06-02 15:35:47] INFO root fetch - processPackages [fastramqpi]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ipyvolume]: executing diffoscope
+[2023-06-02 15:35:47] INFO root fetch - processPackages [ipyvolume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvolume-0.6.1.tar.gz tmp/ipyvolume-0.6.2.tar.gz --markdown 20230602/i/ipyvolume/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-02 15:35:48] INFO root fetch - processPackages [cf-remote]: executing diffoscope
+[2023-06-02 15:35:48] INFO root fetch - processPackages [cf-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-remote-0.4.6.tar.gz tmp/cf-remote-0.4.7.tar.gz --markdown 20230602/c/cf-remote/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-02 15:35:48] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/26/0f/6142b5985275ef39720c5a9eb184d9e8b04143fb9196c8cafaecc04d41e8/fastramqpi-1.4.3.tar.gz
+[2023-06-02 15:35:48] INFO root fetch - processPackages [fastramqpi]: executing diffoscope
+[2023-06-02 15:35:48] INFO root fetch - processPackages [fastramqpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-1.4.2.tar.gz tmp/fastramqpi-1.4.3.tar.gz --markdown 20230602/f/fastramqpi/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-02 15:35:49] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Start processing: invenio-workflows-tugraz
+[2023-06-02 15:35:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-calendar-planning]: success
+[2023-06-02 15:35:49] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 15:35:49] INFO root fetch - main [MainThread]: End processing [flexmeasures-client]: success
+[2023-06-02 15:35:49] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/64/a7/73b01827bda985e352f048a4acbf726a5f63e10f6fcaa57731bfa0474ffc/invenio-workflows-tugraz-0.2.1.tar.gz
+[2023-06-02 15:35:49] INFO root fetch - main [MainThread]: End processing [mafic]: success
+[2023-06-02 15:35:49] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-06-02 15:35:49] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.2.0.tar.gz tmp/invenio-workflows-tugraz-0.2.1.tar.gz --markdown 20230602/i/invenio-workflows-tugraz/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 15:35:49] INFO root fetch - main [MainThread]: End processing [fastramqpi]: success
+[2023-06-02 15:35:50] INFO root fetch - main [MainThread]: End processing [cf-remote]: success
+[2023-06-02 15:35:50] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-06-02 15:35:50] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2023-06-02 15:35:50] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-06-02 15:35:52] INFO root fetch - main [MainThread]: End processing [plopp]: success
+[2023-06-02 15:35:52] INFO root fetch - main [MainThread]: End processing [picca]: success
+[2023-06-02 15:35:56] INFO root fetch - main [MainThread]: End processing [ipyvolume]: success
+[2023-06-02 15:35:56] INFO root fetch - main [MainThread]: Store serial: [18349051]
