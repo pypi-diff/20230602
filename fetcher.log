@@ -8096,3 +8096,38 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:38:32] INFO root fetch - main [MainThread]: End processing [additive]: success
 [2023-06-02 07:38:33] INFO root fetch - main [MainThread]: End processing [azdev]: success
 [2023-06-02 07:38:33] INFO root fetch - main [MainThread]: Store serial: [18345086]
+[2023-06-02 07:43:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345086]
+[2023-06-02 07:43:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 07:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anutils
+[2023-06-02 07:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-marina
+[2023-06-02 07:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drukarnia-api
+[2023-06-02 07:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h5netcdf
+[2023-06-02 07:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: katalytic-images
+[2023-06-02 07:43:41] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 07:43:41] INFO root fetch - processPackages [anutils]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-02 07:43:42] INFO root fetch - processPackages [h5netcdf]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-02 07:43:42] INFO root fetch - processPackages [django-marina]: New version: [23.5] Old Version: [23.4]
+[2023-06-02 07:43:42] INFO root fetch - processPackages [katalytic-images]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-02 07:43:42] INFO root fetch - processPackages [h5netcdf]: Downloading https://files.pythonhosted.org/packages/0d/ef/51d8de1a4450164575e281dbc7bb32a90b78444ba0a37093d6dc8c862ea1/h5netcdf-1.1.0.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/57/ca/bc1e18f7ea5caf3efd4623d56d694f4fccbe94de47533815916783347162/drukarnia_api-0.1.3.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-02 07:43:42] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia_api-0.1.2.tar.gz tmp/drukarnia_api-0.1.3.tar.gz --markdown 20230602/d/drukarnia-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 07:43:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/63/d3/1c2532aaa0850b6241e5d39ee58125a8781564893a3f54a4c88d85819a1d/anutils-0.4.4.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [django-marina]: Downloading https://files.pythonhosted.org/packages/91/19/310f5ffddee98b389d10e5c79f098b334afab4bc28fdd320593e31af58fe/django_marina-23.5.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [django-marina]: executing diffoscope
+[2023-06-02 07:43:42] INFO root fetch - processPackages [django-marina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_marina-23.4.tar.gz tmp/django_marina-23.5.tar.gz --markdown 20230602/d/django-marina/23.4-23.5/diff.md --exclude *.pyd
+[2023-06-02 07:43:42] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/c1/39/3d4a8a32565190326e14ba40034751f4d154160bf6955b8af8a270046e23/katalytic_images-0.5.0.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [h5netcdf]: Downloading https://files.pythonhosted.org/packages/f9/ff/a2f5a19034d8f1594bc1bb4e59d07c0b233c5c66398920d7825719a44bc8/h5netcdf-1.2.0.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [h5netcdf]: executing diffoscope
+[2023-06-02 07:43:42] INFO root fetch - processPackages [h5netcdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5netcdf-1.1.0.tar.gz tmp/h5netcdf-1.2.0.tar.gz --markdown 20230602/h/h5netcdf/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 07:43:42] INFO root fetch - processPackages [katalytic-images]: executing diffoscope
+[2023-06-02 07:43:42] INFO root fetch - processPackages [katalytic-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_images-0.4.1.tar.gz tmp/katalytic_images-0.5.0.tar.gz --markdown 20230602/k/katalytic-images/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 07:43:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/13/ee/592e2609f0e19523d3c804ba0bc614f4485650608034d9f39c705221b04a/anutils-0.4.5.tar.gz
+[2023-06-02 07:43:42] INFO root fetch - processPackages [anutils]: executing diffoscope
+[2023-06-02 07:43:42] INFO root fetch - processPackages [anutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anutils-0.4.4.tar.gz tmp/anutils-0.4.5.tar.gz --markdown 20230602/a/anutils/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-02 07:43:43] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-02 07:43:43] INFO root fetch - main [MainThread]: End processing [katalytic-images]: success
+[2023-06-02 07:43:43] INFO root fetch - main [MainThread]: End processing [anutils]: success
+[2023-06-02 07:43:43] INFO root fetch - main [MainThread]: End processing [h5netcdf]: success
+[2023-06-02 07:43:46] INFO root fetch - main [MainThread]: End processing [django-marina]: success
+[2023-06-02 07:43:46] INFO root fetch - main [MainThread]: Store serial: [18345105]
