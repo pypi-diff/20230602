@@ -19437,3 +19437,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:30:06] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 20:30:06] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 20:30:06] INFO root fetch - main [MainThread]: Store serial: [18352027]
+[2023-06-02 20:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352027]
+[2023-06-02 20:35:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-gui
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrc-python-utils
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkblock
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazydev
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyWebUIFramework
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveports
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tictactoejderosia
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meerschaum
+[2023-06-02 20:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygrenton
+[2023-06-02 20:35:15] INFO root fetch - processPackages [tkblock]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-02 20:35:15] WARNING root fetch - processPackages [tictactoejderosia]: Skipping, unable to determine old version
+[2023-06-02 20:35:15] INFO root fetch - processPackages [tictactoejderosia]: Start processing: kodexa-cli
+[2023-06-02 20:35:16] INFO root fetch - main [MainThread]: End processing [tictactoejderosia] error
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pyrc-python-utils]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [neon-gui]: New version: [1.1.3a5] Old Version: [1.1.3a4]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 20:35:16] WARNING root fetch - processPackages [liveports]: Skipping, unable to determine old version
+[2023-06-02 20:35:16] INFO root fetch - processPackages [liveports]: Start processing: lazydev
+[2023-06-02 20:35:16] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 20:35:16] INFO root fetch - main [MainThread]: End processing [liveports] error
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pygrenton]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25158602888] Old Version: [6.2.25155248638]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [coiled]: New version: [0.7.1.dev3] Old Version: [0.7.1.dev2]
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/c4/6c/4c37eba5479f97b2d0357cf4a32a4cc24a0c20c8b04ffb20284bfbd15655/lazydev-0.0.2.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/c4/6c/4c37eba5479f97b2d0357cf4a32a4cc24a0c20c8b04ffb20284bfbd15655/lazydev-0.0.2.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pygrenton]: Downloading https://files.pythonhosted.org/packages/2e/3e/dbc22c74f348f5c5436885911a75e3909f2ea27d5dc968a40e83d2fcb011/pygrenton-0.0.4.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/c5/49/05345c0216b81cd50ee3ab20211778db2a6899bc1134594146a8364911d9/tkblock-2.2.0.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230602/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/54/97/75551a0928a6cd0d8142ea8ec1c181f71512be3467ff8afafd3b27e4322e/PyWebUIFramework-1.4.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/a7/d7/9d8be8876c39d103713e2a46a8c68c01e669afb8e9fa5dfa48b31c483c27/neon_gui-1.1.3a5-py3-none-any.whl
+[2023-06-02 20:35:16] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/94/e9/7248917b65bca892978c619e6ef9bcbab3c5a37ef116647d94fa56ecace7/kodexa_cli-6.2.25158602888.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pyrc-python-utils]: Downloading https://files.pythonhosted.org/packages/1a/cf/4957feef87888d7badbe91f7bf6d13f060d3510a860fea5fcd9951d9c72f/pyrc-python-utils-0.0.4.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a4-py3-none-any.whl.zip tmp/neon_gui-1.1.3a5-py3-none-any.whl.zip --markdown 20230602/n/neon-gui/1.1.3a4-1.1.3a5/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/db/75/dcf0fdf35405d9ac070b4a28fa0e6f1321e4e792e48d9446c552bc68fa68/lazydev-0.0.3.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/db/75/dcf0fdf35405d9ac070b4a28fa0e6f1321e4e792e48d9446c552bc68fa68/lazydev-0.0.3.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/59/5d/29a59c5b87fd6089d858719f97e7f35edc2a66c176d076c651345b27572e/coiled-0.7.1.dev3.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/4e/93/ef5228637ccc00a7ec7e8145e039497c235a08568f5021200dd7b8c9af45/tkblock-2.3.0.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-0.0.2.tar.gz tmp/pyrc-python-utils-0.0.4.tar.gz --markdown 20230602/p/pyrc-python-utils/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/75/d8/f809390b783aab7800adbe7d39bcde5534c9846b8dd0ed22a832524eda82/PyWebUIFramework-1.5.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25155248638.tar.gz tmp/kodexa_cli-6.2.25158602888.tar.gz --markdown 20230602/k/kodexa-cli/6.2.25155248638-6.2.25158602888/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazydev-0.0.2.tar.gz tmp/lazydev-0.0.3.tar.gz --markdown 20230602/l/lazydev/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [lazydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazydev-0.0.2.tar.gz tmp/lazydev-0.0.3.tar.gz --markdown 20230602/l/lazydev/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pygrenton]: Downloading https://files.pythonhosted.org/packages/c2/0b/134ad78d243306eef12afed17ab42431d01ca0c32e3d3ee648238e0fec7a/pygrenton-0.0.5.tar.gz
+[2023-06-02 20:35:16] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-2.2.0.tar.gz tmp/tkblock-2.3.0.tar.gz --markdown 20230602/t/tkblock/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.4.tar.gz tmp/PyWebUIFramework-1.5.tar.gz --markdown 20230602/P/PyWebUIFramework/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pygrenton]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [pygrenton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrenton-0.0.4.tar.gz tmp/pygrenton-0.0.5.tar.gz --markdown 20230602/p/pygrenton/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 20:35:16] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 20:35:16] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.1.dev2.tar.gz tmp/coiled-0.7.1.dev3.tar.gz --markdown 20230602/c/coiled/0.7.1.dev2-0.7.1.dev3/diff.md --exclude *.pyd
+[2023-06-02 20:35:17] INFO root fetch - processPackages [neon-gui]: Start processing: fides
+[2023-06-02 20:35:17] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-06-02 20:35:17] INFO root fetch - processPackages [fides]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-02 20:35:18] INFO root fetch - processPackages [fides]: Downloading https://files.pythonhosted.org/packages/12/2c/3ea7680ea402ed3ec1aaf7b72a46e9f22af282a32d67ce2618409c461602/fides-0.7.7.tar.gz
+[2023-06-02 20:35:18] INFO root fetch - processPackages [pyrc-python-utils]: Start processing: PyWebUIFramework
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-06-02 20:35:18] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 20:35:18] INFO root fetch - processPackages [kodexa-cli]: Start processing: itkdb
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-02 20:35:18] INFO root fetch - processPackages [itkdb]: New version: [0.4.4rc0] Old Version: [0.4.3]
+[2023-06-02 20:35:18] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:35:18] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.4.tar.gz tmp/PyWebUIFramework-1.5.tar.gz --markdown 20230602/P/PyWebUIFramework/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 20:35:18] INFO root fetch - processPackages [fides]: Downloading https://files.pythonhosted.org/packages/90/75/2bc1d409940a7a8b7a52b05834ed206d90f3cb41dc87d30638c97f702428/fides-0.7.8.tar.gz
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [lazydev]: success
+[2023-06-02 20:35:18] INFO root fetch - processPackages [fides]: executing diffoscope
+[2023-06-02 20:35:18] INFO root fetch - processPackages [fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fides-0.7.7.tar.gz tmp/fides-0.7.8.tar.gz --markdown 20230602/f/fides/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-02 20:35:18] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/0a/9d/156b2b3bff453bc56a049f15ff96b6b039e367a744204c65e738a8bcded7/itkdb-0.4.3.tar.gz
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [pygrenton]: success
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [lazydev]: success
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-06-02 20:35:18] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 20:35:18] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/a5/60/d3a010dd5f7562a3959f08a57e385fe2e57e8f5a45d3d019e5422fcdb752/itkdb-0.4.4rc0.tar.gz
+[2023-06-02 20:35:19] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-06-02 20:35:19] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.3.tar.gz tmp/itkdb-0.4.4rc0.tar.gz --markdown 20230602/i/itkdb/0.4.3-0.4.4rc0/diff.md --exclude *.pyd
+[2023-06-02 20:35:19] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:35:19] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-06-02 20:35:19] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:35:19] INFO root fetch - main [MainThread]: End processing [fides]: success
+[2023-06-02 20:35:21] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-06-02 20:35:21] INFO root fetch - main [MainThread]: Store serial: [18352078]
