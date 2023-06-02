@@ -7480,3 +7480,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:57:36] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-06-02 06:57:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-02 06:57:37] INFO root fetch - main [MainThread]: Store serial: [18344655]
+[2023-06-02 07:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344655]
+[2023-06-02 07:02:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luscioustwitch
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brunospackage
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-image
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brunospackage
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hh-ui-check
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suicideproc
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-clickable-img-gallery
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drukarnia-api
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-changeset
+[2023-06-02 07:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emerge-viz
+[2023-06-02 07:02:46] WARNING root fetch - processPackages [suicideproc]: Skipping, unable to determine old version
+[2023-06-02 07:02:46] INFO root fetch - processPackages [suicideproc]: Start processing: ml-pretrained
+[2023-06-02 07:02:46] INFO root fetch - main [MainThread]: End processing [suicideproc] error
+[2023-06-02 07:02:46] INFO root fetch - processPackages [brunospackage]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [brunospackage]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [hh-ui-check]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [st-clickable-img-gallery]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [luscioustwitch]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [scikit-image]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [emerge-viz]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [luscioustwitch]: executing diffoscope
+[2023-06-02 07:02:46] INFO root fetch - processPackages [luscioustwitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luscioustwitch-0.3.8.tar.gz tmp/luscioustwitch-0.3.9.tar.gz --markdown 20230602/l/luscioustwitch/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 07:02:46] INFO root fetch - processPackages [st-clickable-img-gallery]: executing diffoscope
+[2023-06-02 07:02:46] INFO root fetch - processPackages [st-clickable-img-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-clickable-img-gallery-0.0.5.tar.gz tmp/st-clickable-img-gallery-0.0.6.tar.gz --markdown 20230602/s/st-clickable-img-gallery/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 07:02:46] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/01/3e/ccc1bad2a7b2019a782a3749e7d075d820c8a2981bc565c05b740733ea1b/brunospackage-0.0.5.tar.gz
+[2023-06-02 07:02:46] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/01/3e/ccc1bad2a7b2019a782a3749e7d075d820c8a2981bc565c05b740733ea1b/brunospackage-0.0.5.tar.gz
+[2023-06-02 07:02:46] WARNING root fetch - processPackages [ml-pretrained]: Skipping, unable to determine old version
+[2023-06-02 07:02:46] INFO root fetch - main [MainThread]: End processing [ml-pretrained] error
+[2023-06-02 07:02:46] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/41/48/b2613c5b487b93bbf206fad73dc7273ebbd3be88741741a2601deae45425/hh_ui_check-0.1.0.tar.gz
+[2023-06-02 07:02:46] WARNING root fetch - processPackages [scikit-image]: fallback to get urls: [0.9.2]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/dd/d8/2bd514a07681da093caa924d69859be899d861afb56091efaa4cf4aedfae/drukarnia-api-0.1.0.tar.gz
+[2023-06-02 07:02:46] WARNING root fetch - processPackages [scikit-image]: None
+[2023-06-02 07:02:46] INFO root fetch - processPackages [odoo-addon-base-changeset]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.3]
+[2023-06-02 07:02:46] INFO root fetch - processPackages [emerge-viz]: Downloading https://files.pythonhosted.org/packages/04/4e/2486afae5ad306c0b96e5edaa782f62189c03374b1f67945c89b6a368b64/emerge-viz-1.5.0.tar.gz
+[2023-06-02 07:02:46] WARNING root fetch - processPackages [scikit-image]: None
+[2023-06-02 07:02:47] WARNING root fetch - processPackages [scikit-image]: unable to get url for both version [0.9.2]
+[2023-06-02 07:02:47] WARNING root fetch - processPackages [scikit-image]: None
+[2023-06-02 07:02:47] INFO root fetch - main [MainThread]: End processing [scikit-image] error
+[2023-06-02 07:02:47] INFO root fetch - processPackages [hh-ui-check]: Downloading https://files.pythonhosted.org/packages/a5/30/7c0b5f362398f9b9411018cc786a6bf16a0d2f2ee8e7872e41f40b8555b9/hh_ui_check-0.1.1.tar.gz
+[2023-06-02 07:02:47] INFO root fetch - processPackages [odoo-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/cc/2c/ac30d04c7fa221ad39f4faf8e51acddd264b74858c3637fcb0df00af82df/odoo_addon_base_changeset-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/95/03/328aedc7fbddd2af56fe3d9a2212390ee4f855c2b31e0312cdd84f9c4341/brunospackage-0.0.6.tar.gz
+[2023-06-02 07:02:47] INFO root fetch - processPackages [hh-ui-check]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [hh-ui-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hh_ui_check-0.1.0.tar.gz tmp/hh_ui_check-0.1.1.tar.gz --markdown 20230602/h/hh-ui-check/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/95/03/328aedc7fbddd2af56fe3d9a2212390ee4f855c2b31e0312cdd84f9c4341/brunospackage-0.0.6.tar.gz
+[2023-06-02 07:02:47] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/8b/7e/76342f04f3cfffbab7eb610bbbf736af3b77b80447559dbe6d2eb0051a5d/drukarnia-api-0.1.1.tar.gz
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.5.tar.gz tmp/brunospackage-0.0.6.tar.gz --markdown 20230602/b/brunospackage/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.5.tar.gz tmp/brunospackage-0.0.6.tar.gz --markdown 20230602/b/brunospackage/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 07:02:47] INFO root fetch - processPackages [emerge-viz]: Downloading https://files.pythonhosted.org/packages/86/7c/c30e511b58c670277383b0f60f56d8e604cd18f94b44d1a7d03bbe000562/emerge_viz-2.0.0-py3-none-any.whl
+[2023-06-02 07:02:47] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.0.tar.gz tmp/drukarnia-api-0.1.1.tar.gz --markdown 20230602/d/drukarnia-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 07:02:47] INFO root fetch - processPackages [odoo-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/a6/69/f027965353a5a389eb339b2eaf77d31c3dda7e2a317ecb062f91dcc4950e/odoo_addon_base_changeset-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-02 07:02:47] INFO root fetch - processPackages [emerge-viz]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [emerge-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emerge-viz-1.5.0.tar.gz tmp/emerge_viz-2.0.0-py3-none-any.whl.zip --markdown 20230602/e/emerge-viz/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 07:02:47] INFO root fetch - processPackages [odoo-addon-base-changeset]: executing diffoscope
+[2023-06-02 07:02:47] INFO root fetch - processPackages [odoo-addon-base-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_changeset-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_changeset-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-base-changeset/15.0.1.0.0.3-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-02 07:02:48] INFO root fetch - main [MainThread]: End processing [luscioustwitch]: success
+[2023-06-02 07:02:48] INFO root fetch - main [MainThread]: End processing [hh-ui-check]: success
+[2023-06-02 07:02:48] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 07:02:48] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-02 07:02:48] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 07:02:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-changeset]: success
+[2023-06-02 07:02:50] INFO root fetch - main [MainThread]: End processing [st-clickable-img-gallery]: success
+[2023-06-02 07:02:51] INFO root fetch - main [MainThread]: End processing [emerge-viz]: success
+[2023-06-02 07:02:51] INFO root fetch - main [MainThread]: Store serial: [18344705]
