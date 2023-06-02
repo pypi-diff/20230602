@@ -11594,3 +11594,126 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:00:54] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-06-02 12:00:54] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-core]: success
 [2023-06-02 12:00:54] INFO root fetch - main [MainThread]: Store serial: [18347184]
+[2023-06-02 12:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347184]
+[2023-06-02 12:06:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paketmutfak
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crackerjack
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PowDeRUL
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msaBase
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hybrid-index
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_bionty
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.formwidget.geolocation
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: act4e-mcdp
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AMDirT
+[2023-06-02 12:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myPackageLicensePrototype
+[2023-06-02 12:06:04] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 12:06:04] WARNING root fetch - processPackages [hybrid-index]: Skipping, unable to determine old version
+[2023-06-02 12:06:04] INFO root fetch - processPackages [hybrid-index]: Start processing: cloudservices-arg
+[2023-06-02 12:06:04] INFO root fetch - main [MainThread]: End processing [hybrid-index] error
+[2023-06-02 12:06:04] INFO root fetch - processPackages [crackerjack]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [AMDirT]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [act4e-mcdp]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [plone.formwidget.geolocation]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [myPackageLicensePrototype]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:06:04] INFO root fetch - processPackages [act4e-mcdp]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [act4e-mcdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act4e_mcdp-0.6.8-py3-none-any.whl.zip tmp/act4e_mcdp-0.6.9-py3-none-any.whl.zip --markdown 20230602/a/act4e-mcdp/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.8.tar.gz tmp/cloudservices_arg-0.1.9.tar.gz --markdown 20230602/c/cloudservices-arg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/cb/e2/d1ec1ea636583f2b2acb036c80f5ce49801e02d384f13f98aba9fda4b0b9/crackerjack-0.2.3.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/7a/59/f84b2cb9c9257daca530dccfe6612a79595075db205dfbe550a084f70dbe/msaBase-0.0.86.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [myPackageLicensePrototype]: Downloading https://files.pythonhosted.org/packages/31/d3/90fe7eea6f93d7a08dd00b3abd68a8512371181bb49a6938944741b2139a/myPackageLicensePrototype-1.0.3.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [AMDirT]: Downloading https://files.pythonhosted.org/packages/d7/16/a76d8c11707e547166f5b37c566a9fd1cdc6188fa0eea81e55deff145525/AMDirT-1.4.5.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [plone.formwidget.geolocation]: Downloading https://files.pythonhosted.org/packages/36/95/ec94716bd417f58adce2d6cb34c0518585e4d49e51966ab0804326f5540c/plone.formwidget.geolocation-3.0.3.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [myPackageLicensePrototype]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [myPackageLicensePrototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myPackageLicensePrototype-1.0.2.tar.gz tmp/myPackageLicensePrototype-1.0.3.tar.gz --markdown 20230602/m/myPackageLicensePrototype/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [AMDirT]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [AMDirT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AMDirT-1.4.4.tar.gz tmp/AMDirT-1.4.5.tar.gz --markdown 20230602/A/AMDirT/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230602/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-06-02 12:06:04] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230602/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:04] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/b3/98/7c7c2b50e1946cc03136090bce8df77714442b7b561d533d5ee93d5cedd3/crackerjack-0.2.4.tar.gz
+[2023-06-02 12:06:04] INFO root fetch - processPackages [plone.formwidget.geolocation]: Downloading https://files.pythonhosted.org/packages/1a/b5/a832a053422d4cd567a925a9df5456e3a440c1ea9bdcdc8c3b1f7e52bb2f/plone.formwidget.geolocation-3.0.4.tar.gz
+[2023-06-02 12:06:05] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-06-02 12:06:05] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.86.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230602/m/msaBase/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:05] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-02 12:06:05] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.2.3.tar.gz tmp/crackerjack-0.2.4.tar.gz --markdown 20230602/c/crackerjack/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-02 12:06:05] INFO root fetch - processPackages [plone.formwidget.geolocation]: executing diffoscope
+[2023-06-02 12:06:05] INFO root fetch - processPackages [plone.formwidget.geolocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.formwidget.geolocation-3.0.3.tar.gz tmp/plone.formwidget.geolocation-3.0.4.tar.gz --markdown 20230602/p/plone.formwidget.geolocation/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:06:05] INFO root fetch - processPackages [cloudservices-arg]: Start processing: huhangkai
+[2023-06-02 12:06:05] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [huhangkai]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [myPackageLicensePrototype]: Start processing: power-grid-model
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [myPackageLicensePrototype]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9171103440397] Old Version: [1.5.0rc9166510100968]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [PowDeRUL]: Start processing: textgen
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [textgen]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/ce/b1/1aad1a9d03de6fd08b7e0f705f917407f99b8bc47f076adf7766bb65b2a1/huhangkai-1.1.9.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [AMDirT]: Start processing: phase-dev
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [AMDirT]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-06-02 12:06:06] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.1.8.tar.gz tmp/huhangkai-1.1.9.tar.gz --markdown 20230602/h/huhangkai/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:06] INFO root fetch - processPackages [phase-dev]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/a3/d8/287d1e04903792aeac630fbe77f01375797ff1e34c329b16a635fedc5db5/textgen-0.2.5.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [crackerjack]: Start processing: quao
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-02 12:06:06] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip --markdown 20230602/p/power-grid-model/1.5.0rc9166510100968-1.5.0rc9171103440397/diff.md --exclude *.pyd
+[2023-06-02 12:06:06] INFO root fetch - processPackages [paketmutfak]: Start processing: microservicebus-py
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [microservicebus-py]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 12:06:06] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/80/82/9e9e6fe9c11a9c0c2acf8d4bd835212be091050a4044d54faff9b41f281f/textgen-0.2.7.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [phase-dev]: Downloading https://files.pythonhosted.org/packages/88/a5/de8b523989cb67ed35d5c9427fb6c465bf5041e85d485ee409f030ed9eba/phase_dev-0.0.3.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/60/81/96ebe2c894c3393334e86f2d3dbfbbe4e392a9946f2dae195e7ddec55a5c/microservicebus-py-0.9.1.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [textgen]: executing diffoscope
+[2023-06-02 12:06:06] INFO root fetch - processPackages [textgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgen-0.2.5.tar.gz tmp/textgen-0.2.7.tar.gz --markdown 20230602/t/textgen/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-06-02 12:06:06] INFO root fetch - processPackages [phase-dev]: Downloading https://files.pythonhosted.org/packages/10/74/d5acd8ffb037af4ad5a23913dc21c14e8ec8d2bc48ae76346b7fb185630f/phase_dev-1.0.0.tar.gz
+[2023-06-02 12:06:06] INFO root fetch - processPackages [lnschema_bionty]: Start processing: dragonfly-radiance
+[2023-06-02 12:06:06] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-02 12:06:06] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-02 12:06:06] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230602/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:07] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 12:06:07] INFO root fetch - processPackages [microservicebus-py]: Downloading https://files.pythonhosted.org/packages/b7/ba/6b5b462618e5bdab6425507dac2a64662ba97905161b2863dcc5e9ac37e7/microservicebus-py-0.9.2.tar.gz
+[2023-06-02 12:06:07] INFO root fetch - processPackages [phase-dev]: executing diffoscope
+[2023-06-02 12:06:07] INFO root fetch - processPackages [phase-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phase_dev-0.0.3.tar.gz tmp/phase_dev-1.0.0.tar.gz --markdown 20230602/p/phase-dev/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 12:06:07] INFO root fetch - processPackages [msaBase]: Start processing: skysurvey
+[2023-06-02 12:06:07] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-06-02 12:06:07] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-06-02 12:06:07] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230602/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 12:06:07] INFO root fetch - processPackages [skysurvey]: New version: [0.5.1] Old Version: [0.4.3]
+[2023-06-02 12:06:07] INFO root fetch - processPackages [microservicebus-py]: executing diffoscope
+[2023-06-02 12:06:07] INFO root fetch - processPackages [microservicebus-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservicebus-py-0.9.1.tar.gz tmp/microservicebus-py-0.9.2.tar.gz --markdown 20230602/m/microservicebus-py/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 12:06:07] INFO root fetch - processPackages [huhangkai]: Start processing: honeybee-radiance-postprocess
+[2023-06-02 12:06:07] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-06-02 12:06:07] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-02 12:06:07] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/2d/ff/932bce65f7e64bc4a5837f11625fb69152e6c48f994fa992837bf8e00131/skysurvey-0.5.1.tar.gz
+[2023-06-02 12:06:07] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-06-02 12:06:07] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230602/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-02 12:06:07] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-06-02 12:06:07] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.4.3.tar.gz tmp/skysurvey-0.5.1.tar.gz --markdown 20230602/s/skysurvey/0.4.3-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 12:06:08] INFO root fetch - processPackages [quao]: Start processing: danielutils
+[2023-06-02 12:06:08] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-02 12:06:08] INFO root fetch - main [MainThread]: End processing [phase-dev]: success
+[2023-06-02 12:06:08] INFO root fetch - processPackages [danielutils]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-02 12:06:08] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-06-02 12:06:08] INFO root fetch - main [MainThread]: End processing [microservicebus-py]: success
+[2023-06-02 12:06:08] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/52/60/5974dde372865020760422f9878b10a83f441db8bfe1dd755d2fd721e938/danielutils-0.8.6.tar.gz
+[2023-06-02 12:06:08] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-06-02 12:06:08] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/05/e1/ba60b301b8d2895e72f6ac230040c480f0a3dfee710ee555a7cbeacec309/danielutils-0.8.7.tar.gz
+[2023-06-02 12:06:08] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2023-06-02 12:06:08] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.8.6.tar.gz tmp/danielutils-0.8.7.tar.gz --markdown 20230602/d/danielutils/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-02 12:06:09] INFO root fetch - main [MainThread]: End processing [act4e-mcdp]: success
+[2023-06-02 12:06:09] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-06-02 12:06:10] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-02 12:06:10] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2023-06-02 12:06:10] INFO root fetch - main [MainThread]: End processing [textgen]: success
+[2023-06-02 12:06:27] INFO root fetch - main [MainThread]: End processing [plone.formwidget.geolocation]: success
+[2023-06-02 12:06:27] INFO root fetch - main [MainThread]: Store serial: [18347251]
