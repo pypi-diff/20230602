@@ -12488,3 +12488,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 12:52:29] INFO root fetch - main [MainThread]: End processing [xpydf]: success
 [2023-06-02 12:53:17] INFO root fetch - main [MainThread]: End processing [sccache]: success
 [2023-06-02 12:53:17] INFO root fetch - main [MainThread]: Store serial: [18347677]
+[2023-06-02 12:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347677]
+[2023-06-02 12:58:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aalam-common
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syncany
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncanysql
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspectify
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypixelai
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncanyserver
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyai
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polysql
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythonnicalmanrl
+[2023-06-02 12:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pop-llm
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanyserver]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 12:58:44] WARNING root fetch - processPackages [pypixelai]: Skipping, unable to determine old version
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pypixelai]: Start processing: telegramweb
+[2023-06-02 12:58:44] INFO root fetch - processPackages [polysql]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanysql]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 12:58:44] INFO root fetch - main [MainThread]: End processing [pypixelai] error
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aspectify]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pop-llm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 12:58:44] WARNING root fetch - processPackages [pythonnicalmanrl]: Skipping, unable to determine old version
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pythonnicalmanrl]: Start processing: easycheck
+[2023-06-02 12:58:44] INFO root fetch - main [MainThread]: End processing [pythonnicalmanrl] error
+[2023-06-02 12:58:44] INFO root fetch - processPackages [assemblyai]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncany]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aalam-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [telegramweb]: New version: [3.1] Old Version: [2.0]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [easycheck]: New version: [0.9.1] Old Version: [0.7.0]
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/16/ee/8281aa25e49a7b41c1d8409d1da0a6ef9411eb412161a13752286cbe757a/aalam-common-0.1.8.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [polysql]: Downloading https://files.pythonhosted.org/packages/e7/8e/3de5d2e0f5943ca24b998f727c491e12d2b09b6918877ccb6233d4a9858e/polysql-0.0.35.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [easycheck]: Downloading https://files.pythonhosted.org/packages/08/fd/56f83b61588c8dfb9f9be9f210c3b0b6b00cce98f30c81c7946ed2b0c71e/easycheck-0.7.0.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pop-llm]: Downloading https://files.pythonhosted.org/packages/d1/c2/59ba82fd9d5b471085f76040afcec6fef300d9276a953ce94eaa5ce1f556/pop-llm-0.0.6.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/98/0e/e9e1032120124e123d269d793df2c33552c8ff0f54cf20ab3cce6bce957c/telegramweb-2.0.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/c7/2c/997fa1d5af76d15b53d674eb5fdeedc4d3eccfdd912412df30e60d9f8f96/aspectify-0.0.4.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanyserver]: Downloading https://files.pythonhosted.org/packages/54/ca/e3eaa44643fe2f2f6954b1e57b48b91ea129a45a1e50f47d475be986664b/syncanyserver-0.0.4.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/a3/c0/8014759dbe39aea51ae7f2ea60af32c749fbefdc35decc0a67830c7d2e32/assemblyai-0.5.0.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pop-llm]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [pop-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-llm-0.0.5.tar.gz tmp/pop-llm-0.0.6.tar.gz --markdown 20230602/p/pop-llm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/82/29/b05282bf9cf1d33dfc68e4279d1a56ee297506b787573525dc27156bd575/syncanysql-0.1.6.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/4a/1b/4643ceb92ad9052d40ca33c98621f00956b046d0f395991401c764b57319/aalam-common-0.1.9.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.8.tar.gz tmp/syncany-0.2.9.tar.gz --markdown 20230602/s/syncany/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.4.2.tar.gz tmp/assemblyai-0.5.0.tar.gz --markdown 20230602/a/assemblyai/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanyserver]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanyserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanyserver-0.0.3.tar.gz tmp/syncanyserver-0.0.4.tar.gz --markdown 20230602/s/syncanyserver/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.1.5.tar.gz tmp/syncanysql-0.1.6.tar.gz --markdown 20230602/s/syncanysql/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [easycheck]: Downloading https://files.pythonhosted.org/packages/74/01/216ae97de5963ee500befe30f70a6f3a2bd9c7deb863bdb97803d49e9a44/easycheck-0.9.1.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aspectify]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aspectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspectify-0.0.3.tar.gz tmp/aspectify-0.0.4.tar.gz --markdown 20230602/a/aspectify/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aalam-common]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [aalam-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalam-common-0.1.8.tar.gz tmp/aalam-common-0.1.9.tar.gz --markdown 20230602/a/aalam-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/5f/dc/86e9c0c54c9158db2ece7c066dd6bd470af86a93aae17f6db1e7f658f54a/telegramweb-3.1.tar.gz
+[2023-06-02 12:58:44] INFO root fetch - processPackages [easycheck]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [easycheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycheck-0.7.0.tar.gz tmp/easycheck-0.9.1.tar.gz --markdown 20230602/e/easycheck/0.7.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-06-02 12:58:44] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-2.0.tar.gz tmp/telegramweb-3.1.tar.gz --markdown 20230602/t/telegramweb/2.0-3.1/diff.md --exclude *.pyd
+[2023-06-02 12:58:44] INFO root fetch - processPackages [polysql]: Downloading https://files.pythonhosted.org/packages/9a/fe/b01e1f767de2211792c5225606545651ec4116efc7175c40dd99c0980718/polysql-0.0.36.tar.gz
+[2023-06-02 12:58:45] INFO root fetch - processPackages [polysql]: executing diffoscope
+[2023-06-02 12:58:45] INFO root fetch - processPackages [polysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polysql-0.0.35.tar.gz tmp/polysql-0.0.36.tar.gz --markdown 20230602/p/polysql/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-06-02 12:58:46] INFO root fetch - processPackages [assemblyai]: Start processing: confme
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [confme]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-02 12:58:46] INFO root fetch - processPackages [pop-llm]: Start processing: deskaone-sdk-scrypt-2023
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [pop-llm]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [syncanyserver]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/1c/c5/2ccd80d37cb0dcd967fd84cb9f383b96702d0ba1522a072431123a38c2ff/confme-1.3.4.tar.gz
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [easycheck]: success
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [aalam-common]: success
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [confme]: executing diffoscope
+[2023-06-02 12:58:46] INFO root fetch - processPackages [confme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confme-1.3.3.tar.gz tmp/confme-1.3.4.tar.gz --markdown 20230602/c/confme/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: Downloading https://files.pythonhosted.org/packages/ec/a2/f317553acbbd94e272dcc7395d33071dfde9627b5af78e584183cfd04b33/deskaone_sdk_scrypt_2023-1.1.9.tar.gz
+[2023-06-02 12:58:46] INFO root fetch - main [MainThread]: End processing [aspectify]: success
+[2023-06-02 12:58:46] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: executing diffoscope
+[2023-06-02 12:58:46] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_scrypt_2023-1.1.8.tar.gz tmp/deskaone_sdk_scrypt_2023-1.1.9.tar.gz --markdown 20230602/d/deskaone-sdk-scrypt-2023/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:58:47] INFO root fetch - main [MainThread]: End processing [confme]: success
+[2023-06-02 12:58:47] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-scrypt-2023]: success
+[2023-06-02 12:58:48] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-06-02 12:58:48] INFO root fetch - main [MainThread]: End processing [polysql]: success
+[2023-06-02 12:58:48] INFO root fetch - main [MainThread]: Store serial: [18347720]
