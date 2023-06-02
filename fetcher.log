@@ -19352,3 +19352,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:21:57] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 20:21:57] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 20:21:57] INFO root fetch - main [MainThread]: Store serial: [18351974]
+[2023-06-02 20:27:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351974]
+[2023-06-02 20:27:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rising-plugin
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deklinacija
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semanticlayertools
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: server_chat_pyqt_test_2
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rising-plugin
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sysnet-persons
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strawberry-graphql
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iotbr
+[2023-06-02 20:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boxsers
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [deklinacija]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 20:27:06] WARNING root fetch - processPackages [server_chat_pyqt_test_2]: Skipping, unable to determine old version
+[2023-06-02 20:27:06] INFO root fetch - processPackages [server_chat_pyqt_test_2]: Start processing: anipy-cli
+[2023-06-02 20:27:06] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 20:27:06] INFO root fetch - main [MainThread]: End processing [server_chat_pyqt_test_2] error
+[2023-06-02 20:27:06] INFO root fetch - processPackages [boxsers]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [sysnet-persons]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [iotbr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [anipy-cli]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [semanticlayertools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 20:27:06] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230602/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [semanticlayertools]: Downloading https://files.pythonhosted.org/packages/f1/c6/a8aad38c461a1889468630be8884c18cff4c9e20f80301f56fac66e75b47/semanticlayertools-0.2.1.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [boxsers]: Downloading https://files.pythonhosted.org/packages/ec/b5/3118c1f8fafe6f1888f91f9625981aaf5f54a33d61085a1866ec9b32eb75/boxsers-1.2.0.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/32/4c/ca3e51ddc0568dae452fa993ada42e3ef616d65cd73f97dedc92869c2cf8/deklinacija-1.0.4.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [anipy-cli]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [anipy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipy_cli-2.7.8.tar.gz tmp/anipy_cli-2.7.9.tar.gz --markdown 20230602/a/anipy-cli/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [sysnet-persons]: Downloading https://files.pythonhosted.org/packages/d3/22/f8ebf246fccf3fa7e81f7e20f8c19a3be81ad98a4aa49c03c6dad69eb76e/sysnet-persons-1.0.2.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-1.0.3.tar.gz tmp/deklinacija-1.0.4.tar.gz --markdown 20230602/d/deklinacija/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [sysnet-persons]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [sysnet-persons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysnet-persons-1.0.1.tar.gz tmp/sysnet-persons-1.0.2.tar.gz --markdown 20230602/s/sysnet-persons/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [semanticlayertools]: Downloading https://files.pythonhosted.org/packages/06/b4/63820300b13a2166f5481788183258ccc2c43e06babed4f25aa66ca185d6/semanticlayertools-0.2.2.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [boxsers]: Downloading https://files.pythonhosted.org/packages/b2/34/f45d6f1e7c16f91f18c70a4523787ec82f0c2d93888ebc0d03414907b323/boxsers-1.3.0.tar.gz
+[2023-06-02 20:27:06] INFO root fetch - processPackages [semanticlayertools]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [semanticlayertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticlayertools-0.2.1.tar.gz tmp/semanticlayertools-0.2.2.tar.gz --markdown 20230602/s/semanticlayertools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [boxsers]: executing diffoscope
+[2023-06-02 20:27:06] INFO root fetch - processPackages [boxsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsers-1.2.0.tar.gz tmp/boxsers-1.3.0.tar.gz --markdown 20230602/b/boxsers/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-02 20:27:06] INFO root fetch - processPackages [iotbr]: Downloading https://files.pythonhosted.org/packages/da/4b/c33995914f628bb8ccc8f541aa73db7610c6d07ced43688241b594d3ed38/iotbr-0.0.9.tar.gz
+[2023-06-02 20:27:07] INFO root fetch - processPackages [iotbr]: executing diffoscope
+[2023-06-02 20:27:07] INFO root fetch - processPackages [iotbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotbr-0.0.8.tar.gz tmp/iotbr-0.0.9.tar.gz --markdown 20230602/i/iotbr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 20:27:08] INFO root fetch - processPackages [deklinacija]: Start processing: flet-contrib
+[2023-06-02 20:27:08] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-06-02 20:27:08] WARNING root fetch - processPackages [flet-contrib]: Skipping, unable to determine old version
+[2023-06-02 20:27:08] INFO root fetch - processPackages [flet-contrib]: Start processing: splight-lib
+[2023-06-02 20:27:08] INFO root fetch - main [MainThread]: End processing [flet-contrib] error
+[2023-06-02 20:27:08] INFO root fetch - processPackages [splight-lib]: New version: [3.0.0.dev5] Old Version: [3.0.0.dev2]
+[2023-06-02 20:27:08] INFO root fetch - processPackages [anipy-cli]: Start processing: acc_provision
+[2023-06-02 20:27:08] INFO root fetch - main [MainThread]: End processing [anipy-cli]: success
+[2023-06-02 20:27:08] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.7rc1] Old Version: [5.2.3.6rc5]
+[2023-06-02 20:27:08] INFO root fetch - processPackages [semanticlayertools]: Start processing: scenera.node
+[2023-06-02 20:27:08] INFO root fetch - main [MainThread]: End processing [semanticlayertools]: success
+[2023-06-02 20:27:08] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/5e/cd/1ef9015a79df92d76ab07cb4263ca3e5fa335f4241b29cf208c2bc1a1a98/acc_provision-5.2.3.6rc5.tar.gz
+[2023-06-02 20:27:08] INFO root fetch - processPackages [scenera.node]: New version: [0.3.18] Old Version: [0.3.17]
+[2023-06-02 20:27:08] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-06-02 20:27:08] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.0.dev2.tar.gz tmp/splight-lib-3.0.0.dev5.tar.gz --markdown 20230602/s/splight-lib/3.0.0.dev2-3.0.0.dev5/diff.md --exclude *.pyd
+[2023-06-02 20:27:08] INFO root fetch - processPackages [scenera.node]: Downloading https://files.pythonhosted.org/packages/4f/ec/1672c29ea44844762dc2b2524f83b7c1c839d9d5bd2b127d31488455ed92/scenera.node-0.3.18.tar.gz
+[2023-06-02 20:27:09] INFO root fetch - processPackages [scenera.node]: executing diffoscope
+[2023-06-02 20:27:09] INFO root fetch - processPackages [scenera.node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenera.node-0.3.17.tar.gz tmp/scenera.node-0.3.18.tar.gz --markdown 20230602/s/scenera.node/0.3.17-0.3.18/diff.md --exclude *.pyd
+[2023-06-02 20:27:09] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-02 20:27:09] INFO root fetch - main [MainThread]: End processing [boxsers]: success
+[2023-06-02 20:27:09] INFO root fetch - main [MainThread]: End processing [sysnet-persons]: success
+[2023-06-02 20:27:10] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-06-02 20:27:10] INFO root fetch - main [MainThread]: End processing [scenera.node]: success
+[2023-06-02 20:27:11] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/23/df/fae4102be803ac1c22fc4d571e99c30406546332eb1cc30fa80a8867361d/acc_provision-5.2.3.7rc1.tar.gz
+[2023-06-02 20:27:11] WARNING root fetch - processPackages [acc_provision]: Skipping package: exceeds size limit 10592210>=10485760
+[2023-06-02 20:27:11] INFO root fetch - main [MainThread]: End processing [acc_provision] error
+[2023-06-02 20:27:12] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 20:27:14] INFO root fetch - main [MainThread]: End processing [iotbr]: success
+[2023-06-02 20:30:06] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 20:30:06] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 20:30:06] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 20:30:06] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 20:30:06] INFO root fetch - main [MainThread]: Store serial: [18352027]
