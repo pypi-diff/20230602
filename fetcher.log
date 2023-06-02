@@ -17967,3 +17967,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 18:40:56] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
 [2023-06-02 18:40:56] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
 [2023-06-02 18:40:56] INFO root fetch - main [MainThread]: Store serial: [18351109]
+[2023-06-02 18:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351109]
+[2023-06-02 18:46:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yapsygui
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-research
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chater
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: engrave
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-template-repo
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rkvst-samples
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: T3SF
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phable
+[2023-06-02 18:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yapsygui
+[2023-06-02 18:46:06] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [chater]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-02 18:46:06] WARNING root fetch - processPackages [git-template-repo]: Skipping, unable to determine old version
+[2023-06-02 18:46:06] INFO root fetch - processPackages [git-template-repo]: Start processing: sarw-spheres
+[2023-06-02 18:46:06] INFO root fetch - main [MainThread]: End processing [git-template-repo] error
+[2023-06-02 18:46:06] INFO root fetch - processPackages [ml-research]: New version: [0.4a2] Old Version: [0.4a1]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [engrave]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [T3SF]: New version: [2.1rc1] Old Version: [2.0rc1]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [phable]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sarw-spheres]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [ml-research]: Downloading https://files.pythonhosted.org/packages/75/1c/80b1eadfad8ac78b2c43f366671fd52983ffc3c8c4e7a6950cd23770185f/ml-research-0.4a1.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/27/d0/8e051e1f48fe698dab77a01f8a9059fec2a5012037fbb7943660cbb07306/yapsygui-1.1.3-py3-none-any.whl
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/27/d0/8e051e1f48fe698dab77a01f8a9059fec2a5012037fbb7943660cbb07306/yapsygui-1.1.3-py3-none-any.whl
+[2023-06-02 18:46:06] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/77/81/674b231e9894b6034d506e8b0532e88171e1641f4e492a6f1e7f0522ac41/phable-0.1.7.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [T3SF]: Downloading https://files.pythonhosted.org/packages/15/de/e47daf7ee48723f0287cd0aab0068bc6b143dad916ea9a7c625fa4ec46b2/T3SF-2.0rc1.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sarw-spheres]: Downloading https://files.pythonhosted.org/packages/c4/93/2980395af8c0ecb5e5b2c0d671925b0294bfb74185ceef2a42b9c33d7ed0/sarw_spheres-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 18:46:06] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-06-02 18:46:06] INFO root fetch - processPackages [rkvst-samples]: Start processing: roxbot
+[2023-06-02 18:46:06] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-06-02 18:46:06] INFO root fetch - processPackages [roxbot]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-02 18:46:06] INFO root fetch - processPackages [chater]: Downloading https://files.pythonhosted.org/packages/5a/bc/ab5b88ccbd42ff4d39536ec6b0f6f04dba65b26c7e36cfa6a7e788862653/chater-1.0.3.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [engrave]: Downloading https://files.pythonhosted.org/packages/6c/d8/d028c8f55275e304f2b0a6491fdc49defd9199d0c7626ec642cbe29e1d48/engrave-2.1.3.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [ml-research]: Downloading https://files.pythonhosted.org/packages/a9/d3/ffe0939b701ac53d6a5b23a054745f7ed71d7e3927a541af925d90caef0c/ml-research-0.4a2.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230602/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/30/a6/d813ba5e7a51e15726c607daa98754b678ab982f0cb1628c2f85291c1ca8/phable-0.1.8.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sarw-spheres]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [sarw-spheres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarw_spheres-0.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/sarw_spheres-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/s/sarw-spheres/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/ce/fb/38527e91cf74cb118d5851a70af60ef3c0000c47edbc38640a0d2469fa63/roxbot-0.3.0.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [T3SF]: Downloading https://files.pythonhosted.org/packages/da/f8/1c6be0c38e5aa3af992a2f8b72dbc2c1248fae63444fd18d225ea2ddf63f/T3SF-2.1rc1.tar.gz
+[2023-06-02 18:46:06] INFO root fetch - processPackages [ml-research]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [ml-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-research-0.4a1.tar.gz tmp/ml-research-0.4a2.tar.gz --markdown 20230602/m/ml-research/0.4a1-0.4a2/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [chater]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [chater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chater-1.0.2.tar.gz tmp/chater-1.0.3.tar.gz --markdown 20230602/c/chater/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [engrave]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [engrave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engrave-2.1.2.tar.gz tmp/engrave-2.1.3.tar.gz --markdown 20230602/e/engrave/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/68/0f/5d66da8db0fd8bcecd0b751f282b19dd21ce86bd49e3690a0b1ed0b707ab/yapsygui-1.1.4-py3-none-any.whl
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: Downloading https://files.pythonhosted.org/packages/68/0f/5d66da8db0fd8bcecd0b751f282b19dd21ce86bd49e3690a0b1ed0b707ab/yapsygui-1.1.4-py3-none-any.whl
+[2023-06-02 18:46:06] INFO root fetch - processPackages [phable]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [phable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phable-0.1.7.tar.gz tmp/phable-0.1.8.tar.gz --markdown 20230602/p/phable/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.2.0.tar.gz tmp/roxbot-0.3.0.tar.gz --markdown 20230602/r/roxbot/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [T3SF]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [T3SF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/T3SF-2.0rc1.tar.gz tmp/T3SF-2.1rc1.tar.gz --markdown 20230602/T/T3SF/2.0rc1-2.1rc1/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: executing diffoscope
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapsygui-1.1.3-py3-none-any.whl.zip tmp/yapsygui-1.1.4-py3-none-any.whl.zip --markdown 20230602/y/yapsygui/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-02 18:46:06] INFO root fetch - processPackages [yapsygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapsygui-1.1.3-py3-none-any.whl.zip tmp/yapsygui-1.1.4-py3-none-any.whl.zip --markdown 20230602/y/yapsygui/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-02 18:46:08] INFO root fetch - processPackages [engrave]: Start processing: pyhyypapihawkmod
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [engrave]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 18:46:08] INFO root fetch - processPackages [chater]: Start processing: gammapy
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [chater]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [gammapy]: New version: [1.1rc1] Old Version: [1.0rc2]
+[2023-06-02 18:46:08] INFO root fetch - processPackages [phable]: Start processing: passlock
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [phable]: success
+[2023-06-02 18:46:08] WARNING root fetch - processPackages [passlock]: Skipping, unable to determine old version
+[2023-06-02 18:46:08] INFO root fetch - processPackages [passlock]: Start processing: SecuriPy
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [passlock] error
+[2023-06-02 18:46:08] INFO root fetch - processPackages [SecuriPy]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-02 18:46:08] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/fc/75/10dfc417fd7066d1607102fd5ad817e96baf894700815c927dfc0de58cd5/pyhyypapihawkmod-1.0.3.tar.gz
+[2023-06-02 18:46:08] INFO root fetch - processPackages [gammapy]: Downloading https://files.pythonhosted.org/packages/f0/b7/c05bb3a43f97f313f66291e789dd77d4d83190b6187faad93a1ab1543fc7/gammapy-1.0rc2.tar.gz
+[2023-06-02 18:46:08] INFO root fetch - processPackages [yapsygui]: Start processing: discminer
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [yapsygui]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [T3SF]: success
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-02 18:46:08] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.0.2.tar.gz tmp/pyhyypapihawkmod-1.0.3.tar.gz --markdown 20230602/p/pyhyypapihawkmod/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [ml-research]: success
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [yapsygui]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/30/06/272dbf81f546e70fa028e61bdf19e1b1a6ef2c0eb1836c16c618f324c9cf/SecuriPy-1.1.0.tar.gz
+[2023-06-02 18:46:08] INFO root fetch - main [MainThread]: End processing [sarw-spheres]: success
+[2023-06-02 18:46:08] INFO root fetch - processPackages [SecuriPy]: executing diffoscope
+[2023-06-02 18:46:08] INFO root fetch - processPackages [SecuriPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecuriPy-1.0.8.tar.gz tmp/SecuriPy-1.1.0.tar.gz --markdown 20230602/S/SecuriPy/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 18:46:09] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-06-02 18:46:09] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-06-02 18:46:09] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-06-02 18:46:09] INFO root fetch - processPackages [gammapy]: Downloading https://files.pythonhosted.org/packages/28/91/c51de8e5eb29ee2cd64c95e65c5a14c69c0c8260bfc5f275ca8804aca15a/gammapy-1.1rc1.tar.gz
+[2023-06-02 18:46:09] INFO root fetch - main [MainThread]: End processing [SecuriPy]: success
+[2023-06-02 18:46:09] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-02 18:46:09] INFO root fetch - processPackages [gammapy]: executing diffoscope
+[2023-06-02 18:46:09] INFO root fetch - processPackages [gammapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammapy-1.0rc2.tar.gz tmp/gammapy-1.1rc1.tar.gz --markdown 20230602/g/gammapy/1.0rc2-1.1rc1/diff.md --exclude *.pyd
+[2023-06-02 18:46:10] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-02 18:46:23] INFO root fetch - main [MainThread]: End processing [gammapy]: success
+[2023-06-02 18:46:23] INFO root fetch - main [MainThread]: Store serial: [18351163]
