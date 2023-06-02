@@ -9472,3 +9472,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:44:53] INFO root fetch - main [MainThread]: End processing [python-docx-ng]: success
 [2023-06-02 09:44:54] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
 [2023-06-02 09:44:54] INFO root fetch - main [MainThread]: Store serial: [18345930]
+[2023-06-02 09:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345930]
+[2023-06-02 09:50:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iitmbsvideosdownloader
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsi-tk
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcclick
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stig
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binance-connector
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xoa-converter
+[2023-06-02 09:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: web-foundation
+[2023-06-02 09:50:03] INFO root fetch - processPackages [iitmbsvideosdownloader]: New version: [1.2.7] Old Version: [0.4.6]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [stig]: New version: [0.9.0a0] Old Version: [0.8.3a0]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [qsi-tk]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [xoa-converter]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [vcclick]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [binance-connector]: New version: [3.1.0] Old Version: [3.0.0rc2]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [web-foundation]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-02 09:50:03] INFO root fetch - processPackages [iitmbsvideosdownloader]: Downloading https://files.pythonhosted.org/packages/64/4f/cbbcdef9d427dc405c5d35793f210dfe61ac7985fa2a627a00d9fb7f35aa/iitmbsvideosdownloader-0.4.6.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [stig]: Downloading https://files.pythonhosted.org/packages/06/48/811857e9595031a00d70e352a8ae398632c61df238f19c1c2c3d4097a0a3/stig-0.8.3a0.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [vcclick]: Downloading https://files.pythonhosted.org/packages/aa/63/8202733fc35a223d4516fb8b00d03dac627464402fd4539ac1c0f53cf9f0/vcclick-1.0.8.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [xoa-converter]: Downloading https://files.pythonhosted.org/packages/8f/6c/0ed8955d18b3adfc25498ce4e0b5698666c8968124859fea76f30a65a51f/xoa-converter-1.0.7.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/ac/b1/bdb729919e2eac7c99b5c4e52819ec976378a97321ebea52246ad11519a0/qsi-tk-0.4.8.tar.gz
+[2023-06-02 09:50:03] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58244341>=10485760
+[2023-06-02 09:50:03] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-06-02 09:50:03] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/27/0b/bda5bef6236db6072867c8e15cb84f3f613eb126f7a08c036f97621affd5/binance-connector-3.1.0.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [binance-connector]: executing diffoscope
+[2023-06-02 09:50:03] INFO root fetch - processPackages [binance-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-connector-3.0.0rc2.tar.gz tmp/binance-connector-3.1.0.tar.gz --markdown 20230602/b/binance-connector/3.0.0rc2-3.1.0/diff.md --exclude *.pyd
+[2023-06-02 09:50:03] INFO root fetch - processPackages [iitmbsvideosdownloader]: Downloading https://files.pythonhosted.org/packages/71/2d/4bc71cf4dda64e0eda82f1b4e853da083239a6b48258979572d6bcdc1846/iitmbsvideosdownloader-1.2.7.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [iitmbsvideosdownloader]: executing diffoscope
+[2023-06-02 09:50:03] INFO root fetch - processPackages [iitmbsvideosdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitmbsvideosdownloader-0.4.6.tar.gz tmp/iitmbsvideosdownloader-1.2.7.tar.gz --markdown 20230602/i/iitmbsvideosdownloader/0.4.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-02 09:50:03] INFO root fetch - processPackages [vcclick]: Downloading https://files.pythonhosted.org/packages/ea/7d/c858b3e808ef44b9bd24d53a189b46c00fafded42e76963dd0d54545c985/vcclick-1.0.9.tar.gz
+[2023-06-02 09:50:03] INFO root fetch - processPackages [web-foundation]: executing diffoscope
+[2023-06-02 09:50:03] INFO root fetch - processPackages [web-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_foundation-3.0.8.tar.gz tmp/web_foundation-3.0.9.tar.gz --markdown 20230602/w/web-foundation/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:50:03] INFO root fetch - processPackages [xoa-converter]: Downloading https://files.pythonhosted.org/packages/f3/c3/a23c22fa56a6c4163cc05e200a2d3504b0dc2e4fd1d75f09fe56a8723e4d/xoa-converter-2.0.0.tar.gz
+[2023-06-02 09:50:04] INFO root fetch - processPackages [vcclick]: executing diffoscope
+[2023-06-02 09:50:04] INFO root fetch - processPackages [stig]: Downloading https://files.pythonhosted.org/packages/7d/21/0954ca578f7a60b79f3d4e12332f98481153e8329b18f0e423015fbfe5c1/stig-0.9.0a0.tar.gz
+[2023-06-02 09:50:04] INFO root fetch - processPackages [vcclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcclick-1.0.8.tar.gz tmp/vcclick-1.0.9.tar.gz --markdown 20230602/v/vcclick/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:50:04] INFO root fetch - processPackages [xoa-converter]: executing diffoscope
+[2023-06-02 09:50:04] INFO root fetch - processPackages [xoa-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-converter-1.0.7.tar.gz tmp/xoa-converter-2.0.0.tar.gz --markdown 20230602/x/xoa-converter/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 09:50:04] INFO root fetch - processPackages [stig]: executing diffoscope
+[2023-06-02 09:50:04] INFO root fetch - processPackages [stig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stig-0.8.3a0.tar.gz tmp/stig-0.9.0a0.tar.gz --markdown 20230602/s/stig/0.8.3a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [iitmbsvideosdownloader]: success
+[2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [vcclick]: success
+[2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
+[2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
+[2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [xoa-converter]: success
+[2023-06-02 09:50:06] INFO root fetch - main [MainThread]: End processing [stig]: success
+[2023-06-02 09:50:06] INFO root fetch - main [MainThread]: Store serial: [18345953]
