@@ -10287,3 +10287,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:39:59] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-02 10:40:24] INFO root fetch - main [MainThread]: End processing [paper-jsoneditor]: success
 [2023-06-02 10:40:24] INFO root fetch - main [MainThread]: Store serial: [18346415]
+[2023-06-02 10:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346415]
+[2023-06-02 10:45:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xsarslc
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ec2-proxy
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwpy
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modeldag
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelz-llm
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: playmolecule
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinx-scylladb-theme
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: decore-Base
+[2023-06-02 10:45:33] INFO root fetch - processPackages [ec2-proxy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 10:45:33] INFO root fetch - processPackages [xsarslc]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 10:45:33] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 10:45:33] INFO root fetch - processPackages [modeldag]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-06-02 10:45:33] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.5] Old Version: [23.6.4]
+[2023-06-02 10:45:33] INFO root fetch - processPackages [decore-Base]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-02 10:45:34] INFO root fetch - processPackages [gwpy]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-02 10:45:34] INFO root fetch - processPackages [playmolecule]: New version: [1.8.9.1] Old Version: [1.8.9]
+[2023-06-02 10:45:34] INFO root fetch - processPackages [sphinx-scylladb-theme]: New version: [1.5.1] Old Version: [1.4.3]
+[2023-06-02 10:45:34] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230601] Old Version: [0.0.1.dev20230531]
+[2023-06-02 10:45:34] INFO root fetch - processPackages [ec2-proxy]: Downloading https://files.pythonhosted.org/packages/56/18/e4daeb1d4488a11c551c91736214a56e6bc26aff81fd01d99b535a59b1d1/ec2_proxy-0.1.0.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modeldag]: Downloading https://files.pythonhosted.org/packages/c2/b3/ff5145a0f4d977258303c3abb1e1b58aecc2e2ae67659f132930204c2875/modeldag-0.2.0.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/af/28/6e9b1e1c33970bd111139f09bb485dba56d03746578ad0775df7bd64cb0f/modelz-llm-23.6.5.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [sphinx-scylladb-theme]: Downloading https://files.pythonhosted.org/packages/cc/05/c99ea3996b38e540a5cf291705e3924ed8ecb043802c2fa74662a5c260eb/sphinx_scylladb_theme-1.4.3.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/75/48/09068f1ab2c9184bf4c456cdf35d0c2dc5d9dc09a2b3b2626c1ae24ee2e1/playmolecule-1.8.9.1.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/75/f7/231948ede48072f92e92ac92bd772ca80d1d024f417f6db1b934eff32a4b/decore_Base-0.0.18.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/dd/29/05474afddb53bd56e98b9ab1bd0dc331ffa98fe54ea1f3db6e223dfa839d/tff_nightly-0.0.1.dev20230601-py2.py3-none-any.whl
+[2023-06-02 10:45:34] INFO root fetch - processPackages [gwpy]: Downloading https://files.pythonhosted.org/packages/55/b3/9b02c50455026de9acc07639e7dc32015e7682ec60d4ed2b470f4a780f96/gwpy-3.0.4.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.4.tar.gz tmp/modelz-llm-23.6.5.tar.gz --markdown 20230602/m/modelz-llm/23.6.4-23.6.5/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.9.tar.gz tmp/playmolecule-1.8.9.1.tar.gz --markdown 20230602/p/playmolecule/1.8.9-1.8.9.1/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/f4/15/dd940c67365a6a550189d6ec5bce0a75dd120eb404fa447c248eaf930088/xsarslc-2023.6.2.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [ec2-proxy]: Downloading https://files.pythonhosted.org/packages/55/cb/e9a5e9f82ba87613795b96a6ad3773aef01d53c4993bf01e2b8fc7829ec9/ec2_proxy-0.1.1.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.17.tar.gz tmp/decore_Base-0.0.18.tar.gz --markdown 20230602/d/decore-Base/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modeldag]: Downloading https://files.pythonhosted.org/packages/e8/ba/82f9ef7164a17a158684ae5aa1e9c817e36e54ec631167bce07642a4910a/modeldag-0.3.1.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [xsarslc]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [xsarslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarslc-2023.6.1.tar.gz tmp/xsarslc-2023.6.2.tar.gz --markdown 20230602/x/xsarslc/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [ec2-proxy]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [ec2-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2_proxy-0.1.0.tar.gz tmp/ec2_proxy-0.1.1.tar.gz --markdown 20230602/e/ec2-proxy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modeldag]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [modeldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modeldag-0.2.0.tar.gz tmp/modeldag-0.3.1.tar.gz --markdown 20230602/m/modeldag/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [sphinx-scylladb-theme]: Downloading https://files.pythonhosted.org/packages/be/cb/6b74dff9a4db5f1325a4956a3d4283a77b59e438fb2521f1c777fdd1cdd7/sphinx_scylladb_theme-1.5.1.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230531-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230601-py2.py3-none-any.whl.zip --markdown 20230602/t/tff-nightly/0.0.1.dev20230531-0.0.1.dev20230601/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [sphinx-scylladb-theme]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [sphinx-scylladb-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_scylladb_theme-1.4.3.tar.gz tmp/sphinx_scylladb_theme-1.5.1.tar.gz --markdown 20230602/s/sphinx-scylladb-theme/1.4.3-1.5.1/diff.md --exclude *.pyd
+[2023-06-02 10:45:34] INFO root fetch - processPackages [gwpy]: Downloading https://files.pythonhosted.org/packages/56/ab/719a5ea5c3b38c44dba134d654b61cead1beb5c1561d8706982d03c7d482/gwpy-3.0.5.tar.gz
+[2023-06-02 10:45:34] INFO root fetch - processPackages [gwpy]: executing diffoscope
+[2023-06-02 10:45:34] INFO root fetch - processPackages [gwpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwpy-3.0.4.tar.gz tmp/gwpy-3.0.5.tar.gz --markdown 20230602/g/gwpy/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-02 10:45:35] INFO root fetch - processPackages [modelz-llm]: Start processing: deepface-custom
+[2023-06-02 10:45:35] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 10:45:35] INFO root fetch - processPackages [deepface-custom]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-06-02 10:45:36] INFO root fetch - processPackages [ec2-proxy]: Start processing: tfp-nightly
+[2023-06-02 10:45:36] INFO root fetch - main [MainThread]: End processing [ec2-proxy]: success
+[2023-06-02 10:45:36] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-02 10:45:36] INFO root fetch - processPackages [nwebclient]: Start processing: django-treenode
+[2023-06-02 10:45:36] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 10:45:36] INFO root fetch - processPackages [django-treenode]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-02 10:45:36] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-02 10:45:36] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230602/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-02 10:45:36] INFO root fetch - processPackages [deepface-custom]: Downloading https://files.pythonhosted.org/packages/19/a5/a583abc9c9285603af86a99f638d05cc49fbd7893070610445b406dee1a3/deepface-custom-0.0.79.tar.gz
+[2023-06-02 10:45:36] INFO root fetch - main [MainThread]: End processing [modeldag]: success
+[2023-06-02 10:45:36] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-06-02 10:45:36] INFO root fetch - processPackages [deepface-custom]: Downloading https://files.pythonhosted.org/packages/61/b1/a2b69abede4c1e16197547988239d0636beee918a1b6a682e62293291bbd/deepface-custom-0.0.80.tar.gz
+[2023-06-02 10:45:36] INFO root fetch - processPackages [deepface-custom]: executing diffoscope
+[2023-06-02 10:45:36] INFO root fetch - processPackages [deepface-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepface-custom-0.0.79.tar.gz tmp/deepface-custom-0.0.80.tar.gz --markdown 20230602/d/deepface-custom/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-06-02 10:45:36] INFO root fetch - processPackages [django-treenode]: executing diffoscope
+[2023-06-02 10:45:36] INFO root fetch - processPackages [django-treenode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-treenode-0.8.1.tar.gz tmp/django-treenode-0.9.0.tar.gz --markdown 20230602/d/django-treenode/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 10:45:36] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-06-02 10:45:37] INFO root fetch - main [MainThread]: End processing [deepface-custom]: success
+[2023-06-02 10:45:37] INFO root fetch - main [MainThread]: End processing [django-treenode]: success
+[2023-06-02 10:45:37] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-02 10:45:38] INFO root fetch - main [MainThread]: End processing [xsarslc]: success
+[2023-06-02 10:45:39] INFO root fetch - main [MainThread]: End processing [sphinx-scylladb-theme]: success
+[2023-06-02 10:45:40] INFO root fetch - main [MainThread]: End processing [gwpy]: success
+[2023-06-02 10:45:49] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-02 10:45:49] INFO root fetch - main [MainThread]: Store serial: [18346462]
