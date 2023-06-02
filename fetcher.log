@@ -19897,3 +19897,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:01:30] INFO root fetch - main [MainThread]: End processing [sunpy]: success
 [2023-06-02 21:02:01] INFO root fetch - main [MainThread]: End processing [finesse]: success
 [2023-06-02 21:02:01] INFO root fetch - main [MainThread]: Store serial: [18352290]
+[2023-06-02 21:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352290]
+[2023-06-02 21:07:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iotbr
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konko
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdsave
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanoqa
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvenafi
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveports
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databento-dbn
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvxcovariance
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ox-script
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tapipy
+[2023-06-02 21:07:15] INFO root fetch - processPackages [konko]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cmdsave]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [nanoqa]: New version: [0.0.40] Old Version: [0.0.37]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [pyvenafi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [liveports]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ox-script]: New version: [2.0.1] Old Version: [0.3.5]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cvxcovariance]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [tapipy]: New version: [1.4.0a1] Old Version: [1.3.5]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [databento-dbn]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [iotbr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cmdsave]: Downloading https://files.pythonhosted.org/packages/4b/b3/84c0dc59fefd9931b62b72bb0b20cef7392f866d0f1d084203ee7de4c4f6/cmdsave-1.0.1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [nanoqa]: Downloading https://files.pythonhosted.org/packages/d9/8d/c256ec4296308bc0275b744c39b6b02d8eadb679489ed4ef0a691b966026/nanoqa-0.0.37.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [pyvenafi]: Downloading https://files.pythonhosted.org/packages/0e/9e/11669e98ae616f6a898f9e5304aa6992d25f4314f0f3a6059025e883173a/pyvenafi-1.0.2.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cvxcovariance]: Downloading https://files.pythonhosted.org/packages/da/5d/fede17aaf730c99956a6c7fe131e291816cf4e37fc64df035b211a5c617a/cvxcovariance-0.1.1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ox-script]: Downloading https://files.pythonhosted.org/packages/2b/8a/528244fc3fca79f5d59e416b3627c4ca43bca6b7ae2c9f8e58f67c34b8f1/ox_script-0.3.5.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/11/c0/a28aed7fd2c088ba54ec059fb93689eeaf2bc0b9718b7dd0b1b7366bac99/liveports-0.1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/93/aa/414be99a7357de4208280cac6a18ff14e00fa36dffa2920223f2193af547/konko-0.0.4.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cvxcovariance]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cvxcovariance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxcovariance-0.1.0.tar.gz tmp/cvxcovariance-0.1.1.tar.gz --markdown 20230602/c/cvxcovariance/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [iotbr]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [iotbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotbr-0.0.8.tar.gz tmp/iotbr-0.0.9.tar.gz --markdown 20230602/i/iotbr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cmdsave]: Downloading https://files.pythonhosted.org/packages/a2/93/b062f2c93d7babe625962887073a8f7cefad4bdd9cfaf83e2291c253b3a7/cmdsave-1.0.2.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/11/05/271e0092d4921d1a7a6447ea7c60d6f3b97577ae357648197ce3d79b6191/databento_dbn-0.6.1-cp39-none-win_amd64.whl
+[2023-06-02 21:07:15] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/48/2e/c6a74150baf77d020058c26efad45ae95f27524ec11ba8afebef3b36d966/tapipy-1.4.0a1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [pyvenafi]: Downloading https://files.pythonhosted.org/packages/86/4a/8e58198fcf069318c4fdbb4ca3bc6e539210a8c384183568f63e5e094e7f/pyvenafi-1.0.3.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ox-script]: Downloading https://files.pythonhosted.org/packages/07/fd/b121a74f048025f8a8c2eab28b71f560ebdc90e4e987248b26dccec7379f/ox_script-2.0.1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.3.tar.gz tmp/konko-0.0.4.tar.gz --markdown 20230602/k/konko/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cmdsave]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [cmdsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdsave-1.0.1.tar.gz tmp/cmdsave-1.0.2.tar.gz --markdown 20230602/c/cmdsave/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/96/3c/6c6ca25884aeb303e84b8fee395113b919e4b107090581527b5d9bbbc67c/liveports-0.1.1.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [nanoqa]: Downloading https://files.pythonhosted.org/packages/72/8f/523e7e701c655028a3de40407b1f8e902442f2142a0244e9fcd43aad8ccf/nanoqa-0.0.40.tar.gz
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ox-script]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [ox-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ox_script-0.3.5.tar.gz tmp/ox_script-2.0.1.tar.gz --markdown 20230602/o/ox-script/0.3.5-2.0.1/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [pyvenafi]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [pyvenafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvenafi-1.0.2.tar.gz tmp/pyvenafi-1.0.3.tar.gz --markdown 20230602/p/pyvenafi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [liveports]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [liveports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveports-0.1.tar.gz tmp/liveports-0.1.1.tar.gz --markdown 20230602/l/liveports/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [nanoqa]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [nanoqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoqa-0.0.37.tar.gz tmp/nanoqa-0.0.40.tar.gz --markdown 20230602/n/nanoqa/0.0.37-0.0.40/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [databento-dbn]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [databento-dbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento_dbn-0.6.0-cp39-none-win_amd64.whl.zip tmp/databento_dbn-0.6.1-cp39-none-win_amd64.whl.zip --markdown 20230602/d/databento-dbn/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-02 21:07:15] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-06-02 21:07:15] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.3.5.tar.gz tmp/tapipy-1.4.0a1.tar.gz --markdown 20230602/t/tapipy/1.3.5-1.4.0a1/diff.md --exclude *.pyd
+[2023-06-02 21:07:17] INFO root fetch - processPackages [konko]: Start processing: med-imagetools
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-06-02 21:07:17] INFO root fetch - processPackages [med-imagetools]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [cvxcovariance]: success
+[2023-06-02 21:07:17] INFO root fetch - processPackages [med-imagetools]: Downloading https://files.pythonhosted.org/packages/eb/cc/85d1e58f2b9069b9c19e15e899d041d7f897fad0794825c46c14b722a474/med-imagetools-1.1.5.tar.gz
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [ox-script]: success
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [cmdsave]: success
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [liveports]: success
+[2023-06-02 21:07:17] INFO root fetch - processPackages [med-imagetools]: Downloading https://files.pythonhosted.org/packages/dd/72/18c851442fc987ca878dc09c9c08f0891bb98cb0c4ffece5324ee143a4e7/med-imagetools-1.1.6.tar.gz
+[2023-06-02 21:07:17] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
+[2023-06-02 21:07:17] INFO root fetch - processPackages [med-imagetools]: executing diffoscope
+[2023-06-02 21:07:17] INFO root fetch - processPackages [med-imagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/med-imagetools-1.1.5.tar.gz tmp/med-imagetools-1.1.6.tar.gz --markdown 20230602/m/med-imagetools/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-02 21:07:18] INFO root fetch - main [MainThread]: End processing [nanoqa]: success
+[2023-06-02 21:07:19] INFO root fetch - main [MainThread]: End processing [med-imagetools]: success
+[2023-06-02 21:07:20] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-06-02 21:07:20] INFO root fetch - main [MainThread]: End processing [pyvenafi]: success
+[2023-06-02 21:07:22] INFO root fetch - main [MainThread]: End processing [iotbr]: success
+[2023-06-02 21:07:22] INFO root fetch - main [MainThread]: Store serial: [18352362]
