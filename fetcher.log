@@ -21680,3 +21680,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:15:49] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
 [2023-06-02 23:15:53] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 23:15:53] INFO root fetch - main [MainThread]: Store serial: [18353391]
+[2023-06-02 23:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353391]
+[2023-06-02 23:21:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tapisservice
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pointstorm
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ndtiff
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salesforce-codetf
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proofpoint-itm
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cofactr
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiwi-cogs
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salesforce-codetf
+[2023-06-02 23:21:02] INFO root fetch - processPackages [tapisservice]: New version: [1.4.0a3] Old Version: [1.4.0a2]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ndtiff]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [pointstorm]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [proofpoint-itm]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.8] Old Version: [0.0.6.7]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.8] Old Version: [0.0.6.7]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [kiwi-cogs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [cofactr]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-06-02 23:21:02] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/de/53/d61999a4a3393bef3ba7d419793ea8ae301c20973dae713e20ac1f1ba499/salesforce-codetf-0.0.6.7.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/de/53/d61999a4a3393bef3ba7d419793ea8ae301c20973dae713e20ac1f1ba499/salesforce-codetf-0.0.6.7.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/81/7b/6c8b70fd2b02afb370cc2b07da0913dbff1540809ccf0b0e7bf66714dd3c/pointstorm-1.1.6.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [kiwi-cogs]: Downloading https://files.pythonhosted.org/packages/b1/90/74561a5531f83cf1f47933ba87c3cdb293eb0fe52ca704bd406e4efb7107/kiwi_cogs-0.1.2.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [proofpoint-itm]: Downloading https://files.pythonhosted.org/packages/25/34/f95b392c9d5abc08d175f2fc3bb44a28f8b0f7b71ff8cdd7dd85b2af99cc/proofpoint_itm-0.4.0.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [ndtiff]: Downloading https://files.pythonhosted.org/packages/c2/42/2c1250f71c4e14c080e648b64a445c57d0aef116c3b0d2105a2f4be3e934/ndtiff-2.0.0.tar.gz
+[2023-06-02 23:21:02] INFO root fetch - processPackages [tapisservice]: Downloading https://files.pythonhosted.org/packages/b0/ef/2fbe5a283916b6b8a5554486be18450e8fc6a7e4b208f097d2f91aad3823/tapisservice-1.4.0a3.tar.gz
+[2023-06-02 23:21:03] INFO root fetch - processPackages [pointstorm]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [pointstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointstorm-1.1.5.tar.gz tmp/pointstorm-1.1.6.tar.gz --markdown 20230602/p/pointstorm/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [tapisservice]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [tapisservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapisservice-1.4.0a2.tar.gz tmp/tapisservice-1.4.0a3.tar.gz --markdown 20230602/t/tapisservice/1.4.0a2-1.4.0a3/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [kiwi-cogs]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [kiwi-cogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_cogs-0.1.1.tar.gz tmp/kiwi_cogs-0.1.2.tar.gz --markdown 20230602/k/kiwi-cogs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [cofactr]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [cofactr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofactr-5.8.0.tar.gz tmp/cofactr-5.9.0.tar.gz --markdown 20230602/c/cofactr/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/f7/c7/d13981bb3a93ebad488b230e4a8e204baf390ad60eba3e1087c73b554a65/salesforce-codetf-0.0.6.8.tar.gz
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/f7/c7/d13981bb3a93ebad488b230e4a8e204baf390ad60eba3e1087c73b554a65/salesforce-codetf-0.0.6.8.tar.gz
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.7.tar.gz tmp/salesforce-codetf-0.0.6.8.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.7-0.0.6.8/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.7.tar.gz tmp/salesforce-codetf-0.0.6.8.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.7-0.0.6.8/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [ndtiff]: Downloading https://files.pythonhosted.org/packages/92/71/71b534641a843770b3b116bb11a3b5f08595e7d30195d3ce62015aedaeac/ndtiff-2.0.1.tar.gz
+[2023-06-02 23:21:03] INFO root fetch - processPackages [proofpoint-itm]: Downloading https://files.pythonhosted.org/packages/8a/e1/24c9cb981a41980bbb2dbcab19df4f5de8e6339c23f29ca3ab10e7344da9/proofpoint_itm-0.5.0.tar.gz
+[2023-06-02 23:21:03] INFO root fetch - processPackages [ndtiff]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [ndtiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndtiff-2.0.0.tar.gz tmp/ndtiff-2.0.1.tar.gz --markdown 20230602/n/ndtiff/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-02 23:21:03] INFO root fetch - processPackages [proofpoint-itm]: executing diffoscope
+[2023-06-02 23:21:03] INFO root fetch - processPackages [proofpoint-itm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proofpoint_itm-0.4.0.tar.gz tmp/proofpoint_itm-0.5.0.tar.gz --markdown 20230602/p/proofpoint-itm/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [pointstorm]: success
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [tapisservice]: success
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [kiwi-cogs]: success
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [proofpoint-itm]: success
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 23:21:04] INFO root fetch - main [MainThread]: End processing [cofactr]: success
+[2023-06-02 23:21:05] INFO root fetch - main [MainThread]: End processing [ndtiff]: success
+[2023-06-02 23:21:06] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 23:21:06] INFO root fetch - main [MainThread]: Store serial: [18353415]
