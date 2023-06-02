@@ -18298,3 +18298,154 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:02:10] INFO root fetch - main [MainThread]: End processing [pyquil]: success
 [2023-06-02 19:02:13] INFO root fetch - main [MainThread]: End processing [hlink]: success
 [2023-06-02 19:02:13] INFO root fetch - main [MainThread]: Store serial: [18351285]
+[2023-06-02 19:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351285]
+[2023-06-02 19:07:23] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tronapi-JCO
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apigratis-sdk-python
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anoncreds
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magma-suite
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gantry
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whorl
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sso-client
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index
+[2023-06-02 19:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cohere
+[2023-06-02 19:07:23] INFO root fetch - processPackages [apigratis-sdk-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [anoncreds]: New version: [0.1.0.dev19] Old Version: [0.1.0.dev18]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [magma-suite]: New version: [1.5.0.1b8] Old Version: [1.5.0.1b16]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gantry]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [tronapi-JCO]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [whorl]: New version: [0.0.0.dev20230602] Old Version: [0.0.0.dev20230601]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [cohere]: New version: [4.7.0] Old Version: [4.6.1]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 19:07:23] INFO root fetch - processPackages [apigratis-sdk-python]: Downloading https://files.pythonhosted.org/packages/80/d6/639fc59a62d74e1cec3b774b7968d58a242a12ae5a8a0c361874a32fbcc9/apigratis-sdk-python-1.0.3.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/d7/45/6157e92e0427555ac784e2ea14601e81e307579cc853092691bfdd528328/magma_suite-1.5.0.1b16.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/46/ae/f7fefae00a89eab33a33299e3782568b706ddc422553cff45e09de298e80/django-sso-client-0.0.1.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [whorl]: Downloading https://files.pythonhosted.org/packages/d9/2f/641d1189c9538d7d5447e7f1fdf4c74ec49aeec62d4f8e306df7315c8956/whorl-0.0.0.dev20230602-cp310-cp310-win_amd64.whl
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/76/2b/288183b1e864d68d85614fd18d07b829e21eb5fe00a6f07dc86aba8f97a3/gantry-0.6.7.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/b2/3d/aa3bbcbe80d81bb11ae479953ebed5864e229ff7dc7290f6493e0ec6460a/cohere-4.7.0.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [anoncreds]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [anoncreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoncreds-0.1.0.dev18-py3-none-win_amd64.whl.zip tmp/anoncreds-0.1.0.dev19-py3-none-win_amd64.whl.zip --markdown 20230602/a/anoncreds/0.1.0.dev18-0.1.0.dev19/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [apigratis-sdk-python]: Downloading https://files.pythonhosted.org/packages/86/39/a1572bcd58368e55ddf0fa9df16193eff88833a08a5d99846fcbd99699e9/apigratis-sdk-python-1.0.4.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230602/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230602/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [magma-suite]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [magma-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magma_suite-1.5.0.1b16.tar.gz tmp/magma_suite-1.5.0.1b8.tar.gz --markdown 20230602/m/magma-suite/1.5.0.1b16-1.5.0.1b8/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [tronapi-JCO]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [tronapi-JCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tronapi-JCO-3.1.8.tar.gz tmp/tronapi-JCO-3.1.9.tar.gz --markdown 20230602/t/tronapi-JCO/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.6.tar.gz tmp/gantry-0.6.7.tar.gz --markdown 20230602/g/gantry/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/b8/41/ee3eded37adfc357dbfa8c77bc34147aa26c031955b20c628ca7964935db/django-sso-client-0.0.2.tar.gz
+[2023-06-02 19:07:23] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.6.1.tar.gz tmp/cohere-4.7.0.tar.gz --markdown 20230602/c/cohere/4.6.1-4.7.0/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [apigratis-sdk-python]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [apigratis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-sdk-python-1.0.3.tar.gz tmp/apigratis-sdk-python-1.0.4.tar.gz --markdown 20230602/a/apigratis-sdk-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 19:07:23] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-06-02 19:07:23] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.1.tar.gz tmp/django-sso-client-0.0.2.tar.gz --markdown 20230602/d/django-sso-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 19:07:24] INFO root fetch - processPackages [whorl]: executing diffoscope
+[2023-06-02 19:07:24] INFO root fetch - processPackages [whorl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whorl-0.0.0.dev20230601-cp310-cp310-win_amd64.whl.zip tmp/whorl-0.0.0.dev20230602-cp310-cp310-win_amd64.whl.zip --markdown 20230602/w/whorl/0.0.0.dev20230601-0.0.0.dev20230602/diff.md --exclude *.pyd
+[2023-06-02 19:07:25] INFO root fetch - processPackages [magma-suite]: Start processing: apigratis-sdk-python
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [magma-suite]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [apigratis-sdk-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [apigratis-sdk-python]: executing diffoscope
+[2023-06-02 19:07:25] INFO root fetch - processPackages [apigratis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigratis-sdk-python-1.0.3.tar.gz tmp/apigratis-sdk-python-1.0.4.tar.gz --markdown 20230602/a/apigratis-sdk-python/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 19:07:25] INFO root fetch - processPackages [apigratis-sdk-python]: Start processing: seleniumbase
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [apigratis-sdk-python]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [cohere]: Start processing: psdist
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [psdist]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [tronapi-JCO]: Start processing: pulumiverse-astra
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [tronapi-JCO]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [django-sso-client]: Start processing: tigramite
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [pulumiverse-astra]: New version: [1.0.40] Old Version: [1.0.39]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [tigramite]: New version: [5.2.1.8] Old Version: [5.2.1.6]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [whorl]: Start processing: passlock
+[2023-06-02 19:07:25] INFO root fetch - main [MainThread]: End processing [whorl]: success
+[2023-06-02 19:07:25] INFO root fetch - processPackages [passlock]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 19:07:25] INFO root fetch - processPackages [tigramite]: Downloading https://files.pythonhosted.org/packages/8e/7b/0a9485c6601898bb45e18f3c576eb9476ec79b6e6212658aa58a21688366/tigramite-5.2.1.8.tar.gz
+[2023-06-02 19:07:25] INFO root fetch - processPackages [pulumiverse-astra]: Downloading https://files.pythonhosted.org/packages/8e/eb/33f018e3fb4926719cbb00e0e9288b6c747e19ff3650f06cfb24798a53f4/pulumiverse_astra-1.0.39.tar.gz
+[2023-06-02 19:07:26] INFO root fetch - processPackages [psdist]: Downloading https://files.pythonhosted.org/packages/5f/ec/470187d3d251ed9ec7074ffd07cdbe1daf16efd1cfd2ffa60b97e906c399/psdist-0.1.5.tar.gz
+[2023-06-02 19:07:26] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-02 19:07:26] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230602/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-02 19:07:26] INFO root fetch - processPackages [tigramite]: executing diffoscope
+[2023-06-02 19:07:26] INFO root fetch - processPackages [tigramite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigramite-5.2.1.6.tar.gz tmp/tigramite-5.2.1.8.tar.gz --markdown 20230602/t/tigramite/5.2.1.6-5.2.1.8/diff.md --exclude *.pyd
+[2023-06-02 19:07:26] INFO root fetch - processPackages [passlock]: Downloading https://files.pythonhosted.org/packages/9c/1f/70490ede460998b893fcc05db02dfa751d0bfc79dd635d3c8e0581a3c66e/passlock-1.0.5.tar.gz
+[2023-06-02 19:07:26] INFO root fetch - processPackages [psdist]: executing diffoscope
+[2023-06-02 19:07:26] INFO root fetch - processPackages [psdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdist-0.1.4.tar.gz tmp/psdist-0.1.5.tar.gz --markdown 20230602/p/psdist/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 19:07:26] INFO root fetch - processPackages [pulumiverse-astra]: Downloading https://files.pythonhosted.org/packages/f5/bc/e16429dd6ddc0ecd989f0b319d24fcf5fd34293b6c47519328249154b532/pulumiverse_astra-1.0.40.tar.gz
+[2023-06-02 19:07:26] INFO root fetch - processPackages [passlock]: executing diffoscope
+[2023-06-02 19:07:26] INFO root fetch - processPackages [passlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passlock-1.0.4.tar.gz tmp/passlock-1.0.5.tar.gz --markdown 20230602/p/passlock/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 19:07:26] INFO root fetch - processPackages [pulumiverse-astra]: executing diffoscope
+[2023-06-02 19:07:26] INFO root fetch - processPackages [pulumiverse-astra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_astra-1.0.39.tar.gz tmp/pulumiverse_astra-1.0.40.tar.gz --markdown 20230602/p/pulumiverse-astra/1.0.39-1.0.40/diff.md --exclude *.pyd
+[2023-06-02 19:07:26] INFO root fetch - processPackages [gantry]: Start processing: ytsaurus-spyt
+[2023-06-02 19:07:26] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-06-02 19:07:26] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b451.post25341090.dev21] Old Version: [1.70.1b451.post22460989.dev22]
+[2023-06-02 19:07:26] INFO root fetch - processPackages [apigratis-sdk-python]: Start processing: bagbag
+[2023-06-02 19:07:26] INFO root fetch - main [MainThread]: End processing [apigratis-sdk-python]: success
+[2023-06-02 19:07:26] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-06-02 19:07:26] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/ae/3b/e3a2c1d4ded57a63bbb36433b80d0c5834f2d550a2a54ed7561daff27b07/ytsaurus-spyt-1.70.1b451.post22460989.dev22.tar.gz
+[2023-06-02 19:07:27] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-06-02 19:07:27] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b451.post22460989.dev22.tar.gz tmp/ytsaurus-spyt-1.70.1b451.post25341090.dev21.tar.gz --markdown 20230602/y/ytsaurus-spyt/1.70.1b451.post22460989.dev22-1.70.1b451.post25341090.dev21/diff.md --exclude *.pyd
+[2023-06-02 19:07:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-02 19:07:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230602/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-06-02 19:07:27] ERROR root fetch - processPackages [bagbag]: Diffoscope failed: Error: error creating container storage: the container name "interesting_antonelli" is already in use by "03c76ee9e3d4433fc7bdaffb3c9a91b7192704e6024f1a92d3dac4a935474f5b". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-02 19:07:27] INFO root fetch - processPackages [bagbag]: Start processing: edge-tts
+[2023-06-02 19:07:27] INFO root fetch - main [MainThread]: End processing [bagbag] error
+[2023-06-02 19:07:27] INFO root fetch - processPackages [edge-tts]: New version: [6.1.6] Old Version: [6.1.5]
+[2023-06-02 19:07:27] INFO root fetch - processPackages [passlock]: Start processing: twitter-api-client
+[2023-06-02 19:07:27] INFO root fetch - main [MainThread]: End processing [passlock]: success
+[2023-06-02 19:07:27] INFO root fetch - processPackages [twitter-api-client]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-02 19:07:27] INFO root fetch - processPackages [edge-tts]: Downloading https://files.pythonhosted.org/packages/57/9b/c210806c9179e366254840014cd339e8f84453d7d562c9c9299635ecd043/edge-tts-6.1.5.tar.gz
+[2023-06-02 19:07:27] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/04/b3/b754a6e02e06f9ddb93f2e97485ea9b26a0d849244fcfe145924f1515873/twitter-api-client-0.8.5.tar.gz
+[2023-06-02 19:07:27] INFO root fetch - processPackages [edge-tts]: Downloading https://files.pythonhosted.org/packages/ea/40/4b55d35de89c4ff71c13f168bdca9fcc9d279ea3495bbb548704594be4e1/edge-tts-6.1.6.tar.gz
+[2023-06-02 19:07:27] INFO root fetch - processPackages [psdist]: Start processing: PyWebUIFramework
+[2023-06-02 19:07:27] INFO root fetch - main [MainThread]: End processing [psdist]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [PyWebUIFramework]: New version: [0.3] Old Version: [0.2.2]
+[2023-06-02 19:07:28] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-02 19:07:28] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.8.4.tar.gz tmp/twitter-api-client-0.8.5.tar.gz --markdown 20230602/t/twitter-api-client/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-02 19:07:28] INFO root fetch - processPackages [edge-tts]: executing diffoscope
+[2023-06-02 19:07:28] INFO root fetch - processPackages [edge-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge-tts-6.1.5.tar.gz tmp/edge-tts-6.1.6.tar.gz --markdown 20230602/e/edge-tts/6.1.5-6.1.6/diff.md --exclude *.pyd
+[2023-06-02 19:07:28] INFO root fetch - processPackages [llama-index]: Start processing: tap-dbt
+[2023-06-02 19:07:28] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/6a/9b/55d8f76d146940e85b026f1435dcae253a3bd7ffd468c2addefdcc289a97/PyWebUIFramework-0.3.tar.gz
+[2023-06-02 19:07:28] INFO root fetch - processPackages [tap-dbt]: New version: [0.7.0] Old Version: [0.6.0a1]
+[2023-06-02 19:07:28] INFO root fetch - processPackages [gpt-index]: Start processing: openai-forward
+[2023-06-02 19:07:28] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [openai-forward]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 19:07:28] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 19:07:28] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-0.2.2.tar.gz tmp/PyWebUIFramework-0.3.tar.gz --markdown 20230602/P/PyWebUIFramework/0.2.2-0.3/diff.md --exclude *.pyd
+[2023-06-02 19:07:28] INFO root fetch - processPackages [tigramite]: Start processing: biom3d
+[2023-06-02 19:07:28] INFO root fetch - main [MainThread]: End processing [tigramite]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-02 19:07:28] INFO root fetch - processPackages [ytsaurus-spyt]: Start processing: pulumi-pulumiservice
+[2023-06-02 19:07:28] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-02 19:07:28] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230602/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:07:28] INFO root fetch - processPackages [tap-dbt]: Downloading https://files.pythonhosted.org/packages/11/dd/55b3061a89c55bdcf92b1941758910be04d6ee38f3db327f8abcc70516a1/tap_dbt-0.7.0.tar.gz
+[2023-06-02 19:07:28] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.7.3a1685724591] Old Version: [0.7.2]
+[2023-06-02 19:07:28] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/f3/c3/2a47907b2f92ceecfc469b584b511922ca81610c719f9f6c7c7e5f1417ed/openai_forward-0.2.3.tar.gz
+[2023-06-02 19:07:28] INFO root fetch - main [MainThread]: End processing [pulumiverse-astra]: success
+[2023-06-02 19:07:28] INFO root fetch - processPackages [tap-dbt]: executing diffoscope
+[2023-06-02 19:07:28] INFO root fetch - processPackages [tap-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_dbt-0.6.0a1.tar.gz tmp/tap_dbt-0.7.0.tar.gz --markdown 20230602/t/tap-dbt/0.6.0a1-0.7.0/diff.md --exclude *.pyd
+[2023-06-02 19:07:29] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-06-02 19:07:29] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.2.2.tar.gz tmp/openai_forward-0.2.3.tar.gz --markdown 20230602/o/openai-forward/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 19:07:29] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/08/31/b1de09339f88f0d8aa37ca5290a64655dd29228ea1a874500039c32767b2/pulumi_pulumiservice-0.7.3a1685724591.tar.gz
+[2023-06-02 19:07:29] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-06-02 19:07:29] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.7.2.tar.gz tmp/pulumi_pulumiservice-0.7.3a1685724591.tar.gz --markdown 20230602/p/pulumi-pulumiservice/0.7.2-0.7.3a1685724591/diff.md --exclude *.pyd
+[2023-06-02 19:07:29] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-02 19:07:29] INFO root fetch - main [MainThread]: End processing [edge-tts]: success
+[2023-06-02 19:07:30] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 19:07:30] INFO root fetch - main [MainThread]: End processing [tap-dbt]: success
+[2023-06-02 19:07:30] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-02 19:07:30] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-06-02 19:07:31] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-06-02 19:07:31] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-02 19:07:48] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
+[2023-06-02 19:07:48] INFO root fetch - main [MainThread]: Store serial: [18351363]
