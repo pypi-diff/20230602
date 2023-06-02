@@ -19117,3 +19117,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:02:08] INFO root fetch - main [MainThread]: End processing [fenics-pulse]: success
 [2023-06-02 20:02:09] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
 [2023-06-02 20:02:09] INFO root fetch - main [MainThread]: Store serial: [18351777]
+[2023-06-02 20:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351777]
+[2023-06-02 20:07:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wdmtoolbox
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pp-project
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rysk-client
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aries-askar
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d2y
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-06-02 20:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaparoo-lightning-package
+[2023-06-02 20:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rattail
+[2023-06-02 20:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyWebUIFramework
+[2023-06-02 20:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sts-libs
+[2023-06-02 20:07:18] INFO root fetch - processPackages [pp-project]: New version: [1.0.202306021802] Old Version: [1.0.202306021310]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [kaparoo-lightning-package]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rysk-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [aries-askar]: New version: [0.2.9.dev3] Old Version: [0.2.9.dev2]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.1] Old Version: [1.0]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [wdmtoolbox]: New version: [8.9.7.5] Old Version: [7.9.7.5]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [sts-libs]: New version: [0.0.3.dev3] Old Version: [0.0.3.dev1]
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230602/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230602/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/a2/fc/fabd5203784d52e6678951c5b0eda6075598b6d579837bdb222b60f99272/rysk_client-0.1.7.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [kaparoo-lightning-package]: Downloading https://files.pythonhosted.org/packages/44/68/523281999b22384ab83d8f2df0969fec1822c4b1350b2d148c510085eea8/kaparoo_lightning_package-0.1.0.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [pp-project]: Downloading https://files.pythonhosted.org/packages/3f/79/d0147edce19c157bdb7edf6d0c811c59e74a8260eb0ffc70799e60c5d789/pp_project-1.0.202306021802-py3-none-any.whl
+[2023-06-02 20:07:18] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/dd/b8/e270b673fdc5366ac3a020f51b4c286db346687929252d2ff440c2319e97/PyWebUIFramework-1.0.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/ec/9a/3bc801645af851093802a64c43c71137b82cab1db34a7279d8f696cf0b19/wdmtoolbox-7.9.7.5.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.1.6.tar.gz tmp/rysk_client-0.1.7.tar.gz --markdown 20230602/r/rysk-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [aries-askar]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [aries-askar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_askar-0.2.9.dev2-py3-none-win_amd64.whl.zip tmp/aries_askar-0.2.9.dev3-py3-none-win_amd64.whl.zip --markdown 20230602/a/aries-askar/0.2.9.dev2-0.2.9.dev3/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [pp-project]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [pp-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project-1.0.202306021310-py3-none-any.whl.zip tmp/pp_project-1.0.202306021802-py3-none-any.whl.zip --markdown 20230602/p/pp-project/1.0.202306021310-1.0.202306021802/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230602/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [kaparoo-lightning-package]: Downloading https://files.pythonhosted.org/packages/50/ff/d7abc7211399b792e0e4a309a303b6da68bff3a282e0d6313f0f39ae8ef0/kaparoo_lightning_package-0.2.0.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [sts-libs]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [sts-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_libs-0.0.3.dev1.tar.gz tmp/sts_libs-0.0.3.dev3.tar.gz --markdown 20230602/s/sts-libs/0.0.3.dev1-0.0.3.dev3/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/ed/40/6b13ec6439fbf8dbd6f49fa3ca9eaf50262a3a6c8d79964920859f10b79f/PyWebUIFramework-1.1.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.0.tar.gz tmp/PyWebUIFramework-1.1.tar.gz --markdown 20230602/P/PyWebUIFramework/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [wdmtoolbox]: Downloading https://files.pythonhosted.org/packages/70/67/62d4bfd6f784827489a14b4c543d4ca60b65a5484ef88e082f73ff0a2de0/wdmtoolbox-8.9.7.5.tar.gz
+[2023-06-02 20:07:18] INFO root fetch - processPackages [kaparoo-lightning-package]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [kaparoo-lightning-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_lightning_package-0.1.0.tar.gz tmp/kaparoo_lightning_package-0.2.0.tar.gz --markdown 20230602/k/kaparoo-lightning-package/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 20:07:18] INFO root fetch - processPackages [wdmtoolbox]: executing diffoscope
+[2023-06-02 20:07:18] INFO root fetch - processPackages [wdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdmtoolbox-7.9.7.5.tar.gz tmp/wdmtoolbox-8.9.7.5.tar.gz --markdown 20230602/w/wdmtoolbox/7.9.7.5-8.9.7.5/diff.md --exclude *.pyd
+[2023-06-02 20:07:19] INFO root fetch - processPackages [pp-project]: Start processing: axdd-person-client
+[2023-06-02 20:07:19] INFO root fetch - main [MainThread]: End processing [pp-project]: success
+[2023-06-02 20:07:19] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 20:07:20] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-06-02 20:07:20] INFO root fetch - main [MainThread]: End processing [kaparoo-lightning-package]: success
+[2023-06-02 20:07:20] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-06-02 20:07:20] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.8.tar.gz tmp/axdd-person-client-1.1.9.tar.gz --markdown 20230602/a/axdd-person-client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 20:07:20] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:07:20] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-02 20:07:20] INFO root fetch - main [MainThread]: End processing [wdmtoolbox]: success
+[2023-06-02 20:07:21] INFO root fetch - main [MainThread]: End processing [sts-libs]: success
+[2023-06-02 20:07:21] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-06-02 20:07:21] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-06-02 20:07:25] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-06-02 20:07:40] INFO root fetch - main [MainThread]: End processing [aries-askar]: success
+[2023-06-02 20:07:40] INFO root fetch - main [MainThread]: Store serial: [18351825]
