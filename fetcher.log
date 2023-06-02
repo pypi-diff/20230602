@@ -6361,3 +6361,43 @@
 [2023-06-02 05:06:25] INFO root fetch - main [MainThread]: End processing [pait]: success
 [2023-06-02 05:06:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-06-02 05:06:25] INFO root fetch - main [MainThread]: Store serial: [18344006]
+[2023-06-02 05:11:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344006]
+[2023-06-02 05:11:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-aligeniessp-1-0
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-escape-url
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ploomber
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyots
+[2023-06-02 05:11:34] INFO root fetch - processPackages [nonebot-plugin-escape-url]: New version: [0.1.2.post1] Old Version: [0.1.2]
+[2023-06-02 05:11:34] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-02 05:11:34] INFO root fetch - processPackages [quantplay]: New version: [1.2.94] Old Version: [1.2.93]
+[2023-06-02 05:11:34] INFO root fetch - processPackages [pyots]: New version: [9.1.0b0] Old Version: [9.0.0]
+[2023-06-02 05:11:34] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-06-02 05:11:34] INFO root fetch - processPackages [ploomber]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-02 05:11:35] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Downloading https://files.pythonhosted.org/packages/66/16/849b1a27fa290a124c136e80cf4ea918c6a3e180677fc3d22e3fdd46d216/alibabacloud_aligeniessp_1_0-1.0.9.tar.gz
+[2023-06-02 05:11:35] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Downloading https://files.pythonhosted.org/packages/cb/fa/77bad3ecc6350d92cfb072743d037acfa809524d8da0a520d05ab0597439/nonebot_plugin_escape_url-0.1.2.post1.tar.gz
+[2023-06-02 05:11:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/9c/82/c46c73fe5d478d42b7defdd9f20394108e9e087de32b7dcfdfd0386e87bd/quantplay-1.2.94.tar.gz
+[2023-06-02 05:11:35] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/9e/09/f09532b768b40c123888ad364edcf2d8efc85bd617e9ff30de3fa37b835e/ploomber-0.9.4-py3-none-any.whl
+[2023-06-02 05:11:35] INFO root fetch - processPackages [nonebot-plugin-escape-url]: executing diffoscope
+[2023-06-02 05:11:35] INFO root fetch - processPackages [nonebot-plugin-escape-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_escape_url-0.1.2.tar.gz tmp/nonebot_plugin_escape_url-0.1.2.post1.tar.gz --markdown 20230602/n/nonebot-plugin-escape-url/0.1.2-0.1.2.post1/diff.md --exclude *.pyd
+[2023-06-02 05:11:35] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-02 05:11:35] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.93.tar.gz tmp/quantplay-1.2.94.tar.gz --markdown 20230602/q/quantplay/1.2.93-1.2.94/diff.md --exclude *.pyd
+[2023-06-02 05:11:35] INFO root fetch - processPackages [pyots]: Downloading https://files.pythonhosted.org/packages/0c/30/013f86964a8a010c8648a399dc0a914ab0bfae9322be143094e890035e89/pyots-9.1.0b0.tar.gz
+[2023-06-02 05:11:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-02 05:11:35] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230602/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-02 05:11:35] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Downloading https://files.pythonhosted.org/packages/e9/8d/44368ee49463902c4beb6ab9696558ab08497e436cbcf1b70c3b8b621b72/alibabacloud_aligeniessp_1_0-2.0.0.tar.gz
+[2023-06-02 05:11:35] INFO root fetch - processPackages [pyots]: executing diffoscope
+[2023-06-02 05:11:35] INFO root fetch - processPackages [pyots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyots-9.0.0.tar.gz tmp/pyots-9.1.0b0.tar.gz --markdown 20230602/p/pyots/9.0.0-9.1.0b0/diff.md --exclude *.pyd
+[2023-06-02 05:11:35] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: executing diffoscope
+[2023-06-02 05:11:35] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligeniessp_1_0-1.0.9.tar.gz tmp/alibabacloud_aligeniessp_1_0-2.0.0.tar.gz --markdown 20230602/a/alibabacloud-aligeniessp-1-0/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 05:11:35] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/bc/42/a9177ba45f4033604d120c6cbad7f54188220a43491b141700035ad89e4c/ploomber-0.9.5.tar.gz
+[2023-06-02 05:11:36] INFO root fetch - processPackages [ploomber]: executing diffoscope
+[2023-06-02 05:11:36] INFO root fetch - processPackages [ploomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-0.9.4-py3-none-any.whl.zip tmp/ploomber-0.9.5.tar.gz --markdown 20230602/p/ploomber/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-02 05:11:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-escape-url]: success
+[2023-06-02 05:11:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-02 05:11:36] INFO root fetch - main [MainThread]: End processing [pyots]: success
+[2023-06-02 05:11:36] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-02 05:11:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligeniessp-1-0]: success
+[2023-06-02 05:11:37] INFO root fetch - main [MainThread]: End processing [ploomber]: success
+[2023-06-02 05:11:37] INFO root fetch - main [MainThread]: Store serial: [18344035]
