@@ -10982,3 +10982,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 11:20:49] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-06-02 11:20:50] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-06-02 11:20:50] INFO root fetch - main [MainThread]: Store serial: [18346833]
+[2023-06-02 11:26:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346833]
+[2023-06-02 11:26:18] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fosslight-source
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oceano-algos
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mzarr
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylychee
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readlog
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msaBase
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whatsapp-api-client-python
+[2023-06-02 11:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbx
+[2023-06-02 11:26:18] INFO root fetch - processPackages [mzarr]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [readlog]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-02 11:26:18] WARNING root fetch - processPackages [pylychee]: Skipping, unable to determine old version
+[2023-06-02 11:26:18] INFO root fetch - processPackages [pylychee]: Start processing: json2csv
+[2023-06-02 11:26:18] INFO root fetch - main [MainThread]: End processing [pylychee] error
+[2023-06-02 11:26:18] INFO root fetch - processPackages [fosslight-source]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [dbx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [whatsapp-api-client-python]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [json2csv]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/ac/96/476a9c905c06ee5c822fa4f5a7fedb6cb0503ab4ce8d10c80c52345a504a/msaBase-0.0.85.tar.gz
+[2023-06-02 11:26:18] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-02 11:26:18] INFO root fetch - processPackages [json2csv]: Downloading https://files.pythonhosted.org/packages/57/c6/1719a35ee4b6edfdb280b49fd3425523d204745619c63e0d73f8b4bd6796/json2csv-1.0.1.tar.gz
+[2023-06-02 11:26:18] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/29/5d/e5a284ad1ff420db22e00180b2b7832a1efec93e5510952247dd215c4c18/readlog-1.1.6.tar.gz
+[2023-06-02 11:26:18] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/4a/6f/cdb7e5d3f21562fc53f6987fbb39eddbb303bfd6ccc1a29e0c8fefdbaa14/dbx-0.8.8-py3-none-any.whl
+[2023-06-02 11:26:18] INFO root fetch - processPackages [mzarr]: Downloading https://files.pythonhosted.org/packages/bc/80/37cfc89e86659f341fadc13f23ca442e482d10fcc1ec2e319494b908ed84/mzarr-0.0.6.tar.gz
+[2023-06-02 11:26:18] INFO root fetch - processPackages [json2csv]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [json2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json2csv-1.0.0.tar.gz tmp/json2csv-1.0.1.tar.gz --markdown 20230602/j/json2csv/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.5.tar.gz tmp/readlog-1.1.6.tar.gz --markdown 20230602/r/readlog/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/17/13/3e4a23b3f767c9979cb6a04f8aff9efefcca8c0b7300c69d3eb18d022941/whatsapp-api-client-python-0.0.36.tar.gz
+[2023-06-02 11:26:18] INFO root fetch - processPackages [mzarr]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [mzarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mzarr-0.0.5.tar.gz tmp/mzarr-0.0.6.tar.gz --markdown 20230602/m/mzarr/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.6.8.tar.gz tmp/fosslight_source-1.6.9.tar.gz --markdown 20230602/f/fosslight-source/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [whatsapp-api-client-python]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [whatsapp-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-api-client-python-0.0.35.tar.gz tmp/whatsapp-api-client-python-0.0.36.tar.gz --markdown 20230602/w/whatsapp-api-client-python/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230602/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-06-02 11:26:18] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.85.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230602/m/msaBase/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 11:26:18] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/6c/37/07bb3b0701caca23275b5ae6a911c5e142132a954743c1ccb9d5ed287846/dbx-0.8.9-py3-none-any.whl
+[2023-06-02 11:26:19] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-02 11:26:19] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230602/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-02 11:26:19] INFO root fetch - processPackages [dbx]: executing diffoscope
+[2023-06-02 11:26:19] INFO root fetch - processPackages [dbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbx-0.8.8-py3-none-any.whl.zip tmp/dbx-0.8.9-py3-none-any.whl.zip --markdown 20230602/d/dbx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-02 11:26:20] INFO root fetch - processPackages [json2csv]: Start processing: easypip
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [json2csv]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [easypip]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [nwebclient]: Start processing: Aruna-Python-API
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [Aruna-Python-API]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [mzarr]: Start processing: PowDeRUL
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [mzarr]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [oceano-algos]: Start processing: wallbox
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/40/18/1e7df3ef0f1a8aed902b2713c022a377327625f7a1a73ffa56d5a6baed16/easypip-1.2.1.tar.gz
+[2023-06-02 11:26:20] INFO root fetch - processPackages [wallbox]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [fosslight-source]: Start processing: localstack-core
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230602092306] Old Version: [2.1.1.dev20230601145338]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/b9/3e/427ac28d9dac006f1c69f4ef46aa5c2b6e04e176de61b0706f245d8ca1ba/Aruna-Python-API-1.1.0rc2.tar.gz
+[2023-06-02 11:26:20] INFO root fetch - processPackages [PowDeRUL]: Downloading https://files.pythonhosted.org/packages/3a/e0/adaff962fd4971bb8ea08089456ba2d3cc414790f6bc939ddeb9607245db/PowDeRUL-1.0.3.tar.gz
+[2023-06-02 11:26:20] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2023-06-02 11:26:20] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.2.0.tar.gz tmp/easypip-1.2.1.tar.gz --markdown 20230602/e/easypip/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-02 11:26:20] INFO root fetch - processPackages [Aruna-Python-API]: executing diffoscope
+[2023-06-02 11:26:20] INFO root fetch - processPackages [Aruna-Python-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aruna-Python-API-1.1.0rc1.tar.gz tmp/Aruna-Python-API-1.1.0rc2.tar.gz --markdown 20230602/A/Aruna-Python-API/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-06-02 11:26:20] INFO root fetch - processPackages [wallbox]: Downloading https://files.pythonhosted.org/packages/74/37/9cc01fa33212ee4b64d93db6d82a8e4511f31ab63f1da1e77d5d1d42944c/wallbox-0.4.8.tar.gz
+[2023-06-02 11:26:20] INFO root fetch - processPackages [msaBase]: Start processing: Geode-Explicit
+[2023-06-02 11:26:20] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-06-02 11:26:20] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 11:26:20] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.2.tar.gz tmp/PowDeRUL-1.0.3.tar.gz --markdown 20230602/P/PowDeRUL/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 11:26:20] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.0.0rc5] Old Version: [4.0.0rc4]
+[2023-06-02 11:26:20] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/31/cb/e81c7d92ae32357a587c77e1373a8d0be02c963aa3f671339d63f5e4e147/localstack-core-2.1.1.dev20230602092306.tar.gz
+[2023-06-02 11:26:20] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-02 11:26:20] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230601145338.tar.gz tmp/localstack-core-2.1.1.dev20230602092306.tar.gz --markdown 20230602/l/localstack-core/2.1.1.dev20230601145338-2.1.1.dev20230602092306/diff.md --exclude *.pyd
+[2023-06-02 11:26:21] INFO root fetch - processPackages [wallbox]: Downloading https://files.pythonhosted.org/packages/3e/3f/6742678b54f87fb067776c0b661e6cade66c04271469ecaa61591ad4366a/wallbox-0.4.9.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-06-02 11:26:21] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.0.0rc4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.0.0rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230602/G/Geode-Explicit/4.0.0rc4-4.0.0rc5/diff.md --exclude *.pyd
+[2023-06-02 11:26:21] INFO root fetch - processPackages [readlog]: Start processing: b21scripts
+[2023-06-02 11:26:21] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-06-02 11:26:21] INFO root fetch - processPackages [wallbox]: executing diffoscope
+[2023-06-02 11:26:21] INFO root fetch - processPackages [wallbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallbox-0.4.8.tar.gz tmp/wallbox-0.4.9.tar.gz --markdown 20230602/w/wallbox/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-02 11:26:21] INFO root fetch - processPackages [b21scripts]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 11:26:21] INFO root fetch - processPackages [whatsapp-api-client-python]: Start processing: twyn
+[2023-06-02 11:26:21] INFO root fetch - main [MainThread]: End processing [whatsapp-api-client-python]: success
+[2023-06-02 11:26:21] INFO root fetch - processPackages [twyn]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-02 11:26:21] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/e6/63/7bff40c1bf441ac6229be61971789eae7723cf8d899438106c802435e48c/b21scripts-1.0.5.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [spanishconjugator]: Start processing: myPackageLicensePrototype
+[2023-06-02 11:26:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-02 11:26:21] INFO root fetch - processPackages [dbx]: Start processing: pyhyypapihawkmod
+[2023-06-02 11:26:21] INFO root fetch - main [MainThread]: End processing [dbx]: success
+[2023-06-02 11:26:21] INFO root fetch - processPackages [myPackageLicensePrototype]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 11:26:21] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/de/8f/eec50d3048652b1c540175bb67bf689f0fe294c1444de3779d3989482725/twyn-2.3.2.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.0.1.dev1] Old Version: [1.0.1]
+[2023-06-02 11:26:21] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/d8/16/30bf9cb144533d921c2d0cd8efab29e496ebc7831958618c43081c9d8d7a/b21scripts-1.0.6.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/61/07/8900a43fe475e9ba8c4c949c7984070478c581bcbf8859db9fe0b0cb07ab/pyhyypapihawkmod-1.0.1.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [myPackageLicensePrototype]: Downloading https://files.pythonhosted.org/packages/18/9a/34572c4d6fb4c09f178d09b535a4df44f5994d5376baffaa88476992d3be/myPackageLicensePrototype-1.0.2.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [b21scripts]: executing diffoscope
+[2023-06-02 11:26:21] INFO root fetch - processPackages [b21scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b21scripts-1.0.5.tar.gz tmp/b21scripts-1.0.6.tar.gz --markdown 20230602/b/b21scripts/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 11:26:21] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/47/43/a6a631a796d5dadedd76386ec9e3ab6d72c867766f7dc3555aac5ea7b99c/twyn-2.3.3.tar.gz
+[2023-06-02 11:26:21] INFO root fetch - processPackages [myPackageLicensePrototype]: executing diffoscope
+[2023-06-02 11:26:21] INFO root fetch - processPackages [myPackageLicensePrototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myPackageLicensePrototype-1.0.1.tar.gz tmp/myPackageLicensePrototype-1.0.2.tar.gz --markdown 20230602/m/myPackageLicensePrototype/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 11:26:21] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-06-02 11:26:21] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.3.2.tar.gz tmp/twyn-2.3.3.tar.gz --markdown 20230602/t/twyn/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-02 11:26:22] INFO root fetch - processPackages [easypip]: Start processing: zipline-tej
+[2023-06-02 11:26:22] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2023-06-02 11:26:22] ERROR root fetch - processPackages [zipline-tej]: Unable to get metadata: No such project 'zipline-tej'
+[2023-06-02 11:26:22] INFO root fetch - processPackages [zipline-tej]: Start processing: fosslight-binary
+[2023-06-02 11:26:22] INFO root fetch - main [MainThread]: End processing [zipline-tej] error
+[2023-06-02 11:26:22] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 11:26:22] INFO root fetch - processPackages [fosslight-binary]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-02 11:26:22] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/ad/b1/1477298bf5c8e751a72790e48fba16209b85c7a803d103842390a2293998/pyhyypapihawkmod-1.0.1.dev1.tar.gz
+[2023-06-02 11:26:22] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-02 11:26:22] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.0.1.tar.gz tmp/pyhyypapihawkmod-1.0.1.dev1.tar.gz --markdown 20230602/p/pyhyypapihawkmod/1.0.1-1.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-02 11:26:22] INFO root fetch - main [MainThread]: End processing [Aruna-Python-API]: success
+[2023-06-02 11:26:22] INFO root fetch - processPackages [fosslight-binary]: executing diffoscope
+[2023-06-02 11:26:22] INFO root fetch - processPackages [fosslight-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_binary-4.1.8.tar.gz tmp/fosslight_binary-4.1.9.tar.gz --markdown 20230602/f/fosslight-binary/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-02 11:26:22] INFO root fetch - main [MainThread]: End processing [wallbox]: success
+[2023-06-02 11:26:23] INFO root fetch - main [MainThread]: End processing [b21scripts]: success
+[2023-06-02 11:26:23] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-06-02 11:26:23] INFO root fetch - main [MainThread]: End processing [myPackageLicensePrototype]: success
+[2023-06-02 11:26:23] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-02 11:26:23] INFO root fetch - main [MainThread]: End processing [fosslight-binary]: success
+[2023-06-02 11:26:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-02 11:26:37] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-06-02 11:26:37] INFO root fetch - main [MainThread]: Store serial: [18346913]
