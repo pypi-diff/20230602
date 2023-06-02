@@ -6999,3 +6999,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 05:59:08] INFO root fetch - main [MainThread]: End processing [tap-checkly]: success
 [2023-06-02 05:59:09] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
 [2023-06-02 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18344319]
+[2023-06-02 06:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344319]
+[2023-06-02 06:04:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-data-mock
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apertium2ud
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-cloud
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turbine-design
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleepyask
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paradigm-data-portal
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timor-locations
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zee
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SplatStats
+[2023-06-02 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-06-02 06:04:18] WARNING root fetch - processPackages [chatgpt-cloud]: Skipping, unable to determine old version
+[2023-06-02 06:04:18] INFO root fetch - processPackages [chatgpt-cloud]: Start processing: tap-readthedocs
+[2023-06-02 06:04:18] INFO root fetch - main [MainThread]: End processing [chatgpt-cloud] error
+[2023-06-02 06:04:18] INFO root fetch - processPackages [py-data-mock]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [apertium2ud]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [sleepyask]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [paradigm-data-portal]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [turbine-design]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 06:04:18] WARNING root fetch - processPackages [zee]: Skipping, unable to determine old version
+[2023-06-02 06:04:18] INFO root fetch - main [MainThread]: End processing [zee] error
+[2023-06-02 06:04:18] INFO root fetch - processPackages [timor-locations]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [SplatStats]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [tap-readthedocs]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-02 06:04:18] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230602/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [turbine-design]: Downloading https://files.pythonhosted.org/packages/5f/46/950930a377a74398075036c38195dac58e73dffa93ad7e6d189477b9e718/turbine_design-1.0.4.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [paradigm-data-portal]: Downloading https://files.pythonhosted.org/packages/43/f3/9611a478a01b348afbd243d2ea5225a3f049ab3f85f4b6b8b8d61624c418/paradigm-data-portal-0.2.1.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [timor-locations]: Downloading https://files.pythonhosted.org/packages/e8/6a/0c9b64e86eb1b516e8a7c953c02d4127906e5d95c973c2f07536cd172db4/timor_locations-0.0.8.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [tap-readthedocs]: Downloading https://files.pythonhosted.org/packages/38/ec/cb3ca87b52f13f4bd7f060a7245583d402feb3b0631d57d6a665f40767dd/tap_readthedocs-0.0.1a2.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [timor-locations]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [timor-locations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timor_locations-0.0.7.tar.gz tmp/timor_locations-0.0.8.tar.gz --markdown 20230602/t/timor-locations/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/91/24/62435b43c5c2c54701689c0d1ac452e017145afa2859718d733447f05c49/py-data-mock-0.0.5.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [sleepyask]: Downloading https://files.pythonhosted.org/packages/2e/ed/5c669b36895b3a208edea47d86addc59f862a5b10530cc97296a0ee48a08/sleepyask-7.1.0.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/7a/3c/2a15f0e8d5439a5c5620262564363bbc6151eceb92f8ae419a6ccc5be12e/apertium2ud-0.0.3.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [py-data-mock]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [py-data-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-data-mock-0.0.4.tar.gz tmp/py-data-mock-0.0.5.tar.gz --markdown 20230602/p/py-data-mock/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [sleepyask]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [sleepyask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyask-7.0.0.tar.gz tmp/sleepyask-7.1.0.tar.gz --markdown 20230602/s/sleepyask/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [apertium2ud]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [apertium2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apertium2ud-0.0.2.tar.gz tmp/apertium2ud-0.0.3.tar.gz --markdown 20230602/a/apertium2ud/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [paradigm-data-portal]: Downloading https://files.pythonhosted.org/packages/c5/9a/7d28bc0138126ae62dd9ca05177ebb1604dccc6b2b1872a8c54d62d38c71/paradigm-data-portal-0.2.2.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [SplatStats]: Downloading https://files.pythonhosted.org/packages/fe/3b/1ec21cca9b51f2a853ac80a2fb083324c6eae42a7f51a0c9477d58941a86/SplatStats-2.1.1.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [paradigm-data-portal]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [paradigm-data-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-data-portal-0.2.1.tar.gz tmp/paradigm-data-portal-0.2.2.tar.gz --markdown 20230602/p/paradigm-data-portal/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] INFO root fetch - processPackages [tap-readthedocs]: Downloading https://files.pythonhosted.org/packages/7b/75/eca7eec319f54a5edf6310e7ab194e7dfc84ef73a664aec8296822403b22/tap_readthedocs-0.0.1a3.tar.gz
+[2023-06-02 06:04:18] INFO root fetch - processPackages [SplatStats]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [SplatStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SplatStats-2.1.0.tar.gz tmp/SplatStats-2.1.1.tar.gz --markdown 20230602/S/SplatStats/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-02 06:04:18] WARNING root fetch - processPackages [turbine-design]: Skipping package: exceeds size limit 20379157>=10485760
+[2023-06-02 06:04:18] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-06-02 06:04:18] INFO root fetch - processPackages [tap-readthedocs]: executing diffoscope
+[2023-06-02 06:04:18] INFO root fetch - processPackages [tap-readthedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_readthedocs-0.0.1a2.tar.gz tmp/tap_readthedocs-0.0.1a3.tar.gz --markdown 20230602/t/tap-readthedocs/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-02 06:04:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 06:04:19] INFO root fetch - main [MainThread]: End processing [sleepyask]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [timor-locations]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [SplatStats]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [py-data-mock]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [apertium2ud]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [tap-readthedocs]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [paradigm-data-portal]: success
+[2023-06-02 06:04:20] INFO root fetch - main [MainThread]: Store serial: [18344353]
