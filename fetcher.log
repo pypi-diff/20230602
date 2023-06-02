@@ -11923,3 +11923,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:17:55] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-02 12:17:55] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-02 12:17:55] INFO root fetch - main [MainThread]: Store serial: [18347378]
+[2023-06-02 12:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347378]
+[2023-06-02 12:23:04] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paketmutfak
+[2023-06-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupytercad
+[2023-06-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmltools
+[2023-06-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hybrid-index
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: climy
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medsenger-api
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lkcom
+[2023-06-02 12:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MeUtils
+[2023-06-02 12:23:05] INFO root fetch - processPackages [hybrid-index]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [lkcom]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 12:23:05] WARNING root fetch - processPackages [climy]: Skipping, unable to determine old version
+[2023-06-02 12:23:05] INFO root fetch - processPackages [climy]: Start processing: eleme.openapi.python.sdk
+[2023-06-02 12:23:05] INFO root fetch - processPackages [jupytercad]: New version: [0.2.0] Old Version: [0.1.0rc0]
+[2023-06-02 12:23:05] INFO root fetch - main [MainThread]: End processing [climy] error
+[2023-06-02 12:23:05] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [gmltools]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [eleme.openapi.python.sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [chatllm]: New version: [2023.6.2.9.16.47] Old Version: [2023.6.2.9.16.4]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.2.18.20.49] Old Version: [2023.6.2.17.39.53]
+[2023-06-02 12:23:05] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.2.9.16.4.tar.gz tmp/chatllm-2023.6.2.9.16.47.tar.gz --markdown 20230602/c/chatllm/2023.6.2.9.16.4-2023.6.2.9.16.47/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [eleme.openapi.python.sdk]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [eleme.openapi.python.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eleme.openapi.python.sdk-1.8.0-py2-none-any.whl.zip tmp/eleme.openapi.python.sdk-1.9.0.tar.gz --markdown 20230602/e/eleme.openapi.python.sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [hybrid-index]: Downloading https://files.pythonhosted.org/packages/34/73/dc775373d90a968cfee39bc825e29a340573dbabd9555e10c6af584b4091/hybrid_index-0.0.3.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/5c/cb/3dabd2f1eecd610c1750b15b00fbf43b1e225923529385a33dce46ee7fed/lkcom-0.3.1.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0d/db/404270894b34e04927e1f0b2fc40841fec2c3c9a4d1efe5a19b63ca1cdba/MeUtils-2023.6.2.18.20.49.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/3d/fe/4b9ecd7ccdc870a2f330ad79d10cfca6a40593f4ce3d1f4e60c7181d217e/gmltools-0.0.76.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/45/1b/4c4880d3a93c18ed23fbc398448c9fe78d9634d00054c80486a20dcb6d62/jupytercad-0.2.0.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.2.17.39.53.tar.gz tmp/MeUtils-2023.6.2.18.20.49.tar.gz --markdown 20230602/M/MeUtils/2023.6.2.17.39.53-2023.6.2.18.20.49/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.75.tar.gz tmp/gmltools-0.0.76.tar.gz --markdown 20230602/g/gmltools/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230602/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [hybrid-index]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [hybrid-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_index-0.0.3.tar.gz tmp/hybrid_index-0.1.0.tar.gz --markdown 20230602/h/hybrid-index/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230602/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [jupytercad]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [jupytercad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercad-0.1.0rc0.tar.gz tmp/jupytercad-0.2.0.tar.gz --markdown 20230602/j/jupytercad/0.1.0rc0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 12:23:05] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/9f/42/cd65c9028174f1d5e56421b4c669e4172b5d0b9e4f577dcab2c27c02654b/lkcom-0.3.2.tar.gz
+[2023-06-02 12:23:05] INFO root fetch - processPackages [lkcom]: executing diffoscope
+[2023-06-02 12:23:05] INFO root fetch - processPackages [lkcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkcom-0.3.1.tar.gz tmp/lkcom-0.3.2.tar.gz --markdown 20230602/l/lkcom/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 12:23:06] INFO root fetch - processPackages [eleme.openapi.python.sdk]: Start processing: gptcache
+[2023-06-02 12:23:06] INFO root fetch - main [MainThread]: End processing [eleme.openapi.python.sdk]: success
+[2023-06-02 12:23:06] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:23:06] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-06-02 12:23:06] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230602/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:23:06] INFO root fetch - processPackages [medsenger-api]: Start processing: periflow-cli
+[2023-06-02 12:23:06] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-06-02 12:23:07] INFO root fetch - processPackages [periflow-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:23:07] INFO root fetch - processPackages [paketmutfak]: Start processing: hat-gui
+[2023-06-02 12:23:07] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hat-gui]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-02 12:23:07] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/79/1c/b3b2f9a6b6d9f22e255d49aee10bb9f84e47c16e581383be7e3c5bc43736/periflow-cli-0.1.8.tar.gz
+[2023-06-02 12:23:07] INFO root fetch - processPackages [gmltools]: Start processing: pipenv
+[2023-06-02 12:23:07] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-06-02 12:23:07] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hybrid-index]: Start processing: chatllm
+[2023-06-02 12:23:07] INFO root fetch - main [MainThread]: End processing [hybrid-index]: success
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatllm]: New version: [2023.6.2.9.16.47] Old Version: [2023.6.2.9.16.4]
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/28/dd/121e2e14a2a0edf27eac3a77ebf11530b37b5a5e08b67ced2b3f7b604fe4/hat_gui-0.6.1-cp38.cp39.cp310.cp311-none-any.whl
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.2.9.16.4.tar.gz tmp/chatllm-2023.6.2.9.16.47.tar.gz --markdown 20230602/c/chatllm/2023.6.2.9.16.4-2023.6.2.9.16.47/diff.md --exclude *.pyd
+[2023-06-02 12:23:07] INFO root fetch - processPackages [lkcom]: Start processing: chatgpt-klient
+[2023-06-02 12:23:07] INFO root fetch - main [MainThread]: End processing [lkcom]: success
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/10/56/4b073820cd3c6fad5d2a988da94ff79780b7d524d9900b674b813aa507d6/chatgpt-klient-0.0.1.tar.gz
+[2023-06-02 12:23:07] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-06-02 12:23:07] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230602/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/35/2a/87e575979deec8c04971f5aa556a59dff1b4af6d5f1165acb9414207f72d/hat_gui-0.6.2-cp38.cp39.cp310.cp311-none-any.whl
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hat-gui]: executing diffoscope
+[2023-06-02 12:23:07] INFO root fetch - processPackages [hat-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gui-0.6.1-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_gui-0.6.2-cp38.cp39.cp310.cp311-none-any.whl.zip --markdown 20230602/h/hat-gui/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-02 12:23:07] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/cf/6f/39b88d3dc51307e8d2ca1d332977dfe697affffc6cad48b113d29331588d/periflow-cli-0.1.9.tar.gz
+[2023-06-02 12:23:07] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/f6/03/8bfcb93ca02c0afc3f607cf420f26b33abb30eeab3f06ed9d2617abfea7e/chatgpt-klient-0.0.2.tar.gz
+[2023-06-02 12:23:08] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-06-02 12:23:08] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.1.tar.gz tmp/chatgpt-klient-0.0.2.tar.gz --markdown 20230602/c/chatgpt-klient/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 12:23:08] INFO root fetch - processPackages [gptcache]: Start processing: chatgpt-klient
+[2023-06-02 12:23:08] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-06-02 12:23:08] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 12:23:08] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-06-02 12:23:08] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.1.tar.gz tmp/chatgpt-klient-0.0.2.tar.gz --markdown 20230602/c/chatgpt-klient/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 12:23:08] INFO root fetch - processPackages [periflow-cli]: executing diffoscope
+[2023-06-02 12:23:08] INFO root fetch - processPackages [periflow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow-cli-0.1.8.tar.gz tmp/periflow-cli-0.1.9.tar.gz --markdown 20230602/p/periflow-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:23:09] INFO root fetch - processPackages [chatgpt-klient]: Start processing: hybrid-index
+[2023-06-02 12:23:09] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-06-02 12:23:09] INFO root fetch - processPackages [hybrid-index]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-02 12:23:09] INFO root fetch - processPackages [chatgpt-klient]: Start processing: kalm
+[2023-06-02 12:23:09] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-06-02 12:23:09] INFO root fetch - processPackages [hybrid-index]: Downloading https://files.pythonhosted.org/packages/df/09/7f40574970aab0edd8249aaff77b83e6a8b7d377bc907449313c0a3487fc/hybrid_index-0.0.4.tar.gz
+[2023-06-02 12:23:09] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-02 12:23:09] INFO root fetch - processPackages [kalm]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-02 12:23:10] INFO root fetch - processPackages [hybrid-index]: executing diffoscope
+[2023-06-02 12:23:10] INFO root fetch - processPackages [hybrid-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_index-0.0.4.tar.gz tmp/hybrid_index-0.1.0.tar.gz --markdown 20230602/h/hybrid-index/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 12:23:10] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f4/6c/88a9f86d59ecedbaab57becfc04985ef2f5306fa461b3e5c17ef0ab966cc/kalm-0.6.2.tar.gz
+[2023-06-02 12:23:10] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-02 12:23:10] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.1.tar.gz tmp/kalm-0.6.2.tar.gz --markdown 20230602/k/kalm/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-02 12:23:10] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-02 12:23:11] INFO root fetch - main [MainThread]: End processing [periflow-cli]: success
+[2023-06-02 12:23:11] INFO root fetch - main [MainThread]: End processing [hybrid-index]: success
+[2023-06-02 12:23:11] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-02 12:23:12] INFO root fetch - main [MainThread]: End processing [hat-gui]: success
+[2023-06-02 12:23:12] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 12:23:13] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-02 12:23:13] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-06-02 12:26:05] ERROR root fetch - processPackages [jupytercad]: Timeout during execution of pkgdiff
+[2023-06-02 12:26:05] INFO root fetch - main [MainThread]: End processing [jupytercad] error
+[2023-06-02 12:26:05] INFO root fetch - main [MainThread]: Store serial: [18347443]
