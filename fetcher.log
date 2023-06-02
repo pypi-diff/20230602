@@ -14103,3 +14103,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 14:45:00] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-06-02 14:45:30] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-02 14:45:30] INFO root fetch - main [MainThread]: Store serial: [18348642]
+[2023-06-02 14:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348642]
+[2023-06-02 14:50:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: index-503
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyai
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vstt
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Serializer-Brigadir
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: favorites-crawler
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylibffm
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataverse-api
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramqp
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moto
+[2023-06-02 14:50:39] WARNING root fetch - processPackages [Serializer-Brigadir]: Skipping, unable to determine old version
+[2023-06-02 14:50:39] INFO root fetch - main [MainThread]: End processing [Serializer-Brigadir] error
+[2023-06-02 14:50:39] INFO root fetch - processPackages [index-503]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [pylibffm]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [vstt]: New version: [0.27.0] Old Version: [0.26.0]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [favorites-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [ramqp]: New version: [8.4.1] Old Version: [8.4.0]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [assemblyai]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [dataverse-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-02 14:50:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-02 14:50:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230602/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-02 14:50:39] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/27/54/2aca14164b3bed01539e8c277c59b90aac5fb655600cd0e425c75ccad6bc/assemblyai-0.5.1.tar.gz
+[2023-06-02 14:50:39] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/46/94/8978bca88ee734451134eff5860b830a55cf1cbf80616fbb7cd7d3569e50/pylibffm-0.1.0.tar.gz
+[2023-06-02 14:50:39] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/d9/51/87f6c264e8e1a9beaab737c316dd88a203f888c60179c7217e1a05a9979f/vstt-0.27.0.tar.gz
+[2023-06-02 14:50:39] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/9c/49/7d276b70d5dbda20238168e3f46a159b106aad1648e5e683a7d3e9a7125f/index_503-2.3.1.tar.gz
+[2023-06-02 14:50:39] INFO root fetch - processPackages [vstt]: executing diffoscope
+[2023-06-02 14:50:39] INFO root fetch - processPackages [vstt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstt-0.26.0.tar.gz tmp/vstt-0.27.0.tar.gz --markdown 20230602/v/vstt/0.26.0-0.27.0/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/03/fa/6b15fd59c5b7e40cc1abf8d418b4455a9e2e118c90a2e7225f5973f7d3c1/ramqp-8.4.1.tar.gz
+[2023-06-02 14:50:40] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.5.0.tar.gz tmp/assemblyai-0.5.1.tar.gz --markdown 20230602/a/assemblyai/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [dataverse-api]: Downloading https://files.pythonhosted.org/packages/20/d2/53518183b28c89e40fc859cc52625a8155387b2af2c162ea674ac5fe622b/dataverse_api-0.2.3.tar.gz
+[2023-06-02 14:50:40] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/91/8c/209c905b43f3dee0f6de9ff830ff5c8dad01402a320c474f53be14fadb5a/pylibffm-0.2.1.tar.gz
+[2023-06-02 14:50:40] INFO root fetch - processPackages [ramqp]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [ramqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramqp-8.4.0.tar.gz tmp/ramqp-8.4.1.tar.gz --markdown 20230602/r/ramqp/8.4.0-8.4.1/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [dataverse-api]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [dataverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_api-0.2.2.tar.gz tmp/dataverse_api-0.2.3.tar.gz --markdown 20230602/d/dataverse-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [favorites-crawler]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [favorites-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favorites_crawler-0.1.8.tar.gz tmp/favorites_crawler-0.1.9.tar.gz --markdown 20230602/f/favorites-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-2.3.0.tar.gz tmp/index_503-2.3.1.tar.gz --markdown 20230602/i/index-503/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-02 14:50:40] INFO root fetch - processPackages [pylibffm]: executing diffoscope
+[2023-06-02 14:50:40] INFO root fetch - processPackages [pylibffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibffm-0.1.0.tar.gz tmp/pylibffm-0.2.1.tar.gz --markdown 20230602/p/pylibffm/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 14:50:41] INFO root fetch - main [MainThread]: End processing [ramqp]: success
+[2023-06-02 14:50:41] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-06-02 14:50:41] INFO root fetch - main [MainThread]: End processing [favorites-crawler]: success
+[2023-06-02 14:50:41] INFO root fetch - main [MainThread]: End processing [dataverse-api]: success
+[2023-06-02 14:50:41] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
+[2023-06-02 14:50:42] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-06-02 14:50:42] INFO root fetch - main [MainThread]: End processing [vstt]: success
+[2023-06-02 14:51:12] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-02 14:51:12] INFO root fetch - main [MainThread]: Store serial: [18348679]
