@@ -5852,3 +5852,73 @@
 [2023-06-02 04:19:13] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230602/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
 [2023-06-02 04:19:14] INFO root fetch - main [MainThread]: End processing [easymaker]: success
 [2023-06-02 04:19:14] INFO root fetch - main [MainThread]: Store serial: [18343738]
+[2023-06-02 04:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343738]
+[2023-06-02 04:24:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nested-django-serializer
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cppython
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: greatday
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schemander
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weather-command
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-quantum
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qdk
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsharp
+[2023-06-02 04:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsharp-chemistry
+[2023-06-02 04:24:23] WARNING root fetch - processPackages [nested-django-serializer]: Skipping, unable to determine old version
+[2023-06-02 04:24:23] INFO root fetch - processPackages [nested-django-serializer]: Start processing: qsharp-core
+[2023-06-02 04:24:23] INFO root fetch - main [MainThread]: End processing [nested-django-serializer] error
+[2023-06-02 04:24:23] INFO root fetch - processPackages [weather-command]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [greatday]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-02 04:24:23] WARNING root fetch - processPackages [schemander]: Skipping, unable to determine old version
+[2023-06-02 04:24:23] INFO root fetch - processPackages [cppython]: New version: [0.7.1.dev9] Old Version: [0.7.1.dev8]
+[2023-06-02 04:24:23] INFO root fetch - main [MainThread]: End processing [schemander] error
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-chemistry]: New version: [0.28.276173b1] Old Version: [0.28.263081]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp]: New version: [0.9.1909.3002] Old Version: [0.9.1908.2906]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [azure-quantum]: New version: [0.28.276173b1] Old Version: [0.28.263081]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-core]: New version: [0.28.276173b1] Old Version: [0.28.263081]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qdk]: New version: [0.9.1908.2906] Old Version: [0.28.276173b1]
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/b9/40/32a6b07ade8e8cda59011d009ae1a89612d74279649095967b34388494d4/qsharp-chemistry-0.28.263081.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/9f/a4/f996de8dd9f6f0648536b3d8311d06eeaa5ca57a2b7577a4a351fb79bd97/qdk-0.28.276173b1.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [greatday]: Downloading https://files.pythonhosted.org/packages/eb/f0/4b69cc43b08efde173073a1052a27f83adcf78ee9dff74402a4ed8a3f83c/greatday-1.0.0.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/c0/2c/77e9f8eead5d60a7e5fa6861b6d18021751e6b4337f02b63e097e7612892/weather_command-6.1.0.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/78/b2/c2748eb6ba82570274fae08167e6570af612df3df8fc6307d6e62ecb039b/qsharp-core-0.28.263081.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/07/90/8806a28c828de3ad6db292bab7cd9025427f3eaa1b0ed8b130acd83cd2dc/qsharp-0.9.1908.2906-py3-none-any.whl
+[2023-06-02 04:24:23] INFO root fetch - processPackages [cppython]: Downloading https://files.pythonhosted.org/packages/dd/92/70855730eed481705af05ad34a61e507f34a03e1fe32ea398e50a0c52758/cppython-0.7.1.dev8.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/0a/74/5bdb7a0fdef83360d17e74103b2eeb1146097d8f27553c87e6c2bdfed673/azure-quantum-0.28.263081.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-02 04:24:23] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230602/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-02 04:24:23] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/37/f1/a106eee0b76f24a5c923bc1611d1552b4b1171f64acc11009e45534e16f2/weather_command-6.1.1.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/d4/33/8791e452980a338960944ab56f610f890d2cb63d7f81049c40e1e2158341/qsharp-chemistry-0.28.276173b1.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/8b/2f/8919a169c6c3580b9161f7ec12aa0ffa01e1794f5586ac583197a987f173/qdk-0.9.1908.2906.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/e2/7b/29c99e7d5601c20d074eedf94b65fe0d8adcf99acb8a9fef7328ae571607/qsharp-core-0.28.276173b1.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [greatday]: Downloading https://files.pythonhosted.org/packages/b7/ba/565d5a2d384755b494026f3ea677fb0487331468eeca6eab4883f8937df1/greatday-1.1.0.tar.gz
+[2023-06-02 04:24:23] INFO root fetch - processPackages [weather-command]: executing diffoscope
+[2023-06-02 04:24:23] INFO root fetch - processPackages [weather-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_command-6.1.0.tar.gz tmp/weather_command-6.1.1.tar.gz --markdown 20230602/w/weather-command/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-chemistry]: executing diffoscope
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-chemistry-0.28.263081.tar.gz tmp/qsharp-chemistry-0.28.276173b1.tar.gz --markdown 20230602/q/qsharp-chemistry/0.28.263081-0.28.276173b1/diff.md --exclude *.pyd
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-core]: executing diffoscope
+[2023-06-02 04:24:23] INFO root fetch - processPackages [qsharp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-core-0.28.263081.tar.gz tmp/qsharp-core-0.28.276173b1.tar.gz --markdown 20230602/q/qsharp-core/0.28.263081-0.28.276173b1/diff.md --exclude *.pyd
+[2023-06-02 04:24:24] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/9e/72/c9f55d93163e75fa14f486ee1b31e3a49500490c80617ef9d99f01abf106/azure-quantum-0.28.276173b1.tar.gz
+[2023-06-02 04:24:24] INFO root fetch - processPackages [greatday]: executing diffoscope
+[2023-06-02 04:24:24] INFO root fetch - processPackages [greatday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatday-1.0.0.tar.gz tmp/greatday-1.1.0.tar.gz --markdown 20230602/g/greatday/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 04:24:24] INFO root fetch - processPackages [cppython]: Downloading https://files.pythonhosted.org/packages/86/cb/4f13be0fca04a0e9ee271400651fa7743e3bd4632cb136240833962d793a/cppython-0.7.1.dev9.tar.gz
+[2023-06-02 04:24:24] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/ee/bb/87eaf70ec56e8f8b962477b4b758c7d384cff01f414c1136fe7d3c703fc7/qsharp-0.9.1909.3002-py3-none-any.whl
+[2023-06-02 04:24:24] INFO root fetch - processPackages [qdk]: executing diffoscope
+[2023-06-02 04:24:24] INFO root fetch - processPackages [qdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdk-0.28.276173b1.tar.gz tmp/qdk-0.9.1908.2906.tar.gz --markdown 20230602/q/qdk/0.28.276173b1-0.9.1908.2906/diff.md --exclude *.pyd
+[2023-06-02 04:24:24] INFO root fetch - processPackages [azure-quantum]: executing diffoscope
+[2023-06-02 04:24:24] INFO root fetch - processPackages [azure-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-quantum-0.28.263081.tar.gz tmp/azure-quantum-0.28.276173b1.tar.gz --markdown 20230602/a/azure-quantum/0.28.263081-0.28.276173b1/diff.md --exclude *.pyd
+[2023-06-02 04:24:24] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2023-06-02 04:24:24] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-0.9.1908.2906-py3-none-any.whl.zip tmp/qsharp-0.9.1909.3002-py3-none-any.whl.zip --markdown 20230602/q/qsharp/0.9.1908.2906-0.9.1909.3002/diff.md --exclude *.pyd
+[2023-06-02 04:24:24] INFO root fetch - processPackages [cppython]: executing diffoscope
+[2023-06-02 04:24:24] INFO root fetch - processPackages [cppython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-0.7.1.dev8.tar.gz tmp/cppython-0.7.1.dev9.tar.gz --markdown 20230602/c/cppython/0.7.1.dev8-0.7.1.dev9/diff.md --exclude *.pyd
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [weather-command]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [qdk]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [qsharp-chemistry]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [qsharp-core]: success
+[2023-06-02 04:24:25] INFO root fetch - main [MainThread]: End processing [cppython]: success
+[2023-06-02 04:24:26] INFO root fetch - main [MainThread]: End processing [greatday]: success
+[2023-06-02 04:24:27] INFO root fetch - main [MainThread]: End processing [azure-quantum]: success
+[2023-06-02 04:24:27] INFO root fetch - main [MainThread]: Store serial: [18343775]
