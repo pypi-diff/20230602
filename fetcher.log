@@ -14156,3 +14156,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 14:50:42] INFO root fetch - main [MainThread]: End processing [vstt]: success
 [2023-06-02 14:51:12] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-02 14:51:12] INFO root fetch - main [MainThread]: Store serial: [18348679]
+[2023-06-02 14:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348679]
+[2023-06-02 14:56:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybdynamics
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aheadworks-deploy-manager
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daffi-terminals
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcrit
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-records-resources
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylibffm
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramqp
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotPython
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: melnor-bluetooth
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dktotoolkit
+[2023-06-02 14:56:21] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-02 14:56:21] INFO root fetch - processPackages [daffi-terminals]: Start processing: hypersphereapi
+[2023-06-02 14:56:21] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 14:56:21] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 14:56:21] WARNING root fetch - processPackages [pybdynamics]: Skipping, unable to determine old version
+[2023-06-02 14:56:21] INFO root fetch - processPackages [pybdynamics]: Start processing: coregio
+[2023-06-02 14:56:21] INFO root fetch - main [MainThread]: End processing [pybdynamics] error
+[2023-06-02 14:56:21] INFO root fetch - processPackages [pylibffm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 14:56:21] WARNING root fetch - processPackages [hypersphereapi]: Skipping, unable to determine old version
+[2023-06-02 14:56:21] INFO root fetch - main [MainThread]: End processing [hypersphereapi] error
+[2023-06-02 14:56:21] INFO root fetch - processPackages [dktotoolkit]: New version: [1.0.1b2] Old Version: [1.0.1a0]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [mcrit]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ramqp]: New version: [8.4.2] Old Version: [8.4.1]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [coregio]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [invenio-records-resources]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-06-02 14:56:21] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/37/0c/1a8f0dc0f467a856810d2fd34d5ba16149e38f4e583ea89620ec3a778541/pylibffm-0.2.2.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/a5/8a/ba002bddc55442d96fd4fc941ff4743b4748e0b9ee7484cac79147c40dac/invenio-records-resources-4.1.0.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/cb/8f/8badc86c5a14e1d05d0874ea299c47b4ffe0acd72b6802d245211330e83d/dktotoolkit-1.0.1b2.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/00/cd/2afa4f9798aaaff3e341f51a09be3c05f141ec4a54e1818e09f5cf93305a/coregio-0.1.0.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/c7/a0/beaba77c958dc20c34bcc2468272985dd871dc97f37a49a23d70eafc2678/ramqp-8.4.2.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/d1/63/f3b6e75ae368ad7588e19b27058ed96c36b5f3267d77ab9cc28056b47e97/mcrit-1.0.5.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230602/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ramqp]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [ramqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramqp-8.4.1.tar.gz tmp/ramqp-8.4.2.tar.gz --markdown 20230602/r/ramqp/8.4.1-8.4.2/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [pylibffm]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [pylibffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibffm-0.2.1.tar.gz tmp/pylibffm-0.2.2.tar.gz --markdown 20230602/p/pylibffm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [dktotoolkit]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [dktotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktotoolkit-1.0.1a0.tar.gz tmp/dktotoolkit-1.0.1b2.tar.gz --markdown 20230602/d/dktotoolkit/1.0.1a0-1.0.1b2/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.3.tar.gz tmp/mcrit-1.0.5.tar.gz --markdown 20230602/m/mcrit/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230602/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 14:56:21] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/dc/f0/18bb576438e96fd4ea64d3e0ec86175e830c36af21cbebeaced50b2f4bda/invenio-records-resources-4.2.0.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/16/b6/cc1ec9d42f2c2f47de467c4307c22fc207d46b853773e090860bc6b51630/coregio-0.2.0.tar.gz
+[2023-06-02 14:56:21] INFO root fetch - processPackages [coregio]: executing diffoscope
+[2023-06-02 14:56:21] INFO root fetch - processPackages [coregio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coregio-0.1.0.tar.gz tmp/coregio-0.2.0.tar.gz --markdown 20230602/c/coregio/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 14:56:22] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2023-06-02 14:56:22] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-4.1.0.tar.gz tmp/invenio-records-resources-4.2.0.tar.gz --markdown 20230602/i/invenio-records-resources/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-02 14:56:22] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 14:56:23] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-06-02 14:56:23] INFO root fetch - main [MainThread]: End processing [ramqp]: success
+[2023-06-02 14:56:23] INFO root fetch - main [MainThread]: End processing [dktotoolkit]: success
+[2023-06-02 14:56:23] INFO root fetch - main [MainThread]: End processing [coregio]: success
+[2023-06-02 14:56:23] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-06-02 14:56:24] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
+[2023-06-02 14:56:26] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2023-06-02 14:56:33] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-02 14:56:33] INFO root fetch - main [MainThread]: Store serial: [18348718]
