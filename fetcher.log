@@ -20558,3 +20558,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:47:49] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 21:47:49] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 21:47:49] INFO root fetch - main [MainThread]: Store serial: [18352726]
+[2023-06-02 21:52:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352726]
+[2023-06-02 21:52:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selecrawler
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prostate-nomograms
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuroviews
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdapackmol-fmt
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teaching-toolshed
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TPDNE-utils
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anthropic
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pointstorm
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantconnect-stubs
+[2023-06-02 21:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: y4d
+[2023-06-02 21:52:59] INFO root fetch - processPackages [prostate-nomograms]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 21:52:59] INFO root fetch - processPackages [TPDNE-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 21:52:59] WARNING root fetch - processPackages [neuroviews]: Skipping, unable to determine old version
+[2023-06-02 21:52:59] INFO root fetch - processPackages [neuroviews]: Start processing: python-custom-logger
+[2023-06-02 21:52:59] INFO root fetch - main [MainThread]: End processing [neuroviews] error
+[2023-06-02 21:52:59] INFO root fetch - processPackages [selecrawler]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-02 21:52:59] WARNING root fetch - processPackages [mdapackmol-fmt]: Skipping, unable to determine old version
+[2023-06-02 21:52:59] INFO root fetch - processPackages [teaching-toolshed]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 21:52:59] INFO root fetch - processPackages [anthropic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 21:52:59] INFO root fetch - processPackages [mdapackmol-fmt]: Start processing: TPDNE-utils
+[2023-06-02 21:52:59] INFO root fetch - processPackages [y4d]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 21:52:59] INFO root fetch - main [MainThread]: End processing [mdapackmol-fmt] error
+[2023-06-02 21:52:59] WARNING root fetch - processPackages [python-custom-logger]: Skipping, unable to determine old version
+[2023-06-02 21:52:59] INFO root fetch - processPackages [python-custom-logger]: Start processing: git-ling
+[2023-06-02 21:53:00] INFO root fetch - main [MainThread]: End processing [python-custom-logger] error
+[2023-06-02 21:53:00] INFO root fetch - processPackages [pointstorm]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-02 21:53:00] WARNING root fetch - processPackages [git-ling]: Skipping, unable to determine old version
+[2023-06-02 21:53:00] INFO root fetch - processPackages [git-ling]: Start processing: edk2-pytool-extensions
+[2023-06-02 21:53:00] INFO root fetch - main [MainThread]: End processing [git-ling] error
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 21:53:00] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-02 21:53:00] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/51/99/d81d0f7054b7d91db406b2bc8fa97271c508004c2fc1eda4cf59cafa9864/prostate-nomograms-0.0.1.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [edk2-pytool-extensions]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-02 21:53:00] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230602/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [teaching-toolshed]: Downloading https://files.pythonhosted.org/packages/e7/4e/f897ccc3b4f0fd52fbd34a88461b88c543cffc7ede36e8caaac1c62a19e0/teaching-toolshed-0.1.8.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/bb/e6/8b2e3a56571f9fd7bbf763dfb77f9f67b77f2e942e46a058c2821592f8bb/anthropic-0.2.8.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/9a/54/f483125e41e576ad04fd251cd09f33ce4049462e83a83c9f8e58c9464201/pointstorm-1.1.3.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [y4d]: Downloading https://files.pythonhosted.org/packages/9d/03/4bbdd5ff5492b5e35baec9a20bd9d021c26d5cf5f2c0541deeb8e1c4fc76/y4d-0.1.4.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [selecrawler]: Downloading https://files.pythonhosted.org/packages/ce/f4/c1a5af0f8569a9f056026ef6499587320bc920f0b74b513c480c9752ae39/selecrawler-1.1.0.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: Downloading https://files.pythonhosted.org/packages/57/ce/ca9a43c37265a010183b6cf7e039bf9609b5358d01a4301bcc8843f34234/TPDNE-utils-0.0.3.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: Downloading https://files.pythonhosted.org/packages/57/ce/ca9a43c37265a010183b6cf7e039bf9609b5358d01a4301bcc8843f34234/TPDNE-utils-0.0.3.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [y4d]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [y4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y4d-0.1.3.tar.gz tmp/y4d-0.1.4.tar.gz --markdown 20230602/y/y4d/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/82/41/255f025994587b1ba157927021ad6095db9ed6015d1d4ec535f074afc217/prostate-nomograms-0.0.2.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [selecrawler]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [selecrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeleCrawler-1.0.1.tar.gz tmp/selecrawler-1.1.0.tar.gz --markdown 20230602/s/selecrawler/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [prostate-nomograms]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [prostate-nomograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prostate-nomograms-0.0.1.tar.gz tmp/prostate-nomograms-0.0.2.tar.gz --markdown 20230602/p/prostate-nomograms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/5a/11/370db183411259d0e20f97e3cca5b07d857dfaa32e3a5426fc106b030671/pointstorm-1.1.4.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/4d/c99d34d8ded48867cdda310f5c0eb84c77305bcc54d173d2d49a0c5ece9e/anthropic-0.2.9.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [teaching-toolshed]: Downloading https://files.pythonhosted.org/packages/f6/73/7a1ee13969100e89cd11fdf8349f666ba94876cab0aa19061e16e387da47/teaching-toolshed-0.1.9.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [pointstorm]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [pointstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointstorm-1.1.3.tar.gz tmp/pointstorm-1.1.4.tar.gz --markdown 20230602/p/pointstorm/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.2.8.tar.gz tmp/anthropic-0.2.9.tar.gz --markdown 20230602/a/anthropic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [edk2-pytool-extensions]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [edk2-pytool-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-extensions-0.9.4.tar.gz tmp/edk2-pytool-extensions-0.9.5.tar.gz --markdown 20230602/e/edk2-pytool-extensions/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: Downloading https://files.pythonhosted.org/packages/1e/05/b91d67089e507bf2ff81ede6ea844da9ff3957af5326c64d5f9a35caaa7e/TPDNE-utils-0.0.4.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: Downloading https://files.pythonhosted.org/packages/1e/05/b91d67089e507bf2ff81ede6ea844da9ff3957af5326c64d5f9a35caaa7e/TPDNE-utils-0.0.4.tar.gz
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPDNE-utils-0.0.3.tar.gz tmp/TPDNE-utils-0.0.4.tar.gz --markdown 20230602/T/TPDNE-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [TPDNE-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPDNE-utils-0.0.3.tar.gz tmp/TPDNE-utils-0.0.4.tar.gz --markdown 20230602/T/TPDNE-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 21:53:00] INFO root fetch - processPackages [teaching-toolshed]: executing diffoscope
+[2023-06-02 21:53:00] INFO root fetch - processPackages [teaching-toolshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teaching-toolshed-0.1.8.tar.gz tmp/teaching-toolshed-0.1.9.tar.gz --markdown 20230602/t/teaching-toolshed/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 21:53:01] INFO root fetch - processPackages [selecrawler]: Start processing: HP-C1Pyr-PK
+[2023-06-02 21:53:01] INFO root fetch - main [MainThread]: End processing [selecrawler]: success
+[2023-06-02 21:53:02] WARNING root fetch - processPackages [HP-C1Pyr-PK]: Skipping, unable to determine old version
+[2023-06-02 21:53:02] INFO root fetch - processPackages [HP-C1Pyr-PK]: Start processing: context-menu
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [HP-C1Pyr-PK] error
+[2023-06-02 21:53:02] INFO root fetch - processPackages [y4d]: Start processing: rdns-reaper
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [y4d]: success
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [TPDNE-utils]: success
+[2023-06-02 21:53:02] INFO root fetch - processPackages [rdns-reaper]: New version: [0.1.1rc1] Old Version: [0.1.0rc1]
+[2023-06-02 21:53:02] INFO root fetch - processPackages [context-menu]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [TPDNE-utils]: success
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [teaching-toolshed]: success
+[2023-06-02 21:53:02] INFO root fetch - processPackages [context-menu]: Downloading https://files.pythonhosted.org/packages/78/fa/f9441051602c1c22cfcc03c6903c29c1ea0736b2dafa9f7d014f11440826/context_menu-1.2.3.tar.gz
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [prostate-nomograms]: success
+[2023-06-02 21:53:02] INFO root fetch - processPackages [rdns-reaper]: Downloading https://files.pythonhosted.org/packages/81/5e/18af67aca1fef41488d21da18d812d77fc9781f3fd4fd2b8d6b1909d80ab/rdns_reaper-0.1.0rc1.tar.gz
+[2023-06-02 21:53:02] INFO root fetch - main [MainThread]: End processing [pointstorm]: success
+[2023-06-02 21:53:02] INFO root fetch - processPackages [rdns-reaper]: Downloading https://files.pythonhosted.org/packages/8b/de/46ae35d428c5c0f96d978eb8e18f1b125c56823722e9f10ac2fed6a2b50b/rdns_reaper-0.1.1rc1.tar.gz
+[2023-06-02 21:53:03] INFO root fetch - processPackages [rdns-reaper]: executing diffoscope
+[2023-06-02 21:53:03] INFO root fetch - processPackages [rdns-reaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdns_reaper-0.1.0rc1.tar.gz tmp/rdns_reaper-0.1.1rc1.tar.gz --markdown 20230602/r/rdns-reaper/0.1.0rc1-0.1.1rc1/diff.md --exclude *.pyd
+[2023-06-02 21:53:03] INFO root fetch - processPackages [context-menu]: Downloading https://files.pythonhosted.org/packages/7e/2d/7f60f8e6a0a0de3c9899bacecdf20fb53b00edb74c750c45a8fb48a1bf01/context_menu-1.3.0.tar.gz
+[2023-06-02 21:53:04] INFO root fetch - processPackages [context-menu]: executing diffoscope
+[2023-06-02 21:53:04] INFO root fetch - processPackages [context-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/context_menu-1.2.3.tar.gz tmp/context_menu-1.3.0.tar.gz --markdown 20230602/c/context-menu/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-06-02 21:53:04] INFO root fetch - main [MainThread]: End processing [rdns-reaper]: success
+[2023-06-02 21:53:04] INFO root fetch - main [MainThread]: End processing [edk2-pytool-extensions]: success
+[2023-06-02 21:53:04] INFO root fetch - main [MainThread]: End processing [context-menu]: success
+[2023-06-02 21:53:05] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-02 21:53:05] INFO root fetch - main [MainThread]: Store serial: [18352787]
