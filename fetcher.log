@@ -9519,3 +9519,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:50:05] INFO root fetch - main [MainThread]: End processing [xoa-converter]: success
 [2023-06-02 09:50:06] INFO root fetch - main [MainThread]: End processing [stig]: success
 [2023-06-02 09:50:06] INFO root fetch - main [MainThread]: Store serial: [18345953]
+[2023-06-02 09:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345953]
+[2023-06-02 09:55:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudservices-arg
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfast-python-template
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuefig
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: relevanceai-chains
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iris-pex-embedded-python
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpservice
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mltlk
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: runremote
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitlint-core
+[2023-06-02 09:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitlint
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-02 09:55:16] WARNING root fetch - processPackages [runremote]: Skipping, unable to determine old version
+[2023-06-02 09:55:16] INFO root fetch - main [MainThread]: End processing [runremote] error
+[2023-06-02 09:55:16] WARNING root fetch - processPackages [relevanceai-chains]: Skipping, unable to determine old version
+[2023-06-02 09:55:16] INFO root fetch - main [MainThread]: End processing [relevanceai-chains] error
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cuefig]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cloudservices-arg]: Downloading https://files.pythonhosted.org/packages/f3/2c/3d36b7d204cd78d65255dcf66ddb430d50cf7fe34cd7dfd0f1d90371a92e/cloudservices_arg-0.1.7.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cuefig]: Downloading https://files.pythonhosted.org/packages/8a/8d/697d4f23f48cf46306cf2e74789ac65ab8fe8ed4ad171aeafd1160d08ae2/cuefig-0.0.8.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/65/b6/87c807496bc2cfbf0410270496698d45bf6d929b99aa9bb9c71f4dfda707/hyperfast_python_template-0.8.0.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.6.tar.gz tmp/cloudservices_arg-0.1.7.tar.gz --markdown 20230602/c/cloudservices-arg/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.7.0.tar.gz tmp/hyperfast_python_template-0.8.0.tar.gz --markdown 20230602/h/hyperfast-python-template/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/f3/d7/252ef947b158322e450426b16ba7729408da1d0d04754e3acd369040f10c/iris_pex_embedded_python-2.3.2.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.1.tar.gz tmp/iris_pex_embedded_python-2.3.2.tar.gz --markdown 20230602/i/iris-pex-embedded-python/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230602/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cuefig]: Downloading https://files.pythonhosted.org/packages/4a/6f/87dddb4de64d3b39c0c4bc65d97e0a87338b9f0b27d5071f520e1b09534d/cuefig-0.0.9.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230602/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cuefig]: executing diffoscope
+[2023-06-02 09:55:16] INFO root fetch - processPackages [cuefig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuefig-0.0.8.tar.gz tmp/cuefig-0.0.9.tar.gz --markdown 20230602/c/cuefig/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-02 09:55:16] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-02 09:55:17] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-02 09:55:17] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230602/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 09:55:17] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-02 09:55:17] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230602/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-02 09:55:17] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-02 09:55:17] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-02 09:55:18] INFO root fetch - main [MainThread]: End processing [cuefig]: success
+[2023-06-02 09:55:18] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-02 09:55:18] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-02 09:55:18] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-02 09:55:19] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-06-02 09:56:10] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-02 09:56:10] INFO root fetch - main [MainThread]: Store serial: [18345988]
