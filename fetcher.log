@@ -13274,3 +13274,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 13:46:16] INFO root fetch - main [MainThread]: End processing [quao]: success
 [2023-06-02 13:46:17] INFO root fetch - main [MainThread]: End processing [act4e-mcdp]: success
 [2023-06-02 13:46:17] INFO root fetch - main [MainThread]: Store serial: [18348161]
+[2023-06-02 13:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348161]
+[2023-06-02 13:51:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aheadworks-deploy-manager
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bionty
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rix4unibasiccalculator
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyperformance
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pop-llm
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docarray
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarray-safe-rcm
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Info-Imputer
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-06-02 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib-spark3
+[2023-06-02 13:51:25] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-02 13:51:25] ERROR root fetch - processPackages [rix4unibasiccalculator]: Unable to get metadata: No such project 'rix4unibasiccalculator'
+[2023-06-02 13:51:25] INFO root fetch - processPackages [rix4unibasiccalculator]: Start processing: pyGATs
+[2023-06-02 13:51:25] INFO root fetch - main [MainThread]: End processing [rix4unibasiccalculator] error
+[2023-06-02 13:51:25] INFO root fetch - processPackages [pop-llm]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 13:51:25] INFO root fetch - processPackages [pyperformance]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-02 13:51:25] INFO root fetch - processPackages [xarray-safe-rcm]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-02 13:51:25] WARNING root fetch - processPackages [Info-Imputer]: Skipping, unable to determine old version
+[2023-06-02 13:51:25] INFO root fetch - main [MainThread]: End processing [Info-Imputer] error
+[2023-06-02 13:51:25] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 13:51:25] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230602] Old Version: [2.4.0b20230601]
+[2023-06-02 13:51:25] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-02 13:51:25] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-06-02 13:51:26] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230602/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyGATs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 13:51:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230602/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyperformance]: Downloading https://files.pythonhosted.org/packages/e9/36/6778e0e2e0c437b5a76b941b386a80aa0f1adf1531143f771abe85644c9a/pyperformance-1.0.7.tar.gz
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pop-llm]: Downloading https://files.pythonhosted.org/packages/b9/14/9807569241de769a796041f3893876efce66bdc7e256d434374b03b6916b/pop-llm-0.0.7.tar.gz
+[2023-06-02 13:51:26] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/70/0b/7e39f5133967f0ab8259da164845fef021bdf7dec6b6edb465577657808f/bigdl-dllib-spark3-2.4.0b20230601.tar.gz
+[2023-06-02 13:51:26] INFO root fetch - processPackages [xarray-safe-rcm]: Downloading https://files.pythonhosted.org/packages/86/e3/f122bbeeac16013f9c89ba0005bc8198882348fc6cf7a2c1bfbdc95c4c04/xarray-safe-rcm-2023.6.1.tar.gz
+[2023-06-02 13:51:26] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251739>=10485760
+[2023-06-02 13:51:26] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyGATs]: Downloading https://files.pythonhosted.org/packages/1e/26/cc14cdbd8b03bcb13c3207de40a5186935090dbc6c925b2d75ca27381764/pyGATs-0.0.5.tar.gz
+[2023-06-02 13:51:26] INFO root fetch - processPackages [xarray-safe-rcm]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [xarray-safe-rcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-rcm-2023.6.0.tar.gz tmp/xarray-safe-rcm-2023.6.1.tar.gz --markdown 20230602/x/xarray-safe-rcm/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230602/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pop-llm]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pop-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-llm-0.0.6.tar.gz tmp/pop-llm-0.0.7.tar.gz --markdown 20230602/p/pop-llm/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyGATs]: Downloading https://files.pythonhosted.org/packages/d3/b0/be11b0eb2e81531b0fe9c31c3e5fd901a11f2ea8688373e301faff8adea9/pyGATs-0.0.6.tar.gz
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyGATs]: executing diffoscope
+[2023-06-02 13:51:26] INFO root fetch - processPackages [pyGATs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGATs-0.0.5.tar.gz tmp/pyGATs-0.0.6.tar.gz --markdown 20230602/p/pyGATs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 13:51:27] INFO root fetch - processPackages [pyperformance]: Downloading https://files.pythonhosted.org/packages/bb/45/ea9bc20714c6c898c23c2c01ca27044532ee5543177e83a20a8490adb04b/pyperformance-1.0.8.tar.gz
+[2023-06-02 13:51:27] INFO root fetch - main [MainThread]: End processing [xarray-safe-rcm]: success
+[2023-06-02 13:51:27] INFO root fetch - processPackages [pyperformance]: executing diffoscope
+[2023-06-02 13:51:27] INFO root fetch - processPackages [pyperformance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperformance-1.0.7.tar.gz tmp/pyperformance-1.0.8.tar.gz --markdown 20230602/p/pyperformance/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-02 13:51:27] INFO root fetch - main [MainThread]: End processing [pop-llm]: success
+[2023-06-02 13:51:27] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 13:51:27] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-02 13:51:27] INFO root fetch - main [MainThread]: End processing [pyGATs]: success
+[2023-06-02 13:51:28] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-02 13:51:28] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 13:51:32] INFO root fetch - main [MainThread]: End processing [pyperformance]: success
+[2023-06-02 13:51:32] INFO root fetch - main [MainThread]: Store serial: [18348198]
