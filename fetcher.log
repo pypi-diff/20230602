@@ -21162,3 +21162,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 22:35:38] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 22:35:38] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 22:35:38] INFO root fetch - main [MainThread]: Store serial: [18353092]
+[2023-06-02 22:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353092]
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazycsv
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BackToTheFeature
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clarifai
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salesforce-codetf
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbbefd
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-poisson-solver
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KapoorLabs-Lightning
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repeat-text
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rising-plugin
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ignition-api
+[2023-06-02 22:40:47] INFO root fetch - processPackages [lazycsv]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-02 22:40:47] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 22:40:47] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [mbbefd]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] INFO root fetch - processPackages [mbbefd]: Start processing: dlt
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [mbbefd] error
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [repeat-text]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [BackToTheFeature]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] INFO root fetch - processPackages [repeat-text]: Start processing: desc-stats
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [repeat-text] error
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [KapoorLabs-Lightning]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] INFO root fetch - processPackages [BackToTheFeature]: Start processing: chatdocs
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [BackToTheFeature] error
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning] error
+[2023-06-02 22:40:47] INFO root fetch - processPackages [clarifai]: New version: [9.5.3] Old Version: [9.5.2]
+[2023-06-02 22:40:47] INFO root fetch - processPackages [fast-poisson-solver]: New version: [0.1.9] Old Version: [0.1.14]
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ignition-api]: New version: [8.1.9] Old Version: [8.1.28]
+[2023-06-02 22:40:47] INFO root fetch - processPackages [dlt]: New version: [0.2.9a0] Old Version: [0.2.9]
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [desc-stats]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [desc-stats] error
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [chatdocs]: Skipping, unable to determine old version
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [chatdocs] error
+[2023-06-02 22:40:47] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 22:40:47] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 22:40:47] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/7c/fe/d2cddc464c81ad7d2fd42768abb54da22df2a98545e8f5db0f66565db0ce/lazycsv-1.1.3.tar.gz
+[2023-06-02 22:40:47] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/02/60/8a557884f7479dc042775b23c45bab32d20d08a5826698c0325c580102d7/ignition_api-8.1.28.tar.gz
+[2023-06-02 22:40:47] INFO root fetch - processPackages [fast-poisson-solver]: Downloading https://files.pythonhosted.org/packages/93/f0/8c335250cac4ac9b0ac1ef1d7f77b1f49f73c34c0eecc34ef4d33e339ab8/fast_poisson_solver-0.1.14.tar.gz
+[2023-06-02 22:40:47] WARNING root fetch - processPackages [fast-poisson-solver]: Skipping package: exceeds size limit 12297325>=10485760
+[2023-06-02 22:40:47] INFO root fetch - main [MainThread]: End processing [fast-poisson-solver] error
+[2023-06-02 22:40:47] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/21/05/07000bff8491483766fcbdda84baa1751cdfeab9a3ba51f4d15f0b75275a/clarifai-9.5.3.tar.gz
+[2023-06-02 22:40:47] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/00/55/a7ca1c69bbe8f72126b0c4d9da0926b9ccfac14b8dbb93a22ba58ed5af5d/salesforce-codetf-0.0.4.tar.gz
+[2023-06-02 22:40:47] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/32/ec/01366f4dd28b722e76e0d822482c53d49649ce8eb71f8d544b44bb564821/lazycsv-1.1.4.tar.gz
+[2023-06-02 22:40:48] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-06-02 22:40:48] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.5.2.tar.gz tmp/clarifai-9.5.3.tar.gz --markdown 20230602/c/clarifai/9.5.2-9.5.3/diff.md --exclude *.pyd
+[2023-06-02 22:40:48] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 22:40:48] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.3.tar.gz tmp/salesforce-codetf-0.0.4.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 22:40:48] INFO root fetch - processPackages [lazycsv]: executing diffoscope
+[2023-06-02 22:40:48] INFO root fetch - processPackages [lazycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycsv-1.1.3.tar.gz tmp/lazycsv-1.1.4.tar.gz --markdown 20230602/l/lazycsv/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-02 22:40:48] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-02 22:40:48] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.9.tar.gz tmp/dlt-0.2.9a0.tar.gz --markdown 20230602/d/dlt/0.2.9-0.2.9a0/diff.md --exclude *.pyd
+[2023-06-02 22:40:48] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/90/68/ddf6042aee141433036f926329fb0750b3a023c97d52bf185c4190ad9f4c/ignition-api-8.1.9.tar.gz
+[2023-06-02 22:40:48] ERROR root fetch - processPackages [clarifai]: Diffoscope failed: Error: error creating container storage: the container name "festive_tharp" is already in use by "fad25de514e61f0eff9a211d596674fe6a4951c2cfa3014a683ae128324a95e5". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-02 22:40:48] INFO root fetch - main [MainThread]: End processing [clarifai] error
+[2023-06-02 22:40:48] INFO root fetch - processPackages [ignition-api]: executing diffoscope
+[2023-06-02 22:40:48] INFO root fetch - processPackages [ignition-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api-8.1.28.tar.gz tmp/ignition-api-8.1.9.tar.gz --markdown 20230602/i/ignition-api/8.1.28-8.1.9/diff.md --exclude *.pyd
+[2023-06-02 22:40:49] INFO root fetch - main [MainThread]: End processing [lazycsv]: success
+[2023-06-02 22:40:49] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 22:40:49] INFO root fetch - main [MainThread]: End processing [ignition-api]: success
+[2023-06-02 22:40:50] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-02 22:43:47] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 22:43:47] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 22:43:47] INFO root fetch - main [MainThread]: Store serial: [18353143]
