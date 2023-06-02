@@ -8683,3 +8683,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:40:51] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
 [2023-06-02 08:40:51] INFO root fetch - main [MainThread]: End processing [gomea]: success
 [2023-06-02 08:40:51] INFO root fetch - main [MainThread]: Store serial: [18345458]
+[2023-06-02 08:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345458]
+[2023-06-02 08:46:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equipparser
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roco
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SRIrepo
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-mpserverless20190615-py2
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jax-tools
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: specker
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-mpserverless20190615
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ec2-proxy
+[2023-06-02 08:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calphy
+[2023-06-02 08:46:00] INFO root fetch - processPackages [specker]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-02 08:46:00] WARNING root fetch - processPackages [equipparser]: Skipping, unable to determine old version
+[2023-06-02 08:46:00] WARNING root fetch - processPackages [roco]: Skipping, unable to determine old version
+[2023-06-02 08:46:00] INFO root fetch - main [MainThread]: End processing [equipparser] error
+[2023-06-02 08:46:00] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 08:46:00] INFO root fetch - processPackages [SRIrepo]: New version: [0.2] Old Version: [0.1]
+[2023-06-02 08:46:00] INFO root fetch - processPackages [calphy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 08:46:00] INFO root fetch - main [MainThread]: End processing [roco] error
+[2023-06-02 08:46:00] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 08:46:00] WARNING root fetch - processPackages [ec2-proxy]: Skipping, unable to determine old version
+[2023-06-02 08:46:00] INFO root fetch - main [MainThread]: End processing [ec2-proxy] error
+[2023-06-02 08:46:00] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 08:46:00] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.25]
+[2023-06-02 08:46:00] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/c3/38/1b4626ff011934dde24e98eefe656616a1220be9578d3fce850f5e55a4b4/specker-1.0.3.tar.gz
+[2023-06-02 08:46:00] INFO root fetch - processPackages [calphy]: Downloading https://files.pythonhosted.org/packages/1d/9b/4e2cae39b89075939707d975533eac4a44db2fce6e8788b29fe8b72b9d18/calphy-1.2.8.tar.gz
+[2023-06-02 08:46:00] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/e8/bd/e3ab78f34c05b9cddaafc5bb535a746471b2e7ca5ee1711eef6f67ba6d81/jax-tools-1.0.25.tar.gz
+[2023-06-02 08:46:00] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: Downloading https://files.pythonhosted.org/packages/a7/fc/5378d16af8b2bc9dceb48cbe6dd55303327e37c92dd35a31dfab6edf943e/alibabacloud_mpserverless20190615_py2-1.0.8.tar.gz
+[2023-06-02 08:46:00] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: Downloading https://files.pythonhosted.org/packages/72/f7/7f294817531b33a1aee25003c33f32f4cb644f61322cf958842ad5664936/alibabacloud_mpserverless20190615-1.0.8.tar.gz
+[2023-06-02 08:46:00] INFO root fetch - processPackages [SRIrepo]: Downloading https://files.pythonhosted.org/packages/99/72/c88b8ae9cacbe18e3b2f54b9ce27355dab99b9d17d175570e8311312d802/SRIrepo-0.1.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [calphy]: Downloading https://files.pythonhosted.org/packages/3c/f2/343c597f5f69ed8684987c750e55b770fd2c4d307920438ae7728167d880/calphy-1.2.9.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: Downloading https://files.pythonhosted.org/packages/4f/12/d2e8686c2f8d1886a41da17dae67b6e23b197fb0cb074c77a56de9ae25bc/alibabacloud_mpserverless20190615_py2-1.0.9.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: Downloading https://files.pythonhosted.org/packages/bc/ed/f06a04a117f5c7673d2a956b712067712422c5a63824af93405ea9c01046/alibabacloud_mpserverless20190615-1.0.9.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [SRIrepo]: Downloading https://files.pythonhosted.org/packages/16/78/0fe849722a9cc7c1f3c8ceec887a678048b6adc311995ebb7a55d0ccce06/SRIrepo-0.2.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.25.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230602/j/jax-tools/1.0.25-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/77/c9/ab722505f2fd5d75f615a914e350945141753ac3a1abb35498f246a44e60/specker-1.1.0.tar.gz
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mpserverless20190615_py2-1.0.8.tar.gz tmp/alibabacloud_mpserverless20190615_py2-1.0.9.tar.gz --markdown 20230602/a/alibabacloud-mpserverless20190615-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [calphy]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [calphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calphy-1.2.8.tar.gz tmp/calphy-1.2.9.tar.gz --markdown 20230602/c/calphy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [SRIrepo]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [SRIrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRIrepo-0.1.tar.gz tmp/SRIrepo-0.2.tar.gz --markdown 20230602/S/SRIrepo/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mpserverless20190615-1.0.8.tar.gz tmp/alibabacloud_mpserverless20190615-1.0.9.tar.gz --markdown 20230602/a/alibabacloud-mpserverless20190615/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:46:01] INFO root fetch - processPackages [specker]: executing diffoscope
+[2023-06-02 08:46:01] INFO root fetch - processPackages [specker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specker-1.0.3.tar.gz tmp/specker-1.1.0.tar.gz --markdown 20230602/s/specker/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 08:46:02] INFO root fetch - main [MainThread]: End processing [SRIrepo]: success
+[2023-06-02 08:46:02] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-02 08:46:02] INFO root fetch - main [MainThread]: End processing [specker]: success
+[2023-06-02 08:46:02] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 08:46:02] INFO root fetch - main [MainThread]: End processing [calphy]: success
+[2023-06-02 08:46:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615]: success
+[2023-06-02 08:46:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615-py2]: success
+[2023-06-02 08:46:04] INFO root fetch - main [MainThread]: Store serial: [18345498]
