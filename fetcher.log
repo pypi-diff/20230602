@@ -7062,3 +7062,29 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [tap-readthedocs]: success
 [2023-06-02 06:04:20] INFO root fetch - main [MainThread]: End processing [paradigm-data-portal]: success
 [2023-06-02 06:04:20] INFO root fetch - main [MainThread]: Store serial: [18344353]
+[2023-06-02 06:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344353]
+[2023-06-02 06:09:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-readthedocs
+[2023-06-02 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turbine-design
+[2023-06-02 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myloginpath
+[2023-06-02 06:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-clickable-img-gallery
+[2023-06-02 06:09:29] INFO root fetch - processPackages [myloginpath]: New version: [0.0.4rc1] Old Version: [0.0.4]
+[2023-06-02 06:09:29] INFO root fetch - processPackages [st-clickable-img-gallery]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 06:09:29] INFO root fetch - processPackages [turbine-design]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-02 06:09:29] INFO root fetch - processPackages [tap-readthedocs]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-02 06:09:29] INFO root fetch - processPackages [tap-readthedocs]: executing diffoscope
+[2023-06-02 06:09:29] INFO root fetch - processPackages [tap-readthedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_readthedocs-0.0.1a2.tar.gz tmp/tap_readthedocs-0.0.1a3.tar.gz --markdown 20230602/t/tap-readthedocs/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-02 06:09:29] INFO root fetch - processPackages [myloginpath]: Downloading https://files.pythonhosted.org/packages/21/30/9acf030d204770c1134e130e8eb1293ce5ecd6a72046aaca68fbd76ead00/myloginpath-0.0.4.tar.gz
+[2023-06-02 06:09:29] INFO root fetch - processPackages [st-clickable-img-gallery]: Downloading https://files.pythonhosted.org/packages/c2/69/1f095d9ce62258af8f07c29aa2c37bbcac0c1a10062d32367f176be6184e/st-clickable-img-gallery-0.0.4.tar.gz
+[2023-06-02 06:09:29] INFO root fetch - processPackages [turbine-design]: Downloading https://files.pythonhosted.org/packages/d7/23/81e0d9cefca0febcba90288e2616a7cca037bdc46b08859404ca456aff4d/turbine_design-1.0.5.tar.gz
+[2023-06-02 06:09:29] WARNING root fetch - processPackages [turbine-design]: Skipping package: exceeds size limit 20379138>=10485760
+[2023-06-02 06:09:29] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-06-02 06:09:29] INFO root fetch - processPackages [st-clickable-img-gallery]: Downloading https://files.pythonhosted.org/packages/d6/89/bac9f90f0ce59f1e0d0852266ce54c7bd74bda1c9f4a90c4b75be5d2b844/st-clickable-img-gallery-0.0.5.tar.gz
+[2023-06-02 06:09:29] INFO root fetch - processPackages [myloginpath]: executing diffoscope
+[2023-06-02 06:09:29] INFO root fetch - processPackages [myloginpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myloginpath-0.0.4.tar.gz tmp/myloginpath-0.0.4rc1.tar.gz --markdown 20230602/m/myloginpath/0.0.4-0.0.4rc1/diff.md --exclude *.pyd
+[2023-06-02 06:09:29] INFO root fetch - processPackages [st-clickable-img-gallery]: executing diffoscope
+[2023-06-02 06:09:29] INFO root fetch - processPackages [st-clickable-img-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-clickable-img-gallery-0.0.4.tar.gz tmp/st-clickable-img-gallery-0.0.5.tar.gz --markdown 20230602/s/st-clickable-img-gallery/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 06:09:30] INFO root fetch - main [MainThread]: End processing [tap-readthedocs]: success
+[2023-06-02 06:09:30] INFO root fetch - main [MainThread]: End processing [myloginpath]: success
+[2023-06-02 06:09:31] INFO root fetch - main [MainThread]: End processing [st-clickable-img-gallery]: success
+[2023-06-02 06:09:31] INFO root fetch - main [MainThread]: Store serial: [18344365]
