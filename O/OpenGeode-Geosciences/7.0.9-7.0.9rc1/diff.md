@@ -1,22 +1,22 @@
-# Comparing `tmp/OpenGeode_Geosciences-7.0.9-cp39-cp39-manylinux2014_x86_64.whl.zip` & `tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip`
+# Comparing `tmp/OpenGeode_Geosciences-7.0.9-cp39-cp39-win_amd64.whl.zip` & `tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip`
 
 ## zipinfo {}
 
 ```diff
 @@ -1,13 +1,13 @@
--Zip file size: 779055 bytes, number of entries: 11
---rw-r--r--  2.0 unx       94 b- defN 23-Jun-02 09:06 opengeode_geosciences/__init__.py
---rw-r--r--  2.0 unx     1216 b- defN 23-Jun-02 09:06 opengeode_geosciences/explicit.py
---rw-r--r--  2.0 unx     1216 b- defN 23-Jun-02 09:06 opengeode_geosciences/implicit.py
---rwxr-xr-x  2.0 unx  1327864 b- defN 23-Jun-02 09:07 opengeode_geosciences/lib64/libOpenGeode-Geosciences_explicit.so
---rwxr-xr-x  2.0 unx   724688 b- defN 23-Jun-02 09:07 opengeode_geosciences/lib64/libOpenGeode-Geosciences_implicit.so
---rwxr-xr-x  2.0 unx   525120 b- defN 23-Jun-02 09:07 opengeode_geosciences/lib64/opengeode_geosciences_py_explicit.cpython-39-x86_64-linux-gnu.so
---rwxr-xr-x  2.0 unx   475376 b- defN 23-Jun-02 09:07 opengeode_geosciences/lib64/opengeode_geosciences_py_implicit.cpython-39-x86_64-linux-gnu.so
---rw-r--r--  2.0 unx     3138 b- defN 23-Jun-02 09:07 OpenGeode_Geosciences-7.0.9.dist-info/METADATA
---rw-r--r--  2.0 unx      103 b- defN 23-Jun-02 09:07 OpenGeode_Geosciences-7.0.9.dist-info/WHEEL
---rw-r--r--  2.0 unx       22 b- defN 23-Jun-02 09:07 OpenGeode_Geosciences-7.0.9.dist-info/top_level.txt
---rw-rw-r--  2.0 unx     1172 b- defN 23-Jun-02 09:07 OpenGeode_Geosciences-7.0.9.dist-info/RECORD
--11 files, 3060009 bytes uncompressed, 777007 bytes compressed:  74.6%
+-Zip file size: 526334 bytes, number of entries: 11
+--rw-rw-rw-  2.0 fat      199 b- defN 23-Jun-02 09:07 opengeode_geosciences/__init__.py
+--rw-rw-rw-  2.0 fat     1239 b- defN 23-Jun-02 09:07 opengeode_geosciences/explicit.py
+--rw-rw-rw-  2.0 fat     1239 b- defN 23-Jun-02 09:07 opengeode_geosciences/implicit.py
+--rw-rw-rw-  2.0 fat   559616 b- defN 23-Jun-02 09:09 opengeode_geosciences/bin/OpenGeode-Geosciences_explicit.dll
+--rw-rw-rw-  2.0 fat   408064 b- defN 23-Jun-02 09:09 opengeode_geosciences/bin/OpenGeode-Geosciences_implicit.dll
+--rw-rw-rw-  2.0 fat   389120 b- defN 23-Jun-02 09:09 opengeode_geosciences/bin/opengeode_geosciences_py_explicit.cp39-win_amd64.pyd
+--rw-rw-rw-  2.0 fat   336896 b- defN 23-Jun-02 09:09 opengeode_geosciences/bin/opengeode_geosciences_py_implicit.cp39-win_amd64.pyd
+--rw-rw-rw-  2.0 fat     3233 b- defN 23-Jun-02 09:09 OpenGeode_Geosciences-7.0.9.dist-info/METADATA
+--rw-rw-rw-  2.0 fat      100 b- defN 23-Jun-02 09:09 OpenGeode_Geosciences-7.0.9.dist-info/WHEEL
+--rw-rw-rw-  2.0 fat       22 b- defN 23-Jun-02 09:09 OpenGeode_Geosciences-7.0.9.dist-info/top_level.txt
+--rw-rw-r--  2.0 fat     1136 b- defN 23-Jun-02 09:09 OpenGeode_Geosciences-7.0.9.dist-info/RECORD
+-11 files, 1700864 bytes uncompressed, 524358 bytes compressed:  69.2%
 +Zip file size: 526358 bytes, number of entries: 11
 +-rw-rw-rw-  2.0 fat      199 b- defN 23-May-30 18:50 opengeode_geosciences/__init__.py
 +-rw-rw-rw-  2.0 fat     1239 b- defN 23-May-30 18:50 opengeode_geosciences/explicit.py
@@ -35,28 +35,12 @@
 ## zipnote {}
 
 ```diff
-@@ -3,32 +3,32 @@
+@@ -15,20 +15,20 @@
  
- Filename: opengeode_geosciences/explicit.py
+ Filename: opengeode_geosciences/bin/opengeode_geosciences_py_explicit.cp39-win_amd64.pyd
  Comment: 
  
- Filename: opengeode_geosciences/implicit.py
- Comment: 
- 
--Filename: opengeode_geosciences/lib64/libOpenGeode-Geosciences_explicit.so
-+Filename: opengeode_geosciences/bin/OpenGeode-Geosciences_explicit.dll
- Comment: 
- 
--Filename: opengeode_geosciences/lib64/libOpenGeode-Geosciences_implicit.so
-+Filename: opengeode_geosciences/bin/OpenGeode-Geosciences_implicit.dll
- Comment: 
- 
--Filename: opengeode_geosciences/lib64/opengeode_geosciences_py_explicit.cpython-39-x86_64-linux-gnu.so
-+Filename: opengeode_geosciences/bin/opengeode_geosciences_py_explicit.cp39-win_amd64.pyd
- Comment: 
- 
--Filename: opengeode_geosciences/lib64/opengeode_geosciences_py_implicit.cpython-39-x86_64-linux-gnu.so
-+Filename: opengeode_geosciences/bin/opengeode_geosciences_py_implicit.cp39-win_amd64.pyd
+ Filename: opengeode_geosciences/bin/opengeode_geosciences_py_implicit.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: OpenGeode_Geosciences-7.0.9.dist-info/METADATA
@@ -78,288 +62,177 @@
  Zip file comment:
 ```
 
-## opengeode_geosciences/__init__.py
+## opengeode_geosciences/bin/OpenGeode-Geosciences_explicit.dll
+
+### objdump
 
 ```diff
-@@ -1,4 +1,7 @@
--## Copyright (c) 2019 - 2023 Geode-solutions
--
--from .explicit import *
--from .implicit import *
-+## Copyright (c) 2019 - 2023 Geode-solutions
-+
-+import os, pathlib
-+os.add_dll_directory(pathlib.Path(__file__).parent.resolve().joinpath('bin'))
-+
-+from .explicit import *
-+from .implicit import *
+@@ -4,15 +4,15 @@
+ start address 0x00000001800440ac
+ 
+ Characteristics 0x2022
+ 	executable
+ 	large address aware
+ 	DLL
+ 
+-Time/Date		Fri Jun  2 09:08:19 2023
++Time/Date		Tue May 30 18:51:49 2023
+ Magic			020b	(PE32+)
+ MajorLinkerVersion	14
+ MinorLinkerVersion	29
+ SizeOfCode		0000000000045400
+ SizeOfInitializedData	0000000000043200
+ SizeOfUninitializedData	0000000000000000
+ AddressOfEntryPoint	00000000000440ac
+@@ -25,15 +25,15 @@
+ MajorImageVersion	0
+ MinorImageVersion	0
+ MajorSubsystemVersion	6
+ MinorSubsystemVersion	0
+ Win32Version		00000000
+ SizeOfImage		0008d000
+ SizeOfHeaders		00000400
+-CheckSum		00091b98
++CheckSum		00094415
+ Subsystem		00000002	(Windows GUI)
+ DllCharacteristics	00000160
+ 					HIGH_ENTROPY_VA
+ 					DYNAMIC_BASE
+ 					NX_COMPAT
+ SizeOfStackReserve	0000000000100000
+ SizeOfStackCommit	0000000000001000
+@@ -101730,16 +101730,17 @@
+    18004a958:	movsxd 0x74(%rcx),%esp
+    18004a95b:	imul   $0x5ba00000,0x6e(%rdi),%ebp
+    18004a962:	or     %al,0x1(%rax)
+    18004a968:	rex pop %rsp
+    18004a96a:	or     %al,0x1(%rax)
+    18004a970:	add    %al,(%rax)
+    18004a972:	add    %al,(%rax)
+-   18004a974:	xorl   $0x0,0x6479(%rcx)
+-   18004a97b:	add    %cl,0x3c000000(%rip)        # 0x1bc04a981
++   18004a974:	vpcmpeqd 0x0(%rax,%rax,1),%ymm7,%ymm12
++   18004a97a:	add    %al,(%rax)
++   18004a97c:	or     $0x3c000000,%eax
+    18004a981:	add    (%rax),%eax
+    18004a983:	add    %ch,%al
+    18004a985:	xor    %al,0x518e800(%rip)        # 0x1851d918b
+    18004a98b:	add    %al,(%rax)
+    18004a98d:	add    %al,(%rax)
+    18004a98f:	add    %bh,(%rax)
+    18004a991:	add    %eax,(%rax)
 ```
 
-## opengeode_geosciences/explicit.py
+## opengeode_geosciences/bin/OpenGeode-Geosciences_implicit.dll
+
+### objdump
 
 ```diff
-@@ -1,25 +1,25 @@
--# Copyright (c) 2019 - 2023 Geode-solutions
--#
--# Permission is hereby granted, free of charge, to any person obtaining a copy
--# of this software and associated documentation files (the "Software"), to deal
--# in the Software without restriction, including without limitation the rights
--# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
--# copies of the Software, and to permit persons to whom the Software is
--# furnished to do so, subject to the following conditions:
--#
--# The above copyright notice and this permission notice shall be included in
--# all copies or substantial portions of the Software.
--#
--# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
--# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
--# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
--# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
--# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
--# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
--# SOFTWARE.
--
--import opengeode
--
--from .lib64.opengeode_geosciences_py_explicit import *
--
--GeosciencesExplicitLibrary.initialize()
-+# Copyright (c) 2019 - 2023 Geode-solutions
-+#
-+# Permission is hereby granted, free of charge, to any person obtaining a copy
-+# of this software and associated documentation files (the "Software"), to deal
-+# in the Software without restriction, including without limitation the rights
-+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-+# copies of the Software, and to permit persons to whom the Software is
-+# furnished to do so, subject to the following conditions:
-+#
-+# The above copyright notice and this permission notice shall be included in
-+# all copies or substantial portions of the Software.
-+#
-+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-+# SOFTWARE.
-+
-+import opengeode
-+
-+from .bin.opengeode_geosciences_py_explicit import *
-+
-+GeosciencesExplicitLibrary.initialize()
-```
-
-## opengeode_geosciences/implicit.py
-
-```diff
-@@ -1,25 +1,25 @@
--# Copyright (c) 2019 - 2023 Geode-solutions
--#
--# Permission is hereby granted, free of charge, to any person obtaining a copy
--# of this software and associated documentation files (the "Software"), to deal
--# in the Software without restriction, including without limitation the rights
--# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
--# copies of the Software, and to permit persons to whom the Software is
--# furnished to do so, subject to the following conditions:
--#
--# The above copyright notice and this permission notice shall be included in
--# all copies or substantial portions of the Software.
--#
--# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
--# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
--# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
--# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
--# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
--# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
--# SOFTWARE.
--
--import opengeode
--
--from .lib64.opengeode_geosciences_py_implicit import *
--
--GeosciencesImplicitLibrary.initialize()
-+# Copyright (c) 2019 - 2023 Geode-solutions
-+#
-+# Permission is hereby granted, free of charge, to any person obtaining a copy
-+# of this software and associated documentation files (the "Software"), to deal
-+# in the Software without restriction, including without limitation the rights
-+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-+# copies of the Software, and to permit persons to whom the Software is
-+# furnished to do so, subject to the following conditions:
-+#
-+# The above copyright notice and this permission notice shall be included in
-+# all copies or substantial portions of the Software.
-+#
-+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-+# SOFTWARE.
-+
-+import opengeode
-+
-+from .bin.opengeode_geosciences_py_implicit import *
-+
-+GeosciencesImplicitLibrary.initialize()
+@@ -4,15 +4,15 @@
+ start address 0x000000018003c420
+ 
+ Characteristics 0x2022
+ 	executable
+ 	large address aware
+ 	DLL
+ 
+-Time/Date		Fri Jun  2 09:08:50 2023
++Time/Date		Tue May 30 18:52:21 2023
+ Magic			020b	(PE32+)
+ MajorLinkerVersion	14
+ MinorLinkerVersion	29
+ SizeOfCode		000000000003e600
+ SizeOfInitializedData	0000000000025000
+ SizeOfUninitializedData	0000000000000000
+ AddressOfEntryPoint	000000000003c420
+@@ -25,15 +25,15 @@
+ MajorImageVersion	0
+ MinorImageVersion	0
+ MajorSubsystemVersion	6
+ MinorSubsystemVersion	0
+ Win32Version		00000000
+ SizeOfImage		00068000
+ SizeOfHeaders		00000400
+-CheckSum		000661cf
++CheckSum		00068a4e
+ Subsystem		00000002	(Windows GUI)
+ DllCharacteristics	00000160
+ 					HIGH_ENTROPY_VA
+ 					DYNAMIC_BASE
+ 					NX_COMPAT
+ SizeOfStackReserve	0000000000100000
+ SizeOfStackCommit	0000000000001000
+@@ -91579,28 +91579,29 @@
+    180043716:	add    %al,(%rax)
+    180043718:	xor    %dl,(%rbx)
+    18004371a:	(bad)
+    18004371b:	addb   $0x0,(%rcx)
+    18004371e:	add    %al,(%rax)
+    180043720:	add    %al,(%rax)
+    180043722:	add    %al,(%rax)
+-   180043724:	movabs %al,0xd000000006479b1
+-   18004372d:	add    %al,(%rax)
+-   18004372f:	add    %bh,(%rbx,%rax,1)
+-   180043732:	add    %al,(%rax)
+-   180043734:	test   %eax,%fs:(%rax,%rax,1)
+-   180043738:	outsl  %fs:(%rsi),(%dx)
+-   18004373a:	add    $0x0,%al
+-   18004373c:	add    %al,(%rax)
+-   18004373e:	add    %al,(%rax)
+-   180043740:	cmp    %al,(%rcx)
++   180043724:	in     $0x45,%eax
++   180043726:	jbe    0x18004378c
++   180043728:	add    %al,(%rax)
++   18004372a:	add    %al,(%rax)
++   18004372c:	or     $0x3c000000,%eax
++   180043731:	add    (%rax),%eax
++   180043733:	add    %ah,0x4(%rbp,%rax,4)
++   180043737:	add    %ah,0x4(%rdi,%rbp,2)
++   18004373b:	add    %al,(%rax)
++   18004373d:	add    %al,(%rax)
++   18004373f:	add    %bh,(%rax)
++   180043741:	add    %eax,(%rax)
+ 	...
+-   180043796:	add    %al,(%rax)
+-   180043798:	cmp    %dl,%al
+-   18004379a:	add    $0x180,%eax
++   180043797:	add    %bh,(%rax)
++   180043799:	rolb   0x180(%rip)        # 0x18004391f
+ 	...
+    1800437af:	add    %bh,(%rax)
+    1800437b1:	(bad)
+    1800437b3:	addb   $0x0,(%rcx)
+    1800437b6:	add    %al,(%rax)
+    1800437b8:	rex.W (bad)
+    1800437bb:	addb   $0x0,(%rcx)
 ```
 
 ## Comparing `OpenGeode_Geosciences-7.0.9.dist-info/METADATA` & `OpenGeode_Geosciences-7.0.9rc1.dist-info/METADATA`
 
- * *Files 12% similar despite different names*
+ * *Files 1% similar despite different names*
 
 ```diff
-@@ -1,72 +1,75 @@
--Metadata-Version: 2.1
--Name: OpenGeode-Geosciences
+@@ -1,18 +1,18 @@
+ Metadata-Version: 2.1
+ Name: OpenGeode-Geosciences
 -Version: 7.0.9
--Summary: OpenGeode module for Geosciences
--Home-page: https://github.com/Geode-solutions/OpenGeode-Geosciences
--Author: Geode-solutions
--Author-email: contact@geode-solutions.com
--License: MIT
--Description-Content-Type: text/markdown
--Requires-Dist: opengeode-core (==14.*,>=14.1.10)
--
--<h1 align="center">OpenGeode-Geosciences<sup><i>by Geode-solutions</i></sup></h1>
--<h3 align="center">OpenGeode module for Geosciences</h3>
--
--<p align="center">
--  <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CI/badge.svg" alt="Build Status">
--  <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CD/badge.svg" alt="Deploy Status">
--  <img src="https://codecov.io/gh/Geode-solutions/OpenGeode-Geosciences/branch/master/graph/badge.svg" alt="Coverage Status">
--  <img src="https://img.shields.io/github/release/Geode-solutions/OpenGeode-Geosciences.svg" alt="Version">
--  <img src="https://img.shields.io/pypi/v/opengeode-geosciences" alt="PyPI" >
--</p>
--
--<p align="center">
--  <img src="https://img.shields.io/static/v1?label=Windows&logo=windows&logoColor=white&message=support&color=success" alt="Windows support">
--  <img src="https://img.shields.io/static/v1?label=Ubuntu&logo=Ubuntu&logoColor=white&message=support&color=success" alt="Ubuntu support">
--  <img src="https://img.shields.io/static/v1?label=Red%20Hat&logo=Red-Hat&logoColor=white&message=support&color=success" alt="Red Hat support">
--</p>
--
--<p align="center">
--  <img src="https://img.shields.io/badge/C%2B%2B-11-blue.svg" alt="Language">
--  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
--  <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="Semantic-release">
--  <a href="https://opengeode-slack-invite.herokuapp.com">
--    <img src="https://opengeode-slack-invite.herokuapp.com/badge.svg" alt="Slack invite">
--  </a>
--  <a href="https://doi.org/10.5281/zenodo.3610370">
--    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3610370.svg" alt="DOI">
--  </a>
--</p>
--
-----
--
--## Introduction
--
--OpenGeode-Geosciences is a module of [OpenGeode] provides data structures for geological models and geological objects.
--
--[OpenGeode]: https://github.com/Geode-solutions/OpenGeode
--
--
--## Documentation
--
--To check out our live documentation, visit [docs.geode-solutions.com](https://docs.geode-solutions.com).
--
--Installing OpenGeode-Geosciences is done:
-- * either, by compiling the C++ source.
-- * or, by using pip command ```pip install OpenGeode-Geosciences``` and add ```import opengeode_geosciences``` in your Python script.
--
--
--## Questions
--For questions and support please use the official [slack](https://opengeode-slack-invite.herokuapp.com) and go to the channel #geosciences. The issue list of this repo is exclusively for bug reports and feature requests. 
--
--
--## Changelog
--
--Detailed changes for each release are documented in the [release notes](https://github.com/Geode-solutions/OpenGeode-Geosciences/releases).
--
--
--## License
--
--[MIT](https://opensource.org/licenses/MIT)
--
--Copyright (c) 2019 - 2023, Geode-solutions
-+Metadata-Version: 2.1
-+Name: OpenGeode-Geosciences
 +Version: 7.0.9rc1
-+Summary: OpenGeode module for Geosciences
-+Home-page: https://github.com/Geode-solutions/OpenGeode-Geosciences
-+Author: Geode-solutions
-+Author-email: contact@geode-solutions.com
-+License: MIT
-+Platform: UNKNOWN
-+Description-Content-Type: text/markdown
+ Summary: OpenGeode module for Geosciences
+ Home-page: https://github.com/Geode-solutions/OpenGeode-Geosciences
+ Author: Geode-solutions
+ Author-email: contact@geode-solutions.com
+ License: MIT
+ Platform: UNKNOWN
+ Description-Content-Type: text/markdown
+-Requires-Dist: opengeode-core (==14.*,>=14.1.10)
 +Requires-Dist: opengeode-core (==14.*,>=14.1.10rc5)
-+
-+<h1 align="center">OpenGeode-Geosciences<sup><i>by Geode-solutions</i></sup></h1>
-+<h3 align="center">OpenGeode module for Geosciences</h3>
-+
-+<p align="center">
-+  <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CI/badge.svg" alt="Build Status">
-+  <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CD/badge.svg" alt="Deploy Status">
-+  <img src="https://codecov.io/gh/Geode-solutions/OpenGeode-Geosciences/branch/master/graph/badge.svg" alt="Coverage Status">
-+  <img src="https://img.shields.io/github/release/Geode-solutions/OpenGeode-Geosciences.svg" alt="Version">
-+  <img src="https://img.shields.io/pypi/v/opengeode-geosciences" alt="PyPI" >
-+</p>
-+
-+<p align="center">
-+  <img src="https://img.shields.io/static/v1?label=Windows&logo=windows&logoColor=white&message=support&color=success" alt="Windows support">
-+  <img src="https://img.shields.io/static/v1?label=Ubuntu&logo=Ubuntu&logoColor=white&message=support&color=success" alt="Ubuntu support">
-+  <img src="https://img.shields.io/static/v1?label=Red%20Hat&logo=Red-Hat&logoColor=white&message=support&color=success" alt="Red Hat support">
-+</p>
-+
-+<p align="center">
-+  <img src="https://img.shields.io/badge/C%2B%2B-11-blue.svg" alt="Language">
-+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-+  <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="Semantic-release">
-+  <a href="https://opengeode-slack-invite.herokuapp.com">
-+    <img src="https://opengeode-slack-invite.herokuapp.com/badge.svg" alt="Slack invite">
-+  </a>
-+  <a href="https://doi.org/10.5281/zenodo.3610370">
-+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3610370.svg" alt="DOI">
-+  </a>
-+</p>
-+
-+---
-+
-+## Introduction
-+
-+OpenGeode-Geosciences is a module of [OpenGeode] provides data structures for geological models and geological objects.
-+
-+[OpenGeode]: https://github.com/Geode-solutions/OpenGeode
-+
-+
-+## Documentation
-+
-+To check out our live documentation, visit [docs.geode-solutions.com](https://docs.geode-solutions.com).
-+
-+Installing OpenGeode-Geosciences is done:
-+ * either, by compiling the C++ source.
-+ * or, by using pip command ```pip install OpenGeode-Geosciences``` and add ```import opengeode_geosciences``` in your Python script.
-+
-+
-+## Questions
-+For questions and support please use the official [slack](https://opengeode-slack-invite.herokuapp.com) and go to the channel #geosciences. The issue list of this repo is exclusively for bug reports and feature requests. 
-+
-+
-+## Changelog
-+
-+Detailed changes for each release are documented in the [release notes](https://github.com/Geode-solutions/OpenGeode-Geosciences/releases).
-+
-+
-+## License
-+
-+[MIT](https://opensource.org/licenses/MIT)
-+
-+Copyright (c) 2019 - 2023, Geode-solutions
-+
-+
+ 
+ <h1 align="center">OpenGeode-Geosciences<sup><i>by Geode-solutions</i></sup></h1>
+ <h3 align="center">OpenGeode module for Geosciences</h3>
+ 
+ <p align="center">
+   <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CI/badge.svg" alt="Build Status">
+   <img src="https://github.com/Geode-solutions/OpenGeode-Geosciences/workflows/CD/badge.svg" alt="Deploy Status">
 ```
 
 ### html2text {}
@@ -370,9 +243,8 @@
 +Metadata-Version: 2.1 Name: OpenGeode-Geosciences Version: 7.0.9rc1 Summary:
  OpenGeode module for Geosciences Home-page: https://github.com/Geode-solutions/
  OpenGeode-Geosciences Author: Geode-solutions Author-email: contact@geode-
--solutions.com License: MIT Description-Content-Type: text/markdown Requires-
--Dist: opengeode-core (==14.*,>=14.1.10)
-+solutions.com License: MIT Platform: UNKNOWN Description-Content-Type: text/
+ solutions.com License: MIT Platform: UNKNOWN Description-Content-Type: text/
+-markdown Requires-Dist: opengeode-core (==14.*,>=14.1.10)
 +markdown Requires-Dist: opengeode-core (==14.*,>=14.1.10rc5)
               ****** OpenGeode-Geosciencesby Geode-solutions ******
                    **** OpenGeode module for Geosciences ****
@@ -385,24 +257,21 @@
 
 ## Comparing `OpenGeode_Geosciences-7.0.9.dist-info/RECORD` & `OpenGeode_Geosciences-7.0.9rc1.dist-info/RECORD`
 
- * *Files 26% similar despite different names*
+ * *Files 22% similar despite different names*
 
 ```diff
 @@ -1,11 +1,11 @@
--opengeode_geosciences/__init__.py,sha256=1ERb1HIjojqizG8v_SXI1HZZE_MNrpOAyzJLie9P6CI,94
--opengeode_geosciences/explicit.py,sha256=YPU8aMTrtMjZnXns881DE8LrukjgmantiDolLrfvXmk,1216
--opengeode_geosciences/implicit.py,sha256=JigWVKbknm-T86AuCpsiMH1cqAgqBog65aGF4jCbWUo,1216
--opengeode_geosciences/lib64/libOpenGeode-Geosciences_explicit.so,sha256=quH7REDNQvKU1GkQqOW4p4b7mJmFZrDBDqmtepnolHw,1327864
--opengeode_geosciences/lib64/libOpenGeode-Geosciences_implicit.so,sha256=AfFUYO9cFbcyRn28kgA-3b2U6HUdKimDPjmYGmIKfaw,724688
--opengeode_geosciences/lib64/opengeode_geosciences_py_explicit.cpython-39-x86_64-linux-gnu.so,sha256=nGmL3OEEkxLTYtomqpBzUVZePNmwS7Ekp-7xuYoutYE,525120
--opengeode_geosciences/lib64/opengeode_geosciences_py_implicit.cpython-39-x86_64-linux-gnu.so,sha256=MuJuR_RQNDUSGjCXKy3z9nL8yTO3xQBSXPsR9k0lML8,475376
--OpenGeode_Geosciences-7.0.9.dist-info/METADATA,sha256=Q_Z48i1tGn-_YqQ8LTUW9LBPeFl3Hhydqdbz5hWDBGI,3138
--OpenGeode_Geosciences-7.0.9.dist-info/WHEEL,sha256=3s2LSuQQhT9U1Dyv6MxBd72puf_ocSkY6hn5h0Kjf-o,103
+ opengeode_geosciences/__init__.py,sha256=w7_ys_rdYFV6X9-DHDK4aHD3C7a7YbuiKhXh-gdoyq0,199
+ opengeode_geosciences/explicit.py,sha256=uSrCUigVUNQlZUlZGI6tLpCACmWLqC3zJdI9V9p2L9w,1239
+ opengeode_geosciences/implicit.py,sha256=1h6T21wYBxmNpkFTsSbPw-sFx79T_iZGANQRnwCtmho,1239
+-opengeode_geosciences/bin/OpenGeode-Geosciences_explicit.dll,sha256=ZhtC_ScVguKTJoaA-V4Vg_QmACt93NG7fC9B_Sw5og8,559616
+-opengeode_geosciences/bin/OpenGeode-Geosciences_implicit.dll,sha256=wcrt8_bEkqvTRZ-z_1hPiQnM0XeoPusyKKAirnwyRBc,408064
+-opengeode_geosciences/bin/opengeode_geosciences_py_explicit.cp39-win_amd64.pyd,sha256=th6-FScx8f9ktORex9sQfTVwNciBEqSl9p5Emh_MdT8,389120
+-opengeode_geosciences/bin/opengeode_geosciences_py_implicit.cp39-win_amd64.pyd,sha256=s74xVA5dzBrlnnFgbTGVHIRzMatVf_eyc1sZfIFmWkI,336896
+-OpenGeode_Geosciences-7.0.9.dist-info/METADATA,sha256=uAFmJuUuwVhfOAz4deplLFQsBYyFKYpJXeOtQoXL5MQ,3233
+-OpenGeode_Geosciences-7.0.9.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
 -OpenGeode_Geosciences-7.0.9.dist-info/top_level.txt,sha256=eFBaUchohZc70xqscdwdB_yif7gMPIL5JXdcDqoHasU,22
 -OpenGeode_Geosciences-7.0.9.dist-info/RECORD,,
-+opengeode_geosciences/__init__.py,sha256=w7_ys_rdYFV6X9-DHDK4aHD3C7a7YbuiKhXh-gdoyq0,199
-+opengeode_geosciences/explicit.py,sha256=uSrCUigVUNQlZUlZGI6tLpCACmWLqC3zJdI9V9p2L9w,1239
-+opengeode_geosciences/implicit.py,sha256=1h6T21wYBxmNpkFTsSbPw-sFx79T_iZGANQRnwCtmho,1239
 +opengeode_geosciences/bin/OpenGeode-Geosciences_explicit.dll,sha256=_Wg7sWOAJNb3OBIymFAh_OtUWcDw_miktnVHcTST2Vo,559616
 +opengeode_geosciences/bin/OpenGeode-Geosciences_implicit.dll,sha256=fLZllSU5drVE2RlV-HB3ulko9x1Meiawb4R5FgMWh8w,408064
 +opengeode_geosciences/bin/opengeode_geosciences_py_explicit.cp39-win_amd64.pyd,sha256=sARdwYMn9rimZFujNIse1o5SBio754xqHPPLjWkQQsI,389120
