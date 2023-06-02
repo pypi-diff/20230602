@@ -21335,3 +21335,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 22:51:59] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 22:51:59] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 22:51:59] INFO root fetch - main [MainThread]: Store serial: [18353223]
+[2023-06-02 22:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353223]
+[2023-06-02 22:57:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesforce-codetf
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlpaf
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rising-plugin
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tldraw
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringcentral
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: salesforce-codetf
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lektorlib
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cwsearch-utils
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: git-ling
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usa-net
+[2023-06-02 22:57:08] INFO root fetch - processPackages [lektorlib]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [ringcentral]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [usa-net]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [tldraw]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [git-ling]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-06-02 22:57:08] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/89/e3/4b2a550d8c0472448614c239c67e39ab17eaa01670b0f2137503f9f15041/salesforce-codetf-0.0.6.2.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/89/e3/4b2a550d8c0472448614c239c67e39ab17eaa01670b0f2137503f9f15041/salesforce-codetf-0.0.6.2.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [lektorlib]: Downloading https://files.pythonhosted.org/packages/4d/4c/4fbf309ef023a0ee53045456378ec70f7cff2f02615cf39586a7d208fc88/lektorlib-1.1.0.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [usa-net]: Downloading https://files.pythonhosted.org/packages/eb/95/3a18f6585ffdbe2bd52025eec50a0c59d58c8c9dcf9e6b0cb8f73aa52d16/usa-net-0.0.4.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/ee/fa/0c9baa7b4c88c046193def4bd2f912a6f862d069b53556e5a2a7698cb91c/ringcentral-0.7.9.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [git-ling]: Downloading https://files.pythonhosted.org/packages/2f/c6/5816944c7730147de456d7b3b08a7168a0b911e64f3cfecb8deeb3fbfdd4/git_ling-0.3.3.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [git-ling]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [git-ling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_ling-0.3.2.tar.gz tmp/git_ling-0.3.3.tar.gz --markdown 20230602/g/git-ling/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/05/cf/e1cb3188b6c53f73c5eaf4c6804fe08d374daf80e6b7a5197053bc5505d9/salesforce-codetf-0.0.6.3.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/14/46/070c62bb3ffa4b0731796f2fe09d7a191cb7e66cfa0ee94fef4fb3eb432a/tldraw-0.1.0.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/05/cf/e1cb3188b6c53f73c5eaf4c6804fe08d374daf80e6b7a5197053bc5505d9/salesforce-codetf-0.0.6.3.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230602/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [lektorlib]: Downloading https://files.pythonhosted.org/packages/5b/e0/66ea29490f089151688c576f40e0ca94a408f32930f155e767731c9459f2/lektorlib-1.2.0.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [tldraw]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [tldraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldraw-0.0.3.tar.gz tmp/tldraw-0.1.0.tar.gz --markdown 20230602/t/tldraw/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [usa-net]: Downloading https://files.pythonhosted.org/packages/99/e5/9e99160b19c53757ca64cd662b2157fa7ffcbf94b8c5783e96fce1ae6320/usa-net-0.0.5.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [lektorlib]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [lektorlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektorlib-1.1.0.tar.gz tmp/lektorlib-1.2.0.tar.gz --markdown 20230602/l/lektorlib/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.2.tar.gz tmp/salesforce-codetf-0.0.6.3.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.2.tar.gz tmp/salesforce-codetf-0.0.6.3.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [usa-net]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [usa-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usa-net-0.0.4.tar.gz tmp/usa-net-0.0.5.tar.gz --markdown 20230602/u/usa-net/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-06-02 22:57:09] INFO root fetch - processPackages [nlpaf]: Start processing: openplugin
+[2023-06-02 22:57:09] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-06-02 22:57:09] INFO root fetch - processPackages [openplugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 22:57:09] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/77/42/e093e11da3e0cf9aea125b674c28cbcceb9020970b6b1c4f3993dd5e4873/ringcentral-0.8.0.tar.gz
+[2023-06-02 22:57:09] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.8.tar.gz tmp/openplugin-0.0.9.tar.gz --markdown 20230602/o/openplugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 22:57:09] INFO root fetch - processPackages [ringcentral]: executing diffoscope
+[2023-06-02 22:57:09] INFO root fetch - processPackages [ringcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringcentral-0.7.9.tar.gz tmp/ringcentral-0.8.0.tar.gz --markdown 20230602/r/ringcentral/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 22:57:10] INFO root fetch - processPackages [git-ling]: Start processing: salesforce-codetf
+[2023-06-02 22:57:10] INFO root fetch - main [MainThread]: End processing [git-ling]: success
+[2023-06-02 22:57:10] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-02 22:57:10] INFO root fetch - processPackages [cwsearch-utils]: Start processing: AoiPy
+[2023-06-02 22:57:10] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-02 22:57:10] INFO root fetch - processPackages [AoiPy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-06-02 22:57:10] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 22:57:10] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.2.tar.gz tmp/salesforce-codetf-0.0.6.3.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:10] INFO root fetch - processPackages [AoiPy]: executing diffoscope
+[2023-06-02 22:57:10] INFO root fetch - processPackages [AoiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230602/A/AoiPy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-06-02 22:57:10] INFO root fetch - processPackages [tldraw]: Start processing: multivelo
+[2023-06-02 22:57:10] INFO root fetch - main [MainThread]: End processing [tldraw]: success
+[2023-06-02 22:57:11] INFO root fetch - processPackages [multivelo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 22:57:11] INFO root fetch - processPackages [lektorlib]: Start processing: salesforce-codetf
+[2023-06-02 22:57:11] INFO root fetch - main [MainThread]: End processing [lektorlib]: success
+[2023-06-02 22:57:11] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2023-06-02 22:57:11] INFO root fetch - processPackages [multivelo]: Downloading https://files.pythonhosted.org/packages/7f/1f/3fa6d92d8e3e96f23617f4d26cc6a583911ef58cfc0c1497535c99206ee4/multivelo-0.1.2.tar.gz
+[2023-06-02 22:57:11] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 22:57:11] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.2.tar.gz tmp/salesforce-codetf-0.0.6.3.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.2-0.0.6.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:11] INFO root fetch - processPackages [salesforce-codetf]: Start processing: coiled
+[2023-06-02 22:57:11] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 22:57:11] INFO root fetch - processPackages [coiled]: New version: [0.7.1.dev5] Old Version: [0.7.1.dev4]
+[2023-06-02 22:57:11] INFO root fetch - processPackages [salesforce-codetf]: Start processing: strictdoc
+[2023-06-02 22:57:11] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 22:57:11] INFO root fetch - processPackages [multivelo]: Downloading https://files.pythonhosted.org/packages/7f/ba/4e65a9915efa4e93b5c2a3d07d7117e481f16957b27e41e07929a3c58d5d/multivelo-0.1.3.tar.gz
+[2023-06-02 22:57:11] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 22:57:11] INFO root fetch - processPackages [multivelo]: executing diffoscope
+[2023-06-02 22:57:11] INFO root fetch - processPackages [multivelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multivelo-0.1.2.tar.gz tmp/multivelo-0.1.3.tar.gz --markdown 20230602/m/multivelo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 22:57:11] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/27/e5/dbb416c67802ca757c81ace657ba94186b823183e7c50e98fd4479c38695/coiled-0.7.1.dev5.tar.gz
+[2023-06-02 22:57:11] INFO root fetch - processPackages [openplugin]: Start processing: NREL-rex
+[2023-06-02 22:57:11] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-06-02 22:57:11] INFO root fetch - processPackages [NREL-rex]: New version: [0.2.9] Old Version: [0.2.82]
+[2023-06-02 22:57:11] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 22:57:11] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.1.dev4.tar.gz tmp/coiled-0.7.1.dev5.tar.gz --markdown 20230602/c/coiled/0.7.1.dev4-0.7.1.dev5/diff.md --exclude *.pyd
+[2023-06-02 22:57:11] INFO root fetch - processPackages [NREL-rex]: Downloading https://files.pythonhosted.org/packages/ce/57/552d188f5fdfef539cb0b2eb8f724cc14f9a011f9f62c0ea7a22fcae89f0/NREL-rex-0.2.82.tar.gz
+[2023-06-02 22:57:11] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-02 22:57:11] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230602/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 22:57:12] INFO root fetch - processPackages [ringcentral]: Start processing: opensourceleg
+[2023-06-02 22:57:12] INFO root fetch - main [MainThread]: End processing [ringcentral]: success
+[2023-06-02 22:57:12] INFO root fetch - processPackages [opensourceleg]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-02 22:57:12] INFO root fetch - processPackages [NREL-rex]: executing diffoscope
+[2023-06-02 22:57:12] INFO root fetch - processPackages [NREL-rex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NREL-rex-0.2.82.tar.gz tmp/NREL-rex-0.2.9.tar.gz --markdown 20230602/N/NREL-rex/0.2.82-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 22:57:12] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/c9/cd/ae4e32e614a5bff6359d59f5b7398886a662fdb38609950940a8b789ae37/opensourceleg-1.2.4.tar.gz
+[2023-06-02 22:57:12] INFO root fetch - processPackages [usa-net]: Start processing: edge-orm
+[2023-06-02 22:57:12] INFO root fetch - main [MainThread]: End processing [usa-net]: success
+[2023-06-02 22:57:12] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2023-06-02 22:57:12] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-1.2.3.tar.gz tmp/opensourceleg-1.2.4.tar.gz --markdown 20230602/o/opensourceleg/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-02 22:57:12] INFO root fetch - processPackages [edge-orm]: New version: [0.8.1] Old Version: [0.7.2]
+[2023-06-02 22:57:12] INFO root fetch - main [MainThread]: End processing [AoiPy]: success
+[2023-06-02 22:57:12] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 22:57:12] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/4f/c3/60c637e6e00d8f25bfde210442c115d1db65f3055d95badb6ebb45739f7a/edge_orm-0.8.1.tar.gz
+[2023-06-02 22:57:12] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-06-02 22:57:12] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.7.2.tar.gz tmp/edge_orm-0.8.1.tar.gz --markdown 20230602/e/edge-orm/0.7.2-0.8.1/diff.md --exclude *.pyd
+[2023-06-02 22:57:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 22:57:13] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-02 22:57:13] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 22:57:13] INFO root fetch - main [MainThread]: End processing [NREL-rex]: success
+[2023-06-02 22:57:14] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-06-02 22:57:14] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2023-06-02 22:58:00] INFO root fetch - main [MainThread]: End processing [multivelo]: success
+[2023-06-02 23:00:09] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 23:00:09] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 23:00:09] INFO root fetch - main [MainThread]: Store serial: [18353278]
