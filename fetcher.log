@@ -9407,3 +9407,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:38:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-02 09:39:39] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-06-02 09:39:39] INFO root fetch - main [MainThread]: Store serial: [18345896]
+[2023-06-02 09:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345896]
+[2023-06-02 09:44:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybotx-fsm
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-docx-ng
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bohrium-sdk
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runremote
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bohrium-sdk
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-sen2like
+[2023-06-02 09:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bamboo-pipeline
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudservices-arg
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: objwrap
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ango
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [pybotx-fsm]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc5] Old Version: [2023.5.0rc4]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bamboo-pipeline]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 09:44:50] WARNING root fetch - processPackages [runremote]: Skipping, unable to determine old version
+[2023-06-02 09:44:50] INFO root fetch - processPackages [objwrap]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [python-docx-ng]: New version: [0.9.4.dev0] Old Version: [0.9.4]
+[2023-06-02 09:44:50] INFO root fetch - processPackages [runremote]: Start processing: tttpquisby
+[2023-06-02 09:44:50] INFO root fetch - main [MainThread]: End processing [runremote] error
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ango]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-02 09:44:50] WARNING root fetch - processPackages [tttpquisby]: Skipping, unable to determine old version
+[2023-06-02 09:44:50] INFO root fetch - main [MainThread]: End processing [tttpquisby] error
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.0.7.tar.gz tmp/ango-1.0.8.tar.gz --markdown 20230602/a/ango/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/03/1e/f6851e8915ed685d413cf96324ab95cab9d84bfc2f5c1264c1782a8d73a7/bohrium_sdk-0.1.7-py3-none-any.whl
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/03/1e/f6851e8915ed685d413cf96324ab95cab9d84bfc2f5c1264c1782a8d73a7/bohrium_sdk-0.1.7-py3-none-any.whl
+[2023-06-02 09:44:50] INFO root fetch - processPackages [objwrap]: Downloading https://files.pythonhosted.org/packages/b0/b6/f276e6617bb4283596a57bc83b2b2f8ae58c4bacb32178366deef1bd22cc/objwrap-0.0.1-py3-none-any.whl
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/cb/a1/e46878c1a6b435969d65265f995a2459ffb09ce5484f4c21422152bec6f0/bamboo-pipeline-3.9.0.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [python-docx-ng]: Downloading https://files.pythonhosted.org/packages/8c/91/a6cdb1fa5dffb68d8f7d9067bfefb57fb9d144238e3654394c6f4d0ead7b/python_docx_ng-0.9.4.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [cloudservices-arg]: Downloading https://files.pythonhosted.org/packages/9b/41/c26828625f741109fc1dc52a2669a450d4ada4c88f4a21c9ed0d32cc7b8e/cloudservices_arg-0.1.6.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/9f/15/ea1dc300984e92a727d03281949d3dbabf6c76adf4c7026a60b3c59c89d1/eodc_faas_sen2like-2023.5.0rc5.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.5.tar.gz tmp/cloudservices_arg-0.1.6.tar.gz --markdown 20230602/c/cloudservices-arg/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc4.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc5.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc4-2023.5.0rc5/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/b0/27/cdec0ebe98fcd2295d04a6e01415de51666143e8424c3063c27d8f56d3f3/bamboo-pipeline-3.9.1.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [objwrap]: Downloading https://files.pythonhosted.org/packages/95/b3/67536831e7839f9bff9a02e8c0fc06a4c8252862e2657699b87d70edbca0/objwrap-0.0.2-py3-none-any.whl
+[2023-06-02 09:44:50] INFO root fetch - processPackages [pybotx-fsm]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [pybotx-fsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx_fsm-0.4.8.tar.gz tmp/pybotx_fsm-0.4.9.tar.gz --markdown 20230602/p/pybotx-fsm/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/12/31/b645844be8f36756a645edf291fc5735f81dbdaf8e0506304386b7c29980/bohrium-sdk-0.1.8.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/12/31/b645844be8f36756a645edf291fc5735f81dbdaf8e0506304386b7c29980/bohrium-sdk-0.1.8.tar.gz
+[2023-06-02 09:44:50] INFO root fetch - processPackages [objwrap]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [objwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objwrap-0.0.1-py3-none-any.whl.zip tmp/objwrap-0.0.2-py3-none-any.whl.zip --markdown 20230602/o/objwrap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bamboo-pipeline]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bamboo-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-pipeline-3.9.0.tar.gz tmp/bamboo-pipeline-3.9.1.tar.gz --markdown 20230602/b/bamboo-pipeline/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [python-docx-ng]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [python-docx-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_docx_ng-0.9.4.tar.gz tmp/python_docx_ng-0.9.4.dev0.tar.gz --markdown 20230602/p/python-docx-ng/0.9.4-0.9.4.dev0/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium_sdk-0.1.7-py3-none-any.whl.zip tmp/bohrium-sdk-0.1.8.tar.gz --markdown 20230602/b/bohrium-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-02 09:44:50] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium_sdk-0.1.7-py3-none-any.whl.zip tmp/bohrium-sdk-0.1.8.tar.gz --markdown 20230602/b/bohrium-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 09:44:51] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-02 09:44:51] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-02 09:44:51] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 09:44:51] INFO root fetch - main [MainThread]: End processing [objwrap]: success
+[2023-06-02 09:44:52] INFO root fetch - main [MainThread]: End processing [pybotx-fsm]: success
+[2023-06-02 09:44:52] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-02 09:44:52] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-02 09:44:53] INFO root fetch - main [MainThread]: End processing [python-docx-ng]: success
+[2023-06-02 09:44:54] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
+[2023-06-02 09:44:54] INFO root fetch - main [MainThread]: Store serial: [18345930]
