@@ -11298,3 +11298,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 11:37:14] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-02 11:37:16] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-02 11:37:16] INFO root fetch - main [MainThread]: Store serial: [18347023]
+[2023-06-02 11:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347023]
+[2023-06-02 11:42:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-tej
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-idefix
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twyn
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-scanner
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xpydf
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-queue-job
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-template-rendering
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-06-02 11:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hordelib
+[2023-06-02 11:42:25] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [twyn]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [16.0.2.3.2] Old Version: [16.0.2.3.1.2]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [xpydf]: New version: [0.1.4.6] Old Version: [0.1.4.5]
+[2023-06-02 11:42:25] WARNING root fetch - processPackages [dash-template-rendering]: Skipping, unable to determine old version
+[2023-06-02 11:42:25] INFO root fetch - main [MainThread]: End processing [dash-template-rendering] error
+[2023-06-02 11:42:25] INFO root fetch - processPackages [hordelib]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.2.17.39.53] Old Version: [2023.6.2.17.33.15]
+[2023-06-02 11:42:25] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/aa/58/2d094bcf9be9087e7fe69dc16b5c5797b84d4269bad6f5b2979582c605f3/hordelib-1.3.8.tar.gz
+[2023-06-02 11:42:25] INFO root fetch - processPackages [yt-idefix]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-06-02 11:42:25] WARNING root fetch - processPackages [hordelib]: Skipping package: exceeds size limit 52357531>=10485760
+[2023-06-02 11:42:25] INFO root fetch - main [MainThread]: End processing [hordelib] error
+[2023-06-02 11:42:26] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/91/fd/9541d4e7d824669d548f27a1e5c97882ada44d9e0dfddec49e86f35bd285/zipline-tej-0.0.1.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/dd/cd/6d18b99f035e9014b47840d6854c40a8233aa15fee4c16232b5d1423f225/twyn-2.3.5.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/6e/56/8e1707d2435f9d06732cda498998eb8d6e855960eaee8312e9f16d9bf6d5/xpydf-0.1.4.6.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.3.4.tar.gz tmp/twyn-2.3.5.tar.gz --markdown 20230602/t/twyn/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0b/35/803cb808ecb8b6fce2cd6d9eecd8bc192b2eaaf221131aa4303bb819cbba/MeUtils-2023.6.2.17.39.53.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.5.tar.gz tmp/xpydf-0.1.4.6.tar.gz --markdown 20230602/x/xpydf/0.1.4.5-0.1.4.6/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/29/c7/78ae1c05e9cd81a1793501ec3d5df7101c3f07f34159403966167bbb6fe4/odoo_addon_queue_job-16.0.2.3.2-py3-none-any.whl
+[2023-06-02 11:42:26] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/97/1d/a853b8424c321500c805c2c21131d1e44de3c19d70a9d7ceec42c37abb66/yt_idefix-2.1.0.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-16.0.2.3.1.2-py3-none-any.whl.zip tmp/odoo_addon_queue_job-16.0.2.3.2-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-queue-job/16.0.2.3.1.2-16.0.2.3.2/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.2.17.33.15.tar.gz tmp/MeUtils-2023.6.2.17.39.53.tar.gz --markdown 20230602/M/MeUtils/2023.6.2.17.33.15-2023.6.2.17.39.53/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [yt-idefix]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [yt-idefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_idefix-2.0.2.tar.gz tmp/yt_idefix-2.1.0.tar.gz --markdown 20230602/y/yt-idefix/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/ec/c9/199d1bbf48b1cc48f56253b4e2b94e92c7912687b291c633a0710abe2de7/zipline-tej-0.0.2.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.1.tar.gz tmp/zipline-tej-0.0.2.tar.gz --markdown 20230602/z/zipline-tej/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 11:42:26] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2023-06-02 11:42:26] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2023-06-02 11:42:26] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20230602/f/fosslight-scanner/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-02 11:42:27] INFO root fetch - main [MainThread]: End processing [yt-idefix]: success
+[2023-06-02 11:42:27] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-06-02 11:42:27] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2023-06-02 11:42:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2023-06-02 11:42:29] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-02 11:42:30] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-02 11:42:34] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-06-02 11:42:34] INFO root fetch - main [MainThread]: Store serial: [18347054]
