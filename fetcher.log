@@ -6045,3 +6045,109 @@
 [2023-06-02 04:40:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-06-02 04:40:07] INFO root fetch - main [MainThread]: End processing [pawpaw]: success
 [2023-06-02 04:40:07] INFO root fetch - main [MainThread]: Store serial: [18343862]
+[2023-06-02 04:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343862]
+[2023-06-02 04:45:16] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usls
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-escape-url
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: instructprompt
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-25
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-invoice-tax-note
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-invoice-transmit-method
+[2023-06-02 04:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-invoice-base-invoicing-mode
+[2023-06-02 04:45:16] INFO root fetch - processPackages [usls]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 04:45:16] WARNING root fetch - processPackages [kubernetes-stubs-elephant-fork]: Skipping, unable to determine old version
+[2023-06-02 04:45:16] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Start processing: hj-common-utils
+[2023-06-02 04:45:16] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork] error
+[2023-06-02 04:45:16] WARNING root fetch - processPackages [instructprompt]: Skipping, unable to determine old version
+[2023-06-02 04:45:16] INFO root fetch - processPackages [instructprompt]: Start processing: odoo14-addon-account-invoice-tax-required
+[2023-06-02 04:45:16] INFO root fetch - main [MainThread]: End processing [instructprompt] error
+[2023-06-02 04:45:16] INFO root fetch - processPackages [nonebot-plugin-escape-url]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-note]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev5]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [hj-common-utils]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-transmit-method]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev3]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-required]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2023-06-02 04:45:16] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/47/76/42ad2a98d8a369174c102b03045401fb9a3419429e0dfde9707aabd8f135/usls-0.2.5-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Downloading https://files.pythonhosted.org/packages/c5/4a/72e0debcf90302392427820d290bbd9349eea24d1ac942ed91616b54e15f/nonebot_plugin_escape_url-0.1.0.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-note]: Downloading https://files.pythonhosted.org/packages/cf/3a/009f70ac53e5668bcdb713bf1f2c498513898571fc468df2fd37942ad112/odoo14_addon_account_invoice_tax_note-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/41/67/3feb0f109564d4b0614408ee0c6e2988c97b16ab0fa5786f72a05e1b3548/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [hj-common-utils]: Downloading https://files.pythonhosted.org/packages/e8/a3/c5624d506f4c0a5c6ac5bc88568cd721fc30823139ca1070a64a2130a103/hj-common-utils-1.1.0.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-transmit-method]: Downloading https://files.pythonhosted.org/packages/db/dc/2c721bacc8fa3669d47c3d1accf9ee12e3d04db0d25ba0408686b5c079ff/odoo14_addon_account_invoice_transmit_method-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/9c/93/f68ba26430d06d83383035443750427f59e617a37c0ac8b651468aaad751/naif_eop_high_prec-2023.6.2.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-required]: Downloading https://files.pythonhosted.org/packages/98/e2/6abff4d6e7ecbaabf23440ce113cb6f21d26793992bc71bb78c9e5ef88bd/odoo14_addon_account_invoice_tax_required-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230602/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-02 04:45:16] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230602/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-02 04:45:16] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-note]: Downloading https://files.pythonhosted.org/packages/6a/b3/f9a8003312223ecedfd3d25b25a6e1f12ed35f5dcf7a996b949f67a951a4/odoo14_addon_account_invoice_tax_note-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-02 04:45:16] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Downloading https://files.pythonhosted.org/packages/25/4f/9f25270bc099d36494ccea7326b83278ff8bdfc47afd8e085903677a5b14/nonebot_plugin_escape_url-0.1.1.tar.gz
+[2023-06-02 04:45:16] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-02 04:45:16] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.1.tar.gz tmp/naif_eop_high_prec-2023.6.2.tar.gz --markdown 20230602/n/naif-eop-high-prec/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/64/2d/1fa002f1dc5362f7b9163f45732b64746b43c152dad6cfe257895661faad/usls-0.2.6-py3-none-any.whl
+[2023-06-02 04:45:17] INFO root fetch - processPackages [nonebot-plugin-escape-url]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [nonebot-plugin-escape-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_escape_url-0.1.0.tar.gz tmp/nonebot_plugin_escape_url-0.1.1.tar.gz --markdown 20230602/n/nonebot-plugin-escape-url/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-note]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_tax_note-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_tax_note-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-tax-note/14.0.1.0.1.dev5-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [hj-common-utils]: Downloading https://files.pythonhosted.org/packages/61/0e/a381911fad138bbcf9b48e4991160811e92c134488e473bfac2371e093be/hj_common_utils-1.2.0-py3-none-any.whl
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/e1/0c/619f170d6df033537454ce1e19a6828ffee8d353c085f40fbb846257e293/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-02 04:45:17] INFO root fetch - processPackages [usls]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [usls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usls-0.2.5-py3-none-any.whl.zip tmp/usls-0.2.6-py3-none-any.whl.zip --markdown 20230602/u/usls/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-required]: Downloading https://files.pythonhosted.org/packages/16/8e/6e71ded567ce4cbf6474f06a361db0177d6826cede41fef0e5ec39f3f986/odoo14_addon_account_invoice_tax_required-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-transmit-method]: Downloading https://files.pythonhosted.org/packages/f6/d6/bcc9fd2773941e76d43e97774af811c80ca0449d75e876d6cb6a42d8dbc7/odoo14_addon_account_invoice_transmit_method-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-02 04:45:17] INFO root fetch - processPackages [hj-common-utils]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [hj-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj-common-utils-1.1.0.tar.gz tmp/hj_common_utils-1.2.0-py3-none-any.whl.zip --markdown 20230602/h/hj-common-utils/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-base-invoicing-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_base_invoicing_mode-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-base-invoicing-mode/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-required]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-tax-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_tax_required-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_tax_required-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-tax-required/14.0.1.0.2.dev1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-transmit-method]: executing diffoscope
+[2023-06-02 04:45:17] INFO root fetch - processPackages [odoo14-addon-account-invoice-transmit-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_transmit_method-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_transmit_method-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-transmit-method/14.0.1.1.1.dev3-14.0.1.1.1.dev4/diff.md --exclude *.pyd
+[2023-06-02 04:45:18] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Start processing: clams-python
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-escape-url]: success
+[2023-06-02 04:45:18] INFO root fetch - processPackages [hj-common-utils]: Start processing: odoo14-addon-account-invoice-search-by-reference
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [hj-common-utils]: success
+[2023-06-02 04:45:18] INFO root fetch - processPackages [clams-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 04:45:18] INFO root fetch - processPackages [cdk8s-plus-26]: Start processing: gpt4-api
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-02 04:45:18] WARNING root fetch - processPackages [gpt4-api]: Skipping, unable to determine old version
+[2023-06-02 04:45:18] INFO root fetch - processPackages [gpt4-api]: Start processing: odoo14-addon-account-invoice-date-due
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [gpt4-api] error
+[2023-06-02 04:45:18] INFO root fetch - processPackages [odoo14-addon-account-invoice-search-by-reference]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-02 04:45:18] INFO root fetch - processPackages [usls]: Start processing: loadtime
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [usls]: success
+[2023-06-02 04:45:18] INFO root fetch - processPackages [odoo14-addon-account-invoice-date-due]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-06-02 04:45:18] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/aa/c3/3392a3d7a4d1a97b6e890c12c9e33dc852509c3a8cba2301740fc9b09b0f/clams-python-1.0.1.tar.gz
+[2023-06-02 04:45:18] INFO root fetch - processPackages [loadtime]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-base-invoicing-mode]: success
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-tax-note]: success
+[2023-06-02 04:45:18] INFO root fetch - processPackages [odoo14-addon-account-invoice-search-by-reference]: Downloading https://files.pythonhosted.org/packages/61/46/e0eeb5fb170caa044eeb2fc55112cb5ebd129e9936382569db1fe23370c5/odoo14_addon_account_invoice_search_by_reference-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-02 04:45:18] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-date-due]: Downloading https://files.pythonhosted.org/packages/5c/07/a29fedf33d77bf3deadacfd6c0765766a0e317da34be8ed80a69051ce9b7/odoo14_addon_account_invoice_date_due-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-02 04:45:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-tax-required]: success
+[2023-06-02 04:45:19] INFO root fetch - processPackages [loadtime]: Downloading https://files.pythonhosted.org/packages/79/88/231db989a4de0c061816f0df573071abd027abc2705e8471793ad1cb25f6/loadtime-1.0.3.tar.gz
+[2023-06-02 04:45:19] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/18/3d/43cc301899858342d834410821bd840b287b071fa095a0fc43c00b6a8f9e/clams-python-1.0.2.tar.gz
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-search-by-reference]: Downloading https://files.pythonhosted.org/packages/35/a4/03bb9bcfc35eba89de251e611af76df2eba55316d223140ae245eb4a996f/odoo14_addon_account_invoice_search_by_reference-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-02 04:45:19] INFO root fetch - processPackages [loadtime]: executing diffoscope
+[2023-06-02 04:45:19] INFO root fetch - processPackages [loadtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadtime-1.0.1.tar.gz tmp/loadtime-1.0.3.tar.gz --markdown 20230602/l/loadtime/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 04:45:19] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-06-02 04:45:19] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-1.0.1.tar.gz tmp/clams-python-1.0.2.tar.gz --markdown 20230602/c/clams-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-search-by-reference]: executing diffoscope
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-search-by-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_search_by_reference-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_search_by_reference-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-search-by-reference/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-02 04:45:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-transmit-method]: success
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-date-due]: Downloading https://files.pythonhosted.org/packages/8c/a8/f90da23aaaa1c9b2e9e01603a8a9c88dd7ed18693e1beece3a89505b6625/odoo14_addon_account_invoice_date_due-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-date-due]: executing diffoscope
+[2023-06-02 04:45:19] INFO root fetch - processPackages [odoo14-addon-account-invoice-date-due]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_date_due-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_date_due-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-invoice-date-due/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-02 04:45:20] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-06-02 04:45:20] INFO root fetch - main [MainThread]: End processing [loadtime]: success
+[2023-06-02 04:45:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-search-by-reference]: success
+[2023-06-02 04:45:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-date-due]: success
+[2023-06-02 04:45:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-02 04:45:24] INFO root fetch - main [MainThread]: Store serial: [18343915]
