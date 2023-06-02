@@ -6247,3 +6247,56 @@
 [2023-06-02 04:55:57] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
 [2023-06-02 04:55:58] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2023-06-02 04:55:58] INFO root fetch - main [MainThread]: Store serial: [18343957]
+[2023-06-02 05:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343957]
+[2023-06-02 05:01:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructprompt
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SPAIC
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monarch-py
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axion
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instructprompt
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySpeedMacro
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-06-02 05:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-06-02 05:01:08] INFO root fetch - processPackages [instructprompt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [SPAIC]: New version: [0.6.2.1.0] Old Version: [0.6.2.0.0]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [PySpeedMacro]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [instructprompt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [axion]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [monarch-py]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1685674808] Old Version: [0.1.1685674800]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1685674808] Old Version: [0.1.1685674800]
+[2023-06-02 05:01:08] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/46/29/b876f476f537dc0963abc92a2607b5c9d2ed241eff694db56bd767803c7a/eia-odin-pkg-rioatmadja2018-0.1.1685674800.tar.gz
+[2023-06-02 05:01:08] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/46/29/b876f476f537dc0963abc92a2607b5c9d2ed241eff694db56bd767803c7a/eia-odin-pkg-rioatmadja2018-0.1.1685674800.tar.gz
+[2023-06-02 05:01:08] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/ce/ba/349591ecea02b0c93c78a29b2875f427f8c077871c859069e4de8589e35d/PySpeedMacro-0.0.0.9.tar.gz
+[2023-06-02 05:01:09] INFO root fetch - processPackages [PySpeedMacro]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [PySpeedMacro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeedMacro-0.0.0.8.tar.gz tmp/PySpeedMacro-0.0.0.9.tar.gz --markdown 20230602/P/PySpeedMacro/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/22/4b/0eb6ff711e6bf30360bebaa8f7ccadde8951f310978298d9425e99ae3aa0/instructprompt-0.1.3.tar.gz
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/22/4b/0eb6ff711e6bf30360bebaa8f7ccadde8951f310978298d9425e99ae3aa0/instructprompt-0.1.3.tar.gz
+[2023-06-02 05:01:09] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/fc/6a/ff742647527d515cb130a4de88007f1faa239496877a1d6b1414a3860cd7/axion-3.4.0-cp311-cp311-macosx_10_9_universal2.whl
+[2023-06-02 05:01:09] INFO root fetch - processPackages [SPAIC]: Downloading https://files.pythonhosted.org/packages/c1/ab/98e1bad45a87c4080e75b394a0a399f32f89c22f6a776133a0ed2dfb3a56/SPAIC-0.6.2.1.0.tar.gz
+[2023-06-02 05:01:09] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/61/bb/d0ea60f111888d69aeee074acdcd737699ecb3bc695761ad1910e6f65f6c/monarch_py-0.9.0.tar.gz
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.2.tar.gz tmp/instructprompt-0.1.3.tar.gz --markdown 20230602/i/instructprompt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.8.3.tar.gz tmp/monarch_py-0.9.0.tar.gz --markdown 20230602/m/monarch-py/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [SPAIC]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [SPAIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPAIC-0.6.2.0.0.tar.gz tmp/SPAIC-0.6.2.1.0.tar.gz --markdown 20230602/S/SPAIC/0.6.2.0.0-0.6.2.1.0/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/59/2e/32c4efa977a75a8c957b08bd671014b9ad5d62521f35d50addfe65cb1db5/eia_odin_pkg_rioatmadja2018-0.1.1685674808-py3-none-any.whl
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/59/2e/32c4efa977a75a8c957b08bd671014b9ad5d62521f35d50addfe65cb1db5/eia_odin_pkg_rioatmadja2018-0.1.1685674808-py3-none-any.whl
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.2.tar.gz tmp/instructprompt-0.1.3.tar.gz --markdown 20230602/i/instructprompt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1685674800.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1685674808-py3-none-any.whl.zip --markdown 20230602/e/eia-odin-pkg-rioatmadja2018/0.1.1685674800-0.1.1685674808/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1685674800.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1685674808-py3-none-any.whl.zip --markdown 20230602/e/eia-odin-pkg-rioatmadja2018/0.1.1685674800-0.1.1685674808/diff.md --exclude *.pyd
+[2023-06-02 05:01:09] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-06-02 05:01:09] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.3.4-cp311-cp311-win_amd64.whl.zip tmp/axion-3.4.0-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230602/a/axion/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [PySpeedMacro]: success
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-06-02 05:01:10] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-06-02 05:01:11] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-06-02 05:01:12] INFO root fetch - main [MainThread]: End processing [SPAIC]: success
+[2023-06-02 05:01:12] INFO root fetch - main [MainThread]: Store serial: [18343981]
