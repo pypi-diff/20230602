@@ -8393,3 +8393,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:15:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-risk]: success
 [2023-06-02 08:17:04] INFO root fetch - main [MainThread]: End processing [kclvm]: success
 [2023-06-02 08:17:04] INFO root fetch - main [MainThread]: Store serial: [18345265]
+[2023-06-02 08:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345265]
+[2023-06-02 08:22:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatsapp-chatbot-python
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-open-controls
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optim-esm-tools
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunwoolabs
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mayan-edms
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-request
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kanade
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pretext
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nxs-analysis-tools
+[2023-06-02 08:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peakrdl-html
+[2023-06-02 08:22:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [qctrl-open-controls]: New version: [9.1.8] Old Version: [9.1.7]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [sunwoolabs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 08:22:14] WARNING root fetch - processPackages [optim-esm-tools]: Skipping, unable to determine old version
+[2023-06-02 08:22:14] WARNING root fetch - processPackages [kanade]: Skipping, unable to determine old version
+[2023-06-02 08:22:14] INFO root fetch - processPackages [optim-esm-tools]: Start processing: isar
+[2023-06-02 08:22:14] INFO root fetch - processPackages [peakrdl-html]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 08:22:14] INFO root fetch - main [MainThread]: End processing [optim-esm-tools] error
+[2023-06-02 08:22:14] INFO root fetch - processPackages [kanade]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 08:22:14] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [15.0.1.6.1] Old Version: [15.0.1.6.0]
+[2023-06-02 08:22:14] INFO root fetch - main [MainThread]: End processing [kanade] error
+[2023-06-02 08:22:14] INFO root fetch - processPackages [mayan-edms]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230602] Old Version: [1.5.4.dev20230601]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-02 08:22:14] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-06-02 08:22:14] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230602/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:22:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 08:22:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-8.0.1.tar.gz tmp/kubernetes-stubs-elephant-fork-8.0.2.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:22:14] INFO root fetch - processPackages [sunwoolabs]: Downloading https://files.pythonhosted.org/packages/f8/8e/7b1da26a40e782603a132ae7dc849f315bf6f06178349550aca22a18dbd2/sunwoolabs-0.0.1.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/d0/73/ac6027a65c8122209e56f35384aedeaa08ea0e0b1f1176ac133749f59062/whatsapp-chatbot-python-0.1.0.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [qctrl-open-controls]: Downloading https://files.pythonhosted.org/packages/2f/d8/dc9e2bddbefc8c8d84515ec10dd005806bdd058cdfb41edb4b447d655e85/qctrl_open_controls-9.1.7.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [peakrdl-html]: Downloading https://files.pythonhosted.org/packages/f9/17/94ad577eda02bde6ee235ffc70a8a89cb65fa84121ffe9fa36d05643f774/peakrdl-html-2.8.0.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d7/96/38f5e8f4e02fbe96a24cb56dfa4b9e0b170de9ecd299c6192fc3e6e09eda/pretext-1.5.4.dev20230601.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/a5/94/0c93b7d620494e610645d0a98be65dee2c18dfc25fff06a2d477cb7cdc96/odoo_addon_stock_request-15.0.1.6.1-py3-none-any.whl
+[2023-06-02 08:22:14] INFO root fetch - processPackages [sunwoolabs]: Downloading https://files.pythonhosted.org/packages/82/dc/0fbacd8cd88924d631d45f8acfbcacf966336fb6eeb76f96d1276327c47b/sunwoolabs-0.0.2.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [isar]: executing diffoscope
+[2023-06-02 08:22:14] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20230602/i/isar/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-02 08:22:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/23/78/8831b7da208c689f536814cc2145501f73c3e54c378de8b78a94ecc7c4f9/whatsapp-chatbot-python-0.2.0.tar.gz
+[2023-06-02 08:22:14] INFO root fetch - processPackages [sunwoolabs]: executing diffoscope
+[2023-06-02 08:22:14] INFO root fetch - processPackages [sunwoolabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunwoolabs-0.0.1.tar.gz tmp/sunwoolabs-0.0.2.tar.gz --markdown 20230602/s/sunwoolabs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:22:14] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/55/6c/8e003b7feb89ba406819e9c07dab6dd30b274f4357061828406fb6b1142f/pretext-1.5.4.dev20230602.tar.gz
+[2023-06-02 08:22:15] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2023-06-02 08:22:15] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-15.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_stock_request-15.0.1.6.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-stock-request/15.0.1.6.0-15.0.1.6.1/diff.md --exclude *.pyd
+[2023-06-02 08:22:15] INFO root fetch - processPackages [mayan-edms]: executing diffoscope
+[2023-06-02 08:22:15] INFO root fetch - processPackages [mayan-edms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-edms-4.4.5.tar.gz tmp/mayan-edms-4.4.6.tar.gz --markdown 20230602/m/mayan-edms/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-06-02 08:22:15] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-06-02 08:22:15] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.1.0.tar.gz tmp/whatsapp-chatbot-python-0.2.0.tar.gz --markdown 20230602/w/whatsapp-chatbot-python/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 08:22:15] INFO root fetch - processPackages [qctrl-open-controls]: Downloading https://files.pythonhosted.org/packages/f7/ed/89ee220eae7b7e2e22a4ba130e8a0425d953407b3521a672c2c3f53e2e15/qctrl_open_controls-9.1.8.tar.gz
+[2023-06-02 08:22:15] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-02 08:22:15] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230601.tar.gz tmp/pretext-1.5.4.dev20230602.tar.gz --markdown 20230602/p/pretext/1.5.4.dev20230601-1.5.4.dev20230602/diff.md --exclude *.pyd
+[2023-06-02 08:22:15] INFO root fetch - processPackages [qctrl-open-controls]: executing diffoscope
+[2023-06-02 08:22:15] INFO root fetch - processPackages [qctrl-open-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_open_controls-9.1.7.tar.gz tmp/qctrl_open_controls-9.1.8.tar.gz --markdown 20230602/q/qctrl-open-controls/9.1.7-9.1.8/diff.md --exclude *.pyd
+[2023-06-02 08:22:15] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-06-02 08:22:16] INFO root fetch - main [MainThread]: End processing [sunwoolabs]: success
+[2023-06-02 08:22:16] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-06-02 08:22:16] INFO root fetch - processPackages [peakrdl-html]: Downloading https://files.pythonhosted.org/packages/57/94/88a91283f0df19494dd004f039d4507658f9640f49873e9400e42c40b2b4/peakrdl-html-2.9.0.tar.gz
+[2023-06-02 08:22:16] INFO root fetch - processPackages [peakrdl-html]: executing diffoscope
+[2023-06-02 08:22:16] INFO root fetch - processPackages [peakrdl-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-html-2.8.0.tar.gz tmp/peakrdl-html-2.9.0.tar.gz --markdown 20230602/p/peakrdl-html/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-02 08:22:16] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2023-06-02 08:22:17] INFO root fetch - main [MainThread]: End processing [qctrl-open-controls]: success
+[2023-06-02 08:22:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2023-06-02 08:22:21] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-02 08:22:21] INFO root fetch - main [MainThread]: End processing [peakrdl-html]: success
+[2023-06-02 08:22:22] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 08:25:15] ERROR root fetch - processPackages [mayan-edms]: Timeout during execution of pkgdiff
+[2023-06-02 08:25:15] INFO root fetch - main [MainThread]: End processing [mayan-edms] error
+[2023-06-02 08:25:15] INFO root fetch - main [MainThread]: Store serial: [18345306]
