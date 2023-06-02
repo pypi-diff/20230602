@@ -19657,3 +19657,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:45:51] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2023-06-02 20:47:38] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
 [2023-06-02 20:47:38] INFO root fetch - main [MainThread]: Store serial: [18352148]
+[2023-06-02 20:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352148]
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AdminToolsDjango
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viggofiscal
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyWebUIFramework
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-sparksql
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idem-random
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: erdgen
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlab-ci-generator
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databricks-connect
+[2023-06-02 20:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hearthstone
+[2023-06-02 20:53:00] INFO root fetch - processPackages [viggofiscal]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.9] Old Version: [1.8]
+[2023-06-02 20:53:00] WARNING root fetch - processPackages [AdminToolsDjango]: Skipping, unable to determine old version
+[2023-06-02 20:53:00] INFO root fetch - processPackages [jupyterlab-sparksql]: New version: [1.1.0] Old Version: [0.2.0]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [AdminToolsDjango]: Start processing: server_chat_pyqt_test_3
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: End processing [AdminToolsDjango] error
+[2023-06-02 20:53:00] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.39] Old Version: [9.1.38]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [erdgen]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-06-02 20:53:00] WARNING root fetch - processPackages [odoo-addon-product-form-sale-link]: Skipping, unable to determine old version
+[2023-06-02 20:53:00] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Start processing: PyWebUIFramework
+[2023-06-02 20:53:00] INFO root fetch - processPackages [gitlab-ci-generator]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link] error
+[2023-06-02 20:53:00] WARNING root fetch - processPackages [server_chat_pyqt_test_3]: Skipping, unable to determine old version
+[2023-06-02 20:53:00] INFO root fetch - processPackages [server_chat_pyqt_test_3]: Start processing: cwsearch-utils
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: End processing [server_chat_pyqt_test_3] error
+[2023-06-02 20:53:00] INFO root fetch - processPackages [hearthstone]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/b1/b9/fecdbaf76bf117671a9e6672a5d85c0849bd2619960d46a239139cfade2f/databricks-connect-9.1.38.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.9] Old Version: [1.8]
+[2023-06-02 20:53:00] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257182459>=10485760
+[2023-06-02 20:53:00] WARNING root fetch - processPackages [idem-random]: Skipping, unable to determine old version
+[2023-06-02 20:53:00] INFO root fetch - processPackages [databricks-connect]: Start processing: aind-metadata-service
+[2023-06-02 20:53:00] INFO root fetch - processPackages [idem-random]: Start processing: modal-client
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-02 20:53:00] INFO root fetch - main [MainThread]: End processing [idem-random] error
+[2023-06-02 20:53:00] INFO root fetch - processPackages [modal-client]: New version: [0.49.2348] Old Version: [0.49.2343]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230602/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/75/c0/4c3b65cca54e7973ac74f3d95acfc5ac7fbf4940cdd56af28340623d1081/PyWebUIFramework-1.8.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [jupyterlab-sparksql]: Downloading https://files.pythonhosted.org/packages/53/16/618ca723b16374dfeeaf2ccfa29cb31e129635ea0a84aa1f6021f1dc8757/jupyterlab_sparksql-0.2.0.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/75/c0/4c3b65cca54e7973ac74f3d95acfc5ac7fbf4940cdd56af28340623d1081/PyWebUIFramework-1.8.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [erdgen]: Downloading https://files.pythonhosted.org/packages/2d/28/23a3fa548c46ed2c5def82d1fd7b2548ea394f944600eccc21d5248cef4b/erdgen-0.0.1rc1.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [gitlab-ci-generator]: Downloading https://files.pythonhosted.org/packages/0e/3c/2340b1067f88f7629db9523830976b60cb70b0bcf4505574434428a15d16/gitlab-ci-generator-1.0.5.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/5e/3f/bb8004ce23c4785f7f975a4c27f1b40e2d8b2a42c3c1ebed16fda6f36856/PyWebUIFramework-1.9.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/5e/3f/bb8004ce23c4785f7f975a4c27f1b40e2d8b2a42c3c1ebed16fda6f36856/PyWebUIFramework-1.9.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [jupyterlab-sparksql]: Downloading https://files.pythonhosted.org/packages/c1/eb/a4cd49796b7265bab58cc4f36ffe98bbcf46b560fa10270606e396a454e7/jupyterlab_sparksql-1.1.0.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/1d/f7/699fd23505f978dd899e2073786192479423a7b851c1d73814ab4d6a97c0/viggofiscal-1.4.3.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.8.tar.gz tmp/PyWebUIFramework-1.9.tar.gz --markdown 20230602/P/PyWebUIFramework/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.8.tar.gz tmp/PyWebUIFramework-1.9.tar.gz --markdown 20230602/P/PyWebUIFramework/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/53/02/ca2529a087e432b8b3849880a07be10333181398217b03766c8ff3f0fcfe/aind_metadata_service-0.4.7.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/0f/75/90f286b7dc6a9855e82ec3c013b8ff9884aa92b9e735dc3e9311ce500203/hearthstone-7.1.0.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.4.2.tar.gz tmp/viggofiscal-1.4.3.tar.gz --markdown 20230602/v/viggofiscal/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [jupyterlab-sparksql]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [jupyterlab-sparksql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sparksql-0.2.0.tar.gz tmp/jupyterlab_sparksql-1.1.0.tar.gz --markdown 20230602/j/jupyterlab-sparksql/0.2.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-7.0.0.tar.gz tmp/hearthstone-7.1.0.tar.gz --markdown 20230602/h/hearthstone/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.4.6.tar.gz tmp/aind_metadata_service-0.4.7.tar.gz --markdown 20230602/a/aind-metadata-service/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/a5/23/c47746f5a269db02baec6407462439f483fabd8d47b76d66a57963d5ce6a/modal_client-0.49.2348-py3-none-any.whl
+[2023-06-02 20:53:00] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2343-py3-none-any.whl.zip tmp/modal_client-0.49.2348-py3-none-any.whl.zip --markdown 20230602/m/modal-client/0.49.2343-0.49.2348/diff.md --exclude *.pyd
+[2023-06-02 20:53:00] INFO root fetch - processPackages [erdgen]: Downloading https://files.pythonhosted.org/packages/4c/78/2b73378dbe7154e84693d7dc1e300200c9f87b09a3e68833c0c880ea7825/erdgen-0.0.1rc2.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [gitlab-ci-generator]: Downloading https://files.pythonhosted.org/packages/4a/d1/5f1b762806e92cb6475ce4b7434a6ca7a4975e2a0fb90fe3151eb9105636/gitlab-ci-generator-1.0.6.tar.gz
+[2023-06-02 20:53:00] INFO root fetch - processPackages [gitlab-ci-generator]: executing diffoscope
+[2023-06-02 20:53:00] INFO root fetch - processPackages [gitlab-ci-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-ci-generator-1.0.5.tar.gz tmp/gitlab-ci-generator-1.0.6.tar.gz --markdown 20230602/g/gitlab-ci-generator/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 20:53:01] INFO root fetch - processPackages [erdgen]: executing diffoscope
+[2023-06-02 20:53:01] INFO root fetch - processPackages [erdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdgen-0.0.1rc1.tar.gz tmp/erdgen-0.0.1rc2.tar.gz --markdown 20230602/e/erdgen/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-06-02 20:53:01] INFO root fetch - processPackages [cwsearch-utils]: Start processing: modal
+[2023-06-02 20:53:01] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-02 20:53:01] INFO root fetch - processPackages [modal]: New version: [0.49.2348] Old Version: [0.49.2343]
+[2023-06-02 20:53:02] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/95/6f/8d44d2c513838e84f79ebd130b8beee80f8aa3521180ee6083fee0e3897e/modal-0.49.2343-py3-none-any.whl
+[2023-06-02 20:53:02] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b6/c0/f32db8efcb75088f475028fa24bff4b759d8d22794aab617374e1b5119c8/modal-0.49.2348-py3-none-any.whl
+[2023-06-02 20:53:02] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-02 20:53:02] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2343-py3-none-any.whl.zip tmp/modal-0.49.2348-py3-none-any.whl.zip --markdown 20230602/m/modal/0.49.2343-0.49.2348/diff.md --exclude *.pyd
+[2023-06-02 20:53:02] INFO root fetch - processPackages [gitlab-ci-generator]: Start processing: netbox-device-view
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [gitlab-ci-generator]: success
+[2023-06-02 20:53:02] WARNING root fetch - processPackages [netbox-device-view]: Skipping, unable to determine old version
+[2023-06-02 20:53:02] INFO root fetch - processPackages [netbox-device-view]: Start processing: pyrsig
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [netbox-device-view] error
+[2023-06-02 20:53:02] INFO root fetch - processPackages [pyrsig]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-02 20:53:02] INFO root fetch - processPackages [erdgen]: Start processing: aioguest
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [erdgen]: success
+[2023-06-02 20:53:02] WARNING root fetch - processPackages [aioguest]: Skipping, unable to determine old version
+[2023-06-02 20:53:02] INFO root fetch - processPackages [aioguest]: Start processing: rising-plugin
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [aioguest] error
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2023-06-02 20:53:02] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 20:53:02] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 20:53:02] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 20:53:02] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2023-06-02 20:53:02] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/04/28/dc191ea344763e147e5725ad307b3c14477b97b41d3e916524f9177d8a89/pyrsig-0.4.1.tar.gz
+[2023-06-02 20:53:03] INFO root fetch - processPackages [pyrsig]: executing diffoscope
+[2023-06-02 20:53:03] INFO root fetch - processPackages [pyrsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsig-0.4.0.tar.gz tmp/pyrsig-0.4.1.tar.gz --markdown 20230602/p/pyrsig/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [jupyterlab-sparksql]: success
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-06-02 20:53:03] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:53:04] INFO root fetch - main [MainThread]: End processing [pyrsig]: success
+[2023-06-02 20:56:02] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 20:56:02] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 20:56:02] INFO root fetch - main [MainThread]: Store serial: [18352211]
