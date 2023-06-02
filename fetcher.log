@@ -10010,3 +10010,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:23:14] INFO root fetch - main [MainThread]: End processing [falocalrepo]: success
 [2023-06-02 10:23:19] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 10:23:19] INFO root fetch - main [MainThread]: Store serial: [18346248]
+[2023-06-02 10:28:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346248]
+[2023-06-02 10:28:28] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aim-ui
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-model-optimization-nightly
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: consumableai
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aim
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: platform-library
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-analytics
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kappadata
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asyncpg-dev
+[2023-06-02 10:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wagtail-cache-invalidator
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [platform-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [consumableai]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-cache-invalidator]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-analytics]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 10:28:28] WARNING root fetch - processPackages [asyncpg-dev]: Skipping, unable to determine old version
+[2023-06-02 10:28:28] INFO root fetch - processPackages [asyncpg-dev]: Start processing: cloudservices-arg
+[2023-06-02 10:28:28] INFO root fetch - main [MainThread]: End processing [asyncpg-dev] error
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cg]: New version: [33.1.5] Old Version: [33.1.4]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cloudservices-arg]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230602] Old Version: [0.7.5.dev20230527]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/72/11/d6a599ec4ad003d59801200d43ab098d9e29c73b16b2ef5ae8c3913470e4/aim-ui-4.0.0a3.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-analytics]: Downloading https://files.pythonhosted.org/packages/5e/42/30775c1d8ff03064f1a28668f0edf7bba546979158c66cc82cfab45e0441/wagtail-analytics-0.4.0.tar.gz
+[2023-06-02 10:28:28] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 20217136>=10485760
+[2023-06-02 10:28:28] INFO root fetch - processPackages [consumableai]: Downloading https://files.pythonhosted.org/packages/be/e6/d318e6a0f849eed1bef2d9c8842c5f2188f34538748dc4bdbeb1aa5d131c/consumableai-1.0.0-py3-none-any.whl
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim-ui]: Start processing: wagtail-secret-sharing
+[2023-06-02 10:28:28] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-cache-invalidator]: Downloading https://files.pythonhosted.org/packages/2f/0f/daab6319df401a871b931b56e29076dd2e416460dcaf33888148f8c1a0fe/wagtail-cache-invalidator-0.5.0.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-secret-sharing]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cloudservices-arg]: Downloading https://files.pythonhosted.org/packages/37/f0/ae03bc245dff5dfa603fc4405accc902a07bdf8b7b1dc36dbb22661a982d/cloudservices_arg-0.1.8.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [platform-library]: Downloading https://files.pythonhosted.org/packages/18/13/ee8dd2fbfa045231ae0717d17b421bf9cdf9cca91bd0a36df9f9ecf34fe2/platform-library-0.0.9.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [consumableai]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [consumableai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consumableai-0.1.1-py3-none-any.whl.zip tmp/consumableai-1.0.0-py3-none-any.whl.zip --markdown 20230602/c/consumableai/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/63/76/5d7b08dcf4d333c9d009fe140bc91bbee31889d175fd0e78abce9c8a6f0a/cg-33.1.5.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230602/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 10:28:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/fa/17/509b4fee77e3fe4feba1c7d4da0157ab90e38b69a2c68541be9f77cc83ac/tf_model_optimization_nightly-0.7.5.dev20230602-py2.py3-none-any.whl
+[2023-06-02 10:28:28] INFO root fetch - processPackages [platform-library]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [platform-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-library-0.0.8.tar.gz tmp/platform-library-0.0.9.tar.gz --markdown 20230602/p/platform-library/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cloudservices-arg]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [cloudservices-arg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudservices_arg-0.1.7.tar.gz tmp/cloudservices_arg-0.1.8.tar.gz --markdown 20230602/c/cloudservices-arg/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-secret-sharing]: Downloading https://files.pythonhosted.org/packages/ee/a5/4c4d32ed3f2b1ccbc27058f4bc81fd53083ba4071618aa1b797b5916958e/wagtail-secret-sharing-0.4.0.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a3.tar.gz tmp/aim-4.0.0a4.tar.gz --markdown 20230602/a/aim/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-06-02 10:28:28] INFO root fetch - processPackages [wagtail-cache-invalidator]: Downloading https://files.pythonhosted.org/packages/5b/8d/e15d3fcfc31a0e10908672f4605af293c521dcc4a3ade76dc683cb033f44/wagtail-cache-invalidator-0.6.0.tar.gz
+[2023-06-02 10:28:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-02 10:28:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230527-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230602-py2.py3-none-any.whl.zip --markdown 20230602/t/tf-model-optimization-nightly/0.7.5.dev20230527-0.7.5.dev20230602/diff.md --exclude *.pyd
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-analytics]: Downloading https://files.pythonhosted.org/packages/0d/50/387417eed7b8add3bef3b51829f05ccec190bd8911f62584e491b6a91629/wagtail-analytics-0.5.0.tar.gz
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-cache-invalidator]: executing diffoscope
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-cache-invalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cache-invalidator-0.5.0.tar.gz tmp/wagtail-cache-invalidator-0.6.0.tar.gz --markdown 20230602/w/wagtail-cache-invalidator/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-secret-sharing]: Downloading https://files.pythonhosted.org/packages/a4/d4/b2f62b4e4c88a1b13419401708adbd6cd9fbeabbcf02cfb16423fc143c25/wagtail-secret-sharing-0.5.0.tar.gz
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-secret-sharing]: executing diffoscope
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-secret-sharing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-secret-sharing-0.4.0.tar.gz tmp/wagtail-secret-sharing-0.5.0.tar.gz --markdown 20230602/w/wagtail-secret-sharing/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-analytics]: executing diffoscope
+[2023-06-02 10:28:29] INFO root fetch - processPackages [wagtail-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-analytics-0.4.0.tar.gz tmp/wagtail-analytics-0.5.0.tar.gz --markdown 20230602/w/wagtail-analytics/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:29] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-02 10:28:29] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.1.4.tar.gz tmp/cg-33.1.5.tar.gz --markdown 20230602/c/cg/33.1.4-33.1.5/diff.md --exclude *.pyd
+[2023-06-02 10:28:30] INFO root fetch - processPackages [consumableai]: Start processing: wagtail-model-forms
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [consumableai]: success
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-model-forms]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-02 10:28:30] INFO root fetch - processPackages [cloudservices-arg]: Start processing: perun
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [cloudservices-arg]: success
+[2023-06-02 10:28:30] INFO root fetch - processPackages [perun]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-06-02 10:28:30] INFO root fetch - processPackages [platform-library]: Start processing: cmsis-stream
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [platform-library]: success
+[2023-06-02 10:28:30] INFO root fetch - processPackages [cmsis-stream]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-model-forms]: Downloading https://files.pythonhosted.org/packages/16/53/6517dc92768f395664590c12069d3787e505aa8992e9673fe11d60efd57d/wagtail-model-forms-0.3.0.tar.gz
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-model-forms]: executing diffoscope
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-model-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-model-forms-0.2.5.tar.gz tmp/wagtail-model-forms-0.3.0.tar.gz --markdown 20230602/w/wagtail-model-forms/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-cache-invalidator]: Start processing: resomapper
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [wagtail-cache-invalidator]: success
+[2023-06-02 10:28:30] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/15/87/fb933b98b4d0a9a5959d4b9c379cf4f1aea74deb2ba4fd1406bb3555331f/perun-0.3.2.tar.gz
+[2023-06-02 10:28:30] INFO root fetch - processPackages [resomapper]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 10:28:30] INFO root fetch - processPackages [perun]: executing diffoscope
+[2023-06-02 10:28:30] INFO root fetch - processPackages [perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun-0.3.0.tar.gz tmp/perun-0.3.2.tar.gz --markdown 20230602/p/perun/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-secret-sharing]: Start processing: truera
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [wagtail-secret-sharing]: success
+[2023-06-02 10:28:30] INFO root fetch - processPackages [truera]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-06-02 10:28:30] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/10/d1/db2a11a2462f153cfa2cdbf9d0f5d98e933d6e47adeb867e9da6677f61bc/cmsis_stream-1.2.2-py3-none-any.whl
+[2023-06-02 10:28:30] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-06-02 10:28:30] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.2.1-py3-none-any.whl.zip tmp/cmsis_stream-1.2.2-py3-none-any.whl.zip --markdown 20230602/c/cmsis-stream/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 10:28:30] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/dd/55/b3b828a4152d8509dde06e7e6b13009dd7e66cba7cac92d46474789d7c21/truera-9.8.2-py3-none-any.whl
+[2023-06-02 10:28:30] INFO root fetch - processPackages [resomapper]: Downloading https://files.pythonhosted.org/packages/ff/4f/fc0e8e0d8e400e5a70ab04c5c363ec10716332856d7d65204f7c11da7ad9/resomapper-0.2.1.tar.gz
+[2023-06-02 10:28:30] INFO root fetch - processPackages [wagtail-analytics]: Start processing: streamlit-nightly
+[2023-06-02 10:28:30] INFO root fetch - main [MainThread]: End processing [wagtail-analytics]: success
+[2023-06-02 10:28:31] INFO root fetch - processPackages [resomapper]: executing diffoscope
+[2023-06-02 10:28:31] INFO root fetch - processPackages [resomapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resomapper-0.2.0.tar.gz tmp/resomapper-0.2.1.tar.gz --markdown 20230602/r/resomapper/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 10:28:31] INFO root fetch - processPackages [tf-model-optimization-nightly]: Start processing: weconnect-cupra-daern
+[2023-06-02 10:28:31] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-02 10:28:31] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-02 10:28:31] INFO root fetch - processPackages [weconnect-cupra-daern]: New version: [0.49.19] Old Version: [0.49.18]
+[2023-06-02 10:28:31] INFO root fetch - processPackages [weconnect-cupra-daern]: Downloading https://files.pythonhosted.org/packages/f3/93/55605262dfab3f79689f7036d21f269f4765d42af9b3875ddab09e357d4e/weconnect-cupra-daern-0.49.18.tar.gz
+[2023-06-02 10:28:31] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/da/5c/46e66b4a298d0c50335401afc22a359b87ea349f143c05316973514d60fa/truera-9.9.0-py3-none-any.whl
+[2023-06-02 10:28:31] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-02 10:28:31] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230602/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-02 10:28:31] INFO root fetch - processPackages [truera]: executing diffoscope
+[2023-06-02 10:28:31] INFO root fetch - processPackages [truera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truera-9.8.2-py3-none-any.whl.zip tmp/truera-9.9.0-py3-none-any.whl.zip --markdown 20230602/t/truera/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:31] INFO root fetch - processPackages [weconnect-cupra-daern]: Downloading https://files.pythonhosted.org/packages/66/af/787f9bc007080d14df31308111b325edd3a7101f6e3f63fdc65b8b115524/weconnect-cupra-daern-0.49.19.tar.gz
+[2023-06-02 10:28:31] INFO root fetch - processPackages [weconnect-cupra-daern]: executing diffoscope
+[2023-06-02 10:28:31] INFO root fetch - processPackages [weconnect-cupra-daern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-cupra-daern-0.49.18.tar.gz tmp/weconnect-cupra-daern-0.49.19.tar.gz --markdown 20230602/w/weconnect-cupra-daern/0.49.18-0.49.19/diff.md --exclude *.pyd
+[2023-06-02 10:28:31] INFO root fetch - processPackages [kappadata]: Start processing: modelz-llm
+[2023-06-02 10:28:31] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-02 10:28:31] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.3] Old Version: [23.6.2]
+[2023-06-02 10:28:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/5c/69/07ec36a133d1e1dde3f8550db244109ab57039fba94f85b538e099eebfaf/modelz-llm-23.6.3.tar.gz
+[2023-06-02 10:28:32] INFO root fetch - processPackages [perun]: Start processing: vector-vault
+[2023-06-02 10:28:32] INFO root fetch - main [MainThread]: End processing [perun]: success
+[2023-06-02 10:28:32] INFO root fetch - processPackages [vector-vault]: New version: [1.7.0] Old Version: [1.6.9.69]
+[2023-06-02 10:28:32] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 10:28:32] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.2.tar.gz tmp/modelz-llm-23.6.3.tar.gz --markdown 20230602/m/modelz-llm/23.6.2-23.6.3/diff.md --exclude *.pyd
+[2023-06-02 10:28:32] INFO root fetch - processPackages [wagtail-model-forms]: Start processing: FileKit
+[2023-06-02 10:28:32] INFO root fetch - main [MainThread]: End processing [wagtail-model-forms]: success
+[2023-06-02 10:28:32] INFO root fetch - processPackages [FileKit]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-02 10:28:32] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/f2/11/e3e90464e20a47e6f83b42fbe6fefa210187b7d9e81b7010ffea03415193/vector_vault-1.7.0.tar.gz
+[2023-06-02 10:28:32] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-02 10:28:32] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.9.69.tar.gz tmp/vector_vault-1.7.0.tar.gz --markdown 20230602/v/vector-vault/1.6.9.69-1.7.0/diff.md --exclude *.pyd
+[2023-06-02 10:28:32] INFO root fetch - processPackages [FileKit]: Downloading https://files.pythonhosted.org/packages/80/77/ed6ba541d023f8bcb7daf72471ff91fb8320a3e5421169c6570ee7cc3f8f/FileKit-1.0.3.tar.gz
+[2023-06-02 10:28:32] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-06-02 10:28:32] INFO root fetch - processPackages [FileKit]: Downloading https://files.pythonhosted.org/packages/99/39/b54ffc6a42a33bc2d68787fb2e0efb743de144c1443b61c6d50f0f2879e0/FileKit-1.0.5.tar.gz
+[2023-06-02 10:28:32] INFO root fetch - processPackages [FileKit]: executing diffoscope
+[2023-06-02 10:28:32] INFO root fetch - processPackages [FileKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileKit-1.0.3.tar.gz tmp/FileKit-1.0.5.tar.gz --markdown 20230602/F/FileKit/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 10:28:33] INFO root fetch - main [MainThread]: End processing [resomapper]: success
+[2023-06-02 10:28:33] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 10:28:33] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-02 10:28:33] INFO root fetch - main [MainThread]: End processing [FileKit]: success
+[2023-06-02 10:28:35] INFO root fetch - main [MainThread]: End processing [weconnect-cupra-daern]: success
+[2023-06-02 10:28:35] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-06-02 10:28:37] INFO root fetch - main [MainThread]: End processing [truera]: success
+[2023-06-02 10:28:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-02 10:28:42] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-02 10:28:42] INFO root fetch - main [MainThread]: Store serial: [18346318]
