@@ -1098,3 +1098,70 @@
 [2023-06-02 01:58:04] INFO root fetch - main [MainThread]: End processing [mezcla]: success
 [2023-06-02 01:58:04] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-02 01:58:04] INFO root fetch - main [MainThread]: Store serial: [18340976]
+[2023-06-02 02:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18340976]
+[2023-06-02 02:03:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eulith-web3
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igneous-pipeline
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-phal-plugin-core-updater
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckduckgo-search
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colorsysx
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ia-sdk
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytplot-mpl-temp
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irisml-tasks
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vector-vault
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcdata
+[2023-06-02 02:03:13] INFO root fetch - processPackages [eulith-web3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [duckduckgo-search]: New version: [3.8.0] Old Version: [3.7.1]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.0.1a5] Old Version: [1.0.1a4]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [colorsysx]: New version: [1.1a1] Old Version: [1.1]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [igneous-pipeline]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [irisml-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [vector-vault]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [bcdata]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-02 02:03:13] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-02 02:03:14] INFO root fetch - processPackages [eulith-web3]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [eulith-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulith_web3-0.0.8.tar.gz tmp/eulith_web3-0.0.9.tar.gz --markdown 20230602/e/eulith-web3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [colorsysx]: Downloading https://files.pythonhosted.org/packages/d8/4a/faf84a464dc4fa016f3cfee37451b220209c44c889e5234d56728b6a7d6c/colorsysx-1.1.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/80/32/bd797c1154b842287ac21ce3075dccefcdec078aebaa6b758b745fd6a6c9/neon_phal_plugin_core_updater-1.0.1a5-py3-none-any.whl
+[2023-06-02 02:03:14] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/b6/d0/a992b94c186208c7d719c7bbb23c590e71d1fc0b7598eb79c154ef7a2113/vector_vault-1.6.9.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/72/94/db570c9859200a79016bcccffab09bd7c214058602f41af4549ec9488a90/bcdata-0.7.7.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/7f/f0/346ac73b1d938b6cb0df351bffa1be1937ffbe2209054ddb356175992614/duckduckgo_search-3.8.0.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/44/05/223f9d80d8186c5262b494d43d08c25a5a57a20ec768157db3caa282edce/igneous-pipeline-4.8.0.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.6.8.tar.gz tmp/vector_vault-1.6.9.tar.gz --markdown 20230602/v/vector-vault/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-3.7.1.tar.gz tmp/duckduckgo_search-3.8.0.tar.gz --markdown 20230602/d/duckduckgo-search/3.7.1-3.8.0/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.0.1a4-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.0.1a5-py3-none-any.whl.zip --markdown 20230602/n/neon-phal-plugin-core-updater/1.0.1a4-1.0.1a5/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [irisml-tasks]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [irisml-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-0.0.8.tar.gz tmp/irisml-tasks-0.0.9.tar.gz --markdown 20230602/i/irisml-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.1.8.tar.gz tmp/pytplot-mpl-temp-2.1.9.tar.gz --markdown 20230602/p/pytplot-mpl-temp/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230602/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [colorsysx]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [colorsysx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorsysx-1.1.tar.gz tmp/colorsysx-1.1a1.tar.gz --markdown 20230602/c/colorsysx/1.1-1.1a1/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/08/b0/65ad40199300bbc962901e9c8a4ecd000d7aca98f6fb5a133fe5b89c90de/bcdata-0.7.8.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [bcdata]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [bcdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdata-0.7.7.tar.gz tmp/bcdata-0.7.8.tar.gz --markdown 20230602/b/bcdata/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-02 02:03:14] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/73/89/99a97070bf7edb5db3d588a78566a88207c6a26324df583d79cf41561a44/igneous-pipeline-4.9.0.tar.gz
+[2023-06-02 02:03:14] INFO root fetch - processPackages [igneous-pipeline]: executing diffoscope
+[2023-06-02 02:03:14] INFO root fetch - processPackages [igneous-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igneous-pipeline-4.8.0.tar.gz tmp/igneous-pipeline-4.9.0.tar.gz --markdown 20230602/i/igneous-pipeline/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-02 02:03:15] INFO root fetch - processPackages [eulith-web3]: Start processing: cc.xboxcontroller
+[2023-06-02 02:03:15] INFO root fetch - main [MainThread]: End processing [eulith-web3]: success
+[2023-06-02 02:03:15] INFO root fetch - processPackages [cc.xboxcontroller]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 02:03:15] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-02 02:03:15] INFO root fetch - processPackages [cc.xboxcontroller]: Downloading https://files.pythonhosted.org/packages/e3/56/8e8373009b2d93688eb16f5f8235a23638e8df789abfdc7c12a748a0da5f/cc.xboxcontroller-0.1.3.tar.gz
+[2023-06-02 02:03:15] INFO root fetch - processPackages [cc.xboxcontroller]: executing diffoscope
+[2023-06-02 02:03:15] INFO root fetch - processPackages [cc.xboxcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc.xboxcontroller-0.1.2.tar.gz tmp/cc.xboxcontroller-0.1.3.tar.gz --markdown 20230602/c/cc.xboxcontroller/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 02:03:15] INFO root fetch - main [MainThread]: End processing [colorsysx]: success
+[2023-06-02 02:03:16] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-06-02 02:03:16] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
+[2023-06-02 02:03:16] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-02 02:03:16] INFO root fetch - main [MainThread]: End processing [bcdata]: success
+[2023-06-02 02:03:16] INFO root fetch - main [MainThread]: End processing [cc.xboxcontroller]: success
+[2023-06-02 02:03:18] INFO root fetch - main [MainThread]: End processing [igneous-pipeline]: success
+[2023-06-02 02:04:11] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-06-02 02:04:15] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2023-06-02 02:04:15] INFO root fetch - main [MainThread]: Store serial: [18341008]
