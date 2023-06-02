@@ -11353,3 +11353,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 11:42:30] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-02 11:42:34] INFO root fetch - main [MainThread]: End processing [xpydf]: success
 [2023-06-02 11:42:34] INFO root fetch - main [MainThread]: Store serial: [18347054]
+[2023-06-02 11:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347054]
+[2023-06-02 11:47:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmsis-stream
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixt
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easylsb
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpaframework
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edxbackup
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-02 11:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: power-grid-model-io
+[2023-06-02 11:47:43] INFO root fetch - processPackages [agixt]: New version: [1.1.77b0] Old Version: [1.1.76b0]
+[2023-06-02 11:47:43] INFO root fetch - processPackages [easylsb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 11:47:43] INFO root fetch - processPackages [cmsis-stream]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-02 11:47:44] INFO root fetch - processPackages [kalm]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-02 11:47:44] WARNING root fetch - processPackages [edxbackup]: Skipping, unable to determine old version
+[2023-06-02 11:47:44] INFO root fetch - main [MainThread]: End processing [edxbackup] error
+[2023-06-02 11:47:44] INFO root fetch - processPackages [power-grid-model-io]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 11:47:44] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cg]: New version: [33.1.6] Old Version: [33.1.5]
+[2023-06-02 11:47:44] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/75/93/f65c7904259bb802d871a5b420354d308ded0696be001368e76fdec8efe6/easylsb-1.0.2.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/79/7e/72b3064c0239dd8965aa1105a87ee110d9d8d84a94216ee40edb1e7cbfdf/cmsis_stream-1.2.3-py3-none-any.whl
+[2023-06-02 11:47:44] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/ce/bd/f747184d0f1655a73fa681ae6798322f18a1b2f5df007a7833604295833c/kalm-0.6.0.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a1/370deea013d9bb1e28ba5c2b2c41908149ea22e1f10eddb2ba50c5f5bec7/agixt-1.1.77b0.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.2.2-py3-none-any.whl.zip tmp/cmsis_stream-1.2.3-py3-none-any.whl.zip --markdown 20230602/c/cmsis-stream/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/bb/22/66a1a4f655a3abdc8744c53333bd7b0afe15a5789297ca5e12d3de13629b/easylsb-1.0.3.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/70/06/df9351d1f2b12472e69e00431873f60be4f03dd425415f54624f857fd539/cg-33.1.6.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [power-grid-model-io]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [power-grid-model-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip --markdown 20230602/p/power-grid-model-io/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20230602/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/de/30/6231a62fd3d5b4df0bf6cb096a0142f0b1af9f99cf6709f481bd918a8ee4/kalm-0.6.1.tar.gz
+[2023-06-02 11:47:44] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.76b0.tar.gz tmp/agixt-1.1.77b0.tar.gz --markdown 20230602/a/agixt/1.1.76b0-1.1.77b0/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.1.5.tar.gz tmp/cg-33.1.6.tar.gz --markdown 20230602/c/cg/33.1.5-33.1.6/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.0.tar.gz tmp/kalm-0.6.1.tar.gz --markdown 20230602/k/kalm/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-02 11:47:44] INFO root fetch - processPackages [easylsb]: executing diffoscope
+[2023-06-02 11:47:44] INFO root fetch - processPackages [easylsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylsb-1.0.2.tar.gz tmp/easylsb-1.0.3.tar.gz --markdown 20230602/e/easylsb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 11:47:45] INFO root fetch - main [MainThread]: End processing [easylsb]: success
+[2023-06-02 11:47:46] INFO root fetch - main [MainThread]: End processing [power-grid-model-io]: success
+[2023-06-02 11:47:46] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-02 11:47:46] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-06-02 11:47:46] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-02 11:47:47] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2023-06-02 11:47:55] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-02 11:47:55] INFO root fetch - main [MainThread]: Store serial: [18347082]
