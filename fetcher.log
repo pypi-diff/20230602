@@ -11717,3 +11717,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:06:10] INFO root fetch - main [MainThread]: End processing [textgen]: success
 [2023-06-02 12:06:27] INFO root fetch - main [MainThread]: End processing [plone.formwidget.geolocation]: success
 [2023-06-02 12:06:27] INFO root fetch - main [MainThread]: Store serial: [18347251]
+[2023-06-02 12:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347251]
+[2023-06-02 12:11:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: confme
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: v-quantum-annealing
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyoxynet
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plons
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configilm
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphio
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windmill-api
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill
+[2023-06-02 12:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill-pg
+[2023-06-02 12:11:37] INFO root fetch - processPackages [plons]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [graphio]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [confme]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [configilm]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-02 12:11:37] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-02 12:11:38] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230602/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [plons]: Downloading https://files.pythonhosted.org/packages/30/18/9fa4facd77cd285da76c59161da4c09de645c67ef0b39ee43f39c72830b3/plons-0.0.7.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [graphio]: Downloading https://files.pythonhosted.org/packages/75/f8/b4e85b497284fd0a2ef864d17a604b6aa0b3e3b9ceb4d274207ef258d278/graphio-0.9.1.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/37/0a/f799f51206bb280d09c34de7ff7888be634798fb9319b2dd6af5ba7408ce/confme-1.3.1.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [configilm]: Downloading https://files.pythonhosted.org/packages/38/40/b2bf38c8b7540c08fb97e4e97013cd74ee80e768ade88663ff59d70db552/configilm-0.3.0.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/7c/fb/059a48dd0ca5d46419fa9be87ed8ad954dfc20390ad90a88b3d35eafe05a/v_quantum_annealing-0.0.5.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230602/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.3.tar.gz tmp/v_quantum_annealing-0.0.5.tar.gz --markdown 20230602/v/v-quantum-annealing/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230602/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230602/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [graphio]: Downloading https://files.pythonhosted.org/packages/45/b5/4f77614231c154a3ee9b6881bd2f56cb4b81bea9bcd03a116d63c7d415a0/graphio-0.9.2.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/88/bf/886be310ef7b3c438f9bddd1cbb14f0f4bf78092579fa85a0035d6de58a3/confme-1.3.3.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [graphio]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [graphio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphio-0.9.1.tar.gz tmp/graphio-0.9.2.tar.gz --markdown 20230602/g/graphio/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [confme]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [confme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confme-1.3.1.tar.gz tmp/confme-1.3.3.tar.gz --markdown 20230602/c/confme/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] INFO root fetch - processPackages [plons]: Downloading https://files.pythonhosted.org/packages/5e/ff/706a3bb177727926a19cd56a488bb4da7a58ab3ec59dafa484c70d33462c/plons-0.0.9.tar.gz
+[2023-06-02 12:11:38] INFO root fetch - processPackages [plons]: executing diffoscope
+[2023-06-02 12:11:38] INFO root fetch - processPackages [plons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plons-0.0.7.tar.gz tmp/plons-0.0.9.tar.gz --markdown 20230602/p/plons/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 12:11:38] WARNING root fetch - processPackages [configilm]: Skipping package: exceeds size limit 44800735>=10485760
+[2023-06-02 12:11:38] INFO root fetch - processPackages [configilm]: Start processing: daffi-terminals
+[2023-06-02 12:11:38] INFO root fetch - main [MainThread]: End processing [configilm] error
+[2023-06-02 12:11:38] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-02 12:11:38] INFO root fetch - processPackages [daffi-terminals]: Start processing: eleme.openapi.python.sdk
+[2023-06-02 12:11:38] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 12:11:38] INFO root fetch - processPackages [eleme.openapi.python.sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-02 12:11:39] INFO root fetch - processPackages [eleme.openapi.python.sdk]: Downloading https://files.pythonhosted.org/packages/d1/df/d5046485eb16ddcebce8ea879f0e8cd63c597c10c6d13889e3eedbb4f9e7/eleme.openapi.python.sdk-1.8.0-py2-none-any.whl
+[2023-06-02 12:11:39] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-06-02 12:11:39] INFO root fetch - processPackages [eleme.openapi.python.sdk]: Downloading https://files.pythonhosted.org/packages/d8/39/a0a3b0bcff8a4c1eaf0361ebee54adcd7cb8b56111c17b967f0479249bd9/eleme.openapi.python.sdk-1.9.0.tar.gz
+[2023-06-02 12:11:39] INFO root fetch - processPackages [eleme.openapi.python.sdk]: executing diffoscope
+[2023-06-02 12:11:39] INFO root fetch - processPackages [eleme.openapi.python.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eleme.openapi.python.sdk-1.8.0-py2-none-any.whl.zip tmp/eleme.openapi.python.sdk-1.9.0.tar.gz --markdown 20230602/e/eleme.openapi.python.sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 12:11:39] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: mediacatch-s2t
+[2023-06-02 12:11:39] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-02 12:11:39] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-02 12:11:39] INFO root fetch - processPackages [wmill]: Start processing: pyhyypapihawkmod
+[2023-06-02 12:11:39] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-02 12:11:39] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.0.2] Old Version: [1.0.1.dev1]
+[2023-06-02 12:11:39] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-06-02 12:11:39] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230602/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-06-02 12:11:39] INFO root fetch - processPackages [wmill-pg]: Start processing: myPackageLicensePrototype
+[2023-06-02 12:11:39] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-02 12:11:39] INFO root fetch - processPackages [myPackageLicensePrototype]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 12:11:39] INFO root fetch - processPackages [graphio]: Start processing: MazgaDB
+[2023-06-02 12:11:39] INFO root fetch - main [MainThread]: End processing [graphio]: success
+[2023-06-02 12:11:39] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/ae/07/2a16f0e1c116f1a37511d32e5bd65bce88e3f67f7623c0f1c949da2f1c82/mediacatch-s2t-0.1.6.tar.gz
+[2023-06-02 12:11:39] INFO root fetch - processPackages [myPackageLicensePrototype]: executing diffoscope
+[2023-06-02 12:11:39] INFO root fetch - processPackages [myPackageLicensePrototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myPackageLicensePrototype-1.0.2.tar.gz tmp/myPackageLicensePrototype-1.0.3.tar.gz --markdown 20230602/m/myPackageLicensePrototype/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 12:11:39] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-06-02 12:11:39] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.1.4.tar.gz tmp/mediacatch-s2t-0.1.6.tar.gz --markdown 20230602/m/mediacatch-s2t/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 12:11:40] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/ca/8c/95773fbbd9e3f698b1dd77e0ff32e885114e69eb196ef731ce538a88e3b0/pyhyypapihawkmod-1.0.2.tar.gz
+[2023-06-02 12:11:40] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-02 12:11:40] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.0.1.dev1.tar.gz tmp/pyhyypapihawkmod-1.0.2.tar.gz --markdown 20230602/p/pyhyypapihawkmod/1.0.1.dev1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 12:11:40] INFO root fetch - processPackages [MazgaDB]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 12:11:40] INFO root fetch - processPackages [confme]: Start processing: dm-reverb-nightly
+[2023-06-02 12:11:40] INFO root fetch - main [MainThread]: End processing [confme]: success
+[2023-06-02 12:11:40] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/65/85/a357d13d5603997af6486e51d4b9599d3c3774792c72033b0134cab6fb51/MazgaDB-0.0.1-py3-none-any.whl
+[2023-06-02 12:11:40] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-02 12:11:40] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-02 12:11:40] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230602/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-02 12:11:40] INFO root fetch - processPackages [plons]: Start processing: speedtab
+[2023-06-02 12:11:40] INFO root fetch - main [MainThread]: End processing [plons]: success
+[2023-06-02 12:11:40] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/4f/31/d76964d5e626e680987bfde1fe1ef5482e0939e384b5632ee3f6e2656808/MazgaDB-0.0.2.tar.gz
+[2023-06-02 12:11:40] INFO root fetch - processPackages [speedtab]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-06-02 12:11:40] INFO root fetch - processPackages [MazgaDB]: executing diffoscope
+[2023-06-02 12:11:40] INFO root fetch - processPackages [MazgaDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MazgaDB-0.0.1-py3-none-any.whl.zip tmp/MazgaDB-0.0.2.tar.gz --markdown 20230602/M/MazgaDB/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 12:11:40] INFO root fetch - main [MainThread]: End processing [eleme.openapi.python.sdk]: success
+[2023-06-02 12:11:41] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/3c/82/c16bf5b94e8d391d9c4afec7b47600cfaa0b66e67e5e2d3beaf9256bb9a4/speedtab-0.1.4.1.tar.gz
+[2023-06-02 12:11:41] INFO root fetch - main [MainThread]: End processing [myPackageLicensePrototype]: success
+[2023-06-02 12:11:41] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-06-02 12:11:41] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.4.tar.gz tmp/speedtab-0.1.4.1.tar.gz --markdown 20230602/s/speedtab/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-06-02 12:11:41] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-02 12:11:41] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-06-02 12:11:41] INFO root fetch - main [MainThread]: End processing [MazgaDB]: success
+[2023-06-02 12:11:42] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-06-02 12:11:43] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-02 12:11:57] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-02 12:12:25] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-06-02 12:12:37] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-02 12:12:37] INFO root fetch - main [MainThread]: Store serial: [18347310]
