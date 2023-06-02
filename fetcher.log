@@ -9237,3 +9237,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [xoa-core]: success
 [2023-06-02 09:28:16] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
 [2023-06-02 09:28:16] INFO root fetch - main [MainThread]: Store serial: [18345781]
+[2023-06-02 09:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345781]
+[2023-06-02 09:33:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Finance-Jindowin
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intel-extension-for-transformers
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-models-logging
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudservices-rach
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc-faas-sen2like
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docstring-generator-ext
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aspectify
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jax-tools
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HyFetch
+[2023-06-02 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colablib
+[2023-06-02 09:33:25] WARNING root fetch - processPackages [cloudservices-rach]: Skipping, unable to determine old version
+[2023-06-02 09:33:25] INFO root fetch - processPackages [cloudservices-rach]: Start processing: tidevice
+[2023-06-02 09:33:25] INFO root fetch - main [MainThread]: End processing [cloudservices-rach] error
+[2023-06-02 09:33:25] INFO root fetch - processPackages [colablib]: New version: [0.1.6] Old Version: [0.1.5.dev6]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [aspectify]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [Finance-Jindowin]: New version: [1.2.6] Old Version: [1.2.5.1]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.29]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc4] Old Version: [2023.5.0rc3]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [django-models-logging]: New version: [2.3.1] Old Version: [2.3]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [docstring-generator-ext]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [intel-extension-for-transformers]: New version: [1.0b0] Old Version: [1.0a0]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [HyFetch]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [tidevice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-02 09:33:25] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/ac/e8/1f38335be17df9add6ec8dfea673191f97563b9f8631616966499f289e6a/jax-tools-1.0.29.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/e3/b5/0cb71fa64e64ca514d43735e24013904a0c8ee9d7b509f73a0db185524d4/Finance-Jindowin-1.2.5.1.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [django-models-logging]: Downloading https://files.pythonhosted.org/packages/ba/09/b01d9c36766a18427c461ff1b263d0bfa42ea6564c16484b2e2dd3fcf50d/django-models-logging-2.3.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [colablib]: Downloading https://files.pythonhosted.org/packages/77/b7/baaa2396a1f3599f8e303b46c40542499deeadaae41f584efe84d0e95756/colablib-0.1.6.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [docstring-generator-ext]: Downloading https://files.pythonhosted.org/packages/de/31/7c16cbd873951870fba610a56520c939ed75b33f9fb70fe19541e94727c7/docstring_generator_ext-0.0.26.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/94/7a/d2e4fa72babbddea3d7683871fb0e0243ae539d74bbfcac462e25338a7f0/aspectify-0.0.3.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [HyFetch]: Downloading https://files.pythonhosted.org/packages/56/1a/cc33543869861208e797d8b6056a6661eda3a3ea151fa3082bc83f17464a/HyFetch-1.4.8.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/18/18/c97a0f30815d98da2b414df7b835904310ff18a81c25485e409a134cb2a3/eodc_faas_sen2like-2023.5.0rc4.tar.gz
+[2023-06-02 09:33:25] INFO root fetch - processPackages [intel-extension-for-transformers]: Downloading https://files.pythonhosted.org/packages/c1/cc/4f7d1fe237f2fc0f67719e627a6a13805d17f7a74bb6b1b573dcd96fa422/intel_extension_for_transformers-1.0a0.tar.gz
+[2023-06-02 09:33:26] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.29.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230602/j/jax-tools/1.0.29-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [colablib]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [colablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colablib-0.1.5.dev6.tar.gz tmp/colablib-0.1.6.tar.gz --markdown 20230602/c/colablib/0.1.5.dev6-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/ec/5f/8c75995b87388b709566e2613ac056838e300a87eab15bfcae26bad8361b/Finance-Jindowin-1.2.6.tar.gz
+[2023-06-02 09:33:26] INFO root fetch - processPackages [aspectify]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [aspectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspectify-0.0.2.tar.gz tmp/aspectify-0.0.3.tar.gz --markdown 20230602/a/aspectify/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc3.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc4.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc3-2023.5.0rc4/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [django-models-logging]: Downloading https://files.pythonhosted.org/packages/79/8f/655de2b146740695ef34d4ecb352af83fe059508cc8f0cb64a90750bcaae/django-models-logging-2.3.1.tar.gz
+[2023-06-02 09:33:26] INFO root fetch - processPackages [tidevice]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [tidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice-0.9.8.tar.gz tmp/tidevice-0.9.9.tar.gz --markdown 20230602/t/tidevice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [HyFetch]: Downloading https://files.pythonhosted.org/packages/3a/62/c6b2f5ada2c57995dcede94c9edca5b862689c273adc9b4e229b61069634/HyFetch-1.4.9.tar.gz
+[2023-06-02 09:33:26] INFO root fetch - processPackages [Finance-Jindowin]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [Finance-Jindowin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Jindowin-1.2.5.1.tar.gz tmp/Finance-Jindowin-1.2.6.tar.gz --markdown 20230602/F/Finance-Jindowin/1.2.5.1-1.2.6/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [docstring-generator-ext]: Downloading https://files.pythonhosted.org/packages/8d/e4/39bc7d0e18261821b79ccac020083659b626a8667ab6e6142aca90b3941b/docstring_generator_ext-0.0.27.tar.gz
+[2023-06-02 09:33:26] INFO root fetch - processPackages [django-models-logging]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [django-models-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-models-logging-2.3.tar.gz tmp/django-models-logging-2.3.1.tar.gz --markdown 20230602/d/django-models-logging/2.3-2.3.1/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [HyFetch]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [HyFetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HyFetch-1.4.8.tar.gz tmp/HyFetch-1.4.9.tar.gz --markdown 20230602/H/HyFetch/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [docstring-generator-ext]: executing diffoscope
+[2023-06-02 09:33:26] INFO root fetch - processPackages [docstring-generator-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_generator_ext-0.0.26.tar.gz tmp/docstring_generator_ext-0.0.27.tar.gz --markdown 20230602/d/docstring-generator-ext/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-02 09:33:26] INFO root fetch - processPackages [intel-extension-for-transformers]: Downloading https://files.pythonhosted.org/packages/fa/8d/019475c55d457e305ccbdb608d4af00f08bac60120fe6dfc53bac19f9e47/intel_extension_for_transformers-1.0b0.tar.gz
+[2023-06-02 09:33:27] INFO root fetch - processPackages [intel-extension-for-transformers]: executing diffoscope
+[2023-06-02 09:33:27] INFO root fetch - processPackages [intel-extension-for-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_extension_for_transformers-1.0a0.tar.gz tmp/intel_extension_for_transformers-1.0b0.tar.gz --markdown 20230602/i/intel-extension-for-transformers/1.0a0-1.0b0/diff.md --exclude *.pyd
+[2023-06-02 09:33:27] INFO root fetch - processPackages [colablib]: Start processing: nwebclient
+[2023-06-02 09:33:27] INFO root fetch - main [MainThread]: End processing [colablib]: success
+[2023-06-02 09:33:27] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 09:33:27] INFO root fetch - processPackages [jax-tools]: Start processing: bohrium-sdk
+[2023-06-02 09:33:27] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-02 09:33:27] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 09:33:27] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 09:33:27] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 09:33:27] INFO root fetch - processPackages [aspectify]: Start processing: jax-tools
+[2023-06-02 09:33:27] INFO root fetch - main [MainThread]: End processing [aspectify]: success
+[2023-06-02 09:33:27] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.30]
+[2023-06-02 09:33:27] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 09:33:27] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/18/7e/43e9ab7020349fc71931ac98b6cecce1f56f7412a849dd8ef12f42f90000/jax-tools-1.0.30.tar.gz
+[2023-06-02 09:33:27] INFO root fetch - main [MainThread]: End processing [django-models-logging]: success
+[2023-06-02 09:33:28] INFO root fetch - main [MainThread]: End processing [tidevice]: success
+[2023-06-02 09:33:28] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/31/b4/74ebdf8762f79f9062d4772b51c756aeb48da3afc13a09fef470b3b3b1e9/bohrium-sdk-0.1.5.tar.gz
+[2023-06-02 09:33:28] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-02 09:33:28] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.1.4.tar.gz tmp/bohrium-sdk-0.1.5.tar.gz --markdown 20230602/b/bohrium-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 09:33:28] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-02 09:33:28] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.30.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230602/j/jax-tools/1.0.30-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:33:28] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 09:33:29] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-02 09:33:29] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-02 09:33:29] INFO root fetch - main [MainThread]: End processing [docstring-generator-ext]: success
+[2023-06-02 09:33:30] INFO root fetch - main [MainThread]: End processing [Finance-Jindowin]: success
+[2023-06-02 09:33:30] INFO root fetch - main [MainThread]: End processing [HyFetch]: success
+[2023-06-02 09:33:32] INFO root fetch - main [MainThread]: End processing [intel-extension-for-transformers]: success
+[2023-06-02 09:33:32] INFO root fetch - main [MainThread]: Store serial: [18345834]
