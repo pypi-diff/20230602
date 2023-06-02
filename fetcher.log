@@ -12897,3 +12897,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 13:14:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-02 13:14:40] INFO root fetch - main [MainThread]: End processing [midgard]: success
 [2023-06-02 13:14:40] INFO root fetch - main [MainThread]: Store serial: [18347896]
+[2023-06-02 13:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347896]
+[2023-06-02 13:19:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streq
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-sdk
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GISPython
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: routeros-check
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mafic
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drakaina
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: InfooImputer
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eepackages
+[2023-06-02 13:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-06-02 13:19:57] INFO root fetch - processPackages [streq]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [GISPython]: New version: [59.2] Old Version: [59.1]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [routeros-check]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [drakaina]: New version: [0.7.0b6] Old Version: [0.7.0b4]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [mafic]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [eepackages]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-02 13:19:57] ERROR root fetch - processPackages [InfooImputer]: Unable to get metadata: No such project 'InfooImputer'
+[2023-06-02 13:19:57] INFO root fetch - processPackages [InfooImputer]: Start processing: roxbot
+[2023-06-02 13:19:57] INFO root fetch - main [MainThread]: End processing [InfooImputer] error
+[2023-06-02 13:19:57] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/51/0b/d95ac12cd26477ad74ebb5dd34cec0ccdcc799261f7a9b820a01a8a57d18/routeros-check-0.8.1.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [GISPython]: Downloading https://files.pythonhosted.org/packages/61/49/f0ac990ee8762d7f9cecb465fe4eaeae42bbc17c8531a69f9e37794bb6a0/GISPython-59.1.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [streq]: Downloading https://files.pythonhosted.org/packages/d6/b2/142d208e9bf9d2519799fdd4a7a3f19138a6c59f31cc95fce61c00247ec6/streq-0.0.1.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [roxbot]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-02 13:19:57] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230602/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [mafic]: Downloading https://files.pythonhosted.org/packages/8b/b5/72ea7b59a367f507716b52574862a5bf8be268189fee44c51b8810edb306/mafic-2.7.0.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [mafic]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [mafic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafic-2.6.0.tar.gz tmp/mafic-2.7.0.tar.gz --markdown 20230602/m/mafic/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/4b/bf/187b589b70db5765ecc74ebe3d591fe84995349da97b0841cac1af3b4a67/drakaina-0.7.0b6.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [eepackages]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [eepackages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eepackages-0.8.0.tar.gz tmp/eepackages-0.9.0.tar.gz --markdown 20230602/e/eepackages/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/eb/f3/f9d0712fe5bcf10fae45e5f19e5bcfc67bf9b30fb610c17edcd71d298328/routeros-check-0.9.0.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [GISPython]: Downloading https://files.pythonhosted.org/packages/76/ff/b534093da973fc7aa952090642eba825f6b9c361be89a4170a8ad9fe4c66/GISPython-59.2.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230602/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.0b4.tar.gz tmp/drakaina-0.7.0b6.tar.gz --markdown 20230602/d/drakaina/0.7.0b4-0.7.0b6/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [streq]: Downloading https://files.pythonhosted.org/packages/5b/1c/029c36d432f7cba09ef72d29ab039092579fb9c179a936a80bb2228dc6d6/streq-0.0.2.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [GISPython]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [GISPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GISPython-59.1.tar.gz tmp/GISPython-59.2.tar.gz --markdown 20230602/G/GISPython/59.1-59.2/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [routeros-check]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [routeros-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeros-check-0.8.1.tar.gz tmp/routeros-check-0.9.0.tar.gz --markdown 20230602/r/routeros-check/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/c6/73/1d1ada4cc04411dd7fd72517a3f30cb4c2c17043808b6d4e2616c2385585/roxbot-0.2.0.tar.gz
+[2023-06-02 13:19:57] INFO root fetch - processPackages [streq]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [streq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streq-0.0.1.tar.gz tmp/streq-0.0.2.tar.gz --markdown 20230602/s/streq/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 13:19:57] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-06-02 13:19:57] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.1.1.tar.gz tmp/roxbot-0.2.0.tar.gz --markdown 20230602/r/roxbot/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 13:19:58] INFO root fetch - processPackages [eepackages]: Start processing: sentry-dynamic-sampling-lib
+[2023-06-02 13:19:58] INFO root fetch - main [MainThread]: End processing [eepackages]: success
+[2023-06-02 13:19:59] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: New version: [1.2.0a3] Old Version: [1.2.0a2]
+[2023-06-02 13:19:59] INFO root fetch - processPackages [GISPython]: Start processing: mangaplus
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [GISPython]: success
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-06-02 13:19:59] WARNING root fetch - processPackages [mangaplus]: Skipping, unable to determine old version
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [mangaplus] error
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [streq]: success
+[2023-06-02 13:19:59] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: Downloading https://files.pythonhosted.org/packages/2d/ca/6caaee70104e37e966ee33c7c401dcfdbf7248fece387bfddde4fe04fef0/sentry_dynamic_sampling_lib-1.2.0a3.tar.gz
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [mafic]: success
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-06-02 13:19:59] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: executing diffoscope
+[2023-06-02 13:19:59] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_dynamic_sampling_lib-1.2.0a2.tar.gz tmp/sentry_dynamic_sampling_lib-1.2.0a3.tar.gz --markdown 20230602/s/sentry-dynamic-sampling-lib/1.2.0a2-1.2.0a3/diff.md --exclude *.pyd
+[2023-06-02 13:19:59] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-06-02 13:20:00] INFO root fetch - main [MainThread]: End processing [sentry-dynamic-sampling-lib]: success
+[2023-06-02 13:20:00] INFO root fetch - main [MainThread]: End processing [routeros-check]: success
+[2023-06-02 13:20:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-02 13:20:04] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 13:20:04] INFO root fetch - main [MainThread]: Store serial: [18347941]
