@@ -10209,3 +10209,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:34:28] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2023-06-02 10:34:33] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-06-02 10:34:33] INFO root fetch - main [MainThread]: Store serial: [18346361]
+[2023-06-02 10:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346361]
+[2023-06-02 10:39:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paper-jsoneditor
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d-popcorn
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gameturtle
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samplics
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyclpu
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-reveal-slides
+[2023-06-02 10:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typegraph
+[2023-06-02 10:39:49] INFO root fetch - processPackages [paper-jsoneditor]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [gameturtle]: New version: [0.280] Old Version: [0.279]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [d-popcorn]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [streamlit-reveal-slides]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 10:39:49] WARNING root fetch - processPackages [pyclpu]: Skipping, unable to determine old version
+[2023-06-02 10:39:49] INFO root fetch - processPackages [pyclpu]: Start processing: python-benedict
+[2023-06-02 10:39:49] INFO root fetch - main [MainThread]: End processing [pyclpu] error
+[2023-06-02 10:39:49] INFO root fetch - processPackages [typegraph]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [samplics]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [python-benedict]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 10:39:49] INFO root fetch - processPackages [gameturtle]: Downloading https://files.pythonhosted.org/packages/7f/a8/856640def1a4761212ff3d8d919b352e89a3fca6f832a7d6fa97807e507e/gameturtle-0.279.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/b4/d0/e4e601c151d93a81ef9ef60710a86f1cd86e518f74c75388fceec91597b5/samplics-0.4.6.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [paper-jsoneditor]: Downloading https://files.pythonhosted.org/packages/f4/33/9849795922e4f9f6a7606a8caa183fdabb83156698ba2be153ab5da20151/paper-jsoneditor-0.4.0.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [d-popcorn]: Downloading https://files.pythonhosted.org/packages/25/cf/a3c2edafb2142d676ad2c6e83039d46cdbe63127de124d33a5dc066f87fa/d-popcorn-1.0.2.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [streamlit-reveal-slides]: Downloading https://files.pythonhosted.org/packages/e1/b9/dc89b6113275e628619c1d75d0d5225e2b93e667e25fc35abcdb5d2179f4/streamlit-reveal-slides-0.1.6.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/ca/01/a5df1dbaaea3f3dc79d59b241499f7b4cae5aa5e1eb3fcac8c3b71b9e4b4/python-benedict-0.8.0.tar.gz
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 10:39:49] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [typegraph]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [typegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph-0.1.8.tar.gz tmp/typegraph-0.1.9.tar.gz --markdown 20230602/t/typegraph/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [gameturtle]: Downloading https://files.pythonhosted.org/packages/56/14/42cd31e0cbc9bd3b3143c64e98f5e92fc227aaa6c08cb1a52f609f6bc29b/gameturtle-0.280.tar.gz
+[2023-06-02 10:39:50] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/a9/5b/7930d30fe95d1ea4baa4f3e464b0e1e892594e06952bb2e06402985fec2a/samplics-0.4.7.tar.gz
+[2023-06-02 10:39:50] INFO root fetch - processPackages [d-popcorn]: Downloading https://files.pythonhosted.org/packages/13/07/d8dfd499375cffa5a0ba2a8ea0056846a483b8b3c34d8f6f638aecffdae9/d-popcorn-1.1.0.tar.gz
+[2023-06-02 10:39:50] INFO root fetch - processPackages [paper-jsoneditor]: Downloading https://files.pythonhosted.org/packages/1a/a0/8f27e6f7f409fa3ff14394d83c19713b31c822fee791264b1fcd037f2db8/paper-jsoneditor-0.4.1.tar.gz
+[2023-06-02 10:39:50] INFO root fetch - processPackages [streamlit-reveal-slides]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [streamlit-reveal-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-reveal-slides-0.1.5.tar.gz tmp/streamlit-reveal-slides-0.1.6.tar.gz --markdown 20230602/s/streamlit-reveal-slides/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/c9/63/552d76504237f413c99d89933f68b6d940a6675fa6edb3c69e7ab5ab2ac8/python-benedict-0.9.0.tar.gz
+[2023-06-02 10:39:50] INFO root fetch - processPackages [gameturtle]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [gameturtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameturtle-0.279.tar.gz tmp/gameturtle-0.280.tar.gz --markdown 20230602/g/gameturtle/0.279-0.280/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [d-popcorn]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [d-popcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d-popcorn-1.0.2.tar.gz tmp/d-popcorn-1.1.0.tar.gz --markdown 20230602/d/d-popcorn/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [samplics]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [samplics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samplics-0.4.6.tar.gz tmp/samplics-0.4.7.tar.gz --markdown 20230602/s/samplics/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [paper-jsoneditor]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [paper-jsoneditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-jsoneditor-0.4.0.tar.gz tmp/paper-jsoneditor-0.4.1.tar.gz --markdown 20230602/p/paper-jsoneditor/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-02 10:39:50] INFO root fetch - processPackages [python-benedict]: executing diffoscope
+[2023-06-02 10:39:50] INFO root fetch - processPackages [python-benedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-benedict-0.8.0.tar.gz tmp/python-benedict-0.9.0.tar.gz --markdown 20230602/p/python-benedict/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 10:39:51] INFO root fetch - processPackages [gameturtle]: Start processing: suanpan-sprt
+[2023-06-02 10:39:51] INFO root fetch - main [MainThread]: End processing [gameturtle]: success
+[2023-06-02 10:39:51] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-02 10:39:51] INFO root fetch - processPackages [d-popcorn]: Start processing: savant-rs
+[2023-06-02 10:39:51] INFO root fetch - main [MainThread]: End processing [d-popcorn]: success
+[2023-06-02 10:39:51] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-02 10:39:51] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-02 10:39:51] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230602/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 10:39:52] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/92/04/ad531bbabe71ca56ee8be165340d18812c581beacfd71c0b3f9ada573605/suanpan-sprt-0.5.2.tar.gz
+[2023-06-02 10:39:52] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-02 10:39:52] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.1.tar.gz tmp/suanpan-sprt-0.5.2.tar.gz --markdown 20230602/s/suanpan-sprt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-02 10:39:52] INFO root fetch - main [MainThread]: End processing [python-benedict]: success
+[2023-06-02 10:39:52] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
+[2023-06-02 10:39:52] INFO root fetch - main [MainThread]: End processing [typegraph]: success
+[2023-06-02 10:39:53] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-02 10:39:53] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-02 10:39:54] INFO root fetch - main [MainThread]: End processing [samplics]: success
+[2023-06-02 10:39:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 10:39:59] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 10:39:59] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 10:40:24] INFO root fetch - main [MainThread]: End processing [paper-jsoneditor]: success
+[2023-06-02 10:40:24] INFO root fetch - main [MainThread]: Store serial: [18346415]
