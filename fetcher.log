@@ -8464,3 +8464,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:25:15] ERROR root fetch - processPackages [mayan-edms]: Timeout during execution of pkgdiff
 [2023-06-02 08:25:15] INFO root fetch - main [MainThread]: End processing [mayan-edms] error
 [2023-06-02 08:25:15] INFO root fetch - main [MainThread]: Store serial: [18345306]
+[2023-06-02 08:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345306]
+[2023-06-02 08:30:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfmodule-sg
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfmodule-jh
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpyutils
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-modeltranslation
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytokr
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roboduck
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow-lite
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bamboo-engine
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-modeltranslation
+[2023-06-02 08:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: traversaal
+[2023-06-02 08:30:23] INFO root fetch - processPackages [dfmodule-jh]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [dfmodule-sg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [gpyutils]: New version: [0.9] Old Version: [0.8.4]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [roboduck]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [pytokr]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-02 08:30:23] WARNING root fetch - processPackages [secretflow-lite]: Skipping, unable to determine old version
+[2023-06-02 08:30:23] INFO root fetch - processPackages [secretflow-lite]: Start processing: dq-module
+[2023-06-02 08:30:23] INFO root fetch - main [MainThread]: End processing [secretflow-lite] error
+[2023-06-02 08:30:23] INFO root fetch - processPackages [django-modeltranslation]: New version: [0.9.1] Old Version: [0.9]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [django-modeltranslation]: New version: [0.9.1] Old Version: [0.9]
+[2023-06-02 08:30:23] INFO root fetch - processPackages [bamboo-engine]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-06-02 08:30:24] INFO root fetch - processPackages [traversaal]: New version: [0.6982] Old Version: [0.6973]
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dq-module]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-02 08:30:24] INFO root fetch - processPackages [gpyutils]: Downloading https://files.pythonhosted.org/packages/3e/e9/a075913a51e4470565d2683186c415f02598e9cb32ad13ea810c0ebc1a4c/gpyutils-0.8.4.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-jh]: Downloading https://files.pythonhosted.org/packages/0b/e2/9318bb216f720b3dc8e16d169bd92c11f882ef1f605b4e16351820c136d1/dfmodule_jh-0.0.1.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [bamboo-engine]: Downloading https://files.pythonhosted.org/packages/8b/91/2d09509d96f723d7b66a87ef3bfe5784e239f0a928783ed8c0ef5daec2a6/bamboo-engine-2.7.1.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-sg]: Downloading https://files.pythonhosted.org/packages/26/ac/990439e7b3b26beb6d9496121603df474dcb2da1f417f0bce83b47a828cf/dfmodule_sg-0.0.1.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [pytokr]: Downloading https://files.pythonhosted.org/packages/1b/58/f3d39c2848f7dbf3d967103d8d53fa6425baec48e6e3c787b0b7239e9d0a/pytokr-0.0.2.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [traversaal]: Downloading https://files.pythonhosted.org/packages/e2/81/35d451ac0cd0bd27d1ade8439b3b707edb12a71c6dee0da47e23c121858b/traversaal-0.6973-py3-none-any.whl
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dq-module]: Downloading https://files.pythonhosted.org/packages/84/52/3b80f1bb2e6d0ea556c6c7b018473e0f40502d02aa8727225bee52be9618/dq_module-1.1.1.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [roboduck]: Downloading https://files.pythonhosted.org/packages/b3/4f/560f378a461cd8f93100d751bdc7da34563c730fa5140700b8b6d4856c25/roboduck-0.4.0.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [django-modeltranslation]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [django-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltranslation-0.9.tar.gz tmp/django-modeltranslation-0.9.1.tar.gz --markdown 20230602/d/django-modeltranslation/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-jh]: Downloading https://files.pythonhosted.org/packages/1a/31/b18f454f50c00754f495e20532b24b7aaea0b1b74200e37a6eb69608481b/dfmodule_jh-0.0.2.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-sg]: Downloading https://files.pythonhosted.org/packages/fe/a0/8cf0db30fb0aac666836cf95b1c1f186b25bd40d2454a938f13b41c44b5f/dfmodule_sg-0.0.2.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [bamboo-engine]: Downloading https://files.pythonhosted.org/packages/ec/09/c1c324d4f12309e90449a504d4e24d7d33c3dc23fdf57db61f327fa6cf56/bamboo-engine-2.7.2.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [django-modeltranslation]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [pytokr]: Downloading https://files.pythonhosted.org/packages/23/a0/bdfbe2515b4b99e11954329f6b4705571c11149073878fd3b1484c88df99/pytokr-0.1.0.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [django-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltranslation-0.9.tar.gz tmp/django-modeltranslation-0.9.1.tar.gz --markdown 20230602/d/django-modeltranslation/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-jh]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-sg]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-jh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule_jh-0.0.1.tar.gz tmp/dfmodule_jh-0.0.2.tar.gz --markdown 20230602/d/dfmodule-jh/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dfmodule-sg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule_sg-0.0.1.tar.gz tmp/dfmodule_sg-0.0.2.tar.gz --markdown 20230602/d/dfmodule-sg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [bamboo-engine]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [bamboo-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-engine-2.7.1.tar.gz tmp/bamboo-engine-2.7.2.tar.gz --markdown 20230602/b/bamboo-engine/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [roboduck]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [roboduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboduck-0.3.5.tar.gz tmp/roboduck-0.4.0.tar.gz --markdown 20230602/r/roboduck/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [gpyutils]: Downloading https://files.pythonhosted.org/packages/9e/3e/c0b74bf3272522204dbf5def0b9cd1be8775de0b36e46403893a22d96312/gpyutils-0.9.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dq-module]: Downloading https://files.pythonhosted.org/packages/f2/64/86ae77ece76786a9b3df0d45286fbb1b2f8b7377a7960d1b26214c7866b8/dq_module-1.1.2.tar.gz
+[2023-06-02 08:30:24] INFO root fetch - processPackages [pytokr]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [pytokr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytokr-0.0.2.tar.gz tmp/pytokr-0.1.0.tar.gz --markdown 20230602/p/pytokr/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [traversaal]: Downloading https://files.pythonhosted.org/packages/58/6b/0de3c2aee992a396f70953da7159bf2ba726eb61e4ca9b89a2d85169d737/traversaal-0.6982-py3-none-any.whl
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dq-module]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [gpyutils]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [dq-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq_module-1.1.1.tar.gz tmp/dq_module-1.1.2.tar.gz --markdown 20230602/d/dq-module/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [gpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyutils-0.8.4.tar.gz tmp/gpyutils-0.9.tar.gz --markdown 20230602/g/gpyutils/0.8.4-0.9/diff.md --exclude *.pyd
+[2023-06-02 08:30:24] INFO root fetch - processPackages [traversaal]: executing diffoscope
+[2023-06-02 08:30:24] INFO root fetch - processPackages [traversaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traversaal-0.6973-py3-none-any.whl.zip tmp/traversaal-0.6982-py3-none-any.whl.zip --markdown 20230602/t/traversaal/0.6973-0.6982/diff.md --exclude *.pyd
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [dfmodule-jh]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [dfmodule-sg]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [traversaal]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [dq-module]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [pytokr]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [gpyutils]: success
+[2023-06-02 08:30:26] INFO root fetch - main [MainThread]: End processing [roboduck]: success
+[2023-06-02 08:30:27] INFO root fetch - main [MainThread]: End processing [bamboo-engine]: success
+[2023-06-02 08:30:27] INFO root fetch - main [MainThread]: Store serial: [18345339]
