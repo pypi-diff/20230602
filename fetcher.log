@@ -6917,3 +6917,25 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 05:48:25] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
 [2023-06-02 05:48:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-06-02 05:48:46] INFO root fetch - main [MainThread]: Store serial: [18344283]
+[2023-06-02 05:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344283]
+[2023-06-02 05:53:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-02 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: start-ocr
+[2023-06-02 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instructprompt
+[2023-06-02 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelz-llm
+[2023-06-02 05:53:55] INFO root fetch - processPackages [start-ocr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 05:53:55] INFO root fetch - processPackages [instructprompt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 05:53:55] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.19] Old Version: [23.5.18]
+[2023-06-02 05:53:55] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/10/92/9e3da1772a3e649601c4a6deb58b44d4f0caf7f46dc2e9aabcb0f5ac44d9/instructprompt-0.1.5.tar.gz
+[2023-06-02 05:53:55] INFO root fetch - processPackages [start-ocr]: Downloading https://files.pythonhosted.org/packages/59/fd/107b05b68c4f2022b2cebda1d1481f8551d09d4c937d296a5ae7fcb9c65f/start_ocr-0.0.1.tar.gz
+[2023-06-02 05:53:56] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/c6/74/e1d5b9c8c838d9f64fb8354f1c74f1a062b365e4994fdbf6c8be4fbce356/modelz-llm-23.5.19.tar.gz
+[2023-06-02 05:53:56] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 05:53:56] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.4.tar.gz tmp/instructprompt-0.1.5.tar.gz --markdown 20230602/i/instructprompt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 05:53:56] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 05:53:56] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.18.tar.gz tmp/modelz-llm-23.5.19.tar.gz --markdown 20230602/m/modelz-llm/23.5.18-23.5.19/diff.md --exclude *.pyd
+[2023-06-02 05:53:56] INFO root fetch - processPackages [start-ocr]: Downloading https://files.pythonhosted.org/packages/b5/89/f3575ef6c2288cfaefd9d609063aa2751d4e1fecc320b83cb594bad8009a/start_ocr-0.0.2.tar.gz
+[2023-06-02 05:53:56] INFO root fetch - processPackages [start-ocr]: executing diffoscope
+[2023-06-02 05:53:56] INFO root fetch - processPackages [start-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_ocr-0.0.1.tar.gz tmp/start_ocr-0.0.2.tar.gz --markdown 20230602/s/start-ocr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 05:53:57] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 05:53:57] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 05:53:57] INFO root fetch - main [MainThread]: End processing [start-ocr]: success
+[2023-06-02 05:53:57] INFO root fetch - main [MainThread]: Store serial: [18344293]
