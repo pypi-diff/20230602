@@ -13630,3 +13630,160 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 14:18:12] INFO root fetch - main [MainThread]: End processing [all-fives-domino]: success
 [2023-06-02 14:18:12] INFO root fetch - main [MainThread]: End processing [chompjs]: success
 [2023-06-02 14:18:12] INFO root fetch - main [MainThread]: Store serial: [18348390]
+[2023-06-02 14:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348390]
+[2023-06-02 14:23:21] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-code-blog
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easycheck
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: squander
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multipie
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PowDeRUL
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daffi-terminals
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erlenberg-ext
+[2023-06-02 14:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: erlenberg-ext
+[2023-06-02 14:23:21] INFO root fetch - processPackages [chatllm]: New version: [2023.6.2.9.16.47] Old Version: [2023.6.2.9.16.4]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [easycheck]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: New version: [2.0] Old Version: [1.0]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [multipie]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: New version: [2.0] Old Version: [1.0]
+[2023-06-02 14:23:21] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-02 14:23:21] INFO root fetch - processPackages [daffi-terminals]: Start processing: erlenberg-ext
+[2023-06-02 14:23:21] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 14:23:21] INFO root fetch - processPackages [wagtail-code-blog]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [squander]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: New version: [2.0] Old Version: [1.0]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/b2/25/71809cfb6fe4eac92d8530e3b3df2843f7f86ff6d955563320e9738747a4/erlenberg_ext-1.0.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/b2/25/71809cfb6fe4eac92d8530e3b3df2843f7f86ff6d955563320e9738747a4/erlenberg_ext-1.0.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/b2/25/71809cfb6fe4eac92d8530e3b3df2843f7f86ff6d955563320e9738747a4/erlenberg_ext-1.0.tar.gz
+[2023-06-02 14:23:21] ERROR root fetch - processPackages [multipie]: Unable to fetch info: No such project/version 'multipie' 1.1.1
+[2023-06-02 14:23:21] INFO root fetch - processPackages [multipie]: Start processing: sparsezoo
+[2023-06-02 14:23:21] INFO root fetch - main [MainThread]: End processing [multipie] error
+[2023-06-02 14:23:21] INFO root fetch - processPackages [wagtail-code-blog]: Downloading https://files.pythonhosted.org/packages/4c/eb/3e9ab202da5b543abce97984a4b90c63d70b0cd7577f10dbed049f956386/wagtail_code_blog-0.4.1.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [sparsezoo]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-02 14:23:21] INFO root fetch - processPackages [easycheck]: Downloading https://files.pythonhosted.org/packages/59/45/4040e18a9b7bb100dbc849d28ecdcdd71ca0956a07d554fb00b3e825bba3/easycheck-0.9.2.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.2.9.16.4.tar.gz tmp/chatllm-2023.6.2.9.16.47.tar.gz --markdown 20230602/c/chatllm/2023.6.2.9.16.4-2023.6.2.9.16.47/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [easycheck]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [easycheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycheck-0.9.1.tar.gz tmp/easycheck-0.9.2.tar.gz --markdown 20230602/e/easycheck/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/c9/2d/b904be21001804005bf4f4a6176b6ff7d57797530114c3362999f9a02a4e/erlenberg_ext-2.0.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/c9/2d/b904be21001804005bf4f4a6176b6ff7d57797530114c3362999f9a02a4e/erlenberg_ext-2.0.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/c9/2d/b904be21001804005bf4f4a6176b6ff7d57797530114c3362999f9a02a4e/erlenberg_ext-2.0.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [sparsezoo]: Downloading https://files.pythonhosted.org/packages/31/70/2faba5c998b803ece8c76b43ad1e7f6d6174b4fe19b5f80bc23230168a8c/sparsezoo-1.4.0-py3-none-any.whl
+[2023-06-02 14:23:21] INFO root fetch - processPackages [squander]: Downloading https://files.pythonhosted.org/packages/b7/0e/eb8a957b931203d7943bfc1eb3a30967696bde9cf41fc0acc23465f5860f/squander-1.8.5.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [wagtail-code-blog]: Downloading https://files.pythonhosted.org/packages/67/67/3483d72abbd3afe628755de164178d667f60a5590e6b11b7e5a405642127/wagtail_code_blog-0.4.2.tar.gz
+[2023-06-02 14:23:21] INFO root fetch - processPackages [squander]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [squander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squander-1.8.4.tar.gz tmp/squander-1.8.5.tar.gz --markdown 20230602/s/squander/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230602/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [wagtail-code-blog]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [wagtail-code-blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_code_blog-0.4.1.tar.gz tmp/wagtail_code_blog-0.4.2.tar.gz --markdown 20230602/w/wagtail-code-blog/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: executing diffoscope
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlenberg_ext-1.0.tar.gz tmp/erlenberg_ext-2.0.tar.gz --markdown 20230602/e/erlenberg-ext/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlenberg_ext-1.0.tar.gz tmp/erlenberg_ext-2.0.tar.gz --markdown 20230602/e/erlenberg-ext/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-02 14:23:21] INFO root fetch - processPackages [erlenberg-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlenberg_ext-1.0.tar.gz tmp/erlenberg_ext-2.0.tar.gz --markdown 20230602/e/erlenberg-ext/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-02 14:23:22] INFO root fetch - processPackages [sparsezoo]: Downloading https://files.pythonhosted.org/packages/02/7d/0ba1b87b973dca5e6dc781b288eaddad0d41c1422b9d59a414e3aed37ddc/sparsezoo-1.5.0-py3-none-any.whl
+[2023-06-02 14:23:22] INFO root fetch - processPackages [sparsezoo]: executing diffoscope
+[2023-06-02 14:23:22] INFO root fetch - processPackages [sparsezoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo-1.4.0-py3-none-any.whl.zip tmp/sparsezoo-1.5.0-py3-none-any.whl.zip --markdown 20230602/s/sparsezoo/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-02 14:23:22] INFO root fetch - processPackages [PowDeRUL]: Start processing: pysiml
+[2023-06-02 14:23:22] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 14:23:22] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202306021221] Old Version: [0.2.9.dev202305301239]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/d4/68/1bc6bc5330983e8718cfbc10b29bf4506778dd2f5e32b738887baf4fffe2/pysiml-0.2.9.dev202306021221-py3-none-any.whl
+[2023-06-02 14:23:23] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-06-02 14:23:23] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202305301239-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202306021221-py3-none-any.whl.zip --markdown 20230602/p/pysiml/0.2.9.dev202305301239-0.2.9.dev202306021221/diff.md --exclude *.pyd
+[2023-06-02 14:23:23] INFO root fetch - processPackages [easycheck]: Start processing: eodc-faas-sen2like
+[2023-06-02 14:23:23] INFO root fetch - main [MainThread]: End processing [easycheck]: success
+[2023-06-02 14:23:23] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc7] Old Version: [2023.5.0rc6]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [erlenberg-ext]: Start processing: MeUtils
+[2023-06-02 14:23:23] INFO root fetch - main [MainThread]: End processing [erlenberg-ext]: success
+[2023-06-02 14:23:23] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.2.20.7.16] Old Version: [2023.6.2.20.21.15]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [erlenberg-ext]: Start processing: sparseml
+[2023-06-02 14:23:23] INFO root fetch - main [MainThread]: End processing [erlenberg-ext]: success
+[2023-06-02 14:23:23] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/b2/69/d0f01873b6b37d087680120afe49909a1dab78e24ce149c5a01db2dfab47/eodc_faas_sen2like-2023.5.0rc7.tar.gz
+[2023-06-02 14:23:23] INFO root fetch - processPackages [sparseml]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [erlenberg-ext]: Start processing: kcli
+[2023-06-02 14:23:23] INFO root fetch - main [MainThread]: End processing [erlenberg-ext]: success
+[2023-06-02 14:23:23] INFO root fetch - processPackages [kcli]: New version: [99.0.202306021221] Old Version: [99.0.202306020855]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/c2/37/4b548b4c34aad066b3af9973d461a32270f813741359d652dd7f923868b3/MeUtils-2023.6.2.20.21.15.tar.gz
+[2023-06-02 14:23:23] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 14:23:23] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc6.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc7.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc6-2023.5.0rc7/diff.md --exclude *.pyd
+[2023-06-02 14:23:23] INFO root fetch - processPackages [sparseml]: Downloading https://files.pythonhosted.org/packages/aa/f7/1ed7e25b56fe139683761cc49a4431675f71979e2f4148b4ac85b1899d63/sparseml-1.4.4-py3-none-any.whl
+[2023-06-02 14:23:23] INFO root fetch - processPackages [wagtail-code-blog]: Start processing: rdflib-hdt
+[2023-06-02 14:23:23] INFO root fetch - main [MainThread]: End processing [wagtail-code-blog]: success
+[2023-06-02 14:23:23] INFO root fetch - processPackages [rdflib-hdt]: New version: [3.1] Old Version: [3.0]
+[2023-06-02 14:23:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/37/b1/cdb6b2c306b29ac338b90cb44b2b6fa49d06e2ab40240b9dad4fa7ff2a5a/kcli-99.0.202306020855-py3-none-any.whl
+[2023-06-02 14:23:24] INFO root fetch - processPackages [rdflib-hdt]: Downloading https://files.pythonhosted.org/packages/7b/02/6d591bc1e312f98f7c65a4a65c0068030d6f89fe540452da7638e03d7d18/rdflib_hdt-3.0.tar.gz
+[2023-06-02 14:23:24] INFO root fetch - processPackages [sparsezoo]: Start processing: hcai-datasets-nightly
+[2023-06-02 14:23:24] INFO root fetch - main [MainThread]: End processing [sparsezoo]: success
+[2023-06-02 14:23:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e5/08/3374bb4f1af8396a06c47f05ddb39e889b25000f976552c692c730f43fdc/kcli-99.0.202306021221-py3-none-any.whl
+[2023-06-02 14:23:24] INFO root fetch - processPackages [sparseml]: Downloading https://files.pythonhosted.org/packages/7d/5e/38eb059b510d6744549fd4d901b9ee45f634f0212465a4d3a77afb1df146/sparseml-1.5.0-py3-none-any.whl
+[2023-06-02 14:23:24] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306021222] Old Version: [0.1.9.dev202305311557]
+[2023-06-02 14:23:24] INFO root fetch - processPackages [sparseml]: executing diffoscope
+[2023-06-02 14:23:24] INFO root fetch - processPackages [sparseml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml-1.4.4-py3-none-any.whl.zip tmp/sparseml-1.5.0-py3-none-any.whl.zip --markdown 20230602/s/sparseml/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-06-02 14:23:24] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-02 14:23:24] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306020855-py3-none-any.whl.zip tmp/kcli-99.0.202306021221-py3-none-any.whl.zip --markdown 20230602/k/kcli/99.0.202306020855-99.0.202306021221/diff.md --exclude *.pyd
+[2023-06-02 14:23:24] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/4c/6c/ab2c7d7c1411762afb95a0027d34b918766ce59cd2015552fcfd3c9a484a/hcai-datasets-nightly-0.1.9.dev202305311557.tar.gz
+[2023-06-02 14:23:24] INFO root fetch - processPackages [rdflib-hdt]: Downloading https://files.pythonhosted.org/packages/ea/11/f83aedf9517a20fe10fbd2e1ccd147760322b8cce36eac9efedb8b3783be/rdflib_hdt-3.1.tar.gz
+[2023-06-02 14:23:24] INFO root fetch - processPackages [rdflib-hdt]: executing diffoscope
+[2023-06-02 14:23:24] INFO root fetch - processPackages [rdflib-hdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_hdt-3.0.tar.gz tmp/rdflib_hdt-3.1.tar.gz --markdown 20230602/r/rdflib-hdt/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-02 14:23:24] INFO root fetch - processPackages [squander]: Start processing: configilm
+[2023-06-02 14:23:24] INFO root fetch - main [MainThread]: End processing [squander]: success
+[2023-06-02 14:23:24] INFO root fetch - processPackages [configilm]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-02 14:23:24] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-02 14:23:24] INFO root fetch - processPackages [configilm]: Downloading https://files.pythonhosted.org/packages/0d/1d/cc4c09636b5df0080d36127db7ad817cd018d28a63f08eafaddcc9410ed9/configilm-0.4.1.tar.gz
+[2023-06-02 14:23:25] WARNING root fetch - processPackages [configilm]: Skipping package: exceeds size limit 44800887>=10485760
+[2023-06-02 14:23:25] INFO root fetch - processPackages [configilm]: Start processing: ocf-datapipes
+[2023-06-02 14:23:25] INFO root fetch - main [MainThread]: End processing [configilm] error
+[2023-06-02 14:23:25] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 14:23:25] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: qtdraw
+[2023-06-02 14:23:25] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 14:23:25] INFO root fetch - processPackages [qtdraw]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-02 14:23:25] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-02 14:23:25] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202305311557.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz --markdown 20230602/h/hcai-datasets-nightly/0.1.9.dev202305311557-0.1.9.dev202306021222/diff.md --exclude *.pyd
+[2023-06-02 14:23:25] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-02 14:23:25] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230602/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 14:23:25] ERROR root fetch - processPackages [qtdraw]: Unable to fetch info: No such project/version 'qtdraw' 1.1.2
+[2023-06-02 14:23:25] INFO root fetch - processPackages [qtdraw]: Start processing: deepsparse
+[2023-06-02 14:23:25] INFO root fetch - main [MainThread]: End processing [qtdraw] error
+[2023-06-02 14:23:25] INFO root fetch - processPackages [deepsparse]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-02 14:23:25] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-02 14:23:25] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.2.20.21.15.tar.gz tmp/MeUtils-2023.6.2.20.7.16.tar.gz --markdown 20230602/M/MeUtils/2023.6.2.20.21.15-2023.6.2.20.7.16/diff.md --exclude *.pyd
+[2023-06-02 14:23:25] INFO root fetch - processPackages [deepsparse]: Downloading https://files.pythonhosted.org/packages/35/fc/e2b35362e0d2077dadc7a2ca671ad016eb3e829e4c273c601b9097148e09/deepsparse-1.4.2.tar.gz
+[2023-06-02 14:23:25] WARNING root fetch - processPackages [deepsparse]: Skipping package: exceeds size limit 40010393>=10485760
+[2023-06-02 14:23:25] INFO root fetch - processPackages [deepsparse]: Start processing: splight-cli
+[2023-06-02 14:23:25] INFO root fetch - main [MainThread]: End processing [deepsparse] error
+[2023-06-02 14:23:25] INFO root fetch - processPackages [splight-cli]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-06-02 14:23:25] INFO root fetch - processPackages [pysiml]: Start processing: cg
+[2023-06-02 14:23:25] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-06-02 14:23:25] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-06-02 14:23:25] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.0.0.dev1.tar.gz tmp/splight-cli-3.0.0.dev2.tar.gz --markdown 20230602/s/splight-cli/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-06-02 14:23:25] INFO root fetch - processPackages [cg]: New version: [33.1.6] Old Version: [33.1.5]
+[2023-06-02 14:23:25] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-02 14:23:25] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.1.5.tar.gz tmp/cg-33.1.6.tar.gz --markdown 20230602/c/cg/33.1.5-33.1.6/diff.md --exclude *.pyd
+[2023-06-02 14:23:27] INFO root fetch - processPackages [splight-cli]: Start processing: bigdl-orca-spark2
+[2023-06-02 14:23:27] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-06-02 14:23:27] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-02 14:23:27] INFO root fetch - processPackages [hcai-datasets-nightly]: Start processing: bigdl-friesian-spark2
+[2023-06-02 14:23:27] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-02 14:23:28] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230601] Old Version: [2.4.0b20230531]
+[2023-06-02 14:23:28] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/b0/9c/ce59ccf3a119559c21cb60fe64256885a147348af56cf91ea71b6cdd8fa4/bigdl_orca_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl
+[2023-06-02 14:23:28] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-02 14:23:28] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-02 14:23:28] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369464>=10485760
+[2023-06-02 14:23:28] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-02 14:23:28] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-02 14:23:28] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230531-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip --markdown 20230602/b/bigdl-friesian-spark2/2.4.0b20230531-2.4.0b20230601/diff.md --exclude *.pyd
+[2023-06-02 14:23:29] INFO root fetch - main [MainThread]: End processing [rdflib-hdt]: success
+[2023-06-02 14:23:30] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-02 14:23:30] INFO root fetch - main [MainThread]: End processing [sparseml]: success
+[2023-06-02 14:23:31] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-02 14:23:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-02 14:23:38] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-02 14:23:56] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-02 14:23:56] INFO root fetch - main [MainThread]: Store serial: [18348470]
