@@ -6665,3 +6665,115 @@
 [2023-06-02 05:27:23] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2023-06-02 05:27:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
 [2023-06-02 05:27:36] INFO root fetch - main [MainThread]: Store serial: [18344154]
+[2023-06-02 05:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344154]
+[2023-06-02 05:32:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fro-AI
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumibot
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tatarubot2
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binsync
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyots
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: googleapiutils2
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-yaml
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt4-api
+[2023-06-02 05:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-hue-v2
+[2023-06-02 05:32:45] INFO root fetch - processPackages [pyots]: New version: [9.1.0b2] Old Version: [9.1.0b1]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [tatarubot2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 05:32:45] WARNING root fetch - processPackages [gpt4-api]: Skipping, unable to determine old version
+[2023-06-02 05:32:45] WARNING root fetch - processPackages [drf-yaml]: Skipping, unable to determine old version
+[2023-06-02 05:32:45] INFO root fetch - processPackages [gpt4-api]: Start processing: googleapiutils2
+[2023-06-02 05:32:45] INFO root fetch - processPackages [python-hue-v2]: New version: [0.1.2] Old Version: [0.0.2]
+[2023-06-02 05:32:45] INFO root fetch - main [MainThread]: End processing [gpt4-api] error
+[2023-06-02 05:32:45] INFO root fetch - main [MainThread]: End processing [drf-yaml] error
+[2023-06-02 05:32:45] INFO root fetch - processPackages [lumibot]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [fro-AI]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [binsync]: New version: [3.9.0] Old Version: [3.6.0]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-06-02 05:32:45] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2023-06-02 05:32:45] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-3.6.0.tar.gz tmp/binsync-3.9.0.tar.gz --markdown 20230602/b/binsync/3.6.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-02 05:32:45] INFO root fetch - processPackages [fro-AI]: executing diffoscope
+[2023-06-02 05:32:45] INFO root fetch - processPackages [fro-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fro_AI-0.8.4.tar.gz tmp/fro_AI-0.9.0.tar.gz --markdown 20230602/f/fro-AI/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 05:32:45] INFO root fetch - processPackages [pyots]: Downloading https://files.pythonhosted.org/packages/d2/c8/581c7ebf4a9042c386773b6cd2967b7912ee0f8d3e13d6ff8bd84307da19/pyots-9.1.0b1.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/08/d8/bb5e28c65960f39a1731fb3cff017605c733535268815a6d7c3b1389b432/python_hue_v2-0.0.2.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/da/d7/dbfdc899fd4518b341bf41732e49eae4e471619f634bf5e514711484186b/lumibot-2.6.4.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/1e/cf/bb338afef6d203c8ce8c810fbd56544f7ce74a63557e2b0336604bf7bb21/googleapiutils2-0.8.1.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/1e/cf/bb338afef6d203c8ce8c810fbd56544f7ce74a63557e2b0336604bf7bb21/googleapiutils2-0.8.1.tar.gz
+[2023-06-02 05:32:45] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23891798>=10485760
+[2023-06-02 05:32:45] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-06-02 05:32:45] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-06-02 05:32:45] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-06-02 05:32:45] INFO root fetch - processPackages [tatarubot2]: executing diffoscope
+[2023-06-02 05:32:45] INFO root fetch - processPackages [tatarubot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tatarubot2-0.1.8.tar.gz tmp/tatarubot2-0.1.9.tar.gz --markdown 20230602/t/tatarubot2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 05:32:45] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/21/dc/4470ce76edead3f482748d17767da27e879359464339bf2b2905b9ab0223/python_hue_v2-0.1.2.tar.gz
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.8.0.tar.gz tmp/googleapiutils2-0.8.1.tar.gz --markdown 20230602/g/googleapiutils2/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-02 05:32:45] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.8.0.tar.gz tmp/googleapiutils2-0.8.1.tar.gz --markdown 20230602/g/googleapiutils2/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-02 05:32:46] INFO root fetch - processPackages [pyots]: Downloading https://files.pythonhosted.org/packages/c3/2c/956e9f88ba3e25e34ab62423fb36fa33df4ecaf2d2ef48aaaca3c4991d89/pyots-9.1.0b2.tar.gz
+[2023-06-02 05:32:46] INFO root fetch - processPackages [python-hue-v2]: executing diffoscope
+[2023-06-02 05:32:46] INFO root fetch - processPackages [python-hue-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hue_v2-0.0.2.tar.gz tmp/python_hue_v2-0.1.2.tar.gz --markdown 20230602/p/python-hue-v2/0.0.2-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 05:32:46] INFO root fetch - processPackages [pyots]: executing diffoscope
+[2023-06-02 05:32:46] INFO root fetch - processPackages [pyots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyots-9.1.0b1.tar.gz tmp/pyots-9.1.0b2.tar.gz --markdown 20230602/p/pyots/9.1.0b1-9.1.0b2/diff.md --exclude *.pyd
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-02 05:32:47] ERROR root fetch - processPackages [tatarubot2]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [tatarubot2] error
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [python-hue-v2]: success
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [pyots]: success
+[2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2023-06-02 05:32:49] INFO root fetch - main [MainThread]: End processing [fro-AI]: success
+[2023-06-02 05:32:49] INFO root fetch - main [MainThread]: Store serial: [18344200]
