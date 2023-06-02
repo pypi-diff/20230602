@@ -17915,3 +17915,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 18:32:44] INFO root fetch - main [MainThread]: End processing [tapipy]: success
 [2023-06-02 18:32:46] INFO root fetch - main [MainThread]: End processing [bitfount]: success
 [2023-06-02 18:32:46] INFO root fetch - main [MainThread]: Store serial: [18351082]
+[2023-06-02 18:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351082]
+[2023-06-02 18:37:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: click-extra
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-rhino
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discordlevelingcard
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-perf
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datarobot-drum
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snewpy
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GhettoRecorder
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-06-02 18:37:56] INFO root fetch - processPackages [click-extra]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [discordlevelingcard]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [yeref]: New version: [0.1.76] Old Version: [0.1.75]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [pytest-perf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ladybug-rhino]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [pytest-perf]: executing diffoscope
+[2023-06-02 18:37:56] INFO root fetch - processPackages [pytest-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-perf-0.9.1.tar.gz tmp/pytest-perf-0.9.2.tar.gz --markdown 20230602/p/pytest-perf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 18:37:56] INFO root fetch - processPackages [snewpy]: New version: [1.4b1] Old Version: [1.3b2]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [GhettoRecorder]: New version: [3.0] Old Version: [2.4.7]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-06-02 18:37:56] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-02 18:37:56] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.75.tar.gz tmp/yeref-0.1.76.tar.gz --markdown 20230602/y/yeref/0.1.75-0.1.76/diff.md --exclude *.pyd
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/3e/ea/279627047f65a2f54a45f8477bb6a56f8dd994d92483ad83290eaf24ac31/ladybug-rhino-1.8.2.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/a8/86/af9e58491ba32a09ecc424ff2b5821ec0fb1e5dbc8e9bd86e58b6ea33660/click_extra-4.3.0.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/a9/84/eda708f5629fd33890fec3bb530af4ce77eb72549c813806059f1a4a41a8/snewpy-1.3b2.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [GhettoRecorder]: Downloading https://files.pythonhosted.org/packages/11/47/92424fc5164cf7317e0b01916b2ec7538ca11f70ad15f96c43e05a5db3e4/GhettoRecorder-2.4.7.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2023-06-02 18:37:56] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.2.0.tar.gz tmp/click_extra-4.3.0.tar.gz --markdown 20230602/c/click-extra/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-02 18:37:56] INFO root fetch - processPackages [discordlevelingcard]: Downloading https://files.pythonhosted.org/packages/13/fa/98758387ff05f8f849d40ff411c038a70348194bad987f6e95ce550171b0/discordlevelingcard-0.6.0.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-06-02 18:37:56] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230602/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-06-02 18:37:56] INFO root fetch - processPackages [discordlevelingcard]: executing diffoscope
+[2023-06-02 18:37:56] INFO root fetch - processPackages [discordlevelingcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordlevelingcard-0.5.6.tar.gz tmp/discordlevelingcard-0.6.0.tar.gz --markdown 20230602/d/discordlevelingcard/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 18:37:56] INFO root fetch - processPackages [GhettoRecorder]: Downloading https://files.pythonhosted.org/packages/82/f6/0ea8aefa7b2ed79f3e42abe170d7cfa3371b0950a7a6c4a2c3c124100f97/GhettoRecorder-3.0.tar.gz
+[2023-06-02 18:37:56] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/ae/2c/4b673aff780c15e5f2dbf5d94772c420baf196f6fdccfad08abb98e5e21d/ladybug-rhino-1.9.0.tar.gz
+[2023-06-02 18:37:57] INFO root fetch - processPackages [snewpy]: Downloading https://files.pythonhosted.org/packages/74/32/2be0ff833cb8235e5502e349737eea794d6a31a6127df49c2a0dfafd69f0/snewpy-1.4b1.tar.gz
+[2023-06-02 18:37:57] INFO root fetch - processPackages [GhettoRecorder]: executing diffoscope
+[2023-06-02 18:37:57] INFO root fetch - processPackages [GhettoRecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GhettoRecorder-2.4.7.tar.gz tmp/GhettoRecorder-3.0.tar.gz --markdown 20230602/G/GhettoRecorder/2.4.7-3.0/diff.md --exclude *.pyd
+[2023-06-02 18:37:57] INFO root fetch - processPackages [snewpy]: executing diffoscope
+[2023-06-02 18:37:57] INFO root fetch - processPackages [snewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snewpy-1.3b2.tar.gz tmp/snewpy-1.4b1.tar.gz --markdown 20230602/s/snewpy/1.3b2-1.4b1/diff.md --exclude *.pyd
+[2023-06-02 18:37:57] INFO root fetch - processPackages [ladybug-rhino]: executing diffoscope
+[2023-06-02 18:37:57] INFO root fetch - processPackages [ladybug-rhino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-rhino-1.8.2.tar.gz tmp/ladybug-rhino-1.9.0.tar.gz --markdown 20230602/l/ladybug-rhino/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 18:37:57] INFO root fetch - main [MainThread]: End processing [pytest-perf]: success
+[2023-06-02 18:37:58] INFO root fetch - main [MainThread]: End processing [discordlevelingcard]: success
+[2023-06-02 18:37:58] INFO root fetch - main [MainThread]: End processing [GhettoRecorder]: success
+[2023-06-02 18:37:58] INFO root fetch - main [MainThread]: End processing [snewpy]: success
+[2023-06-02 18:37:58] INFO root fetch - main [MainThread]: End processing [ladybug-rhino]: success
+[2023-06-02 18:37:59] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2023-06-02 18:37:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-02 18:40:56] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-06-02 18:40:56] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-06-02 18:40:56] INFO root fetch - main [MainThread]: Store serial: [18351109]
