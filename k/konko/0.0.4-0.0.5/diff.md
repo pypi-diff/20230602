@@ -1,0 +1,45 @@
+# Comparing `tmp/konko-0.0.4.tar.gz` & `tmp/konko-0.0.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "konko-0.0.4.tar", last modified: Fri Jun  2 19:01:28 2023, max compression
++gzip compressed data, was "konko-0.0.5.tar", last modified: Fri Jun  2 19:24:50 2023, max compression
+```
+
+## Comparing `konko-0.0.4.tar` & `konko-0.0.5.tar`
+
+### file list
+
+```diff
+@@ -1,11 +1,16 @@
+-drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:01:28.938056 konko-0.0.4/
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)      254 2023-06-02 19:01:28.937892 konko-0.0.4/PKG-INFO
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)       29 2023-06-01 17:28:19.000000 konko-0.0.4/README.md
+-drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:01:28.937690 konko-0.0.4/konko.egg-info/
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)      254 2023-06-02 19:01:28.000000 konko-0.0.4/konko.egg-info/PKG-INFO
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)      149 2023-06-02 19:01:28.000000 konko-0.0.4/konko.egg-info/SOURCES.txt
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)        1 2023-06-02 19:01:28.000000 konko-0.0.4/konko.egg-info/dependency_links.txt
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)        1 2023-06-02 19:01:28.000000 konko-0.0.4/konko.egg-info/top_level.txt
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)      304 2023-06-02 19:00:12.000000 konko-0.0.4/pyproject.toml
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)       38 2023-06-02 19:01:28.938098 konko-0.0.4/setup.cfg
+--rw-r--r--   0 uday.kanwar   (501) staff       (20)      147 2023-06-02 19:01:06.000000 konko-0.0.4/setup.py
++drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:24:50.677626 konko-0.0.5/
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      254 2023-06-02 19:24:50.677496 konko-0.0.5/PKG-INFO
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)       29 2023-06-01 17:28:19.000000 konko-0.0.5/README.md
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      304 2023-06-02 19:24:28.000000 konko-0.0.5/pyproject.toml
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)       38 2023-06-02 19:24:50.677665 konko-0.0.5/setup.cfg
++drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:24:50.675743 konko-0.0.5/src/
++drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:24:50.676721 konko-0.0.5/src/konko/
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      123 2023-06-02 19:23:49.000000 konko-0.0.5/src/konko/__init__.py
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      470 2023-06-02 18:45:34.000000 konko-0.0.5/src/konko/evaluate.py
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      600 2023-06-02 19:03:42.000000 konko-0.0.5/src/konko/generate.py
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      213 2023-06-02 18:51:00.000000 konko-0.0.5/src/konko/models.py
++drwxr-xr-x   0 uday.kanwar   (501) staff       (20)        0 2023-06-02 19:24:50.677334 konko-0.0.5/src/konko.egg-info/
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      254 2023-06-02 19:24:50.000000 konko-0.0.5/src/konko.egg-info/PKG-INFO
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)      242 2023-06-02 19:24:50.000000 konko-0.0.5/src/konko.egg-info/SOURCES.txt
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)        1 2023-06-02 19:24:50.000000 konko-0.0.5/src/konko.egg-info/dependency_links.txt
++-rw-r--r--   0 uday.kanwar   (501) staff       (20)        6 2023-06-02 19:24:50.000000 konko-0.0.5/src/konko.egg-info/top_level.txt
+```
+

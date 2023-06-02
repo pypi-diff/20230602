@@ -20195,3 +20195,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:26:05] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 21:26:05] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 21:26:05] INFO root fetch - main [MainThread]: Store serial: [18352514]
+[2023-06-02 21:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352514]
+[2023-06-02 21:31:14] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dart-tools
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: froeling-connect
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x23323distributions
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaserver-accounts
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acc_provision
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geranslator
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CodeToCAD
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SeleCrawler
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nhl-api-py
+[2023-06-02 21:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: konko
+[2023-06-02 21:31:15] WARNING root fetch - processPackages [x23323distributions]: Skipping, unable to determine old version
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dart-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [x23323distributions]: Start processing: dsigma
+[2023-06-02 21:31:15] INFO root fetch - main [MainThread]: End processing [x23323distributions] error
+[2023-06-02 21:31:15] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1685733826]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [nhl-api-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [SeleCrawler]: New version: [1.0.1] Old Version: [0.0.2]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [geranslator]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [konko]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.7rc1] Old Version: [5.2.3.6rc5]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dsigma]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-02 21:31:15] WARNING root fetch - processPackages [froeling-connect]: Skipping, unable to determine old version
+[2023-06-02 21:31:15] INFO root fetch - processPackages [froeling-connect]: Start processing: librarycubed
+[2023-06-02 21:31:15] INFO root fetch - main [MainThread]: End processing [froeling-connect] error
+[2023-06-02 21:31:15] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/38/08/f0faf73e08515bbd5f4187bf22c7dd67d8a208edf71478b37d84f849f031/CodeToCAD-0.2.1685733826.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [geranslator]: Downloading https://files.pythonhosted.org/packages/a0/f8/6eb53cdf68544a16d1c6e886758425b11473536af5caa0448cd8ecf5e96e/geranslator-1.2.1-py3-none-any.whl
+[2023-06-02 21:31:15] WARNING root fetch - processPackages [librarycubed]: Skipping, unable to determine old version
+[2023-06-02 21:31:15] INFO root fetch - processPackages [librarycubed]: Start processing: rising-plugin
+[2023-06-02 21:31:15] INFO root fetch - main [MainThread]: End processing [librarycubed] error
+[2023-06-02 21:31:15] INFO root fetch - processPackages [SeleCrawler]: Downloading https://files.pythonhosted.org/packages/da/bc/7cf4ec593ee40a1b1cf394db5d228c6899101b5589dc66d691b7c538134e/SeleCrawler-0.0.2.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dsigma]: Downloading https://files.pythonhosted.org/packages/33/27/150bb5a53981e5cadec75e005f8484e3daf1e0d0ff38c784abfd5ecaadc2/dsigma-0.7.1.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230602/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/3e/a9/6832e3380b94982f106cf23adf6b33dd41487a757851e1299bb3196a789e/dart-tools-0.3.1.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/23/df/fae4102be803ac1c22fc4d571e99c30406546332eb1cc30fa80a8867361d/acc_provision-5.2.3.7rc1.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/2a/ef/ff483ef3a005082f4ba4b4a7fe96891d8351bad64e7bcb92a048e2b663db/konko-0.0.5.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/fc/f8/ea056f448ec3a205fa012287c95d32523eaa01a48dcb56baac2ef1d5b7cc/nhl_api_py-0.1.3.tar.gz
+[2023-06-02 21:31:15] WARNING root fetch - processPackages [acc_provision]: Skipping package: exceeds size limit 10592210>=10485760
+[2023-06-02 21:31:15] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [acc_provision]: Start processing: poetry-plugin-dotenv
+[2023-06-02 21:31:15] INFO root fetch - main [MainThread]: End processing [acc_provision] error
+[2023-06-02 21:31:15] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1685733826.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230602/C/CodeToCAD/0.2.1685733826-0.2.6/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [geranslator]: Downloading https://files.pythonhosted.org/packages/3c/97/9cafefbf5370d80c176af9eabb614a79b217df002e30ae34af99f7c1395e/geranslator-1.2.2-py3-none-any.whl
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.3.0.tar.gz tmp/dart-tools-0.3.1.tar.gz --markdown 20230602/d/dart-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-02 21:31:15] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.4.tar.gz tmp/konko-0.0.5.tar.gz --markdown 20230602/k/konko/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [SeleCrawler]: Downloading https://files.pythonhosted.org/packages/65/d2/a2a55eeb2764a7342980d30a0856742ac1d87e5f0faa529ee0fb6c208318/SeleCrawler-1.0.1.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dsigma]: Downloading https://files.pythonhosted.org/packages/f6/99/8bee116365e3a09626c115ec7baa7fd2158d6bda155d91d60b4189814018/dsigma-0.7.2.tar.gz
+[2023-06-02 21:31:15] INFO root fetch - processPackages [SeleCrawler]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [SeleCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeleCrawler-0.0.2.tar.gz tmp/SeleCrawler-1.0.1.tar.gz --markdown 20230602/S/SeleCrawler/0.0.2-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [geranslator]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [geranslator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geranslator-1.2.1-py3-none-any.whl.zip tmp/geranslator-1.2.2-py3-none-any.whl.zip --markdown 20230602/g/geranslator/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-0.1.2.tar.gz tmp/nhl_api_py-0.1.3.tar.gz --markdown 20230602/n/nhl-api-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dsigma]: executing diffoscope
+[2023-06-02 21:31:15] INFO root fetch - processPackages [dsigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsigma-0.7.1.tar.gz tmp/dsigma-0.7.2.tar.gz --markdown 20230602/d/dsigma/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-02 21:31:15] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/40/de/12275379493ac33c1e95cb0d0ba6286d289ec256fe04aec797afe157416e/poetry_plugin_dotenv-0.4.1.tar.gz
+[2023-06-02 21:31:16] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/de/83/3160e46caaf766eaf3072d9f3b5821872801a21b9fff6bd1428b4d565aea/poetry_plugin_dotenv-0.5.0.tar.gz
+[2023-06-02 21:31:16] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2023-06-02 21:31:16] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-0.4.1.tar.gz tmp/poetry_plugin_dotenv-0.5.0.tar.gz --markdown 20230602/p/poetry-plugin-dotenv/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 21:31:16] INFO root fetch - processPackages [heaserver-accounts]: Start processing: pyCOREPOS
+[2023-06-02 21:31:16] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-06-02 21:31:16] INFO root fetch - processPackages [pyCOREPOS]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [konko]: Start processing: linear-operator
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [linear-operator]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [pyCOREPOS]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [pyCOREPOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCOREPOS-0.1.8.tar.gz tmp/pyCOREPOS-0.1.9.tar.gz --markdown 20230602/p/pyCOREPOS/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 21:31:17] INFO root fetch - processPackages [linear-operator]: Downloading https://files.pythonhosted.org/packages/d9/10/97d28c1ff3dd38dd5270907b85bc5cb1f1a2c55bb3b7fa3c2892c90ff48b/linear_operator-0.4.0.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [dart-tools]: Start processing: flet-contrib
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [flet-contrib]: New version: [1.0.4.dev0] Old Version: [1.0.3.dev0]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [CodeToCAD]: Start processing: y4d
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [y4d]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [nhl-api-py]: Start processing: rattail-corepos
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [rattail-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [SeleCrawler]: Start processing: mdapackmol
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [SeleCrawler]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/29/b1/8b992cf1579114afc60142b227912d91c1c4d94795e0f25a15eb6d77c4a2/flet_contrib-1.0.3.dev0.tar.gz
+[2023-06-02 21:31:17] WARNING root fetch - processPackages [mdapackmol]: Skipping, unable to determine old version
+[2023-06-02 21:31:17] INFO root fetch - processPackages [mdapackmol]: Start processing: tapisservice
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [mdapackmol] error
+[2023-06-02 21:31:17] INFO root fetch - processPackages [tapisservice]: New version: [1.4.0a1] Old Version: [1.3.0]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [linear-operator]: Downloading https://files.pythonhosted.org/packages/d3/22/13bdf14d612774bd308729fc7be49e9099022bd12c9b26a58c4e1b8c8ff7/linear_operator-0.5.0.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [geranslator]: Start processing: kodexa
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [geranslator]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [kodexa]: New version: [6.2.25159046000] Old Version: [6.2.25157842592]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [linear-operator]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [linear-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_operator-0.4.0.tar.gz tmp/linear_operator-0.5.0.tar.gz --markdown 20230602/l/linear-operator/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 21:31:17] INFO root fetch - processPackages [tapisservice]: Downloading https://files.pythonhosted.org/packages/99/d1/1c176841e966e586e9f2938914365a9711ee9f2d37ca2aa59cb97c2ff580/tapisservice-1.3.0.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [y4d]: Downloading https://files.pythonhosted.org/packages/43/fd/384575bb577f8fdd04b1c78df0effe180470069add38c2cb207f9c451135/y4d-0.1.3.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/94/3e/00b3dae7425545cd35cbe28d2d69a261f701e539121bab0468354a9230dc/flet_contrib-1.0.4.dev0.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [y4d]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [y4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y4d-0.1.2.tar.gz tmp/y4d-0.1.3.tar.gz --markdown 20230602/y/y4d/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 21:31:17] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/19/e5/58470eb6e39518276a02adacc854eb05861240e1562547752000f0d33dc0/kodexa-6.2.25159046000.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [dsigma]: Start processing: finvizfinance
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [dsigma]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [rattail-corepos]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [rattail-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail_corepos-0.1.8.tar.gz tmp/rattail_corepos-0.1.9.tar.gz --markdown 20230602/r/rattail-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 21:31:17] INFO root fetch - processPackages [finvizfinance]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: Start processing: claws
+[2023-06-02 21:31:17] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2023-06-02 21:31:17] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 21:31:17] INFO root fetch - processPackages [tapisservice]: Downloading https://files.pythonhosted.org/packages/b0/2a/e17571626cac6548bacea07bb732124fae641d1097feb79665df40a47a99/tapisservice-1.4.0a1.tar.gz
+[2023-06-02 21:31:17] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25157842592.tar.gz tmp/kodexa-6.2.25159046000.tar.gz --markdown 20230602/k/kodexa/6.2.25157842592-6.2.25159046000/diff.md --exclude *.pyd
+[2023-06-02 21:31:17] INFO root fetch - processPackages [flet-contrib]: executing diffoscope
+[2023-06-02 21:31:17] INFO root fetch - processPackages [flet-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib-1.0.3.dev0.tar.gz tmp/flet_contrib-1.0.4.dev0.tar.gz --markdown 20230602/f/flet-contrib/1.0.3.dev0-1.0.4.dev0/diff.md --exclude *.pyd
+[2023-06-02 21:31:18] INFO root fetch - processPackages [tapisservice]: executing diffoscope
+[2023-06-02 21:31:18] INFO root fetch - processPackages [tapisservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapisservice-1.3.0.tar.gz tmp/tapisservice-1.4.0a1.tar.gz --markdown 20230602/t/tapisservice/1.3.0-1.4.0a1/diff.md --exclude *.pyd
+[2023-06-02 21:31:18] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/c8/86/1f79bf034202584a0d7253cb02465daba515eda0e7c664d13d3d22f37bf1/claws-0.0.8.tar.gz
+[2023-06-02 21:31:18] INFO root fetch - processPackages [finvizfinance]: executing diffoscope
+[2023-06-02 21:31:18] INFO root fetch - processPackages [finvizfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvizfinance-0.9.8.tar.gz tmp/finvizfinance-0.9.9.tar.gz --markdown 20230602/f/finvizfinance/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-02 21:31:18] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/22/59/5ce57d6163c39b86c2685a2932c13a8b253356312857353552782ad01e14/claws-0.0.9.tar.gz
+[2023-06-02 21:31:18] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-06-02 21:31:18] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230602/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [pyCOREPOS]: success
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [y4d]: success
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [tapisservice]: success
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [flet-contrib]: success
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [finvizfinance]: success
+[2023-06-02 21:31:19] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-06-02 21:31:20] INFO root fetch - main [MainThread]: End processing [rattail-corepos]: success
+[2023-06-02 21:31:21] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-02 21:31:22] INFO root fetch - main [MainThread]: End processing [linear-operator]: success
+[2023-06-02 21:34:15] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 21:34:15] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 21:34:15] INFO root fetch - main [MainThread]: Store serial: [18352585]
