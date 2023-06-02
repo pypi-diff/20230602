@@ -16022,3 +16022,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 16:36:32] INFO root fetch - main [MainThread]: End processing [bibat]: success
 [2023-06-02 16:37:09] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
 [2023-06-02 16:37:09] INFO root fetch - main [MainThread]: Store serial: [18349867]
+[2023-06-02 16:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349867]
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncchat-server
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zocalo
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytaser
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncchat-client
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsem
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secfsdstools
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyeCam
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide1-Customized-Window
+[2023-06-02 16:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slpkg
+[2023-06-02 16:42:30] ERROR root fetch - processPackages [asyncchat-server]: Unable to get metadata: No such project 'asyncchat-server'
+[2023-06-02 16:42:30] INFO root fetch - processPackages [asyncchat-server]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [asyncchat-server] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pytaser]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-02 16:42:30] ERROR root fetch - processPackages [asyncchat-client]: Unable to get metadata: No such project 'asyncchat-client'
+[2023-06-02 16:42:30] INFO root fetch - processPackages [asyncchat-client]: Start processing: zrb
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [asyncchat-client] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [secfsdstools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zocalo]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 16:42:30] WARNING root fetch - processPackages [tsem]: Skipping, unable to determine old version
+[2023-06-02 16:42:30] INFO root fetch - processPackages [tsem]: Start processing: PySide2-Customized-Window
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [tsem] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [slpkg]: New version: [4.8.8] Old Version: [4.8.7]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230602/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zocalo]: Downloading https://files.pythonhosted.org/packages/59/98/91a0b0499f96c2eec41ad73547ded31ec9b5eb9a0c348062f8d5963a17f6/zocalo-0.9.0.tar.gz
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/75/69/6476cdffce72182b7a059ced6333c0dd84551b7e14e74b7c6be5d7776a01/cdktf-cdktf-provider-google-7.0.8.tar.gz
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pytaser]: Downloading https://files.pythonhosted.org/packages/6f/cb/e216cce4d1bff10aefad65d02dc1ebae1467aedb717a9d50e241838144be/pytaser-0.1.0.tar.gz
+[2023-06-02 16:42:30] INFO root fetch - processPackages [secfsdstools]: Downloading https://files.pythonhosted.org/packages/64/65/449be4c095a4083267847ab0cfe2e1fbbc5a9f2ebbe76b81f78dda7281d3/secfsdstools-0.4.0.tar.gz
+[2023-06-02 16:42:30] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 19419501>=10485760
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Start processing: translatesub
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/14/42/84ae37c16da7008acc78f2aece855c656be837aced4db6f7e9101f8541b5/cdktf-cdktf-provider-google_beta-7.0.8.tar.gz
+[2023-06-02 16:42:30] WARNING root fetch - processPackages [translatesub]: Skipping, unable to determine old version
+[2023-06-02 16:42:30] INFO root fetch - processPackages [translatesub]: Start processing: assemblyai
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [translatesub] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [assemblyai]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-02 16:42:30] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 22140750>=10485760
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Start processing: cxas
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/9e/e1/3c635c92c968bf0c4a6ee14f3e41f91fe1cdde55bc0cc4b90412ec1238f4/PySide1_Customized_Window-1.5-py3-none-any.whl
+[2023-06-02 16:42:30] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/00/bc/e7e42d1a181bf7813f221abec867e2c7b3ddfe6f04cf62a0e3c6739cbf39/slpkg-4.8.8.tar.gz
+[2023-06-02 16:42:30] WARNING root fetch - processPackages [secfsdstools]: Skipping package: exceeds size limit 12273587>=10485760
+[2023-06-02 16:42:30] INFO root fetch - processPackages [secfsdstools]: Start processing: PySide6-Customized-Window
+[2023-06-02 16:42:30] INFO root fetch - main [MainThread]: End processing [secfsdstools] error
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/cb/51/f8eeac23648e07e6d8c5ad1d53c9c676ab6d03d5f8d24409737be2c59573/PySide2_Customized_Window-1.5-py3-none-any.whl
+[2023-06-02 16:42:30] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.5.0.tar.gz tmp/assemblyai-0.5.1.tar.gz --markdown 20230602/a/assemblyai/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230602/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.4-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.5-py3-none-any.whl.zip --markdown 20230602/P/PySide1-Customized-Window/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cxas]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pytaser]: Downloading https://files.pythonhosted.org/packages/d5/79/b131e5a3b089122a7818d4920d7acb3461006b816c331e367f8c8a52a1f5/pytaser-1.0.0.tar.gz
+[2023-06-02 16:42:30] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.8.7.tar.gz tmp/slpkg-4.8.8.tar.gz --markdown 20230602/s/slpkg/4.8.7-4.8.8/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.4-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.5-py3-none-any.whl.zip --markdown 20230602/P/PySide2-Customized-Window/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.5] Old Version: [1.4]
+[2023-06-02 16:42:30] INFO root fetch - processPackages [cxas]: Downloading https://files.pythonhosted.org/packages/15/ee/733b9a7c3f249774b6aa21eb70bfdc0f32eecf7d44382c77e4f88acd4baa/cxas-0.0.6.tar.gz
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pytaser]: executing diffoscope
+[2023-06-02 16:42:30] INFO root fetch - processPackages [pytaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytaser-0.1.0.tar.gz tmp/pytaser-1.0.0.tar.gz --markdown 20230602/p/pytaser/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 16:42:30] INFO root fetch - processPackages [zocalo]: Downloading https://files.pythonhosted.org/packages/af/f2/be0c0fc52caaf40f29641ab8de4b7b855ec7c89fe6de3213e0ff65325007/zocalo-0.9.1.tar.gz
+[2023-06-02 16:42:31] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/55/b6/fb4a06beea9ab8db70383b9edf79be69b4cc72a4e86ca2c3d3d055ed8dbb/PySide6_Customized_Window-1.5-py3-none-any.whl
+[2023-06-02 16:42:31] INFO root fetch - processPackages [cxas]: Downloading https://files.pythonhosted.org/packages/15/b4/abfa77eef195a038c944a095e3603981b52cd19fb6811a96c39cbebdb621/cxas-0.0.7.tar.gz
+[2023-06-02 16:42:31] INFO root fetch - processPackages [zocalo]: executing diffoscope
+[2023-06-02 16:42:31] INFO root fetch - processPackages [zocalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zocalo-0.9.0.tar.gz tmp/zocalo-0.9.1.tar.gz --markdown 20230602/z/zocalo/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 16:42:31] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-06-02 16:42:31] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.4-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.5-py3-none-any.whl.zip --markdown 20230602/P/PySide6-Customized-Window/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-02 16:42:31] INFO root fetch - processPackages [cxas]: executing diffoscope
+[2023-06-02 16:42:31] INFO root fetch - processPackages [cxas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxas-0.0.6.tar.gz tmp/cxas-0.0.7.tar.gz --markdown 20230602/c/cxas/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 16:42:31] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [cxas]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-02 16:42:32] INFO root fetch - main [MainThread]: End processing [zocalo]: success
+[2023-06-02 16:42:33] INFO root fetch - main [MainThread]: End processing [pytaser]: success
+[2023-06-02 16:42:33] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-06-02 16:42:33] INFO root fetch - main [MainThread]: Store serial: [18349929]
