@@ -20915,3 +20915,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 22:13:57] INFO root fetch - main [MainThread]: End processing [most-queue]: success
 [2023-06-02 22:13:57] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-06-02 22:13:57] INFO root fetch - main [MainThread]: Store serial: [18352950]
+[2023-06-02 22:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352950]
+[2023-06-02 22:19:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aim-ui
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FLAI-CAUSAL
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aim
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trading-strategy
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: barril
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bento-lib
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngdataforecast
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eltako14bus
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ngdataforecast]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 22:19:07] WARNING root fetch - processPackages [eltako14bus]: Skipping, unable to determine old version
+[2023-06-02 22:19:07] INFO root fetch - processPackages [eltako14bus]: Start processing: wastimate
+[2023-06-02 22:19:07] INFO root fetch - main [MainThread]: End processing [eltako14bus] error
+[2023-06-02 22:19:07] INFO root fetch - processPackages [barril]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [bento-lib]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [wastimate]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/5b/d1/5cd93daedaeb4f33f44ff2097fa2911cbdee1802d83aa6edb4b0c925284b/FuncsForSPO-5.0.4.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/72/11/d6a599ec4ad003d59801200d43ab098d9e29c73b16b2ef5ae8c3913470e4/aim-ui-4.0.0a3.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [barril]: Downloading https://files.pythonhosted.org/packages/cf/10/47f9d15eb9e13a0100e7b276db69e06c4c19e406902265c68033c6a6d0cd/barril-1.8.0.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/df/ce/830532f7fe28f3dae262d75399040836c33008a22aaf0a9d6ae03ba3d69a/FLAI_CAUSAL-1.0.5.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [bento-lib]: Downloading https://files.pythonhosted.org/packages/41/11/a1efdbef73f843e7b5a5c076aee5eeed0a3293c18f8d7c48e6be037cc606/bento_lib-6.0.2.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ngdataforecast]: Downloading https://files.pythonhosted.org/packages/1f/9e/297d7c20edd7fa898e686c99b98ba42d2b71cd90daf3c9f0fc00922cb22f/ngdataforecast-0.0.3.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [wastimate]: Downloading https://files.pythonhosted.org/packages/b7/63/67364d1059279bcab71d108d1e72524360658ad337fd30611020b489ac2e/wastimate-0.0.2.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAI_CAUSAL-1.0.4.tar.gz tmp/FLAI_CAUSAL-1.0.5.tar.gz --markdown 20230602/F/FLAI-CAUSAL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 20217136>=10485760
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim-ui]: Start processing: FLAI-CAUSAL
+[2023-06-02 22:19:07] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ngdataforecast]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [ngdataforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngdataforecast-0.0.2.tar.gz tmp/ngdataforecast-0.0.3.tar.gz --markdown 20230602/n/ngdataforecast/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a3.tar.gz tmp/aim-4.0.0a4.tar.gz --markdown 20230602/a/aim/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/76/24/04dfdf0f3d1acca12fb11bbd359fc01687fb686b349cec63a87fe7cfeefb/FuncsForSPO-5.0.5.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 22:19:07] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230602/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [bento-lib]: Downloading https://files.pythonhosted.org/packages/49/68/276c7b491c83b46d95b03266841151ebf85c4cb461732c24d03819856478/bento_lib-6.1.0.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [barril]: Downloading https://files.pythonhosted.org/packages/b1/d0/2e66bb515761b97ee2d4755ca0862575ffb4272e90c58000b295505b7959/barril-1.9.0.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [wastimate]: Downloading https://files.pythonhosted.org/packages/b8/60/e35e7719c810b7f86351ce100a4953366753a92e5f69b6e33522bff7aa4e/wastimate-0.0.3.tar.gz
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.4.tar.gz tmp/FuncsForSPO-5.0.5.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [bento-lib]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [bento-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bento_lib-6.0.2.tar.gz tmp/bento_lib-6.1.0.tar.gz --markdown 20230602/b/bento-lib/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [barril]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [barril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barril-1.8.0.tar.gz tmp/barril-1.9.0.tar.gz --markdown 20230602/b/barril/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [wastimate]: executing diffoscope
+[2023-06-02 22:19:07] INFO root fetch - processPackages [wastimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wastimate-0.0.2.tar.gz tmp/wastimate-0.0.3.tar.gz --markdown 20230602/w/wastimate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 22:19:07] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/d5/bd/273e17ac31ff16e43e5b6c93662de1209bf79dfa65040b0229059a803bd9/FLAI_CAUSAL-1.0.6.tar.gz
+[2023-06-02 22:19:08] INFO root fetch - processPackages [FLAI-CAUSAL]: executing diffoscope
+[2023-06-02 22:19:08] INFO root fetch - processPackages [FLAI-CAUSAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAI_CAUSAL-1.0.5.tar.gz tmp/FLAI_CAUSAL-1.0.6.tar.gz --markdown 20230602/F/FLAI-CAUSAL/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 22:19:08] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
+[2023-06-02 22:19:09] INFO root fetch - main [MainThread]: End processing [ngdataforecast]: success
+[2023-06-02 22:19:09] INFO root fetch - main [MainThread]: End processing [wastimate]: success
+[2023-06-02 22:19:09] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
+[2023-06-02 22:19:09] INFO root fetch - main [MainThread]: End processing [barril]: success
+[2023-06-02 22:19:10] INFO root fetch - main [MainThread]: End processing [bento-lib]: success
+[2023-06-02 22:19:10] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 22:19:12] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-06-02 22:19:15] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 22:19:18] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-06-02 22:19:18] INFO root fetch - main [MainThread]: Store serial: [18353001]
