@@ -22021,3 +22021,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:52:35] INFO root fetch - main [MainThread]: End processing [lazyops]: success
 [2023-06-02 23:52:59] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-06-02 23:52:59] INFO root fetch - main [MainThread]: Store serial: [18353616]
+[2023-06-02 23:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353616]
+[2023-06-02 23:58:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iolanta-roadmap
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yo
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiokeydb
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finesse
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyRealEstate
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xircuits
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fimutil
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liveports
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydisort
+[2023-06-02 23:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caikit
+[2023-06-02 23:58:09] INFO root fetch - processPackages [finesse]: New version: [3.0a8] Old Version: [3.0a7]
+[2023-06-02 23:58:09] WARNING root fetch - processPackages [iolanta-roadmap]: Skipping, unable to determine old version
+[2023-06-02 23:58:09] INFO root fetch - processPackages [iolanta-roadmap]: Start processing: fimutil
+[2023-06-02 23:58:09] INFO root fetch - main [MainThread]: End processing [iolanta-roadmap] error
+[2023-06-02 23:58:09] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 23:58:09] WARNING root fetch - processPackages [pydisort]: Skipping, unable to determine old version
+[2023-06-02 23:58:09] INFO root fetch - main [MainThread]: End processing [pydisort] error
+[2023-06-02 23:58:09] INFO root fetch - processPackages [caikit]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-02 23:58:09] INFO root fetch - processPackages [liveports]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 23:58:09] INFO root fetch - processPackages [pyRealEstate]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 23:58:09] INFO root fetch - processPackages [xircuits]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-02 23:58:09] WARNING root fetch - processPackages [fimutil]: Skipping, unable to determine old version
+[2023-06-02 23:58:09] INFO root fetch - main [MainThread]: End processing [fimutil] error
+[2023-06-02 23:58:09] WARNING root fetch - processPackages [fimutil]: Skipping, unable to determine old version
+[2023-06-02 23:58:09] INFO root fetch - main [MainThread]: End processing [fimutil] error
+[2023-06-02 23:58:09] INFO root fetch - processPackages [yo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 23:58:09] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/61/73/d3dff7d60b2f75ca6d53418527cf23bee62b9ee06ed1224f9e1f89a6f474/pyRealEstate-0.0.1.tar.gz
+[2023-06-02 23:58:09] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/ce/35/150ce02420fe0e10cb4af52fef83fa8312ad258310842accb2d2f0655e42/liveports-0.1.2.tar.gz
+[2023-06-02 23:58:09] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/85/59/e9c3ca47d7f84506e35a2f075e5ac3db4b970b1678c7d234ce89dd1a7635/finesse-3.0a8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 23:58:09] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/b4/7b/50303426a774176578e7e0fd36a92ad3aef5cc959de78a23e804e6322c1d/caikit-0.7.0.tar.gz
+[2023-06-02 23:58:09] INFO root fetch - processPackages [xircuits]: Downloading https://files.pythonhosted.org/packages/04/14/0e085d15e0a03ff507c199b82a016ed6442374f8eec67f4c3fd994694094/xircuits-1.8.3.tar.gz
+[2023-06-02 23:58:09] INFO root fetch - processPackages [yo]: Downloading https://files.pythonhosted.org/packages/bf/9f/6493132c3dd733dec98b89c72c8505f50ef5d8195fbb53006cf9f592ed1f/yo-1.0.3.tar.gz
+[2023-06-02 23:58:09] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230602/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 23:58:09] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/2d/d8/b4d7b182e5c3af1fd986e96f768a581125ef84ba386a240030b48083d3d6/pyRealEstate-0.0.2.tar.gz
+[2023-06-02 23:58:09] WARNING root fetch - processPackages [finesse]: Skipping package: exceeds size limit 32399253>=10485760
+[2023-06-02 23:58:09] INFO root fetch - main [MainThread]: End processing [finesse] error
+[2023-06-02 23:58:09] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.6.0.tar.gz tmp/caikit-0.7.0.tar.gz --markdown 20230602/c/caikit/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-02 23:58:09] INFO root fetch - processPackages [xircuits]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [xircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xircuits-1.8.2.tar.gz tmp/xircuits-1.8.3.tar.gz --markdown 20230602/x/xircuits/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-02 23:58:09] INFO root fetch - processPackages [pyRealEstate]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [pyRealEstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRealEstate-0.0.1.tar.gz tmp/pyRealEstate-0.0.2.tar.gz --markdown 20230602/p/pyRealEstate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 23:58:09] INFO root fetch - processPackages [yo]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [yo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yo-1.0.2.tar.gz tmp/yo-1.0.3.tar.gz --markdown 20230602/y/yo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 23:58:09] INFO root fetch - processPackages [liveports]: executing diffoscope
+[2023-06-02 23:58:09] INFO root fetch - processPackages [liveports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveports-0.1.1.tar.gz tmp/liveports-0.1.2.tar.gz --markdown 20230602/l/liveports/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 23:58:10] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
+[2023-06-02 23:58:11] INFO root fetch - main [MainThread]: End processing [liveports]: success
+[2023-06-02 23:58:11] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-06-02 23:58:12] INFO root fetch - main [MainThread]: End processing [yo]: success
+[2023-06-02 23:58:12] INFO root fetch - main [MainThread]: End processing [xircuits]: success
+[2023-06-02 23:58:12] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-06-02 23:58:12] INFO root fetch - main [MainThread]: Store serial: [18353658]
