@@ -15737,3 +15737,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 16:24:40] INFO root fetch - main [MainThread]: End processing [cloudsmith-api]: success
 [2023-06-02 16:24:51] INFO root fetch - main [MainThread]: End processing [invenio-requests]: success
 [2023-06-02 16:24:51] INFO root fetch - main [MainThread]: Store serial: [18349657]
+[2023-06-02 16:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349657]
+[2023-06-02 16:30:01] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kayobe
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-vault
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolla
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-vite
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monte-barcode
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wombo
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quartodoc
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-equilibrium
+[2023-06-02 16:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satori-ci
+[2023-06-02 16:30:01] INFO root fetch - processPackages [kolla]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [python-equilibrium]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [wombo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [django-vite]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [quartodoc]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [monte-barcode]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [kolla]: executing diffoscope
+[2023-06-02 16:30:01] INFO root fetch - processPackages [kolla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-9.3.1.tar.gz tmp/kolla-9.4.0.tar.gz --markdown 20230602/k/kolla/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-06-02 16:30:01] INFO root fetch - processPackages [kayobe]: New version: [9.4.0] Old Version: [9.3.0]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [python-equilibrium]: executing diffoscope
+[2023-06-02 16:30:01] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-06-02 16:30:01] INFO root fetch - processPackages [python-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_equilibrium-0.6.1.tar.gz tmp/python_equilibrium-0.6.2.tar.gz --markdown 20230602/p/python-equilibrium/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] ERROR root fetch - processPackages [wombo]: Unable to fetch info: No such project/version 'wombo' 1.0.3
+[2023-06-02 16:30:02] INFO root fetch - processPackages [wombo]: Start processing: intelicity-library-exemple
+[2023-06-02 16:30:02] INFO root fetch - main [MainThread]: End processing [wombo] error
+[2023-06-02 16:30:02] INFO root fetch - processPackages [django-vite]: Downloading https://files.pythonhosted.org/packages/ba/fa/f811d91d48630f6563ab03b6418eb5a3a5e78e0a44aa91b00ced7374c718/django-vite-2.1.2.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/1c/90/739d93cadb264fa52e9dfd443d377ba940c1e8abc604ca968671b2c7c088/cdktf-cdktf-provider-vault-7.0.2.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/06/6c/7ffd55a900022e2619eeeba1d9e9b28bd544d383c417b77cf0f4a07857fe/quartodoc-0.3.1.tar.gz
+[2023-06-02 16:30:02] WARNING root fetch - processPackages [intelicity-library-exemple]: Skipping, unable to determine old version
+[2023-06-02 16:30:02] INFO root fetch - processPackages [intelicity-library-exemple]: Start processing: PyQt6
+[2023-06-02 16:30:02] INFO root fetch - main [MainThread]: End processing [intelicity-library-exemple] error
+[2023-06-02 16:30:02] INFO root fetch - processPackages [monte-barcode]: Downloading https://files.pythonhosted.org/packages/13/99/7acfa4eed93645013840eb7c92d44c7d9f47aff9da6f81c98ee497bdd6c0/monte-barcode-0.0.2.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [django-vite]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [django-vite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vite-2.1.1.tar.gz tmp/django-vite-2.1.2.tar.gz --markdown 20230602/d/django-vite/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [kayobe]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [kayobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayobe-9.3.0.tar.gz tmp/kayobe-9.4.0.tar.gz --markdown 20230602/k/kayobe/9.3.0-9.4.0/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [PyQt6]: New version: [6.5.1] Old Version: [6.5.0]
+[2023-06-02 16:30:02] INFO root fetch - processPackages [monte-barcode]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/42/4d/18c782f0da185388bde480e82360671a7797aa915b9d737008c60e93b1e0/cdktf-cdktf-provider-opentelekomcloud-6.0.5.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [monte-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monte-barcode-0.0.1.post1.tar.gz tmp/monte-barcode-0.0.2.tar.gz --markdown 20230602/m/monte-barcode/0.0.1.post1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/17/dc/f842bb62727cf5a6fa7d1b9782180be2dd4724d07450db7ffab66541e761/cdktf-cdktf-provider-vault-7.0.3.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230602/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/08/10/28cdcc91c8c7734d98f307312406c1b99d1700e8fe5e5d2589b224b666ab/quartodoc-0.3.3.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.4.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-6.0.5.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-opentelekomcloud/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [PyQt6]: Downloading https://files.pythonhosted.org/packages/28/01/9e4b91cb0c1023934b1dc654c5bbfc29cbabcbf6092f936b74aee46dd637/PyQt6-6.5.0.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [quartodoc]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [quartodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartodoc-0.3.1.tar.gz tmp/quartodoc-0.3.3.tar.gz --markdown 20230602/q/quartodoc/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-06-02 16:30:02] INFO root fetch - processPackages [PyQt6]: Downloading https://files.pythonhosted.org/packages/1c/77/3b14889ac1e677bd5a284e0d003cac873689046e328401d92a927c9cc921/PyQt6-6.5.1.tar.gz
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-06-02 16:30:02] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-7.0.2.tar.gz tmp/cdktf-cdktf-provider-vault-7.0.3.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-vault/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-06-02 16:30:03] INFO root fetch - processPackages [PyQt6]: executing diffoscope
+[2023-06-02 16:30:03] INFO root fetch - processPackages [PyQt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-6.5.0.tar.gz tmp/PyQt6-6.5.1.tar.gz --markdown 20230602/P/PyQt6/6.5.0-6.5.1/diff.md --exclude *.pyd
+[2023-06-02 16:30:03] INFO root fetch - processPackages [python-equilibrium]: Start processing: webgui-jupyter-widgets
+[2023-06-02 16:30:03] INFO root fetch - main [MainThread]: End processing [python-equilibrium]: success
+[2023-06-02 16:30:03] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 16:30:03] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-06-02 16:30:03] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230602/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 16:30:03] INFO root fetch - processPackages [django-vite]: Start processing: panoptic
+[2023-06-02 16:30:03] INFO root fetch - main [MainThread]: End processing [django-vite]: success
+[2023-06-02 16:30:03] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev8]
+[2023-06-02 16:30:03] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-02 16:30:03] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev8.tar.gz tmp/panoptic-0.0.9.dev9.tar.gz --markdown 20230602/p/panoptic/0.0.9.dev8-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-02 16:30:04] INFO root fetch - processPackages [monte-barcode]: Start processing: chatgptwhatsapp
+[2023-06-02 16:30:04] INFO root fetch - main [MainThread]: End processing [monte-barcode]: success
+[2023-06-02 16:30:04] WARNING root fetch - processPackages [chatgptwhatsapp]: Skipping, unable to determine old version
+[2023-06-02 16:30:04] INFO root fetch - processPackages [chatgptwhatsapp]: Start processing: neuralpit
+[2023-06-02 16:30:04] INFO root fetch - main [MainThread]: End processing [chatgptwhatsapp] error
+[2023-06-02 16:30:04] INFO root fetch - processPackages [neuralpit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 16:30:04] INFO root fetch - processPackages [satori-ci]: Start processing: civilpy
+[2023-06-02 16:30:04] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-06-02 16:30:04] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-06-02 16:30:04] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.8.tar.gz tmp/neuralpit-1.0.9.tar.gz --markdown 20230602/n/neuralpit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:30:04] INFO root fetch - processPackages [civilpy]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-06-02 16:30:04] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/15/3b/dad70db397ae590ac14454ab27a51a9037d8e79c9d447e6db4b0cb995ea3/civilpy-0.0.44.tar.gz
+[2023-06-02 16:30:04] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/80/f8/beca7fe5f79e2acb873bef01ce050734121a684b25795d3c1d84d364cb53/civilpy-0.0.45.tar.gz
+[2023-06-02 16:30:05] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-06-02 16:30:05] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.44.tar.gz tmp/civilpy-0.0.45.tar.gz --markdown 20230602/c/civilpy/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-06-02 16:30:05] INFO root fetch - processPackages [neuralpit]: Start processing: kfsd
+[2023-06-02 16:30:05] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-06-02 16:30:05] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Start processing: tab2neo
+[2023-06-02 16:30:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-06-02 16:30:05] INFO root fetch - processPackages [quartodoc]: Start processing: wombo
+[2023-06-02 16:30:05] INFO root fetch - main [MainThread]: End processing [quartodoc]: success
+[2023-06-02 16:30:05] INFO root fetch - processPackages [wombo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 16:30:05] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 16:30:05] INFO root fetch - processPackages [tab2neo]: New version: [1.3.0.0] Old Version: [1.2.5.0]
+[2023-06-02 16:30:05] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/a2/e8/b1ae769ecf537e361163d3448c3808a6c8f7301ba344dcff4044757f0064/wombo-0.1.0.tar.gz
+[2023-06-02 16:30:06] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/24/47/8368bb8b5ddbfa88df9e4483f00207049ef414f148255617550d0a95e454/wombo-0.1.1.tar.gz
+[2023-06-02 16:30:06] INFO root fetch - processPackages [civilpy]: Start processing: static-frame
+[2023-06-02 16:30:06] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-06-02 16:30:06] INFO root fetch - processPackages [tab2neo]: Downloading https://files.pythonhosted.org/packages/da/6e/422b5477e09b7d2644b63ac0a60c29046dc1ff868689de8668afa75c5951/tab2neo-1.3.0.0.tar.gz
+[2023-06-02 16:30:06] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-06-02 16:30:06] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230602/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:30:06] INFO root fetch - processPackages [static-frame]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-02 16:30:06] INFO root fetch - processPackages [tab2neo]: executing diffoscope
+[2023-06-02 16:30:06] INFO root fetch - processPackages [tab2neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tab2neo-1.2.5.0.tar.gz tmp/tab2neo-1.3.0.0.tar.gz --markdown 20230602/t/tab2neo/1.2.5.0-1.3.0.0/diff.md --exclude *.pyd
+[2023-06-02 16:30:06] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 16:30:06] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.0.tar.gz tmp/wombo-0.1.1.tar.gz --markdown 20230602/w/wombo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 16:30:06] INFO root fetch - processPackages [static-frame]: Downloading https://files.pythonhosted.org/packages/47/9b/1cb0338c66167095037b26c6fd9a973513eef5140dda99ad4cfec389afa2/static-frame-1.4.5.tar.gz
+[2023-06-02 16:30:06] INFO root fetch - processPackages [static-frame]: executing diffoscope
+[2023-06-02 16:30:06] INFO root fetch - processPackages [static-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static-frame-1.4.4.tar.gz tmp/static-frame-1.4.5.tar.gz --markdown 20230602/s/static-frame/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-02 16:30:07] INFO root fetch - processPackages [wombo]: Start processing: lixiang90sblog
+[2023-06-02 16:30:07] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 16:30:07] WARNING root fetch - processPackages [lixiang90sblog]: Skipping, unable to determine old version
+[2023-06-02 16:30:07] INFO root fetch - processPackages [lixiang90sblog]: Start processing: dve-lumipy-preview
+[2023-06-02 16:30:07] INFO root fetch - main [MainThread]: End processing [lixiang90sblog] error
+[2023-06-02 16:30:08] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-02 16:30:08] INFO root fetch - main [MainThread]: End processing [tab2neo]: success
+[2023-06-02 16:30:08] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-06-02 16:30:08] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230602/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-02 16:30:08] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-06-02 16:30:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2023-06-02 16:30:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-06-02 16:30:10] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-02 16:30:12] INFO root fetch - main [MainThread]: End processing [static-frame]: success
+[2023-06-02 16:30:15] INFO root fetch - main [MainThread]: End processing [kayobe]: success
+[2023-06-02 16:30:15] INFO root fetch - main [MainThread]: End processing [kolla]: success
+[2023-06-02 16:30:17] INFO root fetch - main [MainThread]: End processing [PyQt6]: success
+[2023-06-02 16:31:06] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-06-02 16:31:06] INFO root fetch - main [MainThread]: Store serial: [18349744]
