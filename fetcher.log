@@ -8741,3 +8741,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:46:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615]: success
 [2023-06-02 08:46:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615-py2]: success
 [2023-06-02 08:46:04] INFO root fetch - main [MainThread]: Store serial: [18345498]
+[2023-06-02 08:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345498]
+[2023-06-02 08:51:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equipparser
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hahomematic
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-escape-url
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glum
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: equipparser
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argos-netbox
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liquid-jsonpath
+[2023-06-02 08:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openla
+[2023-06-02 08:51:14] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.26]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [nonebot-plugin-escape-url]: New version: [0.1.2.post2] Old Version: [0.1.2.post1]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.0.4] Old Version: [16.0.2.0.3.1]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [hahomematic]: New version: [2023.6.0] Old Version: [2023.5.2]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [argos-netbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [liquid-jsonpath]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [openla]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [glum]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/47/af/af92e9807fab7c67fcd74ae37b795180f9e9c416e29950ac3ef4a9ae6d44/jax-tools-1.0.26.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: Downloading https://files.pythonhosted.org/packages/fb/15/31af672239a6d2c7c739e160a96c54ad70594f155aa5efd4671367fd44f6/equipparser-1.0.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: Downloading https://files.pythonhosted.org/packages/fb/15/31af672239a6d2c7c739e160a96c54ad70594f155aa5efd4671367fd44f6/equipparser-1.0.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Downloading https://files.pythonhosted.org/packages/dc/f8/1f5dd71feb90821ea1f7a40ff63f6ddd17f1528615a926c325b3b69306ab/nonebot_plugin_escape_url-0.1.2.post2.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [openla]: Downloading https://files.pythonhosted.org/packages/de/2a/167fa064042eb0f6091b4572c6083ea8aef0914cf47d7a39564b81c9c15d/OpenLA-0.2.8.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [liquid-jsonpath]: Downloading https://files.pythonhosted.org/packages/fb/8b/e00499a9ee65facc67c2214c0e856e90e136f280c4c4496615afce79f8ab/liquid_jsonpath-0.1.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [glum]: Downloading https://files.pythonhosted.org/packages/46/3d/35d5ba7568fdadaf3710cb0ad141bcb0ab801d5fbdc42cf1197747cad109/glum-2.5.1.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/3f/44/d9dd095757e5f2f268b86adb1f0fcfaa1faef1605221bb7847f8c04868e3/hahomematic-2023.5.2.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/aa/2d/1fb5ba156260bd353cd63c38f99cd3a26fde35df90a169a60a667ebd0f66/odoo_addon_l10n_es_aeat-16.0.2.0.4-py3-none-any.whl
+[2023-06-02 08:51:14] WARNING root fetch - processPackages [glum]: Skipping package: exceeds size limit 13067428>=10485760
+[2023-06-02 08:51:14] INFO root fetch - processPackages [glum]: Start processing: wombo
+[2023-06-02 08:51:14] INFO root fetch - main [MainThread]: End processing [glum] error
+[2023-06-02 08:51:14] INFO root fetch - processPackages [argos-netbox]: Downloading https://files.pythonhosted.org/packages/3a/19/f2b792cbaf4ec8186a759ba850d8efbf325e4646c2acf7a00806040aeaeb/argos_netbox-0.1.2.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [wombo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 08:51:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.0.4-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-l10n-es-aeat/16.0.2.0.3.1-16.0.2.0.4/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [nonebot-plugin-escape-url]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [nonebot-plugin-escape-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_escape_url-0.1.2.post1.tar.gz tmp/nonebot_plugin_escape_url-0.1.2.post2.tar.gz --markdown 20230602/n/nonebot-plugin-escape-url/0.1.2.post1-0.1.2.post2/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.26.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230602/j/jax-tools/1.0.26-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: Downloading https://files.pythonhosted.org/packages/a8/30/f90a459510b47fdd2e22361afff3f16c856ba6f7ca4a3d398bdf80e3168f/equipparser-1.0.2.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: Downloading https://files.pythonhosted.org/packages/a8/30/f90a459510b47fdd2e22361afff3f16c856ba6f7ca4a3d398bdf80e3168f/equipparser-1.0.2.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [argos-netbox]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [argos-netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argos_netbox-0.1.1.tar.gz tmp/argos_netbox-0.1.2.tar.gz --markdown 20230602/a/argos-netbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [liquid-jsonpath]: Downloading https://files.pythonhosted.org/packages/cc/a1/5071f4fb06c907b08f78998cc29b7f0374963876b154f3e77d576a2caa21/liquid_jsonpath-0.2.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/83/68/d64ab542d8d3a5f3a24b830120633610b599855ab13102ef4db6b961f6d8/hahomematic-2023.6.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equipparser-1.0.0.tar.gz tmp/equipparser-1.0.2.tar.gz --markdown 20230602/e/equipparser/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [equipparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equipparser-1.0.0.tar.gz tmp/equipparser-1.0.2.tar.gz --markdown 20230602/e/equipparser/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [liquid-jsonpath]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [liquid-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquid_jsonpath-0.1.0.tar.gz tmp/liquid_jsonpath-0.2.0.tar.gz --markdown 20230602/l/liquid-jsonpath/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [openla]: Downloading https://files.pythonhosted.org/packages/53/47/2df311d1c114c13d919afa054298c98773931be9ba35614f953b5ec271b3/openla-0.2.9.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/03/14/750f67ec85500725ceb6492a1d3145da14fe295a214c53e2a66ee25c8adc/wombo-1.0.0.tar.gz
+[2023-06-02 08:51:14] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.5.2.tar.gz tmp/hahomematic-2023.6.0.tar.gz --markdown 20230602/h/hahomematic/2023.5.2-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 08:51:14] INFO root fetch - processPackages [openla]: executing diffoscope
+[2023-06-02 08:51:14] INFO root fetch - processPackages [openla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenLA-0.2.8.tar.gz tmp/openla-0.2.9.tar.gz --markdown 20230602/o/openla/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 08:51:15] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/64/2a/c1f3718b131ccd105e4ab73cf81c70b98d31ad8e593133319aecbe642ef4/wombo-1.0.1.tar.gz
+[2023-06-02 08:51:15] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 08:51:15] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-1.0.0.tar.gz tmp/wombo-1.0.1.tar.gz --markdown 20230602/w/wombo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:51:16] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Start processing: vmngclient
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-escape-url]: success
+[2023-06-02 08:51:16] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [liquid-jsonpath]: success
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 08:51:16] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-06-02 08:51:16] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230602/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [equipparser]: success
+[2023-06-02 08:51:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-06-02 08:51:17] INFO root fetch - main [MainThread]: End processing [openla]: success
+[2023-06-02 08:51:18] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-06-02 08:51:18] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-06-02 08:51:18] INFO root fetch - main [MainThread]: End processing [equipparser]: success
+[2023-06-02 08:51:19] INFO root fetch - main [MainThread]: End processing [argos-netbox]: success
+[2023-06-02 08:51:19] INFO root fetch - main [MainThread]: Store serial: [18345558]
