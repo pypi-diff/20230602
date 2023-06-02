@@ -6194,3 +6194,56 @@
 [2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [apkupload]: success
 [2023-06-02 04:50:45] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-02 04:50:45] INFO root fetch - main [MainThread]: Store serial: [18343938]
+[2023-06-02 04:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343938]
+[2023-06-02 04:55:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructprompt
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TorchSisso
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-github
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PrSpiders
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pref-voting
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: virtualenv-tools3
+[2023-06-02 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instructprompt
+[2023-06-02 04:55:54] INFO root fetch - processPackages [PrSpiders]: New version: [0.5.2.4] Old Version: [0.5.2.3]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [TorchSisso]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [virtualenv-tools3]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pref-voting]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 04:55:54] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/ed/ca/00824505747d97eb90e86d4423463d906441203ec6d0345cb455e8fcfe53/kubernetes_stubs_elephant_fork-7.0.0-py2.py3-none-any.whl
+[2023-06-02 04:55:54] INFO root fetch - processPackages [TorchSisso]: Downloading https://files.pythonhosted.org/packages/20/37/50311a73ba5e5815b19a07d91c10e50c9a154493495c59a21bd4a30bfc84/TorchSisso-1.0.2.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/17/9b/32329f0f6f9fc199ca151efd653b36913bbe098b386073afa150f8fed76b/pref_voting-0.4.7.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/b9/42/ff5bce5b24843831360ff6ef5284597808183f1f2a6ad3c01f76d709b753/instructprompt-0.1.1.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/b9/42/ff5bce5b24843831360ff6ef5284597808183f1f2a6ad3c01f76d709b753/instructprompt-0.1.1.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/66/d4/d0014e917eb2f1fbc50531acc34ecae124b0c0a294fc76e29bc96837a0a7/PrSpiders-0.5.2.4.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [TorchSisso]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [TorchSisso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchSisso-1.0.1.tar.gz tmp/TorchSisso-1.0.2.tar.gz --markdown 20230602/T/TorchSisso/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [virtualenv-tools3]: Downloading https://files.pythonhosted.org/packages/05/2a/eaa721228dd8caccae7dbc75ebfb01ca706a58e003f0444497f477bc32cd/virtualenv_tools3-3.1.0.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230602/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/2b/f6/f44c9021f19ebc218caaa04e53e7e4f288b668733eb73ba130e8e30499af/kubernetes-stubs-elephant-fork-7.0.1.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.5.2.3.tar.gz tmp/PrSpiders-0.5.2.4.tar.gz --markdown 20230602/P/PrSpiders/0.5.2.3-0.5.2.4/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.6.tar.gz tmp/pref_voting-0.4.7.tar.gz --markdown 20230602/p/pref-voting/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [virtualenv-tools3]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [virtualenv-tools3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv_tools3-3.0.0.tar.gz tmp/virtualenv_tools3-3.1.0.tar.gz --markdown 20230602/v/virtualenv-tools3/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 04:55:54] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes_stubs_elephant_fork-7.0.0-py2.py3-none-any.whl.zip tmp/kubernetes-stubs-elephant-fork-7.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/22/df/68e34236e5c790dc3502d694dff4721e6de1744ff80c3501ee5ddafe671e/instructprompt-0.1.2.tar.gz
+[2023-06-02 04:55:54] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/22/df/68e34236e5c790dc3502d694dff4721e6de1744ff80c3501ee5ddafe671e/instructprompt-0.1.2.tar.gz
+[2023-06-02 04:55:55] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 04:55:55] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 04:55:55] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.1.tar.gz tmp/instructprompt-0.1.2.tar.gz --markdown 20230602/i/instructprompt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 04:55:55] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.1.tar.gz tmp/instructprompt-0.1.2.tar.gz --markdown 20230602/i/instructprompt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 04:55:55] INFO root fetch - main [MainThread]: End processing [TorchSisso]: success
+[2023-06-02 04:55:55] INFO root fetch - main [MainThread]: End processing [virtualenv-tools3]: success
+[2023-06-02 04:55:56] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-06-02 04:55:56] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 04:55:56] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 04:55:56] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 04:55:57] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-06-02 04:55:58] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-02 04:55:58] INFO root fetch - main [MainThread]: Store serial: [18343957]
