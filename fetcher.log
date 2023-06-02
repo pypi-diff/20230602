@@ -8193,3 +8193,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:49:03] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-02 07:49:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-06-02 07:49:13] INFO root fetch - main [MainThread]: Store serial: [18345144]
+[2023-06-02 07:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345144]
+[2023-06-02 07:54:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 07:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baozun-winrobot
+[2023-06-02 07:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drukarnia-api
+[2023-06-02 07:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axion
+[2023-06-02 07:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fipper
+[2023-06-02 07:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmetadata-managed-apis
+[2023-06-02 07:54:23] INFO root fetch - processPackages [fipper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 07:54:23] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.3.0] Old Version: [1.0.2.0]
+[2023-06-02 07:54:23] INFO root fetch - processPackages [axion]: New version: [3.4.1] Old Version: [3.3.4]
+[2023-06-02 07:54:23] INFO root fetch - processPackages [baozun-winrobot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 07:54:23] WARNING root fetch - processPackages [drukarnia-api]: Skipping, unable to determine old version
+[2023-06-02 07:54:23] INFO root fetch - main [MainThread]: End processing [drukarnia-api] error
+[2023-06-02 07:54:23] INFO root fetch - processPackages [baozun-winrobot]: Downloading https://files.pythonhosted.org/packages/a8/57/9d2c3bdb9bc63bdba0f72a405a4ab2d0a38a395d1ad8eae31bef405b7b72/baozun_winrobot-0.0.5.tar.gz
+[2023-06-02 07:54:23] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/71/ca/9678a0431947fe4ab8818497ca8c6ceb44fc560822760c7fd70949b0d5f3/fipper-0.0.3.tar.gz
+[2023-06-02 07:54:23] INFO root fetch - processPackages [baozun-winrobot]: executing diffoscope
+[2023-06-02 07:54:23] INFO root fetch - processPackages [baozun-winrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baozun_winrobot-0.0.4.tar.gz tmp/baozun_winrobot-0.0.5.tar.gz --markdown 20230602/b/baozun-winrobot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 07:54:23] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/fe/bf/6d48143b4f238d4251c00ef49d365d07829f8728cc7942e3589aca4725ec/axion-3.4.1-cp311-cp311-win_amd64.whl
+[2023-06-02 07:54:23] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/c5/1b/e72f7b861ea862aee560eacebe5d5fd72dc7d7ec41e685365a24e370a245/openmetadata_managed_apis-1.0.3.0.tar.gz
+[2023-06-02 07:54:23] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-02 07:54:23] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.2.0.tar.gz tmp/openmetadata_managed_apis-1.0.3.0.tar.gz --markdown 20230602/o/openmetadata-managed-apis/1.0.2.0-1.0.3.0/diff.md --exclude *.pyd
+[2023-06-02 07:54:23] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-06-02 07:54:23] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.2.tar.gz tmp/fipper-0.0.3.tar.gz --markdown 20230602/f/fipper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 07:54:23] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-06-02 07:54:23] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.3.4-cp311-cp311-win_amd64.whl.zip tmp/axion-3.4.1-cp311-cp311-win_amd64.whl.zip --markdown 20230602/a/axion/3.3.4-3.4.1/diff.md --exclude *.pyd
+[2023-06-02 07:54:24] INFO root fetch - main [MainThread]: End processing [baozun-winrobot]: success
+[2023-06-02 07:54:24] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-06-02 07:54:24] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-02 07:54:27] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-06-02 07:54:27] INFO root fetch - main [MainThread]: Store serial: [18345164]
