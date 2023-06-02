@@ -5754,3 +5754,50 @@
 [2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
 [2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [langdash]: success
 [2023-06-02 04:02:57] INFO root fetch - main [MainThread]: Store serial: [18343668]
+[2023-06-02 04:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343668]
+[2023-06-02 04:08:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griptape
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-airticketopen
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown-live-preview
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odb-plotter
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: griptape-tools
+[2023-06-02 04:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-kalite
+[2023-06-02 04:08:06] INFO root fetch - processPackages [odb-plotter]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.6.0b2] Old Version: [2023.6.0b1]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [data-kalite]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [markdown-live-preview]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 04:08:06] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/cb/f3/312c9d1f5ef6750f423fdc0008d57a414bdf7e323f11545368cbf8430d47/aliyun-python-sdk-airticketopen-2.0.0.tar.gz
+[2023-06-02 04:08:06] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c2/fe/3927a6ab689bfbb543a0fb9d485d98edf33cac4b7b44ed7d60f9b95ea838/homeassistant_stubs-2023.6.0b2.tar.gz
+[2023-06-02 04:08:06] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/76/24/7df5c781143b4ed529e77e836f7531523ad7d1e75ef6567a9bb7d0147b4e/odb-plotter-0.5.1.tar.gz
+[2023-06-02 04:08:06] INFO root fetch - processPackages [markdown-live-preview]: Downloading https://files.pythonhosted.org/packages/1c/29/f31e7c288205b8b2486f3eddc9e4c4d46edde209b0b87f51ec8fe0f0c360/markdown-live-preview-0.2.8.tar.gz
+[2023-06-02 04:08:06] INFO root fetch - processPackages [data-kalite]: Downloading https://files.pythonhosted.org/packages/95/a5/a1ac16fc294e252da049f7646b27a721b167e337aa1db2854d3c725a9d18/data_kalite-1.0.1-py3-none-any.whl
+[2023-06-02 04:08:07] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.6.0b1.tar.gz tmp/homeassistant_stubs-2023.6.0b2.tar.gz --markdown 20230602/h/homeassistant-stubs/2023.6.0b1-2023.6.0b2/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/3a/42/f19526b16ed1a03adff78bfa137dc4a2476b8157df658a3161ef8608abe4/aliyun-python-sdk-airticketopen-2.0.1.tar.gz
+[2023-06-02 04:08:07] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230602/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/84/96/322e745b0882f1fe57b7b20f96eb8de7d7a3e660bf785eb8234a3de5ed5e/odb-plotter-0.5.2.tar.gz
+[2023-06-02 04:08:07] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230602/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-2.0.0.tar.gz tmp/aliyun-python-sdk-airticketopen-2.0.1.tar.gz --markdown 20230602/a/aliyun-python-sdk-airticketopen/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [data-kalite]: Downloading https://files.pythonhosted.org/packages/8f/82/e188b1658c33218b2cbad08890f8042db16716c33dd3f1fa3035a7d2555c/data_kalite-1.0.2-py3-none-any.whl
+[2023-06-02 04:08:07] INFO root fetch - processPackages [odb-plotter]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [odb-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odb-plotter-0.5.1.tar.gz tmp/odb-plotter-0.5.2.tar.gz --markdown 20230602/o/odb-plotter/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [data-kalite]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [data-kalite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_kalite-1.0.1-py3-none-any.whl.zip tmp/data_kalite-1.0.2-py3-none-any.whl.zip --markdown 20230602/d/data-kalite/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 04:08:07] INFO root fetch - processPackages [markdown-live-preview]: Downloading https://files.pythonhosted.org/packages/07/55/8f90f4e5c5485f7169a5522340bc2901b5569541aa30685859085eca481c/markdown-live-preview-0.2.9.tar.gz
+[2023-06-02 04:08:07] INFO root fetch - processPackages [markdown-live-preview]: executing diffoscope
+[2023-06-02 04:08:07] INFO root fetch - processPackages [markdown-live-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-live-preview-0.2.8.tar.gz tmp/markdown-live-preview-0.2.9.tar.gz --markdown 20230602/m/markdown-live-preview/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 04:08:08] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-02 04:08:08] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-06-02 04:08:08] INFO root fetch - main [MainThread]: End processing [odb-plotter]: success
+[2023-06-02 04:08:08] INFO root fetch - main [MainThread]: End processing [data-kalite]: success
+[2023-06-02 04:08:08] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-02 04:08:09] INFO root fetch - main [MainThread]: End processing [markdown-live-preview]: success
+[2023-06-02 04:08:53] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-02 04:08:53] INFO root fetch - main [MainThread]: Store serial: [18343690]
