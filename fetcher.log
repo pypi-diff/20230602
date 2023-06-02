@@ -13787,3 +13787,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 14:23:38] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-02 14:23:56] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-02 14:23:56] INFO root fetch - main [MainThread]: Store serial: [18348470]
+[2023-06-02 14:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348470]
+[2023-06-02 14:29:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-friesian-spark2
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocf-datapipes
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark2
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark2
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-kis
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparsify
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepsparse-ent
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hcai-nova-server
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-invenio
+[2023-06-02 14:29:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202306021224] Old Version: [99.0.202306020857]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230602] Old Version: [2.4.0b20230601]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [sparsify]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [deepsparse-ent]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [pytest-invenio]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [python-kis]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230602] Old Version: [2.4.0b20230601]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230602] Old Version: [2.4.0b20230601]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 14:29:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ab/07/41c5ab6600b11ec80d16a55939a0a66e2a45dfbb3fe2046f1e031e57c673/kfish-99.0.202306021224-py3-none-any.whl
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/c0/2c/8a847b5f65141e281e68b361d1392a7e8536366ca39f6a9640979930fa84/bigdl_friesian_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl
+[2023-06-02 14:29:06] INFO root fetch - processPackages [sparsify]: Downloading https://files.pythonhosted.org/packages/63/fe/820486174584e4d355f70a8f13e5673d839deabb01c7a1f91d10fa2914f0/sparsify-1.4.0.tar.gz
+[2023-06-02 14:29:06] INFO root fetch - processPackages [pytest-invenio]: Downloading https://files.pythonhosted.org/packages/f6/81/593831c49cc023b193ba3093549e333ba27809c9b24ee3368390563583f6/pytest-invenio-2.1.3.tar.gz
+[2023-06-02 14:29:06] INFO root fetch - processPackages [python-kis]: Downloading https://files.pythonhosted.org/packages/ae/23/9dacf6cef1883a99971049b66c28d8996b965bdfef8db216cc285eae2e44/python_kis-1.0.4-py3-none-any.whl
+[2023-06-02 14:29:06] INFO root fetch - processPackages [deepsparse-ent]: Downloading https://files.pythonhosted.org/packages/bc/47/e9d9fd8d550d1c4ebe04fc618162e9cd228eb7761d51da7c4e199f204e33/deepsparse-ent-1.4.2.tar.gz
+[2023-06-02 14:29:06] WARNING root fetch - processPackages [deepsparse-ent]: Skipping package: exceeds size limit 41659837>=10485760
+[2023-06-02 14:29:06] INFO root fetch - processPackages [deepsparse-ent]: Start processing: hcai-nova-server-nightly
+[2023-06-02 14:29:06] INFO root fetch - main [MainThread]: End processing [deepsparse-ent] error
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl.zip --markdown 20230602/b/bigdl-friesian-spark2/2.4.0b20230601-2.4.0b20230602/diff.md --exclude *.pyd
+[2023-06-02 14:29:06] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/a6/c9/9d8566c889dcf44c3fed194abe21fc77025c6f584202fa32c3fd9a59e54c/hcai-nova-server-0.1.7.tar.gz
+[2023-06-02 14:29:06] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/7a/76/4c097029fa0d61b1703cc067dd3926fe3b82c1dfe2683e5bdb37860f58fe/bigdl_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.8.dev202306021227] Old Version: [0.1.7.dev202306011129]
+[2023-06-02 14:29:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/66/05/0d419bd01b46e4812feef07d0b021cd2b4a9bb1d045a34eca92668ebe4d0/bigdl_chronos_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl
+[2023-06-02 14:29:07] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230602/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306020857-py3-none-any.whl.zip tmp/kfish-99.0.202306021224-py3-none-any.whl.zip --markdown 20230602/k/kfish/99.0.202306020857-99.0.202306021224/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.6.tar.gz tmp/hcai-nova-server-0.1.7.tar.gz --markdown 20230602/h/hcai-nova-server/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl.zip --markdown 20230602/b/bigdl-spark2/2.4.0b20230601-2.4.0b20230602/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230601-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230602-py3-none-manylinux1_x86_64.whl.zip --markdown 20230602/b/bigdl-chronos-spark2/2.4.0b20230601-2.4.0b20230602/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [python-kis]: Downloading https://files.pythonhosted.org/packages/76/4b/319fc25b527461b078cbf3ff71bc4a4f7f1be1e1f76cbea1f6392bfa710c/python_kis-1.0.5-py3-none-any.whl
+[2023-06-02 14:29:07] INFO root fetch - processPackages [pytest-invenio]: Downloading https://files.pythonhosted.org/packages/45/f0/8e0d8a4cfd2c031580cc37e516992d87c6112b27efcacbec038a63b68435/pytest-invenio-2.1.4.tar.gz
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/79/c0/278a820e3fcc0ad1e058440494d7abf4c550ceeb7e3dc2c48e0f1b0fbbb5/hcai-nova-server-nightly-0.1.7.dev202306011129.tar.gz
+[2023-06-02 14:29:07] INFO root fetch - processPackages [pytest-invenio]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [pytest-invenio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-invenio-2.1.3.tar.gz tmp/pytest-invenio-2.1.4.tar.gz --markdown 20230602/p/pytest-invenio/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [python-kis]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [python-kis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_kis-1.0.4-py3-none-any.whl.zip tmp/python_kis-1.0.5-py3-none-any.whl.zip --markdown 20230602/p/python-kis/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/21/d7/c82a19095d9128fc2ad2645ede53286cedcc1871dd3e8fc1302147a19880/hcai-nova-server-nightly-0.1.8.dev202306021227.tar.gz
+[2023-06-02 14:29:07] INFO root fetch - processPackages [sparsify]: Downloading https://files.pythonhosted.org/packages/b4/73/f90e3e05715b945566851d1e2d0680d14580f819b3732de026abc368167a/sparsify-1.5.0.tar.gz
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.7.dev202306011129.tar.gz tmp/hcai-nova-server-nightly-0.1.8.dev202306021227.tar.gz --markdown 20230602/h/hcai-nova-server-nightly/0.1.7.dev202306011129-0.1.8.dev202306021227/diff.md --exclude *.pyd
+[2023-06-02 14:29:07] INFO root fetch - processPackages [sparsify]: executing diffoscope
+[2023-06-02 14:29:07] INFO root fetch - processPackages [sparsify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsify-1.4.0.tar.gz tmp/sparsify-1.5.0.tar.gz --markdown 20230602/s/sparsify/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-02 14:29:08] INFO root fetch - processPackages [kfish]: Start processing: surv-ai
+[2023-06-02 14:29:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-02 14:29:08] INFO root fetch - processPackages [surv-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 14:29:08] INFO root fetch - processPackages [bigdl-spark2]: Start processing: ruiwen-data-all
+[2023-06-02 14:29:08] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-02 14:29:08] INFO root fetch - processPackages [ruiwen-data-all]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-02 14:29:08] INFO root fetch - processPackages [ruiwen-data-all]: Downloading https://files.pythonhosted.org/packages/02/40/6c8c2e8e937a3ac68f8a2d7e0b9ec10bd645db92252d0506d87c33ae55fb/ruiwen_data_all-2.1.0.tar.gz
+[2023-06-02 14:29:09] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-06-02 14:29:09] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.8.tar.gz tmp/surv_ai-0.1.9.tar.gz --markdown 20230602/s/surv-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 14:29:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: pymirror-rmugicag
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-02 14:29:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: rembg
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-02 14:29:09] INFO root fetch - processPackages [hcai-nova-server]: Start processing: yeref
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-02 14:29:09] INFO root fetch - processPackages [ruiwen-data-all]: Downloading https://files.pythonhosted.org/packages/11/93/b6fe53396a99d79a8815ab0f9ec8551d74be0f04d2edb5c17768eb672492/ruiwen_data_all-2.2.0.tar.gz
+[2023-06-02 14:29:09] WARNING root fetch - processPackages [pymirror-rmugicag]: Skipping, unable to determine old version
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [pymirror-rmugicag] error
+[2023-06-02 14:29:09] INFO root fetch - processPackages [rembg]: New version: [2.0.43] Old Version: [2.0.41]
+[2023-06-02 14:29:09] INFO root fetch - processPackages [ruiwen-data-all]: executing diffoscope
+[2023-06-02 14:29:09] INFO root fetch - processPackages [ruiwen-data-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruiwen_data_all-2.1.0.tar.gz tmp/ruiwen_data_all-2.2.0.tar.gz --markdown 20230602/r/ruiwen-data-all/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-02 14:29:09] INFO root fetch - processPackages [yeref]: New version: [0.1.73] Old Version: [0.1.72]
+[2023-06-02 14:29:09] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/ba/d7/ef96d9cc10c400d6ef1d9f5927bfbbc23ed180e9e64ff8d4fb843558ca93/rembg-2.0.41.tar.gz
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [pytest-invenio]: success
+[2023-06-02 14:29:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/04/77/7a1902fc8e6325c96d03627fa302a9b014f2af3b585301dc9dc43032b738/yeref-0.1.73.tar.gz
+[2023-06-02 14:29:09] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/0e/f4/d8de188e2674a99da7436fd40b51136f199ca11f2df69385993bf2d3568c/rembg-2.0.43.tar.gz
+[2023-06-02 14:29:09] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-02 14:29:09] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-02 14:29:09] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.72.tar.gz tmp/yeref-0.1.73.tar.gz --markdown 20230602/y/yeref/0.1.72-0.1.73/diff.md --exclude *.pyd
+[2023-06-02 14:29:09] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-06-02 14:29:09] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.41.tar.gz tmp/rembg-2.0.43.tar.gz --markdown 20230602/r/rembg/2.0.41-2.0.43/diff.md --exclude *.pyd
+[2023-06-02 14:29:10] INFO root fetch - main [MainThread]: End processing [ruiwen-data-all]: success
+[2023-06-02 14:29:10] INFO root fetch - main [MainThread]: End processing [python-kis]: success
+[2023-06-02 14:29:11] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-02 14:29:11] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-06-02 14:29:11] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-06-02 14:29:17] INFO root fetch - main [MainThread]: End processing [sparsify]: success
+[2023-06-02 14:29:17] INFO root fetch - main [MainThread]: Store serial: [18348523]
