@@ -3615,3 +3615,59 @@
 [2023-06-02 03:27:55] INFO root fetch - main [MainThread]: End processing [novelai-api]: success
 [2023-06-02 03:27:55] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2023-06-02 03:27:55] INFO root fetch - main [MainThread]: Store serial: [18342404]
+[2023-06-02 03:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18342404]
+[2023-06-02 03:33:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teleexception
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loadtime
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: posuto
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyots
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pop-llm
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-logs
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOptionPane
+[2023-06-02 03:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flask-identity
+[2023-06-02 03:33:04] WARNING root fetch - processPackages [pop-llm]: Skipping, unable to determine old version
+[2023-06-02 03:33:04] INFO root fetch - main [MainThread]: End processing [pop-llm] error
+[2023-06-02 03:33:04] INFO root fetch - processPackages [loadtime]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [flask-identity]: New version: [1.0.4.dev1] Old Version: [1.0.4]
+[2023-06-02 03:33:04] WARNING root fetch - processPackages [PyOptionPane]: Skipping, unable to determine old version
+[2023-06-02 03:33:04] INFO root fetch - main [MainThread]: End processing [PyOptionPane] error
+[2023-06-02 03:33:04] INFO root fetch - processPackages [posuto]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [pyots]: New version: [9.1.0a1] Old Version: [9.1.0a0]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [teleexception]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [mo-logs]: New version: [8.407.23153] Old Version: [7.403.23150]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-02 03:33:04] INFO root fetch - processPackages [teleexception]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20230602/t/teleexception/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230602/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [loadtime]: Downloading https://files.pythonhosted.org/packages/b6/3a/98b323e40ac5651b0c7a1d14155599bab6b0c3fbaa2479c27c8b3c8a94f5/loadtime-1.0.0.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230602/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [pyots]: Downloading https://files.pythonhosted.org/packages/90/40/ebb61b45bbc8a53589902882cbf93475532822eeef90d4e6c5f40c898fef/pyots-9.1.0a1.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/af/fa/30967801e0f6cd5003ab90f72bf8ffa96eccef9be0673da9e7c8987b8f30/posuto-2023.5.0.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [pyots]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [pyots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyots-9.1.0a0.tar.gz tmp/pyots-9.1.0a1.tar.gz --markdown 20230602/p/pyots/9.1.0a0-9.1.0a1/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [flask-identity]: Downloading https://files.pythonhosted.org/packages/f8/f9/d016f96d6799ed7fbb1a14c607642c397cc97747385afc47659b20215443/flask_identity-1.0.4.dev1.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [loadtime]: Downloading https://files.pythonhosted.org/packages/c4/7e/26d7beb9b1343363b98cbdab933f33be55a264d678559a564f52d93c6f9f/loadtime-1.0.1.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/cf/f2/f21bfdc145c63c7c294d506fde0943f1e9bdfb6b52094321b7b7cbd48b62/mo_logs-8.407.23153-py2.py3-none-any.whl
+[2023-06-02 03:33:04] INFO root fetch - processPackages [flask-identity]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [flask-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_identity-1.0.4.tar.gz tmp/flask_identity-1.0.4.dev1.tar.gz --markdown 20230602/f/flask-identity/1.0.4-1.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/56/11/73df6a98569c9f0b7b203ab9b253e785cdedd7ba08ef23679a9493590f14/posuto-2023.6.0.tar.gz
+[2023-06-02 03:33:04] INFO root fetch - processPackages [loadtime]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [loadtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadtime-1.0.0.tar.gz tmp/loadtime-1.0.1.tar.gz --markdown 20230602/l/loadtime/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 03:33:04] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2023-06-02 03:33:04] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-7.403.23150-py2.py3-none-any.whl.zip tmp/mo_logs-8.407.23153-py2.py3-none-any.whl.zip --markdown 20230602/m/mo-logs/7.403.23150-8.407.23153/diff.md --exclude *.pyd
+[2023-06-02 03:33:05] INFO root fetch - processPackages [posuto]: executing diffoscope
+[2023-06-02 03:33:05] INFO root fetch - processPackages [posuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posuto-2023.5.0.tar.gz tmp/posuto-2023.6.0.tar.gz --markdown 20230602/p/posuto/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 03:33:05] INFO root fetch - main [MainThread]: End processing [teleexception]: success
+[2023-06-02 03:33:06] INFO root fetch - main [MainThread]: End processing [flask-identity]: success
+[2023-06-02 03:33:06] INFO root fetch - main [MainThread]: End processing [loadtime]: success
+[2023-06-02 03:33:06] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2023-06-02 03:33:06] INFO root fetch - main [MainThread]: End processing [pyots]: success
+[2023-06-02 03:33:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-02 03:33:08] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-02 03:33:18] INFO root fetch - main [MainThread]: End processing [posuto]: success
+[2023-06-02 03:33:18] INFO root fetch - main [MainThread]: Store serial: [18342458]
