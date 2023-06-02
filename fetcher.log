@@ -12971,3 +12971,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 13:20:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-02 13:20:04] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 13:20:04] INFO root fetch - main [MainThread]: Store serial: [18347941]
+[2023-06-02 13:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347941]
+[2023-06-02 13:25:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegramweb
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-dynamic-sampling-lib
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfed
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfed-macos
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: use-case
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Products.MeetingLalouviere
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchrl-nightly
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: middleware-apm
+[2023-06-02 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensordict-nightly
+[2023-06-02 13:25:13] INFO root fetch - processPackages [use-case]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [telegramweb]: New version: [4.2] Old Version: [4.1]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: New version: [1.2.1a1] Old Version: [1.2.0a3]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [Products.MeetingLalouviere]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230602/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:25:13] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-06-02 13:25:13] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230602/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [use-case]: Downloading https://files.pythonhosted.org/packages/d8/5f/b400cca6353cf124fe79e34c60a31c6979ada8bd2ca82aaf01f5bd05d413/use_case-0.1.0.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230602/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.1-py39-none-any.whl.zip --markdown 20230602/t/tensordict-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/58/5c/2da467a3af999f2bd09d20106124e5a7618a5716fb20f61e62b94a38d1d6/telegramweb-4.2.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: Downloading https://files.pythonhosted.org/packages/55/ae/060c55a0deb902a87c95b64c490bf39efba765b4b97dd1f726446e0ccdff/sentry_dynamic_sampling_lib-1.2.1a1.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/94/20/2bca4a56d5fb6c48c371b4b53c57277e02404054d40268532082e6df2423/torchtnt-nightly-2023.6.1.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/ac/a0/3470ec9a054d153f58b7100a79ef25b13a3bf96122ca416c264720cb2b9b/Products.MeetingLalouviere-4.2.4.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.9.tar.gz tmp/torchtnt-nightly-2023.6.1.tar.gz --markdown 20230602/t/torchtnt-nightly/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/c4/02/a35e339fffffa6d0c40c744b82d8b102947c7f0127de92902be7315f9dce/torchrl_nightly-2023.6.1-cp39-cp39-win_amd64.whl
+[2023-06-02 13:25:14] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-4.1.tar.gz tmp/telegramweb-4.2.tar.gz --markdown 20230602/t/telegramweb/4.1-4.2/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [use-case]: Downloading https://files.pythonhosted.org/packages/39/34/d8e28afc11dca00f0834440da6fa27e7ef5561636e98af17dc1ae72e906d/use_case-0.2.0.tar.gz
+[2023-06-02 13:25:14] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [sentry-dynamic-sampling-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_dynamic_sampling_lib-1.2.0a3.tar.gz tmp/sentry_dynamic_sampling_lib-1.2.1a1.tar.gz --markdown 20230602/s/sentry-dynamic-sampling-lib/1.2.0a3-1.2.1a1/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [Products.MeetingLalouviere]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [Products.MeetingLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingLalouviere-4.2.3.tar.gz tmp/Products.MeetingLalouviere-4.2.4.tar.gz --markdown 20230602/P/Products.MeetingLalouviere/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [use-case]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [use-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/use_case-0.1.0.tar.gz tmp/use_case-0.2.0.tar.gz --markdown 20230602/u/use-case/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/0b/f9/be4a27586ec19b283abe77088495a7151f5a8e8728ff15efc840f2a71496/torchrl_nightly-2023.6.2-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-02 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.1-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.2-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230602/t/torchrl-nightly/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [use-case]: success
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [sentry-dynamic-sampling-lib]: success
+[2023-06-02 13:25:15] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-06-02 13:25:16] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-02 13:25:16] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-02 13:25:18] INFO root fetch - main [MainThread]: End processing [Products.MeetingLalouviere]: success
+[2023-06-02 13:25:19] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-02 13:25:19] INFO root fetch - main [MainThread]: Store serial: [18347975]
