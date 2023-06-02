@@ -14849,3 +14849,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:35:52] INFO root fetch - main [MainThread]: End processing [picca]: success
 [2023-06-02 15:35:56] INFO root fetch - main [MainThread]: End processing [ipyvolume]: success
 [2023-06-02 15:35:56] INFO root fetch - main [MainThread]: Store serial: [18349051]
+[2023-06-02 15:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349051]
+[2023-06-02 15:41:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: temporian
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-iubenda-web
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudproof-anonymization
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvalidators-test
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utracto
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nm-transformers
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyilz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nm-yolov5
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PowDeRUL
+[2023-06-02 15:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flexigurator
+[2023-06-02 15:41:06] INFO root fetch - processPackages [temporian]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-02 15:41:06] WARNING root fetch - processPackages [openvalidators-test]: Skipping, unable to determine old version
+[2023-06-02 15:41:06] INFO root fetch - processPackages [openvalidators-test]: Start processing: fastai-datasets
+[2023-06-02 15:41:06] INFO root fetch - main [MainThread]: End processing [openvalidators-test] error
+[2023-06-02 15:41:06] WARNING root fetch - processPackages [cloudproof-anonymization]: Skipping, unable to determine old version
+[2023-06-02 15:41:06] INFO root fetch - processPackages [pyilz]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [utracto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [cloudproof-anonymization]: Start processing: nwebclient
+[2023-06-02 15:41:06] INFO root fetch - main [MainThread]: End processing [cloudproof-anonymization] error
+[2023-06-02 15:41:06] INFO root fetch - processPackages [django-iubenda-web]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [flexigurator]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 15:41:06] WARNING root fetch - processPackages [nm-transformers]: Skipping, unable to determine old version
+[2023-06-02 15:41:06] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 15:41:06] WARNING root fetch - processPackages [nm-yolov5]: Skipping, unable to determine old version
+[2023-06-02 15:41:06] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [nm-transformers]: Start processing: roadtx
+[2023-06-02 15:41:06] INFO root fetch - main [MainThread]: End processing [nm-transformers] error
+[2023-06-02 15:41:06] INFO root fetch - processPackages [nm-yolov5]: Start processing: remotemanager
+[2023-06-02 15:41:06] INFO root fetch - main [MainThread]: End processing [nm-yolov5] error
+[2023-06-02 15:41:06] INFO root fetch - processPackages [fastai-datasets]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [roadtx]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [remotemanager]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-02 15:41:06] INFO root fetch - processPackages [temporian]: Downloading https://files.pythonhosted.org/packages/cb/a2/09d512af4bf97fd2b600e03aa973ff44d5890158d64dbe055a39398da7a0/temporian-0.0.0-py3-none-any.whl
+[2023-06-02 15:41:06] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/46/cb/be442ffadfa4234205244fe659653b38a9828d640a1216216a4e27714d08/utracto-0.0.8.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [flexigurator]: Downloading https://files.pythonhosted.org/packages/f8/e9/a1bf2b1c28f46037ea521839f1f874160a5b8908fcefbad27f93ed31cd61/flexigurator-0.3.0.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/4f/13/e77a1abd3776de291bfc659f439a45b0d355602b05370507f83d0fffb2d5/pyilz-0.0.7.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [django-iubenda-web]: Downloading https://files.pythonhosted.org/packages/57/1a/071da8104b20d0b3d699cc260366d89953679106f67bc152f0a52ed2f50f/django-iubenda-web-0.0.5.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.6.tar.gz tmp/pyilz-0.0.7.tar.gz --markdown 20230602/p/pyilz/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/5d/92/466d36f16f82fd9cdd36d522c718d2c96593f8213d3fcba66b01cde59489/fastai-datasets-0.0.7.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [roadtx]: Downloading https://files.pythonhosted.org/packages/c2/76/ae5ae9d2c0499524cd1440e16036f52a2ac1b8675b825bd3616cf6176fab/roadtx-1.3.1.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [flexigurator]: Downloading https://files.pythonhosted.org/packages/cd/c5/d062a62ce48cdcc736aceae46d4aeb3902f422d6acab3ccd5b38d0f5cf54/flexigurator-0.3.1.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/88/37/cc48ad90659d7055b0ef628441aa731138b720721783ef82308f6ff1abbe/utracto-0.0.9.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [django-iubenda-web]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [django-iubenda-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-web-0.0.4.tar.gz tmp/django-iubenda-web-0.0.5.tar.gz --markdown 20230602/d/django-iubenda-web/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/ef/7b/31576710bf6f105a58db1005e44bbd9215167705edd826bc8ed280752429/remotemanager-0.6.2.tar.gz
+[2023-06-02 15:41:06] INFO root fetch - processPackages [fastai-datasets]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [fastai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastai-datasets-0.0.6.tar.gz tmp/fastai-datasets-0.0.7.tar.gz --markdown 20230602/f/fastai-datasets/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [roadtx]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [roadtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadtx-1.3.0.tar.gz tmp/roadtx-1.3.1.tar.gz --markdown 20230602/r/roadtx/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [temporian]: Downloading https://files.pythonhosted.org/packages/50/39/d27e1853a544b2442db51bf8bb063d1bda986c1cc2755292a7fffc2ae75d/temporian-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 15:41:06] INFO root fetch - processPackages [flexigurator]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [flexigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexigurator-0.3.0.tar.gz tmp/flexigurator-0.3.1.tar.gz --markdown 20230602/f/flexigurator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.8.tar.gz tmp/utracto-0.0.9.tar.gz --markdown 20230602/u/utracto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:41:06] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-06-02 15:41:06] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.6.1.tar.gz tmp/remotemanager-0.6.2.tar.gz --markdown 20230602/r/remotemanager/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-02 15:41:07] INFO root fetch - processPackages [temporian]: executing diffoscope
+[2023-06-02 15:41:07] INFO root fetch - processPackages [temporian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temporian-0.0.0-py3-none-any.whl.zip tmp/temporian-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/t/temporian/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 15:41:07] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 15:41:07] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 15:41:07] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-02 15:41:07] INFO root fetch - main [MainThread]: End processing [django-iubenda-web]: success
+[2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [flexigurator]: success
+[2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [temporian]: success
+[2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [roadtx]: success
+[2023-06-02 15:41:08] INFO root fetch - main [MainThread]: End processing [fastai-datasets]: success
+[2023-06-02 15:41:09] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-06-02 15:41:09] INFO root fetch - main [MainThread]: Store serial: [18349100]
