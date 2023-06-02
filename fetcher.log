@@ -17682,3 +17682,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 18:16:57] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-02 18:16:58] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-06-02 18:16:58] INFO root fetch - main [MainThread]: Store serial: [18350971]
+[2023-06-02 18:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350971]
+[2023-06-02 18:22:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu117
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: triessentials
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seagal
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongopasswordmanager
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plugget
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-proemail-template
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaparoo-python-package
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-pso-data-validator
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ultralytics-custom
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: engrave
+[2023-06-02 18:22:07] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [kaparoo-python-package]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [plugget]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [triessentials]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [mongopasswordmanager]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ultralytics-custom]: New version: [8.0.112] Old Version: [0.0.0]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [django-proemail-template]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [seagal]: New version: [2.4] Old Version: [2.3]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [engrave]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [google-pso-data-validator]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-02 18:22:07] INFO root fetch - processPackages [ultralytics-custom]: Downloading https://files.pythonhosted.org/packages/9e/0b/6a833dba4907092cf4e5729154bc469640bdfad2c9abb5df9e9dd16ddca5/ultralytics_custom-0.0.0.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [kaparoo-python-package]: Downloading https://files.pythonhosted.org/packages/ff/39/8ec5944a1bb31ae0c63dff171983b0ad15415e906944d0a4a94433e83a81/kaparoo_python_package-0.3.0.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [mongopasswordmanager]: Downloading https://files.pythonhosted.org/packages/41/f3/bceb3f92d1df52941ddf3fd53a7aae8c345f2ab356dff35e650327f54ae6/mongopasswordmanager-1.0.4.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [engrave]: Downloading https://files.pythonhosted.org/packages/40/5c/a505354d9917cf561092058b69c44d034269f4054210a43cc6db5ba94b7a/engrave-2.1.1.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [django-proemail-template]: Downloading https://files.pythonhosted.org/packages/1b/09/3a3350275b7b2437357da6760c34f3a004cd8227c7b4e9317b4209fe4031/django-proemail-template-0.1.9.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [triessentials]: Downloading https://files.pythonhosted.org/packages/b7/f5/85f33d417efde01b4125502aed7f34fa9b58aa26c05352d3ed8c4a283b13/triessentials-0.1.7.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [google-pso-data-validator]: Downloading https://files.pythonhosted.org/packages/67/02/184e36f6e24ef652aefa2a40f4d73f5ae1168e21430b20da83af942fc55e/google-pso-data-validator-3.1.0.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [seagal]: Downloading https://files.pythonhosted.org/packages/63/75/b4a1f5a0a7b3e413fedc73b26f738d518f9f0ea53425e7f89be8a941018f/seagal-2.4.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-02 18:22:07] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-02 18:22:07] INFO root fetch - processPackages [kaparoo-python-package]: executing diffoscope
+[2023-06-02 18:22:07] INFO root fetch - processPackages [kaparoo-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_python_package-0.2.3.tar.gz tmp/kaparoo_python_package-0.3.0.tar.gz --markdown 20230602/k/kaparoo-python-package/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 18:22:07] INFO root fetch - processPackages [mongopasswordmanager]: executing diffoscope
+[2023-06-02 18:22:07] INFO root fetch - processPackages [mongopasswordmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongopasswordmanager-1.0.3.tar.gz tmp/mongopasswordmanager-1.0.4.tar.gz --markdown 20230602/m/mongopasswordmanager/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 18:22:07] INFO root fetch - processPackages [triessentials]: executing diffoscope
+[2023-06-02 18:22:07] INFO root fetch - processPackages [triessentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triessentials-0.1.6.tar.gz tmp/triessentials-0.1.7.tar.gz --markdown 20230602/t/triessentials/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 18:22:07] INFO root fetch - processPackages [engrave]: Downloading https://files.pythonhosted.org/packages/26/8b/ee1fef129418fcaf406f46f11e321eb722f1ae75f5bea543ef5ab52612bc/engrave-2.1.2.tar.gz
+[2023-06-02 18:22:07] INFO root fetch - processPackages [django-proemail-template]: Downloading https://files.pythonhosted.org/packages/a1/c6/dc93d89f46340bdab7246e8a1a0d3cb803f9ca50ef76b690a32da0b7e355/django-proemail-template-0.2.0.tar.gz
+[2023-06-02 18:22:08] INFO root fetch - processPackages [seagal]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [seagal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagal-2.3.tar.gz tmp/seagal-2.4.tar.gz --markdown 20230602/s/seagal/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-02 18:22:08] INFO root fetch - processPackages [django-proemail-template]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [django-proemail-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-proemail-template-0.1.9.tar.gz tmp/django-proemail-template-0.2.0.tar.gz --markdown 20230602/d/django-proemail-template/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 18:22:08] INFO root fetch - processPackages [plugget]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [plugget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugget-0.0.8.tar.gz tmp/plugget-0.0.9.tar.gz --markdown 20230602/p/plugget/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 18:22:08] INFO root fetch - processPackages [google-pso-data-validator]: Downloading https://files.pythonhosted.org/packages/56/f7/a7471ce6e6ac12eeef015b630a0271fb44c40a344907a6ccf5870ac6c031/google-pso-data-validator-3.2.0.tar.gz
+[2023-06-02 18:22:08] INFO root fetch - processPackages [engrave]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [engrave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engrave-2.1.1.tar.gz tmp/engrave-2.1.2.tar.gz --markdown 20230602/e/engrave/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-02 18:22:08] INFO root fetch - processPackages [ultralytics-custom]: Downloading https://files.pythonhosted.org/packages/1f/40/1a110a3266795dad3d28f2dfcf2b74f6fd2ff5e0b3cdc116308e4adafc76/ultralytics_custom-8.0.112.tar.gz
+[2023-06-02 18:22:08] INFO root fetch - processPackages [google-pso-data-validator]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [google-pso-data-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-pso-data-validator-3.1.0.tar.gz tmp/google-pso-data-validator-3.2.0.tar.gz --markdown 20230602/g/google-pso-data-validator/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-02 18:22:08] INFO root fetch - processPackages [ultralytics-custom]: executing diffoscope
+[2023-06-02 18:22:08] INFO root fetch - processPackages [ultralytics-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_custom-0.0.0.tar.gz tmp/ultralytics_custom-8.0.112.tar.gz --markdown 20230602/u/ultralytics-custom/0.0.0-8.0.112/diff.md --exclude *.pyd
+[2023-06-02 18:22:09] INFO root fetch - processPackages [triessentials]: Start processing: pytest-perf
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [triessentials]: success
+[2023-06-02 18:22:09] INFO root fetch - processPackages [pytest-perf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 18:22:09] INFO root fetch - processPackages [mongopasswordmanager]: Start processing: mongopasswordmanager
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [mongopasswordmanager]: success
+[2023-06-02 18:22:09] INFO root fetch - processPackages [mongopasswordmanager]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 18:22:09] INFO root fetch - processPackages [kaparoo-python-package]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [kaparoo-python-package]: success
+[2023-06-02 18:22:09] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 18:22:09] INFO root fetch - processPackages [pytest-perf]: Downloading https://files.pythonhosted.org/packages/4d/95/233c7362c8c5db84b47e5eb87864322e69462c39a7fb6c77d3c7135601b4/pytest-perf-0.9.1.tar.gz
+[2023-06-02 18:22:09] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 18:22:09] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [django-proemail-template]: success
+[2023-06-02 18:22:09] INFO root fetch - processPackages [mongopasswordmanager]: Downloading https://files.pythonhosted.org/packages/e8/0a/be5281a3469a43f610abc51b23c22884a7a47801a29be614343e517cbcdb/mongopasswordmanager-1.0.5.tar.gz
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [engrave]: success
+[2023-06-02 18:22:09] INFO root fetch - processPackages [mongopasswordmanager]: executing diffoscope
+[2023-06-02 18:22:09] INFO root fetch - processPackages [mongopasswordmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongopasswordmanager-1.0.4.tar.gz tmp/mongopasswordmanager-1.0.5.tar.gz --markdown 20230602/m/mongopasswordmanager/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 18:22:09] INFO root fetch - main [MainThread]: End processing [seagal]: success
+[2023-06-02 18:22:10] INFO root fetch - main [MainThread]: End processing [plugget]: success
+[2023-06-02 18:22:10] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-02 18:22:10] INFO root fetch - main [MainThread]: End processing [google-pso-data-validator]: success
+[2023-06-02 18:22:10] INFO root fetch - processPackages [pytest-perf]: Downloading https://files.pythonhosted.org/packages/b5/7d/0010426ff485dfe0e3bd4258b67990925329b7b9d65235f9930292d59e9e/pytest-perf-0.9.2.tar.gz
+[2023-06-02 18:22:10] INFO root fetch - processPackages [pytest-perf]: executing diffoscope
+[2023-06-02 18:22:10] INFO root fetch - processPackages [pytest-perf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-perf-0.9.1.tar.gz tmp/pytest-perf-0.9.2.tar.gz --markdown 20230602/p/pytest-perf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 18:22:10] INFO root fetch - main [MainThread]: End processing [ultralytics-custom]: success
+[2023-06-02 18:22:11] INFO root fetch - main [MainThread]: End processing [mongopasswordmanager]: success
+[2023-06-02 18:22:11] INFO root fetch - main [MainThread]: End processing [pytest-perf]: success
+[2023-06-02 18:22:14] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 18:22:14] INFO root fetch - main [MainThread]: Store serial: [18351005]
