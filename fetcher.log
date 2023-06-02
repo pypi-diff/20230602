@@ -21457,3 +21457,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:00:09] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 23:00:09] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 23:00:09] INFO root fetch - main [MainThread]: Store serial: [18353278]
+[2023-06-02 23:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353278]
+[2023-06-02 23:05:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngy
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smper
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyfrenchtax
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salesforce-codetf
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visyn-core
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weni-rp-apps
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquil
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sessypy
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smper
+[2023-06-02 23:05:18] INFO root fetch - processPackages [salesforce-codetf]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [visyn-core]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [smper]: New version: [3.1] Old Version: [2.3]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [ngy]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [easyfrenchtax]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.4] Old Version: [2.4.3a1]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [smper]: New version: [3.1] Old Version: [2.3]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [sessypy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-06-02 23:05:18] INFO root fetch - processPackages [xklb]: New version: [1.29.8] Old Version: [1.29.7]
+[2023-06-02 23:05:19] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230602/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.29.7.tar.gz tmp/xklb-1.29.8.tar.gz --markdown 20230602/x/xklb/1.29.7-1.29.8/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/337eae86da6e2ab694c3230d54914da53a6a386f57433eaa401350558d7e/visyn_core-2.0.0-py3-none-any.whl
+[2023-06-02 23:05:19] INFO root fetch - processPackages [easyfrenchtax]: Downloading https://files.pythonhosted.org/packages/1b/13/3892953dfd107198efb9700c06bf387fe940e37d3ea7d596ae3bc1c4ef1f/easyfrenchtax-0.0.3.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/33/1e/d954a9c3ce2b63e53ab846f22afe51e80d04eeee2058855e0374db4c6d4b/smper-2.3.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [smper]: Downloading https://files.pythonhosted.org/packages/33/1e/d954a9c3ce2b63e53ab846f22afe51e80d04eeee2058855e0374db4c6d4b/smper-2.3.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [sessypy]: Downloading https://files.pythonhosted.org/packages/bf/fe/0d425402ce1945b399ea5808fac0674f031a8613ad1c399a73f14e47ce11/sessypy-0.0.8.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/1c/4d/27421ec265ee3e5fe82a971561c4cca0f28e0a58019433b37d9233737355/weni_rp_apps-2.4.4.tar.gz
+[2023-06-02 23:05:19] WARNING root fetch - processPackages [smper]: Skipping package: exceeds size limit 20759979>=10485760
+[2023-06-02 23:05:19] WARNING root fetch - processPackages [smper]: Skipping package: exceeds size limit 20759979>=10485760
+[2023-06-02 23:05:19] INFO root fetch - processPackages [smper]: Start processing: yandex-ansible-juggler-test
+[2023-06-02 23:05:19] INFO root fetch - main [MainThread]: End processing [smper] error
+[2023-06-02 23:05:19] INFO root fetch - processPackages [smper]: Start processing: oking
+[2023-06-02 23:05:19] INFO root fetch - main [MainThread]: End processing [smper] error
+[2023-06-02 23:05:19] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.3a1.tar.gz tmp/weni_rp_apps-2.4.4.tar.gz --markdown 20230602/w/weni-rp-apps/2.4.3a1-2.4.4/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-06-02 23:05:19] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/76/f1/d52c24c4e211e0786ddcf7e7f4ac2029dff31b49143ef9c8ff2efb89c33d/salesforce-codetf-0.0.6.4.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [ngy]: Downloading https://files.pythonhosted.org/packages/bc/91/335c7e204ccced430813225e1ec24518603e7ee5c55966c73a3b9716ade4/ngy-1.0.0.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.3.tar.gz tmp/salesforce-codetf-0.0.6.4.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.3-0.0.6.4/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] WARNING root fetch - processPackages [yandex-ansible-juggler-test]: Skipping, unable to determine old version
+[2023-06-02 23:05:19] INFO root fetch - processPackages [yandex-ansible-juggler-test]: Start processing: nlpaf
+[2023-06-02 23:05:19] INFO root fetch - main [MainThread]: End processing [yandex-ansible-juggler-test] error
+[2023-06-02 23:05:19] INFO root fetch - processPackages [ngy]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [ngy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngy-0.9.1.tar.gz tmp/ngy-1.0.0.tar.gz --markdown 20230602/n/ngy/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-06-02 23:05:19] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-06-02 23:05:19] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-06-02 23:05:19] INFO root fetch - processPackages [oking]: Start processing: cppython-pdm
+[2023-06-02 23:05:19] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-02 23:05:19] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/35/0a/c5722e31cffdb7099ca63ce82cb4cc34ca125d600e8f2da276786d50f076/visyn_core-3.0.0-py3-none-any.whl
+[2023-06-02 23:05:19] INFO root fetch - processPackages [sessypy]: Downloading https://files.pythonhosted.org/packages/9d/f2/d711549bdab6c000dc46642ac8dacd0a592c2ea08cf181395a04d0d771b4/sessypy-0.0.9.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [easyfrenchtax]: Downloading https://files.pythonhosted.org/packages/e7/b1/64be83860987c944f083716ae7c3da6d4991e4f44b43ea4cd6693c5df05b/easyfrenchtax-0.0.4.tar.gz
+[2023-06-02 23:05:19] INFO root fetch - processPackages [visyn-core]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [visyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visyn_core-2.0.0-py3-none-any.whl.zip tmp/visyn_core-3.0.0-py3-none-any.whl.zip --markdown 20230602/v/visyn-core/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-06-02 23:05:19] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-06-02 23:05:19] INFO root fetch - processPackages [cppython-pdm]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev8]
+[2023-06-02 23:05:19] INFO root fetch - processPackages [sessypy]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [sessypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sessypy-0.0.8.tar.gz tmp/sessypy-0.0.9.tar.gz --markdown 20230602/s/sessypy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [easyfrenchtax]: executing diffoscope
+[2023-06-02 23:05:19] INFO root fetch - processPackages [easyfrenchtax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyfrenchtax-0.0.3.tar.gz tmp/easyfrenchtax-0.0.4.tar.gz --markdown 20230602/e/easyfrenchtax/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 23:05:19] INFO root fetch - processPackages [cppython-pdm]: Downloading https://files.pythonhosted.org/packages/77/f2/9b07a66e38c083de7106e12328c3e6a81a9995aab2a27f520eeb33740745/cppython-pdm-0.3.1.dev8.tar.gz
+[2023-06-02 23:05:20] INFO root fetch - processPackages [cppython-pdm]: Downloading https://files.pythonhosted.org/packages/a8/87/fe46e91e171630150f7f5a348dcc9a982d229e0ef4898bf43729bb2ca3f3/cppython-pdm-0.3.1.dev9.tar.gz
+[2023-06-02 23:05:20] INFO root fetch - processPackages [cppython-pdm]: executing diffoscope
+[2023-06-02 23:05:20] INFO root fetch - processPackages [cppython-pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-pdm-0.3.1.dev8.tar.gz tmp/cppython-pdm-0.3.1.dev9.tar.gz --markdown 20230602/c/cppython-pdm/0.3.1.dev8-0.3.1.dev9/diff.md --exclude *.pyd
+[2023-06-02 23:05:20] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-06-02 23:05:21] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 23:05:21] INFO root fetch - main [MainThread]: End processing [sessypy]: success
+[2023-06-02 23:05:21] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-02 23:05:21] INFO root fetch - main [MainThread]: End processing [cppython-pdm]: success
+[2023-06-02 23:05:21] INFO root fetch - main [MainThread]: End processing [easyfrenchtax]: success
+[2023-06-02 23:05:22] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
+[2023-06-02 23:05:22] INFO root fetch - main [MainThread]: End processing [ngy]: success
+[2023-06-02 23:05:23] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-02 23:05:23] INFO root fetch - main [MainThread]: Store serial: [18353319]
