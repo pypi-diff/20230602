@@ -8245,3 +8245,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:59:37] INFO root fetch - main [MainThread]: End processing [atgtools]: success
 [2023-06-02 07:59:38] INFO root fetch - main [MainThread]: End processing [ddqa]: success
 [2023-06-02 07:59:38] INFO root fetch - main [MainThread]: Store serial: [18345180]
+[2023-06-02 08:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345180]
+[2023-06-02 08:04:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunwoolabs
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: render-engine-rss
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-sen2like
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peutils
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mwxlib
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: render-engine
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trogon-yapx
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plassembler
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drukarnia-api
+[2023-06-02 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-06-02 08:04:47] INFO root fetch - processPackages [mwxlib]: New version: [0.84.4] Old Version: [0.84.2]
+[2023-06-02 08:04:47] WARNING root fetch - processPackages [sunwoolabs]: Skipping, unable to determine old version
+[2023-06-02 08:04:47] INFO root fetch - processPackages [sunwoolabs]: Start processing: render-engine-microblog
+[2023-06-02 08:04:47] INFO root fetch - main [MainThread]: End processing [sunwoolabs] error
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-rss]: New version: [2023.6.1a1] Old Version: [2023.4.1a2]
+[2023-06-02 08:04:47] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc2] Old Version: [2023.5.0rc1]
+[2023-06-02 08:04:47] WARNING root fetch - processPackages [plassembler]: Skipping, unable to determine old version
+[2023-06-02 08:04:47] WARNING root fetch - processPackages [trogon-yapx]: Skipping, unable to determine old version
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-microblog]: New version: [2023.6.1] Old Version: [2023.4.1a5]
+[2023-06-02 08:04:47] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 08:04:47] INFO root fetch - processPackages [plassembler]: Start processing: temp-proxy-ec2
+[2023-06-02 08:04:47] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 08:04:47] INFO root fetch - main [MainThread]: End processing [plassembler] error
+[2023-06-02 08:04:47] INFO root fetch - processPackages [anyon]: New version: [3.4.0] Old Version: [3.2.4]
+[2023-06-02 08:04:47] INFO root fetch - main [MainThread]: End processing [trogon-yapx] error
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine]: New version: [2023.6.1] Old Version: [2023.5.2a2]
+[2023-06-02 08:04:47] WARNING root fetch - processPackages [temp-proxy-ec2]: Skipping, unable to determine old version
+[2023-06-02 08:04:47] INFO root fetch - main [MainThread]: End processing [temp-proxy-ec2] error
+[2023-06-02 08:04:47] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/d6/63/5a5565c918832572302d765077a309eac3a15403cc39f7262dd30f145f4b/drukarnia-api-0.1.5.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-rss]: Downloading https://files.pythonhosted.org/packages/39/3c/17681792f1eefcd2e75ae1bfadf73f1181768d405666bddb920221468b14/render_engine_rss-2023.4.1a2.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-microblog]: Downloading https://files.pythonhosted.org/packages/f4/44/54c4fd1ddf539b3e69b1a1719eae2eb818e7685fd7e35e53ec7fcc8aae2f/render_engine_microblog-2023.4.1a5.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/99/22/0f0dc928f6a78179d196df226337ee8f4d3a6e558328c91a163240dbf5c3/anyon-3.2.4-cp311-cp311-win_amd64.whl
+[2023-06-02 08:04:47] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/e2/9b/a4f9761fdb5585c1af7dbd1f58bf85dd6f2c94b8e16cdc0cb3bd1d773d29/eodc_faas_sen2like-2023.5.0rc2.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230602/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/93/cb/5971eafcf817e4f306fec8e2cde3177934f1869de07a995af84d3438aeed/mwxlib-0.84.4-py3-none-any.whl
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/82/7a/057b3dc56e0717cea2e1db5f264459a105febdffbc11be3048a8f307cc33/render_engine-2023.6.1.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-rss]: Downloading https://files.pythonhosted.org/packages/22/98/4920bca3d13281187a1619f04d1431763b0777ea52859494a5850c1e3e2a/render_engine_rss-2023.6.1a1.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc1.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc2.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc1-2023.5.0rc2/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-microblog]: Downloading https://files.pythonhosted.org/packages/81/3b/633a0c8f539fb5629e95f40b7047faa7b2817306d06a9166bd1f1fe096e7/render_engine_microblog-2023.6.1.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.84.2-py3-none-any.whl.zip tmp/mwxlib-0.84.4-py3-none-any.whl.zip --markdown 20230602/m/mwxlib/0.84.2-0.84.4/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/f1/4c/6f31f5d64ca259e356f5dcc836ea2e161e505a3d5719da241e2975c94762/drukarnia-api-0.1.6.tar.gz
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-rss]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-rss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_rss-2023.4.1a2.tar.gz tmp/render_engine_rss-2023.6.1a1.tar.gz --markdown 20230602/r/render-engine-rss/2023.4.1a2-2023.6.1a1/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.5.2a2.tar.gz tmp/render_engine-2023.6.1.tar.gz --markdown 20230602/r/render-engine/2023.5.2a2-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-microblog]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [render-engine-microblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_microblog-2023.4.1a5.tar.gz tmp/render_engine_microblog-2023.6.1.tar.gz --markdown 20230602/r/render-engine-microblog/2023.4.1a5-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-02 08:04:47] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.5.tar.gz tmp/drukarnia-api-0.1.6.tar.gz --markdown 20230602/d/drukarnia-api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 08:04:47] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/1f/eb/7081e6bd6c3e2b6797565d9af3e6069941538caee13eeed0aed28a13d6f3/anyon-3.4.0-cp311-cp311-win_amd64.whl
+[2023-06-02 08:04:48] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-02 08:04:48] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.2.4-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.4.0-cp311-cp311-win_amd64.whl.zip --markdown 20230602/a/anyon/3.2.4-3.4.0/diff.md --exclude *.pyd
+[2023-06-02 08:04:48] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [render-engine-microblog]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [render-engine-rss]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-06-02 08:04:49] INFO root fetch - main [MainThread]: Store serial: [18345225]
