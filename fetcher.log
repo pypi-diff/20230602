@@ -18737,3 +18737,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:26:35] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
 [2023-06-02 19:26:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-02 19:26:37] INFO root fetch - main [MainThread]: Store serial: [18351561]
+[2023-06-02 19:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351561]
+[2023-06-02 19:31:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: passlock
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raster-basics
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steamship
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: custom-guardrails
+[2023-06-02 19:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simply-nwb
+[2023-06-02 19:31:47] INFO root fetch - processPackages [Signal8]: New version: [2.3] Old Version: [2.2]
+[2023-06-02 19:31:47] INFO root fetch - processPackages [simply-nwb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 19:31:47] WARNING root fetch - processPackages [custom-guardrails]: Skipping, unable to determine old version
+[2023-06-02 19:31:47] INFO root fetch - processPackages [passlock]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-02 19:31:47] INFO root fetch - main [MainThread]: End processing [custom-guardrails] error
+[2023-06-02 19:31:47] INFO root fetch - processPackages [autora]: New version: [3.0.1] Old Version: [3.0.0rc3]
+[2023-06-02 19:31:47] INFO root fetch - processPackages [raster-basics]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-02 19:31:47] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-02 19:31:47] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.3.0] Old Version: [2023.6.2.1]
+[2023-06-02 19:31:47] INFO root fetch - processPackages [simply-nwb]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [simply-nwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply_nwb-0.1.1.tar.gz tmp/simply_nwb-0.1.2.tar.gz --markdown 20230602/s/simply-nwb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230602/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [raster-basics]: Downloading https://files.pythonhosted.org/packages/d0/5c/9e2b1bee2a387d88e93326cc3b957dca1b1aa3108202d44effd886d92e16/raster_basics-1.2.8.tar.gz
+[2023-06-02 19:31:47] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/eb/ea/3ca19f9bfd219e391b37447ff01f0ecd0305c5a9ec1c8e676673350a3c02/autora-3.0.1.tar.gz
+[2023-06-02 19:31:47] INFO root fetch - processPackages [passlock]: Downloading https://files.pythonhosted.org/packages/53/a8/652767a4f0fd84a11e2b19b8eee193a3ab3ff5c2aa5b774b6480ed5d9672/passlock-1.0.8.tar.gz
+[2023-06-02 19:31:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/e4/a7/71a57606546da6d6d26f2727917cf8d2b2e2b299d8279169c5483b41e6a0/crazy-thursday-2023.6.3.0.tar.gz
+[2023-06-02 19:31:47] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1b/58/061c5a8c0d2f6b82d1267ed812ab10777ef35050a09435a201f5c488f02d/Signal8-2.3.tar.gz
+[2023-06-02 19:31:47] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.2.1.tar.gz tmp/crazy-thursday-2023.6.3.0.tar.gz --markdown 20230602/c/crazy-thursday/2023.6.2.1-2023.6.3.0/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.2.tar.gz tmp/Signal8-2.3.tar.gz --markdown 20230602/S/Signal8/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0rc3.tar.gz tmp/autora-3.0.1.tar.gz --markdown 20230602/a/autora/3.0.0rc3-3.0.1/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [raster-basics]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [raster-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_basics-1.2.7.tar.gz tmp/raster_basics-1.2.8.tar.gz --markdown 20230602/r/raster-basics/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-02 19:31:47] INFO root fetch - processPackages [passlock]: executing diffoscope
+[2023-06-02 19:31:47] INFO root fetch - processPackages [passlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passlock-1.0.7.tar.gz tmp/passlock-1.0.8.tar.gz --markdown 20230602/p/passlock/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-02 19:31:48] INFO root fetch - main [MainThread]: End processing [simply-nwb]: success
+[2023-06-02 19:31:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-02 19:31:48] INFO root fetch - main [MainThread]: End processing [raster-basics]: success
+[2023-06-02 19:31:48] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-02 19:31:48] INFO root fetch - main [MainThread]: End processing [passlock]: success
+[2023-06-02 19:31:49] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-06-02 19:31:50] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-02 19:31:50] INFO root fetch - main [MainThread]: Store serial: [18351587]
