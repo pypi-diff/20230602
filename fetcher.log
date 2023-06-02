@@ -3671,3 +3671,39 @@
 [2023-06-02 03:33:08] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-02 03:33:18] INFO root fetch - main [MainThread]: End processing [posuto]: success
 [2023-06-02 03:33:18] INFO root fetch - main [MainThread]: Store serial: [18342458]
+[2023-06-02 03:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18342458]
+[2023-06-02 03:38:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scotthsieh-projen-statemachine
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nimblephysics
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SPAIC
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-06-02 03:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-phal-plugin-core-updater
+[2023-06-02 03:38:28] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [SPAIC]: New version: [0.6.2.0.0] Old Version: [0.6.1a0]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.1.1a1] Old Version: [1.0.1a5]
+[2023-06-02 03:38:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-02 03:38:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230602/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:38:28] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-02 03:38:28] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/8f/4c/ee14d0f1b91df40fa09d550d9eb7a2e7e52b051c9ed940e52029d4d05152/nimblephysics-0.9.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 03:38:28] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230602/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:38:28] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-02 03:38:28] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230602/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-02 03:38:28] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67822142>=10485760
+[2023-06-02 03:38:28] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-02 03:38:28] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/a7/fa/378f98ee2c9686180f13d09d708d3418ee5baf9b576cea2a2ec6e9bfad0a/neon_phal_plugin_core_updater-1.1.1a1-py3-none-any.whl
+[2023-06-02 03:38:28] INFO root fetch - processPackages [SPAIC]: Downloading https://files.pythonhosted.org/packages/66/79/236f185871a16aff11e0b20c54de6791335031f09edcf8496c2f3a4dc96d/SPAIC-0.6.1a0.tar.gz
+[2023-06-02 03:38:28] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-02 03:38:28] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.0.1a5-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.1.1a1-py3-none-any.whl.zip --markdown 20230602/n/neon-phal-plugin-core-updater/1.0.1a5-1.1.1a1/diff.md --exclude *.pyd
+[2023-06-02 03:38:28] INFO root fetch - processPackages [SPAIC]: Downloading https://files.pythonhosted.org/packages/07/8a/0a83b266d604dc5c049c1b3e6ccbf69da9eff4c4c7b2c1cc1151478624b9/SPAIC-0.6.2.0.0.tar.gz
+[2023-06-02 03:38:29] INFO root fetch - processPackages [SPAIC]: executing diffoscope
+[2023-06-02 03:38:29] INFO root fetch - processPackages [SPAIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPAIC-0.6.1a0.tar.gz tmp/SPAIC-0.6.2.0.0.tar.gz --markdown 20230602/S/SPAIC/0.6.1a0-0.6.2.0.0/diff.md --exclude *.pyd
+[2023-06-02 03:38:29] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-02 03:38:29] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-02 03:38:31] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-02 03:38:31] INFO root fetch - main [MainThread]: End processing [SPAIC]: success
+[2023-06-02 03:40:27] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-02 03:40:27] INFO root fetch - main [MainThread]: Store serial: [18342478]
