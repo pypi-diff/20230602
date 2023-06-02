@@ -18245,3 +18245,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 18:56:53] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-06-02 18:56:56] INFO root fetch - main [MainThread]: End processing [holoviews]: success
 [2023-06-02 18:56:56] INFO root fetch - main [MainThread]: Store serial: [18351257]
+[2023-06-02 19:02:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351257]
+[2023-06-02 19:02:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hlink
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyquil
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-heti-plugin
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: patchwork-node
+[2023-06-02 19:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opendata-kr
+[2023-06-02 19:02:06] INFO root fetch - processPackages [hlink]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [iamlistening]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [mkdocs-heti-plugin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.0b3] Old Version: [2023.6.0b2]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [patchwork-node]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [opendata-kr]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [kodexa]: New version: [6.2.25157842592] Old Version: [6.2.25147946441]
+[2023-06-02 19:02:06] INFO root fetch - processPackages [hlink]: Downloading https://files.pythonhosted.org/packages/12/c2/8f665b9bb883ab31d0ec017a9e0252f8dcd5c10d19a9b1038242384ab9f6/hlink-3.3.0.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [mkdocs-heti-plugin]: Downloading https://files.pythonhosted.org/packages/ae/ff/269bec76a36e3a7e6aac1398ec86086ecde3054ba078d92641355616b527/mkdocs-heti-plugin-0.1.3.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/92/f0/1596e1f8d61a62b2d305d8f4d9d11861e6a678f8e61dc35c961ca50fb8a9/iamlistening-0.1.3.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/e0/ee/7db9c916d3b250fd9e8d45dc56189eba1c5ff79c7c0bfa0c4c44a689bbab/homeassistant-2023.6.0b2.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [patchwork-node]: Downloading https://files.pythonhosted.org/packages/cc/0b/d32c7bcd4e8313a086d4ba01398c948e1caf5769ee218b33cd2366cd5707/patchwork-node-0.1.2.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/65/f3/8bfa4b92519db81e5ae90f37b48886ee04e12081768346aa52fe6dd1a26b/kodexa-6.2.25157842592.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [opendata-kr]: Downloading https://files.pythonhosted.org/packages/27/94/d2b3e3af4d04b99ac09a1c9484460333d1cc37efe5592a5bdbde5d186aa0/opendata_kr-0.0.4-py3-none-any.whl
+[2023-06-02 19:02:06] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14186661>=10485760
+[2023-06-02 19:02:06] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-02 19:02:06] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.1.2.tar.gz tmp/iamlistening-0.1.3.tar.gz --markdown 20230602/i/iamlistening/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 19:02:06] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25147946441.tar.gz tmp/kodexa-6.2.25157842592.tar.gz --markdown 20230602/k/kodexa/6.2.25147946441-6.2.25157842592/diff.md --exclude *.pyd
+[2023-06-02 19:02:06] INFO root fetch - processPackages [mkdocs-heti-plugin]: Downloading https://files.pythonhosted.org/packages/48/3d/91d32792368d1d8385df2e7c0cfca9ce609ce0a918e5eb55a9e6da94926d/mkdocs-heti-plugin-0.1.4.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230602/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-06-02 19:02:06] INFO root fetch - processPackages [patchwork-node]: Downloading https://files.pythonhosted.org/packages/97/1f/0fa7e754a838bba3009f9b140470f67a071a762bfb5caa9d5ad1d51546c2/patchwork-node-0.1.3.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [mkdocs-heti-plugin]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [mkdocs-heti-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-heti-plugin-0.1.3.tar.gz tmp/mkdocs-heti-plugin-0.1.4.tar.gz --markdown 20230602/m/mkdocs-heti-plugin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 19:02:06] INFO root fetch - processPackages [opendata-kr]: Downloading https://files.pythonhosted.org/packages/f0/87/7a1bdcac8174f443698f2be14e94b58703edf7b5b0cc195c04cbdca4b60b/opendata_kr-0.0.5-py3-none-any.whl
+[2023-06-02 19:02:06] INFO root fetch - processPackages [patchwork-node]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [patchwork-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork-node-0.1.2.tar.gz tmp/patchwork-node-0.1.3.tar.gz --markdown 20230602/p/patchwork-node/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 19:02:06] INFO root fetch - processPackages [hlink]: Downloading https://files.pythonhosted.org/packages/08/13/54f3530cb7ba18a7757b8650bfaa26b6d3319ab0eee61b6913b256d1fee8/hlink-3.3.1.tar.gz
+[2023-06-02 19:02:06] INFO root fetch - processPackages [opendata-kr]: executing diffoscope
+[2023-06-02 19:02:06] INFO root fetch - processPackages [opendata-kr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendata_kr-0.0.4-py3-none-any.whl.zip tmp/opendata_kr-0.0.5-py3-none-any.whl.zip --markdown 20230602/o/opendata-kr/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 19:02:07] INFO root fetch - processPackages [hlink]: executing diffoscope
+[2023-06-02 19:02:07] INFO root fetch - processPackages [hlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hlink-3.3.0.tar.gz tmp/hlink-3.3.1.tar.gz --markdown 20230602/h/hlink/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-06-02 19:02:07] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-06-02 19:02:08] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-02 19:02:08] INFO root fetch - main [MainThread]: End processing [mkdocs-heti-plugin]: success
+[2023-06-02 19:02:08] INFO root fetch - main [MainThread]: End processing [patchwork-node]: success
+[2023-06-02 19:02:08] INFO root fetch - main [MainThread]: End processing [opendata-kr]: success
+[2023-06-02 19:02:10] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-06-02 19:02:13] INFO root fetch - main [MainThread]: End processing [hlink]: success
+[2023-06-02 19:02:13] INFO root fetch - main [MainThread]: Store serial: [18351285]
