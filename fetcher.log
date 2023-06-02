@@ -14301,3 +14301,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:01:47] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
 [2023-06-02 15:01:47] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
 [2023-06-02 15:01:47] INFO root fetch - main [MainThread]: Store serial: [18348761]
+[2023-06-02 15:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348761]
+[2023-06-02 15:06:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spark-Matcher
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: all-fives-domino
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: puppet-warp
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flexigurator
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kevin-toolbox
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kevin-toolbox-dev
+[2023-06-02 15:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-users-resources
+[2023-06-02 15:06:57] INFO root fetch - processPackages [puppet-warp]: New version: [0.2] Old Version: [0.1]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [Spark-Matcher]: New version: [0.3] Old Version: [0.2.4]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [all-fives-domino]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 15:06:57] WARNING root fetch - processPackages [flexigurator]: Skipping, unable to determine old version
+[2023-06-02 15:06:57] INFO root fetch - main [MainThread]: End processing [flexigurator] error
+[2023-06-02 15:06:57] INFO root fetch - processPackages [invenio-users-resources]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 15:06:57] INFO root fetch - processPackages [all-fives-domino]: Downloading https://files.pythonhosted.org/packages/9e/50/f0fe8c72918b654f6e44a54594baf1c16fb9d15abcb075c2c87cf44a1d5f/all-fives-domino-1.0.9.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [puppet-warp]: Downloading https://files.pythonhosted.org/packages/94/62/2b2f451f68d21b9cdae9e9f13443ebcf4b635101d9668f2c146e024fe257/puppet_warp-0.1-py37.py38.py39-none-any.whl
+[2023-06-02 15:06:57] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/2b/bc/0d377bebf0a41a3233db3bb7252ef367c8e8bfa310d115d5c29854634840/invenio-users-resources-1.6.0.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [Spark-Matcher]: Downloading https://files.pythonhosted.org/packages/e3/49/b3728295b55be5cd71ee37833287e3467027fa462248e2cfdd401b0479e1/Spark-Matcher-0.2.4.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2a/35/79576fa6aefbddeb0c3ef353dc334e5e4441204a9253517d987cb2d2c197/fbgemm_gpu_nightly_cpu-2023.6.1-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-02 15:06:57] INFO root fetch - processPackages [all-fives-domino]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [all-fives-domino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/all-fives-domino-1.0.8.tar.gz tmp/all-fives-domino-1.0.9.tar.gz --markdown 20230602/a/all-fives-domino/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230602/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:06:57] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230602/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:06:57] INFO root fetch - processPackages [puppet-warp]: Downloading https://files.pythonhosted.org/packages/0f/b5/b046cf9d97ccfcf97beb6da664169b511761cb66052064e338ff8acbc634/puppet-warp-0.2.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [Spark-Matcher]: Downloading https://files.pythonhosted.org/packages/09/be/00fd5c04e7b37ff9a7d54a4f537980c2be5273c3882d8cd252d7a3b05b92/Spark-Matcher-0.3.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/c9/fa/cc523d5b9388bd79e2bc5e3024f124361beac75eaed11fc932627a0e52b4/invenio-users-resources-1.7.0.tar.gz
+[2023-06-02 15:06:57] INFO root fetch - processPackages [puppet-warp]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [puppet-warp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puppet_warp-0.1-py37.py38.py39-none-any.whl.zip tmp/puppet-warp-0.2.tar.gz --markdown 20230602/p/puppet-warp/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-02 15:06:57] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-1.6.0.tar.gz tmp/invenio-users-resources-1.7.0.tar.gz --markdown 20230602/i/invenio-users-resources/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-02 15:06:57] INFO root fetch - processPackages [Spark-Matcher]: executing diffoscope
+[2023-06-02 15:06:57] INFO root fetch - processPackages [Spark-Matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spark-Matcher-0.2.4.tar.gz tmp/Spark-Matcher-0.3.tar.gz --markdown 20230602/S/Spark-Matcher/0.2.4-0.3/diff.md --exclude *.pyd
+[2023-06-02 15:06:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/97/50/87f29111cdebad4a70a98507d1fb02924b2296c52639ed9172adc4fbfa6e/fbgemm_gpu_nightly_cpu-2023.6.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-02 15:06:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-02 15:06:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.1-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230602/f/fbgemm-gpu-nightly-cpu/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 15:06:59] INFO root fetch - main [MainThread]: End processing [all-fives-domino]: success
+[2023-06-02 15:06:59] INFO root fetch - main [MainThread]: End processing [puppet-warp]: success
+[2023-06-02 15:06:59] INFO root fetch - main [MainThread]: End processing [Spark-Matcher]: success
+[2023-06-02 15:06:59] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-02 15:06:59] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-02 15:07:00] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-06-02 15:07:42] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-02 15:07:42] INFO root fetch - main [MainThread]: Store serial: [18348795]
