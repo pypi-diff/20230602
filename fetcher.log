@@ -19598,3 +19598,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:40:34] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
 [2023-06-02 20:40:37] INFO root fetch - main [MainThread]: End processing [scvi-tools]: success
 [2023-06-02 20:40:37] INFO root fetch - main [MainThread]: Store serial: [18352114]
+[2023-06-02 20:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352114]
+[2023-06-02 20:45:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griptape-tools
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griptape-tools
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskAutom
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngdataforecast
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stripe
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multidyndnscli
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itkwasm-dicom-emscripten
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmdsave
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itkwasm-dicom-wasi
+[2023-06-02 20:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: itkwasm-dicom
+[2023-06-02 20:45:47] INFO root fetch - processPackages [taskAutom]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [ngdataforecast]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [stripe]: New version: [5.5.0b4] Old Version: [5.5.0b3]
+[2023-06-02 20:45:47] WARNING root fetch - processPackages [multidyndnscli]: Skipping, unable to determine old version
+[2023-06-02 20:45:47] INFO root fetch - processPackages [multidyndnscli]: Start processing: AdminToolsDjango
+[2023-06-02 20:45:47] INFO root fetch - main [MainThread]: End processing [multidyndnscli] error
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230602/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-wasi]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-02 20:45:47] WARNING root fetch - processPackages [cmdsave]: Skipping, unable to determine old version
+[2023-06-02 20:45:47] INFO root fetch - main [MainThread]: End processing [cmdsave] error
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230602/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] WARNING root fetch - processPackages [AdminToolsDjango]: Skipping, unable to determine old version
+[2023-06-02 20:45:47] INFO root fetch - main [MainThread]: End processing [AdminToolsDjango] error
+[2023-06-02 20:45:47] INFO root fetch - processPackages [ngdataforecast]: Downloading https://files.pythonhosted.org/packages/e8/de/5c180bd5dc29b21bf824a8d29c0d965bc984afc3a223dc8f9c2e9de7e285/ngdataforecast-0.0.1.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/a7/73/f4e8ee3d94299f7c0cb5673c480ca76a9862853f7389c5c3493debd2eb0d/stripe-5.5.0b4.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/9a/0c/fd51a616cae181345e12dd0636e3ebd6da7d8abfae75eb679c2a170b94e7/taskAutom-8.0.2.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/7a/9b/e69a7ea0f9dbe43352ce727bfae1f59942a96143ad182f3a92680262abe2/itkwasm_dicom_emscripten-2.1.0.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/82/2a/1282bbf9a6115576770206f2098ea0cd995669a904fdf686565358ea8a28/itkwasm_dicom_wasi-2.1.0.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-5.5.0b3.tar.gz tmp/stripe-5.5.0b4.tar.gz --markdown 20230602/s/stripe/5.5.0b3-5.5.0b4/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-8.0.1.tar.gz tmp/taskAutom-8.0.2.tar.gz --markdown 20230602/t/taskAutom/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_emscripten-2.0.3.tar.gz tmp/itkwasm_dicom_emscripten-2.1.0.tar.gz --markdown 20230602/i/itkwasm-dicom-emscripten/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/4a/a5/51f796992039bd8ce2398df4d6241f19eb225db8b176bf4e593bab3064d7/itkwasm_dicom-2.1.0.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [ngdataforecast]: Downloading https://files.pythonhosted.org/packages/e4/13/8c5ac131397c667da112d3ca56d891dbcb4e18483496893895f1ce297569/ngdataforecast-0.0.2.tar.gz
+[2023-06-02 20:45:47] INFO root fetch - processPackages [ngdataforecast]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [ngdataforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngdataforecast-0.0.1.tar.gz tmp/ngdataforecast-0.0.2.tar.gz --markdown 20230602/n/ngdataforecast/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom]: executing diffoscope
+[2023-06-02 20:45:47] INFO root fetch - processPackages [itkwasm-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom-2.0.3.tar.gz tmp/itkwasm_dicom-2.1.0.tar.gz --markdown 20230602/i/itkwasm-dicom/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-02 20:45:48] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-02 20:45:48] INFO root fetch - processPackages [itkwasm-dicom-wasi]: executing diffoscope
+[2023-06-02 20:45:48] INFO root fetch - processPackages [itkwasm-dicom-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_wasi-2.0.3.tar.gz tmp/itkwasm_dicom_wasi-2.1.0.tar.gz --markdown 20230602/i/itkwasm-dicom-wasi/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-02 20:45:48] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-02 20:45:48] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-emscripten]: success
+[2023-06-02 20:45:48] INFO root fetch - main [MainThread]: End processing [ngdataforecast]: success
+[2023-06-02 20:45:49] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom]: success
+[2023-06-02 20:45:49] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-06-02 20:45:51] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2023-06-02 20:47:38] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
+[2023-06-02 20:47:38] INFO root fetch - main [MainThread]: Store serial: [18352148]
