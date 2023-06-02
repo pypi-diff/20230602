@@ -9577,3 +9577,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:55:19] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
 [2023-06-02 09:56:10] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
 [2023-06-02 09:56:10] INFO root fetch - main [MainThread]: Store serial: [18345988]
+[2023-06-02 10:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345988]
+[2023-06-02 10:01:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuefig
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agconnect
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-fieldservice-account
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fusionlab
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voxcell
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shopee-mesos-cli-template
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-06-02 10:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqla-inspect
+[2023-06-02 10:01:19] INFO root fetch - processPackages [fusionlab]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 10:01:19] INFO root fetch - processPackages [cuefig]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 10:01:19] INFO root fetch - processPackages [voxcell]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-06-02 10:01:19] WARNING root fetch - processPackages [shopee-mesos-cli-template]: Skipping, unable to determine old version
+[2023-06-02 10:01:19] INFO root fetch - main [MainThread]: End processing [shopee-mesos-cli-template] error
+[2023-06-02 10:01:19] INFO root fetch - processPackages [sqla-inspect]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-02 10:01:19] INFO root fetch - processPackages [agconnect]: New version: [1.3.0.300] Old Version: [1.2.0.300]
+[2023-06-02 10:01:19] INFO root fetch - processPackages [odoo14-addon-fieldservice-account]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.3.dev1]
+[2023-06-02 10:01:19] INFO root fetch - processPackages [irene-pro]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-06-02 10:01:20] INFO root fetch - processPackages [odoo14-addon-fieldservice-account]: Downloading https://files.pythonhosted.org/packages/36/5d/464c74d08b9df5b3addaf72acb4039452165d5369bf9622674e852d970f2/odoo14_addon_fieldservice_account-14.0.1.2.3.dev1-py3-none-any.whl
+[2023-06-02 10:01:20] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/5e/32/29ecfdd4d0dabc785a49a86376ccd754fb74684639b5c1a8627d7d9647e1/fusionlab-0.1.2.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [agconnect]: Downloading https://files.pythonhosted.org/packages/86/b2/5e45a5d018ef80930bcfe178e058d865ae26ca62a6783095b3f7180f57f9/agconnect-1.2.0.300.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [voxcell]: Downloading https://files.pythonhosted.org/packages/ff/79/72eddca07f20dac8dbf648ff515a6c0d885f99997b402ef23801b8c9501c/voxcell-3.1.4.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [sqla-inspect]: Downloading https://files.pythonhosted.org/packages/9a/8f/96a45e3523e90b8e682a2e7c205ffd58df05db82b8570e3d753f9408deaf/sqla_inspect-0.7.4.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [fusionlab]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [fusionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionlab-0.1.1.tar.gz tmp/fusionlab-0.1.2.tar.gz --markdown 20230602/f/fusionlab/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [cuefig]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [cuefig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuefig-0.0.8.tar.gz tmp/cuefig-0.0.9.tar.gz --markdown 20230602/c/cuefig/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/1c/1d/29fce431dd0221c069a71285708646bc33fda017715de9c0dfb2d75d0abb/irene_pro-0.0.48.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [odoo14-addon-fieldservice-account]: Downloading https://files.pythonhosted.org/packages/d5/4f/bdcd5257132b72699249bfa6cbfd0582a07240a1f64a7ed12e0d38dc2bbc/odoo14_addon_fieldservice_account-14.0.1.3.0-py3-none-any.whl
+[2023-06-02 10:01:20] INFO root fetch - processPackages [agconnect]: Downloading https://files.pythonhosted.org/packages/c6/97/c79b36b3f849406540e0f18b604bd62f867f0c17ddbc61950bd7fa59a9eb/agconnect-1.3.0.300.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [voxcell]: Downloading https://files.pythonhosted.org/packages/f6/f2/09659bb4041fe329f92d353978773827957f571b722e0551aced502462f6/voxcell-3.1.5.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.47.tar.gz tmp/irene_pro-0.0.48.tar.gz --markdown 20230602/i/irene-pro/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [sqla-inspect]: Downloading https://files.pythonhosted.org/packages/b4/73/81bacb0b2f5bc32f6451cc0befe7a4a828d819445d1362140cf33ba302df/sqla_inspect-0.7.5.tar.gz
+[2023-06-02 10:01:20] INFO root fetch - processPackages [odoo14-addon-fieldservice-account]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [odoo14-addon-fieldservice-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_account-14.0.1.2.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_account-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-fieldservice-account/14.0.1.2.3.dev1-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [agconnect]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [agconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agconnect-1.2.0.300.tar.gz tmp/agconnect-1.3.0.300.tar.gz --markdown 20230602/a/agconnect/1.2.0.300-1.3.0.300/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [sqla-inspect]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [sqla-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqla_inspect-0.7.4.tar.gz tmp/sqla_inspect-0.7.5.tar.gz --markdown 20230602/s/sqla-inspect/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-02 10:01:20] INFO root fetch - processPackages [voxcell]: executing diffoscope
+[2023-06-02 10:01:20] INFO root fetch - processPackages [voxcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxcell-3.1.4.tar.gz tmp/voxcell-3.1.5.tar.gz --markdown 20230602/v/voxcell/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-06-02 10:01:21] INFO root fetch - main [MainThread]: End processing [cuefig]: success
+[2023-06-02 10:01:21] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-02 10:01:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-account]: success
+[2023-06-02 10:01:21] INFO root fetch - main [MainThread]: End processing [voxcell]: success
+[2023-06-02 10:01:22] INFO root fetch - main [MainThread]: End processing [agconnect]: success
+[2023-06-02 10:01:22] INFO root fetch - main [MainThread]: End processing [fusionlab]: success
+[2023-06-02 10:01:23] INFO root fetch - main [MainThread]: End processing [sqla-inspect]: success
+[2023-06-02 10:01:23] INFO root fetch - main [MainThread]: Store serial: [18346014]
