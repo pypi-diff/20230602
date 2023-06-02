@@ -8353,3 +8353,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:10:01] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
 [2023-06-02 08:10:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-02 08:10:04] INFO root fetch - main [MainThread]: Store serial: [18345247]
+[2023-06-02 08:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345247]
+[2023-06-02 08:15:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-return-financial-risk
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-risk
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-payment-sheet-financial-risk
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MNN-Internal
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trialbot
+[2023-06-02 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kclvm
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: New version: [15.0.1.5.1] Old Version: [15.0.1.5.0.4]
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-06-02 08:15:13] INFO root fetch - processPackages [kclvm]: New version: [0.5.0.2] Old Version: [0.5.0.1]
+[2023-06-02 08:15:13] WARNING root fetch - processPackages [MNN-Internal]: Skipping, unable to determine old version
+[2023-06-02 08:15:13] INFO root fetch - main [MainThread]: End processing [MNN-Internal] error
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-account-payment-return-financial-risk]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-06-02 08:15:13] INFO root fetch - processPackages [trialbot]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/b6/91/e8b436457ce7f5366f3f2430b31ffaaa998288d4c131cfbd17c56967c2d5/odoo_addon_account_financial_risk-15.0.1.5.0.4-py3-none-any.whl
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Downloading https://files.pythonhosted.org/packages/d6/4c/202405eb035145a210e314cdc0e0976f804c5da90b7226c43c0f74ae81cb/odoo_addon_sale_payment_sheet_financial_risk-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-02 08:15:13] INFO root fetch - processPackages [odoo-addon-account-payment-return-financial-risk]: Downloading https://files.pythonhosted.org/packages/2c/d0/ddd8a9922aac3c005f0f004dc0d83cf8e976ffc6dd5ba0abd76cdd0e18fa/odoo_addon_account_payment_return_financial_risk-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-02 08:15:13] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/e9/38/53fe9c3dab5f1ef477e02a49b0e4bbc421b16243e161194e0bd1e3081b86/trialbot-0.3.9.1.tar.gz
+[2023-06-02 08:15:13] INFO root fetch - processPackages [kclvm]: Downloading https://files.pythonhosted.org/packages/2d/6a/095fda1afb51ec3e1d73caf0a7e5e62391d5d694634a9d7f20eee964902c/kclvm-0.5.0.2.tar.gz
+[2023-06-02 08:15:13] INFO root fetch - processPackages [kclvm]: executing diffoscope
+[2023-06-02 08:15:13] INFO root fetch - processPackages [kclvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kclvm-0.5.0.1.tar.gz tmp/kclvm-0.5.0.2.tar.gz --markdown 20230602/k/kclvm/0.5.0.1-0.5.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: Downloading https://files.pythonhosted.org/packages/b4/2b/931d94598bb8c1f88d771b7f37d454b98f1694dd8a605c92a0c833d28d8e/odoo_addon_sale_payment_sheet_financial_risk-15.0.1.0.1-py3-none-any.whl
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/29/92/ebfb96db4191c68e4a5fded096dd0861c73f5285eca829694280423d3bc2/odoo_addon_account_financial_risk-15.0.1.5.1-py3-none-any.whl
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-payment-return-financial-risk]: Downloading https://files.pythonhosted.org/packages/e5/0a/ab95dc6857d8d3cdec6bd47a68d2e5e064eb97e8ef734dddb4259b5a1575/odoo_addon_account_payment_return_financial_risk-15.0.1.0.1-py3-none-any.whl
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: executing diffoscope
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_payment_sheet_financial_risk-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_payment_sheet_financial_risk-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-sale-payment-sheet-financial-risk/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-payment-return-financial-risk]: executing diffoscope
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: executing diffoscope
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-payment-return-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return_financial_risk-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return_financial_risk-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-payment-return-financial-risk/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:15:14] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_risk-15.0.1.5.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_financial_risk-15.0.1.5.1-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-financial-risk/15.0.1.5.0.4-15.0.1.5.1/diff.md --exclude *.pyd
+[2023-06-02 08:15:14] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/0b/0a/7e1b71a2922944fb96eff5936d417b46aad45c19a52fbbb4be8f505166ae/trialbot-0.3.9.2.tar.gz
+[2023-06-02 08:15:14] INFO root fetch - processPackages [trialbot]: executing diffoscope
+[2023-06-02 08:15:14] INFO root fetch - processPackages [trialbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trialbot-0.3.9.1.tar.gz tmp/trialbot-0.3.9.2.tar.gz --markdown 20230602/t/trialbot/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-06-02 08:15:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-payment-sheet-financial-risk]: success
+[2023-06-02 08:15:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return-financial-risk]: success
+[2023-06-02 08:15:15] INFO root fetch - main [MainThread]: End processing [trialbot]: success
+[2023-06-02 08:15:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-risk]: success
+[2023-06-02 08:17:04] INFO root fetch - main [MainThread]: End processing [kclvm]: success
+[2023-06-02 08:17:04] INFO root fetch - main [MainThread]: Store serial: [18345265]
