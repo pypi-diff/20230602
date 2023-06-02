@@ -12177,3 +12177,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:31:24] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-06-02 12:31:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-02 12:31:27] INFO root fetch - main [MainThread]: Store serial: [18347538]
+[2023-06-02 12:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347538]
+[2023-06-02 12:36:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otrs-somconnexio
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mltlk
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kiwi-cogs
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daffi-terminals
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huhangkai
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configilm
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddd-subplots
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daffi-terminals
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hybrid-index
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CMRESHandler-NtlmAuth
+[2023-06-02 12:36:36] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [configilm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [kiwi-cogs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [daffi-terminals]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ddd-subplots]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [hybrid-index]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [huhangkai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [daffi-terminals]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [CMRESHandler-NtlmAuth]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-02 12:36:36] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230602/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 12:36:36] ERROR root fetch - processPackages [daffi-terminals]: Unable to fetch info: No such project/version 'daffi-terminals' 1.0.5
+[2023-06-02 12:36:36] ERROR root fetch - processPackages [daffi-terminals]: Unable to fetch info: No such project/version 'daffi-terminals' 1.0.5
+[2023-06-02 12:36:36] INFO root fetch - processPackages [daffi-terminals]: Start processing: eoshep
+[2023-06-02 12:36:36] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 12:36:36] INFO root fetch - processPackages [daffi-terminals]: Start processing: struphy
+[2023-06-02 12:36:36] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 12:36:36] INFO root fetch - processPackages [configilm]: Downloading https://files.pythonhosted.org/packages/6c/1f/d69925b5882795563379ee232a391627954a2884a5e2408a9d6975bef034/configilm-0.4.0.tar.gz
+[2023-06-02 12:36:36] INFO root fetch - processPackages [eoshep]: New version: [1.0.8.dev1253] Old Version: [1.0.8.dev1249]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [hybrid-index]: Downloading https://files.pythonhosted.org/packages/30/9c/c8af8f7f36c153c80faed279547e65ffc09d4ddc49658b32ecd537f25c7f/hybrid_index-0.0.5.tar.gz
+[2023-06-02 12:36:36] INFO root fetch - processPackages [CMRESHandler-NtlmAuth]: Downloading https://files.pythonhosted.org/packages/6f/1f/576350c3284cdd5108cc5e7cc77db0b32a971c7455e1ada151185b62ff28/CMRESHandler-NtlmAuth-1.0.0.tar.gz
+[2023-06-02 12:36:36] INFO root fetch - processPackages [kiwi-cogs]: Downloading https://files.pythonhosted.org/packages/ca/c1/be52c283ac2ac4431f4030ba05dc9d72108cce03c35cf0e4a7d002244497/kiwi_cogs-0.1.1.tar.gz
+[2023-06-02 12:36:36] WARNING root fetch - processPackages [configilm]: Skipping package: exceeds size limit 44800901>=10485760
+[2023-06-02 12:36:36] INFO root fetch - main [MainThread]: End processing [configilm] error
+[2023-06-02 12:36:36] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/97/67/f70391cecb5fae19ddd9492fd22da111e068e70f91689d6b81c564042e50/huhangkai-1.2.0.tar.gz
+[2023-06-02 12:36:36] INFO root fetch - processPackages [ddd-subplots]: Downloading https://files.pythonhosted.org/packages/de/12/7e1d6756e0efbd3035aa1ba7d7c892767810fdec9af3c455fc36e7208f3b/ddd_subplots-1.0.7.tar.gz
+[2023-06-02 12:36:36] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/9a/90/6eeb70808c418693241e03ff36295ccbba0bf988453c28beff164fc576a0/eoshep-1.0.8.dev1249-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-02 12:36:36] INFO root fetch - processPackages [struphy]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-06-02 12:36:36] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-06-02 12:36:36] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.1.9.tar.gz tmp/huhangkai-1.2.0.tar.gz --markdown 20230602/h/huhangkai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 12:36:36] INFO root fetch - processPackages [kiwi-cogs]: executing diffoscope
+[2023-06-02 12:36:36] INFO root fetch - processPackages [kiwi-cogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_cogs-0.1.0.tar.gz tmp/kiwi_cogs-0.1.1.tar.gz --markdown 20230602/k/kiwi-cogs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 12:36:36] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78749064>=10485760
+[2023-06-02 12:36:36] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-06-02 12:36:37] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-06-02 12:36:37] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230602/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-02 12:36:37] INFO root fetch - processPackages [hybrid-index]: executing diffoscope
+[2023-06-02 12:36:37] INFO root fetch - processPackages [hybrid-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_index-0.0.5.tar.gz tmp/hybrid_index-0.1.0.tar.gz --markdown 20230602/h/hybrid-index/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 12:36:37] INFO root fetch - processPackages [CMRESHandler-NtlmAuth]: Downloading https://files.pythonhosted.org/packages/c3/c2/20d9ed33eb66791905b18ecac953b8f494e21f982209a33849d6617f093f/CMRESHandler-NtlmAuth-1.0.1.tar.gz
+[2023-06-02 12:36:37] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/2d/90/9f984dd6b53061e150b1a0732ed388652647305c061288d51e3ef9623e26/struphy-1.9.9.tar.gz
+[2023-06-02 12:36:37] INFO root fetch - processPackages [CMRESHandler-NtlmAuth]: executing diffoscope
+[2023-06-02 12:36:37] INFO root fetch - processPackages [CMRESHandler-NtlmAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMRESHandler-NtlmAuth-1.0.0.tar.gz tmp/CMRESHandler-NtlmAuth-1.0.1.tar.gz --markdown 20230602/C/CMRESHandler-NtlmAuth/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 12:36:37] INFO root fetch - processPackages [ddd-subplots]: Downloading https://files.pythonhosted.org/packages/63/f7/db4147016721344a25472ea8d30ffb64d7f90f468cf24a112e13bd30ef05/ddd_subplots-1.0.9.tar.gz
+[2023-06-02 12:36:37] INFO root fetch - processPackages [ddd-subplots]: executing diffoscope
+[2023-06-02 12:36:37] INFO root fetch - processPackages [ddd-subplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddd_subplots-1.0.7.tar.gz tmp/ddd_subplots-1.0.9.tar.gz --markdown 20230602/d/ddd-subplots/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-06-02 12:36:38] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/e6/de/68771766a7f3cabb1cc30b228d69a234b87bc81629211a5c59c63c2a51aa/struphy-2.0.0.tar.gz
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [hybrid-index]: success
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [kiwi-cogs]: success
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [CMRESHandler-NtlmAuth]: success
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-02 12:36:38] INFO root fetch - main [MainThread]: End processing [ddd-subplots]: success
+[2023-06-02 12:36:38] INFO root fetch - processPackages [struphy]: executing diffoscope
+[2023-06-02 12:36:38] INFO root fetch - processPackages [struphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struphy-1.9.9.tar.gz tmp/struphy-2.0.0.tar.gz --markdown 20230602/s/struphy/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 12:36:39] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-06-02 12:36:44] INFO root fetch - main [MainThread]: End processing [struphy]: success
+[2023-06-02 12:36:44] INFO root fetch - main [MainThread]: Store serial: [18347586]
