@@ -8131,3 +8131,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:43:43] INFO root fetch - main [MainThread]: End processing [h5netcdf]: success
 [2023-06-02 07:43:46] INFO root fetch - main [MainThread]: End processing [django-marina]: success
 [2023-06-02 07:43:46] INFO root fetch - main [MainThread]: Store serial: [18345105]
+[2023-06-02 07:48:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345105]
+[2023-06-02 07:48:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drukarnia-api
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udm-toolbox
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4-api
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-ingestion
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baozun-winrobot
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hfrunner
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snbtlib
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hfrunner
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rolumns
+[2023-06-02 07:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hfrunner
+[2023-06-02 07:48:55] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 07:48:55] WARNING root fetch - processPackages [udm-toolbox]: Skipping, unable to determine old version
+[2023-06-02 07:48:55] INFO root fetch - processPackages [udm-toolbox]: Start processing: gdsfactory
+[2023-06-02 07:48:55] INFO root fetch - main [MainThread]: End processing [udm-toolbox] error
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gpt4-api]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [baozun-winrobot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.3.0] Old Version: [1.0.2.0]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfrunner-0.0.1.tar.gz tmp/hfrunner-0.0.2-py3-none-any.whl.zip --markdown 20230602/h/hfrunner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [snbtlib]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [rolumns]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfrunner-0.0.1.tar.gz tmp/hfrunner-0.0.2-py3-none-any.whl.zip --markdown 20230602/h/hfrunner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [hfrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfrunner-0.0.1.tar.gz tmp/hfrunner-0.0.2-py3-none-any.whl.zip --markdown 20230602/h/hfrunner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/02/ec/d65ba5cce8255f08e83bd40a19d7d004ccd8b117666df4076e5a01793fe7/gpt4-api-0.1.3.tar.gz
+[2023-06-02 07:48:55] ERROR root fetch - processPackages [drukarnia-api]: Unable to fetch info: No such project/version 'drukarnia-api' 0.1.4
+[2023-06-02 07:48:55] INFO root fetch - main [MainThread]: End processing [drukarnia-api] error
+[2023-06-02 07:48:55] INFO root fetch - processPackages [rolumns]: Downloading https://files.pythonhosted.org/packages/f5/c9/92e3d2f73d7c13b6e477d12e5a1c757d0004e2b781767ea2e78928db7766/rolumns-1.1.0-py3-none-any.whl
+[2023-06-02 07:48:55] INFO root fetch - processPackages [baozun-winrobot]: Downloading https://files.pythonhosted.org/packages/d9/b5/3aee33157fe34ed56be4843c317f33fcb193ce1aba8be01d90de0c674658/baozun_winrobot-0.0.4.tar.gz
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/19/7a/869c57dcce75ab2a8760dba6d3edd5ffa888a8bac4455047074cc7f31ed9/gpt4-api-0.1.5.tar.gz
+[2023-06-02 07:48:55] INFO root fetch - processPackages [snbtlib]: Downloading https://files.pythonhosted.org/packages/a9/f6/521858d2e673aeb739d6940adf48c8a560265bdf831cf0517a7a38077090/snbtlib-1.0.0.tar.gz
+[2023-06-02 07:48:55] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/a0/e1/3b755eb71a90f6b67eecb97f3d7a60c231055707d3dab7950740da7227f7/openmetadata-ingestion-1.0.3.0.tar.gz
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.3.tar.gz tmp/gpt4-api-0.1.5.tar.gz --markdown 20230602/g/gpt4-api/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [snbtlib]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [snbtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snbtlib-0.1.0.tar.gz tmp/snbtlib-1.0.0.tar.gz --markdown 20230602/s/snbtlib/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [baozun-winrobot]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [baozun-winrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baozun_winrobot-0.0.3.tar.gz tmp/baozun_winrobot-0.0.4.tar.gz --markdown 20230602/b/baozun-winrobot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.2.0.tar.gz tmp/openmetadata-ingestion-1.0.3.0.tar.gz --markdown 20230602/o/openmetadata-ingestion/1.0.2.0-1.0.3.0/diff.md --exclude *.pyd
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-02 07:48:55] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230602/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-02 07:48:56] INFO root fetch - processPackages [rolumns]: Downloading https://files.pythonhosted.org/packages/ed/39/3071b30d89054ef79c0c6e8b25501eb2140ac3067e9072b70b8c2424c5e3/rolumns-1.1.1-py3-none-any.whl
+[2023-06-02 07:48:56] INFO root fetch - processPackages [rolumns]: executing diffoscope
+[2023-06-02 07:48:56] INFO root fetch - processPackages [rolumns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rolumns-1.1.0-py3-none-any.whl.zip tmp/rolumns-1.1.1-py3-none-any.whl.zip --markdown 20230602/r/rolumns/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-02 07:48:56] INFO root fetch - main [MainThread]: End processing [hfrunner]: success
+[2023-06-02 07:48:56] INFO root fetch - main [MainThread]: End processing [hfrunner]: success
+[2023-06-02 07:48:56] INFO root fetch - main [MainThread]: End processing [hfrunner]: success
+[2023-06-02 07:48:57] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-02 07:48:57] INFO root fetch - main [MainThread]: End processing [snbtlib]: success
+[2023-06-02 07:48:57] INFO root fetch - main [MainThread]: End processing [baozun-winrobot]: success
+[2023-06-02 07:48:57] INFO root fetch - main [MainThread]: End processing [rolumns]: success
+[2023-06-02 07:49:03] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-02 07:49:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-02 07:49:13] INFO root fetch - main [MainThread]: Store serial: [18345144]
