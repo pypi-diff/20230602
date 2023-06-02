@@ -6151,3 +6151,46 @@
 [2023-06-02 04:45:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-date-due]: success
 [2023-06-02 04:45:24] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-02 04:45:24] INFO root fetch - main [MainThread]: Store serial: [18343915]
+[2023-06-02 04:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343915]
+[2023-06-02 04:50:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySpeedMacro
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pref-voting
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-banking-mandate
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-purchase
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-bank-payment
+[2023-06-02 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apkupload
+[2023-06-02 04:50:39] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230602] Old Version: [1.2.20230601]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [PySpeedMacro]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [pref-voting]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.4]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: executing diffoscope
+[2023-06-02 04:50:39] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-payment-purchase/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-02 04:50:39] INFO root fetch - processPackages [odoo-addons-oca-bank-payment]: New version: [16.0.20230601.0] Old Version: [16.0.20230527.0]
+[2023-06-02 04:50:39] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/f7/cc/5e5f81aa4421026b7893cd501be98987721d500fad4014cfe697517fc23c/PySpeedMacro-0.0.0.7.tar.gz
+[2023-06-02 04:50:39] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/3b/7e/90e231d39ca466985b3525ad1faec5a59bbc9c64230727484b8d00870dde/pref_voting-0.4.6.tar.gz
+[2023-06-02 04:50:40] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/0c/2b/6d0507c2b71adb3e1a8327ff7d7b700a8fbd5ed038c6547c355eb5858087/iam_actions-1.2.20230602.tar.gz
+[2023-06-02 04:50:40] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.5.tar.gz tmp/pref_voting-0.4.6.tar.gz --markdown 20230602/p/pref-voting/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-02 04:50:40] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-banking-mandate/16.0.1.0.2.4-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-06-02 04:50:40] INFO root fetch - processPackages [odoo-addons-oca-bank-payment]: Downloading https://files.pythonhosted.org/packages/3d/ff/3b6d69166966e248d7e376cba4c6e1a710a5f094e916ac2927469f9ee8b0/odoo_addons_oca_bank_payment-16.0.20230601.0-py3-none-any.whl
+[2023-06-02 04:50:40] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/b0/3a/222360387697276a2a03e0ec0bcd8376612564bafc31bc0ee66e28918c91/PySpeedMacro-0.0.0.8.tar.gz
+[2023-06-02 04:50:40] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230602/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 04:50:40] INFO root fetch - processPackages [odoo-addons-oca-bank-payment]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [odoo-addons-oca-bank-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_bank_payment-16.0.20230527.0-py3-none-any.whl.zip tmp/odoo_addons_oca_bank_payment-16.0.20230601.0-py3-none-any.whl.zip --markdown 20230602/o/odoo-addons-oca-bank-payment/16.0.20230527.0-16.0.20230601.0/diff.md --exclude *.pyd
+[2023-06-02 04:50:40] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230601.tar.gz tmp/iam_actions-1.2.20230602.tar.gz --markdown 20230602/i/iam-actions/1.2.20230601-1.2.20230602/diff.md --exclude *.pyd
+[2023-06-02 04:50:40] INFO root fetch - processPackages [PySpeedMacro]: executing diffoscope
+[2023-06-02 04:50:40] INFO root fetch - processPackages [PySpeedMacro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeedMacro-0.0.0.7.tar.gz tmp/PySpeedMacro-0.0.0.8.tar.gz --markdown 20230602/P/PySpeedMacro/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-payment]: success
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [PySpeedMacro]: success
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-06-02 04:50:41] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-06-02 04:50:45] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-02 04:50:45] INFO root fetch - main [MainThread]: Store serial: [18343938]
