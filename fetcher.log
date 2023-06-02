@@ -19529,3 +19529,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 20:35:19] INFO root fetch - main [MainThread]: End processing [fides]: success
 [2023-06-02 20:35:21] INFO root fetch - main [MainThread]: End processing [itkdb]: success
 [2023-06-02 20:35:21] INFO root fetch - main [MainThread]: Store serial: [18352078]
+[2023-06-02 20:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352078]
+[2023-06-02 20:40:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdown-live-preview
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isubrip
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyWebUIFramework
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-contrib
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fish-databricks-jobs
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svtplay-dl
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyWebUIFramework
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: griptape
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scvi-tools
+[2023-06-02 20:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrpyconvert
+[2023-06-02 20:40:31] INFO root fetch - processPackages [isubrip]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [fish-databricks-jobs]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.7] Old Version: [1.6]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: New version: [1.7] Old Version: [1.6]
+[2023-06-02 20:40:31] WARNING root fetch - processPackages [flet-contrib]: Skipping, unable to determine old version
+[2023-06-02 20:40:31] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [flet-contrib]: Start processing: databricks-connect
+[2023-06-02 20:40:31] INFO root fetch - main [MainThread]: End processing [flet-contrib] error
+[2023-06-02 20:40:31] INFO root fetch - processPackages [svtplay-dl]: New version: [4.9] Old Version: [4.8]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [scvi-tools]: New version: [1.0.0b0] Old Version: [1.0.0]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.39] Old Version: [9.1.38]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [markdown-live-preview]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [svtplay-dl]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [svtplay-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtplay-dl-4.8.tar.gz tmp/svtplay-dl-4.9.tar.gz --markdown 20230602/s/svtplay-dl/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [fish-databricks-jobs]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [fish-databricks-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_databricks_jobs-0.7.8.tar.gz tmp/fish_databricks_jobs-0.7.9.tar.gz --markdown 20230602/f/fish-databricks-jobs/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230602/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/aa/b3/5841fffbaef04adb00e77b321c9d2ee98deef2ee1c4f088e8ebf237b798e/PyWebUIFramework-1.6.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/aa/b3/5841fffbaef04adb00e77b321c9d2ee98deef2ee1c4f088e8ebf237b798e/PyWebUIFramework-1.6.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [scvi-tools]: Downloading https://files.pythonhosted.org/packages/84/dc/abb61c3cc57f03f63444164f322662ac2fe221ed0a83a4e0ffd84f5fdafc/scvi_tools-1.0.0.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/b1/b9/fecdbaf76bf117671a9e6672a5d85c0849bd2619960d46a239139cfade2f/databricks-connect-9.1.38.tar.gz
+[2023-06-02 20:40:31] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257182459>=10485760
+[2023-06-02 20:40:31] INFO root fetch - processPackages [databricks-connect]: Start processing: googleapiutils2
+[2023-06-02 20:40:31] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-02 20:40:31] INFO root fetch - processPackages [isubrip]: Downloading https://files.pythonhosted.org/packages/d6/d0/0f8df2838f9927081d8678d30535f27418b92b2b3ebc6dce53bbeffbe4b7/isubrip-2.4.2.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [googleapiutils2]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-02 20:40:31] INFO root fetch - processPackages [markdown-live-preview]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [markdown-live-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-live-preview-0.2.8.tar.gz tmp/markdown-live-preview-0.2.9.tar.gz --markdown 20230602/m/markdown-live-preview/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [isubrip]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [isubrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isubrip-2.4.1.tar.gz tmp/isubrip-2.4.2.tar.gz --markdown 20230602/i/isubrip/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/0f/0b/1b61bf2b02e49c2586dff4d80f959f9ef094b02e339257221a00177d6cd4/PyWebUIFramework-1.7.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/0f/0b/1b61bf2b02e49c2586dff4d80f959f9ef094b02e339257221a00177d6cd4/PyWebUIFramework-1.7.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.8.2.tar.gz tmp/googleapiutils2-0.8.3.tar.gz --markdown 20230602/g/googleapiutils2/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/54/3f/c9d339e5edae9c3006f1f918e46a21b8cdb45fc18bf28f5d3b37a82cd884/mrpyconvert-0.1.8.tar.gz
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.6.tar.gz tmp/PyWebUIFramework-1.7.tar.gz --markdown 20230602/P/PyWebUIFramework/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-02 20:40:31] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-1.6.tar.gz tmp/PyWebUIFramework-1.7.tar.gz --markdown 20230602/P/PyWebUIFramework/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-02 20:40:32] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-02 20:40:32] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.7.tar.gz tmp/mrpyconvert-0.1.8.tar.gz --markdown 20230602/m/mrpyconvert/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 20:40:32] INFO root fetch - processPackages [scvi-tools]: Downloading https://files.pythonhosted.org/packages/48/74/b9e2df52b2c3a9ab4571212f4c8bd7848f70b1968c89d47fd408a989d35d/scvi_tools-1.0.0b0.tar.gz
+[2023-06-02 20:40:32] INFO root fetch - main [MainThread]: End processing [fish-databricks-jobs]: success
+[2023-06-02 20:40:33] INFO root fetch - processPackages [scvi-tools]: executing diffoscope
+[2023-06-02 20:40:33] INFO root fetch - processPackages [scvi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scvi_tools-1.0.0.tar.gz tmp/scvi_tools-1.0.0b0.tar.gz --markdown 20230602/s/scvi-tools/1.0.0-1.0.0b0/diff.md --exclude *.pyd
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [markdown-live-preview]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [isubrip]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:40:33] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-02 20:40:34] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 20:40:37] INFO root fetch - main [MainThread]: End processing [scvi-tools]: success
+[2023-06-02 20:40:37] INFO root fetch - main [MainThread]: Store serial: [18352114]
