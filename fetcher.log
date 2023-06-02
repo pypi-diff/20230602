@@ -17853,3 +17853,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 18:27:29] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
 [2023-06-02 18:27:32] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 18:27:32] INFO root fetch - main [MainThread]: Store serial: [18351048]
+[2023-06-02 18:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351048]
+[2023-06-02 18:32:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lancedb
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata-hydra
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chater
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slixmppbot
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feathub-nightly
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tello-solectric-pl
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsing-helper
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitfount
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crawler-commons
+[2023-06-02 18:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daffi-terminals
+[2023-06-02 18:32:41] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230601] Old Version: [0.1.dev20230531]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [udata-hydra]: New version: [2.0.0.dev956] Old Version: [2.0.0.dev919]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [slixmppbot]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [chater]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [lancedb]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 18:32:41] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-02 18:32:41] INFO root fetch - processPackages [daffi-terminals]: Start processing: tapipy
+[2023-06-02 18:32:41] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 18:32:41] INFO root fetch - processPackages [tello-solectric-pl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 18:32:41] WARNING root fetch - processPackages [parsing-helper]: Skipping, unable to determine old version
+[2023-06-02 18:32:41] INFO root fetch - main [MainThread]: End processing [parsing-helper] error
+[2023-06-02 18:32:41] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.74]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [chater]: Downloading https://files.pythonhosted.org/packages/21/1d/4815fca4f837c0188d29f7164ace651ec191996a233954fee788be11e2b9/chater-1.0.1.tar.gz
+[2023-06-02 18:32:41] INFO root fetch - processPackages [slixmppbot]: Downloading https://files.pythonhosted.org/packages/e8/c2/945cc27e18bbf2e80be2a0fa6f4f924344b6f8ac821db13a43306d0697ef/slixmppbot-2.0.3.tar.gz
+[2023-06-02 18:32:41] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/8a/da/a50689842d3734959be154cf651aea8440b787d605966a1a4321490673c3/bitfount-0.5.74.tar.gz
+[2023-06-02 18:32:41] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/91/f9/e0023cf389d572ab91f9f2dad4be111f5b44d92a7ece5843f1b578b94ec1/feathub_nightly-0.1.dev20230531-py3-none-any.whl
+[2023-06-02 18:32:41] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12200779>=10485760
+[2023-06-02 18:32:41] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-02 18:32:41] INFO root fetch - processPackages [tapipy]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-02 18:32:41] INFO root fetch - processPackages [slixmppbot]: executing diffoscope
+[2023-06-02 18:32:41] INFO root fetch - processPackages [slixmppbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slixmppbot-2.0.2.tar.gz tmp/slixmppbot-2.0.3.tar.gz --markdown 20230602/s/slixmppbot/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-02 18:32:41] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-02 18:32:41] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230602/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 18:32:41] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/4e/9e/fd42c2941f18c9f42657874f8d51387115bcfa3d038235aea955ed15a656/lancedb-0.1.5.tar.gz
+[2023-06-02 18:32:41] INFO root fetch - processPackages [tello-solectric-pl]: Downloading https://files.pythonhosted.org/packages/7e/e5/dc902d67831cc49f05057557c68a92cede7896b664d45a421804be13bb0f/tello_solectric_pl-0.0.4.tar.gz
+[2023-06-02 18:32:42] INFO root fetch - processPackages [udata-hydra]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.4.tar.gz tmp/lancedb-0.1.5.tar.gz --markdown 20230602/l/lancedb/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 18:32:42] INFO root fetch - processPackages [udata-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra-2.0.0.dev919.tar.gz tmp/udata_hydra-2.0.0.dev956.tar.gz --markdown 20230602/u/udata-hydra/2.0.0.dev919-2.0.0.dev956/diff.md --exclude *.pyd
+[2023-06-02 18:32:42] INFO root fetch - processPackages [chater]: Downloading https://files.pythonhosted.org/packages/ad/1c/32f453b6ed8b45220dcfe1ea6ff9cc250eb41947bbd7253aa37a4850b0d9/chater-1.0.2.tar.gz
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/e9/be/d2eed41f99dde9a5301592406cdd7c50e4b34d0121f4e5aff19d96129c9e/tapipy-1.3.4.tar.gz
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tello-solectric-pl]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tello-solectric-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tello_solectric_pl-0.0.3.tar.gz tmp/tello_solectric_pl-0.0.4.tar.gz --markdown 20230602/t/tello-solectric-pl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 18:32:42] INFO root fetch - processPackages [chater]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [chater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chater-1.0.1.tar.gz tmp/chater-1.0.2.tar.gz --markdown 20230602/c/chater/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 18:32:42] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.74.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230602/b/bitfount/0.5.74-0.5.9/diff.md --exclude *.pyd
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/e2/2c/9511afcf883e0966d941e1d1aecd9076a52ce2cc7c1e197643ad6f385899/tapipy-1.3.5.tar.gz
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-06-02 18:32:42] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.3.4.tar.gz tmp/tapipy-1.3.5.tar.gz --markdown 20230602/t/tapipy/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [slixmppbot]: success
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [chater]: success
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [tello-solectric-pl]: success
+[2023-06-02 18:32:43] INFO root fetch - main [MainThread]: End processing [udata-hydra]: success
+[2023-06-02 18:32:44] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-06-02 18:32:46] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-06-02 18:32:46] INFO root fetch - main [MainThread]: Store serial: [18351082]
