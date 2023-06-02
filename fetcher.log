@@ -5961,3 +5961,50 @@
 [2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
 [2023-06-02 04:29:39] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-06-02 04:29:39] INFO root fetch - main [MainThread]: Store serial: [18343820]
+[2023-06-02 04:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343820]
+[2023-06-02 04:34:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vodex
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiera-transformer
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlexAPI
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnastack-client-library
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MelodieTable
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-budget-oca
+[2023-06-02 04:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-cutoff-base
+[2023-06-02 04:34:48] INFO root fetch - processPackages [vodex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [PlexAPI]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-02 04:34:48] WARNING root fetch - processPackages [hiera-transformer]: Skipping, unable to determine old version
+[2023-06-02 04:34:48] INFO root fetch - main [MainThread]: End processing [hiera-transformer] error
+[2023-06-02 04:34:48] INFO root fetch - processPackages [xklb]: New version: [1.29.8] Old Version: [1.29.7]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [MelodieTable]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-02 04:34:48] INFO root fetch - processPackages [vodex]: executing diffoscope
+[2023-06-02 04:34:48] INFO root fetch - processPackages [vodex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodex-1.0.8.tar.gz tmp/vodex-1.0.9.tar.gz --markdown 20230602/v/vodex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 04:34:48] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-06-02 04:34:48] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230602/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-06-02 04:34:48] INFO root fetch - processPackages [PlexAPI]: Downloading https://files.pythonhosted.org/packages/ec/1a/ecb08e76ca8000dd22e66eb9a08e5b91b12b217aa84fcf39c15568fecd4e/PlexAPI-4.9.1.tar.gz
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/c9/1b/728f7ade883112666694e43df8763867f0584ba6a539839cd7a9c2bbe087/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-02 04:34:48] INFO root fetch - processPackages [MelodieTable]: Downloading https://files.pythonhosted.org/packages/93/2a/5d68b9be61db4128420668c0d9a8d01e01f9d5c7a53843d3c893e6bf1dc6/MelodieTable-0.1.0-py3-none-any.whl
+[2023-06-02 04:34:48] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-02 04:34:48] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.29.7.tar.gz tmp/xklb-1.29.8.tar.gz --markdown 20230602/x/xklb/1.29.7-1.29.8/diff.md --exclude *.pyd
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-account-cutoff-base/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-02 04:34:48] INFO root fetch - processPackages [MelodieTable]: Downloading https://files.pythonhosted.org/packages/6f/b7/ef484e1780e049b0a15ece729d1d643877a7a0cf7d74b50fb81d80c425c3/MelodieTable-0.2.0-py3-none-any.whl
+[2023-06-02 04:34:48] INFO root fetch - processPackages [PlexAPI]: Downloading https://files.pythonhosted.org/packages/0a/30/a3756e5b020ee54fcc0c8abb36bb4a8d917ecfae2755814e41c4717ecd01/PlexAPI-4.9.2.tar.gz
+[2023-06-02 04:34:48] INFO root fetch - processPackages [MelodieTable]: executing diffoscope
+[2023-06-02 04:34:48] INFO root fetch - processPackages [MelodieTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MelodieTable-0.1.0-py3-none-any.whl.zip tmp/MelodieTable-0.2.0-py3-none-any.whl.zip --markdown 20230602/M/MelodieTable/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 04:34:48] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/55/df/6951045403a0585dddb754343097c56b1336f3dfe421abdc8361317e2718/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-02 04:34:49] INFO root fetch - processPackages [PlexAPI]: executing diffoscope
+[2023-06-02 04:34:49] INFO root fetch - processPackages [PlexAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexAPI-4.9.1.tar.gz tmp/PlexAPI-4.9.2.tar.gz --markdown 20230602/P/PlexAPI/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-02 04:34:49] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: executing diffoscope
+[2023-06-02 04:34:49] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-account-budget-oca/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [MelodieTable]: success
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [PlexAPI]: success
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-06-02 04:34:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
+[2023-06-02 04:34:55] INFO root fetch - main [MainThread]: End processing [vodex]: success
+[2023-06-02 04:34:55] INFO root fetch - main [MainThread]: Store serial: [18343845]
