@@ -16112,3 +16112,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 16:42:33] INFO root fetch - main [MainThread]: End processing [pytaser]: success
 [2023-06-02 16:42:33] INFO root fetch - main [MainThread]: End processing [slpkg]: success
 [2023-06-02 16:42:33] INFO root fetch - main [MainThread]: Store serial: [18349929]
+[2023-06-02 16:47:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349929]
+[2023-06-02 16:47:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbnlab-preview
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sonar-api
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autora
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: not1mm
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelmarket
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-06-02 16:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pptreport
+[2023-06-02 16:47:43] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-02 16:47:43] INFO root fetch - processPackages [autora]: New version: [3.0.0rc3] Old Version: [3.0.0rc2]
+[2023-06-02 16:47:43] WARNING root fetch - processPackages [python-sonar-api]: Skipping, unable to determine old version
+[2023-06-02 16:47:43] INFO root fetch - main [MainThread]: End processing [python-sonar-api] error
+[2023-06-02 16:47:43] WARNING root fetch - processPackages [modelmarket]: Skipping, unable to determine old version
+[2023-06-02 16:47:43] INFO root fetch - main [MainThread]: End processing [modelmarket] error
+[2023-06-02 16:47:43] WARNING root fetch - processPackages [pptreport]: Skipping, unable to determine old version
+[2023-06-02 16:47:43] INFO root fetch - main [MainThread]: End processing [pptreport] error
+[2023-06-02 16:47:43] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-02 16:47:43] INFO root fetch - processPackages [not1mm]: New version: [23.6.2] Old Version: [23.5.9.2]
+[2023-06-02 16:47:43] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-06-02 16:47:43] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230602/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-02 16:47:43] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-06-02 16:47:43] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0rc2.tar.gz tmp/autora-3.0.0rc3.tar.gz --markdown 20230602/a/autora/3.0.0rc2-3.0.0rc3/diff.md --exclude *.pyd
+[2023-06-02 16:47:43] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/2a/ab/303c6eade0fecac8a3475d19983c41b00607b0a9a76ec22a3ae7d5f22c25/not1mm-23.6.2.tar.gz
+[2023-06-02 16:47:43] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-02 16:47:43] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230602/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 16:47:43] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-06-02 16:47:43] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.9.2.tar.gz tmp/not1mm-23.6.2.tar.gz --markdown 20230602/n/not1mm/23.5.9.2-23.6.2/diff.md --exclude *.pyd
+[2023-06-02 16:47:44] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-06-02 16:47:44] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-06-02 16:47:44] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-02 16:47:46] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-06-02 16:47:46] INFO root fetch - main [MainThread]: Store serial: [18349977]
