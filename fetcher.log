@@ -6300,3 +6300,64 @@
 [2023-06-02 05:01:11] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2023-06-02 05:01:12] INFO root fetch - main [MainThread]: End processing [SPAIC]: success
 [2023-06-02 05:01:12] INFO root fetch - main [MainThread]: Store serial: [18343981]
+[2023-06-02 05:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343981]
+[2023-06-02 05:06:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructprompt
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-escape-url
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcs-phy
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petkitaio
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twitter-api-client
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantplay
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyCocos
+[2023-06-02 05:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pait
+[2023-06-02 05:06:21] INFO root fetch - processPackages [instructprompt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.5.2] Old Version: [0.5.5.1]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-escape-url]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pyCocos]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [qcs-phy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [petkitaio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [twitter-api-client]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [quantplay]: New version: [1.2.93] Old Version: [1.2.92]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pait]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/86/97/ab8a940f1695830ea5b806d876f11b16ab16f0e56acf38d2cfbe24767d7b/nonebot_plugin_l4d2_server-0.5.5.1.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/56/39/d989905aa5054558871bb0249fbf252d767155fd260dbce1aeaca348c1c1/qcs_phy-1.0.3.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [instructprompt]: Downloading https://files.pythonhosted.org/packages/07/6a/34302cb922baa4849fa9c48c1ab85abe54a92fea9d59907dce6bc8f64421/instructprompt-0.1.4.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/95/a9/a1c7462d663ae8adaebd4ad7698001f45c9bfef24a00e6ae70ad77ac9712/petkitaio-0.1.1.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-escape-url]: Downloading https://files.pythonhosted.org/packages/32/c0/76300d7c51e7aabed79d753d00dd871bf4c7178916e4d757fca012584cf1/nonebot_plugin_escape_url-0.1.2.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/d3/5d/77164b459acffac6abace00e1700c7af682a2bd21c113885a366dde6f84f/twitter-api-client-0.8.3.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/57/e7/a3d34f1801a1fef4865921bd62f0acdbec50be70e76a8356b42b2c224e2c/pyCocos-0.2.0.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [qcs-phy]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [qcs-phy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_phy-1.0.2.tar.gz tmp/qcs_phy-1.0.3.tar.gz --markdown 20230602/q/qcs-phy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [instructprompt]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [instructprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructprompt-0.1.3.tar.gz tmp/instructprompt-0.1.4.tar.gz --markdown 20230602/i/instructprompt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-escape-url]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-escape-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_escape_url-0.1.1.tar.gz tmp/nonebot_plugin_escape_url-0.1.2.tar.gz --markdown 20230602/n/nonebot-plugin-escape-url/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/c8/94/a6329ef7979645d61b4e449927bd0133feb97c89c7465503e5e8c6755dae/quantplay-1.2.93.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/1f/e2/fd4d7887f7c70901bb460aebbbf7e23e3cb14cfed09e45466d52958e27e3/pait-1.0.0a3.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.92.tar.gz tmp/quantplay-1.2.93.tar.gz --markdown 20230602/q/quantplay/1.2.92-1.2.93/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/c2/21/d418da8ddca5a4f912dc56d31a6bb5b9ff2e902da338959cb27e822d5275/petkitaio-0.1.2.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/79/f7/f503f2a706f8e1c79fc2af4c2cc35af49eff35b773ce7bf066c526c09a22/nonebot_plugin_l4d2_server-0.5.5.2.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/bc/f9/c70784c811531095db3e6553610604120c30a26247264a6c7fff341c4045/pyCocos-0.2.1.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pait]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pait-1.0.0a2.tar.gz tmp/pait-1.0.0a3.tar.gz --markdown 20230602/p/pait/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/1f/54/cb2ac1759bac71071040e916d60d5e33055ba72c23071c80f34dd69e6d45/twitter-api-client-0.8.4.tar.gz
+[2023-06-02 05:06:21] INFO root fetch - processPackages [petkitaio]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [petkitaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petkitaio-0.1.1.tar.gz tmp/petkitaio-0.1.2.tar.gz --markdown 20230602/p/petkitaio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pyCocos]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [pyCocos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCocos-0.2.0.tar.gz tmp/pyCocos-0.2.1.tar.gz --markdown 20230602/p/pyCocos/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.5.1.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.5.2.tar.gz --markdown 20230602/n/nonebot-plugin-l4d2-server/0.5.5.1-0.5.5.2/diff.md --exclude *.pyd
+[2023-06-02 05:06:21] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-02 05:06:21] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.8.3.tar.gz tmp/twitter-api-client-0.8.4.tar.gz --markdown 20230602/t/twitter-api-client/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-02 05:06:22] INFO root fetch - main [MainThread]: End processing [qcs-phy]: success
+[2023-06-02 05:06:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-escape-url]: success
+[2023-06-02 05:06:23] INFO root fetch - main [MainThread]: End processing [instructprompt]: success
+[2023-06-02 05:06:23] INFO root fetch - main [MainThread]: End processing [petkitaio]: success
+[2023-06-02 05:06:23] INFO root fetch - main [MainThread]: End processing [pyCocos]: success
+[2023-06-02 05:06:23] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-02 05:06:23] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-06-02 05:06:25] INFO root fetch - main [MainThread]: End processing [pait]: success
+[2023-06-02 05:06:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-02 05:06:25] INFO root fetch - main [MainThread]: Store serial: [18344006]
