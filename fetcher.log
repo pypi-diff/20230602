@@ -5844,3 +5844,11 @@
 [2023-06-02 04:14:04] INFO root fetch - main [MainThread]: End processing [dwave-ocean-sdk]: success
 [2023-06-02 04:14:04] INFO root fetch - main [MainThread]: End processing [binsync]: success
 [2023-06-02 04:14:04] INFO root fetch - main [MainThread]: Store serial: [18343725]
+[2023-06-02 04:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343725]
+[2023-06-02 04:19:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-02 04:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easymaker
+[2023-06-02 04:19:13] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 04:19:13] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-02 04:19:13] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230602/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 04:19:14] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-02 04:19:14] INFO root fetch - main [MainThread]: Store serial: [18343738]
