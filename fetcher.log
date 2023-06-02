@@ -10450,3 +10450,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:51:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-02 10:51:08] INFO root fetch - main [MainThread]: End processing [gs-api-client]: success
 [2023-06-02 10:51:08] INFO root fetch - main [MainThread]: Store serial: [18346498]
+[2023-06-02 10:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346498]
+[2023-06-02 10:56:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: squad-foundries-plugins
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptcache
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rssfixer
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metricq
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docstring-generator-ext
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyclpu
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-core
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-06-02 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitlint-core
+[2023-06-02 10:56:17] INFO root fetch - processPackages [squad-foundries-plugins]: New version: [1.3] Old Version: [1.2]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [kfish]: New version: [99.0.202306020852] Old Version: [99.0.202305311437]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [docstring-generator-ext]: New version: [0.0.28] Old Version: [0.0.26]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [pyclpu]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [rssfixer]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [metricq]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.9]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230602] Old Version: [2.14.0.dev20230601]
+[2023-06-02 10:56:17] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-02 10:56:17] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230602/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-02 10:56:17] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/05/03/4c46509454cf4b5a68d27d945cfbe83cb88908d6f86b1cb806eb19a4b1db/pyclpu-0.0.2.tar.gz
+[2023-06-02 10:56:17] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4e/0e/1bfd4ad26b9db3fe324846176daac560c88aa40d7a9373d396238d666595/kfish-99.0.202305311437-py3-none-any.whl
+[2023-06-02 10:56:17] INFO root fetch - processPackages [squad-foundries-plugins]: Downloading https://files.pythonhosted.org/packages/c9/76/2ec95f36b8872c5cacb9e053ae4e365f6a2c31ad9c550dd087a630075bac/squad-foundries-plugins-1.2.tar.gz
+[2023-06-02 10:56:17] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ae/8f/b14e2fa709a50b6b738320502b2288bb91b1784d173b34624f3a79bea01b/OpenGeode_core-14.1.9-cp39-cp39-win_amd64.whl
+[2023-06-02 10:56:17] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/7c/72/a86d6de4a37eec9d1f92eea08525a3500fc4c02565bbe99afdd792e571a4/rssfixer-0.1.6.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230602/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [docstring-generator-ext]: Downloading https://files.pythonhosted.org/packages/54/2e/e12c72b447b8cfe189daddbb3a096ef38717df212eadd29eee276b78aa9c/docstring_generator_ext-0.0.28.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/ca/6e/1bda6edd745992880c451b8237a013e6cb3005e4a84a491b859f79e06f7e/tf_nightly-2.14.0.dev20230601-cp39-cp39-win_amd64.whl
+[2023-06-02 10:56:18] INFO root fetch - processPackages [metricq]: Downloading https://files.pythonhosted.org/packages/9f/86/ebb3175e1f93bb1e59b753215503715d55a452c189ae5fc9b60064a5fb72/metricq-5.0.1-py3-none-any.whl
+[2023-06-02 10:56:18] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/80/18/46d7f9b11263e936384dff63736fd1c4d4dc205e62baed836b6210ab548f/kfish-99.0.202306020852-py3-none-any.whl
+[2023-06-02 10:56:18] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/3e/d6/7bbba98f956c55aa67c0e4ed4914c2b8ad5a3ec7ce4ab6d52b65fdc2d6ef/rssfixer-0.1.7.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/56/88/fbaee30d93642ac6c5fbc38bb8b0739a4d32dbaa7d910d999dfa976f67d7/pyclpu-0.0.3.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [docstring-generator-ext]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [docstring-generator-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_generator_ext-0.0.26.tar.gz tmp/docstring_generator_ext-0.0.28.tar.gz --markdown 20230602/d/docstring-generator-ext/0.0.26-0.0.28/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [metricq]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [metricq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricq-5.0.0-py3-none-any.whl.zip tmp/metricq-5.0.1-py3-none-any.whl.zip --markdown 20230602/m/metricq/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [squad-foundries-plugins]: Downloading https://files.pythonhosted.org/packages/c3/b6/8eff480cc8aba27bb3a8f0c0aadf8c491c84a1d921c1f8cf3a13cd05c454/squad-foundries-plugins-1.3.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305311437-py3-none-any.whl.zip tmp/kfish-99.0.202306020852-py3-none-any.whl.zip --markdown 20230602/k/kfish/99.0.202305311437-99.0.202306020852/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [squad-foundries-plugins]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [squad-foundries-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-foundries-plugins-1.2.tar.gz tmp/squad-foundries-plugins-1.3.tar.gz --markdown 20230602/s/squad-foundries-plugins/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.1.6.tar.gz tmp/rssfixer-0.1.7.tar.gz --markdown 20230602/r/rssfixer/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-0.0.2.tar.gz tmp/pyclpu-0.0.3.tar.gz --markdown 20230602/p/pyclpu/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/48/23/3f16049cc2dd2bfa479f7833c2c230036c6db6006407d31ac13c52052fa3/tf_nightly-2.14.0.dev20230602-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 10:56:18] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 488884276>=10485760
+[2023-06-02 10:56:18] INFO root fetch - processPackages [tf-nightly]: Start processing: gitlint
+[2023-06-02 10:56:18] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-02 10:56:18] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-02 10:56:18] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17504936>=10485760
+[2023-06-02 10:56:18] INFO root fetch - processPackages [OpenGeode-core]: Start processing: readlog
+[2023-06-02 10:56:18] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-02 10:56:18] INFO root fetch - processPackages [readlog]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-02 10:56:18] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230602/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 10:56:18] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/92/19/c9aea991cbc2bc84f138d23e995cf013249ddf18e7afebea04224098ac5f/readlog-1.1.5.tar.gz
+[2023-06-02 10:56:18] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-06-02 10:56:18] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.4.tar.gz tmp/readlog-1.1.5.tar.gz --markdown 20230602/r/readlog/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-02 10:56:19] INFO root fetch - processPackages [gitlint-core]: Start processing: duckdb
+[2023-06-02 10:56:19] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-02 10:56:19] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev219] Old Version: [0.8.1.dev194]
+[2023-06-02 10:56:19] INFO root fetch - processPackages [kfish]: Start processing: codemagic-cli-tools
+[2023-06-02 10:56:19] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-02 10:56:19] INFO root fetch - processPackages [codemagic-cli-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-02 10:56:19] INFO root fetch - processPackages [gptcache]: Start processing: laproxy
+[2023-06-02 10:56:19] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-06-02 10:56:19] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/fb/bf/a2a4a7a8c2c6ef258e89ec4904fee90fd81eae4a2a607864052dcb65f363/duckdb-0.8.1.dev219.tar.gz
+[2023-06-02 10:56:19] INFO root fetch - processPackages [laproxy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 10:56:19] INFO root fetch - processPackages [pyclpu]: Start processing: kcli
+[2023-06-02 10:56:19] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2023-06-02 10:56:19] INFO root fetch - processPackages [codemagic-cli-tools]: Downloading https://files.pythonhosted.org/packages/93/49/07ea6719177fe4b6226690fe45cf5b5ff9674ea427bcdb30ed25ded88aa7/codemagic-cli-tools-0.9.7.tar.gz
+[2023-06-02 10:56:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202306020850] Old Version: [99.0.202305311435]
+[2023-06-02 10:56:19] INFO root fetch - main [MainThread]: End processing [squad-foundries-plugins]: success
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [metricq]: success
+[2023-06-02 10:56:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-02 10:56:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305311435-py3-none-any.whl.zip tmp/kcli-99.0.202306020850-py3-none-any.whl.zip --markdown 20230602/k/kcli/99.0.202305311435-99.0.202306020850/diff.md --exclude *.pyd
+[2023-06-02 10:56:20] INFO root fetch - processPackages [laproxy]: Downloading https://files.pythonhosted.org/packages/71/34/95818b8945f5352232b6a5e8d335177066b341ed5116692505a0663f7deb/laproxy-1.0.0.tar.gz
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [docstring-generator-ext]: success
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-06-02 10:56:20] WARNING root fetch - processPackages [codemagic-cli-tools]: Skipping package: exceeds size limit 22148734>=10485760
+[2023-06-02 10:56:20] INFO root fetch - main [MainThread]: End processing [codemagic-cli-tools] error
+[2023-06-02 10:56:20] INFO root fetch - processPackages [laproxy]: Downloading https://files.pythonhosted.org/packages/02/31/027a2d6d33e0564ffbd67887bfc39fdd4e25d3c656ed92d18bd7757373d7/laproxy-1.0.1.tar.gz
+[2023-06-02 10:56:20] INFO root fetch - processPackages [laproxy]: executing diffoscope
+[2023-06-02 10:56:20] INFO root fetch - processPackages [laproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laproxy-1.0.0.tar.gz tmp/laproxy-1.0.1.tar.gz --markdown 20230602/l/laproxy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 10:56:21] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-02 10:56:21] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev194.tar.gz tmp/duckdb-0.8.1.dev219.tar.gz --markdown 20230602/d/duckdb/0.8.1.dev194-0.8.1.dev219/diff.md --exclude *.pyd
+[2023-06-02 10:56:21] INFO root fetch - main [MainThread]: End processing [laproxy]: success
+[2023-06-02 10:56:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-02 10:58:40] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-02 10:58:40] INFO root fetch - main [MainThread]: Store serial: [18346543]
