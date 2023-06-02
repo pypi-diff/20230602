@@ -6806,3 +6806,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-brazil]: success
 [2023-06-02 05:38:00] INFO root fetch - main [MainThread]: End processing [tomato-engine]: success
 [2023-06-02 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18344219]
+[2023-06-02 05:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344219]
+[2023-06-02 05:43:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 05:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kanu
+[2023-06-02 05:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision6D
+[2023-06-02 05:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybuc
+[2023-06-02 05:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apkupload
+[2023-06-02 05:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelz-llm
+[2023-06-02 05:43:08] INFO root fetch - processPackages [kanu]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-02 05:43:08] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-06-02 05:43:08] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 05:43:08] INFO root fetch - processPackages [vision6D]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-02 05:43:08] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.18] Old Version: [23.5.12]
+[2023-06-02 05:43:08] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/8f/c0/bbd83eb595eecc960210b4694f662bc7dc76b02f82fa30984ec50de2f70b/vision6D-0.2.4.tar.gz
+[2023-06-02 05:43:09] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-06-02 05:43:09] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230602/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 05:43:09] INFO root fetch - processPackages [kanu]: Downloading https://files.pythonhosted.org/packages/04/d9/71ea25322095e635d3875a28b43ffeabb1d6f8bd9504e5976692b81d83d7/kanu-0.4.0.tar.gz
+[2023-06-02 05:43:09] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/67/47/b424e9118f0ff5a61b916f73a13e315a095253fcb7ea4f93b8fd8e9b9d5f/modelz-llm-23.5.12.tar.gz
+[2023-06-02 05:43:09] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-06-02 05:43:09] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.2.3.tar.gz tmp/vision6D-0.2.4.tar.gz --markdown 20230602/v/vision6D/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-02 05:43:09] INFO root fetch - processPackages [kanu]: executing diffoscope
+[2023-06-02 05:43:09] INFO root fetch - processPackages [kanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanu-0.3.0.tar.gz tmp/kanu-0.4.0.tar.gz --markdown 20230602/k/kanu/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 05:43:09] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-06-02 05:43:09] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230602/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-06-02 05:43:09] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/0c/cc/f6037fa9fccac4f3b3d80f090597df7f4be3a6e7dfc7e848a8d74bd19b3c/modelz-llm-23.5.18.tar.gz
+[2023-06-02 05:43:10] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 05:43:10] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.12.tar.gz tmp/modelz-llm-23.5.18.tar.gz --markdown 20230602/m/modelz-llm/23.5.12-23.5.18/diff.md --exclude *.pyd
+[2023-06-02 05:43:10] INFO root fetch - main [MainThread]: End processing [kanu]: success
+[2023-06-02 05:43:10] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-06-02 05:43:10] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-06-02 05:43:10] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-06-02 05:43:11] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 05:43:11] INFO root fetch - main [MainThread]: Store serial: [18344233]
