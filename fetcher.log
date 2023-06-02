@@ -19031,3 +19031,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:50:51] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
 [2023-06-02 19:50:52] INFO root fetch - main [MainThread]: End processing [binsreg]: success
 [2023-06-02 19:50:52] INFO root fetch - main [MainThread]: Store serial: [18351723]
+[2023-06-02 19:55:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351723]
+[2023-06-02 19:56:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 19:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vja
+[2023-06-02 19:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speakeasy-client-sdk-python
+[2023-06-02 19:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyWebUIFramework
+[2023-06-02 19:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konko
+[2023-06-02 19:56:01] ERROR root fetch - processPackages [PyWebUIFramework]: Unable to get metadata: No such project 'PyWebUIFramework'
+[2023-06-02 19:56:01] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework] error
+[2023-06-02 19:56:01] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-02 19:56:01] INFO root fetch - processPackages [vja]: New version: [2.0.0rc1] Old Version: [2.0.0b4]
+[2023-06-02 19:56:01] INFO root fetch - processPackages [konko]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 19:56:02] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/fe/ec/c119fc67becb926e20b6790420ae3b4ea2950e092f3f6a48c78c7a247163/vja-2.0.0b4.tar.gz
+[2023-06-02 19:56:02] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/b6/02/601ffcb05382b6be61fc29b0108663544f007d84d2e7715e49ab12541fd9/konko-0.0.1.tar.gz
+[2023-06-02 19:56:02] INFO root fetch - processPackages [vja]: Downloading https://files.pythonhosted.org/packages/34/84/b70b667190282e029760053fa56721a4487feb56d691cddcd9b8efb9287e/vja-2.0.0rc1.tar.gz
+[2023-06-02 19:56:02] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/aa/b6/66df94e9da00221db125b59402f750dac8f7a0ad09936077e14fccddcd52/konko-0.0.2.tar.gz
+[2023-06-02 19:56:02] INFO root fetch - processPackages [vja]: executing diffoscope
+[2023-06-02 19:56:02] INFO root fetch - processPackages [vja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vja-2.0.0b4.tar.gz tmp/vja-2.0.0rc1.tar.gz --markdown 20230602/v/vja/2.0.0b4-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-02 19:56:02] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-06-02 19:56:02] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.0.1.tar.gz tmp/konko-0.0.2.tar.gz --markdown 20230602/k/konko/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 19:56:02] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-06-02 19:56:02] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230602/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-02 19:56:03] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-06-02 19:56:03] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-06-02 19:56:57] INFO root fetch - main [MainThread]: End processing [vja]: success
+[2023-06-02 19:56:57] INFO root fetch - main [MainThread]: Store serial: [18351739]
