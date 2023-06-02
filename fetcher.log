@@ -8223,3 +8223,25 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:54:24] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
 [2023-06-02 07:54:27] INFO root fetch - main [MainThread]: End processing [fipper]: success
 [2023-06-02 07:54:27] INFO root fetch - main [MainThread]: Store serial: [18345164]
+[2023-06-02 07:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345164]
+[2023-06-02 07:59:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atgtools
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfmodule-sg
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfmodule-jh
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddqa
+[2023-06-02 07:59:36] WARNING root fetch - processPackages [dfmodule-jh]: Skipping, unable to determine old version
+[2023-06-02 07:59:36] INFO root fetch - main [MainThread]: End processing [dfmodule-jh] error
+[2023-06-02 07:59:36] WARNING root fetch - processPackages [dfmodule-sg]: Skipping, unable to determine old version
+[2023-06-02 07:59:36] INFO root fetch - main [MainThread]: End processing [dfmodule-sg] error
+[2023-06-02 07:59:36] INFO root fetch - processPackages [atgtools]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ddqa]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 07:59:36] INFO root fetch - processPackages [atgtools]: Downloading https://files.pythonhosted.org/packages/83/5d/37d184e379efc0c148655170d896b83ab485fa13815fbf7bc8a7554dbc2b/atgtools-0.1.2.tar.gz
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ddqa]: Downloading https://files.pythonhosted.org/packages/5e/2e/6ab636010bf08ec9bf1fcfc7d5d5b67eee7dd719ef1f1634d8fc8fdbcdd6/ddqa-0.3.1.tar.gz
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ddqa]: executing diffoscope
+[2023-06-02 07:59:36] INFO root fetch - processPackages [ddqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddqa-0.3.0.tar.gz tmp/ddqa-0.3.1.tar.gz --markdown 20230602/d/ddqa/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 07:59:36] INFO root fetch - processPackages [atgtools]: Downloading https://files.pythonhosted.org/packages/66/77/4f6efe3d02d9cf98324486b047b56ccf6c018573546a839ba96e67a8b133/atgtools-0.1.6.tar.gz
+[2023-06-02 07:59:36] INFO root fetch - processPackages [atgtools]: executing diffoscope
+[2023-06-02 07:59:36] INFO root fetch - processPackages [atgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atgtools-0.1.2.tar.gz tmp/atgtools-0.1.6.tar.gz --markdown 20230602/a/atgtools/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 07:59:37] INFO root fetch - main [MainThread]: End processing [atgtools]: success
+[2023-06-02 07:59:38] INFO root fetch - main [MainThread]: End processing [ddqa]: success
+[2023-06-02 07:59:38] INFO root fetch - main [MainThread]: Store serial: [18345180]
