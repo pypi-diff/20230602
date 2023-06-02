@@ -10548,3 +10548,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:56:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-02 10:58:40] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-06-02 10:58:40] INFO root fetch - main [MainThread]: Store serial: [18346543]
+[2023-06-02 11:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346543]
+[2023-06-02 11:03:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easylsb
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playmolecule
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydaikin
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OBP-security-pillar
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfed
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netspresso
+[2023-06-02 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: samna
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [playmolecule]: New version: [1.9.0] Old Version: [1.8.9.1]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [OBP-security-pillar]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 11:03:49] WARNING root fetch - processPackages [easylsb]: Skipping, unable to determine old version
+[2023-06-02 11:03:49] INFO root fetch - processPackages [easylsb]: Start processing: mediacatch-s2t
+[2023-06-02 11:03:49] INFO root fetch - processPackages [netspresso]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 11:03:49] INFO root fetch - main [MainThread]: End processing [easylsb] error
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [kfish]: New version: [99.0.202306020857] Old Version: [99.0.202306020852]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.2.16.59.45] Old Version: [2023.6.1.17.17.43]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [mediacatch-s2t]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-02 11:03:49] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-0.1.1.tar.gz tmp/mediacatch-s2t-0.1.2.tar.gz --markdown 20230602/m/mediacatch-s2t/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/0d/6e/0e9d1f5c380cfc76fb83acfe9481ae6eb734bc954bc6b45b7a40c6329216/netspresso-0.1.4-py3-none-any.whl
+[2023-06-02 11:03:49] INFO root fetch - processPackages [OBP-security-pillar]: Downloading https://files.pythonhosted.org/packages/a7/5e/c8d88f657b53a1ee8f49aa5c280343ac806ec32f97f25397a223b649b2de/OBP_security_pillar-0.1.0.tar.gz
+[2023-06-02 11:03:49] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ad/5b/1b3856947392554509dd6b7e19e585bf038d44d1151609ffa3db84477c1f/MeUtils-2023.6.2.16.59.45.tar.gz
+[2023-06-02 11:03:49] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/a1/ac/d638b5962726a97599c253778a1beb1f2de3469505903a25d7a531e7dce5/playmolecule-1.9.0.tar.gz
+[2023-06-02 11:03:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9a/42/99dcf8463ea42a125ff9512b781840cc13e0e40cc0f00425780b81a1229e/kfish-99.0.202306020857-py3-none-any.whl
+[2023-06-02 11:03:49] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230602/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.9.1.tar.gz tmp/playmolecule-1.9.0.tar.gz --markdown 20230602/p/playmolecule/1.8.9.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230602/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-0.1.3-py3-none-any.whl.zip tmp/netspresso-0.1.4-py3-none-any.whl.zip --markdown 20230602/n/netspresso/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306020852-py3-none-any.whl.zip tmp/kfish-99.0.202306020857-py3-none-any.whl.zip --markdown 20230602/k/kfish/99.0.202306020852-99.0.202306020857/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20230602/p/pydaikin/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230602/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-02 11:03:49] INFO root fetch - processPackages [OBP-security-pillar]: Downloading https://files.pythonhosted.org/packages/0c/16/5b2d261248d45d27054d33ab5cec91b177d65fcacbc4087ad32840fbfa5e/OBP_security_pillar-0.1.1.tar.gz
+[2023-06-02 11:03:49] INFO root fetch - processPackages [OBP-security-pillar]: executing diffoscope
+[2023-06-02 11:03:49] INFO root fetch - processPackages [OBP-security-pillar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_security_pillar-0.1.0.tar.gz tmp/OBP_security_pillar-0.1.1.tar.gz --markdown 20230602/O/OBP-security-pillar/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 11:03:50] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-02 11:03:50] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.1.17.17.43.tar.gz tmp/MeUtils-2023.6.2.16.59.45.tar.gz --markdown 20230602/M/MeUtils/2023.6.1.17.17.43-2023.6.2.16.59.45/diff.md --exclude *.pyd
+[2023-06-02 11:03:50] INFO root fetch - processPackages [samna]: Start processing: autogluon.common
+[2023-06-02 11:03:50] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-02 11:03:50] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230601] Old Version: [0.7.1b20230531]
+[2023-06-02 11:03:50] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/2a/f2/42da23ff3862eab25d2ddcd82d79634afd5dea930c5a696fb392560e4079/autogluon.common-0.7.1b20230601.tar.gz
+[2023-06-02 11:03:50] INFO root fetch - processPackages [kfish]: Start processing: autogluon.core
+[2023-06-02 11:03:50] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230601] Old Version: [0.7.1b20230531]
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230531.tar.gz tmp/autogluon.common-0.7.1b20230601.tar.gz --markdown 20230602/a/autogluon.common/0.7.1b20230531-0.7.1b20230601/diff.md --exclude *.pyd
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d1/24/3a42d8a9ef5cde93bc0eb9ccd181c1934226b4b946b8f8b136ba245dc520/autogluon.core-0.7.1b20230601.tar.gz
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-02 11:03:51] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230531.tar.gz tmp/autogluon.core-0.7.1b20230601.tar.gz --markdown 20230602/a/autogluon.core/0.7.1b20230531-0.7.1b20230601/diff.md --exclude *.pyd
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [OBP-security-pillar]: success
+[2023-06-02 11:03:51] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-02 11:03:52] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-02 11:03:52] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-02 11:03:55] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-02 11:03:55] INFO root fetch - main [MainThread]: Store serial: [18346589]
