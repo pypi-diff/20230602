@@ -17176,3 +17176,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 17:46:41] INFO root fetch - main [MainThread]: End processing [python-arango]: success
 [2023-06-02 17:47:59] INFO root fetch - main [MainThread]: End processing [zndraw]: success
 [2023-06-02 17:47:59] INFO root fetch - main [MainThread]: Store serial: [18350670]
+[2023-06-02 17:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350670]
+[2023-06-02 17:53:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyeCam
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liqa
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombo
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-pp
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exma
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QZFM
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dronefly-discord
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markdown-to-json
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yarn-dev-tools
+[2023-06-02 17:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: magma-suite
+[2023-06-02 17:53:09] INFO root fetch - processPackages [wombo]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [liqa]: New version: [1.2.1] Old Version: [1.2]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [exma]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [QZFM]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [torch-pp]: New version: [0.0.8.dev0] Old Version: [0.0.7.dev0]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [dronefly-discord]: New version: [0.1.1.dev0] Old Version: [0.1.0]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [markdown-to-json]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [yarn-dev-tools]: New version: [2.0.0] Old Version: [1.1.8]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [magma-suite]: New version: [1.5.0.1b1] Old Version: [1.4.0]
+[2023-06-02 17:53:09] INFO root fetch - processPackages [torch-pp]: executing diffoscope
+[2023-06-02 17:53:09] INFO root fetch - processPackages [torch-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-pp-0.0.7.dev0.tar.gz tmp/torch-pp-0.0.8.dev0.tar.gz --markdown 20230602/t/torch-pp/0.0.7.dev0-0.0.8.dev0/diff.md --exclude *.pyd
+[2023-06-02 17:53:09] INFO root fetch - processPackages [yarn-dev-tools]: Downloading https://files.pythonhosted.org/packages/a8/2d/ac458e92dd16a7312a65e8011c8e995837118502029d5650f3795b226d79/yarn-dev-tools-1.1.8.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/1c/e3/5b5ab5289a9bb42a3255b49d861c14d1a5c02d0e64126c8a052027b07980/magma_suite-1.4.0.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/de/ad/e77d7007478750a8b0b33d179748ab67b8fe25e177f9aaf8da43c7adc6d6/dronefly_discord-0.1.0.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [liqa]: Downloading https://files.pythonhosted.org/packages/83/d4/47d2a7cad086be890c3e4e5da8452ff3b63a74847b9d80c7571f13180554/liqa-1.2.1.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/93/6f/b056e21f8fa3a797884f07c9af4e7cbf8535f56387ceb5a72e487ac98660/wombo-0.1.3.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [markdown-to-json]: Downloading https://files.pythonhosted.org/packages/d6/4c/c5a5a49b64d6f663f3b1e0d71eecf2a18afc74afa462f1fb34282d358733/markdown-to-json-2.0.0.tar.gz
+[2023-06-02 17:53:09] INFO root fetch - processPackages [exma]: Downloading https://files.pythonhosted.org/packages/c2/72/f161feb885af8cdc0e0dd57e8e349113ae5307c97f535a50ca147fbe5a52/exma-0.6.0.tar.gz
+[2023-06-02 17:53:10] INFO root fetch - processPackages [liqa]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [liqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liqa-1.2.tar.gz tmp/liqa-1.2.1.tar.gz --markdown 20230602/l/liqa/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [markdown-to-json]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [markdown-to-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-to-json-1.1.0.tar.gz tmp/markdown-to-json-2.0.0.tar.gz --markdown 20230602/m/markdown-to-json/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [magma-suite]: Downloading https://files.pythonhosted.org/packages/cf/54/5df85d7cd64089c025b94f8a078c26387417118e2795ff07fd1d90d3bc13/magma_suite-1.5.0.1b1.tar.gz
+[2023-06-02 17:53:10] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/cc/58/f368a7ee79edfa4e6e15295812a1efdf8244ee30e326de321156ca3627e1/dronefly_discord-0.1.1.dev0.tar.gz
+[2023-06-02 17:53:10] INFO root fetch - processPackages [exma]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [exma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exma-0.5.9.tar.gz tmp/exma-0.6.0.tar.gz --markdown 20230602/e/exma/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230602/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.0.tar.gz tmp/wombo-0.1.3.tar.gz --markdown 20230602/w/wombo/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [dronefly-discord]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [dronefly-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_discord-0.1.0.tar.gz tmp/dronefly_discord-0.1.1.dev0.tar.gz --markdown 20230602/d/dronefly-discord/0.1.0-0.1.1.dev0/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [magma-suite]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [magma-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magma_suite-1.4.0.tar.gz tmp/magma_suite-1.5.0.1b1.tar.gz --markdown 20230602/m/magma-suite/1.4.0-1.5.0.1b1/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [QZFM]: Downloading https://files.pythonhosted.org/packages/d2/e5/0f96edf05533a0f72485b5a40ddbb6b335547905e78a98bc2dad0b316cb3/QZFM-0.0.5.tar.gz
+[2023-06-02 17:53:10] INFO root fetch - processPackages [QZFM]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [QZFM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QZFM-0.0.4.tar.gz tmp/QZFM-0.0.5.tar.gz --markdown 20230602/Q/QZFM/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 17:53:10] INFO root fetch - processPackages [yarn-dev-tools]: Downloading https://files.pythonhosted.org/packages/21/48/af238b51c713ae1fe7ca0c0346a996156d54dfd326a3c6dd772c260880d9/yarn-dev-tools-2.0.0.tar.gz
+[2023-06-02 17:53:10] INFO root fetch - processPackages [yarn-dev-tools]: executing diffoscope
+[2023-06-02 17:53:10] INFO root fetch - processPackages [yarn-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarn-dev-tools-1.1.8.tar.gz tmp/yarn-dev-tools-2.0.0.tar.gz --markdown 20230602/y/yarn-dev-tools/1.1.8-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 17:53:11] INFO root fetch - processPackages [torch-pp]: Start processing: nucliadb-contributor-assets
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [torch-pp]: success
+[2023-06-02 17:53:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post812] Old Version: [1.0.0.post810]
+[2023-06-02 17:53:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/0c/15/a6125ec850428bce03d9036712117de6d395bb2ac3088728e30265752c88/nucliadb_contributor_assets-1.0.0.post812-py3-none-any.whl
+[2023-06-02 17:53:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-02 17:53:11] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post810-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post812-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-contributor-assets/1.0.0.post810-1.0.0.post812/diff.md --exclude *.pyd
+[2023-06-02 17:53:11] INFO root fetch - processPackages [liqa]: Start processing: google-news-feed
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [liqa]: success
+[2023-06-02 17:53:11] INFO root fetch - processPackages [google-news-feed]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-06-02 17:53:11] INFO root fetch - processPackages [google-news-feed]: Downloading https://files.pythonhosted.org/packages/0f/ac/4f6a29f8b175ae0dbb9208d759a9f9364f6fc8124ece5075218c6eb20720/google_news_feed-1.0.0.tar.gz
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [dronefly-discord]: success
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [QZFM]: success
+[2023-06-02 17:53:11] INFO root fetch - processPackages [google-news-feed]: Downloading https://files.pythonhosted.org/packages/25/1a/e688e45aaab206b70547d8d8864a4e8382ed14854998941d6ba85ac16072/google_news_feed-1.1.0.tar.gz
+[2023-06-02 17:53:11] INFO root fetch - main [MainThread]: End processing [markdown-to-json]: success
+[2023-06-02 17:53:12] INFO root fetch - main [MainThread]: End processing [magma-suite]: success
+[2023-06-02 17:53:12] INFO root fetch - processPackages [google-news-feed]: executing diffoscope
+[2023-06-02 17:53:12] INFO root fetch - processPackages [google-news-feed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_news_feed-1.0.0.tar.gz tmp/google_news_feed-1.1.0.tar.gz --markdown 20230602/g/google-news-feed/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 17:53:12] INFO root fetch - main [MainThread]: End processing [exma]: success
+[2023-06-02 17:53:12] INFO root fetch - main [MainThread]: End processing [yarn-dev-tools]: success
+[2023-06-02 17:53:13] INFO root fetch - main [MainThread]: End processing [google-news-feed]: success
+[2023-06-02 17:53:23] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-02 17:53:23] INFO root fetch - main [MainThread]: Store serial: [18350705]
