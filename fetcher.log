@@ -21971,3 +21971,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:42:12] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-02 23:42:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-06-02 23:42:13] INFO root fetch - main [MainThread]: Store serial: [18353532]
+[2023-06-02 23:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353532]
+[2023-06-02 23:47:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MarkupSafe
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyRealEstate
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Subsearch
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: padacioso
+[2023-06-02 23:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: salesforce-codetf
+[2023-06-02 23:47:22] INFO root fetch - processPackages [padacioso]: New version: [0.2.1a6] Old Version: [0.2.1a5]
+[2023-06-02 23:47:22] WARNING root fetch - processPackages [pyRealEstate]: Skipping, unable to determine old version
+[2023-06-02 23:47:22] INFO root fetch - main [MainThread]: End processing [pyRealEstate] error
+[2023-06-02 23:47:22] INFO root fetch - processPackages [salesforce-codetf]: New version: [1.0.0] Old Version: [0.0.6.8]
+[2023-06-02 23:47:22] INFO root fetch - processPackages [MarkupSafe]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-02 23:47:22] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-06-02 23:47:22] INFO root fetch - processPackages [Subsearch]: New version: [2.36.0rc3] Old Version: [2.36.0rc2]
+[2023-06-02 23:47:22] INFO root fetch - processPackages [MarkupSafe]: Downloading https://files.pythonhosted.org/packages/95/7e/68018b70268fb4a2a605e2be44ab7b4dd7ce7808adae6c5ef32e34f4b55a/MarkupSafe-2.1.2.tar.gz
+[2023-06-02 23:47:22] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/64/45/99e7db4877c664c642336ac4fd8364d67f17d08619806dbd229299f572b6/padacioso-0.2.1a5.tar.gz
+[2023-06-02 23:47:22] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-06-02 23:47:22] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.36.0rc2.tar.gz tmp/Subsearch-2.36.0rc3.tar.gz --markdown 20230602/S/Subsearch/2.36.0rc2-2.36.0rc3/diff.md --exclude *.pyd
+[2023-06-02 23:47:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/c0/7a/4027f150f3965e37432d5d92fdfca12d7a7192f8c5107ea3caace3c675b5/FuncsForSPO-5.0.9.tar.gz
+[2023-06-02 23:47:22] INFO root fetch - processPackages [MarkupSafe]: Downloading https://files.pythonhosted.org/packages/6d/7c/59a3248f411813f8ccba92a55feaac4bf360d29e2ff05ee7d8e1ef2d7dbf/MarkupSafe-2.1.3.tar.gz
+[2023-06-02 23:47:22] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/98/17/bf6a74f71b9ccda8ce3c379f6365a334e5631d234afab55c313d8e0f97c8/salesforce-codetf-1.0.0.tar.gz
+[2023-06-02 23:47:23] INFO root fetch - processPackages [MarkupSafe]: executing diffoscope
+[2023-06-02 23:47:23] INFO root fetch - processPackages [MarkupSafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarkupSafe-2.1.2.tar.gz tmp/MarkupSafe-2.1.3.tar.gz --markdown 20230602/M/MarkupSafe/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-02 23:47:23] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-06-02 23:47:23] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-0.0.6.8.tar.gz tmp/salesforce-codetf-1.0.0.tar.gz --markdown 20230602/s/salesforce-codetf/0.0.6.8-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 23:47:23] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 23:47:23] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.8.tar.gz tmp/FuncsForSPO-5.0.9.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-06-02 23:47:23] INFO root fetch - processPackages [padacioso]: Downloading https://files.pythonhosted.org/packages/41/04/6cc96798abc0d9fafe1d16569bf7ab5871a5c266caa8d87cc57404be59ee/padacioso-0.2.1a6.tar.gz
+[2023-06-02 23:47:23] INFO root fetch - processPackages [padacioso]: executing diffoscope
+[2023-06-02 23:47:23] INFO root fetch - processPackages [padacioso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padacioso-0.2.1a5.tar.gz tmp/padacioso-0.2.1a6.tar.gz --markdown 20230602/p/padacioso/0.2.1a5-0.2.1a6/diff.md --exclude *.pyd
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [MarkupSafe]: success
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [padacioso]: success
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-06-02 23:47:24] INFO root fetch - main [MainThread]: Store serial: [18353602]
