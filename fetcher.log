@@ -14351,3 +14351,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:07:00] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
 [2023-06-02 15:07:42] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-02 15:07:42] INFO root fetch - main [MainThread]: Store serial: [18348795]
+[2023-06-02 15:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348795]
+[2023-06-02 15:12:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bigsansar
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyeCam
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hrver
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aheadworks-deploy-manager
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuto
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: midpoint-cli
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-sen2like
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corby
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-06-02 15:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easypip
+[2023-06-02 15:12:58] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 15:12:58] WARNING root fetch - processPackages [hrver]: Skipping, unable to determine old version
+[2023-06-02 15:12:58] INFO root fetch - processPackages [hrver]: Start processing: stcgal
+[2023-06-02 15:12:58] INFO root fetch - main [MainThread]: End processing [hrver] error
+[2023-06-02 15:12:58] INFO root fetch - processPackages [easypip]: New version: [1.2.3] Old Version: [1.2.1]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [corby]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [midpoint-cli]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc8] Old Version: [2023.5.0rc7]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [stcgal]: New version: [1.8] Old Version: [1.6]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 15:12:58] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-02 15:12:58] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230602/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 15:12:58] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/ca/04/793cb9349377c3078725f98e8c9a3e8f0dc37f6db0c587b0fc11a93456fe/easypip-1.2.3.tar.gz
+[2023-06-02 15:12:58] INFO root fetch - processPackages [stcgal]: Downloading https://files.pythonhosted.org/packages/f1/9b/4d5aa4dacc5d541dfdefc9e15ca19465b3748b349034abdf529248210d8f/stcgal-1.6.tar.gz
+[2023-06-02 15:12:58] INFO root fetch - processPackages [corby]: Downloading https://files.pythonhosted.org/packages/66/f9/2ba02d241fdae790127171079480a34ab07816de42a337b7d22ae14c006f/corby-0.1.4.tar.gz
+[2023-06-02 15:12:58] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-02 15:12:58] INFO root fetch - processPackages [midpoint-cli]: Downloading https://files.pythonhosted.org/packages/36/92/c701d3ea3e864a1b9a08eeae2d69ed60cd5b2210f5c85371b3803839e04e/midpoint-cli-0.9.0.tar.gz
+[2023-06-02 15:12:58] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-06-02 15:12:58] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230602/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc7.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz --markdown 20230602/e/eodc-faas-sen2like/2023.5.0rc7-2023.5.0rc8/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.2.1.tar.gz tmp/easypip-1.2.3.tar.gz --markdown 20230602/e/easypip/1.2.1-1.2.3/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/65/f7/de723667a6aa6a6cd2f7b9083d886b2da972c7288628208d3a731d1ec42d/Bigsansar-1.6.0.tar.gz
+[2023-06-02 15:12:59] INFO root fetch - processPackages [corby]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [corby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corby-0.1.3.tar.gz tmp/corby-0.1.4.tar.gz --markdown 20230602/c/corby/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230602/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [stcgal]: Downloading https://files.pythonhosted.org/packages/2b/77/9bd839fd3ec9eddd72bb83fcd8f848f26a3091c6ded2ef30e603dc4d1ac7/stcgal-1.8.tar.gz
+[2023-06-02 15:12:59] INFO root fetch - processPackages [midpoint-cli]: Downloading https://files.pythonhosted.org/packages/d0/3f/a814631c08d063b31e980692d4e23ebe8cc3c25287a769d3f05f5ac85e27/midpoint-cli-1.0.0.tar.gz
+[2023-06-02 15:12:59] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.5.9.tar.gz tmp/Bigsansar-1.6.0.tar.gz --markdown 20230602/B/Bigsansar/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [midpoint-cli]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [midpoint-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midpoint-cli-0.9.0.tar.gz tmp/midpoint-cli-1.0.0.tar.gz --markdown 20230602/m/midpoint-cli/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-02 15:12:59] INFO root fetch - processPackages [stcgal]: executing diffoscope
+[2023-06-02 15:12:59] INFO root fetch - processPackages [stcgal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stcgal-1.6.tar.gz tmp/stcgal-1.8.tar.gz --markdown 20230602/s/stcgal/1.6-1.8/diff.md --exclude *.pyd
+[2023-06-02 15:13:00] INFO root fetch - processPackages [pyeCam]: Start processing: autora-core
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: crepes
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [autora-core]: New version: [3.0.0rc2] Old Version: [3.0.0rc1]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: pp-project
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [crepes]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [pp-project]: New version: [1.0.202306021310] Old Version: [1.0.202306021244]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [autora-core]: executing diffoscope
+[2023-06-02 15:13:00] INFO root fetch - processPackages [autora-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-core-3.0.0rc1.tar.gz tmp/autora-core-3.0.0rc2.tar.gz --markdown 20230602/a/autora-core/3.0.0rc1-3.0.0rc2/diff.md --exclude *.pyd
+[2023-06-02 15:13:00] INFO root fetch - processPackages [easypip]: Start processing: nbdev-numpy
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/57/25/0708405d376dc31832a0734fab6c15a90599c75c1d74bc0500e59ae79266/crepes-0.4.0.tar.gz
+[2023-06-02 15:13:00] INFO root fetch - processPackages [pp-project]: Downloading https://files.pythonhosted.org/packages/bb/6b/851d1a6a8b0692fa51cad930b091a2f521cdcf352bdb4c19e23c4503aab8/pp_project-1.0.202306021310-py3-none-any.whl
+[2023-06-02 15:13:00] INFO root fetch - processPackages [kuto]: Start processing: nbdev-pandas
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230602/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [corby]: Start processing: steam-pysigma
+[2023-06-02 15:13:00] INFO root fetch - main [MainThread]: End processing [corby]: success
+[2023-06-02 15:13:00] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-02 15:13:00] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230602/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 15:13:00] INFO root fetch - processPackages [pp-project]: executing diffoscope
+[2023-06-02 15:13:00] INFO root fetch - processPackages [pp-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project-1.0.202306021244-py3-none-any.whl.zip tmp/pp_project-1.0.202306021310-py3-none-any.whl.zip --markdown 20230602/p/pp-project/1.0.202306021244-1.0.202306021310/diff.md --exclude *.pyd
+[2023-06-02 15:13:00] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/85/7f/9a0b5de16b338aa2d2a0297c4b181c2f444fa24b10c73f907ad3dd94ddc5/crepes-0.5.0.tar.gz
+[2023-06-02 15:13:01] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/fc/1f/578f264f0b8ae8d5a68036a065bdea9b6d09f8f012e20fbabdb943b16c09/steam-pysigma-2023.6.2.tar.gz
+[2023-06-02 15:13:01] INFO root fetch - processPackages [crepes]: executing diffoscope
+[2023-06-02 15:13:01] INFO root fetch - processPackages [crepes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepes-0.4.0.tar.gz tmp/crepes-0.5.0.tar.gz --markdown 20230602/c/crepes/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-02 15:13:01] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-06-02 15:13:01] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.6.1.tar.gz tmp/steam-pysigma-2023.6.2.tar.gz --markdown 20230602/s/steam-pysigma/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 15:13:01] ERROR root fetch - processPackages [crepes]: Diffoscope failed: Error: error creating container storage: the container name "interesting_antonelli" is already in use by "03c76ee9e3d4433fc7bdaffb3c9a91b7192704e6024f1a92d3dac4a935474f5b". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-02 15:13:01] INFO root fetch - processPackages [crepes]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-02 15:13:01] INFO root fetch - main [MainThread]: End processing [crepes] error
+[2023-06-02 15:13:01] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 15:13:01] INFO root fetch - processPackages [midpoint-cli]: Start processing: configlayer
+[2023-06-02 15:13:01] INFO root fetch - main [MainThread]: End processing [midpoint-cli]: success
+[2023-06-02 15:13:01] INFO root fetch - processPackages [configlayer]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-02 15:13:01] INFO root fetch - processPackages [configlayer]: Downloading https://files.pythonhosted.org/packages/e4/01/0ef69061504f6b497ccfb491d8178ab88d38528b1dae68dc589b4c0d9b25/configlayer-0.1.tar.gz
+[2023-06-02 15:13:01] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-02 15:13:01] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230602/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 15:13:02] INFO root fetch - processPackages [configlayer]: Downloading https://files.pythonhosted.org/packages/74/a8/9d4132b138771033a15244bc6bde9f39519e97f69363d321391c0e9ea29a/configlayer-0.1.1.tar.gz
+[2023-06-02 15:13:02] INFO root fetch - processPackages [autora-core]: Start processing: nbdev-pytorch
+[2023-06-02 15:13:02] INFO root fetch - main [MainThread]: End processing [autora-core]: success
+[2023-06-02 15:13:02] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 15:13:02] INFO root fetch - processPackages [configlayer]: executing diffoscope
+[2023-06-02 15:13:02] INFO root fetch - processPackages [configlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configlayer-0.1.tar.gz tmp/configlayer-0.1.1.tar.gz --markdown 20230602/c/configlayer/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 15:13:02] INFO root fetch - main [MainThread]: End processing [pp-project]: success
+[2023-06-02 15:13:02] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-02 15:13:02] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230602/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 15:13:02] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-02 15:13:02] INFO root fetch - main [MainThread]: End processing [stcgal]: success
+[2023-06-02 15:13:02] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-06-02 15:13:03] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-02 15:13:03] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-02 15:13:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-02 15:13:04] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-02 15:13:54] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 15:14:00] INFO root fetch - main [MainThread]: End processing [configlayer]: success
+[2023-06-02 15:14:00] INFO root fetch - main [MainThread]: Store serial: [18348854]
