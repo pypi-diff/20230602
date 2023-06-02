@@ -5658,3 +5658,66 @@
 [2023-06-02 03:52:15] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
 [2023-06-02 03:52:26] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-06-02 03:52:26] INFO root fetch - main [MainThread]: Store serial: [18343303]
+[2023-06-02 03:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343303]
+[2023-06-02 03:57:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-acft-accelerator
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-acft-common-components
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-acft-image-components
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-evaluate-mlflow
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-metrics
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-wordpress
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyots
+[2023-06-02 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-terra
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [pyots]: New version: [9.1.0a2] Old Version: [9.1.0a1]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [qiskit-terra]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 03:57:36] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230602/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [pyots]: Downloading https://files.pythonhosted.org/packages/de/fd/d938dc9d49530fb08b0b40ec96ffce3a4471d47fac0169c40faf1bae82fa/pyots-9.1.0a2.tar.gz
+[2023-06-02 03:57:36] INFO root fetch - processPackages [qiskit-terra]: Downloading https://files.pythonhosted.org/packages/01/76/d9cdd7ccdf5acfe35befdfa4e58244af1d772b6b5833f7ee2d47cef621a1/qiskit-terra-0.9.0.tar.gz
+[2023-06-02 03:57:36] INFO root fetch - processPackages [pyots]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [pyots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyots-9.1.0a1.tar.gz tmp/pyots-9.1.0a2.tar.gz --markdown 20230602/p/pyots/9.1.0a1-9.1.0a2/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-acft-contrib-hf-diffusion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-acft-contrib-hf-nlp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-acft-image-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-acft-common-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-06-02 03:57:36] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip --markdown 20230602/a/azureml-acft-accelerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 03:57:37] INFO root fetch - processPackages [qiskit-terra]: Downloading https://files.pythonhosted.org/packages/ee/38/cdfdc66d6d95e0f8048f99532cccf208365a48866e793a9afa15012fecde/qiskit-terra-0.9.1.tar.gz
+[2023-06-02 03:57:37] INFO root fetch - processPackages [qiskit-terra]: executing diffoscope
+[2023-06-02 03:57:37] INFO root fetch - processPackages [qiskit-terra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-terra-0.9.0.tar.gz tmp/qiskit-terra-0.9.1.tar.gz --markdown 20230602/q/qiskit-terra/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 03:57:37] INFO root fetch - processPackages [cdk-wordpress]: Start processing: aliyun-python-sdk-resourcecenter
+[2023-06-02 03:57:37] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-02 03:57:37] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 03:57:37] INFO root fetch - main [MainThread]: End processing [pyots]: success
+[2023-06-02 03:57:37] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Downloading https://files.pythonhosted.org/packages/c9/a3/9e65b6f3fe29d5e0577ffd829f571ab28f702552b32cf653d22215ec50ea/aliyun-python-sdk-resourcecenter-1.0.1.tar.gz
+[2023-06-02 03:57:38] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-06-02 03:57:38] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: Downloading https://files.pythonhosted.org/packages/a7/ce/62b3ca2d0d4d085bafe61f788d7c20644c434e24d1005d305d3a94dd8283/aliyun-python-sdk-resourcecenter-1.0.2.tar.gz
+[2023-06-02 03:57:38] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-06-02 03:57:38] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: executing diffoscope
+[2023-06-02 03:57:38] INFO root fetch - processPackages [aliyun-python-sdk-resourcecenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-resourcecenter-1.0.1.tar.gz tmp/aliyun-python-sdk-resourcecenter-1.0.2.tar.gz --markdown 20230602/a/aliyun-python-sdk-resourcecenter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 03:57:38] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-06-02 03:57:39] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-06-02 03:57:39] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-resourcecenter]: success
+[2023-06-02 03:57:40] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-06-02 03:57:41] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-06-02 03:57:41] INFO root fetch - main [MainThread]: End processing [qiskit-terra]: success
+[2023-06-02 03:57:41] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-06-02 03:57:41] INFO root fetch - main [MainThread]: Store serial: [18343630]
