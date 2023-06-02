@@ -3554,3 +3554,64 @@
 [2023-06-02 03:22:42] INFO root fetch - main [MainThread]: End processing [netspresso]: success
 [2023-06-02 03:22:42] INFO root fetch - main [MainThread]: End processing [vision6D]: success
 [2023-06-02 03:22:43] INFO root fetch - main [MainThread]: Store serial: [18342356]
+[2023-06-02 03:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18342356]
+[2023-06-02 03:27:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fad-pytorch
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laptrack
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: novelai-api
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-database
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edman-web
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOptionPane
+[2023-06-02 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-rename
+[2023-06-02 03:27:51] INFO root fetch - processPackages [laptrack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [lesscode-database]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [edman-web]: New version: [2023.6.2] Old Version: [2023.5.8]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [fad-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [PyOptionPane]: New version: [0.67] Old Version: [0.621]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.3.7] Old Version: [1.3.5]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [novelai-api]: New version: [0.9] Old Version: [0.8]
+[2023-06-02 03:27:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-02 03:27:52] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.1.dev202305251684934970] Old Version: [1.8.1.9.dev202306011685427304]
+[2023-06-02 03:27:52] INFO root fetch - processPackages [lesscode-database]: Downloading https://files.pythonhosted.org/packages/42/71/6531054c2aefd00b04b3113754ca1d7b2b684fe5d6e027c74307f697b991/lesscode_database-0.0.1.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230602/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [PyOptionPane]: Downloading https://files.pythonhosted.org/packages/61/9d/4efc42f8b5c24ccfa379e02067b1716b9c3992bf4778e0faa1d8e3f4167d/PyOptionPane-0.621.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/95/a4/6272b5afd14c2d94a8023faa0bbafeffa011f4b763eab4657f1262b1685c/pyAgrum_nightly-1.8.1.9.dev202306011685427304-cp39-cp39-win_amd64.whl
+[2023-06-02 03:27:52] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/4e/39/f768eebf76e8944f4c3802c1badbd025e9028c4471b522ccb912abf373d2/nonebot_plugin_rename-1.3.7.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/64/01/68932a1c3c37aaede869e5e53585bfb4a3d3826ee3b060b11cda797e0bc9/edman_web-2023.6.2.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [fad-pytorch]: Downloading https://files.pythonhosted.org/packages/dd/dc/42afe243bb0d10ce82e911bd5f538845b256edceaf6e032e31f0156b16ce/fad_pytorch-0.0.4.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230602/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.5.8.tar.gz tmp/edman_web-2023.6.2.tar.gz --markdown 20230602/e/edman-web/2023.5.8-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [laptrack]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [laptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laptrack-0.9.0.tar.gz tmp/laptrack-0.9.1.tar.gz --markdown 20230602/l/laptrack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.3.5.tar.gz tmp/nonebot_plugin_rename-1.3.7.tar.gz --markdown 20230602/n/nonebot-plugin-rename/1.3.5-1.3.7/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [lesscode-database]: Downloading https://files.pythonhosted.org/packages/04/85/8eb0b382500272ea6e7fd952b340a8d3bdee2295e9248239f159240bafe6/lesscode_database-0.0.2.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [fad-pytorch]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [fad-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fad_pytorch-0.0.3.tar.gz tmp/fad_pytorch-0.0.4.tar.gz --markdown 20230602/f/fad-pytorch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [novelai-api]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [novelai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelai-api-0.8.tar.gz tmp/novelai-api-0.9.tar.gz --markdown 20230602/n/novelai-api/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [PyOptionPane]: Downloading https://files.pythonhosted.org/packages/1b/24/ebc2149cbbfea4957696cd92fda93186cd73e7c9cc10e30789349c2f6148/PyOptionPane-0.67.tar.gz
+[2023-06-02 03:27:52] INFO root fetch - processPackages [lesscode-database]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [lesscode-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_database-0.0.1.tar.gz tmp/lesscode_database-0.0.2.tar.gz --markdown 20230602/l/lesscode-database/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 03:27:52] INFO root fetch - processPackages [PyOptionPane]: executing diffoscope
+[2023-06-02 03:27:52] INFO root fetch - processPackages [PyOptionPane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOptionPane-0.621.tar.gz tmp/PyOptionPane-0.67.tar.gz --markdown 20230602/P/PyOptionPane/0.621-0.67/diff.md --exclude *.pyd
+[2023-06-02 03:27:53] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-02 03:27:53] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.1.9.dev202306011685427304-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.1.dev202305251684934970-cp39-cp39-win_amd64.whl.zip --markdown 20230602/p/pyagrum-nightly/1.8.1.9.dev202306011685427304-1.8.1.dev202305251684934970/diff.md --exclude *.pyd
+[2023-06-02 03:27:53] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [PyOptionPane]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [laptrack]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [lesscode-database]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [fad-pytorch]: success
+[2023-06-02 03:27:54] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-02 03:27:55] INFO root fetch - main [MainThread]: End processing [novelai-api]: success
+[2023-06-02 03:27:55] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-02 03:27:55] INFO root fetch - main [MainThread]: Store serial: [18342404]
