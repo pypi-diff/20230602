@@ -20654,3 +20654,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:53:04] INFO root fetch - main [MainThread]: End processing [context-menu]: success
 [2023-06-02 21:53:05] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-02 21:53:05] INFO root fetch - main [MainThread]: Store serial: [18352787]
+[2023-06-02 21:58:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352787]
+[2023-06-02 21:58:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdns-reaper
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynamer
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causalvis
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-contrib
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-contrib
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starvote
+[2023-06-02 21:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FuncsForSPO
+[2023-06-02 21:58:15] WARNING root fetch - processPackages [causalvis]: Skipping, unable to determine old version
+[2023-06-02 21:58:15] INFO root fetch - main [MainThread]: End processing [causalvis] error
+[2023-06-02 21:58:15] INFO root fetch - processPackages [flet-contrib]: New version: [2023.6.2] Old Version: [1.0.5.dev0]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [starvote]: New version: [2.0] Old Version: [1.5.1]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [rdns-reaper]: New version: [0.1.1rc1] Old Version: [0.1.0rc1]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [flet-contrib]: New version: [2023.6.2] Old Version: [1.0.5.dev0]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.0] Old Version: [4.44.2]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [pynamer]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-02 21:58:15] INFO root fetch - processPackages [rdns-reaper]: executing diffoscope
+[2023-06-02 21:58:15] INFO root fetch - processPackages [rdns-reaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdns_reaper-0.1.0rc1.tar.gz tmp/rdns_reaper-0.1.1rc1.tar.gz --markdown 20230602/r/rdns-reaper/0.1.0rc1-0.1.1rc1/diff.md --exclude *.pyd
+[2023-06-02 21:58:15] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/a1/1f/6f20a77b66d2091ec84e3f72a761dd61c4d21e80e36be4cc48b3687012fc/flet_contrib-1.0.5.dev0.tar.gz
+[2023-06-02 21:58:15] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/a1/1f/6f20a77b66d2091ec84e3f72a761dd61c4d21e80e36be4cc48b3687012fc/flet_contrib-1.0.5.dev0.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/ef/ac/0973fdba581d5152aab33374d92411519ab50dfede894cb3b4d8193692ed/starvote-2.0.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/ad/c1/8dff866c5443c331eafcd7de58efd3c76aa593192858e9547aa6d1efd316/pynamer-2.0.3.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/ed/ed/700f85b8cb3d8a35c26c0afa97b5a06d280ef3683ce5d2c8de62d1bfc66a/FuncsForSPO-5.0.0.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-06-02 21:58:16] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-2.0.2.tar.gz tmp/pynamer-2.0.3.tar.gz --markdown 20230602/p/pynamer/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-02 21:58:16] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 21:58:16] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.44.2.tar.gz tmp/FuncsForSPO-5.0.0.tar.gz --markdown 20230602/F/FuncsForSPO/4.44.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-02 21:58:16] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-06-02 21:58:16] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-1.5.1.tar.gz tmp/starvote-2.0.tar.gz --markdown 20230602/s/starvote/1.5.1-2.0/diff.md --exclude *.pyd
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/f8/39/0c8d1acad6ca027a318b2df6bd731ef7d22f84ec1e0ddf7409095b5a7d6b/flet_contrib-2023.6.2.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: Downloading https://files.pythonhosted.org/packages/f8/39/0c8d1acad6ca027a318b2df6bd731ef7d22f84ec1e0ddf7409095b5a7d6b/flet_contrib-2023.6.2.tar.gz
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: executing diffoscope
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib-1.0.5.dev0.tar.gz tmp/flet_contrib-2023.6.2.tar.gz --markdown 20230602/f/flet-contrib/1.0.5.dev0-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: executing diffoscope
+[2023-06-02 21:58:16] INFO root fetch - processPackages [flet-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_contrib-1.0.5.dev0.tar.gz tmp/flet_contrib-2023.6.2.tar.gz --markdown 20230602/f/flet-contrib/1.0.5.dev0-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 21:58:17] INFO root fetch - main [MainThread]: End processing [rdns-reaper]: success
+[2023-06-02 21:58:17] INFO root fetch - main [MainThread]: End processing [flet-contrib]: success
+[2023-06-02 21:58:17] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-06-02 21:58:17] INFO root fetch - main [MainThread]: End processing [flet-contrib]: success
+[2023-06-02 21:58:18] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 21:58:19] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-06-02 21:58:19] INFO root fetch - main [MainThread]: Store serial: [18352821]
