@@ -3237,3 +3237,71 @@
 [2023-06-02 02:59:23] INFO root fetch - main [MainThread]: End processing [typos]: success
 [2023-06-02 02:59:24] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-02 02:59:24] INFO root fetch - main [MainThread]: Store serial: [18342177]
+[2023-06-02 03:04:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18342177]
+[2023-06-02 03:04:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuneflow-py
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quera-ahs-utils
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-pyodide
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-wget
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atoti-query
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atoti-core
+[2023-06-02 03:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atoti-aws
+[2023-06-02 03:04:34] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [quera-ahs-utils]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [pytest-pyodide]: New version: [0.52.0] Old Version: [0.51.0]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [tuneflow-py]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [atoti-aws]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [atoti-core]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [atoti-query]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-02 03:04:34] INFO root fetch - processPackages [quera-ahs-utils]: Downloading https://files.pythonhosted.org/packages/2f/20/dddfa1458246db1a3d63a4fb90dbc51b353b1b32d93cd00e5d52e66a6b8d/quera-ahs-utils-0.4.1.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [pytest-pyodide]: Downloading https://files.pythonhosted.org/packages/20/f5/711b0f1337e67fb50b5d1b45993dbb55effe6ae3ae7a91b2b0a6fa26731f/pytest-pyodide-0.51.0.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230602/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230602/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-aws]: Downloading https://files.pythonhosted.org/packages/21/f5/e4f35b7ef09330c40d45f0de55a1aebd4365e5b96fa9ab09d0c26b9ce7e3/atoti_aws-0.7.4-0_cb607ee-py3-none-any.whl
+[2023-06-02 03:04:35] WARNING root fetch - processPackages [atoti-aws]: Skipping package: exceeds size limit 17909967>=10485760
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-aws]: Start processing: atoti-azure
+[2023-06-02 03:04:35] INFO root fetch - main [MainThread]: End processing [atoti-aws] error
+[2023-06-02 03:04:35] INFO root fetch - processPackages [tuneflow-py]: Downloading https://files.pythonhosted.org/packages/8c/91/574b503625e0c724409c462df8c0a6920d2097ca84431cde6005a6f5989a/tuneflow-py-0.8.3.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-query]: Downloading https://files.pythonhosted.org/packages/26/b2/3b4ed5fc8fb07b67b7929eef6b5f2b45bbece758fbdbedacf9c8b096c3d9/atoti_query-0.7.4-0_cb607ee-py3-none-any.whl
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-core]: Downloading https://files.pythonhosted.org/packages/34/19/05826e7d3ca33cd471b370e286d1e8b3178dac00911819c34643bf3124f5/atoti_core-0.7.4-0_cb607ee-py3-none-any.whl
+[2023-06-02 03:04:35] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/52/ca/1c55e5fe4f7bb0863a22980037a358854a586374f867da973b27fc25befa/auto-test-common-1.0.5.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230602/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [quera-ahs-utils]: Downloading https://files.pythonhosted.org/packages/3e/52/7df23ad4c4bc1946657f783207f1fabfe0a155e44b813574cceeaff0fed1/quera-ahs-utils-0.4.2.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [tuneflow-py]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [tuneflow-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-py-0.8.2.tar.gz tmp/tuneflow-py-0.8.3.tar.gz --markdown 20230602/t/tuneflow-py/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.4.tar.gz tmp/auto-test-common-1.0.5.tar.gz --markdown 20230602/a/auto-test-common/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-azure]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-02 03:04:35] INFO root fetch - processPackages [pytest-pyodide]: Downloading https://files.pythonhosted.org/packages/02/0c/2cb68a57fe83955e8653eb9ca5f795fb61fc4ef293bcbc82c54687d5cb4b/pytest-pyodide-0.52.0.tar.gz
+[2023-06-02 03:04:35] INFO root fetch - processPackages [quera-ahs-utils]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [quera-ahs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quera-ahs-utils-0.4.1.tar.gz tmp/quera-ahs-utils-0.4.2.tar.gz --markdown 20230602/q/quera-ahs-utils/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-core]: Downloading https://files.pythonhosted.org/packages/52/82/4e9cf93e7d02f5900beaace42ca42b00c4d028a00c9ae48c2a7f2383714b/atoti_core-0.8.0-0_04c5fd8-py3-none-any.whl
+[2023-06-02 03:04:35] INFO root fetch - processPackages [pytest-pyodide]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [pytest-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-pyodide-0.51.0.tar.gz tmp/pytest-pyodide-0.52.0.tar.gz --markdown 20230602/p/pytest-pyodide/0.51.0-0.52.0/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-query]: Downloading https://files.pythonhosted.org/packages/f2/b8/9446627bfaf9fc128596b48c52d7a25be4082a99559198de56e6a103e2af/atoti_query-0.8.0-0_04c5fd8-py3-none-any.whl
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-azure]: Downloading https://files.pythonhosted.org/packages/40/d1/ba8ddfc1312c67cb01b2281777c902ca54cbe27f53a195b86e103de09e8e/atoti_azure-0.7.4-0_cb607ee-py3-none-any.whl
+[2023-06-02 03:04:35] WARNING root fetch - processPackages [atoti-azure]: Skipping package: exceeds size limit 27232178>=10485760
+[2023-06-02 03:04:35] INFO root fetch - main [MainThread]: End processing [atoti-azure] error
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-core]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_core-0.7.4-0_cb607ee-py3-none-any.whl.zip tmp/atoti_core-0.8.0-0_04c5fd8-py3-none-any.whl.zip --markdown 20230602/a/atoti-core/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-query]: executing diffoscope
+[2023-06-02 03:04:35] INFO root fetch - processPackages [atoti-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_query-0.7.4-0_cb607ee-py3-none-any.whl.zip tmp/atoti_query-0.8.0-0_04c5fd8-py3-none-any.whl.zip --markdown 20230602/a/atoti-query/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-06-02 03:04:36] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-02 03:04:36] INFO root fetch - main [MainThread]: End processing [quera-ahs-utils]: success
+[2023-06-02 03:04:36] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-02 03:04:36] INFO root fetch - main [MainThread]: End processing [tuneflow-py]: success
+[2023-06-02 03:04:36] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-06-02 03:04:37] INFO root fetch - main [MainThread]: End processing [pytest-pyodide]: success
+[2023-06-02 03:04:37] INFO root fetch - main [MainThread]: End processing [atoti-query]: success
+[2023-06-02 03:04:37] INFO root fetch - main [MainThread]: End processing [atoti-core]: success
+[2023-06-02 03:04:57] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-02 03:04:57] INFO root fetch - main [MainThread]: Store serial: [18342209]
