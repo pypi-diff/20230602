@@ -20783,3 +20783,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 22:03:32] INFO root fetch - main [MainThread]: End processing [databento]: success
 [2023-06-02 22:03:32] INFO root fetch - main [MainThread]: End processing [hart-protocol]: success
 [2023-06-02 22:03:32] INFO root fetch - main [MainThread]: Store serial: [18352878]
+[2023-06-02 22:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352878]
+[2023-06-02 22:08:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prostate-nomograms
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enforce-notebook-run-order
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FuncsForSPO
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fusion-engine-client
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cppython-git
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starvote
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ser-Galuts
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: most-queue
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prostate-nomograms
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-06-02 22:08:41] WARNING root fetch - processPackages [cppython-git]: Skipping, unable to determine old version
+[2023-06-02 22:08:41] INFO root fetch - processPackages [cppython-git]: Start processing: FuncsForSPO
+[2023-06-02 22:08:41] INFO root fetch - main [MainThread]: End processing [cppython-git] error
+[2023-06-02 22:08:41] INFO root fetch - processPackages [prostate-nomograms]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [fusion-engine-client]: New version: [1.20.0rc1] Old Version: [1.19.0]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [prostate-nomograms]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ser-Galuts]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [enforce-notebook-run-order]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [starvote]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [most-queue]: New version: [1.3] Old Version: [1.2]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [FuncsForSPO]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [coiled]: New version: [0.7.1.dev4] Old Version: [0.7.1.dev3]
+[2023-06-02 22:08:41] INFO root fetch - processPackages [most-queue]: executing diffoscope
+[2023-06-02 22:08:41] INFO root fetch - processPackages [most-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/most_queue-1.2.tar.gz tmp/most_queue-1.3.tar.gz --markdown 20230602/m/most-queue/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-02 22:08:41] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/5c/fb/1963441bf8dd80ffc8dbe0f80ce9e2386bee68d78d8a6104baf217943c1c/prostate-nomograms-0.0.3.tar.gz
+[2023-06-02 22:08:41] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/5c/fb/1963441bf8dd80ffc8dbe0f80ce9e2386bee68d78d8a6104baf217943c1c/prostate-nomograms-0.0.3.tar.gz
+[2023-06-02 22:08:41] INFO root fetch - processPackages [ser-Galuts]: Downloading https://files.pythonhosted.org/packages/f2/00/132c0d1b61d17579c0ac8e65958640dcb19a034683555b1f29cd44a1e090/ser_Galuts-0.1.2.tar.gz
+[2023-06-02 22:08:41] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/10/c2/f3d370a31817de17fb88d7c5abb12fc15602417d19dc85b4e07cdc4457dd/fusion-engine-client-1.19.0.tar.gz
+[2023-06-02 22:08:41] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/76/e7/6dcfecaf3c5887f4f6f43d53662674de5d912f300d9fe8f6efdc76cbfe77/enforce_notebook_run_order-0.1.5.tar.gz
+[2023-06-02 22:08:41] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/b2/be/d39d7edc2c79040ee99c49ceda4ed53fb5c5f489f6aaaca3016108255ac3/starvote-2.0.1.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/d5/99/3c1236eaa71a3b943874f8fb17ea4890ed1b681b21a9d007565bf06c3c2b/FuncsForSPO-5.0.3.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/d5/99/3c1236eaa71a3b943874f8fb17ea4890ed1b681b21a9d007565bf06c3c2b/FuncsForSPO-5.0.3.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c9/47/f2706f459ce6b75a1133da444b11608c3b667dbdb6890025431d9333a9cb/coiled-0.7.1.dev4.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [ser-Galuts]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [ser-Galuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ser_Galuts-0.1.1.tar.gz tmp/ser_Galuts-0.1.2.tar.gz --markdown 20230602/s/ser-Galuts/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [enforce-notebook-run-order]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [enforce-notebook-run-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enforce_notebook_run_order-0.1.4.tar.gz tmp/enforce_notebook_run_order-0.1.5.tar.gz --markdown 20230602/e/enforce-notebook-run-order/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.2.tar.gz tmp/FuncsForSPO-5.0.3.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-5.0.2.tar.gz tmp/FuncsForSPO-5.0.3.tar.gz --markdown 20230602/F/FuncsForSPO/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/c0/bd/ed4dfc2ba868b904164b90dc0ded0647a2570a37ac773115dcb17818dc5d/fusion-engine-client-1.20.0rc1.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.1.dev3.tar.gz tmp/coiled-0.7.1.dev4.tar.gz --markdown 20230602/c/coiled/0.7.1.dev3-0.7.1.dev4/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/d1/ff/b8e7b29ae09d58d869d072fe975a4c59c1a69f40240bb5072fee70ca5706/prostate-nomograms-0.0.4.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: Downloading https://files.pythonhosted.org/packages/d1/ff/b8e7b29ae09d58d869d072fe975a4c59c1a69f40240bb5072fee70ca5706/prostate-nomograms-0.0.4.tar.gz
+[2023-06-02 22:08:42] INFO root fetch - processPackages [fusion-engine-client]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [fusion-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-client-1.19.0.tar.gz tmp/fusion-engine-client-1.20.0rc1.tar.gz --markdown 20230602/f/fusion-engine-client/1.19.0-1.20.0rc1/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prostate-nomograms-0.0.3.tar.gz tmp/prostate-nomograms-0.0.4.tar.gz --markdown 20230602/p/prostate-nomograms/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [prostate-nomograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prostate-nomograms-0.0.3.tar.gz tmp/prostate-nomograms-0.0.4.tar.gz --markdown 20230602/p/prostate-nomograms/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 22:08:42] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-06-02 22:08:42] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-2.0.tar.gz tmp/starvote-2.0.1.tar.gz --markdown 20230602/s/starvote/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-02 22:08:43] INFO root fetch - main [MainThread]: End processing [ser-Galuts]: success
+[2023-06-02 22:08:43] INFO root fetch - main [MainThread]: End processing [most-queue]: success
+[2023-06-02 22:08:43] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 22:08:43] INFO root fetch - main [MainThread]: End processing [enforce-notebook-run-order]: success
+[2023-06-02 22:08:44] INFO root fetch - main [MainThread]: End processing [fusion-engine-client]: success
+[2023-06-02 22:08:44] INFO root fetch - main [MainThread]: End processing [prostate-nomograms]: success
+[2023-06-02 22:08:44] INFO root fetch - main [MainThread]: End processing [prostate-nomograms]: success
+[2023-06-02 22:08:44] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-02 22:08:45] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-06-02 22:08:45] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 22:08:45] INFO root fetch - main [MainThread]: Store serial: [18352913]
