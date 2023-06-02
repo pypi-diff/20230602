@@ -15022,3 +15022,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:46:23] INFO root fetch - main [MainThread]: End processing [trezor]: success
 [2023-06-02 15:47:24] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-06-02 15:47:24] INFO root fetch - main [MainThread]: Store serial: [18349146]
+[2023-06-02 15:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349146]
+[2023-06-02 15:52:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huscy.project-consents
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stnblipy
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leverage
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecoda-nat
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: draupnir
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylibffm
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mj-package-ipc
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wicker
+[2023-06-02 15:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zoom-python
+[2023-06-02 15:52:34] INFO root fetch - processPackages [huscy.project-consents]: New version: [0.7.0a8] Old Version: [0.6.0a7]
+[2023-06-02 15:52:34] INFO root fetch - processPackages [stnblipy]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-06-02 15:52:34] WARNING root fetch - processPackages [mj-package-ipc]: Skipping, unable to determine old version
+[2023-06-02 15:52:34] INFO root fetch - main [MainThread]: End processing [mj-package-ipc] error
+[2023-06-02 15:52:34] INFO root fetch - processPackages [draupnir]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-02 15:52:34] INFO root fetch - processPackages [wicker]: New version: [0.0.5a0] Old Version: [0.0.5.1]
+[2023-06-02 15:52:34] INFO root fetch - processPackages [leverage]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-02 15:52:34] INFO root fetch - processPackages [pylibffm]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-02 15:52:34] WARNING root fetch - processPackages [zoom-python]: Skipping, unable to determine old version
+[2023-06-02 15:52:34] INFO root fetch - main [MainThread]: End processing [zoom-python] error
+[2023-06-02 15:52:34] INFO root fetch - processPackages [mecoda-nat]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-06-02 15:52:34] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/6c/ca/68653b4969c3cd449aeb81948699810d6138ca69e1bea8ba4a0e37df2099/huscy.project_consents-0.6.0a7.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [wicker]: Downloading https://files.pythonhosted.org/packages/7e/17/932a449629c93955445db06cd3c7d32bb3bbbafbf9c82e1855140297e4f0/wicker-0.0.5.1.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [draupnir]: Downloading https://files.pythonhosted.org/packages/a2/20/0b6a36025ea9221a790f0ba9fae8c63af5b31a771aac94efe66760661fe4/draupnir-0.0.27.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/6b/c3/5919889f94304b0e2c8d42a1b00d09926f6c5237d8b1a4d8d96d91c7ab7c/pylibffm-0.2.3.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [mecoda-nat]: Downloading https://files.pythonhosted.org/packages/8f/b6/babdd4f2caef97c4b43a73f11cbcd51a3aa8ea6d75b96ad5f8519b30d366/mecoda-nat-0.5.8.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [leverage]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [leverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leverage-1.9.1.tar.gz tmp/leverage-1.9.2.tar.gz --markdown 20230602/l/leverage/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [stnblipy]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [stnblipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stnblipy-4.8.1.tar.gz tmp/stnblipy-4.9.0.tar.gz --markdown 20230602/s/stnblipy/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/be/84/32276daf8f68646730307ff3fed5047557726de03f14148ffd82a9ffaa69/pylibffm-0.2.4.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/bf/a3/7ae8a7c663a988a85183df2322117e9bb2103af0828ef119663c7161ec6a/huscy.project_consents-0.7.0a8.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [mecoda-nat]: Downloading https://files.pythonhosted.org/packages/3f/14/58a78038ae1738b42a65a800a9f2aa2d58f68a37006acf006c2e601d9371/mecoda-nat-0.6.0.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [pylibffm]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [pylibffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibffm-0.2.3.tar.gz tmp/pylibffm-0.2.4.tar.gz --markdown 20230602/p/pylibffm/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [mecoda-nat]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [mecoda-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecoda-nat-0.5.8.tar.gz tmp/mecoda-nat-0.6.0.tar.gz --markdown 20230602/m/mecoda-nat/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [wicker]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [wicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicker-0.0.5.1.tar.gz tmp/wicker-0.0.5a0.tar.gz --markdown 20230602/w/wicker/0.0.5.1-0.0.5a0/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [huscy.project-consents]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [huscy.project-consents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_consents-0.6.0a7.tar.gz tmp/huscy.project_consents-0.7.0a8.tar.gz --markdown 20230602/h/huscy.project-consents/0.6.0a7-0.7.0a8/diff.md --exclude *.pyd
+[2023-06-02 15:52:34] INFO root fetch - processPackages [draupnir]: Downloading https://files.pythonhosted.org/packages/ca/81/ad994c40bb018c494ea5e0fb50c37207494996bd9300ad6aafe7d09a83c8/draupnir-0.0.28.tar.gz
+[2023-06-02 15:52:34] INFO root fetch - processPackages [draupnir]: executing diffoscope
+[2023-06-02 15:52:34] INFO root fetch - processPackages [draupnir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draupnir-0.0.27.tar.gz tmp/draupnir-0.0.28.tar.gz --markdown 20230602/d/draupnir/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-02 15:52:35] INFO root fetch - main [MainThread]: End processing [leverage]: success
+[2023-06-02 15:52:35] INFO root fetch - main [MainThread]: End processing [mecoda-nat]: success
+[2023-06-02 15:52:36] INFO root fetch - main [MainThread]: End processing [stnblipy]: success
+[2023-06-02 15:52:36] INFO root fetch - main [MainThread]: End processing [wicker]: success
+[2023-06-02 15:52:36] INFO root fetch - main [MainThread]: End processing [huscy.project-consents]: success
+[2023-06-02 15:52:38] INFO root fetch - main [MainThread]: End processing [draupnir]: success
+[2023-06-02 15:52:46] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
+[2023-06-02 15:52:46] INFO root fetch - main [MainThread]: Store serial: [18349176]
