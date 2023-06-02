@@ -12410,3 +12410,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-02 12:47:09] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
 [2023-06-02 12:47:09] INFO root fetch - main [MainThread]: Store serial: [18347622]
+[2023-06-02 12:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347622]
+[2023-06-02 12:52:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gyoza
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpydf
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medsenger-api
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccache
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lovely-grad
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reflect-client
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepface-custom
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easy-sql-easy-sql
+[2023-06-02 12:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantecon_book_networks
+[2023-06-02 12:52:19] WARNING root fetch - processPackages [gyoza]: Skipping, unable to determine old version
+[2023-06-02 12:52:19] INFO root fetch - processPackages [gyoza]: Start processing: adata
+[2023-06-02 12:52:19] INFO root fetch - main [MainThread]: End processing [gyoza] error
+[2023-06-02 12:52:19] INFO root fetch - processPackages [xpydf]: New version: [0.1.5] Old Version: [0.1.4.6]
+[2023-06-02 12:52:19] WARNING root fetch - processPackages [lovely-grad]: Skipping, unable to determine old version
+[2023-06-02 12:52:19] INFO root fetch - processPackages [lovely-grad]: Start processing: cloudshell-shell-flows
+[2023-06-02 12:52:19] INFO root fetch - main [MainThread]: End processing [lovely-grad] error
+[2023-06-02 12:52:19] INFO root fetch - processPackages [easy-sql-easy-sql]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [quantecon_book_networks]: New version: [0.5.1] Old Version: [0.5]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [deepface-custom]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [sccache]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [reflect-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [cloudshell-shell-flows]: New version: [3.0.0] Old Version: [2.0.4]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [kalm]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-06-02 12:52:19] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-06-02 12:52:19] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230602/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:52:19] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-06-02 12:52:19] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230602/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-06-02 12:52:19] INFO root fetch - processPackages [easy-sql-easy-sql]: Downloading https://files.pythonhosted.org/packages/80/65/d1929c94c4e6d306b3f6db71f1cca6db0fab7db523828372f2be1f9e742f/easy_sql_easy_sql-1.0.0.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/f8/8c/fad83f3467ba5dcb740a486444c327cd94207f1ab942a42c38fcefe53393/xpydf-0.1.5.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [cloudshell-shell-flows]: Downloading https://files.pythonhosted.org/packages/b0/56/c9d952f355647de6a6aed6a8de51e44a035302130e2ba354b6f33879c151/cloudshell-shell-flows-2.0.4.zip
+[2023-06-02 12:52:19] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/10/88/04d573d096a55dda3d5c3c180145df119c525a568822671eb80ff9156ad7/reflect-client-1.0.0.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/fa/1d/d70db3e6a27e5501c9aec6e0e418c563a0676b8df4da24ecbbb25a3e3b45/kalm-0.6.4.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [deepface-custom]: Downloading https://files.pythonhosted.org/packages/b6/24/d03c9da429e4f48cc011ab80528fce6e5239592d870fd6d863eb06637997/deepface-custom-0.0.82.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [sccache]: Downloading https://files.pythonhosted.org/packages/a0/50/e309a1643561e9272bf6a8d6aab8d5774d197baf346eab32d3e781dfb53c/sccache-0.5.0-py3-none-win_amd64.whl
+[2023-06-02 12:52:19] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-02 12:52:19] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.3.tar.gz tmp/kalm-0.6.4.tar.gz --markdown 20230602/k/kalm/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-02 12:52:19] INFO root fetch - processPackages [deepface-custom]: executing diffoscope
+[2023-06-02 12:52:19] INFO root fetch - processPackages [deepface-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepface-custom-0.0.81.tar.gz tmp/deepface-custom-0.0.82.tar.gz --markdown 20230602/d/deepface-custom/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-06-02 12:52:19] INFO root fetch - processPackages [quantecon_book_networks]: Downloading https://files.pythonhosted.org/packages/42/9b/c4c34977db7fdc7c0932dcbd71e6369498070eccd6d3647df8986242c1ff/quantecon_book_networks-0.5.1.tar.gz
+[2023-06-02 12:52:19] INFO root fetch - processPackages [quantecon_book_networks]: executing diffoscope
+[2023-06-02 12:52:19] INFO root fetch - processPackages [quantecon_book_networks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon_book_networks-0.5.tar.gz tmp/quantecon_book_networks-0.5.1.tar.gz --markdown 20230602/q/quantecon_book_networks/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 12:52:20] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/6e/91/e0b5e1337dabc8efa2a8750a7f8f7eb1cdbefba53d17f042e412bdafe7bd/reflect-client-1.0.1.tar.gz
+[2023-06-02 12:52:20] INFO root fetch - processPackages [cloudshell-shell-flows]: Downloading https://files.pythonhosted.org/packages/0b/b2/f3efd6fe4aa6a4eb1f71872aa33e31163e5938b77d706b3d1e927d9b9ad3/cloudshell-shell-flows-3.0.0.zip
+[2023-06-02 12:52:20] INFO root fetch - processPackages [reflect-client]: executing diffoscope
+[2023-06-02 12:52:20] INFO root fetch - processPackages [reflect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflect-client-1.0.0.tar.gz tmp/reflect-client-1.0.1.tar.gz --markdown 20230602/r/reflect-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 12:52:20] INFO root fetch - processPackages [easy-sql-easy-sql]: Downloading https://files.pythonhosted.org/packages/52/fd/78f15f1360b3e28500f1957a62881ce4e3ecc0c0da49ac91bc7857d23097/easy_sql_easy_sql-1.1.0.tar.gz
+[2023-06-02 12:52:20] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-06-02 12:52:20] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.6.tar.gz tmp/xpydf-0.1.5.tar.gz --markdown 20230602/x/xpydf/0.1.4.6-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 12:52:20] INFO root fetch - processPackages [easy-sql-easy-sql]: executing diffoscope
+[2023-06-02 12:52:20] INFO root fetch - processPackages [easy-sql-easy-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_sql_easy_sql-1.0.0.tar.gz tmp/easy_sql_easy_sql-1.1.0.tar.gz --markdown 20230602/e/easy-sql-easy-sql/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 12:52:20] INFO root fetch - processPackages [cloudshell-shell-flows]: executing diffoscope
+[2023-06-02 12:52:20] INFO root fetch - processPackages [cloudshell-shell-flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-shell-flows-2.0.4.zip tmp/cloudshell-shell-flows-3.0.0.zip --markdown 20230602/c/cloudshell-shell-flows/2.0.4-3.0.0/diff.md --exclude *.pyd
+[2023-06-02 12:52:20] INFO root fetch - processPackages [medsenger-api]: Start processing: format-oc
+[2023-06-02 12:52:20] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-06-02 12:52:20] INFO root fetch - processPackages [format-oc]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-06-02 12:52:21] INFO root fetch - processPackages [format-oc]: Downloading https://files.pythonhosted.org/packages/33/1e/4e167ab9781fc24d5c14a41de7ecf53c11001f8fddb35dc5454f365fad54/format-oc-1.6.1.tar.gz
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [deepface-custom]: success
+[2023-06-02 12:52:21] INFO root fetch - processPackages [sccache]: Downloading https://files.pythonhosted.org/packages/f0/b1/6c6fe98b656302d1370b8b244638f418c6d9c3646a851994a578669144f7/sccache-0.5.1-py3-none-win_amd64.whl
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [reflect-client]: success
+[2023-06-02 12:52:21] INFO root fetch - processPackages [format-oc]: Downloading https://files.pythonhosted.org/packages/bb/ce/966fd6d63a93f9b8b8628c21ce8c4228d402721484b56b866ed437c5add9/format-oc-1.6.2.tar.gz
+[2023-06-02 12:52:21] INFO root fetch - processPackages [format-oc]: executing diffoscope
+[2023-06-02 12:52:21] INFO root fetch - processPackages [format-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/format-oc-1.6.1.tar.gz tmp/format-oc-1.6.2.tar.gz --markdown 20230602/f/format-oc/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [cloudshell-shell-flows]: success
+[2023-06-02 12:52:21] INFO root fetch - main [MainThread]: End processing [easy-sql-easy-sql]: success
+[2023-06-02 12:52:22] INFO root fetch - processPackages [sccache]: executing diffoscope
+[2023-06-02 12:52:22] INFO root fetch - processPackages [sccache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccache-0.5.0-py3-none-win_amd64.whl.zip tmp/sccache-0.5.1-py3-none-win_amd64.whl.zip --markdown 20230602/s/sccache/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-02 12:52:22] INFO root fetch - main [MainThread]: End processing [format-oc]: success
+[2023-06-02 12:52:22] INFO root fetch - main [MainThread]: End processing [quantecon_book_networks]: success
+[2023-06-02 12:52:29] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-06-02 12:53:17] INFO root fetch - main [MainThread]: End processing [sccache]: success
+[2023-06-02 12:53:17] INFO root fetch - main [MainThread]: Store serial: [18347677]
