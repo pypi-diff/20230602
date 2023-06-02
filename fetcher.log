@@ -9166,3 +9166,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:22:48] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
 [2023-06-02 09:22:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-02 09:22:56] INFO root fetch - main [MainThread]: Store serial: [18345751]
+[2023-06-02 09:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345751]
+[2023-06-02 09:28:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaparoo-python-package
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steam-pysigma
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-flow
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smdb-api
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cleancat
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xoa-driver
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchility
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gefpy
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xoa-core
+[2023-06-02 09:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-common
+[2023-06-02 09:28:06] INFO root fetch - processPackages [kaparoo-python-package]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [cleancat]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.6.1] Old Version: [2023.5.9]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-driver]: New version: [2.0.0] Old Version: [1.3.3]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [gefpy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-core]: New version: [2.0.0] Old Version: [1.0.8]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [torchility]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-core]: Downloading https://files.pythonhosted.org/packages/79/21/b503bb006bb816cb5d279d2592003f4ca4a26792c34944f69c452955cdad/xoa-core-1.0.8.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [cleancat]: Downloading https://files.pythonhosted.org/packages/fc/d0/f9b6e145870424b5106a1845e3bd1220d3958665f54bb26cfcff14f5ce54/cleancat-1.0.0.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/7a/4f/80faa7f3ab24f1196941953ec3512d59862123a60e466182fac706f28c11/xoa-driver-1.3.3.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/41/d5/24e7698e63e60ced965283a80d676ed4b0d1b15555fb702520831f04ea27/gefpy-0.6.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-02 09:28:06] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/8b/7c/462aee1f0b31705fd270ae4f3e269115e2d4d915b3f0af107c97f2e51531/smdb_api-0.9.1.tar.gz
+[2023-06-02 09:28:06] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 30509572>=10485760
+[2023-06-02 09:28:06] INFO root fetch - processPackages [gefpy]: Start processing: jax-tools
+[2023-06-02 09:28:06] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-06-02 09:28:06] INFO root fetch - processPackages [jax-tools]: New version: [1.0.9] Old Version: [1.0.28]
+[2023-06-02 09:28:06] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/18/99/d8924c53d1b9ef78d4a4d3b294cc3edb8f67df5aa4447bb7366722f3df6a/steam-pysigma-2023.5.9.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [kaparoo-python-package]: Downloading https://files.pythonhosted.org/packages/f9/7f/dfdfd65d2424f36cd520782ef251829a94de84259f366d1d751c2f3804c0/kaparoo_python_package-0.2.3.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/c8/f7/d13ece2dea2ab75b8794fd375a35bd24f466d81fd1e5d21e1b93e8a8538f/torchility-0.7.3.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230602/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230602/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [cleancat]: Downloading https://files.pythonhosted.org/packages/71/15/447a12e2413d3e08e2f4acb9be54e092094f378acdec03d61d3b9091b1c6/cleancat-1.1.0.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/39/18/3e7d1f3c0d70d425224d5cc15c394265a08821150fa760238b240b505742/jax-tools-1.0.28.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [kaparoo-python-package]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [kaparoo-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaparoo_python_package-0.2.2.tar.gz tmp/kaparoo_python_package-0.2.3.tar.gz --markdown 20230602/k/kaparoo-python-package/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/4f/88/76b551962bd024d9a3ff74def7444eb65c523f7d280b258a50a77ee29e9b/xoa-driver-2.0.0.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.2.tar.gz tmp/torchility-0.7.3.tar.gz --markdown 20230602/t/torchility/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-core]: Downloading https://files.pythonhosted.org/packages/b2/fb/3ca95364f663d075cb5520de247e315646fb2547d4cc2c1342051d03b24d/xoa-core-2.0.0.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [cleancat]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [cleancat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancat-1.0.0.tar.gz tmp/cleancat-1.1.0.tar.gz --markdown 20230602/c/cleancat/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-1.3.3.tar.gz tmp/xoa-driver-2.0.0.tar.gz --markdown 20230602/x/xoa-driver/1.3.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/7c/40/4f246c09d870d252aea285313cdb40d34031bafd148e7448cd55500393fa/smdb_api-0.9.12.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-core]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [xoa-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-core-1.0.8.tar.gz tmp/xoa-core-2.0.0.tar.gz --markdown 20230602/x/xoa-core/1.0.8-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/d5/ec/7200fbf8398077d6c34af6958bce07274038172e3de6b2efb943ad7aaa0b/steam-pysigma-2023.6.1.tar.gz
+[2023-06-02 09:28:06] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.28.tar.gz tmp/jax-tools-1.0.9.tar.gz --markdown 20230602/j/jax-tools/1.0.28-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 09:28:06] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-06-02 09:28:06] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.5.9.tar.gz tmp/steam-pysigma-2023.6.1.tar.gz --markdown 20230602/s/steam-pysigma/2023.5.9-2023.6.1/diff.md --exclude *.pyd
+[2023-06-02 09:28:07] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2023-06-02 09:28:07] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20230602/s/smdb-api/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [kaparoo-python-package]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [cleancat]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-06-02 09:28:08] INFO root fetch - main [MainThread]: End processing [xoa-core]: success
+[2023-06-02 09:28:16] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2023-06-02 09:28:16] INFO root fetch - main [MainThread]: Store serial: [18345781]
