@@ -13933,3 +13933,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 14:34:29] INFO root fetch - main [MainThread]: End processing [datacompy]: success
 [2023-06-02 14:34:29] INFO root fetch - main [MainThread]: End processing [hcai-datasets]: success
 [2023-06-02 14:34:29] INFO root fetch - main [MainThread]: Store serial: [18348551]
+[2023-06-02 14:39:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348551]
+[2023-06-02 14:39:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aheadworks-deploy-manager
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PowDeRUL
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daffi-terminals
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PowDeRUL
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configilm
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devopstestor
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: veetility
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-servicestate
+[2023-06-02 14:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pocketbase
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 14:39:38] WARNING root fetch - processPackages [daffi-terminals]: Skipping, unable to determine old version
+[2023-06-02 14:39:38] INFO root fetch - processPackages [daffi-terminals]: Start processing: odoo-addon-queue-job
+[2023-06-02 14:39:38] INFO root fetch - main [MainThread]: End processing [daffi-terminals] error
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [configilm]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [pocketbase]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [nonebot-plugin-servicestate]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [devopstestor]: New version: [1.7] Old Version: [1.6]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [16.0.2.4.0] Old Version: [16.0.2.3.2]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [PowDeRUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDeRUL-1.0.4.tar.gz tmp/PowDeRUL-1.0.5.tar.gz --markdown 20230602/P/PowDeRUL/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230602/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [pocketbase]: Downloading https://files.pythonhosted.org/packages/78/58/4abbbe7d980bb6dec661469bde20edf43fb9854d1edf395163b649f5aa0c/pocketbase-0.8.1.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [configilm]: Downloading https://files.pythonhosted.org/packages/d3/d8/8ee2a25fa50f6c12d8b81d224b08b76496c3c896fc8427f0cbaeac19cecc/configilm-0.4.2.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/5f/5a/38417bd43050d68cc52b561b90a7e94fb096afa24890e29621f574e8e72e/devopstestor-1.6.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [nonebot-plugin-servicestate]: Downloading https://files.pythonhosted.org/packages/9e/d2/ae44a0c4887394f01bd35fb1aee8234f9849e8cabe627e5beded1627d56d/nonebot_plugin_servicestate-0.1.9.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/36/35/cd9eeef2e0259adad7ca11b2075466dda5823834f35d8eac1b5542fe9a95/odoo_addon_queue_job-16.0.2.4.0-py3-none-any.whl
+[2023-06-02 14:39:38] WARNING root fetch - processPackages [configilm]: Skipping package: exceeds size limit 44800895>=10485760
+[2023-06-02 14:39:38] INFO root fetch - processPackages [configilm]: Start processing: odoo-addon-test-queue-job
+[2023-06-02 14:39:38] INFO root fetch - main [MainThread]: End processing [configilm] error
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-test-queue-job]: New version: [16.0.2.2.0] Old Version: [16.0.2.1.0]
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-16.0.2.3.2-py3-none-any.whl.zip tmp/odoo_addon_queue_job-16.0.2.4.0-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-queue-job/16.0.2.3.2-16.0.2.4.0/diff.md --exclude *.pyd
+[2023-06-02 14:39:38] INFO root fetch - processPackages [odoo-addon-test-queue-job]: Downloading https://files.pythonhosted.org/packages/34/fa/7d35b28394f6191a928da9d460ce6fcc2a279c3a336ce685535c93e15197/odoo_addon_test_queue_job-16.0.2.1.0-py3-none-any.whl
+[2023-06-02 14:39:38] INFO root fetch - processPackages [nonebot-plugin-servicestate]: Downloading https://files.pythonhosted.org/packages/08/4b/458d396b76517dff5f279c7acd31357150e14d9d539654891e84701b4afc/nonebot_plugin_servicestate-0.2.0.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [pocketbase]: Downloading https://files.pythonhosted.org/packages/47/11/ee3f769ffd7db9ad59f7dbb261dfd46d49c6f74d58fd19190d5165c31fe0/pocketbase-0.8.2.tar.gz
+[2023-06-02 14:39:38] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/35/21/f7aefdb031eba26c0e34708b7268cdbacf69ed6b9c753c6b0b0e42b7e443/devopstestor-1.7.tar.gz
+[2023-06-02 14:39:39] INFO root fetch - processPackages [nonebot-plugin-servicestate]: executing diffoscope
+[2023-06-02 14:39:39] INFO root fetch - processPackages [nonebot-plugin-servicestate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_servicestate-0.1.9.tar.gz tmp/nonebot_plugin_servicestate-0.2.0.tar.gz --markdown 20230602/n/nonebot-plugin-servicestate/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 14:39:39] INFO root fetch - processPackages [pocketbase]: executing diffoscope
+[2023-06-02 14:39:39] INFO root fetch - processPackages [pocketbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketbase-0.8.1.tar.gz tmp/pocketbase-0.8.2.tar.gz --markdown 20230602/p/pocketbase/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-02 14:39:39] INFO root fetch - processPackages [devopstestor]: executing diffoscope
+[2023-06-02 14:39:39] INFO root fetch - processPackages [devopstestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstestor-1.6.tar.gz tmp/devopstestor-1.7.tar.gz --markdown 20230602/d/devopstestor/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-02 14:39:39] INFO root fetch - processPackages [odoo-addon-test-queue-job]: Downloading https://files.pythonhosted.org/packages/1b/be/9096a962e90f2a723fb798bfc52e673982f0cd1a9d16facc7ea87d45f759/odoo_addon_test_queue_job-16.0.2.2.0-py3-none-any.whl
+[2023-06-02 14:39:39] INFO root fetch - processPackages [odoo-addon-test-queue-job]: executing diffoscope
+[2023-06-02 14:39:39] INFO root fetch - processPackages [odoo-addon-test-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_queue_job-16.0.2.1.0-py3-none-any.whl.zip tmp/odoo_addon_test_queue_job-16.0.2.2.0-py3-none-any.whl.zip --markdown 20230602/o/odoo-addon-test-queue-job/16.0.2.1.0-16.0.2.2.0/diff.md --exclude *.pyd
+[2023-06-02 14:39:40] INFO root fetch - processPackages [veetility]: Start processing: cdflib
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-06-02 14:39:40] INFO root fetch - processPackages [PowDeRUL]: Start processing: tensorcircuit-nightly
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 14:39:40] INFO root fetch - processPackages [cdflib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 14:39:40] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230601] Old Version: [0.9.1.dev20230531]
+[2023-06-02 14:39:40] INFO root fetch - processPackages [cdflib]: executing diffoscope
+[2023-06-02 14:39:40] INFO root fetch - processPackages [cdflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdflib-1.0.0.tar.gz tmp/cdflib-1.0.1.tar.gz --markdown 20230602/c/cdflib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [PowDeRUL]: success
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 14:39:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/99/60/8831389c4e14c5f7b01cea98d757e045a3ba1505f5b479b435f7ebf653fb/tensorcircuit-nightly-0.9.1.dev20230601.tar.gz
+[2023-06-02 14:39:40] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-02 14:39:40] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230531.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230601.tar.gz --markdown 20230602/t/tensorcircuit-nightly/0.9.1.dev20230531-0.9.1.dev20230601/diff.md --exclude *.pyd
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-servicestate]: success
+[2023-06-02 14:39:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-queue-job]: success
+[2023-06-02 14:39:41] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
+[2023-06-02 14:39:41] INFO root fetch - main [MainThread]: End processing [pocketbase]: success
+[2023-06-02 14:39:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2023-06-02 14:39:42] INFO root fetch - main [MainThread]: End processing [cdflib]: success
+[2023-06-02 14:39:42] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-02 14:39:44] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 14:39:44] INFO root fetch - main [MainThread]: Store serial: [18348590]
