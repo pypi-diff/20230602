@@ -1,0 +1,283 @@
+# Comparing `tmp/enforce_notebook_run_order-0.1.3.tar.gz` & `tmp/enforce_notebook_run_order-0.1.4.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "enforce_notebook_run_order-0.1.3.tar", max compression
++gzip compressed data, was "enforce_notebook_run_order-0.1.4.tar", max compression
+```
+
+## Comparing `enforce_notebook_run_order-0.1.3.tar` & `enforce_notebook_run_order-0.1.4.tar`
+
+### file list
+
+```diff
+@@ -1,4 +1,4 @@
+--rw-r--r--   0        0        0     1103 2023-06-02 15:08:27.655664 enforce_notebook_run_order-0.1.3/README.md
+--rw-r--r--   0        0        0      716 2023-06-02 15:08:27.655664 enforce_notebook_run_order-0.1.3/pyproject.toml
+--rw-r--r--   0        0        0     5033 2023-06-02 15:08:27.655664 enforce_notebook_run_order-0.1.3/src/enforce_notebook_run_order.py
+--rw-r--r--   0        0        0     1669 1970-01-01 00:00:00.000000 enforce_notebook_run_order-0.1.3/PKG-INFO
++-rw-r--r--   0        0        0     2166 2023-06-02 17:35:28.000790 enforce_notebook_run_order-0.1.4/README.md
++-rw-r--r--   0        0        0      716 2023-06-02 17:35:28.000790 enforce_notebook_run_order-0.1.4/pyproject.toml
++-rw-r--r--   0        0        0     5033 2023-06-02 17:35:28.000790 enforce_notebook_run_order-0.1.4/src/enforce_notebook_run_order.py
++-rw-r--r--   0        0        0     2732 1970-01-01 00:00:00.000000 enforce_notebook_run_order-0.1.4/PKG-INFO
+```
+
+### Comparing `enforce_notebook_run_order-0.1.3/pyproject.toml` & `enforce_notebook_run_order-0.1.4/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "enforce-notebook-run-order"
+-version = "0.1.3"
++version = "0.1.4"
+ description = ""
+ authors = ["Chris Hacker <49451910+christopher-hacker@users.noreply.github.com>"]
+ readme = "README.md"
+ packages = [
+     { include = "*", from = "src" },
+ ]
+```
+
+### Comparing `enforce_notebook_run_order-0.1.3/src/enforce_notebook_run_order.py` & `enforce_notebook_run_order-0.1.4/src/enforce_notebook_run_order.py`
+
+ * *Files identical despite different names*
+
+### Comparing `enforce_notebook_run_order-0.1.3/PKG-INFO` & `enforce_notebook_run_order-0.1.4/PKG-INFO`
+
+ * *Files 24% similar despite different names*
+
+```diff
+@@ -1,12 +1,12 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 656e 666f  : 2.1.Name: enfo
+ 00000020: 7263 652d 6e6f 7465 626f 6f6b 2d72 756e  rce-notebook-run
+ 00000030: 2d6f 7264 6572 0a56 6572 7369 6f6e 3a20  -order.Version: 
+-00000040: 302e 312e 330a 5375 6d6d 6172 793a 200a  0.1.3.Summary: .
++00000040: 302e 312e 340a 5375 6d6d 6172 793a 200a  0.1.4.Summary: .
+ 00000050: 4175 7468 6f72 3a20 4368 7269 7320 4861  Author: Chris Ha
+ 00000060: 636b 6572 0a41 7574 686f 722d 656d 6169  cker.Author-emai
+ 00000070: 6c3a 2034 3934 3531 3931 302b 6368 7269  l: 49451910+chri
+ 00000080: 7374 6f70 6865 722d 6861 636b 6572 4075  stopher-hacker@u
+ 00000090: 7365 7273 2e6e 6f72 6570 6c79 2e67 6974  sers.noreply.git
+ 000000a0: 6875 622e 636f 6d0a 5265 7175 6972 6573  hub.com.Requires
+ 000000b0: 2d50 7974 686f 6e3a 203e 3d33 2e38 2c3c  -Python: >=3.8,<
+@@ -29,77 +29,143 @@
+ 000001c0: 7175 6972 6573 2d44 6973 743a 2063 6c69  quires-Dist: cli
+ 000001d0: 636b 2028 3e3d 382e 312e 332c 3c39 2e30  ck (>=8.1.3,<9.0
+ 000001e0: 2e30 290a 5265 7175 6972 6573 2d44 6973  .0).Requires-Dis
+ 000001f0: 743a 206a 7570 7974 6572 2028 3e3d 312e  t: jupyter (>=1.
+ 00000200: 302e 302c 3c32 2e30 2e30 290a 4465 7363  0.0,<2.0.0).Desc
+ 00000210: 7269 7074 696f 6e2d 436f 6e74 656e 742d  ription-Content-
+ 00000220: 5479 7065 3a20 7465 7874 2f6d 6172 6b64  Type: text/markd
+-00000230: 6f77 6e0a 0a65 6e66 6f72 6365 2d6e 6f74  own..enforce-not
+-00000240: 6562 6f6f 6b2d 7275 6e2d 6f72 6465 720a  ebook-run-order.
+-00000250: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00000260: 3d3d 3d3d 3d3d 3d3d 3d3d 0a0a 4120 7469  ==========..A ti
+-00000270: 6e79 2070 7974 686f 6e20 7363 7269 7074  ny python script
+-00000280: 2074 6f20 656e 666f 7263 6520 7468 6520   to enforce the 
+-00000290: 7275 6e20 6f72 6465 7220 6f66 2061 204a  run order of a J
+-000002a0: 7570 7974 6572 206e 6f74 6562 6f6f 6b2e  upyter notebook.
+-000002b0: 0a0a 4a75 7079 7465 7220 6e6f 7465 626f  ..Jupyter notebo
+-000002c0: 6f6b 7320 6172 6520 6772 6561 7420 666f  oks are great fo
+-000002d0: 7220 696e 7465 7261 6374 6976 6520 6461  r interactive da
+-000002e0: 7461 2061 6e61 6c79 7369 732e 2048 6f77  ta analysis. How
+-000002f0: 6576 6572 2c20 7768 656e 0a74 6865 7920  ever, when.they 
+-00000300: 6361 6e20 656e 636f 7572 6167 6520 6120  can encourage a 
+-00000310: 6261 6420 6861 6269 743a 2072 756e 6e69  bad habit: runni
+-00000320: 6e67 2063 656c 6c73 206f 7574 206f 6620  ng cells out of 
+-00000330: 6f72 6465 722e 2054 6869 7320 6361 6e0a  order. This can.
+-00000340: 6c65 6164 2074 6f20 6e6f 7465 626f 6f6b  lead to notebook
+-00000350: 7320 6265 696e 6720 636f 6d6d 6974 7465  s being committe
+-00000360: 6420 746f 2074 6865 2072 6570 6f73 6974  d to the reposit
+-00000370: 6f72 7920 696e 2061 2073 7461 7465 2077  ory in a state w
+-00000380: 6865 7265 0a74 6865 7920 646f 6e5c 2774  here.they don\'t
+-00000390: 2072 756e 2066 726f 6d20 746f 7020 746f   run from top to
+-000003a0: 2062 6f74 746f 6d2c 2061 6e64 206f 7468   bottom, and oth
+-000003b0: 6572 2063 6f6c 6c61 626f 7261 746f 7273  er collaborators
+-000003c0: 206d 6179 2072 6563 6569 7665 0a64 6966   may receive.dif
+-000003d0: 6665 7265 6e74 2072 6573 756c 7473 2077  ferent results w
+-000003e0: 6865 6e20 7275 6e6e 696e 6720 7468 6520  hen running the 
+-000003f0: 6e6f 7465 626f 6f6b 2066 726f 6d20 746f  notebook from to
+-00000400: 7020 746f 2062 6f74 746f 6d2e 0a0a 5468  p to bottom...Th
+-00000410: 6973 2073 6372 6970 7420 656e 666f 7263  is script enforc
+-00000420: 6573 2074 6865 2072 756e 206f 7264 6572  es the run order
+-00000430: 206f 6620 6120 6e6f 7465 626f 6f6b 2062   of a notebook b
+-00000440: 7920 7261 6973 696e 6720 616e 2065 7863  y raising an exc
+-00000450: 6570 7469 6f6e 0a69 6620 616e 7920 6365  eption.if any ce
+-00000460: 6c6c 7320 6172 6520 7275 6e20 6f75 7420  lls are run out 
+-00000470: 6f66 206f 7264 6572 2e0a 0a55 7361 6765  of order...Usage
+-00000480: 0a2d 2d2d 2d2d 0a0a 5468 6973 2073 6372  .-----..This scr
+-00000490: 6970 7420 6361 6e20 6265 2075 7365 6420  ipt can be used 
+-000004a0: 6173 2061 2073 7461 6e64 616c 6f6e 6520  as a standalone 
+-000004b0: 7363 7269 7074 2c20 6f72 2061 7320 6120  script, or as a 
+-000004c0: 7072 652d 636f 6d6d 6974 2068 6f6f 6b2e  pre-commit hook.
+-000004d0: 0a0a 2323 2320 5374 616e 6461 6c6f 6e65  ..### Standalone
+-000004e0: 0a0a 546f 2075 7365 2060 656e 666f 7263  ..To use `enforc
+-000004f0: 652d 6e6f 7465 626f 6f6b 2d72 756e 2d6f  e-notebook-run-o
+-00000500: 7264 6572 6020 6173 2061 2073 7461 6e64  rder` as a stand
+-00000510: 616c 6f6e 6520 7363 7269 7074 2c20 7369  alone script, si
+-00000520: 6d70 6c79 2072 756e 0a69 7420 7769 7468  mply run.it with
+-00000530: 2074 6865 2070 6174 6820 746f 2074 6865   the path to the
+-00000540: 206e 6f74 6562 6f6f 6b20 796f 7520 7761   notebook you wa
+-00000550: 6e74 2074 6f20 6368 6563 6b3a 0a0a 6065  nt to check:..`e
+-00000560: 6e66 6f72 6365 2d6e 6f74 6562 6f6f 6b2d  nforce-notebook-
+-00000570: 7275 6e2d 6f72 6465 7220 6d79 5f6e 6f74  run-order my_not
+-00000580: 6562 6f6f 6b2e 6970 796e 6260 0a0a 4f72  ebook.ipynb`..Or
+-00000590: 2070 6f69 6e74 2069 7420 746f 2061 2064   point it to a d
+-000005a0: 6972 6563 746f 7279 2074 6f20 6368 6563  irectory to chec
+-000005b0: 6b20 616c 6c20 6e6f 7465 626f 6f6b 7320  k all notebooks 
+-000005c0: 696e 2074 6861 7420 6469 7265 6374 6f72  in that director
+-000005d0: 793a 0a0a 6065 6e66 6f72 6365 2d6e 6f74  y:..`enforce-not
+-000005e0: 6562 6f6f 6b2d 7275 6e2d 6f72 6465 7220  ebook-run-order 
+-000005f0: 6d79 5f6e 6f74 6562 6f6f 6b73 2f60 0a0a  my_notebooks/`..
+-00000600: 2323 2320 5072 652d 636f 6d6d 6974 2068  ### Pre-commit h
+-00000610: 6f6f 6b0a 0a54 6f20 7573 6520 6065 6e66  ook..To use `enf
+-00000620: 6f72 6365 5f6e 6f74 6562 6f6f 6b5f 7275  orce_notebook_ru
+-00000630: 6e5f 6f72 6465 7260 2061 7320 6120 7072  n_order` as a pr
+-00000640: 652d 636f 6d6d 6974 2068 6f6f 6b2c 2061  e-commit hook, a
+-00000650: 6464 2074 6865 0a66 6f6c 6c6f 7769 6e67  dd the.following
+-00000660: 2074 6f20 796f 7572 2060 2e70 7265 2d63   to your `.pre-c
+-00000670: 6f6d 6d69 742d 636f 6e66 6967 2e79 616d  ommit-config.yam
+-00000680: 6c60 3a0a 0a                             l`:..
++00000230: 6f77 6e0a 0a3c 7020 616c 6967 6e3d 226c  own..<p align="l
++00000240: 6566 7422 3e0a 2020 3c61 2068 7265 663d  eft">.  <a href=
++00000250: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00000260: 636f 6d2f 6368 7269 7374 6f70 6865 722d  com/christopher-
++00000270: 6861 636b 6572 2f65 6e66 6f72 6365 2d6e  hacker/enforce-n
++00000280: 6f74 6562 6f6f 6b2d 7275 6e2d 6f72 6465  otebook-run-orde
++00000290: 722f 6163 7469 6f6e 732f 776f 726b 666c  r/actions/workfl
++000002a0: 6f77 732f 7465 7374 2e79 616d 6c22 3e0a  ows/test.yaml">.
++000002b0: 2020 2020 3c69 6d67 2073 7263 3d22 6874      <img src="ht
++000002c0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000002d0: 2f63 6872 6973 746f 7068 6572 2d68 6163  /christopher-hac
++000002e0: 6b65 722f 656e 666f 7263 652d 6e6f 7465  ker/enforce-note
++000002f0: 626f 6f6b 2d72 756e 2d6f 7264 6572 2f61  book-run-order/a
++00000300: 6374 696f 6e73 2f77 6f72 6b66 6c6f 7773  ctions/workflows
++00000310: 2f74 6573 742e 7961 6d6c 2f62 6164 6765  /test.yaml/badge
++00000320: 2e73 7667 2220 616c 743d 2252 756e 2074  .svg" alt="Run t
++00000330: 6573 7473 223e 0a20 203c 2f61 3e0a 2020  ests">.  </a>.  
++00000340: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00000350: 2f67 6974 6875 622e 636f 6d2f 6368 7269  /github.com/chri
++00000360: 7374 6f70 6865 722d 6861 636b 6572 2f65  stopher-hacker/e
++00000370: 6e66 6f72 6365 2d6e 6f74 6562 6f6f 6b2d  nforce-notebook-
++00000380: 7275 6e2d 6f72 6465 722f 6163 7469 6f6e  run-order/action
++00000390: 732f 776f 726b 666c 6f77 732f 6175 746f  s/workflows/auto
++000003a0: 2d74 6167 2e79 6d6c 223e 0a20 2020 203c  -tag.yml">.    <
++000003b0: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++000003c0: 2f67 6974 6875 622e 636f 6d2f 6368 7269  /github.com/chri
++000003d0: 7374 6f70 6865 722d 6861 636b 6572 2f65  stopher-hacker/e
++000003e0: 6e66 6f72 6365 2d6e 6f74 6562 6f6f 6b2d  nforce-notebook-
++000003f0: 7275 6e2d 6f72 6465 722f 6163 7469 6f6e  run-order/action
++00000400: 732f 776f 726b 666c 6f77 732f 6175 746f  s/workflows/auto
++00000410: 2d74 6167 2e79 6d6c 2f62 6164 6765 2e73  -tag.yml/badge.s
++00000420: 7667 2220 616c 743d 2243 7265 6174 6520  vg" alt="Create 
++00000430: 6120 7461 6720 6966 2076 6572 7369 6f6e  a tag if version
++00000440: 2063 6861 6e67 6564 223e 0a20 203c 2f61   changed">.  </a
++00000450: 3e0a 2020 3c61 2068 7265 663d 2268 7474  >.  <a href="htt
++00000460: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00000470: 6368 7269 7374 6f70 6865 722d 6861 636b  christopher-hack
++00000480: 6572 2f65 6e66 6f72 6365 2d6e 6f74 6562  er/enforce-noteb
++00000490: 6f6f 6b2d 7275 6e2d 6f72 6465 722f 6163  ook-run-order/ac
++000004a0: 7469 6f6e 732f 776f 726b 666c 6f77 732f  tions/workflows/
++000004b0: 7075 626c 6973 682d 7079 7069 2e79 616d  publish-pypi.yam
++000004c0: 6c22 3e0a 2020 2020 3c69 6d67 2073 7263  l">.    <img src
++000004d0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000004e0: 2e63 6f6d 2f63 6872 6973 746f 7068 6572  .com/christopher
++000004f0: 2d68 6163 6b65 722f 656e 666f 7263 652d  -hacker/enforce-
++00000500: 6e6f 7465 626f 6f6b 2d72 756e 2d6f 7264  notebook-run-ord
++00000510: 6572 2f61 6374 696f 6e73 2f77 6f72 6b66  er/actions/workf
++00000520: 6c6f 7773 2f70 7562 6c69 7368 2d70 7970  lows/publish-pyp
++00000530: 692e 7961 6d6c 2f62 6164 6765 2e73 7667  i.yaml/badge.svg
++00000540: 2220 616c 743d 2250 7562 6c69 7368 2074  " alt="Publish t
++00000550: 6f20 5079 5069 223e 0a20 203c 2f61 3e0a  o PyPi">.  </a>.
++00000560: 2020 3c61 2068 7265 663d 2268 7474 7073    <a href="https
++00000570: 3a2f 2f67 6974 6875 622e 636f 6d2f 6368  ://github.com/ch
++00000580: 7269 7374 6f70 6865 722d 6861 636b 6572  ristopher-hacker
++00000590: 2f65 6e66 6f72 6365 2d6e 6f74 6562 6f6f  /enforce-noteboo
++000005a0: 6b2d 7275 6e2d 6f72 6465 722f 6163 7469  k-run-order/acti
++000005b0: 6f6e 732f 776f 726b 666c 6f77 732f 646f  ons/workflows/do
++000005c0: 6373 2e79 6d6c 223e 0a20 2020 3c69 6d67  cs.yml">.   <img
++000005d0: 2073 7263 3d22 6874 7470 733a 2f2f 6769   src="https://gi
++000005e0: 7468 7562 2e63 6f6d 2f63 6872 6973 746f  thub.com/christo
++000005f0: 7068 6572 2d68 6163 6b65 722f 656e 666f  pher-hacker/enfo
++00000600: 7263 652d 6e6f 7465 626f 6f6b 2d72 756e  rce-notebook-run
++00000610: 2d6f 7264 6572 2f61 6374 696f 6e73 2f77  -order/actions/w
++00000620: 6f72 6b66 6c6f 7773 2f64 6f63 732e 796d  orkflows/docs.ym
++00000630: 6c2f 6261 6467 652e 7376 6722 2061 6c74  l/badge.svg" alt
++00000640: 3d22 4275 696c 6420 646f 6373 223e 0a20  ="Build docs">. 
++00000650: 203c 2f61 3e0a 3c2f 703e 0a0a 656e 666f   </a>.</p>..enfo
++00000660: 7263 652d 6e6f 7465 626f 6f6b 2d72 756e  rce-notebook-run
++00000670: 2d6f 7264 6572 0a3d 3d3d 3d3d 3d3d 3d3d  -order.=========
++00000680: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
++00000690: 3d0a 0a41 2074 696e 7920 7079 7468 6f6e  =..A tiny python
++000006a0: 2073 6372 6970 7420 746f 2065 6e66 6f72   script to enfor
++000006b0: 6365 2074 6865 2072 756e 206f 7264 6572  ce the run order
++000006c0: 206f 6620 6120 4a75 7079 7465 7220 6e6f   of a Jupyter no
++000006d0: 7465 626f 6f6b 2e0a 0a4a 7570 7974 6572  tebook...Jupyter
++000006e0: 206e 6f74 6562 6f6f 6b73 2061 7265 2067   notebooks are g
++000006f0: 7265 6174 2066 6f72 2069 6e74 6572 6163  reat for interac
++00000700: 7469 7665 2064 6174 6120 616e 616c 7973  tive data analys
++00000710: 6973 2e20 486f 7765 7665 722c 2077 6865  is. However, whe
++00000720: 6e0a 7468 6579 2063 616e 2065 6e63 6f75  n.they can encou
++00000730: 7261 6765 2061 2062 6164 2068 6162 6974  rage a bad habit
++00000740: 3a20 7275 6e6e 696e 6720 6365 6c6c 7320  : running cells 
++00000750: 6f75 7420 6f66 206f 7264 6572 2e20 5468  out of order. Th
++00000760: 6973 2063 616e 0a6c 6561 6420 746f 206e  is can.lead to n
++00000770: 6f74 6562 6f6f 6b73 2062 6569 6e67 2063  otebooks being c
++00000780: 6f6d 6d69 7474 6564 2074 6f20 7468 6520  ommitted to the 
++00000790: 7265 706f 7369 746f 7279 2069 6e20 6120  repository in a 
++000007a0: 7374 6174 6520 7768 6572 650a 7468 6579  state where.they
++000007b0: 2064 6f6e 5c27 7420 7275 6e20 6672 6f6d   don\'t run from
++000007c0: 2074 6f70 2074 6f20 626f 7474 6f6d 2c20   top to bottom, 
++000007d0: 616e 6420 6f74 6865 7220 636f 6c6c 6162  and other collab
++000007e0: 6f72 6174 6f72 7320 6d61 7920 7265 6365  orators may rece
++000007f0: 6976 650a 6469 6666 6572 656e 7420 7265  ive.different re
++00000800: 7375 6c74 7320 7768 656e 2072 756e 6e69  sults when runni
++00000810: 6e67 2074 6865 206e 6f74 6562 6f6f 6b20  ng the notebook 
++00000820: 6672 6f6d 2074 6f70 2074 6f20 626f 7474  from top to bott
++00000830: 6f6d 2e0a 0a54 6869 7320 7363 7269 7074  om...This script
++00000840: 2065 6e66 6f72 6365 7320 7468 6520 7275   enforces the ru
++00000850: 6e20 6f72 6465 7220 6f66 2061 206e 6f74  n order of a not
++00000860: 6562 6f6f 6b20 6279 2072 6169 7369 6e67  ebook by raising
++00000870: 2061 6e20 6578 6365 7074 696f 6e0a 6966   an exception.if
++00000880: 2061 6e79 2063 656c 6c73 2061 7265 2072   any cells are r
++00000890: 756e 206f 7574 206f 6620 6f72 6465 722e  un out of order.
++000008a0: 0a0a 5573 6167 650a 2d2d 2d2d 2d0a 0a54  ..Usage.-----..T
++000008b0: 6869 7320 7363 7269 7074 2063 616e 2062  his script can b
++000008c0: 6520 7573 6564 2061 7320 6120 7374 616e  e used as a stan
++000008d0: 6461 6c6f 6e65 2073 6372 6970 742c 206f  dalone script, o
++000008e0: 7220 6173 2061 2070 7265 2d63 6f6d 6d69  r as a pre-commi
++000008f0: 7420 686f 6f6b 2e0a 0a23 2323 2053 7461  t hook...### Sta
++00000900: 6e64 616c 6f6e 650a 0a54 6f20 7573 6520  ndalone..To use 
++00000910: 6065 6e66 6f72 6365 2d6e 6f74 6562 6f6f  `enforce-noteboo
++00000920: 6b2d 7275 6e2d 6f72 6465 7260 2061 7320  k-run-order` as 
++00000930: 6120 7374 616e 6461 6c6f 6e65 2073 6372  a standalone scr
++00000940: 6970 742c 2073 696d 706c 7920 7275 6e0a  ipt, simply run.
++00000950: 6974 2077 6974 6820 7468 6520 7061 7468  it with the path
++00000960: 2074 6f20 7468 6520 6e6f 7465 626f 6f6b   to the notebook
++00000970: 2079 6f75 2077 616e 7420 746f 2063 6865   you want to che
++00000980: 636b 3a0a 0a60 656e 666f 7263 652d 6e6f  ck:..`enforce-no
++00000990: 7465 626f 6f6b 2d72 756e 2d6f 7264 6572  tebook-run-order
++000009a0: 206d 795f 6e6f 7465 626f 6f6b 2e69 7079   my_notebook.ipy
++000009b0: 6e62 600a 0a4f 7220 706f 696e 7420 6974  nb`..Or point it
++000009c0: 2074 6f20 6120 6469 7265 6374 6f72 7920   to a directory 
++000009d0: 746f 2063 6865 636b 2061 6c6c 206e 6f74  to check all not
++000009e0: 6562 6f6f 6b73 2069 6e20 7468 6174 2064  ebooks in that d
++000009f0: 6972 6563 746f 7279 3a0a 0a60 656e 666f  irectory:..`enfo
++00000a00: 7263 652d 6e6f 7465 626f 6f6b 2d72 756e  rce-notebook-run
++00000a10: 2d6f 7264 6572 206d 795f 6e6f 7465 626f  -order my_notebo
++00000a20: 6f6b 732f 600a 0a23 2323 2050 7265 2d63  oks/`..### Pre-c
++00000a30: 6f6d 6d69 7420 686f 6f6b 0a0a 546f 2075  ommit hook..To u
++00000a40: 7365 2060 656e 666f 7263 655f 6e6f 7465  se `enforce_note
++00000a50: 626f 6f6b 5f72 756e 5f6f 7264 6572 6020  book_run_order` 
++00000a60: 6173 2061 2070 7265 2d63 6f6d 6d69 7420  as a pre-commit 
++00000a70: 686f 6f6b 2c20 6164 6420 7468 650a 666f  hook, add the.fo
++00000a80: 6c6c 6f77 696e 6720 746f 2079 6f75 7220  llowing to your 
++00000a90: 602e 7072 652d 636f 6d6d 6974 2d63 6f6e  `.pre-commit-con
++00000aa0: 6669 672e 7961 6d6c 603a 0a0a            fig.yaml`:..
+```
+

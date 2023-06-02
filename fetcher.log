@@ -18783,3 +18783,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:31:49] INFO root fetch - main [MainThread]: End processing [autora]: success
 [2023-06-02 19:31:50] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-02 19:31:50] INFO root fetch - main [MainThread]: Store serial: [18351587]
+[2023-06-02 19:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351587]
+[2023-06-02 19:36:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humanloop
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passlock
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anchorpy
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holoviews
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nb2workflow
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steamship
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esa-swesnet-client
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crawler-commons
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scienceio
+[2023-06-02 19:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arize-phoenix
+[2023-06-02 19:36:59] INFO root fetch - processPackages [passlock]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [humanloop]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-02 19:36:59] WARNING root fetch - processPackages [esa-swesnet-client]: Skipping, unable to determine old version
+[2023-06-02 19:36:59] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [esa-swesnet-client]: Start processing: cmaclp
+[2023-06-02 19:36:59] INFO root fetch - main [MainThread]: End processing [esa-swesnet-client] error
+[2023-06-02 19:36:59] INFO root fetch - processPackages [anchorpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [scienceio]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [cmaclp]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 19:36:59] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230602/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230602/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230602/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/58/a7/237c050ff751ed7831a17374caa3bd7ca73c09c5a6477977a7649307282e/humanloop-0.4.7.tar.gz
+[2023-06-02 19:36:59] INFO root fetch - processPackages [passlock]: Downloading https://files.pythonhosted.org/packages/44/82/0d142bc74c3ece7f98c0a83509d61d7ec95ffa5176e60654dd16732f1275/passlock-1.0.9.tar.gz
+[2023-06-02 19:36:59] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/98/19/0b2c3d58e10caa9824d4c0f51a8b307e0e85dd38ba2aaf539cbd492362b7/cmaclp-0.0.6-py3-none-any.whl
+[2023-06-02 19:36:59] INFO root fetch - processPackages [anchorpy]: Downloading https://files.pythonhosted.org/packages/c6/9c/ff8a4e7db64912b9b6f8e4a6432c1eab285beb6a41133bd03b6a8be063eb/anchorpy-0.9.3.tar.gz
+[2023-06-02 19:36:59] INFO root fetch - processPackages [passlock]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [passlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passlock-1.0.8.tar.gz tmp/passlock-1.0.9.tar.gz --markdown 20230602/p/passlock/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.6.tar.gz tmp/humanloop-0.4.7.tar.gz --markdown 20230602/h/humanloop/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20230602/n/nb2workflow/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [scienceio]: Downloading https://files.pythonhosted.org/packages/82/82/1b6ddd2c010136051fdd041a006cdd11678572c58b45280ef66f1742284a/scienceio-2.2.0.tar.gz
+[2023-06-02 19:36:59] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/5a/cf/dbcec21692500771efdd10ea885c32d16957f436a6c682f569f180fa6f5c/cmaclp-0.0.7-py3-none-any.whl
+[2023-06-02 19:36:59] INFO root fetch - processPackages [scienceio]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [scienceio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scienceio-2.1.1.tar.gz tmp/scienceio-2.2.0.tar.gz --markdown 20230602/s/scienceio/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-02 19:36:59] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-06-02 19:36:59] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230602/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:37:00] INFO root fetch - processPackages [cmaclp]: executing diffoscope
+[2023-06-02 19:37:00] INFO root fetch - processPackages [cmaclp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmaclp-0.0.6-py3-none-any.whl.zip tmp/cmaclp-0.0.7-py3-none-any.whl.zip --markdown 20230602/c/cmaclp/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 19:37:00] INFO root fetch - processPackages [anchorpy]: Downloading https://files.pythonhosted.org/packages/d6/bb/88a6cd3ad69ef5c584af177b35327dfdc29e721151f8d88fd3e6f6cc8fbf/anchorpy-0.9.4.tar.gz
+[2023-06-02 19:37:00] INFO root fetch - processPackages [anchorpy]: executing diffoscope
+[2023-06-02 19:37:00] INFO root fetch - processPackages [anchorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchorpy-0.9.3.tar.gz tmp/anchorpy-0.9.4.tar.gz --markdown 20230602/a/anchorpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-02 19:37:00] INFO root fetch - processPackages [crawler-commons]: Start processing: enforce-notebook-run-order
+[2023-06-02 19:37:00] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-02 19:37:01] INFO root fetch - processPackages [enforce-notebook-run-order]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-02 19:37:01] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/ed/69/f0c25f5de07eae958db5d119e23d259649d99a7423a63b1648f7004b9bf1/enforce_notebook_run_order-0.1.4.tar.gz
+[2023-06-02 19:37:01] INFO root fetch - processPackages [passlock]: Start processing: klp-commons
+[2023-06-02 19:37:01] INFO root fetch - main [MainThread]: End processing [passlock]: success
+[2023-06-02 19:37:01] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 19:37:01] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-02 19:37:01] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230602/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:37:01] INFO root fetch - processPackages [enforce-notebook-run-order]: executing diffoscope
+[2023-06-02 19:37:01] INFO root fetch - processPackages [enforce-notebook-run-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enforce_notebook_run_order-0.1.3.tar.gz tmp/enforce_notebook_run_order-0.1.4.tar.gz --markdown 20230602/e/enforce-notebook-run-order/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-02 19:37:01] INFO root fetch - main [MainThread]: End processing [cmaclp]: success
+[2023-06-02 19:37:01] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2023-06-02 19:37:01] INFO root fetch - main [MainThread]: End processing [anchorpy]: success
+[2023-06-02 19:37:01] INFO root fetch - main [MainThread]: End processing [scienceio]: success
+[2023-06-02 19:37:02] INFO root fetch - main [MainThread]: End processing [enforce-notebook-run-order]: success
+[2023-06-02 19:37:02] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-02 19:37:05] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-02 19:37:06] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-06-02 19:37:10] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-06-02 19:37:19] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-06-02 19:37:19] INFO root fetch - main [MainThread]: Store serial: [18351628]
