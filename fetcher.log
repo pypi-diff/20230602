@@ -12800,3 +12800,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 13:09:20] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
 [2023-06-02 13:09:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-02 13:09:21] INFO root fetch - main [MainThread]: Store serial: [18347840]
+[2023-06-02 13:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347840]
+[2023-06-02 13:14:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymilvus
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saolei
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tigerblog
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: succulent
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cachetory
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dreifus
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scc
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-bootstrap-sidebar
+[2023-06-02 13:14:30] INFO root fetch - processPackages [pymilvus]: New version: [2.3.0b1] Old Version: [2.2.9]
+[2023-06-02 13:14:30] WARNING root fetch - processPackages [saolei]: Skipping, unable to determine old version
+[2023-06-02 13:14:30] INFO root fetch - processPackages [saolei]: Start processing: ocf-datapipes
+[2023-06-02 13:14:30] INFO root fetch - main [MainThread]: End processing [saolei] error
+[2023-06-02 13:14:30] INFO root fetch - processPackages [django-bootstrap-sidebar]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [succulent]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [scc]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230602110923] Old Version: [2.1.1.dev20230602110703]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [dreifus]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [cachetory]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-02 13:14:30] INFO root fetch - processPackages [scc]: executing diffoscope
+[2023-06-02 13:14:30] INFO root fetch - processPackages [scc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scc-0.9.2.tar.gz tmp/scc-0.9.3.tar.gz --markdown 20230602/s/scc/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-02 13:14:30] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/81/fc/0dd5f005d3fdf2d0bf9e0b72c6092ce97f41359402689717628ce99b475b/dreifus-0.0.6.tar.gz
+[2023-06-02 13:14:30] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/96/15/68a46f34716f5eb6acd56169e021cb8476845e63d54b8349f8def49fa019/cachetory-2.0.3.tar.gz
+[2023-06-02 13:14:30] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/93/0b/907073bf6d5a5c56878147021e58557eac78f0479271389de8dc5f9b23d6/localstack-core-2.1.1.dev20230602110923.tar.gz
+[2023-06-02 13:14:30] INFO root fetch - processPackages [django-bootstrap-sidebar]: Downloading https://files.pythonhosted.org/packages/0b/ad/93dcffd7d92c92b1f04d743c2f4b6725e0a0b0541e1493aa6c5c96556003/django-bootstrap-sidebar-1.1.1.tar.gz
+[2023-06-02 13:14:31] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.2.9.tar.gz tmp/pymilvus-2.3.0b1.tar.gz --markdown 20230602/p/pymilvus/2.2.9-2.3.0b1/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/e2/97/5f7425c5b46d73af94267e8a1ad957cb65bbad2f02f26f2a67ba0e788a7f/succulent-0.2.0.tar.gz
+[2023-06-02 13:14:31] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230602/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230602/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230602/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [succulent]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [succulent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/succulent-0.1.4.tar.gz tmp/succulent-0.2.0.tar.gz --markdown 20230602/s/succulent/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/72/4f/acd17fee2e020dc5ebecb413b4e3110176cdffcc9d34561b81d8a62a23ee/cachetory-2.1.0.tar.gz
+[2023-06-02 13:14:31] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/74/d8/32a97a2208f8a9ac62dbaba14a2a99e0162771559e86ba34912488d54556/dreifus-0.0.7.tar.gz
+[2023-06-02 13:14:31] INFO root fetch - processPackages [django-bootstrap-sidebar]: Downloading https://files.pythonhosted.org/packages/d0/42/d41fef48c336f7d9ad293efeb2781a5d5e81bb59ff1e3423fd30a439447e/django-bootstrap-sidebar-1.2.0.tar.gz
+[2023-06-02 13:14:31] INFO root fetch - processPackages [dreifus]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [cachetory]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [dreifus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreifus-0.0.6.tar.gz tmp/dreifus-0.0.7.tar.gz --markdown 20230602/d/dreifus/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [cachetory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetory-2.0.3.tar.gz tmp/cachetory-2.1.0.tar.gz --markdown 20230602/c/cachetory/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230602110703.tar.gz tmp/localstack-core-2.1.1.dev20230602110923.tar.gz --markdown 20230602/l/localstack-core/2.1.1.dev20230602110703-2.1.1.dev20230602110923/diff.md --exclude *.pyd
+[2023-06-02 13:14:31] INFO root fetch - processPackages [django-bootstrap-sidebar]: executing diffoscope
+[2023-06-02 13:14:31] INFO root fetch - processPackages [django-bootstrap-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-sidebar-1.1.1.tar.gz tmp/django-bootstrap-sidebar-1.2.0.tar.gz --markdown 20230602/d/django-bootstrap-sidebar/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 13:14:32] INFO root fetch - processPackages [scc]: Start processing: pyzkc
+[2023-06-02 13:14:32] INFO root fetch - main [MainThread]: End processing [scc]: success
+[2023-06-02 13:14:32] WARNING root fetch - processPackages [pyzkc]: Skipping, unable to determine old version
+[2023-06-02 13:14:32] INFO root fetch - processPackages [pyzkc]: Start processing: midgard
+[2023-06-02 13:14:32] INFO root fetch - main [MainThread]: End processing [pyzkc] error
+[2023-06-02 13:14:32] INFO root fetch - processPackages [succulent]: Start processing: mkdocs-exporter
+[2023-06-02 13:14:32] INFO root fetch - main [MainThread]: End processing [succulent]: success
+[2023-06-02 13:14:32] INFO root fetch - processPackages [midgard]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 13:14:32] INFO root fetch - processPackages [mkdocs-exporter]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-02 13:14:32] INFO root fetch - processPackages [midgard]: Downloading https://files.pythonhosted.org/packages/f9/77/daf8729636c0326c324622f86090bd85370297981a684c9be96c82708a10/midgard-1.2.1.tar.gz
+[2023-06-02 13:14:32] INFO root fetch - processPackages [cachetory]: Start processing: minidynamicrender
+[2023-06-02 13:14:32] INFO root fetch - main [MainThread]: End processing [cachetory]: success
+[2023-06-02 13:14:32] INFO root fetch - processPackages [minidynamicrender]: New version: [1.2.6] Old Version: [1.1.9]
+[2023-06-02 13:14:32] INFO root fetch - processPackages [dreifus]: Start processing: mangaplus
+[2023-06-02 13:14:32] INFO root fetch - main [MainThread]: End processing [dreifus]: success
+[2023-06-02 13:14:33] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/96/ee/4c4a03a03e02009dbdf8894b80fbcfae7b38acc06bff40ac0ca5091484b0/mkdocs_exporter-3.0.3.tar.gz
+[2023-06-02 13:14:33] INFO root fetch - processPackages [minidynamicrender]: Downloading https://files.pythonhosted.org/packages/71/ac/860296260eef44342062f8b29e5198ad6eb180a811e55931055f80fee626/minidynamicrender-1.1.9.tar.gz
+[2023-06-02 13:14:33] WARNING root fetch - processPackages [mangaplus]: Skipping, unable to determine old version
+[2023-06-02 13:14:33] INFO root fetch - processPackages [mangaplus]: Start processing: django-restricted-sessions
+[2023-06-02 13:14:33] INFO root fetch - main [MainThread]: End processing [mangaplus] error
+[2023-06-02 13:14:33] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-06-02 13:14:33] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-3.0.2.tar.gz tmp/mkdocs_exporter-3.0.3.tar.gz --markdown 20230602/m/mkdocs-exporter/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-02 13:14:33] INFO root fetch - processPackages [django-restricted-sessions]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-02 13:14:33] INFO root fetch - processPackages [midgard]: Downloading https://files.pythonhosted.org/packages/3f/b4/3d63a999afb6a29b33d1e193728341430ed9c55187d41f5390fa96c33388/midgard-1.2.2.tar.gz
+[2023-06-02 13:14:33] INFO root fetch - processPackages [midgard]: executing diffoscope
+[2023-06-02 13:14:33] INFO root fetch - processPackages [midgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midgard-1.2.1.tar.gz tmp/midgard-1.2.2.tar.gz --markdown 20230602/m/midgard/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 13:14:33] INFO root fetch - processPackages [django-restricted-sessions]: Downloading https://files.pythonhosted.org/packages/4b/18/94d86d4f792b4b400ea6986a5406f4c273c457ddbd8bd2f7eddf326d096e/django-restricted-sessions-0.2.0.tar.gz
+[2023-06-02 13:14:33] INFO root fetch - processPackages [minidynamicrender]: Downloading https://files.pythonhosted.org/packages/4a/ef/965a69ae30d5deb2df2cd60b7a00b6cf4d7eab5c9a22f4bc9bcdb8afd9bf/minidynamicrender-1.2.6.tar.gz
+[2023-06-02 13:14:33] INFO root fetch - processPackages [minidynamicrender]: executing diffoscope
+[2023-06-02 13:14:33] INFO root fetch - processPackages [minidynamicrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidynamicrender-1.1.9.tar.gz tmp/minidynamicrender-1.2.6.tar.gz --markdown 20230602/m/minidynamicrender/1.1.9-1.2.6/diff.md --exclude *.pyd
+[2023-06-02 13:14:33] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-02 13:14:33] INFO root fetch - processPackages [django-restricted-sessions]: Downloading https://files.pythonhosted.org/packages/6a/e7/fdc774afc30409be2127b41e0c1bdc75dca3dfb962830eb7a06a1c41daac/django-restricted-sessions-0.3.0.tar.gz
+[2023-06-02 13:14:33] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-06-02 13:14:33] INFO root fetch - processPackages [django-restricted-sessions]: executing diffoscope
+[2023-06-02 13:14:33] INFO root fetch - processPackages [django-restricted-sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-restricted-sessions-0.2.0.tar.gz tmp/django-restricted-sessions-0.3.0.tar.gz --markdown 20230602/d/django-restricted-sessions/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 13:14:33] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2023-06-02 13:14:34] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-06-02 13:14:34] INFO root fetch - main [MainThread]: End processing [django-restricted-sessions]: success
+[2023-06-02 13:14:35] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-02 13:14:35] INFO root fetch - main [MainThread]: End processing [minidynamicrender]: success
+[2023-06-02 13:14:36] INFO root fetch - main [MainThread]: End processing [django-bootstrap-sidebar]: success
+[2023-06-02 13:14:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-02 13:14:40] INFO root fetch - main [MainThread]: End processing [midgard]: success
+[2023-06-02 13:14:40] INFO root fetch - main [MainThread]: Store serial: [18347896]
