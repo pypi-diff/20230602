@@ -14570,3 +14570,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 15:19:22] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-02 15:19:24] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
 [2023-06-02 15:19:24] INFO root fetch - main [MainThread]: Store serial: [18348915]
+[2023-06-02 15:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348915]
+[2023-06-02 15:24:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coregio
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lago-python-client
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easypip
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erlenberg-ext
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterhub-backendspawner
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymodbus
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxel-dic
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-iubenda-web
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ctransformers
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: erlenberg-ext
+[2023-06-02 15:24:36] INFO root fetch - processPackages [lago-python-client]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [coregio]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [easypip]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [django-iubenda-web]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [erlenberg-ext]: New version: [3.1] Old Version: [3.0]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [pymodbus]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [pyxel-dic]: New version: [3.0.5] Old Version: [3.0.3]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [erlenberg-ext]: New version: [3.1] Old Version: [3.0]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [ctransformers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-02 15:24:36] INFO root fetch - processPackages [django-iubenda-web]: Downloading https://files.pythonhosted.org/packages/1a/dd/a1944c9cb5ac43833e52f00c88d07fff15bb5edd73b1f7934ee90b046557/django-iubenda-web-0.0.2.tar.gz
+[2023-06-02 15:24:36] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/b7/ad/fe3f181bdd12a6fadc07843a97c019de90b099ff33366bc1d580d03e9979/pyxel-dic-3.0.3.tar.gz
+[2023-06-02 15:24:36] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/82/2c/dd25ef3d8f92e81cb71ee9d64ac79b5aff55a23afb28ccef0e9d7ec184a5/erlenberg_ext-3.0.tar.gz
+[2023-06-02 15:24:36] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/82/2c/dd25ef3d8f92e81cb71ee9d64ac79b5aff55a23afb28ccef0e9d7ec184a5/erlenberg_ext-3.0.tar.gz
+[2023-06-02 15:24:36] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/01/17/90119020d1e4cbd1b9c1280647c2cb67e8f6239107658e85b49ba696b97e/lago_python_client-0.6.2-py3-none-any.whl
+[2023-06-02 15:24:36] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/ba/10/cd5825d50b5dd6060b5ce1e8f9afe2069f09a319a02f1f9ec16e76e785ee/easypip-1.2.4.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/76/2c/225341bcfdb6e3b1b3b3e5692b8f4284028814f301e9d2319dda61f4d59c/coregio-0.3.0.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pymodbus]: Downloading https://files.pythonhosted.org/packages/be/9a/71c0dafc155990976135877391ca58e98dd3c4a6beb12bee7b3d75a71212/pymodbus-3.2.2.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/f5/33/bfa2706024438356397debe454e9d08f1f7bc273ef12f5ef446142c81ffd/jupyterhub-backendspawner-0.4.0.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.2.3.tar.gz tmp/easypip-1.2.4.tar.gz --markdown 20230602/e/easypip/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [django-iubenda-web]: Downloading https://files.pythonhosted.org/packages/a1/22/74594f85ac0a2c6815e9eb8b60af675780a5fd8f25338df3b42a326c4ba2/django-iubenda-web-0.0.3.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [coregio]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [coregio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coregio-0.2.0.tar.gz tmp/coregio-0.3.0.tar.gz --markdown 20230602/c/coregio/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/61/d5/0145dfb49a3f90938dfc37a0d527ed655e89d3dad023c8ef1d1434693ff3/ctransformers-0.2.5.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.3.3.tar.gz tmp/jupyterhub-backendspawner-0.4.0.tar.gz --markdown 20230602/j/jupyterhub-backendspawner/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/da/ba/d2e6fa94bdaeed90d7af00952977db07d2d11af06300d654deba015c6d9f/erlenberg_ext-3.1.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [django-iubenda-web]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [django-iubenda-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-web-0.0.2.tar.gz tmp/django-iubenda-web-0.0.3.tar.gz --markdown 20230602/d/django-iubenda-web/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: Downloading https://files.pythonhosted.org/packages/da/ba/d2e6fa94bdaeed90d7af00952977db07d2d11af06300d654deba015c6d9f/erlenberg_ext-3.1.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/61/8f/4ee19a54049af3c305e5884020f2336c0beb0d8ee5199b8c5b471c72ebdb/pyxel-dic-3.0.5.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.4.tar.gz tmp/ctransformers-0.2.5.tar.gz --markdown 20230602/c/ctransformers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pymodbus]: Downloading https://files.pythonhosted.org/packages/51/81/7dd7a93e663bea3da042e5f24c8d4bee7774df17c1609f86b79a1167ef4d/pymodbus-3.3.0.tar.gz
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlenberg_ext-3.0.tar.gz tmp/erlenberg_ext-3.1.tar.gz --markdown 20230602/e/erlenberg-ext/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [erlenberg-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlenberg_ext-3.0.tar.gz tmp/erlenberg_ext-3.1.tar.gz --markdown 20230602/e/erlenberg-ext/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pyxel-dic]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pyxel-dic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-dic-3.0.3.tar.gz tmp/pyxel-dic-3.0.5.tar.gz --markdown 20230602/p/pyxel-dic/3.0.3-3.0.5/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pymodbus]: executing diffoscope
+[2023-06-02 15:24:37] INFO root fetch - processPackages [pymodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodbus-3.2.2.tar.gz tmp/pymodbus-3.3.0.tar.gz --markdown 20230602/p/pymodbus/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-06-02 15:24:37] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/71/4b/759008fa11aead832550f5a1093dbb6965c5a7efaf8e9226b712d3d01d32/lago_python_client-0.7.0-py3-none-any.whl
+[2023-06-02 15:24:38] INFO root fetch - processPackages [lago-python-client]: executing diffoscope
+[2023-06-02 15:24:38] INFO root fetch - processPackages [lago-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lago_python_client-0.6.2-py3-none-any.whl.zip tmp/lago_python_client-0.7.0-py3-none-any.whl.zip --markdown 20230602/l/lago-python-client/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-06-02 15:24:38] INFO root fetch - processPackages [coregio]: Start processing: pydantic-settings
+[2023-06-02 15:24:38] INFO root fetch - main [MainThread]: End processing [coregio]: success
+[2023-06-02 15:24:38] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0b1] Old Version: [2.0a4]
+[2023-06-02 15:24:38] INFO root fetch - processPackages [easypip]: Start processing: aheadworks-deploy-manager
+[2023-06-02 15:24:38] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2023-06-02 15:24:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-02 15:24:38] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: NEMO-billing
+[2023-06-02 15:24:38] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-06-02 15:24:38] INFO root fetch - processPackages [NEMO-billing]: New version: [2.3.0] Old Version: [2.2.5]
+[2023-06-02 15:24:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-02 15:24:38] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230602/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-02 15:24:38] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/78/6e/e02143c4f3abaff146d90e4e95d701250319a4391d065e60a4b85b9fd9c5/pydantic_settings-2.0a4.tar.gz
+[2023-06-02 15:24:38] INFO root fetch - processPackages [django-iubenda-web]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 15:24:38] INFO root fetch - main [MainThread]: End processing [django-iubenda-web]: success
+[2023-06-02 15:24:38] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 15:24:39] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/24/35/5739925d0325c470b61a52f27d2c60d884366a568255837c80ac3bea940c/NEMO_billing-2.3.0-py3-none-any.whl
+[2023-06-02 15:24:39] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.2.5-py3-none-any.whl.zip tmp/NEMO_billing-2.3.0-py3-none-any.whl.zip --markdown 20230602/N/NEMO-billing/2.2.5-2.3.0/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [erlenberg-ext]: Start processing: fbgemm-gpu-nightly
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [erlenberg-ext]: success
+[2023-06-02 15:24:39] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/4d/cf/5fba1186a17a2838ab243586c284bebcee8f13a6eb5028c41c2f70f7e938/pydantic_settings-2.0b1.tar.gz
+[2023-06-02 15:24:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-02 15:24:39] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0a4.tar.gz tmp/pydantic_settings-2.0b1.tar.gz --markdown 20230602/p/pydantic-settings/2.0a4-2.0b1/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/cd/c9/aa4989adb8c6a3e4c9cc21646f3267183ecca94f745622effec75776ba03/fbgemm_gpu_nightly-2023.6.1-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-02 15:24:39] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 247887804>=10485760
+[2023-06-02 15:24:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: easypip
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-02 15:24:39] INFO root fetch - processPackages [erlenberg-ext]: Start processing: coiled
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [erlenberg-ext]: success
+[2023-06-02 15:24:39] INFO root fetch - processPackages [easypip]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-02 15:24:39] INFO root fetch - processPackages [coiled]: New version: [0.6.9] Old Version: [0.6.8.dev9]
+[2023-06-02 15:24:39] INFO root fetch - processPackages [ctransformers]: Start processing: moto
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-06-02 15:24:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-02 15:24:39] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev9.tar.gz tmp/coiled-0.6.9.tar.gz --markdown 20230602/c/coiled/0.6.8.dev9-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [lago-python-client]: Start processing: playwrightcapture
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [lago-python-client]: success
+[2023-06-02 15:24:39] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/10/c7/7b10e7a8a067e07a386c10905d03f7cbfeeba8da9426f8ba5cef27e6fc16/easypip-1.2.5.tar.gz
+[2023-06-02 15:24:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230602/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2023-06-02 15:24:39] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.2.4.tar.gz tmp/easypip-1.2.5.tar.gz --markdown 20230602/e/easypip/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-02 15:24:39] INFO root fetch - processPackages [playwrightcapture]: New version: [1.20.1] Old Version: [1.20.0]
+[2023-06-02 15:24:39] INFO root fetch - main [MainThread]: End processing [pyxel-dic]: success
+[2023-06-02 15:24:40] INFO root fetch - processPackages [playwrightcapture]: Downloading https://files.pythonhosted.org/packages/34/0d/e912c7db2ad2e8ca113a166d0676e17e4f95fdaed6c081cecfacc539ddfb/playwrightcapture-1.20.1.tar.gz
+[2023-06-02 15:24:40] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-02 15:24:40] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-06-02 15:24:40] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.20.0.tar.gz tmp/playwrightcapture-1.20.1.tar.gz --markdown 20230602/p/playwrightcapture/1.20.0-1.20.1/diff.md --exclude *.pyd
+[2023-06-02 15:24:40] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-06-02 15:24:41] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2023-06-02 15:24:41] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-06-02 15:24:41] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 15:24:41] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-06-02 15:24:43] INFO root fetch - main [MainThread]: End processing [pymodbus]: success
+[2023-06-02 15:24:46] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 15:25:14] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-02 15:25:14] INFO root fetch - main [MainThread]: Store serial: [18348971]
