@@ -8609,3 +8609,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [deepflash2]: success
 [2023-06-02 08:35:39] INFO root fetch - main [MainThread]: End processing [xj-user]: success
 [2023-06-02 08:35:39] INFO root fetch - main [MainThread]: Store serial: [18345379]
+[2023-06-02 08:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345379]
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 404-optimistic-pkg-404-Not-Found
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gomea
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xor-cipher
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braincube-aws-core-alpha
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbxs
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-yaml
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nodered.py
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: equipparser
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faceshine
+[2023-06-02 08:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sanydata
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [404-optimistic-pkg-404-Not-Found]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] INFO root fetch - processPackages [404-optimistic-pkg-404-Not-Found]: Start processing: digicon-mod
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [404-optimistic-pkg-404-Not-Found] error
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [dbxs]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] INFO root fetch - processPackages [dbxs]: Start processing: datesmodule
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [dbxs] error
+[2023-06-02 08:40:48] INFO root fetch - processPackages [drf-yaml]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [equipparser]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [faceshine]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] INFO root fetch - processPackages [equipparser]: Start processing: aspectify
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [equipparser] error
+[2023-06-02 08:40:48] INFO root fetch - processPackages [gomea]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 08:40:48] INFO root fetch - processPackages [faceshine]: Start processing: chatgpt-serpucga
+[2023-06-02 08:40:48] INFO root fetch - processPackages [xor-cipher]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-02 08:40:48] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-02 08:40:48] INFO root fetch - processPackages [nodered.py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [faceshine] error
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [digicon-mod]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] WARNING root fetch - processPackages [datesmodule]: Skipping, unable to determine old version
+[2023-06-02 08:40:48] INFO root fetch - processPackages [sanydata]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [digicon-mod] error
+[2023-06-02 08:40:48] INFO root fetch - main [MainThread]: End processing [datesmodule] error
+[2023-06-02 08:40:48] INFO root fetch - processPackages [aspectify]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 08:40:48] INFO root fetch - processPackages [chatgpt-serpucga]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 08:40:48] INFO root fetch - processPackages [chatgpt-serpucga]: executing diffoscope
+[2023-06-02 08:40:48] INFO root fetch - processPackages [chatgpt-serpucga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_serpucga-0.0.1.tar.gz tmp/chatgpt_serpucga-0.0.2.tar.gz --markdown 20230602/c/chatgpt-serpucga/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:40:48] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/64/3a/726c798d5e11a8f35a01e9e4d21be940d630b14d81aa206c76975e64ee56/gomea-1.0.0.tar.gz
+[2023-06-02 08:40:48] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/96/07/8d1c4763f926aa62e35086c7de3c044c8e9f54706ba696df97327312c9bf/nodered.py-0.2.1.tar.gz
+[2023-06-02 08:40:48] INFO root fetch - processPackages [xor-cipher]: Downloading https://files.pythonhosted.org/packages/6f/04/74b8bbd3796205270d103c1b16adcf2fea5ab623e25c874e5eb455f43cee/xor_cipher-3.0.0.tar.gz
+[2023-06-02 08:40:48] INFO root fetch - processPackages [drf-yaml]: Downloading https://files.pythonhosted.org/packages/28/86/b5a92ed47d24e39e65e7a21ef3c6bcea1bc388f40ba1cf282689b9933520/drf_yaml-3.0.0.tar.gz
+[2023-06-02 08:40:48] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/3b/15/cf71b9a6aa378a62a6dd6b4866fed2c2d8ef12af1ee8b86565759ba09368/sanydata-3.3.0.tar.gz
+[2023-06-02 08:40:48] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/80/d6/5b48f63aa6cbb20ca3a6ca4b58ef051e5830d9c3d459c23a68b87b71b6c3/aspectify-0.0.1.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/e5/48/2d2c4b694d5e64e364c5cada55fafab93d8de1fba7df21545c57c0694684/braincube-aws-core-alpha-0.0.30.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/fd/89/35d645d15026b01ae65e83979261c4b81df3cf5f487af6557608e142e345/gomea-1.0.1.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.29.tar.gz tmp/braincube-aws-core-alpha-0.0.30.tar.gz --markdown 20230602/b/braincube-aws-core-alpha/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [drf-yaml]: Downloading https://files.pythonhosted.org/packages/66/3a/24e5e83ccbacab5dab91e9f64e79038fb65915859bcc7272c34584db4143/drf_yaml-3.0.1.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/86/9c/1c5b52c0e1cbfcff5689873ce019fd9ed525c317b78b97f2da7e9819a52d/nodered.py-0.2.2.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/2c/6a/28c7cd3ef8d2c1d6daea62c288996bacc86c4dc3bb1a5e9ee6f8a599c5d3/sanydata-3.3.1.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [aspectify]: Downloading https://files.pythonhosted.org/packages/76/37/ae6f382874fc22ab5228bc761695b5a8037b43b38bc0ef6d7179f98750c1/aspectify-0.0.2.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [sanydata]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [sanydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanydata-3.3.0.tar.gz tmp/sanydata-3.3.1.tar.gz --markdown 20230602/s/sanydata/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [xor-cipher]: Downloading https://files.pythonhosted.org/packages/c6/7a/ef10965ad006c4f43702be510820fa346793db9c865c1bd7442a3747f889/xor_cipher-3.0.1.tar.gz
+[2023-06-02 08:40:49] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.2.1.tar.gz tmp/nodered.py-0.2.2.tar.gz --markdown 20230602/n/nodered.py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [aspectify]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [aspectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspectify-0.0.1.tar.gz tmp/aspectify-0.0.2.tar.gz --markdown 20230602/a/aspectify/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [gomea]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [gomea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gomea-1.0.0.tar.gz tmp/gomea-1.0.1.tar.gz --markdown 20230602/g/gomea/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [drf-yaml]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [drf-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_yaml-3.0.0.tar.gz tmp/drf_yaml-3.0.1.tar.gz --markdown 20230602/d/drf-yaml/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:40:49] INFO root fetch - processPackages [xor-cipher]: executing diffoscope
+[2023-06-02 08:40:49] INFO root fetch - processPackages [xor-cipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xor_cipher-3.0.0.tar.gz tmp/xor_cipher-3.0.1.tar.gz --markdown 20230602/x/xor-cipher/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [chatgpt-serpucga]: success
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [aspectify]: success
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [sanydata]: success
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [xor-cipher]: success
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-06-02 08:40:50] INFO root fetch - main [MainThread]: End processing [drf-yaml]: success
+[2023-06-02 08:40:51] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-06-02 08:40:51] INFO root fetch - main [MainThread]: End processing [gomea]: success
+[2023-06-02 08:40:51] INFO root fetch - main [MainThread]: Store serial: [18345458]
