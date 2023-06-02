@@ -7416,3 +7416,37 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:46:39] INFO root fetch - main [MainThread]: End processing [nncase]: success
 [2023-06-02 06:46:51] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2023-06-02 06:46:51] INFO root fetch - main [MainThread]: Store serial: [18344583]
+[2023-06-02 06:52:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344583]
+[2023-06-02 06:52:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 06:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvxcovariance
+[2023-06-02 06:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KingdomsAndWarfare
+[2023-06-02 06:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jijzeptlab-client
+[2023-06-02 06:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-blanket-order
+[2023-06-02 06:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basaran
+[2023-06-02 06:52:24] INFO root fetch - processPackages [KingdomsAndWarfare]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-02 06:52:24] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3.dev4]
+[2023-06-02 06:52:24] INFO root fetch - processPackages [cvxcovariance]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-02 06:52:24] INFO root fetch - processPackages [basaran]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-06-02 06:52:24] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.3.0b2] Old Version: [0.3.0b1]
+[2023-06-02 06:52:24] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/e4/b8/bfda462d3b510792e382ba6d0d176f35c086fb7e5148baf44d3630d5cd47/odoo14_addon_sale_blanket_order-14.0.1.0.3.dev4-py3-none-any.whl
+[2023-06-02 06:52:24] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/dc/95/2327cfa9832c4ba0d12a026c0bcc0f1dfff92db348b510ed1ab196c2e503/jijzeptlab_client-0.3.0b2-cp39-cp39-win_amd64.whl
+[2023-06-02 06:52:24] INFO root fetch - processPackages [cvxcovariance]: Downloading https://files.pythonhosted.org/packages/81/93/5522ca85f60c8d832cf176f12b0340ebec9877514d64c8e7c284cb0ef2b3/cvxcovariance-0.1.0.tar.gz
+[2023-06-02 06:52:24] INFO root fetch - processPackages [KingdomsAndWarfare]: Downloading https://files.pythonhosted.org/packages/af/5d/228aa5c7192e0a36902edc1067ebfc31e36d3ae8157fc19a5cad6d6e4a67/KingdomsAndWarfare-0.2.3-py3-none-any.whl
+[2023-06-02 06:52:24] INFO root fetch - processPackages [cvxcovariance]: executing diffoscope
+[2023-06-02 06:52:24] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/85/73/361359977fa6ff0ec453a9eed688dbd48499186e99a095409c06c0ac7ce5/basaran-0.18.1.tar.gz
+[2023-06-02 06:52:24] INFO root fetch - processPackages [cvxcovariance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxcovariance-0.0.9.tar.gz tmp/cvxcovariance-0.1.0.tar.gz --markdown 20230602/c/cvxcovariance/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 06:52:24] INFO root fetch - processPackages [KingdomsAndWarfare]: executing diffoscope
+[2023-06-02 06:52:24] INFO root fetch - processPackages [KingdomsAndWarfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KingdomsAndWarfare-0.2.2.tar.gz tmp/KingdomsAndWarfare-0.2.3-py3-none-any.whl.zip --markdown 20230602/K/KingdomsAndWarfare/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-02 06:52:24] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-06-02 06:52:24] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.3.0b1-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.3.0b2-cp39-cp39-win_amd64.whl.zip --markdown 20230602/j/jijzeptlab-client/0.3.0b1-0.3.0b2/diff.md --exclude *.pyd
+[2023-06-02 06:52:24] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-06-02 06:52:24] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.18.0.tar.gz tmp/basaran-0.18.1.tar.gz --markdown 20230602/b/basaran/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2023-06-02 06:52:24] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/d9/b3/fd8379c0616f6cec0a7febb92bc1849f0aca9bd69999662514b4d0760956/odoo14_addon_sale_blanket_order-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-06-02 06:52:24] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: executing diffoscope
+[2023-06-02 06:52:24] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_blanket_order-14.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_blanket_order-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-sale-blanket-order/14.0.1.0.3.dev4-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-02 06:52:25] INFO root fetch - main [MainThread]: End processing [KingdomsAndWarfare]: success
+[2023-06-02 06:52:25] INFO root fetch - main [MainThread]: End processing [cvxcovariance]: success
+[2023-06-02 06:52:26] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-06-02 06:52:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-blanket-order]: success
+[2023-06-02 06:52:26] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-06-02 06:52:26] INFO root fetch - main [MainThread]: Store serial: [18344626]
