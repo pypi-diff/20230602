@@ -19971,3 +19971,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:07:20] INFO root fetch - main [MainThread]: End processing [pyvenafi]: success
 [2023-06-02 21:07:22] INFO root fetch - main [MainThread]: End processing [iotbr]: success
 [2023-06-02 21:07:22] INFO root fetch - main [MainThread]: Store serial: [18352362]
+[2023-06-02 21:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352362]
+[2023-06-02 21:12:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rwa-python
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Faker
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grai-client
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sso-client
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splight-cli
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oking
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: googleapiutils2
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viv
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlp-pipeline
+[2023-06-02 21:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-docker
+[2023-06-02 21:12:31] INFO root fetch - processPackages [rwa-python]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [splight-cli]: New version: [3.0.0.dev3] Old Version: [3.0.0.dev2]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [viv]: New version: [23.5a5] Old Version: [23.5a4]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [grai-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [googleapiutils2]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [Faker]: New version: [9.9.1] Old Version: [9.9.0]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1685727774] Old Version: [4.3.0a1685165956]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.2.8.tar.gz tmp/grai_client-0.2.9.tar.gz --markdown 20230602/g/grai-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1685165956.tar.gz tmp/pulumi_docker-4.3.0a1685727774.tar.gz --markdown 20230602/p/pulumi-docker/4.3.0a1685165956-4.3.0a1685727774/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/c3/d0/2e2746fca2697dd89ea91ee501d28a2163074d67af04eda30bb5540e0806/googleapiutils2-0.8.4.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/6d/68/f423cb7b4c6c7b84145cef4b2d5e75f6ace46e0c9c03a55b21276f0233b4/nlp_pipeline-0.0.8.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/3c/4d/c280e27546be09fb3f3df90e9bae24ea8f1f096b0d20a44e8f4b06517c24/splight-cli-3.0.0.dev3.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/9a/e6/c39fa497c87156839a20c45ebf4bb898de8be2f4bd1184ddb8dbcacc53dd/django-sso-client-0.0.5.tar.gz
+[2023-06-02 21:12:31] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-06-02 21:12:31] INFO root fetch - processPackages [oking]: Start processing: flyteidl
+[2023-06-02 21:12:31] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-02 21:12:31] INFO root fetch - processPackages [flyteidl]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-02 21:12:31] INFO root fetch - processPackages [rwa-python]: Downloading https://files.pythonhosted.org/packages/c6/56/93b7274e27aa7fd5ca5ca9e8509f4fbd71c4d95d37c05e8130c01711952d/rwa-python-0.9.3.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [Faker]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [Faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Faker-9.9.0.tar.gz tmp/Faker-9.9.1.tar.gz --markdown 20230602/F/Faker/9.9.0-9.9.1/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.0.0.dev2.tar.gz tmp/splight-cli-3.0.0.dev3.tar.gz --markdown 20230602/s/splight-cli/3.0.0.dev2-3.0.0.dev3/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [viv]: Downloading https://files.pythonhosted.org/packages/8b/59/9365556e259044af6fe115dc3dd109282336c56d38877a5a830169922d3a/viv-23.5a5.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [rwa-python]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [rwa-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwa-python-0.9.2.tar.gz tmp/rwa-python-0.9.3.tar.gz --markdown 20230602/r/rwa-python/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.4.tar.gz tmp/django-sso-client-0.0.5.tar.gz --markdown 20230602/d/django-sso-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/44/4f/7e318cba85796dd307cb07e84ca647ffdb91caba21ab24dc5b1b4d009198/googleapiutils2-0.8.5.tar.gz
+[2023-06-02 21:12:31] INFO root fetch - processPackages [viv]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [viv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viv-23.5a4.tar.gz tmp/viv-23.5a5.tar.gz --markdown 20230602/v/viv/23.5a4-23.5a5/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.8.4.tar.gz tmp/googleapiutils2-0.8.5.tar.gz --markdown 20230602/g/googleapiutils2/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-02 21:12:31] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2023-06-02 21:12:31] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.8.tar.gz tmp/flyteidl-1.5.9.tar.gz --markdown 20230602/f/flyteidl/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-02 21:12:32] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/28/b8/2312ab3f5ddcbd5f394f72746eb42cb63db9ffbe24458ac13b4c189c4d94/nlp_pipeline-0.0.9.tar.gz
+[2023-06-02 21:12:32] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-06-02 21:12:32] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230602/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 21:12:32] INFO root fetch - processPackages [grai-client]: Start processing: pyrsig
+[2023-06-02 21:12:32] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-02 21:12:32] INFO root fetch - processPackages [pyrsig]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-02 21:12:33] INFO root fetch - processPackages [pyrsig]: Downloading https://files.pythonhosted.org/packages/76/50/9f2625023f0e25dc2213f1c09eeb34aee54fb05338d6b609e4e52e248e6e/pyrsig-0.4.2.tar.gz
+[2023-06-02 21:12:33] INFO root fetch - processPackages [rwa-python]: Start processing: robocorp-tasks
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [rwa-python]: success
+[2023-06-02 21:12:33] INFO root fetch - processPackages [robocorp-tasks]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-02 21:12:33] INFO root fetch - processPackages [pyrsig]: executing diffoscope
+[2023-06-02 21:12:33] INFO root fetch - processPackages [pyrsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsig-0.4.1.tar.gz tmp/pyrsig-0.4.2.tar.gz --markdown 20230602/p/pyrsig/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [viv]: success
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-06-02 21:12:33] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/50/8b/277eb65f14b198082230b40ff0304bee060f28f1f040e530398c67b33673/robocorp_tasks-0.4.0.tar.gz
+[2023-06-02 21:12:33] INFO root fetch - processPackages [robocorp-tasks]: executing diffoscope
+[2023-06-02 21:12:33] INFO root fetch - processPackages [robocorp-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_tasks-0.3.0.tar.gz tmp/robocorp_tasks-0.4.0.tar.gz --markdown 20230602/r/robocorp-tasks/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-02 21:12:33] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-06-02 21:12:34] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-06-02 21:12:34] INFO root fetch - main [MainThread]: End processing [pyrsig]: success
+[2023-06-02 21:12:34] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
+[2023-06-02 21:12:35] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2023-06-02 21:12:37] INFO root fetch - main [MainThread]: End processing [Faker]: success
+[2023-06-02 21:12:37] INFO root fetch - main [MainThread]: Store serial: [18352402]
