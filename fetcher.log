@@ -22008,3 +22008,16 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
 [2023-06-02 23:47:24] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
 [2023-06-02 23:47:24] INFO root fetch - main [MainThread]: Store serial: [18353602]
+[2023-06-02 23:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18353602]
+[2023-06-02 23:52:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-02 23:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2023-06-02 23:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyops
+[2023-06-02 23:52:33] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-06-02 23:52:33] INFO root fetch - processPackages [lazyops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 23:52:33] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-06-02 23:52:33] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230602/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-06-02 23:52:33] INFO root fetch - processPackages [lazyops]: executing diffoscope
+[2023-06-02 23:52:33] INFO root fetch - processPackages [lazyops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyops-0.2.8.tar.gz tmp/lazyops-0.2.9.tar.gz --markdown 20230602/l/lazyops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 23:52:35] INFO root fetch - main [MainThread]: End processing [lazyops]: success
+[2023-06-02 23:52:59] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-06-02 23:52:59] INFO root fetch - main [MainThread]: Store serial: [18353616]
