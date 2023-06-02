@@ -8038,3 +8038,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 07:33:21] INFO root fetch - main [MainThread]: End processing [hfrunner]: success
 [2023-06-02 07:33:21] INFO root fetch - main [MainThread]: End processing [django-ipghrms-settingsapp]: success
 [2023-06-02 07:33:21] INFO root fetch - main [MainThread]: Store serial: [18345053]
+[2023-06-02 07:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345053]
+[2023-06-02 07:38:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exclusive
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openhsi
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azdev
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trogon-yapx
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drukarnia-api
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tlcloud
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lumaconf
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baozun-winrobot
+[2023-06-02 07:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: additive
+[2023-06-02 07:38:30] WARNING root fetch - processPackages [lumaconf]: Skipping, unable to determine old version
+[2023-06-02 07:38:30] INFO root fetch - main [MainThread]: End processing [lumaconf] error
+[2023-06-02 07:38:30] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [tlcloud]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [baozun-winrobot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [exclusive]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [openhsi]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-02 07:38:30] WARNING root fetch - processPackages [trogon-yapx]: Skipping, unable to determine old version
+[2023-06-02 07:38:30] INFO root fetch - main [MainThread]: End processing [trogon-yapx] error
+[2023-06-02 07:38:30] INFO root fetch - processPackages [additive]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 07:38:30] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230602/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 07:38:30] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/d4/09/1cde5de81cb099d6e37755ef4223760181be8091f69891ddc90daf1e0778/drukarnia_api-0.1.2.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [exclusive]: Downloading https://files.pythonhosted.org/packages/33/c9/3af9212d5c576217c079838c8e56a0ff6e7c829f10f1dd99139ca715a35a/exclusive-0.2.0.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [baozun-winrobot]: Downloading https://files.pythonhosted.org/packages/97/a8/9e1255b8daee17c3620c9e1fe9e0faed77e78efc47a2154a1cdc151a587b/baozun_winrobot-0.0.3.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [additive]: Downloading https://files.pythonhosted.org/packages/c4/d0/2db204a06523544927076451a4d3c4b5d9846cfcc86ccc8cdcb25d10a670/additive-0.5.0.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [openhsi]: Downloading https://files.pythonhosted.org/packages/4c/d1/f35976692210badd426b4252d6dd5fa83361137b522ec55c3b27d81624f6/openhsi-0.2.3.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [baozun-winrobot]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [baozun-winrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baozun_winrobot-0.0.2.tar.gz tmp/baozun_winrobot-0.0.3.tar.gz --markdown 20230602/b/baozun-winrobot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 07:38:30] INFO root fetch - processPackages [tlcloud]: Downloading https://files.pythonhosted.org/packages/84/b4/35490833ec523247273f335850c4de60b9a017459517fce72fa08d103ec6/tlcloud-0.2.2.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [tlcloud]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [tlcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlcloud-0.2.1.tar.gz tmp/tlcloud-0.2.2.tar.gz --markdown 20230602/t/tlcloud/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 07:38:30] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.1.tar.gz tmp/drukarnia_api-0.1.2.tar.gz --markdown 20230602/d/drukarnia-api/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 07:38:30] WARNING root fetch - processPackages [openhsi]: Skipping package: exceeds size limit 10695085>=10485760
+[2023-06-02 07:38:30] INFO root fetch - main [MainThread]: End processing [openhsi] error
+[2023-06-02 07:38:30] INFO root fetch - processPackages [exclusive]: Downloading https://files.pythonhosted.org/packages/ee/9d/8d85166e3f3576747a83bff7a1769b14d7e0ece6426f338e49c107dbd861/exclusive-0.3.0.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [additive]: Downloading https://files.pythonhosted.org/packages/ca/f1/c7a97162382c34ca5bbe576b6883cbbb3a1fa1ec2b1147bf91fb4f3c25d3/additive-0.6.0.tar.gz
+[2023-06-02 07:38:30] INFO root fetch - processPackages [exclusive]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [exclusive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exclusive-0.2.0.tar.gz tmp/exclusive-0.3.0.tar.gz --markdown 20230602/e/exclusive/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 07:38:30] INFO root fetch - processPackages [additive]: executing diffoscope
+[2023-06-02 07:38:30] INFO root fetch - processPackages [additive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/additive-0.5.0.tar.gz tmp/additive-0.6.0.tar.gz --markdown 20230602/a/additive/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 07:38:31] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-06-02 07:38:31] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230602/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 07:38:31] INFO root fetch - main [MainThread]: End processing [baozun-winrobot]: success
+[2023-06-02 07:38:31] INFO root fetch - main [MainThread]: End processing [tlcloud]: success
+[2023-06-02 07:38:31] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-02 07:38:32] INFO root fetch - main [MainThread]: End processing [exclusive]: success
+[2023-06-02 07:38:32] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-02 07:38:32] INFO root fetch - main [MainThread]: End processing [additive]: success
+[2023-06-02 07:38:33] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-06-02 07:38:33] INFO root fetch - main [MainThread]: Store serial: [18345086]
