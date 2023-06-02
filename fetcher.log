@@ -7116,3 +7116,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:14:42] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
 [2023-06-02 06:14:42] INFO root fetch - main [MainThread]: End processing [treecker]: success
 [2023-06-02 06:14:42] INFO root fetch - main [MainThread]: Store serial: [18344377]
+[2023-06-02 06:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344377]
+[2023-06-02 06:19:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lddl
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awscli-plugin-granica
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meddlr-viz
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelz-llm
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-pipe-base
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geocat.viz
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fennel-ai
+[2023-06-02 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-customer-rank
+[2023-06-02 06:19:50] INFO root fetch - processPackages [awscli-plugin-granica]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-02 06:19:50] INFO root fetch - processPackages [meddlr-viz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 06:19:50] INFO root fetch - processPackages [geocat.viz]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-02 06:19:50] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.20] Old Version: [23.5.19]
+[2023-06-02 06:19:50] WARNING root fetch - processPackages [lddl]: Skipping, unable to determine old version
+[2023-06-02 06:19:50] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-02 06:19:50] INFO root fetch - main [MainThread]: End processing [lddl] error
+[2023-06-02 06:19:50] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-02 06:19:50] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-02 06:19:50] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-06-02 06:19:50] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230602/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-02 06:19:50] INFO root fetch - processPackages [awscli-plugin-granica]: Downloading https://files.pythonhosted.org/packages/4d/8c/3d7a68c045cc5b5d451bcae48b80282399a9b790527eb1fa3e00cf12f209/awscli-plugin-granica-2.0.5.tar.gz
+[2023-06-02 06:19:50] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-06-02 06:19:50] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230602/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-02 06:19:50] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-06-02 06:19:51] INFO root fetch - processPackages [geocat.viz]: Downloading https://files.pythonhosted.org/packages/75/43/a1297fd16db24fe11f1ba5d67538777adf738a9cce74d9a5e01cd1c14e58/geocat.viz-2023.5.0.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/3b/c6/404afdab1ed7332a0512d69ebef17578d8bbb6f153c8f10dba829dd594d9/modelz-llm-23.5.20.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [meddlr-viz]: Downloading https://files.pythonhosted.org/packages/fa/be/270db05eff3cb8472c0fa6f5b35748b408e2278006bcfd09a5ddc6f0af94/meddlr-viz-0.0.1.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 06:19:51] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.19.tar.gz tmp/modelz-llm-23.5.20.tar.gz --markdown 20230602/m/modelz-llm/23.5.19-23.5.20/diff.md --exclude *.pyd
+[2023-06-02 06:19:51] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: Downloading https://files.pythonhosted.org/packages/83/48/816c96e48ce99eaf684c92fc30daeb32f621bb5c505aaeb0be39c29214b3/odoo14_addon_sale_customer_rank-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-02 06:19:51] INFO root fetch - processPackages [awscli-plugin-granica]: Downloading https://files.pythonhosted.org/packages/15/bd/b38ef0d439981b37c184d3a226f8cc62524888698eca88b9fe2159de5cd3/awscli-plugin-granica-2.0.6.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [awscli-plugin-granica]: executing diffoscope
+[2023-06-02 06:19:51] INFO root fetch - processPackages [awscli-plugin-granica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-plugin-granica-2.0.5.tar.gz tmp/awscli-plugin-granica-2.0.6.tar.gz --markdown 20230602/a/awscli-plugin-granica/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-02 06:19:51] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [meddlr-viz]: Downloading https://files.pythonhosted.org/packages/cc/9e/ecdf85cbf57bf3ab416585293cd81aa42ada8216607b1ac52430bdfd2714/meddlr-viz-0.0.2.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [geocat.viz]: Downloading https://files.pythonhosted.org/packages/b3/5b/72d6f27b436f5d97c1db6ebf7de5ea21041b2bcb41cfed2a53dd7d52ed86/geocat.viz-2023.6.0.tar.gz
+[2023-06-02 06:19:51] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-02 06:19:51] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230602/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-02 06:19:51] INFO root fetch - processPackages [meddlr-viz]: executing diffoscope
+[2023-06-02 06:19:51] INFO root fetch - processPackages [meddlr-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meddlr-viz-0.0.1.tar.gz tmp/meddlr-viz-0.0.2.tar.gz --markdown 20230602/m/meddlr-viz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 06:19:51] INFO root fetch - processPackages [geocat.viz]: executing diffoscope
+[2023-06-02 06:19:51] INFO root fetch - processPackages [geocat.viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocat.viz-2023.5.0.tar.gz tmp/geocat.viz-2023.6.0.tar.gz --markdown 20230602/g/geocat.viz/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 06:19:51] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: Downloading https://files.pythonhosted.org/packages/72/c8/e2e5babf24c909e3ac5fcf395b47e12b25e74cb9d9e60bf706c1f215b043/odoo14_addon_sale_customer_rank-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-02 06:19:52] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: executing diffoscope
+[2023-06-02 06:19:52] INFO root fetch - processPackages [odoo14-addon-sale-customer-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_customer_rank-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_customer_rank-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-sale-customer-rank/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-02 06:19:52] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-06-02 06:19:52] INFO root fetch - main [MainThread]: End processing [meddlr-viz]: success
+[2023-06-02 06:19:52] INFO root fetch - main [MainThread]: End processing [awscli-plugin-granica]: success
+[2023-06-02 06:19:52] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-02 06:19:52] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-06-02 06:19:53] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 06:19:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-customer-rank]: success
+[2023-06-02 06:19:54] INFO root fetch - main [MainThread]: End processing [geocat.viz]: success
+[2023-06-02 06:19:54] INFO root fetch - main [MainThread]: Store serial: [18344407]
