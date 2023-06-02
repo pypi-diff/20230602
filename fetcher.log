@@ -8311,3 +8311,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [render-engine-rss]: success
 [2023-06-02 08:04:49] INFO root fetch - main [MainThread]: End processing [render-engine]: success
 [2023-06-02 08:04:49] INFO root fetch - main [MainThread]: Store serial: [18345225]
+[2023-06-02 08:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345225]
+[2023-06-02 08:09:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbe
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v2ray-util
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services-lwdp
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EC2-Proxy
+[2023-06-02 08:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drukarnia-api
+[2023-06-02 08:09:58] INFO root fetch - processPackages [sbe]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-02 08:09:58] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230601] Old Version: [2.4.0.dev20230531]
+[2023-06-02 08:09:58] INFO root fetch - processPackages [drukarnia-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-02 08:09:58] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5152404051] Old Version: [2.0.3.0.dev5146030867]
+[2023-06-02 08:09:58] INFO root fetch - processPackages [v2ray-util]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-06-02 08:09:58] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-02 08:09:58] WARNING root fetch - processPackages [EC2-Proxy]: Skipping, unable to determine old version
+[2023-06-02 08:09:58] INFO root fetch - main [MainThread]: End processing [EC2-Proxy] error
+[2023-06-02 08:09:58] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-02 08:09:58] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-02 08:09:58] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230602/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-02 08:09:58] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.5.tar.gz tmp/drukarnia-api-0.1.6.tar.gz --markdown 20230602/d/drukarnia-api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-02 08:09:58] INFO root fetch - processPackages [sbe]: Downloading https://files.pythonhosted.org/packages/e4/d5/de53e7e7d59b49a82c063d59b2902c1f6b23dbabb85d13dc1086a12cc09c/sbe-0.3.1.tar.gz
+[2023-06-02 08:09:58] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/d6/d8/863d6a5f1a60b8fad41e451137787981b0e04b5b3d5844d3383d551259b7/th2_data_services_lwdp-2.0.3.0.dev5152404051.tar.gz
+[2023-06-02 08:09:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e3/8c/f8e758d75534cd6ca7c32bc02c93d8d403060ec0ed369a07e25f8187061c/pyg_nightly-2.4.0.dev20230601.tar.gz
+[2023-06-02 08:09:59] INFO root fetch - processPackages [v2ray-util]: Downloading https://files.pythonhosted.org/packages/cc/16/ef6a1007a22aa327c14cce9e22ebbefd10b5990ec30ae73a2a66d861adc0/v2ray-util-3.9.3.tar.gz
+[2023-06-02 08:09:59] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-02 08:09:59] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev5146030867.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5152404051.tar.gz --markdown 20230602/t/th2-data-services-lwdp/2.0.3.0.dev5146030867-2.0.3.0.dev5152404051/diff.md --exclude *.pyd
+[2023-06-02 08:09:59] INFO root fetch - processPackages [sbe]: Downloading https://files.pythonhosted.org/packages/13/cb/6bca903af56237fd4e2ed14325196f449a82477eebae632c30e20e358458/sbe-0.3.2.tar.gz
+[2023-06-02 08:09:59] INFO root fetch - processPackages [sbe]: executing diffoscope
+[2023-06-02 08:09:59] INFO root fetch - processPackages [sbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbe-0.3.1.tar.gz tmp/sbe-0.3.2.tar.gz --markdown 20230602/s/sbe/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 08:09:59] INFO root fetch - processPackages [v2ray-util]: Downloading https://files.pythonhosted.org/packages/6a/8c/e2cca50ab183f1946eb583405bba8659f03dc1c0d565fc5a3fff17bbfd18/v2ray-util-3.9.4.tar.gz
+[2023-06-02 08:09:59] INFO root fetch - processPackages [v2ray-util]: executing diffoscope
+[2023-06-02 08:09:59] INFO root fetch - processPackages [v2ray-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2ray-util-3.9.3.tar.gz tmp/v2ray-util-3.9.4.tar.gz --markdown 20230602/v/v2ray-util/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-06-02 08:09:59] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-02 08:09:59] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230531.tar.gz tmp/pyg_nightly-2.4.0.dev20230601.tar.gz --markdown 20230602/p/pyg-nightly/2.4.0.dev20230531-2.4.0.dev20230601/diff.md --exclude *.pyd
+[2023-06-02 08:10:00] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-02 08:10:00] INFO root fetch - main [MainThread]: End processing [sbe]: success
+[2023-06-02 08:10:00] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-02 08:10:00] INFO root fetch - main [MainThread]: End processing [v2ray-util]: success
+[2023-06-02 08:10:01] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-02 08:10:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-02 08:10:04] INFO root fetch - main [MainThread]: Store serial: [18345247]
