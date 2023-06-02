@@ -12572,3 +12572,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 12:58:48] INFO root fetch - main [MainThread]: End processing [syncany]: success
 [2023-06-02 12:58:48] INFO root fetch - main [MainThread]: End processing [polysql]: success
 [2023-06-02 12:58:48] INFO root fetch - main [MainThread]: Store serial: [18347720]
+[2023-06-02 13:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347720]
+[2023-06-02 13:03:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rest-OC
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegramweb
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-sdk
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zelixnitro
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-figure
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zernpy
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaostoolkit-terraform
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: use-case
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kalm
+[2023-06-02 13:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: congers
+[2023-06-02 13:03:58] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.2] Old Version: [2023.6.0]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [napari-figure]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 13:03:58] WARNING root fetch - processPackages [zelixnitro]: Skipping, unable to determine old version
+[2023-06-02 13:03:58] INFO root fetch - processPackages [zelixnitro]: Start processing: premise
+[2023-06-02 13:03:58] INFO root fetch - processPackages [telegramweb]: New version: [4.0] Old Version: [3.1]
+[2023-06-02 13:03:58] INFO root fetch - main [MainThread]: End processing [zelixnitro] error
+[2023-06-02 13:03:58] WARNING root fetch - processPackages [congers]: Skipping, unable to determine old version
+[2023-06-02 13:03:58] INFO root fetch - processPackages [congers]: Start processing: upgini
+[2023-06-02 13:03:58] INFO root fetch - main [MainThread]: End processing [congers] error
+[2023-06-02 13:03:58] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [zernpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:03:58] WARNING root fetch - processPackages [use-case]: Skipping, unable to determine old version
+[2023-06-02 13:03:58] INFO root fetch - processPackages [use-case]: Start processing: bike
+[2023-06-02 13:03:58] INFO root fetch - main [MainThread]: End processing [use-case] error
+[2023-06-02 13:03:58] INFO root fetch - processPackages [Rest-OC]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [kalm]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [bike]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [premise]: New version: [1.5.0b9] Old Version: [1.5.0b8]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [napari-figure]: Downloading https://files.pythonhosted.org/packages/9e/c1/a4d557496b35f41335d55e7c1ca6fcab061f62ab05b0c1267294a1922e70/napari-figure-0.1.0.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [zernpy]: Downloading https://files.pythonhosted.org/packages/60/3f/20c19205adada5753fb4b24c8864860e869a13d217d168bad9959062992a/zernpy-0.0.8.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/66/11/214a3495220fd3e2e0907a7978c5443ed8f70636c11cc9aea0f0b64b1a5f/telegramweb-4.0.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230602/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4f/0622a55c6876bd57b4973e44eda27cdc654ea5a4582d29f54e88d655cd7e/steam-sdk-2023.6.2.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/9d/11/eb4d7c2f8c5fab0e602f88658dafc0294f28701282cb6d484a97f9f2ce7d/premise-1.5.0b8.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-3.1.tar.gz tmp/telegramweb-4.0.tar.gz --markdown 20230602/t/telegramweb/3.1-4.0/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.0.tar.gz tmp/steam-sdk-2023.6.2.tar.gz --markdown 20230602/s/steam-sdk/2023.6.0-2023.6.2/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/a9/08/54f2ba4a6e5fe526602a9be92f468c40cd93ae5b8005caedd68df29fda26/chaostoolkit-terraform-0.0.6.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [Rest-OC]: Downloading https://files.pythonhosted.org/packages/be/14/43ac7c14d409b65bc5ff41b2e9600ad32933cfb7104de5ddb09497e780bf/Rest-OC-1.2.3.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [bike]: Downloading https://files.pythonhosted.org/packages/50/47/375c7610220e1d0f4bdade6f96dbd12b86a9252582f7d387ba0364f4b29d/bike-0.3.2.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/6e/d9/f31d2e44465f8ea0f0ff5c0e607061d30f20ad188ea6b30a90bd979e86a1/kalm-0.6.5.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.5.tar.gz tmp/chaostoolkit-terraform-0.0.6.tar.gz --markdown 20230602/c/chaostoolkit-terraform/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [bike]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [bike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bike-0.3.1.tar.gz tmp/bike-0.3.2.tar.gz --markdown 20230602/b/bike/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [Rest-OC]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [Rest-OC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rest-OC-1.2.2.tar.gz tmp/Rest-OC-1.2.3.tar.gz --markdown 20230602/R/Rest-OC/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.4.tar.gz tmp/kalm-0.6.5.tar.gz --markdown 20230602/k/kalm/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-02 13:03:58] ERROR root fetch - processPackages [telegramweb]: Diffoscope failed: Error: error creating container storage: the container name "brave_wozniak" is already in use by "ef00aa2bda612b5a5d227ea8668517cbb08ebc353bd9849ef8389c58f8d7d454". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-02 13:03:58] INFO root fetch - processPackages [telegramweb]: Start processing: nucliadb
+[2023-06-02 13:03:58] INFO root fetch - main [MainThread]: End processing [telegramweb] error
+[2023-06-02 13:03:58] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:03:58] INFO root fetch - processPackages [zernpy]: Downloading https://files.pythonhosted.org/packages/b0/c8/5c45c5a290bc75ecf839c7c414a65a224c7ea9fd6eb67cc96d131e0f0744/zernpy-0.0.9.tar.gz
+[2023-06-02 13:03:58] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-02 13:03:58] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:03:59] INFO root fetch - processPackages [napari-figure]: Downloading https://files.pythonhosted.org/packages/38/48/5642db6014c5c22c36ac1e95afe5c117bcd9efe97d57fe52275eac496e6c/napari-figure-0.1.1.tar.gz
+[2023-06-02 13:03:59] INFO root fetch - processPackages [zernpy]: executing diffoscope
+[2023-06-02 13:03:59] INFO root fetch - processPackages [zernpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zernpy-0.0.8.tar.gz tmp/zernpy-0.0.9.tar.gz --markdown 20230602/z/zernpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:03:59] INFO root fetch - processPackages [napari-figure]: executing diffoscope
+[2023-06-02 13:03:59] INFO root fetch - processPackages [napari-figure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-figure-0.1.0.tar.gz tmp/napari-figure-0.1.1.tar.gz --markdown 20230602/n/napari-figure/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 13:03:59] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 68019262>=10485760
+[2023-06-02 13:03:59] INFO root fetch - processPackages [premise]: Start processing: Lab-3419
+[2023-06-02 13:03:59] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-06-02 13:03:59] INFO root fetch - processPackages [Lab-3419]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 13:03:59] INFO root fetch - processPackages [Lab-3419]: Downloading https://files.pythonhosted.org/packages/60/b0/64c267352b0ea2a37c6f488843884027c050d763ba78e879c99f10c74c77/Lab_3419-1.0.0-py3-none-any.whl
+[2023-06-02 13:03:59] INFO root fetch - processPackages [Lab-3419]: Downloading https://files.pythonhosted.org/packages/45/b8/cea14a202e2fbe0e9324ace98b8ce2f922346f258f7006bff3100d2d48f3/Lab_3419-1.0.1-py3-none-any.whl
+[2023-06-02 13:03:59] INFO root fetch - processPackages [Lab-3419]: executing diffoscope
+[2023-06-02 13:03:59] INFO root fetch - processPackages [Lab-3419]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lab_3419-1.0.0-py3-none-any.whl.zip tmp/Lab_3419-1.0.1-py3-none-any.whl.zip --markdown 20230602/L/Lab-3419/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 13:04:00] INFO root fetch - processPackages [bike]: Start processing: nwebclient
+[2023-06-02 13:04:00] INFO root fetch - main [MainThread]: End processing [bike]: success
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230602/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-02 13:04:00] INFO root fetch - processPackages [chaostoolkit-terraform]: Start processing: nucliadb-client
+[2023-06-02 13:04:00] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:00] INFO root fetch - processPackages [kalm]: Start processing: nucliadb-dataset
+[2023-06-02 13:04:00] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:00] INFO root fetch - processPackages [zernpy]: Start processing: nucliadb-models
+[2023-06-02 13:04:00] INFO root fetch - main [MainThread]: End processing [zernpy]: success
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:00] INFO root fetch - processPackages [napari-figure]: Start processing: nucliadb-protos
+[2023-06-02 13:04:00] INFO root fetch - main [MainThread]: End processing [napari-figure]: success
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-02 13:04:00] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:01] INFO root fetch - processPackages [Lab-3419]: Start processing: nucliadb-sdk
+[2023-06-02 13:04:01] INFO root fetch - main [MainThread]: End processing [Lab-3419]: success
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:01] INFO root fetch - processPackages [upgini]: Start processing: nucliadb-utils
+[2023-06-02 13:04:01] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-02 13:04:01] INFO root fetch - main [MainThread]: End processing [Rest-OC]: success
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-02 13:04:01] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230602/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-02 13:04:01] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-02 13:04:01] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-02 13:04:02] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-02 13:04:02] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-02 13:04:02] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-02 13:04:02] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-02 13:04:02] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-02 13:04:03] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-02 13:04:04] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-02 13:04:04] INFO root fetch - main [MainThread]: Store serial: [18347788]
