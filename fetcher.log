@@ -13097,3 +13097,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 13:30:33] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.35.0.tar.gz tmp/opendal-0.36.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230602/o/opendal/0.35.0-0.36.1/diff.md --exclude *.pyd
 [2023-06-02 13:30:35] INFO root fetch - main [MainThread]: End processing [opendal]: success
 [2023-06-02 13:30:35] INFO root fetch - main [MainThread]: Store serial: [18348017]
+[2023-06-02 13:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18348017]
+[2023-06-02 13:35:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendal
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfed
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfed-macos
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mebuex
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: didas
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-partial-tagger
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvista-imgui
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statshouse
+[2023-06-02 13:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-source-bigquery
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [didas]: New version: [3.1.0] Old Version: [3.0.1rc1]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [statshouse]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [opendal]: New version: [0.36.1] Old Version: [0.35.0]
+[2023-06-02 13:35:44] WARNING root fetch - processPackages [pyvista-imgui]: Skipping, unable to determine old version
+[2023-06-02 13:35:44] INFO root fetch - main [MainThread]: End processing [pyvista-imgui] error
+[2023-06-02 13:35:44] INFO root fetch - processPackages [mebuex]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230602/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230602/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:35:44] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 13:35:44] INFO root fetch - processPackages [statshouse]: Downloading https://files.pythonhosted.org/packages/45/14/957fa9276651cc92c71788a48d1c55f74c1c0897a3e27589d3e6828e312e/statshouse-0.2.0.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/73/c1/413704bcc8b8acde620dea28c597f97c90a71e34ca77eaa9b1a7eafd2a8f/pytorch_partial_tagger-0.1.5.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [mebuex]: Downloading https://files.pythonhosted.org/packages/9e/ab/17fb4452e0bcc4bdca1874673b1ead0304754989576f97e45c2890f7e002/mebuex-1.1.4.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [didas]: Downloading https://files.pythonhosted.org/packages/db/2d/a280f148a4d59c0e6af81dda60af50354529e525aaf98af1d20982a70219/didas-3.1.0.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-06-02 13:35:44] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.4.tar.gz tmp/pytorch_partial_tagger-0.1.5.tar.gz --markdown 20230602/p/pytorch-partial-tagger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 13:35:44] INFO root fetch - processPackages [didas]: executing diffoscope
+[2023-06-02 13:35:44] INFO root fetch - processPackages [didas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didas-3.0.1rc1.tar.gz tmp/didas-3.1.0.tar.gz --markdown 20230602/d/didas/3.0.1rc1-3.1.0/diff.md --exclude *.pyd
+[2023-06-02 13:35:44] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/f1/c7/5db9459f7f617956bfb9b85c2aa4531b41dff6a3131151da51a07ec6d0bd/opendal-0.36.1.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [statshouse]: Downloading https://files.pythonhosted.org/packages/83/c8/4987d655545c87c642c2e71b175ac985044314ac668c04872363031896ce/statshouse-0.2.1.tar.gz
+[2023-06-02 13:35:44] INFO root fetch - processPackages [mebuex]: Downloading https://files.pythonhosted.org/packages/63/d1/7180d6a1e61767c34f3e7f66cdc204e216c9aeed83640d998f7675266356/mebuex-1.1.5.tar.gz
+[2023-06-02 13:35:45] INFO root fetch - processPackages [opendal]: executing diffoscope
+[2023-06-02 13:35:45] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.35.0.tar.gz tmp/opendal-0.36.1.tar.gz --markdown 20230602/o/opendal/0.35.0-0.36.1/diff.md --exclude *.pyd
+[2023-06-02 13:35:45] INFO root fetch - processPackages [statshouse]: executing diffoscope
+[2023-06-02 13:35:45] INFO root fetch - processPackages [statshouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statshouse-0.2.0.tar.gz tmp/statshouse-0.2.1.tar.gz --markdown 20230602/s/statshouse/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-02 13:35:45] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-06-02 13:35:45] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230602/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 13:35:45] INFO root fetch - processPackages [mebuex]: executing diffoscope
+[2023-06-02 13:35:45] INFO root fetch - processPackages [mebuex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mebuex-1.1.4.tar.gz tmp/mebuex-1.1.5.tar.gz --markdown 20230602/m/mebuex/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-02 13:35:45] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-06-02 13:35:45] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-06-02 13:35:46] INFO root fetch - main [MainThread]: End processing [statshouse]: success
+[2023-06-02 13:35:46] INFO root fetch - main [MainThread]: End processing [mebuex]: success
+[2023-06-02 13:35:46] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-06-02 13:35:46] INFO root fetch - main [MainThread]: End processing [didas]: success
+[2023-06-02 13:35:46] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-06-02 13:35:51] INFO root fetch - main [MainThread]: End processing [opendal]: success
+[2023-06-02 13:35:51] INFO root fetch - main [MainThread]: Store serial: [18348064]
