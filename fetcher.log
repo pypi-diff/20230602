@@ -7263,3 +7263,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 06:30:20] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-06-02 06:30:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-02 06:30:23] INFO root fetch - main [MainThread]: Store serial: [18344492]
+[2023-06-02 06:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344492]
+[2023-06-02 06:35:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-daf-butler
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockwise-parallel-transformer
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FunID
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brunospackage
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: code-qa
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drukarnia-api
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: organelle-segmenter-plugin
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pandora-ChatGPT
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-starter
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brunospackage
+[2023-06-02 06:35:32] INFO root fetch - processPackages [blockwise-parallel-transformer]: New version: [0.3.2] Old Version: [0.1.1]
+[2023-06-02 06:35:32] WARNING root fetch - processPackages [drukarnia-api]: Skipping, unable to determine old version
+[2023-06-02 06:35:32] INFO root fetch - processPackages [brunospackage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 06:35:32] INFO root fetch - main [MainThread]: End processing [drukarnia-api] error
+[2023-06-02 06:35:32] INFO root fetch - processPackages [organelle-segmenter-plugin]: New version: [0.0.5b0] Old Version: [0.0.4b0]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [code-qa]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [ml-starter]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [brunospackage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-02 06:35:32] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [blockwise-parallel-transformer]: Downloading https://files.pythonhosted.org/packages/6b/48/d72844bd84285a73fd4e7f37d1c294eb5ab170c0c3004694def366430bd9/blockwise-parallel-transformer-0.1.1.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/55/9a/bdadcfd9f0c9ca654b1cc0c161547626e5baf6e63783254aa59417d5bd1e/brunospackage-0.0.2.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/55/9a/bdadcfd9f0c9ca654b1cc0c161547626e5baf6e63783254aa59417d5bd1e/brunospackage-0.0.2.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [organelle-segmenter-plugin]: Downloading https://files.pythonhosted.org/packages/1d/30/5ff92ad619ea1ab57764fe232c61994ff9f95c3bef1aa28a45b89858c5bf/organelle-segmenter-plugin-0.0.4b0.tar.gz
+[2023-06-02 06:35:33] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-06-02 06:35:33] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-06-02 06:35:33] INFO root fetch - processPackages [code-qa]: Downloading https://files.pythonhosted.org/packages/72/54/3c29ab722ae6e40756c2bcc6f8a705cf1eda22dbcec5d4cb6b77ab335a10/code_qa-0.3.1.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/e5/e9/c53c476e5e6e66a0aeb515c4a972a35f59d6ed1607263d7319f9ccf2e2fa/ml-starter-0.0.48.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [blockwise-parallel-transformer]: Downloading https://files.pythonhosted.org/packages/69/48/4a248367c969ded15c11d0f6082cf841ab49f0243e861ae06c0a03783fa1/blockwise-parallel-transformer-0.3.2.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [code-qa]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [code-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_qa-0.2.1.tar.gz tmp/code_qa-0.3.1.tar.gz --markdown 20230602/c/code-qa/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/0f/f8/357512ed7596df21ca58a212dce4f9ba5d3789c77adfae7f21c77ad30869/brunospackage-0.0.3.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/0f/f8/357512ed7596df21ca58a212dce4f9ba5d3789c77adfae7f21c77ad30869/brunospackage-0.0.3.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.47.tar.gz tmp/ml-starter-0.0.48.tar.gz --markdown 20230602/m/ml-starter/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230602/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230602/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [organelle-segmenter-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f2328c726a2ac3c7ea8131206b87f9329db2d869599001e91f5645b2894f/organelle-segmenter-plugin-0.0.5b0.tar.gz
+[2023-06-02 06:35:33] INFO root fetch - processPackages [blockwise-parallel-transformer]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [blockwise-parallel-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockwise-parallel-transformer-0.1.1.tar.gz tmp/blockwise-parallel-transformer-0.3.2.tar.gz --markdown 20230602/b/blockwise-parallel-transformer/0.1.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.2.tar.gz tmp/brunospackage-0.0.3.tar.gz --markdown 20230602/b/brunospackage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.2.tar.gz tmp/brunospackage-0.0.3.tar.gz --markdown 20230602/b/brunospackage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 06:35:33] INFO root fetch - processPackages [organelle-segmenter-plugin]: executing diffoscope
+[2023-06-02 06:35:33] INFO root fetch - processPackages [organelle-segmenter-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organelle-segmenter-plugin-0.0.4b0.tar.gz tmp/organelle-segmenter-plugin-0.0.5b0.tar.gz --markdown 20230602/o/organelle-segmenter-plugin/0.0.4b0-0.0.5b0/diff.md --exclude *.pyd
+[2023-06-02 06:35:34] INFO root fetch - main [MainThread]: End processing [code-qa]: success
+[2023-06-02 06:35:34] INFO root fetch - main [MainThread]: End processing [blockwise-parallel-transformer]: success
+[2023-06-02 06:35:34] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 06:35:34] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-02 06:35:35] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-02 06:35:35] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-02 06:35:35] INFO root fetch - main [MainThread]: End processing [organelle-segmenter-plugin]: success
+[2023-06-02 06:35:39] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-06-02 06:35:39] INFO root fetch - main [MainThread]: Store serial: [18344525]
