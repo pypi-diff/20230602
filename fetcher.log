@@ -16594,3 +16594,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 17:06:09] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-06-02 17:06:41] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-06-02 17:06:41] INFO root fetch - main [MainThread]: Store serial: [18350312]
+[2023-06-02 17:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350312]
+[2023-06-02 17:11:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-sonarqube-client
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-sonar-client
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcai-nova-server-nightly
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Subsearch
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbpi4
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-secrets
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: palm-dbt
+[2023-06-02 17:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangoldp-application
+[2023-06-02 17:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evaics
+[2023-06-02 17:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enforce-notebook-run-order
+[2023-06-02 17:11:52] WARNING root fetch - processPackages [py-sonarqube-client]: Skipping, unable to determine old version
+[2023-06-02 17:11:52] INFO root fetch - processPackages [py-sonarqube-client]: Start processing: deso
+[2023-06-02 17:11:52] INFO root fetch - main [MainThread]: End processing [py-sonarqube-client] error
+[2023-06-02 17:11:52] WARNING root fetch - processPackages [py-sonar-client]: Skipping, unable to determine old version
+[2023-06-02 17:11:52] INFO root fetch - main [MainThread]: End processing [py-sonar-client] error
+[2023-06-02 17:11:52] INFO root fetch - processPackages [palm-dbt]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [cbpi4]: New version: [4.1.7rc1] Old Version: [4.1.7]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [netbox-secrets]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [Subsearch]: New version: [2.36.0rc1] Old Version: [2.35.1]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [evaics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.8.dev202306021227] Old Version: [0.1.7.dev202306011129]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [enforce-notebook-run-order]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.7.dev202306011129.tar.gz tmp/hcai-nova-server-nightly-0.1.8.dev202306021227.tar.gz --markdown 20230602/h/hcai-nova-server-nightly/0.1.7.dev202306011129-0.1.8.dev202306021227/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [deso]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-02 17:11:52] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.8.tar.gz tmp/djangoldp_application-1.1.9.tar.gz --markdown 20230602/d/djangoldp-application/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/77/a7/7a5e0736f72e2fafbaefd59ce8641435d1715f970dd6abb97461ccaca84a/enforce_notebook_run_order-0.1.2.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [palm-dbt]: Downloading https://files.pythonhosted.org/packages/44/dd/8d4458db1e63e16a40176f95becbe793589af2fd0914d32c9e20dca37741/palm-dbt-0.5.0.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/c4/5c/41f20d108393c32ee8f24c1a72ff53b7475ed5e8465ebbcdbaaff9be15c4/cbpi4-4.1.7.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [evaics]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [evaics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evaics-0.2.8.tar.gz tmp/evaics-0.2.9.tar.gz --markdown 20230602/e/evaics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/b3/f7/3a0eb74136c8920f50988e85bf3a6906067e4ce4efc89129331e46891c69/deso-2.3.1.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [netbox-secrets]: Downloading https://files.pythonhosted.org/packages/4e/0d/6aa44129a0f3205f829dd933d8aa81946a9a7df6e194e68b0c545fe81283/netbox-secrets-1.8.3.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/99/57/20556a216c19dae47ba6f7bfec07a823c0f30cebc218c9e24f02c44852bf/Subsearch-2.36.0rc1.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [enforce-notebook-run-order]: Downloading https://files.pythonhosted.org/packages/89/30/4b970a6500c31c7daff3043d5515c2021f8db3932e62a0c89939b2d91a58/enforce_notebook_run_order-0.1.3.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [palm-dbt]: Downloading https://files.pythonhosted.org/packages/87/0c/7fc4c6681d93b6b28f25bc29b1c6fd106ee09550067e9899f52358d660e5/palm-dbt-0.6.0.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [netbox-secrets]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [netbox-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-secrets-1.8.2.tar.gz tmp/netbox-secrets-1.8.3.tar.gz --markdown 20230602/n/netbox-secrets/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.35.1.tar.gz tmp/Subsearch-2.36.0rc1.tar.gz --markdown 20230602/S/Subsearch/2.35.1-2.36.0rc1/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [enforce-notebook-run-order]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [enforce-notebook-run-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enforce_notebook_run_order-0.1.2.tar.gz tmp/enforce_notebook_run_order-0.1.3.tar.gz --markdown 20230602/e/enforce-notebook-run-order/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [palm-dbt]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [palm-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palm-dbt-0.5.0.tar.gz tmp/palm-dbt-0.6.0.tar.gz --markdown 20230602/p/palm-dbt/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-02 17:11:52] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/8d/a5/b593c2600a2ee2ba4c0b74b190bb50da607c85422a31ff599a644ce5df33/deso-2.3.2.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/21/eb/15dd42d16073469bf1fc2fb44c647828cebedeacf917461aa3cd400a5f7c/cbpi4-4.1.7rc1.tar.gz
+[2023-06-02 17:11:52] INFO root fetch - processPackages [deso]: executing diffoscope
+[2023-06-02 17:11:52] INFO root fetch - processPackages [deso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deso-2.3.1.tar.gz tmp/deso-2.3.2.tar.gz --markdown 20230602/d/deso/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-02 17:11:53] INFO root fetch - main [MainThread]: End processing [evaics]: success
+[2023-06-02 17:11:53] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-06-02 17:11:53] INFO root fetch - main [MainThread]: End processing [enforce-notebook-run-order]: success
+[2023-06-02 17:11:54] INFO root fetch - processPackages [cbpi4]: executing diffoscope
+[2023-06-02 17:11:54] INFO root fetch - processPackages [cbpi4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-4.1.7.tar.gz tmp/cbpi4-4.1.7rc1.tar.gz --markdown 20230602/c/cbpi4/4.1.7-4.1.7rc1/diff.md --exclude *.pyd
+[2023-06-02 17:11:54] INFO root fetch - main [MainThread]: End processing [netbox-secrets]: success
+[2023-06-02 17:11:54] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-02 17:11:54] INFO root fetch - main [MainThread]: End processing [palm-dbt]: success
+[2023-06-02 17:11:54] INFO root fetch - main [MainThread]: End processing [deso]: success
+[2023-06-02 17:11:54] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-06-02 17:11:56] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
+[2023-06-02 17:11:56] INFO root fetch - main [MainThread]: Store serial: [18350358]
