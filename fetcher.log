@@ -6777,3 +6777,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 05:32:47] INFO root fetch - main [MainThread]: End processing [binsync]: success
 [2023-06-02 05:32:49] INFO root fetch - main [MainThread]: End processing [fro-AI]: success
 [2023-06-02 05:32:49] INFO root fetch - main [MainThread]: Store serial: [18344200]
+[2023-06-02 05:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344200]
+[2023-06-02 05:37:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-l10n-brazil
+[2023-06-02 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomato-engine
+[2023-06-02 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchainplus-sdk
+[2023-06-02 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmspec
+[2023-06-02 05:37:58] INFO root fetch - processPackages [tomato-engine]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-02 05:37:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: New version: [14.0.20230601.0] Old Version: [14.0.20230412.0]
+[2023-06-02 05:37:58] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.2] Old Version: [0.0.1rc4]
+[2023-06-02 05:37:58] INFO root fetch - processPackages [llmspec]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-02 05:37:58] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/a7/f7/7b1c84754d222cc14f583c2a30567a5e9a9ebcc4cf1a15c983fba3db6e37/tomato-engine-1.8.4.tar.gz
+[2023-06-02 05:37:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/6e/bf/d7cf099681da5cdf76a4c3ad09d3efdcf964c0ddaeeed58e71691a5d7d2a/odoo14_addons_oca_l10n_brazil-14.0.20230412.0-py3-none-any.whl
+[2023-06-02 05:37:58] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/00/57/d151a5c3fac778d69e65e5172d2d4251ed8efb519b35dc9a065e3551a1d2/langchainplus_sdk-0.0.2.tar.gz
+[2023-06-02 05:37:58] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/78/b9/4a0fb2c7ed94e96a750b639027045ba6bdd9385b68fff54123fb03a36607/llmspec-0.3.8.tar.gz
+[2023-06-02 05:37:58] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-02 05:37:58] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.1rc4.tar.gz tmp/langchainplus_sdk-0.0.2.tar.gz --markdown 20230602/l/langchainplus-sdk/0.0.1rc4-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 05:37:58] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-06-02 05:37:58] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.7.tar.gz tmp/llmspec-0.3.8.tar.gz --markdown 20230602/l/llmspec/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-02 05:37:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/cd/bc/2d79e46c65199b5ea0c99deadff584f05fd58093f582fe8319304a077b32/odoo14_addons_oca_l10n_brazil-14.0.20230601.0-py3-none-any.whl
+[2023-06-02 05:37:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: executing diffoscope
+[2023-06-02 05:37:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_brazil-14.0.20230412.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_brazil-14.0.20230601.0-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addons-oca-l10n-brazil/14.0.20230412.0-14.0.20230601.0/diff.md --exclude *.pyd
+[2023-06-02 05:37:59] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/ce/51/154d3579de09c21d0f80aa3e761b075e57987a300655d3f6af010d860241/tomato-engine-1.8.5.tar.gz
+[2023-06-02 05:37:59] INFO root fetch - processPackages [tomato-engine]: executing diffoscope
+[2023-06-02 05:37:59] INFO root fetch - processPackages [tomato-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomato-engine-1.8.4.tar.gz tmp/tomato-engine-1.8.5.tar.gz --markdown 20230602/t/tomato-engine/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-02 05:37:59] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-02 05:37:59] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-06-02 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-brazil]: success
+[2023-06-02 05:38:00] INFO root fetch - main [MainThread]: End processing [tomato-engine]: success
+[2023-06-02 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18344219]
