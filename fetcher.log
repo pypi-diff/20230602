@@ -12039,3 +12039,141 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 12:26:05] ERROR root fetch - processPackages [jupytercad]: Timeout during execution of pkgdiff
 [2023-06-02 12:26:05] INFO root fetch - main [MainThread]: End processing [jupytercad] error
 [2023-06-02 12:26:05] INFO root fetch - main [MainThread]: Store serial: [18347443]
+[2023-06-02 12:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18347443]
+[2023-06-02 12:31:15] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoxynet
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Hybrid
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daffi-terminals
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphio
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MazgaDB
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coverage-conditional-plugin
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steamship
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-esteid
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxt
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daffi-terminals
+[2023-06-02 12:31:15] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [graphio]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [coverage-conditional-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [MazgaDB]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [django-esteid]: New version: [3.4b1] Old Version: [3.3]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: Downloading https://files.pythonhosted.org/packages/08/63/f637517372e34a17407a1af6bb2c301c926e3aa7ae68004a097329e1319e/daffi_terminals-1.0.3.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: Downloading https://files.pythonhosted.org/packages/08/63/f637517372e34a17407a1af6bb2c301c926e3aa7ae68004a097329e1319e/daffi_terminals-1.0.3.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [coverage-conditional-plugin]: Downloading https://files.pythonhosted.org/packages/0f/ca/88445f2d1155dede7cf571a8cda6013db15f3450f05efc0a6707bf5820c6/coverage-conditional-plugin-0.8.0.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/df/49/1eb737f1727e62dc5622912284c98bb8da3c151dc996c39247a55a491594/django_esteid-3.3.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/9a/22/9f2c000381e33676a1638a3d47ee70c3d9472b5eb67ca01544aa0279473e/Geode_Hybrid-2.0.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-02 12:31:15] INFO root fetch - processPackages [graphio]: Downloading https://files.pythonhosted.org/packages/99/ba/c18185436ce646af75e2612127fee2ec7a80f2427078e1dfede946aa8591/graphio-0.9.3.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/3a/07/22f016530dd7eeaf78e7c022ac4752605f893c705c9c1a0b9acbfb81401f/MazgaDB-0.0.2.1.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230602/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230602/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230602/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [MazgaDB]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [MazgaDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MazgaDB-0.0.2.tar.gz tmp/MazgaDB-0.0.2.1.tar.gz --markdown 20230602/M/MazgaDB/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/bb/b3/93a7bc2b5a8d920108f75db97ce58b1fda78b128ea772a372916dbdb4a0f/django_esteid-3.4b1.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [graphio]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [graphio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphio-0.9.2.tar.gz tmp/graphio-0.9.3.tar.gz --markdown 20230602/g/graphio/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: Downloading https://files.pythonhosted.org/packages/7c/7e/84138ab8894bcef62ef47e2582b0362d38df49b3682f19f6a3ef9c43ec61/daffi_terminals-1.0.4.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: Downloading https://files.pythonhosted.org/packages/7c/7e/84138ab8894bcef62ef47e2582b0362d38df49b3682f19f6a3ef9c43ec61/daffi_terminals-1.0.4.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [coverage-conditional-plugin]: Downloading https://files.pythonhosted.org/packages/2e/6e/82f411d325a38cc24289060ca5f80d990ee8d026f4de9782006acf061f9b/coverage_conditional_plugin-0.9.0.tar.gz
+[2023-06-02 12:31:15] INFO root fetch - processPackages [django-esteid]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [django-esteid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_esteid-3.3.tar.gz tmp/django_esteid-3.4b1.tar.gz --markdown 20230602/d/django-esteid/3.3-3.4b1/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [coverage-conditional-plugin]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [coverage-conditional-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coverage-conditional-plugin-0.8.0.tar.gz tmp/coverage_conditional_plugin-0.9.0.tar.gz --markdown 20230602/c/coverage-conditional-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/6a/84/5566c3cc371592c56e9cf280f5469b22ffd2dcdc050c5e3528fdd9207d9f/Geode_Hybrid-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffi_terminals-1.0.3.tar.gz tmp/daffi_terminals-1.0.4.tar.gz --markdown 20230602/d/daffi-terminals/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: executing diffoscope
+[2023-06-02 12:31:15] INFO root fetch - processPackages [daffi-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffi_terminals-1.0.3.tar.gz tmp/daffi_terminals-1.0.4.tar.gz --markdown 20230602/d/daffi-terminals/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:31:16] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-06-02 12:31:16] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Hybrid-2.0.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230602/G/Geode-Hybrid/2.0.3-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-02 12:31:17] INFO root fetch - processPackages [MazgaDB]: Start processing: home-assistant-chip-clusters
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [MazgaDB]: success
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-clusters]: New version: [2023.6.0] Old Version: [2023.5.3]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [coverage-conditional-plugin]: Start processing: home-assistant-chip-core
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [coverage-conditional-plugin]: success
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-core]: New version: [2023.6.0] Old Version: [2023.5.3]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [daffi-terminals]: Start processing: home-assistant-chip-repl
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [daffi-terminals]: success
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-repl]: New version: [2023.6.0] Old Version: [2023.5.3]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-core]: Downloading https://files.pythonhosted.org/packages/59/5b/ee943117ee9fd5dfa209b4e32447466a953157012ac29b817493ead8a5f2/home_assistant_chip_core-2023.5.3-cp37-abi3-manylinux_2_31_x86_64.whl
+[2023-06-02 12:31:17] INFO root fetch - processPackages [Geode-Hybrid]: Start processing: erlenberg-ext
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-06-02 12:31:17] WARNING root fetch - processPackages [home-assistant-chip-core]: Skipping package: exceeds size limit 17918538>=10485760
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-core]: Start processing: taipan-di
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-core] error
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/9e/34/aa0d40c55b7cc3aa13ca8164ad53c09650274c074df30dcbba9817e9b225/home_assistant_chip_clusters-2023.6.0-py3-none-any.whl
+[2023-06-02 12:31:17] INFO root fetch - processPackages [daffi-terminals]: Start processing: c2cciutils
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [daffi-terminals]: success
+[2023-06-02 12:31:17] WARNING root fetch - processPackages [erlenberg-ext]: Skipping, unable to determine old version
+[2023-06-02 12:31:17] INFO root fetch - processPackages [erlenberg-ext]: Start processing: hpp-fcl
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [erlenberg-ext] error
+[2023-06-02 12:31:17] INFO root fetch - processPackages [taipan-di]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [hpp-fcl]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-clusters]: executing diffoscope
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-clusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_clusters-2023.5.3-py3-none-any.whl.zip tmp/home_assistant_chip_clusters-2023.6.0-py3-none-any.whl.zip --markdown 20230602/h/home-assistant-chip-clusters/2023.5.3-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 12:31:17] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 12:31:17] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 12:31:17] INFO root fetch - processPackages [hpp-fcl]: Downloading https://files.pythonhosted.org/packages/6e/17/d3879cba60609fe880ba789237876054eca7b0f007781b59d6865647e339/hpp_fcl-2.3.3-3-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2023-06-02 12:31:17] INFO root fetch - processPackages [django-esteid]: Start processing: daffi-terminals
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [django-esteid]: success
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/82/1a/92521d9419a245ada5903e8045a8dbc31184491dadef6fb9c5fbea736247/home_assistant_chip_repl-2023.6.0-py3-none-any.whl
+[2023-06-02 12:31:17] INFO root fetch - processPackages [daffi-terminals]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-repl]: executing diffoscope
+[2023-06-02 12:31:17] INFO root fetch - processPackages [home-assistant-chip-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_repl-2023.5.3-py3-none-any.whl.zip tmp/home_assistant_chip_repl-2023.6.0-py3-none-any.whl.zip --markdown 20230602/h/home-assistant-chip-repl/2023.5.3-2023.6.0/diff.md --exclude *.pyd
+[2023-06-02 12:31:17] INFO root fetch - processPackages [taipan-di]: Downloading https://files.pythonhosted.org/packages/18/8a/cb04502c445c6a58c8fe2bd37c62d106145cd02ef92b2f10fc8635c39beb/taipan_di-0.0.3.tar.gz
+[2023-06-02 12:31:17] INFO root fetch - processPackages [daffi-terminals]: executing diffoscope
+[2023-06-02 12:31:17] INFO root fetch - processPackages [daffi-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daffi_terminals-1.0.3.tar.gz tmp/daffi_terminals-1.0.4.tar.gz --markdown 20230602/d/daffi-terminals/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:31:17] INFO root fetch - processPackages [graphio]: Start processing: middleware-apm
+[2023-06-02 12:31:17] INFO root fetch - main [MainThread]: End processing [graphio]: success
+[2023-06-02 12:31:17] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 12:31:17] INFO root fetch - processPackages [taipan-di]: executing diffoscope
+[2023-06-02 12:31:17] INFO root fetch - processPackages [taipan-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipan_di-0.0.2.tar.gz tmp/taipan_di-0.0.3.tar.gz --markdown 20230602/t/taipan-di/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 12:31:18] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-06-02 12:31:18] INFO root fetch - processPackages [hpp-fcl]: Downloading https://files.pythonhosted.org/packages/0d/51/3f5315615aa6162703cbedfcd44caa10dbecc7cad67ace3ff5743440e641/hpp_fcl-2.3.4-0-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl
+[2023-06-02 12:31:18] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-06-02 12:31:18] INFO root fetch - processPackages [hpp-fcl]: executing diffoscope
+[2023-06-02 12:31:18] INFO root fetch - processPackages [hpp-fcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpp_fcl-2.3.3-3-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip tmp/hpp_fcl-2.3.4-0-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl.zip --markdown 20230602/h/hpp-fcl/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-02 12:31:18] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-06-02 12:31:18] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230602/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 12:31:18] INFO root fetch - processPackages [home-assistant-chip-clusters]: Start processing: PyGRPY
+[2023-06-02 12:31:18] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
+[2023-06-02 12:31:19] INFO root fetch - processPackages [PyGRPY]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 12:31:19] INFO root fetch - processPackages [home-assistant-chip-repl]: Start processing: bitcoin-utils
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-repl]: success
+[2023-06-02 12:31:19] INFO root fetch - processPackages [bitcoin-utils]: New version: [0.6.1] Old Version: [0.5.9]
+[2023-06-02 12:31:19] INFO root fetch - processPackages [PyGRPY]: Downloading https://files.pythonhosted.org/packages/70/9e/885ddf5fbbaebee7edac8aeacf91ffc6db693e90f69ec703e4be39a73b09/PyGRPY-0.1.1.tar.gz
+[2023-06-02 12:31:19] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/e5/e6/eb21df365b2eeb3f29e39b3e69f3d7919ec10101e5de00649b1433b2386f/bitcoin-utils-0.5.9.tar.gz
+[2023-06-02 12:31:19] INFO root fetch - processPackages [taipan-di]: Start processing: pythonnicrlfastt
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [taipan-di]: success
+[2023-06-02 12:31:19] INFO root fetch - processPackages [daffi-terminals]: Start processing: ab-test-simulator
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [daffi-terminals]: success
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-06-02 12:31:19] INFO root fetch - processPackages [ab-test-simulator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 12:31:19] INFO root fetch - processPackages [PyGRPY]: Downloading https://files.pythonhosted.org/packages/9e/90/c2b1911b3711c979594d7479577a3791be6d270f876f01b6652ad30c34d6/PyGRPY-0.1.2.tar.gz
+[2023-06-02 12:31:19] WARNING root fetch - processPackages [pythonnicrlfastt]: Skipping, unable to determine old version
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [pythonnicrlfastt] error
+[2023-06-02 12:31:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-02 12:31:19] INFO root fetch - processPackages [PyGRPY]: executing diffoscope
+[2023-06-02 12:31:19] INFO root fetch - processPackages [PyGRPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRPY-0.1.1.tar.gz tmp/PyGRPY-0.1.2.tar.gz --markdown 20230602/P/PyGRPY/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 12:31:19] INFO root fetch - processPackages [bitcoin-utils]: Downloading https://files.pythonhosted.org/packages/92/de/d789bc10f87db19a03a7534acdcc53a42b97d65a6b7a1560be856707173d/bitcoin-utils-0.6.1.tar.gz
+[2023-06-02 12:31:19] INFO root fetch - processPackages [bitcoin-utils]: executing diffoscope
+[2023-06-02 12:31:19] INFO root fetch - processPackages [bitcoin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin-utils-0.5.9.tar.gz tmp/bitcoin-utils-0.6.1.tar.gz --markdown 20230602/b/bitcoin-utils/0.5.9-0.6.1/diff.md --exclude *.pyd
+[2023-06-02 12:31:19] INFO root fetch - processPackages [ab-test-simulator]: Downloading https://files.pythonhosted.org/packages/89/97/4f48d1042ef2deb2593be9855d81a9ca87a6b24a971756b83c8850bf3c95/ab-test-simulator-0.0.4.tar.gz
+[2023-06-02 12:31:19] INFO root fetch - processPackages [ab-test-simulator]: executing diffoscope
+[2023-06-02 12:31:19] INFO root fetch - processPackages [ab-test-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-simulator-0.0.3.tar.gz tmp/ab-test-simulator-0.0.4.tar.gz --markdown 20230602/a/ab-test-simulator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 12:31:20] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-06-02 12:31:20] INFO root fetch - main [MainThread]: End processing [PyGRPY]: success
+[2023-06-02 12:31:20] INFO root fetch - main [MainThread]: End processing [bitcoin-utils]: success
+[2023-06-02 12:31:21] INFO root fetch - main [MainThread]: End processing [ab-test-simulator]: success
+[2023-06-02 12:31:21] INFO root fetch - main [MainThread]: End processing [hpp-fcl]: success
+[2023-06-02 12:31:24] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 12:31:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-02 12:31:27] INFO root fetch - main [MainThread]: Store serial: [18347538]
