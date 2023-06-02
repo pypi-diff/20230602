@@ -6838,3 +6838,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 05:43:10] INFO root fetch - main [MainThread]: End processing [pybuc]: success
 [2023-06-02 05:43:11] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
 [2023-06-02 05:43:11] INFO root fetch - main [MainThread]: Store serial: [18344233]
+[2023-06-02 05:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18344233]
+[2023-06-02 05:48:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelz-llm
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynast
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bulma-sphinx-theme
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zq-config
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbine-design
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-mahjong-scoreboard
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: awscli-plugin-granica
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apkupload
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: StatLML
+[2023-06-02 05:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CustomXMLParser
+[2023-06-02 05:48:20] INFO root fetch - processPackages [zq-config]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [modelz-llm]: New version: [23.5.18] Old Version: [23.5.12]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [turbine-design]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [dynast]: New version: [1.3.0rc2] Old Version: [1.3.0rc1]
+[2023-06-02 05:48:20] WARNING root fetch - processPackages [StatLML]: Skipping, unable to determine old version
+[2023-06-02 05:48:20] INFO root fetch - processPackages [StatLML]: Start processing: odoo14-addon-sms-global-digital
+[2023-06-02 05:48:20] INFO root fetch - main [MainThread]: End processing [StatLML] error
+[2023-06-02 05:48:20] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [CustomXMLParser]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-02 05:48:20] WARNING root fetch - processPackages [odoo14-addon-sms-global-digital]: Skipping, unable to determine old version
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addon-sms-global-digital]: Start processing: odoo14-addon-partner-permanent-certificate
+[2023-06-02 05:48:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sms-global-digital] error
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addon-partner-permanent-certificate]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.0.2.dev3]
+[2023-06-02 05:48:20] WARNING root fetch - processPackages [awscli-plugin-granica]: Skipping, unable to determine old version
+[2023-06-02 05:48:20] INFO root fetch - processPackages [awscli-plugin-granica]: Start processing: odoo14-addons-oca-l10n-portugal
+[2023-06-02 05:48:20] INFO root fetch - main [MainThread]: End processing [awscli-plugin-granica] error
+[2023-06-02 05:48:20] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230602/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [nonebot-plugin-mahjong-scoreboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mahjong_scoreboard-0.4.0a1.tar.gz tmp/nonebot_plugin_mahjong_scoreboard-0.4.0a2.tar.gz --markdown 20230602/n/nonebot-plugin-mahjong-scoreboard/0.4.0a1-0.4.0a2/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [turbine-design]: Downloading https://files.pythonhosted.org/packages/19/5a/c4698790158290da4ef1621ba89c56e40ea6fe52f977e95fe8bce40e1a07/turbine_design-1.0.3.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addons-oca-l10n-portugal]: New version: [14.0.20230601.0] Old Version: [14.0.20230128.0]
+[2023-06-02 05:48:20] WARNING root fetch - processPackages [turbine-design]: Skipping package: exceeds size limit 20379129>=10485760
+[2023-06-02 05:48:20] INFO root fetch - processPackages [turbine-design]: Start processing: pulumi-aws-native
+[2023-06-02 05:48:20] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addon-partner-permanent-certificate]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addon-partner-permanent-certificate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_permanent_certificate-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_partner_permanent_certificate-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addon-partner-permanent-certificate/14.0.1.0.2.dev3-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [CustomXMLParser]: Downloading https://files.pythonhosted.org/packages/0b/5d/dd14a3895c2a04c7e046a96c896c2f6dee300ddf5d1b99d7229662822223/CustomXMLParser-1.0.5.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-06-02 05:48:20] INFO root fetch - processPackages [zq-config]: Downloading https://files.pythonhosted.org/packages/f6/f4/7ae584379874bafaa6c4b3d0006f35f6a1259787156d50fdb9eeae04ff90/zq-config-0.1.3.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.5.12.tar.gz tmp/modelz-llm-23.5.18.tar.gz --markdown 20230602/m/modelz-llm/23.5.12-23.5.18/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [dynast]: Downloading https://files.pythonhosted.org/packages/62/c7/47ca9e43bf4c206d9bcfd28e06450b780a7df7737b2eabb7f1cc437fd58f/dynast-1.3.0rc2.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [zq-config]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [zq-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-config-0.1.1.tar.gz tmp/zq-config-0.1.3.tar.gz --markdown 20230602/z/zq-config/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addons-oca-l10n-portugal]: Downloading https://files.pythonhosted.org/packages/9e/86/a1df6d6f081d32767131abfe0dcbd31b1ee7a6eeb503b26574fcd7c11af7/odoo14_addons_oca_l10n_portugal-14.0.20230128.0-py3-none-any.whl
+[2023-06-02 05:48:20] INFO root fetch - processPackages [dynast]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [dynast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynast-1.3.0rc1.tar.gz tmp/dynast-1.3.0rc2.tar.gz --markdown 20230602/d/dynast/1.3.0rc1-1.3.0rc2/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [CustomXMLParser]: Downloading https://files.pythonhosted.org/packages/97/60/ac7460576603a258a0e3084912151a81a2e9e7ab1e06bcc6ed1852b981d5/CustomXMLParser-1.0.6.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [CustomXMLParser]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [CustomXMLParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomXMLParser-1.0.5.tar.gz tmp/CustomXMLParser-1.0.6.tar.gz --markdown 20230602/C/CustomXMLParser/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/0c/16/0ae0376bda0368c9d3ca42cbd40a83901441a654af824f06eb2314affc06/bulma_sphinx_theme-0.0.8.tar.gz
+[2023-06-02 05:48:20] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230602/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-06-02 05:48:20] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.0.7.tar.gz tmp/bulma_sphinx_theme-0.0.8.tar.gz --markdown 20230602/b/bulma-sphinx-theme/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-02 05:48:20] INFO root fetch - processPackages [odoo14-addons-oca-l10n-portugal]: Downloading https://files.pythonhosted.org/packages/07/de/f1570bb93cb03f3ce5b012d9709ebfb3ed194f3156c3110b9fb0a432c5b5/odoo14_addons_oca_l10n_portugal-14.0.20230601.0-py3-none-any.whl
+[2023-06-02 05:48:21] INFO root fetch - processPackages [odoo14-addons-oca-l10n-portugal]: executing diffoscope
+[2023-06-02 05:48:21] INFO root fetch - processPackages [odoo14-addons-oca-l10n-portugal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_portugal-14.0.20230128.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_portugal-14.0.20230601.0-py3-none-any.whl.zip --markdown 20230602/o/odoo14-addons-oca-l10n-portugal/14.0.20230128.0-14.0.20230601.0/diff.md --exclude *.pyd
+[2023-06-02 05:48:21] INFO root fetch - processPackages [apkupload]: Start processing: quao
+[2023-06-02 05:48:21] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-06-02 05:48:21] INFO root fetch - processPackages [quao]: New version: [0.1.9] Old Version: [0.1.8a1]
+[2023-06-02 05:48:21] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-02 05:48:21] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.1.8a1.tar.gz tmp/quao-0.1.9.tar.gz --markdown 20230602/q/quao/0.1.8a1-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 05:48:21] INFO root fetch - main [MainThread]: End processing [zq-config]: success
+[2023-06-02 05:48:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-permanent-certificate]: success
+[2023-06-02 05:48:22] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 05:48:22] INFO root fetch - main [MainThread]: End processing [CustomXMLParser]: success
+[2023-06-02 05:48:22] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-portugal]: success
+[2023-06-02 05:48:22] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-02 05:48:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mahjong-scoreboard]: success
+[2023-06-02 05:48:24] INFO root fetch - main [MainThread]: End processing [dynast]: success
+[2023-06-02 05:48:25] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-06-02 05:48:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-06-02 05:48:46] INFO root fetch - main [MainThread]: Store serial: [18344283]
