@@ -10144,3 +10144,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 10:28:41] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-02 10:28:42] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-02 10:28:42] INFO root fetch - main [MainThread]: Store serial: [18346318]
+[2023-06-02 10:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18346318]
+[2023-06-02 10:33:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfaust
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpi4jax
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packaging-demo-eric
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfaust-openblaso
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-figure
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfaust-torch
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-animeres
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepface-custom
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-reveal-slides
+[2023-06-02 10:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: saymyname
+[2023-06-02 10:33:51] INFO root fetch - processPackages [mpi4jax]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [packaging-demo-eric]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [nonebot-plugin-animeres]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 10:33:51] WARNING root fetch - processPackages [napari-figure]: Skipping, unable to determine old version
+[2023-06-02 10:33:51] WARNING root fetch - processPackages [deepface-custom]: Skipping, unable to determine old version
+[2023-06-02 10:33:51] INFO root fetch - processPackages [napari-figure]: Start processing: modelz-llm
+[2023-06-02 10:33:51] INFO root fetch - main [MainThread]: End processing [napari-figure] error
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [streamlit-reveal-slides]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [deepface-custom]: Start processing: easypip
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-02 10:33:51] INFO root fetch - main [MainThread]: End processing [deepface-custom] error
+[2023-06-02 10:33:51] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.4] Old Version: [23.6.3]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-02 10:33:51] WARNING root fetch - processPackages [saymyname]: Skipping, unable to determine old version
+[2023-06-02 10:33:51] INFO root fetch - main [MainThread]: End processing [saymyname] error
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230602/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-06-02 10:33:51] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230602/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-06-02 10:33:51] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-06-02 10:33:51] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-06-02 10:33:51] INFO root fetch - processPackages [easypip]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-02 10:33:51] INFO root fetch - processPackages [mpi4jax]: Downloading https://files.pythonhosted.org/packages/8e/60/70e1084c3e242b9468ee5e243d314e2f69f5181ee415d34a54c80cf75c61/mpi4jax-0.3.8.tar.gz
+[2023-06-02 10:33:51] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/58/6c/441c6673915f9e18256c6c127d996a73c58308a57bd177c039ee63f84d75/modelz-llm-23.6.4.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.3.tar.gz tmp/modelz-llm-23.6.4.tar.gz --markdown 20230602/m/modelz-llm/23.6.3-23.6.4/diff.md --exclude *.pyd
+[2023-06-02 10:33:52] INFO root fetch - processPackages [streamlit-reveal-slides]: Downloading https://files.pythonhosted.org/packages/ea/57/19d4b94ab21735b4d4f403b92ae1ee6f0e65e380a8c3d6803cde23a5aeef/streamlit-reveal-slides-0.1.5.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [nonebot-plugin-animeres]: Downloading https://files.pythonhosted.org/packages/62/a5/20547f12821057d4e5c27fe0f9696eeabe20ef95e52add62300aa83a24be/nonebot_plugin_animeres-1.0.1.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/6b/c8/d176b172508255c4669855bea3341fbc1e7f972c5bba07e870c4d69e8116/easypip-1.1.0.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [packaging-demo-eric]: Downloading https://files.pythonhosted.org/packages/28/a7/c6f3a29ff86841f156e43e9df8d67a4c35d16a7129bd83deed2867e6c099/packaging-demo-eric-0.0.6.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [nonebot-plugin-animeres]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [nonebot-plugin-animeres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_animeres-1.0.0.tar.gz tmp/nonebot_plugin_animeres-1.0.1.tar.gz --markdown 20230602/n/nonebot-plugin-animeres/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 10:33:52] INFO root fetch - processPackages [packaging-demo-eric]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [packaging-demo-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaging-demo-eric-0.0.5.tar.gz tmp/packaging-demo-eric-0.0.6.tar.gz --markdown 20230602/p/packaging-demo-eric/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 10:33:52] INFO root fetch - processPackages [streamlit-reveal-slides]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [streamlit-reveal-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-reveal-slides-0.1.4.tar.gz tmp/streamlit-reveal-slides-0.1.5.tar.gz --markdown 20230602/s/streamlit-reveal-slides/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-02 10:33:52] INFO root fetch - processPackages [mpi4jax]: Downloading https://files.pythonhosted.org/packages/7b/91/18ac073e7b9edbddefb52ea72a918f8f47e2700b953600e7edc5506d0980/mpi4jax-0.3.9.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/ba/20/83ca7e387c43f8d1bc3605c1d826560736cb7d66771f219f908b282119f1/easypip-1.2.0.tar.gz
+[2023-06-02 10:33:52] INFO root fetch - processPackages [mpi4jax]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [mpi4jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi4jax-0.3.8.tar.gz tmp/mpi4jax-0.3.9.tar.gz --markdown 20230602/m/mpi4jax/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-02 10:33:52] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2023-06-02 10:33:52] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.1.0.tar.gz tmp/easypip-1.2.0.tar.gz --markdown 20230602/e/easypip/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-02 10:33:53] INFO root fetch - main [MainThread]: End processing [packaging-demo-eric]: success
+[2023-06-02 10:33:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-animeres]: success
+[2023-06-02 10:33:53] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-02 10:33:53] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2023-06-02 10:33:53] INFO root fetch - main [MainThread]: End processing [mpi4jax]: success
+[2023-06-02 10:34:24] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
+[2023-06-02 10:34:28] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-02 10:34:33] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-06-02 10:34:33] INFO root fetch - main [MainThread]: Store serial: [18346361]
