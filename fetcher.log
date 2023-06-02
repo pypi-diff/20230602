@@ -20486,3 +20486,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:39:33] INFO root fetch - main [MainThread]: End processing [ngy]: success
 [2023-06-02 21:39:39] INFO root fetch - main [MainThread]: End processing [argos-nac]: success
 [2023-06-02 21:39:39] INFO root fetch - main [MainThread]: Store serial: [18352681]
+[2023-06-02 21:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352681]
+[2023-06-02 21:44:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kwil
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: most-queue
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rising-plugin
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FLAI-CAUSAL
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EnergyCapSdk
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvista-imgui
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: delta-sharing
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskAutom
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyheartlib
+[2023-06-02 21:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FLAI-CAUSAL
+[2023-06-02 21:44:49] INFO root fetch - processPackages [most-queue]: New version: [1.3] Old Version: [1.2]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [kwil]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [rising-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyvista-imgui]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [delta-sharing]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [taskAutom]: New version: [8.0.3] Old Version: [8.0.2]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4573] Old Version: [8.2302.4562]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.1.tar.gz tmp/rising_plugin-0.1.2.tar.gz --markdown 20230602/r/rising-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 21:44:49] INFO root fetch - processPackages [most-queue]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [most-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/most_queue-1.2.tar.gz tmp/most_queue-1.3.tar.gz --markdown 20230602/m/most-queue/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [kwil]: Downloading https://files.pythonhosted.org/packages/4a/4b/67f932fbf78f0fd3dc75f007bc474631e8b714e0653a875aefea53e35d49/kwil-0.0.3.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/88/06/22a8c93f4d4d809e19c0bee21a7ba15f5f127ea81a729d1a00dd0ecd2de0/taskAutom-8.0.3.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/fe/84/d319422ef7ecd7d1acec4c13eeb4d24554803aae576211b2dff89a394afb/FLAI_CAUSAL-1.0.0.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/fe/84/d319422ef7ecd7d1acec4c13eeb4d24554803aae576211b2dff89a394afb/FLAI_CAUSAL-1.0.0.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyvista-imgui]: Downloading https://files.pythonhosted.org/packages/81/2f/aec06009df77701b80afd25b1e9253208be58c05b42358f6e9efac9725ab/pyvista-imgui-0.2.0.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [delta-sharing]: Downloading https://files.pythonhosted.org/packages/0a/41/599f6e188f8806e27c1e861aa3deaef21b6ad2d5e0a751a52a7e82d45ae1/delta-sharing-0.6.7.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-8.0.2.tar.gz tmp/taskAutom-8.0.3.tar.gz --markdown 20230602/t/taskAutom/8.0.2-8.0.3/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyvista-imgui]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyvista-imgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-imgui-0.1.1.tar.gz tmp/pyvista-imgui-0.2.0.tar.gz --markdown 20230602/p/pyvista-imgui/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/27/1c/52e917dba0d52914b75ea993af07844cc4bf29314dc138bbe26636620618/EnergyCapSdk-8.2304.4573.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/72/12/17ac71bb2cccb4a8f4d273395402d70f94c0f0d34a1bdd14105f56e3d88b/FLAI_CAUSAL-1.0.1.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/72/12/17ac71bb2cccb4a8f4d273395402d70f94c0f0d34a1bdd14105f56e3d88b/FLAI_CAUSAL-1.0.1.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [delta-sharing]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [delta-sharing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delta-sharing-0.6.6.tar.gz tmp/delta-sharing-0.6.7.tar.gz --markdown 20230602/d/delta-sharing/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.8.tar.gz tmp/pyheartlib-0.0.9.tar.gz --markdown 20230602/p/pyheartlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [kwil]: Downloading https://files.pythonhosted.org/packages/b0/61/d2790441d99277e70aeb9ef6f575a1347d54fee87fb2bf9f64db94374e18/kwil-0.1.0.tar.gz
+[2023-06-02 21:44:49] INFO root fetch - processPackages [kwil]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [kwil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwil-0.0.3.tar.gz tmp/kwil-0.1.0.tar.gz --markdown 20230602/k/kwil/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4562.tar.gz tmp/EnergyCapSdk-8.2304.4573.tar.gz --markdown 20230602/E/EnergyCapSdk/8.2302.4562-8.2304.4573/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAI_CAUSAL-1.0.0.tar.gz tmp/FLAI_CAUSAL-1.0.1.tar.gz --markdown 20230602/F/FLAI-CAUSAL/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: executing diffoscope
+[2023-06-02 21:44:49] INFO root fetch - processPackages [FLAI-CAUSAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAI_CAUSAL-1.0.0.tar.gz tmp/FLAI_CAUSAL-1.0.1.tar.gz --markdown 20230602/F/FLAI-CAUSAL/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 21:44:50] INFO root fetch - processPackages [taskAutom]: Start processing: pystools
+[2023-06-02 21:44:50] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-06-02 21:44:50] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 21:44:50] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-02 21:44:50] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230602/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 21:44:51] INFO root fetch - processPackages [pyvista-imgui]: Start processing: holobrain
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [pyvista-imgui]: success
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [delta-sharing]: success
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
+[2023-06-02 21:44:51] WARNING root fetch - processPackages [holobrain]: Skipping, unable to determine old version
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [holobrain] error
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [kwil]: success
+[2023-06-02 21:44:51] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-06-02 21:44:52] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-02 21:44:52] INFO root fetch - main [MainThread]: End processing [most-queue]: success
+[2023-06-02 21:45:24] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-02 21:47:49] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
+[2023-06-02 21:47:49] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
+[2023-06-02 21:47:49] INFO root fetch - main [MainThread]: Store serial: [18352726]
