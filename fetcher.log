@@ -3148,3 +3148,31 @@
 [2023-06-02 02:48:38] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
 [2023-06-02 02:48:46] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-02 02:48:46] INFO root fetch - main [MainThread]: Store serial: [18342070]
+[2023-06-02 02:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18342070]
+[2023-06-02 02:53:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytsaurus-spyt
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ipghrms-contract
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antspymm
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qlapi-nrsdk
+[2023-06-02 02:53:55] INFO root fetch - processPackages [qlapi-nrsdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b451.post25341090.dev21] Old Version: [1.70.1b451.post13630143.dev20]
+[2023-06-02 02:53:55] INFO root fetch - processPackages [django-ipghrms-contract]: New version: [1.9] Old Version: [1.8]
+[2023-06-02 02:53:55] INFO root fetch - processPackages [antspymm]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-02 02:53:55] INFO root fetch - processPackages [qlapi-nrsdk]: Downloading https://files.pythonhosted.org/packages/19/0f/003c0a093339c6c37fb06e9c4f0ec1acb5dd110439420e3602f995f9da80/qlapi_nrsdk-0.1.2.tar.gz
+[2023-06-02 02:53:55] INFO root fetch - processPackages [django-ipghrms-contract]: executing diffoscope
+[2023-06-02 02:53:55] INFO root fetch - processPackages [django-ipghrms-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-contract-1.8.tar.gz tmp/django-ipghrms-contract-1.9.tar.gz --markdown 20230602/d/django-ipghrms-contract/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-02 02:53:55] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/d9/11/551ee0bc564ba2ed0ffd8499e58173c77e5d6657f57466252fc211c8e1db/antspymm-0.9.7.tar.gz
+[2023-06-02 02:53:55] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/00/08/19d66852accec9b600b72489b4b70cc0834a618791f7cefc0c02572fa624/ytsaurus-spyt-1.70.1b451.post25341090.dev21.tar.gz
+[2023-06-02 02:53:55] INFO root fetch - processPackages [qlapi-nrsdk]: Downloading https://files.pythonhosted.org/packages/13/d7/e9877a8161ce8b9403372c8ffa3dbf682f46a1f9bba9099bd9b87ff856d0/qlapi_nrsdk-0.1.3.tar.gz
+[2023-06-02 02:53:55] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/26/75/85afa25a586deb13c15fc7938147c641bddb0f83f8776b5a601107a4965b/antspymm-0.9.9.tar.gz
+[2023-06-02 02:53:55] INFO root fetch - processPackages [antspymm]: executing diffoscope
+[2023-06-02 02:53:55] INFO root fetch - processPackages [antspymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antspymm-0.9.7.tar.gz tmp/antspymm-0.9.9.tar.gz --markdown 20230602/a/antspymm/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-02 02:53:55] INFO root fetch - processPackages [qlapi-nrsdk]: executing diffoscope
+[2023-06-02 02:53:55] INFO root fetch - processPackages [qlapi-nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi_nrsdk-0.1.2.tar.gz tmp/qlapi_nrsdk-0.1.3.tar.gz --markdown 20230602/q/qlapi-nrsdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 02:53:56] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-06-02 02:53:56] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b451.post13630143.dev20.tar.gz tmp/ytsaurus-spyt-1.70.1b451.post25341090.dev21.tar.gz --markdown 20230602/y/ytsaurus-spyt/1.70.1b451.post13630143.dev20-1.70.1b451.post25341090.dev21/diff.md --exclude *.pyd
+[2023-06-02 02:53:57] INFO root fetch - main [MainThread]: End processing [django-ipghrms-contract]: success
+[2023-06-02 02:53:57] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-06-02 02:53:57] INFO root fetch - main [MainThread]: End processing [antspymm]: success
+[2023-06-02 02:54:05] INFO root fetch - main [MainThread]: End processing [qlapi-nrsdk]: success
+[2023-06-02 02:54:05] INFO root fetch - main [MainThread]: Store serial: [18342083]
