@@ -18632,3 +18632,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 19:21:20] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 19:21:20] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 19:21:20] INFO root fetch - main [MainThread]: Store serial: [18351497]
+[2023-06-02 19:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18351497]
+[2023-06-02 19:26:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyWebUIFramework
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csnlp
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-client
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-sso-client
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: server_chat_pyqt_test_new
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CodeToCAD
+[2023-06-02 19:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keylime
+[2023-06-02 19:26:29] INFO root fetch - processPackages [PyWebUIFramework]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [grai-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-02 19:26:29] WARNING root fetch - processPackages [server_chat_pyqt_test_new]: Skipping, unable to determine old version
+[2023-06-02 19:26:29] INFO root fetch - processPackages [server_chat_pyqt_test_new]: Start processing: localstack-core
+[2023-06-02 19:26:29] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1685726498]
+[2023-06-02 19:26:29] INFO root fetch - main [MainThread]: End processing [server_chat_pyqt_test_new] error
+[2023-06-02 19:26:29] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [csnlp]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [keylime]: New version: [7.2.5] Old Version: [7.0.0]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230602172314] Old Version: [2.1.1.dev20230602153257]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-02 19:26:29] INFO root fetch - processPackages [keylime]: Downloading https://files.pythonhosted.org/packages/65/44/c997f3626703ac88ff31badc4ca37244518396e2ff77304c794a4892d407/keylime-7.0.0.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/12/e5/d32c94b7b8f5ffafc8d7292db06f4531ee6f6f778ade025dac667ebb9681/csnlp-1.5.4.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/df/e5/c9eb5a26cdbc5256027cca47883eb9d47b91852673f694b59203e8d9e8e9/CodeToCAD-0.2.1685726498.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/cc/31/447d642d3ecb145749deb67077dd57dbbc7292ebca461fec934858b015f4/django-sso-client-0.0.3.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/19/db/37a304997388a2b31384356b171a7177f98f20165d81f64670296ae21080/PyWebUIFramework-0.3.2.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1685726498.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230602/C/CodeToCAD/0.2.1685726498-0.2.6/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ec/60/bcbc62877d11b774c322e1f7788f8aa725c579b3e579d335d4a24aa8c292/localstack-core-2.1.1.dev20230602172314.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.2.8.tar.gz tmp/grai_client-0.2.9.tar.gz --markdown 20230602/g/grai-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230602/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230602/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230602/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [keylime]: Downloading https://files.pythonhosted.org/packages/09/21/d93517d76ba99dfb6d432d3f88b3b90e658891d5d6d3dc55a9a73670f25f/keylime-7.2.5.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.2.tar.gz tmp/django-sso-client-0.0.3.tar.gz --markdown 20230602/d/django-sso-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-0.3.1.tar.gz tmp/PyWebUIFramework-0.3.2.tar.gz --markdown 20230602/P/PyWebUIFramework/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230602153257.tar.gz tmp/localstack-core-2.1.1.dev20230602172314.tar.gz --markdown 20230602/l/localstack-core/2.1.1.dev20230602153257-2.1.1.dev20230602172314/diff.md --exclude *.pyd
+[2023-06-02 19:26:29] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/ed/90/0591900b04ddd48e14be3eaea96ad7908def179f9fa199719eb837a2443b/csnlp-1.5.5.tar.gz
+[2023-06-02 19:26:29] INFO root fetch - processPackages [keylime]: executing diffoscope
+[2023-06-02 19:26:29] INFO root fetch - processPackages [keylime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keylime-7.0.0.tar.gz tmp/keylime-7.2.5.tar.gz --markdown 20230602/k/keylime/7.0.0-7.2.5/diff.md --exclude *.pyd
+[2023-06-02 19:26:30] INFO root fetch - processPackages [csnlp]: executing diffoscope
+[2023-06-02 19:26:30] INFO root fetch - processPackages [csnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csnlp-1.5.4.tar.gz tmp/csnlp-1.5.5.tar.gz --markdown 20230602/c/csnlp/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-02 19:26:31] INFO root fetch - processPackages [django-sso-client]: Start processing: opensesame-extension-osweb
+[2023-06-02 19:26:31] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-06-02 19:26:31] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-06-02 19:26:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: synthesized
+[2023-06-02 19:26:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-02 19:26:31] INFO root fetch - processPackages [synthesized]: New version: [2.7rc1] Old Version: [2.7rc0]
+[2023-06-02 19:26:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: pg-bulk-ingest
+[2023-06-02 19:26:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-02 19:26:31] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 19:26:31] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-06-02 19:26:31] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230602/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-06-02 19:26:31] INFO root fetch - processPackages [grai-client]: Start processing: odb-plotter
+[2023-06-02 19:26:31] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-02 19:26:31] INFO root fetch - processPackages [odb-plotter]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-02 19:26:31] INFO root fetch - processPackages [CodeToCAD]: Start processing: raster-basics
+[2023-06-02 19:26:31] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-02 19:26:31] INFO root fetch - processPackages [raster-basics]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-02 19:26:31] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/b2/c1/1fe0b4ae1326f4b92c126fa4054c297eedbd63b1376754e1cb56ba3739df/odb-plotter-0.5.3.tar.gz
+[2023-06-02 19:26:31] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/70/40/83fdd05d96c551469300a8a1ff1840680d2948af0f893d404620fc07f28c/synthesized-2.7rc1-cp39-cp39-win_amd64.whl
+[2023-06-02 19:26:32] INFO root fetch - processPackages [raster-basics]: Downloading https://files.pythonhosted.org/packages/c5/38/e17257cdae23aaa059e49dce8b6001193b28b9b887779f7712e96a2821dd/raster_basics-1.2.6.tar.gz
+[2023-06-02 19:26:32] INFO root fetch - processPackages [odb-plotter]: executing diffoscope
+[2023-06-02 19:26:32] INFO root fetch - processPackages [odb-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odb-plotter-0.5.2.tar.gz tmp/odb-plotter-0.5.3.tar.gz --markdown 20230602/o/odb-plotter/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230602/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 19:26:32] INFO root fetch - processPackages [raster-basics]: Downloading https://files.pythonhosted.org/packages/24/1b/f88eb5f1d7ebec9fde235f0f9654074282b6f9b828c8da1fbb3718f36ae2/raster_basics-1.2.7.tar.gz
+[2023-06-02 19:26:32] INFO root fetch - processPackages [csnlp]: Start processing: pythontemplatepackage
+[2023-06-02 19:26:32] INFO root fetch - main [MainThread]: End processing [csnlp]: success
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pythontemplatepackage]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 19:26:32] INFO root fetch - processPackages [raster-basics]: executing diffoscope
+[2023-06-02 19:26:32] INFO root fetch - processPackages [raster-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_basics-1.2.6.tar.gz tmp/raster_basics-1.2.7.tar.gz --markdown 20230602/r/raster-basics/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-02 19:26:32] INFO root fetch - processPackages [PyWebUIFramework]: Start processing: opensesame-core
+[2023-06-02 19:26:32] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-02 19:26:32] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a43]
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pythontemplatepackage]: Downloading https://files.pythonhosted.org/packages/e8/80/4d46d07569c9380293584691dc0ef582e7b7c938f933298398d02f589b02/pythontemplatepackage-0.0.3.tar.gz
+[2023-06-02 19:26:32] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-06-02 19:26:32] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.7rc0-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230602/s/synthesized/2.7rc0-2.7rc1/diff.md --exclude *.pyd
+[2023-06-02 19:26:32] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/fa/32/68287f39087b21b095e133cd7bdc8877c4d543c76cbcde5fdfcb370b33ae/opensesame_core-4.0.0a43.tar.gz
+[2023-06-02 19:26:32] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18925409>=10485760
+[2023-06-02 19:26:32] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pythontemplatepackage]: Downloading https://files.pythonhosted.org/packages/84/07/17b47632bcaf5eed87abd7788c24eed697624b7aac110100ac2d6f5050ac/pythontemplatepackage-0.0.4.tar.gz
+[2023-06-02 19:26:32] INFO root fetch - main [MainThread]: End processing [keylime]: success
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pythontemplatepackage]: executing diffoscope
+[2023-06-02 19:26:32] INFO root fetch - processPackages [pythontemplatepackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythontemplatepackage-0.0.3.tar.gz tmp/pythontemplatepackage-0.0.4.tar.gz --markdown 20230602/p/pythontemplatepackage/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 19:26:33] INFO root fetch - main [MainThread]: End processing [odb-plotter]: success
+[2023-06-02 19:26:33] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-06-02 19:26:33] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-02 19:26:33] INFO root fetch - main [MainThread]: End processing [raster-basics]: success
+[2023-06-02 19:26:33] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-06-02 19:26:34] INFO root fetch - main [MainThread]: End processing [pythontemplatepackage]: success
+[2023-06-02 19:26:35] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-06-02 19:26:37] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-02 19:26:37] INFO root fetch - main [MainThread]: Store serial: [18351561]
