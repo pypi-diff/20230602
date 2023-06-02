@@ -5922,3 +5922,42 @@
 [2023-06-02 04:24:26] INFO root fetch - main [MainThread]: End processing [greatday]: success
 [2023-06-02 04:24:27] INFO root fetch - main [MainThread]: End processing [azure-quantum]: success
 [2023-06-02 04:24:27] INFO root fetch - main [MainThread]: Store serial: [18343775]
+[2023-06-02 04:29:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343775]
+[2023-06-02 04:29:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-access-control
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schemander
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deduplicationdict
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-runtime
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyots
+[2023-06-02 04:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waveforms
+[2023-06-02 04:29:36] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [deduplicationdict]: New version: [1.0.1] Old Version: [1.0.0rc2]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [schemander]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [pyots]: New version: [9.1.0a3] Old Version: [9.1.0a2]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [waveforms]: New version: [1.6.0] Old Version: [1.5.99]
+[2023-06-02 04:29:36] INFO root fetch - processPackages [schemander]: Downloading https://files.pythonhosted.org/packages/2a/ef/735faf3b910d93a3cb9c2820cfadaae95320431fbcfc2571fcbb70ea531d/schemander-0.0.1.tar.gz
+[2023-06-02 04:29:36] INFO root fetch - processPackages [pyots]: executing diffoscope
+[2023-06-02 04:29:36] INFO root fetch - processPackages [pyots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyots-9.1.0a2.tar.gz tmp/pyots-9.1.0a3.tar.gz --markdown 20230602/p/pyots/9.1.0a2-9.1.0a3/diff.md --exclude *.pyd
+[2023-06-02 04:29:36] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/d9/95/a47eeef074d7f7d91c4c36c680bff6752851e8cf2156b5f4a40c985742a0/omnata_plugin_runtime-0.1.3.tar.gz
+[2023-06-02 04:29:36] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-02 04:29:36] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.2.tar.gz tmp/omnata_plugin_runtime-0.1.3.tar.gz --markdown 20230602/o/omnata-plugin-runtime/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 04:29:37] INFO root fetch - processPackages [deduplicationdict]: Downloading https://files.pythonhosted.org/packages/1e/ff/ebc4c137d4e3c0d4ba36d221d8db6b637f42fe264632ceb030360b3112bc/deduplicationdict-1.0.1.tar.gz
+[2023-06-02 04:29:37] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/ef/7c/b33c9551d9b0113eeb00f9981c5f2b54fac9afd3d55d56b015067d414e32/nonebot_plugin_access_control-0.5.2.tar.gz
+[2023-06-02 04:29:37] INFO root fetch - processPackages [deduplicationdict]: executing diffoscope
+[2023-06-02 04:29:37] INFO root fetch - processPackages [deduplicationdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deduplicationdict-1.0.0rc2.tar.gz tmp/deduplicationdict-1.0.1.tar.gz --markdown 20230602/d/deduplicationdict/1.0.0rc2-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 04:29:37] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-06-02 04:29:37] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.1.tar.gz tmp/nonebot_plugin_access_control-0.5.2.tar.gz --markdown 20230602/n/nonebot-plugin-access-control/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-02 04:29:37] INFO root fetch - processPackages [schemander]: Downloading https://files.pythonhosted.org/packages/cc/4b/9c01762311fb28802c390bdafa8bdffae5a3f312ea4feabac0d6a4340b44/schemander-0.0.2.tar.gz
+[2023-06-02 04:29:37] INFO root fetch - processPackages [schemander]: executing diffoscope
+[2023-06-02 04:29:37] INFO root fetch - processPackages [schemander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemander-0.0.1.tar.gz tmp/schemander-0.0.2.tar.gz --markdown 20230602/s/schemander/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 04:29:37] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/3b/b8/66755d75e48a51a03769e1e6d113c66bc5b2aee69285554b04720bb1ebed/waveforms-1.6.0.tar.gz
+[2023-06-02 04:29:37] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-06-02 04:29:37] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.99.tar.gz tmp/waveforms-1.6.0.tar.gz --markdown 20230602/w/waveforms/1.5.99-1.6.0/diff.md --exclude *.pyd
+[2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [pyots]: success
+[2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [deduplicationdict]: success
+[2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [schemander]: success
+[2023-06-02 04:29:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-06-02 04:29:39] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-06-02 04:29:39] INFO root fetch - main [MainThread]: Store serial: [18343820]
