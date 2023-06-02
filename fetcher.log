@@ -9064,3 +9064,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-02 09:12:15] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
 [2023-06-02 09:12:17] INFO root fetch - main [MainThread]: End processing [ipyleaflet]: success
 [2023-06-02 09:12:17] INFO root fetch - main [MainThread]: Store serial: [18345687]
+[2023-06-02 09:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18345687]
+[2023-06-02 09:17:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equipparser
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hestia-earth-schema
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: un-yaml
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurodatagen
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubernetes-stubs-elephant-fork
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngrad
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c2cciutils
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: markdown-live-preview
+[2023-06-02 09:17:27] WARNING root fetch - processPackages [neurodatagen]: Skipping, unable to determine old version
+[2023-06-02 09:17:27] INFO root fetch - processPackages [neurodatagen]: Start processing: autotuning_methodology
+[2023-06-02 09:17:27] INFO root fetch - main [MainThread]: End processing [neurodatagen] error
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ngrad]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [equipparser]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [un-yaml]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [markdown-live-preview]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-02 09:17:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-02 09:17:27] WARNING root fetch - processPackages [autotuning_methodology]: Skipping, unable to determine old version
+[2023-06-02 09:17:27] INFO root fetch - main [MainThread]: End processing [autotuning_methodology] error
+[2023-06-02 09:17:27] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/c9/ed/fdd2b74255794abadde373183b25cf072451eae38bb00cc15cad67d74773/kubernetes-stubs-elephant-fork-9.0.0.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230602/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230602/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [equipparser]: Downloading https://files.pythonhosted.org/packages/13/3a/d24cbe93cfe7755df2a6a2d441b5df0ed5667168449e3750c96c9e5c5265/equipparser-1.0.3.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [markdown-live-preview]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ngrad]: Downloading https://files.pythonhosted.org/packages/f3/84/6198952c819147b01594083d866a2449df20efc58f50c32085bb4914e692/ngrad-1.0.2.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [markdown-live-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-live-preview-0.2.8.tar.gz tmp/markdown-live-preview-0.2.9.tar.gz --markdown 20230602/m/markdown-live-preview/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/68/4d/ee46a52989eeacffdddc7bcdfce892a121430e7f9fa4a316062228aff8a0/un_yaml-0.2.0.tar.gz
+[2023-06-02 09:17:27] INFO root fetch - processPackages [equipparser]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [equipparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equipparser-1.0.2.tar.gz tmp/equipparser-1.0.3.tar.gz --markdown 20230602/e/equipparser/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ngrad]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [ngrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngrad-1.0.1.tar.gz tmp/ngrad-1.0.2.tar.gz --markdown 20230602/n/ngrad/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [un-yaml]: executing diffoscope
+[2023-06-02 09:17:27] INFO root fetch - processPackages [un-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/un_yaml-0.1.2.tar.gz tmp/un_yaml-0.2.0.tar.gz --markdown 20230602/u/un-yaml/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-02 09:17:27] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/2e/d9/386b3b464cc30efb02b70020f066e50c70a783fb030e84116c74108a00f0/kubernetes-stubs-elephant-fork-9.0.1.tar.gz
+[2023-06-02 09:17:28] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2023-06-02 09:17:28] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20230602/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-02 09:17:28] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 09:17:28] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 09:17:28] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-02 09:17:28] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230602/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-02 09:17:28] INFO root fetch - main [MainThread]: End processing [markdown-live-preview]: success
+[2023-06-02 09:17:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-02 09:17:29] INFO root fetch - main [MainThread]: End processing [un-yaml]: success
+[2023-06-02 09:17:29] INFO root fetch - main [MainThread]: End processing [ngrad]: success
+[2023-06-02 09:17:29] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-06-02 09:17:31] INFO root fetch - main [MainThread]: End processing [equipparser]: success
+[2023-06-02 09:17:34] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 09:17:35] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2023-06-02 09:17:36] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-02 09:17:36] INFO root fetch - main [MainThread]: Store serial: [18345724]
