@@ -16880,3 +16880,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 17:27:44] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr]: success
 [2023-06-02 17:27:45] INFO root fetch - main [MainThread]: End processing [holoviews]: success
 [2023-06-02 17:27:45] INFO root fetch - main [MainThread]: Store serial: [18350491]
+[2023-06-02 17:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350491]
+[2023-06-02 17:32:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patchwork-core
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnusf
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coopapi
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appopener-test
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide1-Customized-Window
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide2-Customized-Window
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySide6-Customized-Window
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jianglab
+[2023-06-02 17:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyasic
+[2023-06-02 17:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: continual-inference
+[2023-06-02 17:32:55] INFO root fetch - processPackages [coopapi]: New version: [0.7] Old Version: [0.6]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [nnusf]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [continual-inference]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [appopener-test]: New version: [1.2] Old Version: [1.1]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.6] Old Version: [1.5]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [jianglab]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [patchwork-core]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-02 17:32:55] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230602/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/f9/bd/b033c4d2b366d182011d22c6efd022a8b7411e69bbdbab2d6152a40242e3/PySide2_Customized_Window-1.6-py3-none-any.whl
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/0b/f0/3d77aedd06468dd75e7937ccacba2801c5b4195015800715199c3f83b5bf/PySide1_Customized_Window-1.6-py3-none-any.whl
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/fd/8b/84416a53daea277f251bb41ec469b7e807ff2edab8de595a1f08e475894e/PySide6_Customized_Window-1.6-py3-none-any.whl
+[2023-06-02 17:32:55] INFO root fetch - processPackages [continual-inference]: Downloading https://files.pythonhosted.org/packages/69/e4/34d99fe7379ca193b7329c92339961bfd3c15e035c9883e7ea36d03d7ad9/continual-inference-1.2.1.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/05/11/cfa0f05834d0a75307578b8224415421dfdeab093708f65fa5631c86ff19/jianglab-0.3.2.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [nnusf]: Downloading https://files.pythonhosted.org/packages/5d/32/97586c589ab6244f489c5cbeeb5a24e325c59c97a8a19143ad12bbc5482b/nnusf-0.2.6.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [patchwork-core]: Downloading https://files.pythonhosted.org/packages/b1/3b/0327a0a909ecbbaf9fc4b855acfe0865fe55ac257dc0b055f8d69a401e30/patchwork-core-0.1.6.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [coopapi]: Downloading https://files.pythonhosted.org/packages/f9/c5/b27e155dd812028a4145aa362bd032cd7833c04f7361fb9a8eeccf172782/coopapi-0.6.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [appopener-test]: Downloading https://files.pythonhosted.org/packages/bf/67/5945cd3ff96581c5f4ef656e47ba814c693125247a8639c28c146eecf9bf/appopener_test-1.2.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.5-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.6-py3-none-any.whl.zip --markdown 20230602/P/PySide1-Customized-Window/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [appopener-test]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [appopener-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appopener_test-1.1.tar.gz tmp/appopener_test-1.2.tar.gz --markdown 20230602/a/appopener-test/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.5-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.6-py3-none-any.whl.zip --markdown 20230602/P/PySide6-Customized-Window/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.5-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.6-py3-none-any.whl.zip --markdown 20230602/P/PySide2-Customized-Window/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [jianglab]: Downloading https://files.pythonhosted.org/packages/ef/a4/1bde51b86e9be19bb0458f3a7e2bc624dfd1511328cbc11ee369c0d7a971/jianglab-0.3.3.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [continual-inference]: Downloading https://files.pythonhosted.org/packages/48/7e/1f38ae17bba1b196691b06ff7f87592af44b9b50ecbe4964cb2866f3eaa2/continual-inference-1.2.2.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [jianglab]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [jianglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jianglab-0.3.2.tar.gz tmp/jianglab-0.3.3.tar.gz --markdown 20230602/j/jianglab/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [coopapi]: Downloading https://files.pythonhosted.org/packages/d7/18/b8fe125b4c9554279ca12c3ac0cb08170b65b94b4210e5df819422d5ce53/coopapi-0.7.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [patchwork-core]: Downloading https://files.pythonhosted.org/packages/ab/2f/162946d3ade865ef7474d8044734853c70f06b9bbdfda7ecbfc9dc4aaba7/patchwork-core-0.1.7.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [continual-inference]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [continual-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continual-inference-1.2.1.tar.gz tmp/continual-inference-1.2.2.tar.gz --markdown 20230602/c/continual-inference/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [coopapi]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [coopapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coopapi-0.6.tar.gz tmp/coopapi-0.7.tar.gz --markdown 20230602/c/coopapi/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [patchwork-core]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [patchwork-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork-core-0.1.6.tar.gz tmp/patchwork-core-0.1.7.tar.gz --markdown 20230602/p/patchwork-core/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-02 17:32:55] INFO root fetch - processPackages [nnusf]: Downloading https://files.pythonhosted.org/packages/87/3f/ecfce1a1967f16a648619a1c3953a10aceb54988e09cce46a29dfabe573d/nnusf-0.3.0.tar.gz
+[2023-06-02 17:32:55] INFO root fetch - processPackages [nnusf]: executing diffoscope
+[2023-06-02 17:32:55] INFO root fetch - processPackages [nnusf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnusf-0.2.6.tar.gz tmp/nnusf-0.3.0.tar.gz --markdown 20230602/n/nnusf/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-02 17:32:56] INFO root fetch - processPackages [PySide1-Customized-Window]: Start processing: space-rocks
+[2023-06-02 17:32:56] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-06-02 17:32:56] INFO root fetch - processPackages [space-rocks]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-02 17:32:56] INFO root fetch - processPackages [appopener-test]: Start processing: coiled
+[2023-06-02 17:32:56] INFO root fetch - main [MainThread]: End processing [appopener-test]: success
+[2023-06-02 17:32:56] INFO root fetch - processPackages [coiled]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-02 17:32:56] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/b3/d7/944bb5a9886e7781efdd81eb75d4329709c204f25dd683d7c40353514501/space_rocks-1.8.1.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [PySide2-Customized-Window]: Start processing: opensourceleg
+[2023-06-02 17:32:57] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-06-02 17:32:57] INFO root fetch - processPackages [opensourceleg]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-02 17:32:57] INFO root fetch - processPackages [PySide6-Customized-Window]: Start processing: cbpi4gui
+[2023-06-02 17:32:57] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-06-02 17:32:57] INFO root fetch - processPackages [cbpi4gui]: New version: [0.3.6] Old Version: [0.3.2rc6]
+[2023-06-02 17:32:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ea/4d/520ec77fc4ad76509cc0d8763817cb6f49749883eacb9df35551a3ecb6a1/coiled-0.7.0.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/75/ab/4b158357328237bfec441c012f64155421d95e8ef402e4193a39a90ba9c6/space_rocks-1.8.2.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/29/7e/9dae59caf34df4945738cd363ea228479113a9910bf5db5fdd14414d54be/opensourceleg-1.2.2.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-02 17:32:57] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.9.tar.gz tmp/coiled-0.7.0.tar.gz --markdown 20230602/c/coiled/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-02 17:32:57] INFO root fetch - processPackages [pyasic]: Start processing: blockchain-apis
+[2023-06-02 17:32:57] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-02 17:32:57] INFO root fetch - processPackages [cbpi4gui]: Downloading https://files.pythonhosted.org/packages/02/5e/bb23885ec5015da54e6b5b3a771c317965d5790aa332e4bfa23787f9695d/cbpi4gui-0.3.2rc6.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [blockchain-apis]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-06-02 17:32:57] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2023-06-02 17:32:57] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.8.1.tar.gz tmp/space_rocks-1.8.2.tar.gz --markdown 20230602/s/space-rocks/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-02 17:32:57] INFO root fetch - processPackages [jianglab]: Start processing: hdn-research-environment
+[2023-06-02 17:32:57] INFO root fetch - main [MainThread]: End processing [jianglab]: success
+[2023-06-02 17:32:57] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-02 17:32:57] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-06-02 17:32:57] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.0.4.tar.gz tmp/hdn-research-environment-2.0.5.tar.gz --markdown 20230602/h/hdn-research-environment/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-02 17:32:57] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/25/bc/7bde6e54aae970573f29133898df92f084160e17ded38b39051409ca60e5/opensourceleg-1.2.3.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [coopapi]: Start processing: tcod
+[2023-06-02 17:32:57] INFO root fetch - main [MainThread]: End processing [coopapi]: success
+[2023-06-02 17:32:57] INFO root fetch - processPackages [blockchain-apis]: Downloading https://files.pythonhosted.org/packages/e1/b5/340827db77c162e6db73189a57306c28f4f0dacb4fc38600b2571d956105/blockchain-apis-0.1.1.tar.gz
+[2023-06-02 17:32:57] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2023-06-02 17:32:57] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-1.2.2.tar.gz tmp/opensourceleg-1.2.3.tar.gz --markdown 20230602/o/opensourceleg/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-02 17:32:57] INFO root fetch - processPackages [blockchain-apis]: executing diffoscope
+[2023-06-02 17:32:57] INFO root fetch - processPackages [blockchain-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain-apis-0.0.2.tar.gz tmp/blockchain-apis-0.1.1.tar.gz --markdown 20230602/b/blockchain-apis/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 17:32:57] INFO root fetch - processPackages [tcod]: New version: [9.3.0] Old Version: [9.2.5]
+[2023-06-02 17:32:58] INFO root fetch - processPackages [nnusf]: Start processing: nrgpy
+[2023-06-02 17:32:58] INFO root fetch - main [MainThread]: End processing [nnusf]: success
+[2023-06-02 17:32:58] INFO root fetch - processPackages [nrgpy]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-02 17:32:58] INFO root fetch - main [MainThread]: End processing [patchwork-core]: success
+[2023-06-02 17:32:58] INFO root fetch - processPackages [tcod]: executing diffoscope
+[2023-06-02 17:32:58] INFO root fetch - processPackages [tcod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-9.2.5.tar.gz tmp/tcod-9.3.0.tar.gz --markdown 20230602/t/tcod/9.2.5-9.3.0/diff.md --exclude *.pyd
+[2023-06-02 17:32:58] INFO root fetch - main [MainThread]: End processing [continual-inference]: success
+[2023-06-02 17:32:58] INFO root fetch - processPackages [cbpi4gui]: Downloading https://files.pythonhosted.org/packages/d7/6f/af3bc1270e4dde8d09f3e2d0fc7bb26b1b91c8f5ccf40b39e685a10da026/cbpi4gui-0.3.6.tar.gz
+[2023-06-02 17:32:58] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2023-06-02 17:32:58] INFO root fetch - processPackages [nrgpy]: executing diffoscope
+[2023-06-02 17:32:58] INFO root fetch - processPackages [nrgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrgpy-1.8.8-py3-none-any.whl.zip tmp/nrgpy-1.8.9-py3-none-any.whl.zip --markdown 20230602/n/nrgpy/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-02 17:32:58] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-06-02 17:32:59] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2023-06-02 17:32:59] INFO root fetch - main [MainThread]: End processing [blockchain-apis]: success
+[2023-06-02 17:32:59] INFO root fetch - processPackages [cbpi4gui]: executing diffoscope
+[2023-06-02 17:32:59] INFO root fetch - processPackages [cbpi4gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4gui-0.3.2rc6.tar.gz tmp/cbpi4gui-0.3.6.tar.gz --markdown 20230602/c/cbpi4gui/0.3.2rc6-0.3.6/diff.md --exclude *.pyd
+[2023-06-02 17:33:00] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-02 17:33:00] INFO root fetch - main [MainThread]: End processing [nrgpy]: success
+[2023-06-02 17:33:03] INFO root fetch - main [MainThread]: End processing [tcod]: success
+[2023-06-02 17:34:25] INFO root fetch - main [MainThread]: End processing [cbpi4gui]: success
+[2023-06-02 17:34:25] INFO root fetch - main [MainThread]: Store serial: [18350541]
