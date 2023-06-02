@@ -20333,3 +20333,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 21:34:15] ERROR root fetch - processPackages [rising-plugin]: Timeout during execution of pkgdiff
 [2023-06-02 21:34:15] INFO root fetch - main [MainThread]: End processing [rising-plugin] error
 [2023-06-02 21:34:15] INFO root fetch - main [MainThread]: Store serial: [18352585]
+[2023-06-02 21:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18352585]
+[2023-06-02 21:39:25] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truss
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FLAI-CAUSAL
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-cloudtrail
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-wafv2
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-athena
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-sagemaker
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boto3-stubs
+[2023-06-02 21:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3-stubs-lite
+[2023-06-02 21:39:25] WARNING root fetch - processPackages [FLAI-CAUSAL]: Skipping, unable to determine old version
+[2023-06-02 21:39:25] INFO root fetch - processPackages [FLAI-CAUSAL]: Start processing: hotjar-data-wrapper
+[2023-06-02 21:39:25] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL] error
+[2023-06-02 21:39:25] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230602.9.54.271062] Old Version: [20230602.19.31.871136]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-cloudtrail]: New version: [1.26.72] Old Version: [1.26.61]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [truss]: New version: [0.4.6rc3] Old Version: [0.4.6rc2]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [hotjar-data-wrapper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-athena]: New version: [1.26.87] Old Version: [1.26.4]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-wafv2]: New version: [1.26.78] Old Version: [1.26.73]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-sagemaker]: New version: [1.26.98] Old Version: [1.26.88]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/93/5d/0661fdabddff6ed873380f55a74b68d046a0d9733e36f6c3f5db14d94e7a/certora-cli-alpha-master-20230602.19.31.871136.tar.gz
+[2023-06-02 21:39:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39178080>=10485760
+[2023-06-02 21:39:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: cwsearch-utils
+[2023-06-02 21:39:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-02 21:39:25] INFO root fetch - processPackages [hotjar-data-wrapper]: Downloading https://files.pythonhosted.org/packages/0b/29/963f5a6efb21fdd26a3572dd491750abf1174440a800b86ab56681563c0d/hotjar-data-wrapper-0.1.2.tar.gz
+[2023-06-02 21:39:25] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-wafv2]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-wafv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-wafv2-1.26.73.tar.gz tmp/mypy-boto3-wafv2-1.26.78.tar.gz --markdown 20230602/m/mypy-boto3-wafv2/1.26.73-1.26.78/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-sagemaker]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-1.26.88.tar.gz tmp/mypy-boto3-sagemaker-1.26.98.tar.gz --markdown 20230602/m/mypy-boto3-sagemaker/1.26.88-1.26.98/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230602/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [hotjar-data-wrapper]: Downloading https://files.pythonhosted.org/packages/c9/73/1b64b1b054b6b26b47c3e460bcfbaa2012403cbd173c978e9f6fb6b9e5fb/hotjar-data-wrapper-0.1.3.tar.gz
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-athena]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-athena-1.26.4.tar.gz tmp/mypy-boto3-athena-1.26.87.tar.gz --markdown 20230602/m/mypy-boto3-athena/1.26.4-1.26.87/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-cloudtrail]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3-cloudtrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cloudtrail-1.26.61.tar.gz tmp/mypy-boto3-cloudtrail-1.26.72.tar.gz --markdown 20230602/m/mypy-boto3-cloudtrail/1.26.61-1.26.72/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.6rc2.tar.gz tmp/truss-0.4.6rc3.tar.gz --markdown 20230602/t/truss/0.4.6rc2-0.4.6rc3/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230602/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230602/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-02 21:39:25] INFO root fetch - processPackages [hotjar-data-wrapper]: executing diffoscope
+[2023-06-02 21:39:25] INFO root fetch - processPackages [hotjar-data-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotjar-data-wrapper-0.1.2.tar.gz tmp/hotjar-data-wrapper-0.1.3.tar.gz --markdown 20230602/h/hotjar-data-wrapper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-02 21:39:26] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-06-02 21:39:26] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230602/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-02 21:39:27] INFO root fetch - processPackages [mypy-boto3-wafv2]: Start processing: ngy
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [mypy-boto3-wafv2]: success
+[2023-06-02 21:39:27] INFO root fetch - processPackages [ngy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [hotjar-data-wrapper]: Start processing: qualtrics-utils
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [hotjar-data-wrapper]: success
+[2023-06-02 21:39:27] INFO root fetch - processPackages [qualtrics-utils]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [ngy]: Downloading https://files.pythonhosted.org/packages/f8/ae/d023897356ccc1697b58df86ce69e89a6e7d27801fa2e9d157248d80e01a/ngy-0.9.0.tar.gz
+[2023-06-02 21:39:27] INFO root fetch - processPackages [cwsearch-utils]: Start processing: pyCapsid
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-02 21:39:27] INFO root fetch - processPackages [pyCapsid]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [boto3-stubs]: Start processing: HP-C1Pyr-PK
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-06-02 21:39:27] WARNING root fetch - processPackages [HP-C1Pyr-PK]: Skipping, unable to determine old version
+[2023-06-02 21:39:27] INFO root fetch - processPackages [HP-C1Pyr-PK]: Start processing: django-sso-client
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [HP-C1Pyr-PK] error
+[2023-06-02 21:39:27] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/46/1a/0c987eeb35ed5e9ef4f0befa487dcbeabfd9361ab25d867ea8a57059f31e/pyCapsid-0.3.0.tar.gz
+[2023-06-02 21:39:27] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 52527517>=10485760
+[2023-06-02 21:39:27] INFO root fetch - processPackages [pyCapsid]: Start processing: cdk-sops-secrets
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-06-02 21:39:27] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [ngy]: Downloading https://files.pythonhosted.org/packages/d0/8a/5baf8fd71db29d8148d3e419b79bdfe12ec4e20b0313a1c9c96fa70c95ad/ngy-0.9.1.tar.gz
+[2023-06-02 21:39:27] INFO root fetch - processPackages [qualtrics-utils]: Downloading https://files.pythonhosted.org/packages/ed/6b/bc9f74982c3d133f546dd0a365957147c48096585d3e0a2b473121cc2d5d/qualtrics_utils-0.5.8.tar.gz
+[2023-06-02 21:39:27] INFO root fetch - processPackages [mypy-boto3-athena]: Start processing: torchlie
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [mypy-boto3-athena]: success
+[2023-06-02 21:39:27] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/f9/1c/83637dba05c7a64b0d8f238b499afa60e95918ed90174472e7975c8c75c7/django-sso-client-0.0.6.tar.gz
+[2023-06-02 21:39:27] INFO root fetch - processPackages [torchlie]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-02 21:39:27] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230602/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-02 21:39:27] INFO root fetch - processPackages [qualtrics-utils]: executing diffoscope
+[2023-06-02 21:39:27] INFO root fetch - processPackages [qualtrics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualtrics_utils-0.5.7.tar.gz tmp/qualtrics_utils-0.5.8.tar.gz --markdown 20230602/q/qualtrics-utils/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-02 21:39:27] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-06-02 21:39:27] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.5.tar.gz tmp/django-sso-client-0.0.6.tar.gz --markdown 20230602/d/django-sso-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-02 21:39:27] INFO root fetch - processPackages [mypy-boto3]: Start processing: ProxyToolKit
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-06-02 21:39:27] WARNING root fetch - processPackages [ProxyToolKit]: Skipping, unable to determine old version
+[2023-06-02 21:39:27] INFO root fetch - processPackages [ProxyToolKit]: Start processing: dart-tools
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [ProxyToolKit] error
+[2023-06-02 21:39:27] INFO root fetch - processPackages [dart-tools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-02 21:39:27] INFO root fetch - processPackages [torchlie]: Downloading https://files.pythonhosted.org/packages/54/81/1651cbed4ba805cd5e450b7fba5046d5245ef78c9a6487eed158e2cf2d05/torchlie-0.0.1.dev4.tar.gz
+[2023-06-02 21:39:27] INFO root fetch - processPackages [boto3-stubs-lite]: Start processing: databallpy
+[2023-06-02 21:39:27] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-06-02 21:39:27] INFO root fetch - processPackages [databallpy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-02 21:39:28] INFO root fetch - processPackages [ngy]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [ngy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngy-0.9.0.tar.gz tmp/ngy-0.9.1.tar.gz --markdown 20230602/n/ngy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 21:39:28] INFO root fetch - processPackages [torchlie]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [torchlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlie-0.0.1.dev3.tar.gz tmp/torchlie-0.0.1.dev4.tar.gz --markdown 20230602/t/torchlie/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-02 21:39:28] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/c9/24/24075c5458e99974e2f38beaa77cd4cbcbd2e53dbc08e7b4cc56d365dc42/dart-tools-0.3.2.tar.gz
+[2023-06-02 21:39:28] INFO root fetch - processPackages [truss]: Start processing: finalynx
+[2023-06-02 21:39:28] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-02 21:39:28] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-02 21:39:28] INFO root fetch - processPackages [databallpy]: Downloading https://files.pythonhosted.org/packages/7c/c6/518995a6e87ef1c347d3ba65c6ba1e1b3f8e39790354723fd86c17b60240/databallpy-0.3.1.tar.gz
+[2023-06-02 21:39:28] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.3.1.tar.gz tmp/dart-tools-0.3.2.tar.gz --markdown 20230602/d/dart-tools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-02 21:39:28] INFO root fetch - processPackages [databallpy]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [databallpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databallpy-0.3.0.tar.gz tmp/databallpy-0.3.1.tar.gz --markdown 20230602/d/databallpy/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-02 21:39:28] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230602/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-06-02 21:39:28] INFO root fetch - processPackages [mypy-boto3-cloudtrail]: Start processing: ngy
+[2023-06-02 21:39:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cloudtrail]: success
+[2023-06-02 21:39:28] INFO root fetch - processPackages [ngy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-02 21:39:28] INFO root fetch - processPackages [ngy]: executing diffoscope
+[2023-06-02 21:39:28] INFO root fetch - processPackages [ngy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngy-0.9.0.tar.gz tmp/ngy-0.9.1.tar.gz --markdown 20230602/n/ngy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-02 21:39:29] INFO root fetch - processPackages [qualtrics-utils]: Start processing: calitp-data-infra
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [qualtrics-utils]: success
+[2023-06-02 21:39:29] INFO root fetch - processPackages [calitp-data-infra]: New version: [2023.5.30] Old Version: [2023.2.9a0]
+[2023-06-02 21:39:29] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/6c/6f/b1c9a5d0708643e598e4e9a76f781f98ceec025631c0211e2809e33364a1/calitp_data_infra-2023.2.9a0.tar.gz
+[2023-06-02 21:39:29] INFO root fetch - processPackages [django-sso-client]: Start processing: argos-nac
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-06-02 21:39:29] INFO root fetch - processPackages [argos-nac]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 21:39:29] INFO root fetch - processPackages [torchlie]: Start processing: neurovibes
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [torchlie]: success
+[2023-06-02 21:39:29] WARNING root fetch - processPackages [neurovibes]: Skipping, unable to determine old version
+[2023-06-02 21:39:29] INFO root fetch - processPackages [neurovibes]: Start processing: prostate-nomograms
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [neurovibes] error
+[2023-06-02 21:39:29] INFO root fetch - processPackages [argos-nac]: Downloading https://files.pythonhosted.org/packages/27/04/8f212570652c8d42f69cc9b2db26c80f2474e81e34d1fe8506d5408c5e71/argos-nac-0.1.1.tar.gz
+[2023-06-02 21:39:29] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/c6/9c/8c74ad29d361283637444efa8d1839274feecf72e0a41dd5ced4df48e14c/calitp_data_infra-2023.5.30.tar.gz
+[2023-06-02 21:39:29] WARNING root fetch - processPackages [prostate-nomograms]: Skipping, unable to determine old version
+[2023-06-02 21:39:29] INFO root fetch - processPackages [prostate-nomograms]: Start processing: ser-Galuts
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [prostate-nomograms] error
+[2023-06-02 21:39:29] INFO root fetch - processPackages [calitp-data-infra]: executing diffoscope
+[2023-06-02 21:39:29] INFO root fetch - processPackages [calitp-data-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_data_infra-2023.2.9a0.tar.gz tmp/calitp_data_infra-2023.5.30.tar.gz --markdown 20230602/c/calitp-data-infra/2023.2.9a0-2023.5.30/diff.md --exclude *.pyd
+[2023-06-02 21:39:29] INFO root fetch - processPackages [ser-Galuts]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [databallpy]: success
+[2023-06-02 21:39:29] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2023-06-02 21:39:29] INFO root fetch - processPackages [argos-nac]: Downloading https://files.pythonhosted.org/packages/d8/7e/7d7dda4ae4e51b7252c694be17ee9f303b8698d11284c0d09f9e283b06c0/argos-nac-0.1.2.tar.gz
+[2023-06-02 21:39:29] INFO root fetch - processPackages [ser-Galuts]: Downloading https://files.pythonhosted.org/packages/d4/ec/bb4946a091e968552cf114a3e43d9bc674b283e5a739d0445321d694db89/ser_Galuts-0.1.0.tar.gz
+[2023-06-02 21:39:30] INFO root fetch - processPackages [argos-nac]: executing diffoscope
+[2023-06-02 21:39:30] INFO root fetch - processPackages [argos-nac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argos-nac-0.1.1.tar.gz tmp/argos-nac-0.1.2.tar.gz --markdown 20230602/a/argos-nac/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 21:39:30] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-06-02 21:39:30] INFO root fetch - processPackages [ser-Galuts]: Downloading https://files.pythonhosted.org/packages/8c/a4/4513b79237cee04b7ec0c47509cf32cdab860d09c7a83dab9ee7e4f8141e/ser_Galuts-0.1.1.tar.gz
+[2023-06-02 21:39:30] INFO root fetch - processPackages [ser-Galuts]: executing diffoscope
+[2023-06-02 21:39:30] INFO root fetch - processPackages [ser-Galuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ser_Galuts-0.1.0.tar.gz tmp/ser_Galuts-0.1.1.tar.gz --markdown 20230602/s/ser-Galuts/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-02 21:39:30] INFO root fetch - main [MainThread]: End processing [calitp-data-infra]: success
+[2023-06-02 21:39:30] INFO root fetch - main [MainThread]: End processing [ngy]: success
+[2023-06-02 21:39:31] INFO root fetch - main [MainThread]: End processing [ser-Galuts]: success
+[2023-06-02 21:39:32] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker]: success
+[2023-06-02 21:39:32] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-02 21:39:33] INFO root fetch - main [MainThread]: End processing [ngy]: success
+[2023-06-02 21:39:39] INFO root fetch - main [MainThread]: End processing [argos-nac]: success
+[2023-06-02 21:39:39] INFO root fetch - main [MainThread]: Store serial: [18352681]
