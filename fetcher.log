@@ -5721,3 +5721,36 @@
 [2023-06-02 03:57:41] INFO root fetch - main [MainThread]: End processing [qiskit-terra]: success
 [2023-06-02 03:57:41] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
 [2023-06-02 03:57:41] INFO root fetch - main [MainThread]: Store serial: [18343630]
+[2023-06-02 04:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18343630]
+[2023-06-02 04:02:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-02 04:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-06-02 04:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2023-06-02 04:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sutools
+[2023-06-02 04:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-06-02 04:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langdash
+[2023-06-02 04:02:55] INFO root fetch - processPackages [langdash]: New version: [0.0.5.dev1] Old Version: [0.0.4.dev2]
+[2023-06-02 04:02:55] INFO root fetch - processPackages [sutools]: New version: [0.2.2] Old Version: [0.1.2]
+[2023-06-02 04:02:55] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-02 04:02:55] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-02 04:02:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-02 04:02:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/5a/3f/c1eb7d7c8f88779ede88fa24287d0947d975ff6dac167a5cad04447bc300/omnata_plugin_runtime-0.1.1.tar.gz
+[2023-06-02 04:02:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-02 04:02:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230602/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-02 04:02:55] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/20/0f/7cb92e9587008e2f77d363d1fc1554efa6342940bc7a2ba79369e621137f/sutools-0.1.2.tar.gz
+[2023-06-02 04:02:56] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/53/f6/8001d8b2f380fce75cfa4ec7193f45a84310529f8b0290ff3d1755e6f827/langdash-0.0.5.dev1.tar.gz
+[2023-06-02 04:02:56] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-02 04:02:56] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230602/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-02 04:02:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/90/31/2fd47f8114d511d38502b0d4d0433e5292996c8a2691964ba1576326fc94/omnata_plugin_runtime-0.1.2.tar.gz
+[2023-06-02 04:02:56] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-02 04:02:56] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-0.0.4.dev2.tar.gz tmp/langdash-0.0.5.dev1.tar.gz --markdown 20230602/l/langdash/0.0.4.dev2-0.0.5.dev1/diff.md --exclude *.pyd
+[2023-06-02 04:02:56] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-02 04:02:56] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.1.tar.gz tmp/omnata_plugin_runtime-0.1.2.tar.gz --markdown 20230602/o/omnata-plugin-runtime/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-02 04:02:56] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/a9/bb/c5095f7d64ab7edd03cedb12e49da745967114e876ea13413b0eb5442d6e/sutools-0.2.2.tar.gz
+[2023-06-02 04:02:56] INFO root fetch - processPackages [sutools]: executing diffoscope
+[2023-06-02 04:02:56] INFO root fetch - processPackages [sutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sutools-0.1.2.tar.gz tmp/sutools-0.2.2.tar.gz --markdown 20230602/s/sutools/0.1.2-0.2.2/diff.md --exclude *.pyd
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [sutools]: success
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-02 04:02:57] INFO root fetch - main [MainThread]: Store serial: [18343668]
