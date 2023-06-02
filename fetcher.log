@@ -17117,3 +17117,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 17:39:58] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-06-02 17:41:20] INFO root fetch - main [MainThread]: End processing [pybabylonjs]: success
 [2023-06-02 17:41:20] INFO root fetch - main [MainThread]: Store serial: [18350628]
+[2023-06-02 17:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18350628]
+[2023-06-02 17:46:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pofinance
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liqa
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zndraw
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-arango
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudshell-snmp
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wombo
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d2y
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d2y
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-dsfr
+[2023-06-02 17:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: intelicity
+[2023-06-02 17:46:38] WARNING root fetch - processPackages [mkdocs-dsfr]: Skipping, unable to determine old version
+[2023-06-02 17:46:38] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr] error
+[2023-06-02 17:46:38] INFO root fetch - processPackages [zndraw]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2023-06-02 17:46:38] WARNING root fetch - processPackages [pofinance]: Skipping, unable to determine old version
+[2023-06-02 17:46:38] INFO root fetch - main [MainThread]: End processing [pofinance] error
+[2023-06-02 17:46:38] INFO root fetch - processPackages [python-arango]: New version: [7.5.8] Old Version: [7.5.7]
+[2023-06-02 17:46:38] WARNING root fetch - processPackages [wombo]: Skipping, unable to determine old version
+[2023-06-02 17:46:38] INFO root fetch - main [MainThread]: End processing [wombo] error
+[2023-06-02 17:46:38] INFO root fetch - processPackages [intelicity]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-02 17:46:38] INFO root fetch - processPackages [liqa]: New version: [1.2] Old Version: [1.1.8]
+[2023-06-02 17:46:38] INFO root fetch - processPackages [cloudshell-snmp]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-02 17:46:38] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-06-02 17:46:38] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-06-02 17:46:38] INFO root fetch - processPackages [intelicity]: executing diffoscope
+[2023-06-02 17:46:38] INFO root fetch - processPackages [intelicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelicity-0.0.3-py3-none-any.whl.zip tmp/intelicity-0.0.4-py3-none-any.whl.zip --markdown 20230602/i/intelicity/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-02 17:46:38] INFO root fetch - processPackages [liqa]: Downloading https://files.pythonhosted.org/packages/da/41/15dca6ea3c5ea9a21e58c0aba589af9cba7a483a6378f29f27d8c7dd8664/liqa-1.1.8.tar.gz
+[2023-06-02 17:46:38] INFO root fetch - processPackages [python-arango]: Downloading https://files.pythonhosted.org/packages/40/76/ef4591f256055373c0106ceb847c1af557f18292bc5facfb35ae1968077b/python-arango-7.5.7.tar.gz
+[2023-06-02 17:46:38] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/0b/bd/8df5fb1afad5d7b3639c1ae2fed76e32c6875cfb532ef940031a15933254/zndraw-0.2.0a2.tar.gz
+[2023-06-02 17:46:38] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/16/e6/8682662d8532ecb27ff6d0ebbcda59ff0c2b4b5b40ebc018667df2e87e6f/d2y-0.2.18.tar.gz
+[2023-06-02 17:46:38] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/16/e6/8682662d8532ecb27ff6d0ebbcda59ff0c2b4b5b40ebc018667df2e87e6f/d2y-0.2.18.tar.gz
+[2023-06-02 17:46:38] INFO root fetch - processPackages [cloudshell-snmp]: Downloading https://files.pythonhosted.org/packages/02/b9/bac697c10a9bdf65e004ec5aeb663c030e3d28b4cd828d5ec536ce4bcf5f/cloudshell-snmp-5.0.1.zip
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/9c/d2/6c1bda335a86941c322124a697e307d2aae5d36e6937d6e1b8df7cf2a9e3/d2y-0.2.24.tar.gz
+[2023-06-02 17:46:39] INFO root fetch - processPackages [python-arango]: Downloading https://files.pythonhosted.org/packages/86/b8/9165601546bf0c699f4e5a037f317b26f281ee9a73b1bbbb48720dbf6a4d/python-arango-7.5.8.tar.gz
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/9c/d2/6c1bda335a86941c322124a697e307d2aae5d36e6937d6e1b8df7cf2a9e3/d2y-0.2.24.tar.gz
+[2023-06-02 17:46:39] INFO root fetch - processPackages [liqa]: Downloading https://files.pythonhosted.org/packages/f7/8c/6faf0cd1b6b6c2ab3c551157bdaa719528ff0de5b86098ef20fcc8f150df/liqa-1.2.tar.gz
+[2023-06-02 17:46:39] INFO root fetch - processPackages [cloudshell-snmp]: Downloading https://files.pythonhosted.org/packages/cc/ef/2ea985b2cb4dd427f1655c046317530e3ac2f0faa0c7af45722da993bb69/cloudshell-snmp-5.0.2.zip
+[2023-06-02 17:46:39] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/6a/f5/af882eae4866557a1b68590bf7de0cf70bb1f2698ca916bb161094d27f35/zndraw-0.2.0a3.tar.gz
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230602/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230602/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-06-02 17:46:39] INFO root fetch - processPackages [python-arango]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [python-arango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-arango-7.5.7.tar.gz tmp/python-arango-7.5.8.tar.gz --markdown 20230602/p/python-arango/7.5.7-7.5.8/diff.md --exclude *.pyd
+[2023-06-02 17:46:39] INFO root fetch - processPackages [liqa]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [liqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liqa-1.1.8.tar.gz tmp/liqa-1.2.tar.gz --markdown 20230602/l/liqa/1.1.8-1.2/diff.md --exclude *.pyd
+[2023-06-02 17:46:39] INFO root fetch - processPackages [cloudshell-snmp]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [cloudshell-snmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-snmp-5.0.1.zip tmp/cloudshell-snmp-5.0.2.zip --markdown 20230602/c/cloudshell-snmp/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-02 17:46:39] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-06-02 17:46:39] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.2.0a2.tar.gz tmp/zndraw-0.2.0a3.tar.gz --markdown 20230602/z/zndraw/0.2.0a2-0.2.0a3/diff.md --exclude *.pyd
+[2023-06-02 17:46:40] INFO root fetch - main [MainThread]: End processing [intelicity]: success
+[2023-06-02 17:46:40] INFO root fetch - main [MainThread]: End processing [liqa]: success
+[2023-06-02 17:46:40] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-06-02 17:46:40] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-06-02 17:46:41] INFO root fetch - main [MainThread]: End processing [cloudshell-snmp]: success
+[2023-06-02 17:46:41] INFO root fetch - main [MainThread]: End processing [python-arango]: success
+[2023-06-02 17:47:59] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-06-02 17:47:59] INFO root fetch - main [MainThread]: Store serial: [18350670]
