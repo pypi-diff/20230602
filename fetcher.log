@@ -15578,3 +15578,162 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-02 16:19:19] INFO root fetch - main [MainThread]: End processing [ipython]: success
 [2023-06-02 16:19:20] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2023-06-02 16:19:20] INFO root fetch - main [MainThread]: Store serial: [18349568]
+[2023-06-02 16:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18349568]
+[2023-06-02 16:24:29] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mazemastery
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mazemastery
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangorestframework-stubs
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numina-data-client
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmo-plugins-nonfree
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyeCam
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: act4e-mcdp
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-requests
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mono-dense-keras
+[2023-06-02 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-06-02 16:24:29] INFO root fetch - processPackages [mazemastery]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [pygmo-plugins-nonfree]: New version: [0.9] Old Version: [0.8]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [mazemastery]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [act4e-mcdp]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [djangorestframework-stubs]: New version: [3.14.1] Old Version: [3.14.0]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [mono-dense-keras]: New version: [0.1.0] Old Version: [0.0.6rc3]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [invenio-requests]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-02 16:24:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/46/62/bca1f6fd54a45a1d8ee374297972ab6a0664356c17b48e3fe257e0ee8ecc/mazemastery-0.0.1.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/46/62/bca1f6fd54a45a1d8ee374297972ab6a0664356c17b48e3fe257e0ee8ecc/mazemastery-0.0.1.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [djangorestframework-stubs]: Downloading https://files.pythonhosted.org/packages/8e/4f/103e9eed35639ff28a8200a246c04ac8a9d9c082eb08d8f54be02770324e/djangorestframework-stubs-3.14.0.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [act4e-mcdp]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [act4e-mcdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act4e_mcdp-0.6.8-py3-none-any.whl.zip tmp/act4e_mcdp-0.6.9-py3-none-any.whl.zip --markdown 20230602/a/act4e-mcdp/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pygmo-plugins-nonfree]: Downloading https://files.pythonhosted.org/packages/c7/ec/2160ec9ed2bab8616664692b4708bf0fff23bd521e8ae17faea1a5c7923e/pygmo_plugins_nonfree-0.8-cp37-cp37m-manylinux1_x86_64.whl
+[2023-06-02 16:24:30] INFO root fetch - processPackages [invenio-requests]: Downloading https://files.pythonhosted.org/packages/8e/b6/594189b8fdde1856341fb08a1731b34d35a05867aa088cc5f92f930f8ed1/invenio-requests-2.3.0.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230602/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230602/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mono-dense-keras]: Downloading https://files.pythonhosted.org/packages/ec/a4/3c71c3fd83ae7814c9eb199069f555ea230a9bfe3c42bd741cb56f125c24/mono-dense-keras-0.1.0.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mono-dense-keras]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mono-dense-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mono-dense-keras-0.0.6rc3.tar.gz tmp/mono-dense-keras-0.1.0.tar.gz --markdown 20230602/m/mono-dense-keras/0.0.6rc3-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230602/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/47/d3/d43b92f822fc643a1386f02b20ac823bc43c23dad5bc37ed35f41ec4b498/mazemastery-0.0.3.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: Downloading https://files.pythonhosted.org/packages/47/d3/d43b92f822fc643a1386f02b20ac823bc43c23dad5bc37ed35f41ec4b498/mazemastery-0.0.3.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [djangorestframework-stubs]: Downloading https://files.pythonhosted.org/packages/74/2b/75cbeb91018cc1eca222839ea24df2a769a742d788b3df396ec029b427ad/djangorestframework-stubs-3.14.1.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [djangorestframework-stubs]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [djangorestframework-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-stubs-3.14.0.tar.gz tmp/djangorestframework-stubs-3.14.1.tar.gz --markdown 20230602/d/djangorestframework-stubs/3.14.0-3.14.1/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazemastery-0.0.1.tar.gz tmp/mazemastery-0.0.3.tar.gz --markdown 20230602/m/mazemastery/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [mazemastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazemastery-0.0.1.tar.gz tmp/mazemastery-0.0.3.tar.gz --markdown 20230602/m/mazemastery/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [invenio-requests]: Downloading https://files.pythonhosted.org/packages/24/ad/2c8936741aef56677eeea72bd668a19c44992be5661af4e77cf612e4a148/invenio-requests-2.4.0.tar.gz
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pygmo-plugins-nonfree]: Downloading https://files.pythonhosted.org/packages/59/d5/5c7eb65c852215e1006c53e4951e5e1eb280fe42d00cfae12168b820c029/pygmo_plugins_nonfree-0.9-cp37-cp37m-manylinux1_x86_64.whl
+[2023-06-02 16:24:30] INFO root fetch - processPackages [invenio-requests]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [invenio-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-requests-2.3.0.tar.gz tmp/invenio-requests-2.4.0.tar.gz --markdown 20230602/i/invenio-requests/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pygmo-plugins-nonfree]: executing diffoscope
+[2023-06-02 16:24:30] INFO root fetch - processPackages [pygmo-plugins-nonfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmo_plugins_nonfree-0.8-cp37-cp37m-manylinux1_x86_64.whl.zip tmp/pygmo_plugins_nonfree-0.9-cp37-cp37m-manylinux1_x86_64.whl.zip --markdown 20230602/p/pygmo-plugins-nonfree/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-02 16:24:31] INFO root fetch - processPackages [pyeCam]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-06-02 16:24:31] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-06-02 16:24:31] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-02 16:24:31] INFO root fetch - processPackages [numina-data-client]: Start processing: celerity
+[2023-06-02 16:24:31] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-06-02 16:24:31] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-02 16:24:31] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/29/01/a60791f13475a8e2514b92023533c267c6c51d092ac86bae39d982cc0fe7/cdktf-cdktf-provider-snowflake-6.0.4.tar.gz
+[2023-06-02 16:24:31] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-06-02 16:24:31] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-6.0.3.tar.gz tmp/cdktf-cdktf-provider-snowflake-6.0.4.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-snowflake/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-02 16:24:31] INFO root fetch - processPackages [mazemastery]: Start processing: biom3d
+[2023-06-02 16:24:31] INFO root fetch - main [MainThread]: End processing [mazemastery]: success
+[2023-06-02 16:24:32] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-02 16:24:32] INFO root fetch - processPackages [mono-dense-keras]: Start processing: spanishconjugator
+[2023-06-02 16:24:32] INFO root fetch - main [MainThread]: End processing [mono-dense-keras]: success
+[2023-06-02 16:24:32] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-02 16:24:32] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230602/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-02 16:24:32] INFO root fetch - processPackages [mazemastery]: Start processing: ExtendClass
+[2023-06-02 16:24:32] INFO root fetch - main [MainThread]: End processing [mazemastery]: success
+[2023-06-02 16:24:32] INFO root fetch - processPackages [ExtendClass]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: Start processing: luminesce-sdk-preview
+[2023-06-02 16:24:32] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-02 16:24:32] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-02 16:24:32] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-06-02 16:24:32] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230602/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-02 16:24:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230602/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-02 16:24:32] INFO root fetch - processPackages [ExtendClass]: Downloading https://files.pythonhosted.org/packages/c4/6f/d008a23e7c28b256f849023151c2ea9234a96938d9360584ff62db50e16f/ExtendClass-1.0.0.tar.gz
+[2023-06-02 16:24:32] INFO root fetch - processPackages [ExtendClass]: Downloading https://files.pythonhosted.org/packages/6d/a0/c7f68af25c8bf2b01e08d5fc3a083b563f6aee925f426b6cb02928b5dc94/ExtendClass-1.0.1.tar.gz
+[2023-06-02 16:24:32] INFO root fetch - processPackages [ExtendClass]: executing diffoscope
+[2023-06-02 16:24:32] INFO root fetch - processPackages [ExtendClass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExtendClass-1.0.0.tar.gz tmp/ExtendClass-1.0.1.tar.gz --markdown 20230602/E/ExtendClass/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-02 16:24:32] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-02 16:24:32] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230602/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-02 16:24:33] INFO root fetch - processPackages [djangorestframework-stubs]: Start processing: red-postgres
+[2023-06-02 16:24:33] INFO root fetch - main [MainThread]: End processing [djangorestframework-stubs]: success
+[2023-06-02 16:24:33] INFO root fetch - processPackages [red-postgres]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-06-02 16:24:33] INFO root fetch - processPackages [ExtendClass]: Start processing: notctyparser
+[2023-06-02 16:24:33] INFO root fetch - main [MainThread]: End processing [ExtendClass]: success
+[2023-06-02 16:24:33] WARNING root fetch - processPackages [notctyparser]: Skipping, unable to determine old version
+[2023-06-02 16:24:33] INFO root fetch - processPackages [notctyparser]: Start processing: phyloroot
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [notctyparser] error
+[2023-06-02 16:24:34] INFO root fetch - processPackages [phyloroot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-02 16:24:34] INFO root fetch - processPackages [red-postgres]: Downloading https://files.pythonhosted.org/packages/9e/1f/f704629f4f8bc008f3244c18d3952786b329e484050c31da089929471bc0/red-postgres-0.1.0.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [red-postgres]: executing diffoscope
+[2023-06-02 16:24:34] INFO root fetch - processPackages [red-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red-postgres-0.0.8.tar.gz tmp/red-postgres-0.1.0.tar.gz --markdown 20230602/r/red-postgres/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:34] INFO root fetch - processPackages [celerity]: Start processing: chatgpt-whatsapp
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-06-02 16:24:34] INFO root fetch - processPackages [phyloroot]: Downloading https://files.pythonhosted.org/packages/50/56/6e7c23e9bf26b3907aae3d998d94209f49b37a8874a64df009141cd4f209/phyloroot-0.0.1.tar.gz
+[2023-06-02 16:24:34] WARNING root fetch - processPackages [chatgpt-whatsapp]: Skipping, unable to determine old version
+[2023-06-02 16:24:34] INFO root fetch - processPackages [chatgpt-whatsapp]: Start processing: cdktf-cdktf-provider-vsphere
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [chatgpt-whatsapp] error
+[2023-06-02 16:24:34] INFO root fetch - processPackages [spanishconjugator]: Start processing: networkx-query
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-02 16:24:34] INFO root fetch - processPackages [act4e-mcdp]: Start processing: toolbox-utils
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [act4e-mcdp]: success
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-02 16:24:34] INFO root fetch - processPackages [networkx-query]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-06-02 16:24:34] INFO root fetch - processPackages [toolbox-utils]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-02 16:24:34] INFO root fetch - processPackages [phyloroot]: Downloading https://files.pythonhosted.org/packages/56/cb/13ba44cf079c4e9a465286b6d84d41af74e1079b61a2bfb987b74c16e585/phyloroot-0.0.2.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [phyloroot]: executing diffoscope
+[2023-06-02 16:24:34] INFO root fetch - processPackages [phyloroot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyloroot-0.0.1.tar.gz tmp/phyloroot-0.0.2.tar.gz --markdown 20230602/p/phyloroot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Start processing: cdktf-cdktf-provider-upcloud
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/9a/a1/280393b8d40ecb9c47813498df9ae4c09713036637bc4de3b3116ca7f1cb/cdktf-cdktf-provider-vsphere-4.0.1.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [toolbox-utils]: Downloading https://files.pythonhosted.org/packages/09/1a/15cdb34a8a1412cc46877cd6a0ccb4f7449d9074a2fc5397485ad0086ce1/toolbox_utils-3.0.6.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-02 16:24:34] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: cdktf-cdktf-provider-kubernetes
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-02 16:24:34] INFO root fetch - processPackages [networkx-query]: Downloading https://files.pythonhosted.org/packages/56/85/e88a264ab2d2d9cf34d471b2e16552e79f73953c496a672414497ee9d6a9/networkx_query-2.0.0.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-06-02 16:24:34] WARNING root fetch - processPackages [toolbox-utils]: Skipping package: exceeds size limit 18398338>=10485760
+[2023-06-02 16:24:34] INFO root fetch - processPackages [toolbox-utils]: Start processing: zigzag-dse
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [toolbox-utils] error
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Downloading https://files.pythonhosted.org/packages/11/93/0d8515a56a65f9b84fcc4f30d5976de3c6f1c0d63740e955e5b7f73df95e/cdktf-cdktf-provider-kubernetes-6.0.1.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [networkx-query]: executing diffoscope
+[2023-06-02 16:24:34] INFO root fetch - processPackages [networkx-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkx_query-1.0.3.tar.gz tmp/networkx_query-2.0.0.tar.gz --markdown 20230602/n/networkx-query/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/80/c2/b8676d1eaf42a986daafd41357ad11c6d1a3ddd6a9736c6cd4edd8663e43/cdktf-cdktf-provider-upcloud-6.0.1.tar.gz
+[2023-06-02 16:24:34] INFO root fetch - processPackages [zigzag-dse]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-06-02 16:24:34] WARNING root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Skipping package: exceeds size limit 36945973>=10485760
+[2023-06-02 16:24:34] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Start processing: cloudsmith-api
+[2023-06-02 16:24:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-kubernetes] error
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cloudsmith-api]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-02 16:24:35] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/00/e7/45832251998be3ee049c80e401f9dbc5468a077ba8705b1fdb1bd1faf190/zigzag-dse-2.3.5.tar.gz
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/bb/50/58dc7c891aa21f2e71c3ba6bcbf1699c0e12979c7eb9936512d5836a990a/cdktf-cdktf-provider-upcloud-6.0.2.tar.gz
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/71/1b/79e550f50f9e6855d67f239d58e7602a68202df5c7a778ee4c6137c6cf15/cdktf-cdktf-provider-vsphere-4.0.2.tar.gz
+[2023-06-02 16:24:35] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-6.0.1.tar.gz tmp/cdktf-cdktf-provider-upcloud-6.0.2.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-upcloud/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: executing diffoscope
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vsphere-4.0.1.tar.gz tmp/cdktf-cdktf-provider-vsphere-4.0.2.tar.gz --markdown 20230602/c/cdktf-cdktf-provider-vsphere/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/30/f6/0bf5451ab27346478ad47b37b7fb272368bc4d832c61345e839ed3f14306/cloudsmith_api-2.0.6-py2.py3-none-any.whl
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cloudsmith-api]: executing diffoscope
+[2023-06-02 16:24:35] INFO root fetch - processPackages [cloudsmith-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_api-2.0.5-py2.py3-none-any.whl.zip tmp/cloudsmith_api-2.0.6-py2.py3-none-any.whl.zip --markdown 20230602/c/cloudsmith-api/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-02 16:24:35] INFO root fetch - main [MainThread]: End processing [red-postgres]: success
+[2023-06-02 16:24:35] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/83/58/2724117934aa8c66ebcb3c49337dd6f2c1d2091c6c8a76c0337929cadf95/zigzag-dse-2.3.6.tar.gz
+[2023-06-02 16:24:35] INFO root fetch - main [MainThread]: End processing [phyloroot]: success
+[2023-06-02 16:24:36] INFO root fetch - main [MainThread]: End processing [pygmo-plugins-nonfree]: success
+[2023-06-02 16:24:36] INFO root fetch - processPackages [zigzag-dse]: executing diffoscope
+[2023-06-02 16:24:36] INFO root fetch - processPackages [zigzag-dse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230602:/home/abi/fetcher/20230602:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigzag-dse-2.3.5.tar.gz tmp/zigzag-dse-2.3.6.tar.gz --markdown 20230602/z/zigzag-dse/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-06-02 16:24:36] INFO root fetch - main [MainThread]: End processing [networkx-query]: success
+[2023-06-02 16:24:36] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2023-06-02 16:24:37] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
+[2023-06-02 16:24:39] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
+[2023-06-02 16:24:40] INFO root fetch - main [MainThread]: End processing [cloudsmith-api]: success
+[2023-06-02 16:24:51] INFO root fetch - main [MainThread]: End processing [invenio-requests]: success
+[2023-06-02 16:24:51] INFO root fetch - main [MainThread]: Store serial: [18349657]
